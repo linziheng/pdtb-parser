@@ -1,34 +1,25 @@
 A PDTB-Styled End-to-End Discourse Parser
 ===========
 
-Required libraries
-===========
+#Required libraries
 
 - Ruby (1.8.7)
 - Rubygems
 - OpenNLP Tools (opennlp-tools-1.3.0) 
-
     opennlp-tools-1.3.0.jar and jwnl-1.3.3.jar of the package needed
-
 - OpenNLP MaxEnt (maxent-2.5.2) 
-
     maxent-2.5.2.jar and trove.jar of the package needed
-
 - Stanford Parser (stanford-parser-2010-08-20)
 - Morpha (http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html)
-
     You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system
 
-
-Install
-===========
+#Install
 
 - Install the required libraries
 - Change line 3 - 6 of src/variable.rb to point to your downloaded Stanford Parser, OpenNLP Tools, OpenNLP MaxEnt, and morpha.
 
 
-Running the parser
-===========
+#Running the parser
 
 ./parse.rb text-file
 
@@ -37,8 +28,7 @@ The input text is raw text in which paragraphs are separated by empty lines.
 E.g., ./parse.rb ../test1
 
 
-Output format
-===========
+#Output format
 
 - Explicit relations:
 
@@ -65,8 +55,7 @@ Arg1 span is enclosed by `{NonExp_id_Arg1' and `NonExp_id_Arg1}', and Arg2 span 
 Attribution spans are enclosed by `{Attr_id' and `Attr_id}'. See example (2): {Attr_2 said James A. Talcott of Boston 's Dana-Farber Cancer Institute . Attr_2}
 
 
-Copyright notice and statement of copying permission
-===========
+#Copyright notice and statement of copying permission
 
 Copyright 2010-2012 Ziheng Lin
 
