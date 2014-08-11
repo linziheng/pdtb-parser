@@ -46,7 +46,7 @@ Example (1):
 
 Explicit relations consist of 16 PDTB level-2 types: Asynchronous, Synchrony, Cause, Pragmatic_cause, Condition, Pragmatic_condition, Contrast, Pragmatic_contrast, Concession, Pragmatic_concession, Conjunction, Instantiation, Restatement, Alternative, Exception List
 
-The connective string of an explicit relation is enclosed by `{Exp_id_conn_type' and `Exp_id_conn}', where `id' and `type' are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by `{Exp_id_Arg1' and `Exp_id_Arg1}', and Arg2 span is enclosed by `{Exp_id_Arg2' and `Exp_id_Arg2}'.
+The connective string of an explicit relation is enclosed by *{Exp_id_conn_type* and *Exp_id_conn}*, where *id* and *type* are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by *{Exp_id_Arg1* and *Exp_id_Arg1}*, and Arg2 span is enclosed by *{Exp_id_Arg2* and *Exp_id_Arg2}*.
 
 - Non-Explicit relations:
 
