@@ -4,14 +4,22 @@ A PDTB-Styled End-to-End Discourse Parser
 #Required libraries
 
 - Ruby (1.8.7)
+
 - Rubygems
+
 - OpenNLP Tools (opennlp-tools-1.3.0) 
--- opennlp-tools-1.3.0.jar and jwnl-1.3.3.jar of the package needed
+
+  opennlp-tools-1.3.0.jar and jwnl-1.3.3.jar of the package needed
+
 - OpenNLP MaxEnt (maxent-2.5.2) 
--- maxent-2.5.2.jar and trove.jar of the package needed
+
+  maxent-2.5.2.jar and trove.jar of the package needed
+
 - Stanford Parser (stanford-parser-2010-08-20)
+
 - Morpha (http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html)
--- You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system
+
+  You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system
 
 #Install
 
