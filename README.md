@@ -19,6 +19,8 @@
 - Morpha (http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html)
 
   You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system
+  
+  **Note: The OpenNLP tools, MaxEnt, Stanford Parser and Morpha libraries are included under lib/ in this distribution.**
 
 ##Install
 
