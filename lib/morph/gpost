@@ -1,0 +1,283 @@
+void downcase( char *text, int len )
+{int i;
+ for ( i = 0; i<len; i++ )
+    {if ( isupper(text[i]) )
+      text[i] = 'a' + (text[i] - 'A');
+    }
+}
+
+char *upcase( char *vanilla_text )
+{int   i;
+ char *text;
+
+ text = malloc((strlen((char *)vanilla_text)+1)*sizeof(char));
+ strcpy((char *)text, (char *)vanilla_text);
+ for (i = 0; vanilla_text[i] != '\0'; i++)
+    {if ( islower(vanilla_text[i]) )
+	{text[i] = 'A' + (vanilla_text[i] - 'a');
+	}
+    else
+	{text[i] = vanilla_text[i];
+	}
+    }
+ return text;
+}
+
+char up8(char c)
+{ if ('a' <= c && c <= 'z' || '\xE0' <= c && 
+      c <= '\xFE' && c != '\xF7')
+    return c-('a'-'A');
+  else return c;
+}
+
+int scmp(const char *a, const char *b)
+{ int i = 0, d = 0;
+  while ((d=(int)up8(a[i])-(int)up8(b[i])) == 0 && 
+	 a[i] != 0) i++;
+  return d;
+}
+
+int vcmp(const void *a, const void *b)
+{ return scmp(*((const char **)a), *((const char **)b));
+}
+
+int verbstem_n = 0;
+char **verbstem_list = NULL;
+ 
+int in_verbstem_list(char *a)
+{ return verbstem_n > 0 &&
+         bsearch(&a, verbstem_list, verbstem_n, sizeof(char*), 
+		 &vcmp) != NULL;
+}
+
+int gstem(int del, char *add)
+{int stem_length = yyleng - del;
+ 
+ if Option(change_case) { downcase(yytext, stem_length); }
+
+ if (del > 0) { yytext[stem_length] = '\0'; }
+
+ if (!Option(change_case) && yyleng > 1 && isupper(yytext[2]))
+   { printf("%s%s", upcase(yytext), upcase(add)); }
+ else printf("%s%s", yytext, add); 
+
+ return(1);
+}
+
+int gcondub_stem(int del, char *add)
+{int stem_length = yyleng - del;
+ char d;
+ 
+ if Option(change_case) { downcase(yytext, stem_length); }
+
+ d = yytext[stem_length - 1];
+ if (del > 0) { yytext[stem_length] = '\0'; }
+
+ if (!Option(change_case) && yyleng > 1 && isupper(yytext[2]))
+   {if (in_verbstem_list(yytext)) printf("%s%c%s", upcase(yytext), up8(d), upcase(add)); 
+    else printf("%s%s", upcase(yytext), upcase(add));
+   }
+ else
+   {if (in_verbstem_list(yytext)) printf("%s%c%s", yytext, d, add); 
+    else printf("%s%s", yytext, add);
+   }
+
+ return(1);
+}
+
+int gsemi_reg_stem(int del, char *add)
+{int stem_length;
+ char *aff;
+
+ if Option(change_case) { downcase(yytext, yyleng); }
+
+ if (yytext[yyleng-1]=='s'|yytext[yyleng-1]=='S') 
+   {stem_length = yyleng - del - 2; aff = "s";} 
+ else if (yytext[yyleng-1]=='d'|yytext[yyleng-1]=='D')
+   {stem_length = yyleng - del - 3 ; aff = "ed";} 
+ else if (yytext[yyleng-1]=='n'|yytext[yyleng-1]=='N')
+   {stem_length = yyleng - del - 3 ; aff = "ed";} 
+ else if (yytext[yyleng-1]=='g'|yytext[yyleng-1]=='G') 
+   {stem_length = yyleng - del - 4 ; aff = "ing";} 
+ else stem_length = yyleng;
+
+ yytext[stem_length] = '\0';
+
+ if (!Option(change_case) && yyleng > 1 && isupper(yytext[2]))
+   { printf("%s%s%s", upcase(yytext), upcase(add), upcase(aff)); }
+ else printf("%s%s%s", yytext, add, aff); 
+
+ return(1);
+}
+
+void capitalise( char *text, int len )
+{int i;
+ if ( islower(text[0]) ) text[0] = 'A' + (text[0] - 'a');
+ for ( i = 1; i<len; i++ )
+   {if ( isupper(text[i]) )
+     text[i] = 'a' + (text[i] - 'A');
+   }
+}
+
+int proper_name_stem()
+{
+  if Option(change_case) { capitalise(yytext, yyleng); }
+  ECHO;
+  return(1);
+}
+
+int common_noun_stem()
+{
+  if Option(change_case) { downcase(yytext, yyleng); }
+  ECHO;
+  return(1);
+}
+
+  /* inflected form is the same as the stem, so just ignore any affix */
+
+int gnull_stem()
+{BOOL bool = 0;
+ int stem_length;
+ char *aff;
+
+ if Option(change_case) { downcase(yytext, yyleng); }
+
+ if (yytext[yyleng-1]=='s'|yytext[yyleng-1]=='S') 
+   stem_length = yyleng - 2; 
+ else if (yytext[yyleng-1]=='d'|yytext[yyleng-1]=='D')
+   stem_length = yyleng - 3; 
+ else if (yytext[yyleng-1]=='n'|yytext[yyleng-1]=='N')
+   stem_length = yyleng - 3; 
+ else if (yytext[yyleng-1]=='g'|yytext[yyleng-1]=='G') 
+   stem_length = yyleng - 4; 
+ else stem_length = yyleng;
+
+ yytext[stem_length] = '\0';
+ printf("%s", yytext);
+
+ return(1);
+}
+
+  /* inflected form is the same as the stem, so just ignore any affix */
+
+int nnull_stem()
+{int i;
+  if Option(change_case) { downcase(yytext, yyleng); }
+
+  for ( i = 0; (yytext[i] != '+') && (yytext[i] != '\n'); i++ )
+   {printf("%c", yytext[i]);
+   }
+  return(1);
+}
+
+char get_option(int argc, char *argv[], char *options, int *arg, 
+		int *i)
+{int   aa = *arg;
+ int   ii = *i;
+ char *opt, letter;
+
+ if (aa > (argc - 1)) {
+     *arg = aa;    
+     *i = 0;
+     return 0;}
+  if (argv[aa][ii] == 0)
+   {*arg = aa + 1;
+    ii  = 0;
+    return 0;
+   }
+  if (aa > (argc - 1)) {
+    *arg = aa;    
+    *i = 0;
+    return 0; 
+  }
+ do
+   {if (aa == 1 && ii == 0 && argv[aa][ii] == '-') ii += 1; 
+    letter = argv[aa][ii++];
+	if ((opt = strchr(options, letter)) == NULL)
+	  {fprintf(stderr, "Unknown option '%c' ignored\n", letter);
+	  }
+	else
+            {   
+              break;
+            }
+    } while(forever); 
+ *arg = aa; 
+ *i   = ii; 
+ return letter;
+}
+
+int read_verbstem(char *fn)
+{ char w[64];
+  int n = 0, i, j, fs;
+  FILE *f = fopen(fn, "r");
+
+  if (f == NULL) fprintf(stderr, "File with consonant doubling verb stems not found (\"%s\").\n", fn);
+  else
+  { while (1)
+    { fs = fscanf(f, " %n%63s%n", &i, w, &j);
+      if (fs == 0 || fs == EOF) break;
+      if (verbstem_n == n)
+        verbstem_list = (char **)realloc(verbstem_list, (n += 256) * sizeof(char*));
+      verbstem_list[verbstem_n] = (char *)malloc(j-i+1);
+      strcpy(verbstem_list[verbstem_n++], w);
+    }
+    fclose(f);
+    qsort(verbstem_list, verbstem_n, sizeof(char*), &vcmp);
+  }
+}
+
+BOOL read_verbstem_file(char *argv[], 
+		    unsigned int maxbuff, int *arg, int *i)
+{
+ int ok = 1;
+
+ if (strlen(argv[*arg]+(*i)) > maxbuff)
+    {fprintf(stderr, "Argument to option f too long\n");
+     ok = 0;
+    }
+   else read_verbstem(argv[*arg]);
+
+
+ return ok;
+}
+
+void  set_up_options(int argc, char *argv[])
+{char opt;
+ int  arg = 1;
+ int  i = 0;
+ char *opt_string = "ctuf:"; /* don't need : now */
+
+ /* Initialize options */
+ SetOption(change_case);
+ UnSetOption(tag_output);
+ UnSetOption(fspec);
+
+ state = scan;
+
+ while ((opt = get_option(argc, argv, opt_string, &arg, &i)) != 0)
+    {switch (opt)
+	{case 'c': UnSetOption(change_case);
+	           break;
+	 case 't': SetOption(tag_output);
+	           break;
+	 case 'u': state = any;
+	           break;
+	 case 'f': SetOption(fspec);
+	           break;
+	}
+    }
+
+  if (Option(fspec))  {
+	if (arg > (argc - 1)) fprintf(stderr, "File with consonant doubling verb stems not specified\n");
+    	else {read_verbstem_file(argv, MAXSTR, &arg, &i);}}
+  else read_verbstem("verbstem.list");
+}
+
+int main(int argc, char **argv) 
+{ set_up_options(argc, argv);
+
+  BEGIN(state);
+  while ( yylex() ) { BEGIN(state); } ;
+  }
+
+ 
