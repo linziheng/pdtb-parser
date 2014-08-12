@@ -1,0 +1,3 @@
+If there is no element with the given id, this function returns null. Note also that the DOM implementation must have information that says which attributes are of type ID. Attributes with the name "id" are not of type ID unless so defined in the document's DTD. The id attribute is defined to be of ID type in the common cases of XHTML, XUL, and other. Implementations that do not know whether attributes are of type ID or not are expected to return null.
+
+Simply creating an element and assigning an ID will not make the element accessible by getElementById. OK. Instead one needs to insert the element first into the document tree with insertBefore or a similar method, probably into a hidden div.
