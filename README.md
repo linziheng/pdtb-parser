@@ -68,6 +68,11 @@ Arg1 span is enclosed by **{NonExp_id_Arg1** and **NonExp_id_Arg1}**, and Arg2 s
 Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2): **{Attr_2** said James A. Talcott of Boston 's Dana-Farber Cancer Institute . **Attr_2}**
 
 
+##How to cite this work
+
+Ziheng Lin, Hwee Tou Ng and Min-Yen Kan (2014). A PDTB-Styled End-to-End Discourse Parser. Natural Language Engineering, 20, pp 151-184. Cambridge University Press.
+
+
 ##Copyright notice and statement of copying permission
 
 Copyright 2010-2012 Ziheng Lin
