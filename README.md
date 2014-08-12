@@ -42,28 +42,28 @@ E.g., ./parse.rb ../test1
 
 Example (1):
 
-{Exp_2_conn_Concession Although Exp_2_conn} {Exp_2_Arg2 preliminary findings were reported more than a year ago , Exp_2_Arg2} {Exp_2_Arg1 the latest results appear in today 's New England Journal of Medicine , a forum likely to bring new attention to the problem . Exp_2_Arg1}
+**{Exp_2_conn_Concession** Although **Exp_2_conn}** **{Exp_2_Arg2** preliminary findings were reported more than a year ago , **Exp_2_Arg2}** **{Exp_2_Arg1** the latest results appear in today 's New England Journal of Medicine , a forum likely to bring new attention to the problem . **Exp_2_Arg1}**
 
 Explicit relations consist of 16 PDTB level-2 types: Asynchronous, Synchrony, Cause, Pragmatic_cause, Condition, Pragmatic_condition, Contrast, Pragmatic_contrast, Concession, Pragmatic_concession, Conjunction, Instantiation, Restatement, Alternative, Exception List
 
-The connective string of an explicit relation is enclosed by *{Exp_id_conn_type* and *Exp_id_conn}*, where *id* and *type* are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by *{Exp_id_Arg1* and *Exp_id_Arg1}*, and Arg2 span is enclosed by *{Exp_id_Arg2* and *Exp_id_Arg2}*.
+The connective string of an explicit relation is enclosed by **{Exp_id_conn_type** and **Exp_id_conn}**, where **id** and **type** are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by **{Exp_id_Arg1** and **Exp_id_Arg1}**, and Arg2 span is enclosed by **{Exp_id_Arg2** and **Exp_id_Arg2}**.
 
 - Non-Explicit relations:
 
 Example (2):
 
-{NonExp_4_Arg1 Neither Lorillard nor the researchers who studied the workers were aware of any research on smokers of the Kent cigarettes . NonExp_4_Arg1}
-{NonExp_4_Arg2_Instantiation `` We have no useful information on whether users are at risk , '' {Attr_2 said James A. Talcott of Boston 's Dana-Farber Cancer Institute . NonExp_4_Arg2} Attr_2}
+**{NonExp_4_Arg1** Neither Lorillard nor the researchers who studied the workers were aware of any research on smokers of the Kent cigarettes . **NonExp_4_Arg1}**
+**{NonExp_4_Arg2_Instantiation** `` We have no useful information on whether users are at risk , '' **{Attr_2** said James A. Talcott of Boston 's Dana-Farber Cancer Institute . **NonExp_4_Arg2}** **Attr_2}**
 
 All Implicit, AltLex, EntRel and NoRel relations defined in the PDTB are lumped into Non-Explicit relations. They consist of 13 types: EntRel, NoRel, plus 11 PDTB level-2 types (Asynchronous, Synchrony, Cause, Pragmatic_cause, Contrast, Concession, Conjunction, Instantiation, Restatement, Alternative, List). 
 
 Condition, Pragmatic_condition, Pragmatic_contrast, Pragmatic_concession, and Exception are not included due to lack of training instances.
 
-Arg1 span is enclosed by `{NonExp_id_Arg1' and `NonExp_id_Arg1}', and Arg2 span is enclosed by `{NonExp_id_Arg2' and `NonExp_id_Arg2}'.
+Arg1 span is enclosed by **{NonExp_id_Arg1** and **NonExp_id_Arg1}**, and Arg2 span is enclosed by **{NonExp_id_Arg2** and **NonExp_id_Arg2}**.
 
 - Attribution spans:
 
-Attribution spans are enclosed by `{Attr_id' and `Attr_id}'. See example (2): {Attr_2 said James A. Talcott of Boston 's Dana-Farber Cancer Institute . Attr_2}
+Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2): **{Attr_2** said James A. Talcott of Boston 's Dana-Farber Cancer Institute . **Attr_2}**
 
 
 ##Copyright notice and statement of copying permission
