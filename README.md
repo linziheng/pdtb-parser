@@ -45,7 +45,7 @@ E.g., ./parse.rb ../test1
 
 ##Output format
 
-####Explicit relations:
+###Explicit relations:
 
 Example (1):
 
@@ -56,7 +56,7 @@ Explicit relations consist of 16 PDTB level-2 types: Asynchronous, Synchrony, Ca
 The connective string of an explicit relation is enclosed by **{Exp_id_conn_type** and **Exp_id_conn}**, where **id** and **type** are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by **{Exp_id_Arg1** and **Exp_id_Arg1}**, and Arg2 span is enclosed by **{Exp_id_Arg2** and **Exp_id_Arg2}**.
 
 
-####Non-Explicit relations:
+###Non-Explicit relations:
 
 Example (2):
 
@@ -70,7 +70,7 @@ Condition, Pragmatic_condition, Pragmatic_contrast, Pragmatic_concession, and Ex
 Arg1 span is enclosed by **{NonExp_id_Arg1** and **NonExp_id_Arg1}**, and Arg2 span is enclosed by **{NonExp_id_Arg2** and **NonExp_id_Arg2}**.
 
 
-####Attribution spans:
+###Attribution spans:
 
 Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2): **{Attr_2** said James A. Talcott of Boston 's Dana-Farber Cancer Institute . **Attr_2}**
 
