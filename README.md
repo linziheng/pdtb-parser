@@ -48,6 +48,7 @@ Explicit relations consist of 16 PDTB level-2 types: Asynchronous, Synchrony, Ca
 
 The connective string of an explicit relation is enclosed by **{Exp_id_conn_type** and **Exp_id_conn}**, where **id** and **type** are the id and relation type assigned to this explicit relation. Arg1 span is enclosed by **{Exp_id_Arg1** and **Exp_id_Arg1}**, and Arg2 span is enclosed by **{Exp_id_Arg2** and **Exp_id_Arg2}**.
 
+
 - Non-Explicit relations:
 
 Example (2):
@@ -60,6 +61,7 @@ All Implicit, AltLex, EntRel and NoRel relations defined in the PDTB are lumped 
 Condition, Pragmatic_condition, Pragmatic_contrast, Pragmatic_concession, and Exception are not included due to lack of training instances.
 
 Arg1 span is enclosed by **{NonExp_id_Arg1** and **NonExp_id_Arg1}**, and Arg2 span is enclosed by **{NonExp_id_Arg2** and **NonExp_id_Arg2}**.
+
 
 - Attribution spans:
 
