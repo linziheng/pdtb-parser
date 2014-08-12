@@ -1,5 +1,10 @@
 #A PDTB-Styled End-to-End Discourse Parser
 
+##Demo
+
+You can try out the parser at http://wing.comp.nus.edu.sg/~linzihen/parser/
+
+
 ##Required libraries
 
 - Ruby (1.8.7)
