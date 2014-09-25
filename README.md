@@ -31,7 +31,7 @@ You can try out the parser at http://wing.comp.nus.edu.sg/~linzihen/parser/
 
 - Install the required libraries
 
-- If necessary change line 3 - 6 of src/variable.rb to point to your downloaded Stanford Parser, OpenNLP Tools, OpenNLP MaxEnt, and morpha.
+- If necessary change lines 3 - 6 of src/variable.rb to point to your downloaded Stanford Parser, OpenNLP Tools, OpenNLP MaxEnt, and morpha.
 
 
 ##Running the parser
@@ -77,7 +77,7 @@ Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2)
 
 ##Training the parser
 
-Set the Training variables in the src/variable.rb file. 
+Set the Training variables in the src/variable.rb file. *Note you will need the PDTB corpus or training. 
 
 run:
 ./train
