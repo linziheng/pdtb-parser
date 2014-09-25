@@ -344,8 +344,6 @@ class Array
     end
 end
 
-require 'generator'
-
 module Enumerable
 
     class << self
