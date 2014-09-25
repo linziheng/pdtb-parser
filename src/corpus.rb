@@ -1,16 +1,11 @@
-#require File.dirname(__FILE__)+'/../lib/utils'
 require File.dirname(__FILE__)+'/section'
 require File.dirname(__FILE__)+'/relation'
-#require 'wordnet'
+require File.dirname(__FILE__)+'/variable'
 require 'pp'
 
 class Corpus
     attr_accessor :sections, :dev_sections, :test_sections,
         :train_data, :dev_data, :all_data, :vo
-
-    PDTB_DIR    = "/home/linzihen/corpora/PDTB/converted-data/"
-    PTB_DIR     = "/home/linzihen/corpora/PTB/combined/wsj/"
-    DTREE_DIR   = "/home/linzihen/corpora/PTB/dtree/wsj"
 
     $prule_file  = File.dirname(__FILE__)+"/../lib/rule-mi-Freq5-adj-args-13type-leaf.txt"
     $drule_file  = File.dirname(__FILE__)+"/../lib/dtree-mi-Freq5-adj-args-13type.txt"
@@ -70,29 +65,18 @@ class Corpus
         $argpos_human_res_file  = File.dirname(__FILE__)+'/../data/human.argpos.test'
         $argext_human_res_file  = File.dirname(__FILE__)+'/../data/human.argext.test'
         $exp_human_res_file     = File.dirname(__FILE__)+'/../data/human.exp.test'
-        #$argpos_res_file2       = File.dirname(__FILE__)+'/../data/100609b.argpos.nep.npp.test.predicted.res'
         $argpos_res_file2       = File.dirname(__FILE__)+'/../data/100726c.argpos.nep.npp.test.predicted.res'
         if not $with_preprocess then
-            #$conn_res_file          = File.dirname(__FILE__)+'/../data/100609a.conn.nep.npp.test.predicted'
             $conn_res_file          = File.dirname(__FILE__)+'/../data/100726b.conn.nep.npp.test.predicted'
-            #$argpos_res_file        = File.dirname(__FILE__)+'/../data/100609b.argpos.ep.npp.test.predicted.res'
             $argpos_res_file        = File.dirname(__FILE__)+'/../data/100726c.argpos.ep.npp.test.predicted.res'
-            #$argext_res_file        = File.dirname(__FILE__)+'/../data/100609d.argext.ep.npp.test.res'
             $argext_res_file        = File.dirname(__FILE__)+'/../data/100726e.argext.ep.npp.test.res'
-            #$exp_res_file           = File.dirname(__FILE__)+'/../data/100609e.exp.ep.npp.test.predicted.res'
             $exp_res_file           = File.dirname(__FILE__)+'/../data/100726f.exp.ep.npp.test.predicted.res'
-            #$nonexp_res_file        = File.dirname(__FILE__)+'/../data/100609f.nonexp.ep.npp.test.res'
             $nonexp_res_file        = File.dirname(__FILE__)+'/../data/100726g.nonexp.ep.npp.test.res'
         else
-            #$conn_res_file          = File.dirname(__FILE__)+'/../data/100609a.conn.nep.pp.test.predicted'
             $conn_res_file          = File.dirname(__FILE__)+'/../data/100726b.conn.nep.pp.test.predicted'
-            #$argpos_res_file        = File.dirname(__FILE__)+'/../data/100609b.argpos.ep.pp.test.predicted.res'
             $argpos_res_file        = File.dirname(__FILE__)+'/../data/100726c.argpos.ep.pp.test.predicted.res'
-            #$argext_res_file        = File.dirname(__FILE__)+'/../data/100609d.argext.ep.pp.test.res'
             $argext_res_file        = File.dirname(__FILE__)+'/../data/100726e.argext.ep.pp.test.res'
-            #$exp_res_file           = File.dirname(__FILE__)+'/../data/100609e.exp.ep.pp.test.predicted.res'
             $exp_res_file           = File.dirname(__FILE__)+'/../data/100726f.exp.ep.pp.test.predicted.res'
-            #$nonexp_res_file        = File.dirname(__FILE__)+'/../data/100609f.nonexp.ep.pp.test.res'
             $nonexp_res_file        = File.dirname(__FILE__)+'/../data/100726g.nonexp.ep.pp.test.res'
         end
     end
@@ -152,17 +136,6 @@ class Corpus
 
         article.get_relation_sequence
 
-        #pp article.connectives[8].map {|l| l.value}
-        #pp article.connectives[9].map {|l| l.value}
-        #pp article.connectives[10].map {|l| l.value}
-        #puts article[rel_id].raw_text
-        #article.connectives.each {|conn|
-            #pp conn.map {|l| l.value}
-        #}
-
-        #pp article.get_production_rules(17,  -1, true, true)
-        #puts article.gorns2nodes('24,0;24,1,0;24,1,2;24,2')
-        #puts article[rel_id].get_attribution_verbs
     end
 
     def get_sentence(article_id, sent_id)
@@ -173,19 +146,6 @@ class Corpus
         article = Article.new(filename, PDTB_DIR+"/"+section_id+"/"+filename,
             PTB_DIR+"/"+section_id+"/"+parsed_filename, DTREE_DIR+"/"+section_id+"/"+dtree_filename)
         article.sentences[sent_id].parsed_tree.print_tree
-        #article.sentences[sent_id].break_clauses2
-#
-        #article.sentences[sent_id].clauses.each {|c|
-            #c.each {|l|
-                #print l.value+' '
-            #}
-            #puts
-        #}
-        #puts '---------------------------'
-
-        #pp article.get_production_rules(17,  -1, true, true)
-        #puts article.gorns2nodes('24,0;24,1,0;24,1,2;24,2')
-        #puts article[rel_id].get_attribution_verbs
     end
 
     def iterate_relations
@@ -216,40 +176,10 @@ class Corpus
                         arg1_in_2 += 1
                     end
                 end
-                #File.open('/home/linzihen/corpora/PDTB/relseq/'+section.section_id+'/'+article.filename.sub(/pipe$/, 'relseq'), 'w') {|f|
-                #    f.puts article.get_relation_sequence
-                #}
-
-                #s2s = Hash.new
-                #File.readlines('/home/linzihen/corpora/PTB/sent_to_sent2/wsj/23/'+article.filename.sub(/pipe/, 'align')).each {|l|
-                #    t = l.chomp.split
-                #    s2s[t.first.to_i] = t.last.to_i
-                #}
-                #File.open('/home/linzihen/corpora/PTB/nonexp/wsj/23/'+article.filename.sub(/pipe/, 'nonexp'), 'w') {|f|
-                    #article.relations.each {|relation|
-                        #id = relation.arg1_leaves.last.goto_tree.sent_id
-                        #id = s2s[id]
-                        #if relation[1] == "Implicit" or relation[1] == "AltLex" then
-                            #types = relation.level_2_types
-                            #types.each {|t|
-                                #if not Variable::Level_2_types.include?(t) then
-                                    #types.delete(t)
-                                #end
-                            #}
-                            #types.uniq!
-                            #f.puts id.to_s + ' ' + types.join(' ') 
-                        #elsif relation[1] == "EntRel"
-                            #f.puts id.to_s + ' EntRel'
-                        #elsif relation[1] == "NoRel"
-                            #f.puts id.to_s + ' NoRel'
-                        #end
-                    #}
-                #}
             end
             puts arg1_in_2
             puts arg2_in_1
         end
-        #$tags.sort {|a,b| b[1] <=> a[1]} .each {|k,v| puts k+' '+v.to_s}
 
         puts 'done!'
     end
@@ -284,7 +214,6 @@ class Corpus
                     prev_rel = relation.prev_rel
                     next_rel = relation.next_rel
                     puts relation.id
-                    #types = (relation[1] == "EntRel") ? ["Expansion"] : relation.level_1_types
                     
                     if which == 'disc-imp'
                         types = relation.level_2_types

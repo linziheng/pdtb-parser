@@ -10,8 +10,7 @@ class Explicit < Corpus
             output_files = [File.dirname(__FILE__)+'/../data/'+prefix+'.train', 
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
-                File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev',
+                File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test'
             ]
         end
 
@@ -76,7 +75,6 @@ class Explicit < Corpus
     end
 
     def print_features(article, to_file, f1, f2, which, argpos_res, argext_res, exp_human_res)
-        #STDERR.puts 'print exp features...'
 
         if which == 'test' and $error_propagate then
             conn_size = 0
@@ -119,12 +117,8 @@ class Explicit < Corpus
             ary.each_index do |i| 
                 if article.disc_connectives.include?(ary[i]) then 
                     disc_connectives << ary[i]
-                    #tmp_file.puts '1'
-                else
-                    #tmp_file.puts '0'
                 end
             end
-            #disc_connectives = ary.select {|e| article.disc_connectives.include?(e)}
             exp_relations = Array.new      
             ary.each {|e| 
                 if article.disc_connectives.include?(e) then
@@ -184,15 +178,7 @@ class Explicit < Corpus
             to_file_line += 'conn_POS:'+ conn_pos +' '
 
             if connective.first.prev_leaf != nil
-                #to_file_line += 'prev='+connective.first.prev_leaf.downcased+' '
-                #to_file_line += 'with_prev='+connective.first.prev_leaf.downcased+'_'+connective.first.downcased+' '
                 to_file_line += 'with_prev_full:'+connective.first.prev_leaf.downcased+'_'+conn_str.downcase.gsub(/ /, '_')+' '
-                #to_file_line += 'with_prev_full='+connective.first.prev_leaf.value+'_'+conn_str.gsub(/ /, '_')+' '
-
-                #prev_pos = connective.first.prev_leaf.parent_node.value
-                #to_file_line += 'prev_POS:'+prev_pos+' '
-                #to_file_line += 'with_prev_POS='+prev_pos+'_'+conn_pos.split('_').first+' '
-                #to_file_line += 'with_prev_POS_full='+prev_pos+'_'+conn_pos+' '
             end
 
             curr = sentence.parsed_tree.root.first_leaf

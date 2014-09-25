@@ -21,8 +21,6 @@ class Article
         :relations, :parsed_trees, :sid2tree, :length, :nonexp_hsh,
         :parsed_text, :rel_texts
 
-    SPADE_BIN = '/home/linzihen/tools/SPADE/bin/'
-
     def initialize(filename, pdtb_file, ptb_file, dtree_file='', para_file='', lmt_file='', is_parse=false, replace_nil=true)
         @filename = filename
         @id = @filename.sub(/\.pipe/, '')
@@ -67,7 +65,6 @@ class Article
         @parsed_text = nil
         @rel_texts = nil
 
-        #puts "===================="+@filename+"===================="
         read_parsed_trees() if @read_parse
         read_dtrees(replace_nil) if @read_parse 
         @length = @parsed_trees.size
@@ -131,12 +128,6 @@ class Article
         @disc_connectives.each {|conn_leaves|
             sid = conn_leaves[0].goto_tree.sent_id
             @sentences[sid].disc_connectives.push(conn_leaves)
-            #conn_leaves[1...conn_leaves.size].each {|l|
-                #sid2 = l.goto_tree.sent_id
-                #if sid2 != sid
-                    #@sentences[sid2].disc_connectives.push(conn_leaves)
-                #end
-            #}
         }
 
         file.close if file != nil
@@ -207,19 +198,6 @@ class Article
 
         label_leaf_article_order
         label_node_size
-
-        #ner_file = ptb_file.sub(/combined/, 'ner').sub(/mrg$/, 'ner')
-        #ner_lines = File.readlines(ner_file).map {|l| l.strip}
-        #ner_lines.shift
-        #ner_lines.shift
-        #@parsed_trees.each_index {|i|
-            #curr = @parsed_trees[i].root.first_leaf
-            #begin
-                #tokens = ner_lines.shift.split
-                #curr.ner_value = tokens.last
-            #end while curr = curr.next_leaf
-            #ner_lines.shift
-        #}
 
     end
 
@@ -329,7 +307,6 @@ class Article
         hsh.each {|k,v|
             if hsh[k].size > 1 then
                 hsh[k].sort! {|a,b|
-                    #a[1].conn_leaves.first.article_order <=> b[1].conn_leaves.first.article_order
                     a[1].arg2_leaves.last.article_order <=> b[1].arg2_leaves.last.article_order
                 }
             end
@@ -371,15 +348,10 @@ class Article
     end
 
     def label_attribution_spans2(ary)
-        #ary.each_index {|i|
-            #puts i.to_s + ' ' + ary[i].to_s + ' ' +  @clause_in_p_relation[i].to_s + ' ' + @clauses[i].map {|l| l.v} .join(' ')
-        #}
-        #exit
         a_clauses = Array.new
         @clauses.each_index {|idx| 
             a_clauses.push(@clauses[idx]) if ary[idx] == '1' #and @clause_in_p_relation[idx]
         } 
-        #@attr_clauses = a_clauses
         prev = a_clauses.shift if not a_clauses.empty?
         while not a_clauses.empty? do
             curr = a_clauses.shift
@@ -391,10 +363,6 @@ class Article
             end
         end
         if prev != nil then @attr_clauses.push(prev) end
-        #@attr_clauses.each {|c|
-            #puts c.map {|l| l.v} .join(' ')
-        #}
-        #exit
     end
 
     def process_attribution_clauses(which=nil)
@@ -557,32 +525,6 @@ class Article
                 exit
             end
 
-            #label = ary[i]
-            #puts connective.map {|l| l.value} .join(' ') + ' ' +label 
-            #arg1_sid = arg2_sid = -1
-            #if label == 'IPS'
-                #arg1_sid = conn_sids.first - 1
-                #arg2_sid = conn_sids.first
-                #arg1_leaves = @sentences[arg1_sid].leaves
-                #arg2_leaves = @sentences[conn_sids.first].leaves - connective
-            #elsif label == 'NAPS'
-                #arg1_sid = conn_sids.first - 2
-                #arg2_sid = conn_sids.first
-                #arg1_leaves = @sentences[arg1_sid].leaves
-                #arg2_leaves = @sentences[conn_sids.first].leaves - connective
-            #elsif label == 'SS_1<2'
-                #clauses = @sentences[conn_sids.first].break_with(connective)
-                #arg1_sid = arg2_sid = conn_sids.first
-                #arg2_leaves = clauses.pop
-                #arg1_leaves = clauses.flatten
-            #elsif label == 'SS_2<1'
-                #arg1_leaves, arg2_leaves = @sentences[conn_sids.first].break_with2(connective)
-                #arg1_sid = arg2_sid = conn_sids.first
-                #if arg1_leaves.size == 0 or arg2_leaves.size == 0
-                    #arg1_leaves, arg2_leaves = @sentences[conn_sids.first].break_with2(connective, true)
-                #end
-            #end
-
             tmp = ary[i].split(' ## ')
             ttt = tmp.last.split
             ttt.shift
@@ -602,7 +544,6 @@ class Article
                     arg1_leaves.push(l)
                 else
                     puts 'error in labeling arguments'
-                    #pp ws
                     puts l.v+' '+l.up.v
                     exit
                 end
@@ -615,7 +556,6 @@ class Article
                     arg2_leaves.push(l)
                 else
                     puts 'error in labeling arguments'
-                    #pp ws
                     puts l.v+' '+l.up.v
                     exit
                 end
@@ -739,9 +679,7 @@ class Article
         if Variable::Attr_verbs.include?(node.head_word_ptr.lemmatized)
             hwords = Array.new
             node.child_nodes.each {|c|
-                #if c.head_word_ptr != node.head_word_ptr
                     hwords += rec_find_head_words(c) if c.head_word_ptr != nil
-                #end
             }
             return hwords.uniq
         else
@@ -773,12 +711,6 @@ class Article
         end
         path2 = n1_to_lca2.join('->') + n2_to_lca2.reverse.join('<-')
 
-        # shorten
-        #remain_tags = %w/S SBAR SBARQ SQ SINV FRAG UCP PRN PP WHADVP ADVP/
-        #n1_to_lca.delete_if {|t| not remain_tags.include?(t)}
-        #n2_to_lca.delete_if {|t| not remain_tags.include?(t)}
-        #path2 = n1_to_lca.join('->') + '*' + n2_to_lca.reverse.join('<-')
-        
         [path, path2]
     end
 
@@ -980,9 +912,6 @@ class Article
                 clause_leaves = []
             end
             if not clause_leaves.empty?
-                #edu_leaves.each {|n|
-                    #n.is_attr_leaf = true
-                #}
                 @clause_marked[i] = true
             end
             
@@ -1016,10 +945,6 @@ class Article
                 end
                 curr = curr.next_leaf
             }
-            #if edu_leaves.size == 1 and 
-                #not $verb_tags.include?(edu_leaves.first.parent_node.value)
-                #edu_leaves.shift
-            #end
             all_punc = true
             edu_leaves.each {|e|
                 all_punc = false if not $punctuations.include?(e.value)
@@ -1029,9 +954,6 @@ class Article
                 edu_leaves = []
             end
             if not edu_leaves.empty?
-                #edu_leaves.each {|n|
-                    #n.is_attr_leaf = true
-                #}
                 @edu_marked[i] = true
             end
             
@@ -1055,10 +977,6 @@ class Article
             @ptb_file.sub(/combined/, 'edu').sub(/mrg$/, 'edu') :
             @ptb_file.sub(/charniak/, 'edu').sub(/mrg$/, 'edu')
         text = File.readlines(edu_file).join
-        #text = `cd #{SPADE_BIN}; ./edubreak.pl #{@ptb_file} 2> /dev/null`
-        #f = File.open(edu_file, 'w')
-        #f.puts text
-        #f.close
         text = text.gsub(/\(/, '-LRB-').gsub(/\)/, '-RRB-').gsub(/\{/, '-LCB-').gsub(/\}/, '-RCB-')
         text = text.gsub(/'''/, "' ''")
         text = text.gsub(/\n\n/, "\n")
@@ -1087,17 +1005,6 @@ class Article
                         e = ec+' '+e1
                         j += 2
                     end
-                ##...
-                ##-LRB- ... -RRB- ...
-                #elsif e1 != nil and e1.match(/^-LRB- .* -RRB- .*$/)
-                    #e = ec+' '+e1
-                    #j += 2
-                ##... -LRB- ... -RRB-
-                ##...
-                #elsif ec.match(/^.* -LRB- .* -RRB-$/) and
-                    #e1 != nil
-                    #e = ec+' '+e1
-                    #j += 2
                 #said|says|say ...
                 #who|whose|which ...
                 elsif ec.match(/^(said|says|say) .*$/) and
@@ -1123,16 +1030,6 @@ class Article
                     j += 3
                 ##In ... ,
                 ##...
-                #elsif ec.match(/^In .* ,$/) and
-                    #e1 != nil
-                    #e = ec+' '+e1
-                    #j += 2
-                ##But[ ,]|However[ ,]|..
-                ##...
-                #elsif j == 0 and ec.match(/^[A-Z][a-z]*(| ,)$/) and
-                    #e1 != nil
-                    #e = ec+' '+e1
-                    #j += 2
                 else
                     e = ec
                     j += 1
@@ -1140,15 +1037,14 @@ class Article
 
                 edus.push(e)
             end
-            edus.each {|e|
-                ws = e.split
+            edus.each {|ed|
+                ws = ed.split
                 @edus.push(curr)
                 @edu_lengths.push(ws.length)
                 @edu_marked.push(false)
                 @edu_in_relation.push(false)
                 tmp_ary = Array.new
                 ws.each {|w|
-                    #exit if curr1.value != w
                     tmp_ary.push(curr)
                     pref = curr
                     curr = curr.next_leaf
@@ -1158,15 +1054,6 @@ class Article
                 pref.edu_break = true
             }
         }
-        #@edus.each_index {|i|
-            #curr = @edus[i]
-            #tmp = Array.new
-            #@edu_lengths[i].times {
-                #tmp.push(curr)
-                #curr = curr.next_leaf
-            #}
-            #@edu_ary.push(tmp)
-        #}
         @edu_ary.each_index {|i|
             first_leaf_id = @edu_ary[i].first.leaf_orig_id
             last_leaf_id = @edu_ary[i].last.leaf_orig_id
@@ -1212,32 +1099,17 @@ class Article
     # return the tree of the given gorn addr, e.g, 10,1,1,1,1,1,2,1,1,0
     def gorns2nodes(gorn_addr)
         gorns = gorn_addr.split(';')
-        #sentidx_to_tree = Hash.new
         nodes = Array.new
         gorns.each do |g|
             idx = g.split(',')
             sentidx = idx.shift.to_i
-            #if not sentidx_to_tree.has_key?(sentidx)
-            #    orig_tree = @parsed_trees[sentidx]
-            #    tree = Marshal.load(Marshal.dump(orig_tree))
-            #    sentidx_to_tree[sentidx] = tree
-            #else
                 tree = @parsed_trees[sentidx]
-            #end
             node = tree.root
-            #node.mark_as_included
             idx.each do |i|
                 node = node.child_nodes[i.to_i]
-            #    node.mark_as_included
             end
-            #node.mark_child_nodes
             nodes.push(node)
         end
-        #trees = Array.new
-        #sentidx_to_tree.sort{|p1, p2| p1[0].to_i <=> p2[0].to_i}.each do |id, t|
-        #    trees.push(t)
-        #end
-        #trees
         nodes
     end
 
@@ -1303,7 +1175,6 @@ class Article
             rel.arg1_leaves.first.print_value = "{Exp_#{i}_Arg1 " + rel.arg1_leaves.first.print_value
             rel.arg1_leaves.last.print_value = rel.arg1_leaves.last.print_value + " Exp_#{i}_Arg1}"
 
-            #tmp_ary << [rel.conn_leaves.first.article_order, "<b>Conn:</b> " + rel.conn_leaves.map {|l| l.value} .join(" ") + "<br>"]
             if rel.conn_type == 'group'
                 rel.conn_leaves.first.print_value = "{Exp_#{i}_conn_#{type} " + rel.conn_leaves.first.print_value
                 rel.conn_leaves.last.print_value = rel.conn_leaves.last.print_value + " Exp_#{i}_conn}"
@@ -1393,6 +1264,7 @@ class Article
         arr2.sort.last
     end
 
+#   HTML highlighting
     def highlight_rel(which, i, rel, type, ary)
         rel_ptr = "#{which} #{i} #{type}"
         tuples = Array.new
@@ -1403,8 +1275,8 @@ class Article
             sent_ids = [rel.arg1_leaves.first.goto_tree.sent_id, rel.arg2_leaves.first.goto_tree.sent_id].uniq
         end
 
-        @attr_clauses.each_index {|i|
-            clause = @attr_clauses[i]
+        @attr_clauses.each_index {|idx|
+            clause = @attr_clauses[idx]
             clause_sent_id = clause.first.goto_tree.sent_id
             if clause != [] and sent_ids.include?(clause_sent_id) then
                 tuples << ["span", "#B5E61D", clause.first.article_order, clause.last.article_order]

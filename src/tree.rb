@@ -27,7 +27,6 @@ class Tree
                 end
                 node = Node.new(nodes.shift, nodes)
                 node.tree = self
-                #list2[0] = [list2[0], false, 1]
                 stack.push(node)
             end
         end
@@ -37,8 +36,6 @@ class Tree
         @root.post_order
         @root.travel_leaf_nodes
         @root.find_head
-        #build_dependency_tree(dtree_file_dir+'/dp'+(sent_id+1).to_s+'.dot')
-        #@root.get_rule($rule_cnts)
         lemmatize_leaves if $lemmatize
     end
 
@@ -183,12 +180,6 @@ class Node
             if @value.match(/-NONE-/)
                 @leaf_node.is_NONE_leaf = true
             end
-            #if $lemmatize and $lexicon != nil and not @value.match(/-NONE-/)
-            #    tmp = $lexicon.morph2(leaf_node.value, @value) 
-            #    leaf_node.lemmatized = (tmp != nil) ? tmp : leaf_node.downcased
-            #    #puts leaf_node.value + ' ' + leaf_node.lemmatized
-            #    ##leaf_node.normalized = Relation.normalize_numbers(leaf_node.downcased)
-            #end
             leaf_node.stemmed = leaf_node.downcased.stem
         end
 
@@ -361,10 +352,6 @@ class Node
     end
 
     def replace_value_with(v)
-        #if @is_pos and not Variable::Punctuation_tags.include?(@value)
-        #    @leaf_node.replace_value = v
-        #elsif @is_pos and Variable::Punctuation_tags.include?(@value)
-        #    @leaf_node.replace_value = @leaf_node.value
         if @is_leaf
             @replace_value = v
         else
@@ -461,8 +448,7 @@ class Node
 
     def mark_attribution_leaves
         if @is_leaf 
-            if not @is_NONE_leaf #and
-                #not $punctuations.include?(@value)
+            if not @is_NONE_leaf 
                 @is_attr_leaf = true
             end
         else
@@ -580,13 +566,7 @@ class Node
                 |c| c.get_tree_fragments(tree_cnts, leaf_option, height) 
             }
             #if arr_arr.size <= width
-                combis = Utils.cartesian_product(*arr_arr).map { |arr| arr.compact } .uniq
-            #else
-                #combis =
-                #Utils.combination(arr_arr, width).inject([]) { |combis, a_a| 
-                    #combis += Utils.cartesian_product(*a_a).map { |arr| arr.compact } .uniq
-                #} .uniq
-            #end
+            combis = Utils.cartesian_product(*arr_arr).map { |arr| arr.compact } .uniq
             combis.each do |arr|
                 c = arr.join(' ')
                 if c != ''
@@ -671,7 +651,7 @@ class Node
     end
 
     def get_production_rules(rule_cnts, nary=2, with_leaf=true)
-        if not @is_pos #and @marked
+        if not @is_pos 
             if value.match(/.-./)
                 rule = value[0...value.index('-')]+' ->'
             else
@@ -697,17 +677,6 @@ class Node
             end
         elsif with_leaf and not @value.match(/-NONE-/)
             rule_cnts[@value+' -> '+@leaf_node.value] += 1
-            #rule_cnts[val+' -> '+@leaf_node.downcased] += 1
-            #if @leaf_node.normalized != @leaf_node.downcased
-            #    rule_cnts[val+' -> '+@leaf_node.normalized+'_normalized'] += 1 
-            #end
-            #if ['NN', 'NNP', 'NNPS', 'NNS',
-                #'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ',
-                #'JJ', 'JJR', 'JJS',
-                #'RB', 'RBR', 'RBS'].include?(@value) and
-                #@leaf_node.lemmatized != @leaf_node.downcased
-                #rule_cnts[relative_position(@parent_node, self)+@value[0...2]+' -> '+@leaf_node.lemmatized+'_lemmatized'] += 1
-            #end
         end
     end
 
@@ -748,11 +717,6 @@ class Node
     end
 
     def relative_position(parent_n, child_n)
-        #if parent_n.child_nodes.size == 1 and parent_n.child_nodes.first.equal?(child_n)
-            #''
-        #else
-            #parent_n.order_label > child_n.order_label ? '<' : '>'
-        #end
         ''
     end
 
@@ -915,7 +879,6 @@ class Node
 
             if not found
                 value_list = %w/NN NNP NNPS NNS NX POS JJR/
-                #@child_nodes.reverse.each do |node|
                 (@child_nodes.size - 1).downto(0) do |idx|
                     node = @child_nodes[idx]
                     if value_list.include?(node.value)
@@ -941,7 +904,6 @@ class Node
 
             if not found
                 value_list = %w/$ ADJP PRN/
-                #@child_nodes.reverse.each do |node|
                 (@child_nodes.size - 1).downto(0) do |idx|
                     node = @child_nodes[idx]
                     if value_list.include?(node.value)
@@ -954,7 +916,6 @@ class Node
             end
 
             if not found
-                #@child_nodes.reverse.each do |node|
                 (@child_nodes.size - 1).downto(0) do |idx|
                     node = @child_nodes[idx]
                     if node.value == 'CD'
@@ -968,7 +929,6 @@ class Node
 
             if not found
                 value_list = %w/JJ JJS RB QP/
-                #@child_nodes.reverse.each do |node|
                 (@child_nodes.size - 1).downto(0) do |idx|
                     node = @child_nodes[idx]
                     if value_list.include?(node.value)
@@ -1106,14 +1066,9 @@ class Node
         end
 
         if @child_nodes[@head_word_idx - 1].value == 'CC' and @head_word_idx > 1
-            #puts '********************************************************'
-            #puts @head_word_idx.to_s+' '+@head_word
-            #puts @child_nodes[@head_word_idx - 1].value
-            #puts @span.inspect
             @head_word_idx = @head_word_idx - 2
             @head_word = @child_nodes[@head_word_idx].head_word
             @head_word_ptr = @child_nodes[@head_word_idx].head_word_ptr
-            #puts @head_word_idx.to_s+' '+@head_word
         end
     end
 
@@ -1180,14 +1135,11 @@ class Node
     def match_subtree?(node)
         if node.value == '-ALL-'
             return true
-        #elsif not @marked
-        #    return false
         elsif node.value.split('|').include?(@value)
             all_matched = true
             child_nodes2 = @child_nodes.dup
             node.child_nodes.each do |n1|
                 matched = false
-                #@child_nodes.each do |n2|
                 while n2 = child_nodes2.shift
                     if n2.match_subtree?(n1)
                         matched = true
@@ -1263,12 +1215,3 @@ class Node
         end
     end
 end
-
-#begin
-    #t = Tree.new("( (VP (V delivers) (NP (D a) (N talk) (-NONE- 1*1))) )", -1)
-    #puts t.print_tree 
-    #tree_cnts = Hash.new(0)
-    #t.root.get_tree_fragments(tree_cnts, 1, 2)
-#
-    #pp tree_cnts
-#end

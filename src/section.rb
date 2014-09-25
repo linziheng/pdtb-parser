@@ -11,7 +11,6 @@ class Section
 
         @articles = Array.new()
         Dir.new(@pdtb_section_dir).sort.each do |filename|
-            #if filename != "." and filename != ".."
             if not filename.match(/^\./)
                 parsed_filename = filename.sub('.pipe', '.mrg')
                 dtree_filename = filename.sub('.pipe', '.dtree')
