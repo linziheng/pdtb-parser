@@ -77,7 +77,7 @@ Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2)
 
 ##Training the parser
 
-Set the Training variables in the src/variable.rb file. *Note you will need the PDTB corpus or training. 
+Set the training variables in the src/variable.rb file. *Note you will need the PDTB corpus for training. 
 
 run:
 ./train
