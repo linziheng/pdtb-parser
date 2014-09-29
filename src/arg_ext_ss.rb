@@ -1,7 +1,6 @@
 require 'pp'
 require File.dirname(__FILE__)+'/corpus'
 require File.dirname(__FILE__)+'/variable'
-#require File.dirname(__FILE__)+'/../lib/utils'
 
 class ArgExtSS < Corpus
     def initialize 
@@ -21,7 +20,6 @@ class ArgExtSS < Corpus
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev',
             ]
         end
 
@@ -90,7 +88,6 @@ class ArgExtSS < Corpus
                 puts "section: "+section.section_id
                 section.articles.each do |article|
                     puts "  article: "+article.id
-                    #article.process_attribution_edus
                     print_features(article, to_file, which, f1, f2, f3, argpos_res, f1_res)
                 end
             end
@@ -106,7 +103,6 @@ class ArgExtSS < Corpus
     end
 
     def print_features(article, to_file, which, f1, f2, f3, argpos_res, f1_res)
-        #STDERR.puts 'print argextss features...'
 
         if which == 'test' then 
             conn_size = 0
@@ -159,8 +155,6 @@ class ArgExtSS < Corpus
                 end
             elsif article.disc_connectives.include?(connective) then
                 long_connective = article.long_disc_connectives[article.disc_connectives.index(connective)]
-                #idx2 = disc_connectives.index(connective)
-                #relation = article.exp_relations[idx2]
                 relation = article.get_exp_relation(connective)
                 arg1_sids = article.gorns2sentid(relation.arg1s['gorn_addr'])
                 arg2_sids = article.gorns2sentid(relation.arg2s['gorn_addr'])
@@ -168,7 +162,6 @@ class ArgExtSS < Corpus
                 argpos = find_argpos(arg1_sids, conn_sids)
 
                 # combine IPS and NAPS
-                #if argpos == 'IPS' or argpos == 'NAPS' then argpos = 'PS' end
                 next if which == 'train' and argpos != 'SS' 
 
                 punc_nodes = []
@@ -190,7 +183,6 @@ class ArgExtSS < Corpus
                 if arg2_nodes.size == 1 then
                     arg2_node = arg2_nodes.first
                 else
-                    #arg2_node = article.find_node_with_most_leaves(arg2_nodes)
                     arg2_node = article.find_least_common_ancestor(arg2_nodes, true)
                 end
                 arg1_leaves = relation.arg1_leaves

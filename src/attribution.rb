@@ -7,24 +7,23 @@ class Attribution < Corpus
 
     def initialize
         @feature_on = {
-            :unigram    => false,
+            :unigram    => true,
             :verb       => true,
-            #:attr_verb  => false,
-            #:pronoun    => false,
-            :collocation => true,
+            :attr_verb  => true,
+            :pronoun    => true,
+            :collocation=> true,
             :position   => true,
-            #:length     => false,
-            #:negation   => false,
+            :length     => true,
+            :negation   => true,
             :rule       => true,
         }
         @pronouns = %w/i he she they we/
         @attr_verbs = 
-            %w/say accord note add believe think argue contend recall tell/
-            #%w/say add accord note think believe tell argue expect report 
-            #contend estimate recall suggest explain acknowledge predict warn agree write 
-            #claim point indicate concede declare complain show conclude announce
-            #insist cite know observe assert advise allege caution hope admit figure
-            #worry feel fear emphasize disclose confirm speculate suspect plan/
+            %w/say add accord note think believe tell argue expect report 
+            contend estimate recall suggest explain acknowledge predict warn agree write 
+            claim point indicate concede declare complain show conclude announce
+            insist cite know observe assert advise allege caution hope admit figure
+            worry feel fear emphasize disclose confirm speculate suspect plan/
     end
 
     def prepare_data(prefix, train_only=false)
@@ -34,8 +33,7 @@ class Attribution < Corpus
             output_files = [File.dirname(__FILE__)+'/../data/'+prefix+'.train', 
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
-                File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev',
+                File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test'
             ]
         end
         
@@ -118,7 +116,6 @@ class Attribution < Corpus
     end
 
     def print_features2(article, to_file, f1, f2, f4, ep, which, argpos_res, argext_res, exp_res, nonexp_res)
-        #STDERR.puts 'print attr features...'
 
         if which != 'parse' then
             conn_size = 0
@@ -155,14 +152,6 @@ class Attribution < Corpus
         else
             disc_connectives = article.disc_connectives_p
             exp_relations = article.exp_relations_p
-            #article.paragraphs.each {|paragraph|
-            #    0.upto(paragraph.length - 2) {|i|
-            #        sentence1 = paragraph.sentences[i]
-            #        sentence2 = paragraph.sentences[i+1]
-            #        type = nonexp_res.shift
-            #        article.label_nonexp_relation_type(2, sentence1, sentence2, type)
-            #    }
-            #}
         end
 
         article.mark_in_p_relation

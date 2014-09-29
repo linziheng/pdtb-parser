@@ -10,7 +10,6 @@ class Connective < Corpus
             output_files = [File.dirname(__FILE__)+'/../data/'+prefix+'.train', 
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev'
             ]
         end
 
@@ -51,7 +50,6 @@ class Connective < Corpus
     end
 
     def print_features(article, to_file, which)
-        #STDERR.puts "print conn features..."
 
         with_new = true
 
@@ -103,9 +101,6 @@ class Connective < Corpus
                     to_file_line += 'lexsyn:conn_POS:'+ conn_pos +' '
 
                     if connective.first.prev_leaf != nil
-                        #to_file_line += 'lexsyn:prev='+connective.first.prev_leaf.downcased+' '
-                        #to_file_line += 'lexsyn:with_prev='+connective.first.prev_leaf.downcased+'_'+connective.first.downcased+' '
-                        #to_file_line += 'lexsyn:with_prev_full='+connective.first.prev_leaf.downcased+'_'+conn_str.downcase.gsub(/ /, '_')+' '
                         to_file_line += 'lexsyn:with_prev_full:'+connective.first.prev_leaf.value+'_'+conn_str.gsub(/ /, '_')+' '
 
                         prev_pos = connective.first.prev_leaf.parent_node.value
@@ -115,9 +110,6 @@ class Connective < Corpus
                     end
 
                     if connective.last.next_leaf != nil
-                        #to_file_line += 'lexsyn:next='+connective.last.next_leaf.downcased+' '
-                        #to_file_line += 'lexsyn:with_next='+connective.last.downcased+'_'+connective.last.next_leaf.downcased+' '
-                        #to_file_line += 'lexsyn:with_next_full='+conn_str.downcase.gsub(/ /, '_')+'_'+connective.last.next_leaf.downcased+' '
                         to_file_line += 'lexsyn:with_next_full:'+conn_str.gsub(/ /, '_')+'_'+connective.last.next_leaf.value+' '
 
                         next_pos = connective.last.next_leaf.parent_node.value
@@ -135,8 +127,6 @@ class Connective < Corpus
                         'parentCat:'+res[1],
                         'leftCat:'+res[2],
                         'rightCat:'+res[3]]
-                        #'rightVP:'+res[4].to_s,
-                        #'rightTrace:'+res[5].to_s]
                 res2 << 'rightVP'       if res[4] == true
                 res2 << 'rightTrace'    if res[5] == true
 

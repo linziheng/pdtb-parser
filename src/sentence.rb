@@ -55,7 +55,6 @@ class Sentence
                 ((c1.downcased == 'as' or c1.downcased == 'so') and c1.up.v == 'RB')) and
                 c1.up.up.v == 'SBAR' and
                 c1.up.right_siblings_contain(%w/S FRAG/)
-                #(c1.up.right_sibling.v == 'S' or c1.up.right_sibling.v == 'FRAG')
                 return c1.up.up
             end
         else
@@ -67,7 +66,6 @@ class Sentence
                 (ws == 'much as' and c1.up.v == 'RB' and c1.up.up.v == 'ADVP' and c2.up.v == 'IN')) and
                 c2.up.up.v == 'SBAR' and
                 c2.up.right_siblings_contain(%w/S FRAG/)
-                #(c2.up.right_sibling.v == 'S' or c2.up.right_sibling.v == 'FRAG')
                 return c2.up.up
             end
         end
@@ -143,7 +141,7 @@ class Sentence
             arg1_node = arg2_node.find_first_node_with(%w/S/)
         elsif str == 'simultaneously' and
               c1.up.v == 'RB' and c1.up.up.v == 'ADVP' and c1.up.up.up.v == 'VP' and c1.up.up.up.up.v == 'VP' and
-              c1.up.up.up.left_sibling.v == 'CC' #and c1.up.up.up.left_sibling.left_sibling.v == 'VP'
+              c1.up.up.up.left_sibling.v == 'CC' 
             arg2_node = c1.up.up.up
             arg1_node = c1.up.up.up.up
         elsif str == 'and' and
@@ -244,15 +242,6 @@ class Sentence
 
     # further break a clause with connectives and VP-SBAR edge
     def break_clauses2
-        #conns = use_predicted_conns ? @disc_connectives_p : @disc_connectives
-        #conns2 = conns.flatten 
-        #new_clauses = Array.new
-        #@clauses.each {|clause|
-            #new_clause = Array.new
-            #clause.each {|l|
-                #
-            #}
-        #}
 
         @parsed_tree.root.mark_edge_1st_leaves
         new_clauses = Array.new
@@ -323,10 +312,6 @@ class Sentence
 
             @parsed_tree.root.reset_travel_cnt
 
-            #if curr.my_leaves.size > conn_leaves.size then
-                #curr = conn_leaves.last.parent_node
-                #parent = curr.parent_node
-            #end
         else
             curr = conn_leaves[0].parent_node
             parent = curr.parent_node
@@ -369,26 +354,6 @@ class Sentence
             self_to_root2 += '_>_'+curr.v if prev.v != curr.v
         end
         
-        #self_to_head = ''
-        #self_to_head2 = ''
-        #if @parsed_tree.root.head_word_ptr != nil then
-            #head = @parsed_tree.root.head_word_ptr.up
-            #prev = nil
-            #curr = head
-            #while curr != @parsed_tree.root
-                #self_to_head = '_<_'+curr.v+self_to_head
-                #if prev == nil then
-                    #self_to_head2 = '_<_'+curr.v+self_to_head 
-                #else
-                    #self_to_head2 = '_<_'+curr.v+self_to_head if prev.v != curr.v
-                #end
-                #prev = curr
-                #curr = curr.up
-            #end
-        #end
-        #self_to_head = self_to_root + self_to_head
-        #self_to_head2 = self_to_root2 + self_to_head2
-
         [self_to_root, self_to_root2]
     end
 
@@ -398,16 +363,6 @@ class Sentence
 
     # Find all candidate connectives. 
     def check_connectives
-        #Variable::Conn_intra.each do |a|
-            #conns = a.split(/\.\./)
-            #0.upto(@leaves.size-2) do |i|
-                #(i+1).upto(@leaves.size-1) do |j|
-                    #if @leaves[i].downcased == conns[0] and @leaves[j].downcased == conns[1] then
-                        #@connectives.push([@leaves[i], @leaves[j]])
-                    #end
-                #end
-            #end
-        #end
 
         Variable::Conn_intra.each {|a|
             conns = a.split(/\.\./)
@@ -461,44 +416,6 @@ class Sentence
             end
         end
 
-        #Variable::Conn_group.each {|a|
-            #conns = a.split
-            ##if @leaves.size >= conns.size
-                ##arys = Array.new
-                ##@leaves[0..@leaves.size - conns.size].each_index {|i| arys.push(@leaves[i, conns.size])}
-
-                ##arys.each {|ary|
-                    ##matched = true
-                    ##ary.each_index {|i| 
-                        ##if ary[i].downcased != conns[i]
-                            ##matched = false
-                            ##break
-                        ##end
-                    ##}
-                    ##if matched
-                    ##@connectives.push(ary) 
-                    ##puts ary.map {|l| l.value} .join(' ')
-                    ##end
-                ##}
-            ##end
-#
-            #@leaves.each_index {|i|
-                #checked = Array.new
-                #res = conns.inject(i) do |j, e| 
-                    #break if @leaves[j] == nil
-                    #if e == @leaves[j].downcased and not @leaves[j].is_conn 
-                        #checked.push(@leaves[j])
-                        #j + 1
-                    #else 
-                        #break
-                    #end
-                #end
-                #if res != nil then
-                    #checked.each {|l| l.is_conn = true}
-                    #@connectives.push(checked)
-                #end
-            #}
-        #}
 
         @connectives.sort! {|a1,a2| a1.first.article_order <=> a2.first.article_order}
         @connectives
@@ -546,7 +463,6 @@ class Sentence
 
         text = ""
         @leaves.each do |l|
-            #if l.print_value.match(/\{Exp_\d+_conn_/) then
             if disc_conn_leaves.include?(l) then
                 text += l.print_value + ' '
             else
@@ -588,45 +504,14 @@ class Sentence
                 ary1[1]  = "<td>#{$1}</td>"
                 ary1[-1] = "<font style=\"background-color:#FFFF66\">"+ary1[-1]
             end
-            #elsif l.print_value.match(/\{NonExp_(\d+)_Arg1/) then
-                #ary1 << v
-                #ary2[1] = "<td>#{$1}</td>"
-                #ary2 << "<font style=\"background-color:#FFFF66\">"+v
-                #ary3 << v
-                #ary4 << v
-                #ary5 << v
-                #ary6 << v
             if l.print_value.match(/\{Exp_(\d+)_Arg2/) then
                 ary3[1]  = "<td>#{$1}</td>"
                 ary3[-1] = "<font style=\"background-color:#84C2FF\">"+ary3[-1]
             end
-            #elsif l.print_value.match(/\{NonExp_(\d+)_Arg2_/) then
-                #ary1 << v
-                #ary2 << v
-                #ary3 << v
-                #ary4[1] = "<td>#{$1}</td>"
-                #ary4 << "<font style=\"background-color:#84C2FF\">"+v
-                #ary5 << v
-                #ary6 << v
             if l.print_value.match(/\{Exp_(\d+)_conn_/) then
                 ary5[1]  = "<td>#{$1}</td>"
                 ary5[-1] = "<font style=\"background-color:#FF7575\">"+ary5[-1]
             end
-            #elsif l.print_value.match(/\{Attr_(\d+)/) then
-                #ary1 << v
-                #ary2 << v
-                #ary3 << v
-                #ary4 << v
-                #ary5 << v
-                #ary6[1] = "<td>#{$1}</td>"
-                #ary6 << "<font style=\"background-color:#B5E61D\">"+v
-            #elsif l.print_value.match(/(Exp\S+\}|NonExp\S+\}|Attr\S+\})/) then
-                #ary1 << v+"</font>"
-                #ary2 << v+"</font>"
-                #ary3 << v+"</font>"
-                #ary4 << v+"</font>"
-                #ary5 << v+"</font>"
-                #ary6 << v+"</font>"
             if l.print_value.match(/Exp_\d+_Arg1\}/) then
                 ary1[-1] = ary1[-1]+"</font>"
             end

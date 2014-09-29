@@ -12,7 +12,6 @@ class Implicit < Corpus
             :word_pair => true,                     # word pair
             :context => false, :context2 => false,    # word pair
             :conn => false,                         # connective
-            #:genre => true,                         # genre
             :arg2_word => true,
         }
         @feature_on[:prule] = false if num_prule == 0
@@ -95,19 +94,6 @@ class Implicit < Corpus
             @features_conn = Array.new
             Connectives.each {|c| features_conn << "curr_conn="+c.gsub(/ /,'_')}
         end
-
-        if @feature_on[:genre]
-            @features_genre = Hash.new
-            File.open(File.dirname(__FILE__)+'/../lib/genre.txt', 'r') {|f|
-                while line = f.gets
-                    line2 = f.gets
-                    line.chomp!
-                    line2.chomp.split.each {|e|
-                        @features_genre[e] = line
-                    }
-                end
-            }
-        end
     end
 
     def prepare_data(prefix, train_only=false)
@@ -118,7 +104,6 @@ class Implicit < Corpus
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev',
             ]
         end
 
@@ -129,7 +114,6 @@ class Implicit < Corpus
 
         cnt_tmp = Hash.new(0)
         output_files.each do |filename|
-            #print_feature = filename.match(/test/) ? true : false;
 
             to_file = File.open(filename, 'w')
 
@@ -212,7 +196,6 @@ class Implicit < Corpus
     end
 
     def print_features2(article, to_file, which, f2, expected_file, conn_res, argpos_res, argext_res, exp_res, arg_ext_f1, arg_ext_f2)
-        #STDERR.puts 'print imp features...'
 
         if which != 'parse' then
             conn_size = 0
@@ -236,12 +219,6 @@ class Implicit < Corpus
 
             article.label_exp_relations_types2(2, res4)
             exp_relations = article.exp_relations_p
-        else
-            #article.flag_disc_connectives(conn_res)
-            #article.label_arguments(argext_res)
-            #disc_connectives = article.disc_connectives_p
-            #article.label_exp_relations_types2(2, exp_res)
-            #exp_relations = article.exp_relations_p
         end
 
         tags = Variable::Verb_tags + %w/RB UH/
@@ -262,12 +239,6 @@ class Implicit < Corpus
                         types = tmp.last.split
                         arg_ext_f1.puts tmp[0] + ' ## ' + tmp[1] + ' ## '  
                     end
-                    #t = article.nonexp_hsh[sentence1.id]
-                    #if t != nil then
-                    #    types = t
-                    #else
-                    #    types = ['xxxxx']
-                    #end
                 else
                     if (relation = paragraph.has_nonexp_relation?(i)) != false then 
                         if relation[1] == "Implicit" or relation[1] == "AltLex" then
@@ -319,9 +290,6 @@ class Implicit < Corpus
                     article.add_nonexp_relation(sentence1, sentence2)
                 end
 
-                #prev_rel = relation.prev_rel
-                #next_rel = relation.next_rel
-
 
                 to_file_line = ''
 
@@ -372,10 +340,6 @@ class Implicit < Corpus
 
                 ##############
                 if @feature_on[:word_pair]
-                    #pairs = relation.word_pair([25, 32, 45], [35, 42, 48])
-                    #pairs = relation.word_pair2
-                    #text1 = Relation.normalize_time_patterns(Relation.normalize_number_patterns(relation.arg1s['lemmatized'])).split
-                    #text2 = Relation.normalize_time_patterns(Relation.normalize_number_patterns(relation.arg2s['lemmatized'])).split
                     text1 = sentence1.stemmed_text.split
                     text2 = sentence2.stemmed_text.split
                     pairs = Array.new
@@ -390,21 +354,12 @@ class Implicit < Corpus
                     }
                 end
 
-                ###############
-                #if @feature_on[:genre]
-                    #if features_genre.has_key?(article.id)
-                        #to_file_line += 'genre='+@features_genre[article.id]+' '
-                    #end
-                #end
-#
                 ##############
                 if @feature_on[:arg2_word]
                     phrase_len = 3
-                    #ary = relation[35].downcase.split
                     ary = sentence2.leaves.map {|l| l.v.downcase} 
                     ary[0,phrase_len].each {|e| to_file_line += 'arg2_start_uni_'+e+' '}
                 end
-#
                 
                 to_file.puts to_file_line+'xxxxx'
             }
@@ -452,10 +407,6 @@ class Implicit < Corpus
                 end
             end
 
-            #types = relation.level_2_types
-            #types = types.select {|t| Level_2_types.include?(t)} .uniq
-            #types.map! {|t| t.gsub(/ /, '_')}
-            #types.uniq!
 
             to_file_line = ''
 
@@ -506,10 +457,6 @@ class Implicit < Corpus
 
             ##############
             if @feature_on[:word_pair]
-                #pairs = relation.word_pair([25, 32, 45], [35, 42, 48])
-                #pairs = relation.word_pair2
-                #text1 = Relation.normalize_time_patterns(Relation.normalize_number_patterns(relation.arg1s['lemmatized'])).split
-                #text2 = Relation.normalize_time_patterns(Relation.normalize_number_patterns(relation.arg2s['lemmatized'])).split
                 text1 = relation.arg1s['stemmed'].split
                 text2 = relation.arg2s['stemmed'].split
                 pairs = Array.new
@@ -571,23 +518,16 @@ class Implicit < Corpus
             ##############
             if @feature_on[:context2]
                 if prev_rel == nil
-                    #prev_conn = 'prev_conn=nil'
                 elsif prev_rel[1] == 'Implicit' 
                     to_file_line += 'prev_conn=Implicit ' 
                 elsif prev_rel[1] == 'Explicit'
                     to_file_line += 'prev_conn='+prev_rel.discourse_connectives.first.gsub(/ /,'_')+' '
-                else
-                    #prev_conn = 'prev_conn=nil'
                 end
 
-                if next_rel == nil
-                    #next_conn = 'next_conn=nil'
-                elsif next_rel[1] == 'Implicit' 
+                if next_rel[1] == 'Implicit' 
                     to_file_line += 'next_conn=Implicit ' 
                 elsif next_rel[1] == 'Explicit'
                     to_file_line += 'next_conn='+next_rel.discourse_connectives.first.gsub(/ /,'_')+' '
-                else
-                    #next_conn = 'next_conn=nil'
                 end
             end
             
@@ -621,7 +561,7 @@ class Implicit < Corpus
                     end
                     expected_file.puts "%%% Explicit "+article.filename+' '+relation.id.to_s
                 end
-            else #if relation[1] == 'Implicit'
+            else 
                 if types != []
                     if which == 'train'
                         types.each do |type|

@@ -1,7 +1,6 @@
 require 'pp'
 require File.dirname(__FILE__)+'/corpus'
 require File.dirname(__FILE__)+'/variable'
-#require File.dirname(__FILE__)+'/../lib/utils'
 
 class ArgExtPS < Corpus
     def initialize 
@@ -43,8 +42,6 @@ class ArgExtPS < Corpus
             if argpos == 'IPS' or argpos == 'NAPS' then argpos = 'PS' end
             next if which == 'train' and argpos != 'PS'
 
-            #arg1_leaves = relation.arg1_leaves
-            #arg2_leaves = relation.arg2_leaves
             tuples[arg2_sid][1] = connective
         end
 
@@ -141,7 +138,6 @@ class ArgExtPS < Corpus
             '../data/'+prefix+'.test',
             '../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
             '../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-            #'../data/'+prefix+'.dev',
         ].each do |filename|
             if filename.match(/train/) 
                 which = 'train'
@@ -212,12 +208,9 @@ class ArgExtPS < Corpus
                 puts "section: "+section.section_id
                 section.articles.each do |article|
                     puts "  article: "+article.id
-                    #article.process_attribution_edus
                     print_features(article, to_file, which, f1, f2, f3, argpos_res, f1_res)
                 end
             end
-
-            #compute_MI($n, $n1_, $n_1, $n11, 5, 'ttttt')
 
             if which == 'test' then
                 f1.close

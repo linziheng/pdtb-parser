@@ -344,8 +344,6 @@ class Array
     end
 end
 
-require File.dirname(__FILE__)+'/generator'
-
 module Enumerable
 
     class << self

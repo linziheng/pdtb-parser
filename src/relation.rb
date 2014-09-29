@@ -1,6 +1,4 @@
-#require File.dirname(__FILE__)+'/../lib/utils'
 require File.dirname(__FILE__)+'/../lib/stemmable'
-#require File.dirname(__FILE__)+'/../lib/wn'
 require File.dirname(__FILE__)+'/corpus'
 
 class Relation
@@ -15,7 +13,7 @@ class Relation
     def initialize(raw_text, id)
         @raw_text = raw_text
         @id = id
-        @col = raw_text.split(/\|/, -1)
+        @col = raw_text.force_encoding('iso-8859-1').split(/\|/, -1)
         @word_pairs = Hash.new(nil)
         @arg1_sid = -1
         @arg2_sid = -1
@@ -688,10 +686,8 @@ class Relation
                 n.find_head
                 verbs << n.head_word
             end
-            #n.get_words_by_POS(['VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ'], verbs)
         }
         verbs
-        #verbs.map {|v,pos| [v.downcase, pos]}
     end
 
     def to_s1
@@ -719,8 +715,6 @@ class Relation
                 str += pref+"\n"
             end
         end
-
-        #str.sub!(/\n$/, "")
         str
     end
 

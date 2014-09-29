@@ -23,7 +23,7 @@ You can try out the parser at http://wing.comp.nus.edu.sg/~linzihen/parser/
 
 - Morpha (http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html)
 
-  You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system
+  You need to use one of morpha.{ix86_linux|ppc_darwin|sun4_sunos} depending on your system. If you have problems recompile it for your system by running "make morpha" from "lib/morph/" directory. 
   
   **Note: The OpenNLP tools, MaxEnt, Stanford Parser and Morpha libraries are included under lib/ in this distribution.**
 
@@ -31,7 +31,7 @@ You can try out the parser at http://wing.comp.nus.edu.sg/~linzihen/parser/
 
 - Install the required libraries
 
-- Change line 3 - 6 of src/variable.rb to point to your downloaded Stanford Parser, OpenNLP Tools, OpenNLP MaxEnt, and morpha.
+- If necessary change lines 3 - 6 of src/variable.rb to point to your downloaded Stanford Parser, OpenNLP Tools, OpenNLP MaxEnt, and morpha.
 
 
 ##Running the parser
@@ -74,6 +74,15 @@ Arg1 span is enclosed by **{NonExp_id_Arg1** and **NonExp_id_Arg1}**, and Arg2 s
 
 Attribution spans are enclosed by **{Attr_id** and **Attr_id}**. See example (2): **{Attr_2** said James A. Talcott of Boston 's Dana-Farber Cancer Institute . **Attr_2}**
 
+
+##Training the parser
+
+Set the training variables in the src/variable.rb file. *Note you will need the PDTB corpus for training. 
+
+run:
+./train
+
+The resulting models would be in the "data/" folder. 
 
 ##How to cite this work
 

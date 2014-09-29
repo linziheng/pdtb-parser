@@ -12,7 +12,6 @@ class ArgPos < Corpus
                 File.dirname(__FILE__)+'/../data/'+prefix+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.')+'.test',
                 File.dirname(__FILE__)+'/../data/'+prefix.sub(/\.nep\./, '.ep.').sub(/\.npp$/, '.pp')+'.test',
-                #File.dirname(__FILE__)+'/../data/'+prefix+'.dev',
             ]
         end
 
@@ -73,7 +72,6 @@ class ArgPos < Corpus
     end
 
     def print_features(article, to_file, which, conn_res, argpos_human_res)
-        #STDERR.puts 'print argpos features...'
 
         if which == 'test' and $error_propagate
             conn_size = 0
@@ -102,7 +100,6 @@ class ArgPos < Corpus
             article.sentences.each {|sentence| 
                 ary += sentence.check_connectives
             }
-            #disc_connectives = ary.select {|e| article.disc_connectives.include?(e)}
             disc_connectives = Array.new
             tmp_ary = Array.new
             tmp_hsh = Hash.new
@@ -117,8 +114,6 @@ class ArgPos < Corpus
                     tmp_ary << '0'
                 end
             end
-            #article.disc_connectives.sort! {|a,b| ary.index(a) <=> ary.index(b)}
-            #disc_connectives = article.disc_connectives
         end
 
         disc_connectives.each_index {|idx|
@@ -146,7 +141,6 @@ class ArgPos < Corpus
                 conn_type = 'inter'
             end
             conn_pos = connective.map {|l| l.parent_node.value} .join('_')
-            #comment = article.id+' '+conn_sids.first.to_s+' '+connective.map {|l| l.article_order.to_s+'_'+l.v} .join('_')
 
             if which == 'test' and $with_preprocess then
                 label = argpos_res.shift
@@ -185,9 +179,7 @@ class ArgPos < Corpus
 
             to_file_line += 'conn:' + conn_str.gsub(/ /, '_') + ' '
 
-            #to_file_line += 'lc_conn=' + conn_str.downcase.gsub(/ /, '_') + ' '
             to_file_line += 'conn_POS:'+conn_pos+' '
-            #to_file_line += 'conn_cat=' + get_conn_category(conn_str).join('_') + ' '
 
             conn_sent_leaves = article.sentences[conn_sids.first].leaves
             if conn_type == 'group'
