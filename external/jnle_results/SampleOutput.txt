@@ -1,0 +1,97 @@
+Printing reproduced results from (Lin et al. 2014) JNLE paper. 
+
+Table 2. Results for the connective classifier. No EP as this is the first component in the pipeline.
+___________________________________
+         Acc     F1
+GS:      97.45   95.93
+Auto:    96.08   93.73
+
+
+Table 3. Results for the argument position classifier.
+___________________________________
+GS + no EP:
+Prec       97.94
+Recall     97.94
+F1         97.94
+
+GS + EP:
+Prec       94.77
+Recall     94.26
+F1         94.51
+
+Auto + EP:
+Prec       92.65
+Recall     91.55
+F1         92.10
+
+
+
+Table 5. Overall results for argument extractor.
+___________________________________
+PARTIAL Matching:
+GS + no EP    Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                87.11       98.16              85.92     
+
+GS + EP       Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                83.54       97.66              83.00     
+
+Auto + EP     Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                78.26       90.90              77.06     
+
+EXACT Matching:
+GS + no EP    Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                57.42       80.50              52.11     
+GS + EP       Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                55.51       77.57              51.17     
+Auto + EP     Arg1 F1     Arg2 F1     Arg1 & Arg2 F1
+                43.81       66.38              38.15     
+
+Table 6. Results for explicit classifier.
+___________________________________
+GS + no EP:
+Prec       86.33
+Recall     86.33
+F1         86.33
+
+GS + EP:
+Prec       82.88
+Recall     82.43
+F1         82.65
+
+Auto + EP
+Prec       81.34
+Recall     80.37
+F1         80.85
+
+
+
+Table 7. Results for non-explicit classifier.
+___________________________________
+GS + no EP:
+Prec       37.56
+Recall     37.56
+F1         37.56
+
+GS + EP:
+Prec       27.08
+Recall     29.11
+F1         28.06
+
+27.54 29.60 28.53
+
+Auto + EP
+Prec       26.92
+Recall     29.01
+F1         27.92
+
+
+
+Table 9. Overall performance for both Explicit and Non-Explicit relations.
+___________________________________
+                       F1
+Partial   GS + EP:  47.99
+        Auto + EP:  45.34
+Exact     GS + EP:  32.91
+        Auto + EP:  27.41
+
+

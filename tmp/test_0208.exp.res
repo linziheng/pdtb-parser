@@ -1,0 +1,12 @@
+167..174|Expansion.Conjunction
+373..378|Temporal.Asynchronous
+579..582|Comparison.Contrast
+730..734|Temporal.Asynchronous
+990..993|Expansion.Conjunction
+994..998|Temporal.Asynchronous
+1037..1043|Temporal.Asynchronous
+1124..1127|Comparison.Contrast
+2198..2201|Comparison.Contrast
+2795..2798|Expansion.Conjunction
+3961..3965|Temporal.Synchrony
+4196..4199|Comparison.Contrast

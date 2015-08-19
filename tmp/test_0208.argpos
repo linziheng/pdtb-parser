@@ -1,0 +1,12 @@
+conn:In_fact conn_POS:IN_NN sent_pos:0 NA
+conn:since conn_POS:IN sent_pos:1 prev1:Ever prev1_POS:RB with_prev1_full:Ever_since with_prev1_POS_full:RB_IN NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:when conn_POS:WRB prev1:agency prev1_POS:NN with_prev1_full:agency_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB NA
+conn:and conn_POS:CC prev1:France prev1_POS:NNP with_prev1_full:France_and with_prev1_POS_full:NNP_CC prev2:from prev2_POS:IN with_prev2_full:from_and with_prev2_POS_full:IN_CC NA
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:France prev2_POS:NNP with_prev2_full:France_when with_prev2_POS_full:NNP_WRB NA
+conn:before conn_POS:IN prev1:just prev1_POS:RB with_prev1_full:just_before with_prev1_POS_full:RB_IN prev2:set prev2_POS:VBN with_prev2_full:set_before with_prev2_POS_full:VBN_IN NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:case prev2_POS:NN with_prev2_full:case_but with_prev2_POS_full:NN_CC NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:responsible prev2_POS:JJ with_prev2_full:responsible_but with_prev2_POS_full:JJ_CC NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:culture prev2_POS:NN with_prev2_full:culture_and with_prev2_POS_full:NN_CC NA
+conn:when conn_POS:WRB prev1:only prev1_POS:RB with_prev1_full:only_when with_prev1_POS_full:RB_WRB prev2:muddled prev2_POS:VBN with_prev2_full:muddled_when with_prev2_POS_full:VBN_WRB NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:times prev2_POS:NNS with_prev2_full:times_but with_prev2_POS_full:NNS_CC NA

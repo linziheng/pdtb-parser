@@ -1,0 +1,338 @@
+2015-05-07 16:33:03.146 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 16:33:03.149 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 16:33:03.149 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:33:44.095 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 16:33:44.097 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 16:33:44.097 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:35:00.195 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 16:35:00.197 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 16:35:00.198 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:35:19.494 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 16:35:19.496 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 16:35:19.496 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:35:22.602 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .auto.ep features: 
+2015-05-07 16:35:22.602 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:35:24.711 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - GS
+2015-05-07 16:35:24.713 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:97.45
+2015-05-07 16:35:24.713 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:95.93
+2015-05-07 16:35:24.721 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Auto
+2015-05-07 16:35:24.721 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:96.08
+2015-05-07 16:35:24.721 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:93.73
+2015-05-07 16:36:25.995 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 16:36:25.997 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 16:36:25.997 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:36:29.063 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .auto.ep features: 
+2015-05-07 16:36:29.063 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 16:36:31.060 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - GS
+2015-05-07 16:36:31.061 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:97.45
+2015-05-07 16:36:31.062 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:95.93
+2015-05-07 16:36:31.071 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Auto
+2015-05-07 16:36:31.072 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:96.08
+2015-05-07 16:36:31.072 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:93.73
+2015-05-07 16:36:31.072 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - ArgPos component
+2015-05-07 16:36:31.073 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 16:36:31.073 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs features: 
+2015-05-07 16:36:31.073 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-05-07 16:36:31.319 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+97.94 97.94 97.94
+2015-05-07 16:36:31.319 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 16:36:31.319 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs.ep features: 
+2015-05-07 16:36:31.319 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-05-07 16:36:31.888 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+94.77 94.26 94.51
+2015-05-07 16:36:31.889 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 16:36:31.889 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .auto.ep features: 
+2015-05-07 16:36:31.889 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-05-07 16:36:32.409 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+92.65 91.55 92.10
+2015-05-07 16:36:32.409 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Explicit component
+2015-05-07 16:36:32.410 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 16:36:32.410 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs features: 
+2015-05-07 16:36:32.410 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-05-07 16:36:32.615 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+86.33 86.33 86.33
+2015-05-07 16:36:32.616 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 16:36:32.616 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs.ep features: 
+2015-05-07 16:36:32.616 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-05-07 16:36:33.197 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+82.88 82.43 82.65
+2015-05-07 16:36:33.197 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 16:36:33.197 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .auto.ep features: 
+2015-05-07 16:36:33.197 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-05-07 16:36:33.740 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+81.34 80.37 80.85
+2015-05-07 16:36:33.740 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 16:36:33.745 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 16:36:33.745 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 16:36:33.745 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 16:36:34.874 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 16:36:34.874 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 16:36:34.874 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 16:36:34.874 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 16:36:35.794 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 16:36:35.795 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 16:36:35.795 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.auto.ep):
+2015-05-07 16:36:35.795 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 16:36:36.678 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+26.92 29.01 27.92
+2015-05-07 16:36:36.678 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - ArgExt component
+2015-05-07 16:36:36.680 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 16:36:36.682 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs features: 
+2015-05-07 16:36:36.682 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-05-07 16:36:42.198 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 53.20	A2: 79.31	A1A2: 47.02
+2015-05-07 16:36:42.223 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 53.20	A2: 79.20	A1A2: 46.91
+2015-05-07 16:36:42.223 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 16:36:42.225 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs.ep features: 
+2015-05-07 16:36:42.225 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-05-07 16:36:47.643 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 51.60	A2: 77.02	A1A2: 45.63
+2015-05-07 16:36:47.657 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 51.60	A2: 76.91	A1A2: 45.52
+2015-05-07 16:36:47.657 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 16:36:47.659 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .auto.ep features: 
+2015-05-07 16:36:47.660 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-05-07 16:36:52.688 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 40.87	A2: 65.72	A1A2: 32.92
+2015-05-07 16:36:52.703 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 40.33	A2: 64.85	A1A2: 32.15
+2015-05-07 17:29:53.167 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 17:29:53.207 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 17:29:53.209 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 17:29:53.209 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:29:55.165 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 17:29:55.165 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 17:29:55.166 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 17:29:55.166 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:29:56.195 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 17:29:56.195 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 17:29:56.195 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.auto.ep):
+2015-05-07 17:29:56.195 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:29:57.082 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+26.92 29.01 27.92
+2015-05-07 17:31:05.755 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 17:31:05.793 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 17:31:05.794 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 17:31:05.794 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:31:07.563 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 17:31:07.564 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 17:31:07.564 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 17:31:07.564 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:31:08.388 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 17:31:08.388 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 17:31:08.388 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.auto.ep):
+2015-05-07 17:31:08.388 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:31:09.148 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+26.92 29.01 27.92
+2015-05-07 17:32:08.968 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 17:32:09.008 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 17:32:09.009 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 17:32:09.009 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:32:10.768 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 17:32:10.768 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 17:32:10.769 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 17:32:10.769 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:32:11.595 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 17:32:11.595 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 17:32:11.595 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.auto.ep):
+2015-05-07 17:32:11.595 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:33:00.942 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 17:33:00.980 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 17:33:00.980 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 17:33:00.981 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:33:02.727 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 17:33:02.727 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 17:33:02.727 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 17:33:02.727 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:33:03.549 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 17:33:03.549 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 17:33:03.549 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.auto.ep):
+2015-05-07 17:33:03.549 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 17:33:04.356 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+26.92 29.01 27.92
+2015-05-07 19:22:16.846 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Connective component
+2015-05-07 19:22:16.848 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-05-07 19:22:16.848 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-05-07 19:22:19.497 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-05-07 19:22:20.961 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-05-07 19:22:23.004 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-05-07 19:22:25.155 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-05-07 19:22:26.966 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-05-07 19:22:29.018 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-05-07 19:22:29.535 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-05-07 19:22:31.500 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-05-07 19:22:33.383 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-05-07 19:22:35.566 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-05-07 19:22:37.632 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 13
+2015-05-07 19:22:40.063 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 14
+2015-05-07 19:22:42.234 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 15
+2015-05-07 19:22:44.344 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 16
+2015-05-07 19:22:46.963 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 17
+2015-05-07 19:22:48.639 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 18
+2015-05-07 19:22:50.789 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 19
+2015-05-07 19:22:52.579 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 20
+2015-05-07 19:22:54.564 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 21
+2015-05-07 19:23:04.255 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-05-07 19:23:04.255 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-05-07 19:23:06.843 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - GS
+2015-05-07 19:23:06.844 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:97.45
+2015-05-07 19:23:06.844 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:95.93
+2015-05-07 19:23:06.850 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Auto
+2015-05-07 19:23:06.850 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Acc:96.08
+2015-05-07 19:23:06.850 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - F1:93.73
+2015-05-07 19:23:06.851 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - ArgPos component
+2015-05-07 19:23:06.851 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .train features: 
+2015-05-07 19:23:06.852 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 2
+2015-05-07 19:23:07.035 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 3
+2015-05-07 19:23:07.163 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 4
+2015-05-07 19:23:07.356 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 5
+2015-05-07 19:23:07.549 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 6
+2015-05-07 19:23:07.708 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 7
+2015-05-07 19:23:07.902 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 8
+2015-05-07 19:23:07.945 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 9
+2015-05-07 19:23:08.129 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 10
+2015-05-07 19:23:08.299 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 11
+2015-05-07 19:23:08.495 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 12
+2015-05-07 19:23:08.682 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 13
+2015-05-07 19:23:08.884 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 14
+2015-05-07 19:23:09.065 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 15
+2015-05-07 19:23:09.257 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 16
+2015-05-07 19:23:09.499 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 17
+2015-05-07 19:23:09.641 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 18
+2015-05-07 19:23:09.839 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 19
+2015-05-07 19:23:09.997 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 20
+2015-05-07 19:23:10.169 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 21
+2015-05-07 19:23:11.044 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 19:23:11.044 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs features: 
+2015-05-07 19:23:11.044 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-05-07 19:23:11.257 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+97.94 97.94 97.94
+2015-05-07 19:23:11.257 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 19:23:11.257 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs.ep features: 
+2015-05-07 19:23:11.258 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-05-07 19:23:11.853 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+94.77 94.26 94.51
+2015-05-07 19:23:11.853 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 19:23:11.856 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+92.65 91.55 92.10
+2015-05-07 19:23:11.856 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Explicit component
+2015-05-07 19:23:11.857 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .train features: 
+2015-05-07 19:23:11.857 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 2
+2015-05-07 19:23:11.996 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 3
+2015-05-07 19:23:12.098 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 4
+2015-05-07 19:23:12.276 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 5
+2015-05-07 19:23:12.441 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 6
+2015-05-07 19:23:12.568 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 7
+2015-05-07 19:23:12.701 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 8
+2015-05-07 19:23:12.728 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 9
+2015-05-07 19:23:12.852 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 10
+2015-05-07 19:23:12.967 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 11
+2015-05-07 19:23:13.096 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 12
+2015-05-07 19:23:13.222 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 13
+2015-05-07 19:23:13.378 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 14
+2015-05-07 19:23:13.506 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 15
+2015-05-07 19:23:13.631 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 16
+2015-05-07 19:23:13.825 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 17
+2015-05-07 19:23:13.957 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 18
+2015-05-07 19:23:14.129 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 19
+2015-05-07 19:23:14.244 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 20
+2015-05-07 19:23:14.359 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 21
+2015-05-07 19:23:15.149 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 19:23:15.149 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs features: 
+2015-05-07 19:23:15.149 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-05-07 19:23:15.355 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+86.33 86.33 86.33
+2015-05-07 19:23:15.355 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 19:23:15.356 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs.ep features: 
+2015-05-07 19:23:15.356 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-05-07 19:23:15.975 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+82.88 82.43 82.65
+2015-05-07 19:23:15.975 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 19:23:15.981 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+81.34 80.37 80.85
+2015-05-07 19:23:15.981 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 19:23:15.986 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 19:23:15.986 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 19:23:15.986 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 19:24:35.496 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - NonExplicit component
+2015-05-07 19:24:35.536 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 19:24:35.536 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-05-07 19:24:35.537 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 19:24:37.408 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+37.56 37.56 37.56
+2015-05-07 19:24:37.408 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 19:24:37.409 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs.ep):
+2015-05-07 19:24:37.409 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-05-07 19:24:38.433 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+27.54 29.60 28.53
+2015-05-07 19:24:38.433 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 19:24:38.443 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Prec	Recall	F1
+26.92 29.01 27.92
+2015-05-07 19:24:38.443 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - ArgExt component
+2015-05-07 19:24:38.445 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Training:
+2015-05-07 19:24:38.445 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 2
+2015-05-07 19:24:42.089 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 3
+2015-05-07 19:24:44.331 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 4
+2015-05-07 19:24:48.155 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 5
+2015-05-07 19:24:52.938 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 6
+2015-05-07 19:24:56.163 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 7
+2015-05-07 19:24:59.452 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 8
+2015-05-07 19:25:00.237 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 9
+2015-05-07 19:25:03.933 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 10
+2015-05-07 19:25:07.041 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 11
+2015-05-07 19:25:10.371 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 12
+2015-05-07 19:25:13.864 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 13
+2015-05-07 19:25:17.733 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 14
+2015-05-07 19:25:20.932 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 15
+2015-05-07 19:25:24.594 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 16
+2015-05-07 19:25:29.307 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 17
+2015-05-07 19:25:31.878 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 18
+2015-05-07 19:25:35.999 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 19
+2015-05-07 19:25:39.089 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 20
+2015-05-07 19:25:42.410 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 21
+2015-05-07 19:25:52.534 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs
+2015-05-07 19:25:52.538 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs features: 
+2015-05-07 19:25:52.538 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-05-07 19:25:58.174 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 53.20	A2: 79.31	A1A2: 47.02
+2015-05-07 19:25:58.222 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 53.20	A2: 79.20	A1A2: 46.91
+2015-05-07 19:25:58.222 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .gs.ep
+2015-05-07 19:25:58.225 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs.ep features: 
+2015-05-07 19:25:58.226 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-05-07 19:26:04.121 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 51.60	A2: 77.02	A1A2: 45.63
+2015-05-07 19:26:04.132 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 51.60	A2: 76.91	A1A2: 45.52
+2015-05-07 19:26:04.132 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - Testing .auto.ep
+2015-05-07 19:26:04.146 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+EXACT 
+A1: 40.87	A2: 65.72	A1A2: 32.92
+2015-05-07 19:26:04.162 [main] INFO  sg.edu.nus.comp.pdtb.runners.Parser - 
+PARTIAL
+A1: 40.33	A2: 64.85	A1A2: 32.15
+2015-05-07 19:33:49.971 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-05-07 19:33:49.975 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-05-07 19:33:49.976 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-05-07 19:33:52.954 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3

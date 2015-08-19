@@ -1,0 +1,60 @@
+2015-05-27 15:55:58.105 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
+2015-05-27 16:04:29.292 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
+2015-05-27 16:09:11.643 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
+2015-05-27 16:09:11.649 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Done loading properties.
+2015-05-27 17:05:36.134 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-05-27 17:05:36.141 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-05-27 17:05:54.088 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-05-27 17:05:54.093 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-05-27 17:17:46.481 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-05-27 17:17:46.487 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-07-03 13:48:04.873 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
+2015-07-03 13:48:04.875 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-07-03 13:48:04.880 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-07-03 13:48:13.575 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
+2015-07-03 13:48:13.577 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
+2015-07-03 13:48:13.595 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
+2015-07-03 13:48:13.595 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-07-03 13:48:13.596 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-07-03 13:49:58.859 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
+2015-07-03 13:49:58.861 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-07-03 13:49:58.866 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-07-03 13:50:07.198 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
+2015-07-03 13:50:07.200 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
+2015-07-03 13:50:07.217 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
+2015-07-03 13:50:07.218 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-07-03 13:50:07.219 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-07-03 13:51:26.560 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
+2015-07-03 13:51:26.561 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-07-03 13:51:26.566 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-07-03 13:51:35.113 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
+2015-07-03 13:51:35.115 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
+2015-07-03 13:51:35.135 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
+2015-07-03 13:51:35.135 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-07-03 13:51:35.136 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-07-03 13:51:35.306 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 13:51:35.307 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-07-03 13:51:35.329 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 13:51:35.331 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-07-03 13:51:35.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 13:51:35.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-07-03 13:51:35.513 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 13:51:35.517 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-07-03 13:51:35.593 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: tmp/test_0208.pipe
+2015-07-03 14:02:09.343 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
+2015-07-03 14:02:09.345 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-07-03 14:02:09.350 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-07-03 14:02:26.652 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
+2015-07-03 14:02:26.654 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
+2015-07-03 14:02:26.691 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
+2015-07-03 14:02:26.691 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-07-03 14:02:26.692 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-07-03 14:02:26.949 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 14:02:26.950 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-07-03 14:02:26.983 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 14:02:26.985 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-07-03 14:02:27.349 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 14:02:27.350 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-07-03 14:02:27.376 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-07-03 14:02:27.379 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-07-03 14:02:27.485 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: tmp/wsj_2300.pipe
