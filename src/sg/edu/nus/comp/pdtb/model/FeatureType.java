@@ -19,7 +19,7 @@ public enum FeatureType {
   GoldStandard, ErrorPropagation, Auto, Training, AnyText;
 
   public static FeatureType[] testingValues() {
-    return new FeatureType[] {GoldStandard, ErrorPropagation, Auto};
+    return new FeatureType[] {GoldStandard};
   }
 
   @Override

@@ -42,140 +42,140 @@ import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreePrint;
 
 public class PdtbParser {
-  private static Logger log = LogManager.getLogger(PdtbParser.class.toString());
+	private static Logger log = LogManager.getLogger(PdtbParser.class.toString());
 
-  public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 
-    if (args.length < 1) {
-      System.out.println("Please supply the path to a text file you want to parse. ");
-    } else {
-      String testFilePath = args[0];
-      File inputFile = new File(testFilePath);
-      parseFile(inputFile);
-    }
-  }
+		if (args.length < 1) {
+			System.out.println("Please supply the path to a text file you want to parse. ");
+		} else {
+			String testFilePath = args[0];
+			File inputFile = new File(testFilePath);
+			parseFile(inputFile, true);
+		}
+	}
 
-  private static void parseFile(File inputFile) throws IOException {
-    prepareAuxData(inputFile);
-    log.info("Running the PDTB parser");
-    Component parser = new ConnComp();
-    log.info("Running connective classifier...");
-    parser.parseAnyText(inputFile);
-    log.info("Done.");
-    parser = new ArgPosComp();
-    log.info("Running argument position classifier...");
-    parser.parseAnyText(inputFile);
-    log.info("Done.");
-    parser = new ArgExtComp();
-    log.info("Running argument extractor classifier...");
-    File pipeFile = parser.parseAnyText(inputFile);
-    Map<String, String> pipeMap = genPipeMap(pipeFile);
-    log.info("Done.");
-    parser = new ExplicitComp();
-    log.info("Running Explicit classifier...");
-    File expSenseFile = parser.parseAnyText(inputFile);
-    joinSense(pipeMap, expSenseFile, pipeFile);
-    log.info("Done.");
-    parser = new NonExplicitComp();
-    log.info("Running NonExplicit classifier...");
-    File nonExpSenseFile = parser.parseAnyText(inputFile);
-    appendToFile(pipeFile, nonExpSenseFile);
-    log.info("Done with everything. The PDTB relations for the file are in: " + pipeFile);
-  }
+	public static void parseFile(File inputFile, boolean prepareAuxData) throws IOException {
+		if (prepareAuxData) {
+			prepareAuxData(inputFile);
+		}
+		log.info("Running the PDTB parser");
+		Component parser = new ConnComp();
+		log.info("Running connective classifier...");
+		parser.parseAnyText(inputFile);
+		log.info("Done.");
+		parser = new ArgPosComp();
+		log.info("Running argument position classifier...");
+		parser.parseAnyText(inputFile);
+		log.info("Done.");
+		parser = new ArgExtComp();
+		log.info("Running argument extractor classifier...");
+		File pipeFile = parser.parseAnyText(inputFile);
+		Map<String, String> pipeMap = genPipeMap(pipeFile);
+		log.info("Done.");
+		parser = new ExplicitComp();
+		log.info("Running Explicit classifier...");
+		File expSenseFile = parser.parseAnyText(inputFile);
+		joinSense(pipeMap, expSenseFile, pipeFile);
+		log.info("Done.");
+		parser = new NonExplicitComp();
+		log.info("Running NonExplicit classifier...");
+		File nonExpSenseFile = parser.parseAnyText(inputFile);
+		appendToFile(pipeFile, nonExpSenseFile);
+		log.info("Done with everything. The PDTB relations for the file are in: " + pipeFile);
+	}
 
-  private static void appendToFile(File pipeFile, File nonExpSenseFile) throws IOException {
+	private static void appendToFile(File pipeFile, File nonExpSenseFile) throws IOException {
 
-    try (FileWriter writer = new FileWriter(pipeFile, true);
-        BufferedReader reader = Util.reader(nonExpSenseFile)) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        writer.write(line + Util.NEW_LINE);
-      }
-    }
-  }
+		try (FileWriter writer = new FileWriter(pipeFile, true); BufferedReader reader = Util.reader(nonExpSenseFile)) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				writer.write(line + Util.NEW_LINE);
+			}
+		}
+	}
 
-  private static void joinSense(Map<String, String> pipeMap, File expSenseFile, File pipeFile)
-      throws IOException {
-    try (BufferedReader reader = Util.reader(expSenseFile)) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        String[] tmp = line.split("\\|", -1);
-        String pipe = pipeMap.get(tmp[0]);
-        if (pipe == null) {
-          log.error("Cannot find connective span in pipe map.");
-        }
-        String[] cols = pipe.split("\\|", -1);
+	private static void joinSense(Map<String, String> pipeMap, File expSenseFile, File pipeFile) throws IOException {
+		try (BufferedReader reader = Util.reader(expSenseFile)) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				String[] tmp = line.split("\\|", -1);
+				String pipe = pipeMap.get(tmp[0]);
+				if (pipe == null) {
+					log.error("Cannot find connective span in pipe map.");
+				}
+				String[] cols = pipe.split("\\|", -1);
 
-        StringBuilder resultLine = new StringBuilder();
+				StringBuilder resultLine = new StringBuilder();
 
-        for (int i = 0; i < cols.length; i++) {
-          String col = cols[i];
-          if (i == 11) {
-            resultLine.append(tmp[1] + "|");
-          } else {
-            resultLine.append(col + "|");
-          }
-        }
-        resultLine.deleteCharAt(resultLine.length() - 1);
-        cols = resultLine.toString().split("\\|", -1);
+				for (int i = 0; i < cols.length; i++) {
+					String col = cols[i];
+					if (i == 11) {
+						resultLine.append(tmp[1] + "|");
+					} else {
+						resultLine.append(col + "|");
+					}
+				}
+				resultLine.deleteCharAt(resultLine.length() - 1);
+				cols = resultLine.toString().split("\\|", -1);
 
-        pipeMap.put(tmp[0], resultLine.toString());
-      }
-    }
+				pipeMap.put(tmp[0], resultLine.toString());
+			}
+		}
 
-    PrintWriter pw = new PrintWriter(pipeFile);
-    for (String pipe : pipeMap.values()) {
-      pw.println(pipe);
-    }
-    pw.close();
-  }
+		PrintWriter pw = new PrintWriter(pipeFile);
+		for (String pipe : pipeMap.values()) {
+			pw.println(pipe);
+		}
+		pw.close();
+	}
 
-  private static Map<String, String> genPipeMap(File pipeFile) throws IOException {
+	private static Map<String, String> genPipeMap(File pipeFile) throws IOException {
 
-    Map<String, String> map = new HashMap<>();
-    try (BufferedReader reader = Util.reader(pipeFile)) {
-      String line;
+		Map<String, String> map = new HashMap<>();
+		try (BufferedReader reader = Util.reader(pipeFile)) {
+			String line;
 
-      while ((line = reader.readLine()) != null) {
-        String[] cols = line.split("\\|", -1);
-        map.put(cols[3], line);
-      }
-    }
-    return map;
-  }
+			while ((line = reader.readLine()) != null) {
+				String[] cols = line.split("\\|", -1);
+				map.put(cols[3], line);
+			}
+		}
+		return map;
+	}
 
-  private static void prepareAuxData(File testFile) throws IOException {
+	private static void prepareAuxData(File testFile) throws IOException {
 
-    File[] trees = prepareParseAndDependecyTrees(testFile);
+		File[] trees = prepareParseAndDependecyTrees(testFile);
 
-    SpanTreeExtractor.anyTextToSpanGen(trees[0], testFile);
-  }
+		SpanTreeExtractor.anyTextToSpanGen(trees[0], testFile);
+	}
 
-  private static File[] prepareParseAndDependecyTrees(File inputFile) throws FileNotFoundException {
-    log.info("Generating parse and dependecy trees with Stanford parser...");
-    String outDir = Settings.TMP_PATH + inputFile.getName();
-    LexicalizedParser lp = LexicalizedParser.loadModel("external/lib/englishPCFG.ser.gz");
-    File parseTree = new File(outDir + ".ptree");
-    File dependTree = new File(outDir + ".dtree");
-    PrintWriter parse = new PrintWriter(parseTree);
-    TreePrint tp = new TreePrint("penn");
-    PrintWriter depend = new PrintWriter(dependTree);
-    TreePrint td = new TreePrint("typedDependencies");
+	private static File[] prepareParseAndDependecyTrees(File inputFile) throws FileNotFoundException {
+		log.info("Generating parse and dependecy trees with Stanford parser...");
+		String outDir = Settings.TMP_PATH + inputFile.getName();
+		LexicalizedParser lp = LexicalizedParser.loadModel("external/lib/englishPCFG.ser.gz");
+		File parseTree = new File(outDir + ".ptree");
+		File dependTree = new File(outDir + ".dtree");
+		PrintWriter parse = new PrintWriter(parseTree);
+		TreePrint tp = new TreePrint("penn");
+		PrintWriter depend = new PrintWriter(dependTree);
+		TreePrint td = new TreePrint("typedDependencies");
 
-    DocumentPreprocessor sentence = new DocumentPreprocessor(inputFile.toString());
-    for (List<HasWord> sent : sentence) {
-      Tree tree = lp.apply(sent);
+		DocumentPreprocessor sentence = new DocumentPreprocessor(inputFile.toString());
+		for (List<HasWord> sent : sentence) {
+			Tree tree = lp.apply(sent);
 
-      tp.printTree(tree, parse);
-      parse.flush();
+			tp.printTree(tree, parse);
+			parse.flush();
 
-      td.printTree(tree, depend);
-      depend.flush();
-    }
-    parse.close();
-    depend.close();
-    log.info("Tree generation done.");
-    return new File[] {parseTree, dependTree};
-  }
+			td.printTree(tree, depend);
+			depend.flush();
+		}
+		parse.close();
+		depend.close();
+		log.info("Tree generation done.");
+		return new File[] { parseTree, dependTree };
+	}
 
 }

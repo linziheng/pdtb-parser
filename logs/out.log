@@ -1,60 +1,674 @@
-2015-05-27 15:55:58.105 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
-2015-05-27 16:04:29.292 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
-2015-05-27 16:09:11.643 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Loading properties from: config.properties
-2015-05-27 16:09:11.649 [main] INFO  sg.edu.nus.comp.pdtb.util.Settings - Done loading properties.
-2015-05-27 17:05:36.134 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-05-27 17:05:36.141 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-05-27 17:05:54.088 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-05-27 17:05:54.093 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-05-27 17:17:46.481 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-05-27 17:17:46.487 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-07-03 13:48:04.873 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
-2015-07-03 13:48:04.875 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-07-03 13:48:04.880 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-07-03 13:48:13.575 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
-2015-07-03 13:48:13.577 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
-2015-07-03 13:48:13.595 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
-2015-07-03 13:48:13.595 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
-2015-07-03 13:48:13.596 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
-2015-07-03 13:49:58.859 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
-2015-07-03 13:49:58.861 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-07-03 13:49:58.866 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-07-03 13:50:07.198 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
-2015-07-03 13:50:07.200 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
-2015-07-03 13:50:07.217 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
-2015-07-03 13:50:07.218 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
-2015-07-03 13:50:07.219 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
-2015-07-03 13:51:26.560 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
-2015-07-03 13:51:26.561 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-07-03 13:51:26.566 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-07-03 13:51:35.113 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
-2015-07-03 13:51:35.115 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
-2015-07-03 13:51:35.135 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
-2015-07-03 13:51:35.135 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
-2015-07-03 13:51:35.136 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
-2015-07-03 13:51:35.306 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 13:51:35.307 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
-2015-07-03 13:51:35.329 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 13:51:35.331 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
-2015-07-03 13:51:35.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 13:51:35.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
-2015-07-03 13:51:35.513 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 13:51:35.517 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
-2015-07-03 13:51:35.593 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: tmp/test_0208.pipe
-2015-07-03 14:02:09.343 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Generating parse and dependecy trees with Stanford parser...
-2015-07-03 14:02:09.345 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
-2015-07-03 14:02:09.350 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
-2015-07-03 14:02:26.652 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Tree generation done.
-2015-07-03 14:02:26.654 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Generating the spans of each node in the parse trees.
-2015-07-03 14:02:26.691 [main] INFO  sg.edu.nus.comp.pdtb.runners.SpanTreeExtractor - Done.
-2015-07-03 14:02:26.691 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
-2015-07-03 14:02:26.692 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
-2015-07-03 14:02:26.949 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 14:02:26.950 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
-2015-07-03 14:02:26.983 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 14:02:26.985 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
-2015-07-03 14:02:27.349 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 14:02:27.350 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
-2015-07-03 14:02:27.376 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
-2015-07-03 14:02:27.379 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
-2015-07-03 14:02:27.485 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: tmp/wsj_2300.pipe
+2015-09-10 14:08:33.203 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:08:33.215 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:08:33.215 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-09-10 14:08:33.217 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-09-10 14:08:33.217 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-09-10 14:08:35.683 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-09-10 14:08:37.336 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-09-10 14:08:39.352 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-09-10 14:08:41.416 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-09-10 14:08:43.178 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-09-10 14:08:45.186 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-09-10 14:08:45.630 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-09-10 14:08:47.567 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-09-10 14:08:49.357 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-09-10 14:08:51.507 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-09-10 14:10:13.243 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:10:13.251 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:10:13.251 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-09-10 14:10:13.252 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-09-10 14:10:13.252 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-09-10 14:10:15.590 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-09-10 14:10:17.029 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-09-10 14:10:18.909 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-09-10 14:10:20.631 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-09-10 14:10:22.154 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-09-10 14:10:23.921 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-09-10 14:10:24.321 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-09-10 14:10:26.004 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-09-10 14:10:27.596 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-09-10 14:10:29.454 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-09-10 14:10:31.252 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 13
+2015-09-10 14:10:33.442 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 14
+2015-09-10 14:10:35.465 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 15
+2015-09-10 14:10:37.428 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 16
+2015-09-10 14:10:39.891 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 17
+2015-09-10 14:10:41.490 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 18
+2015-09-10 14:10:43.568 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 19
+2015-09-10 14:10:45.198 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 20
+2015-09-10 14:10:47.017 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 21
+2015-09-10 14:10:56.431 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-09-10 14:10:56.431 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-09-10 14:10:58.807 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - GS
+2015-09-10 14:10:58.808 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Acc:97.45
+2015-09-10 14:10:58.808 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - F1:95.93
+2015-09-10 14:13:14.583 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:13:14.588 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:13:14.589 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-09-10 14:13:14.592 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-09-10 14:13:14.592 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-09-10 14:13:16.837 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-09-10 14:13:18.583 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-09-10 14:13:20.706 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-09-10 14:13:22.769 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-09-10 14:13:24.525 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-09-10 14:13:26.491 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-09-10 14:13:26.941 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-09-10 14:13:28.915 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-09-10 14:13:30.747 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-09-10 14:13:32.882 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-09-10 14:13:34.832 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 13
+2015-09-10 14:13:37.256 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 14
+2015-09-10 14:13:39.426 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 15
+2015-09-10 14:13:41.487 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 16
+2015-09-10 14:13:44.132 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 17
+2015-09-10 14:13:45.836 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 18
+2015-09-10 14:13:48.006 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 19
+2015-09-10 14:13:49.692 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 20
+2015-09-10 14:13:51.618 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 21
+2015-09-10 14:14:01.248 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-09-10 14:14:01.249 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-09-10 14:14:03.715 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - GS
+2015-09-10 14:14:03.716 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Acc:97.45
+2015-09-10 14:14:03.716 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - F1:95.93
+2015-09-10 14:15:49.607 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:15:49.615 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:15:49.615 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-09-10 14:15:49.619 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-09-10 14:15:49.619 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-09-10 14:15:51.955 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-09-10 14:15:53.384 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-09-10 14:15:55.486 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-09-10 14:15:57.474 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-09-10 14:15:59.277 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-09-10 14:16:01.327 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-09-10 14:16:01.807 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-09-10 14:16:03.852 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-09-10 14:16:05.900 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-09-10 14:16:08.299 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-09-10 14:16:10.286 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 13
+2015-09-10 14:16:12.558 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 14
+2015-09-10 14:16:14.681 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 15
+2015-09-10 14:16:16.675 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 16
+2015-09-10 14:16:19.326 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 17
+2015-09-10 14:16:20.946 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 18
+2015-09-10 14:16:23.240 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 19
+2015-09-10 14:16:25.047 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 20
+2015-09-10 14:16:26.931 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 21
+2015-09-10 14:16:36.755 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-09-10 14:16:36.755 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-09-10 14:16:39.092 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - GS
+2015-09-10 14:16:39.093 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Acc:97.45
+2015-09-10 14:16:39.093 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - F1:95.93
+2015-09-10 14:16:39.093 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - ArgPos component
+2015-09-10 14:16:39.094 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .train features: 
+2015-09-10 14:16:39.094 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 2
+2015-09-10 14:16:39.275 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 3
+2015-09-10 14:16:39.410 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 4
+2015-09-10 14:16:39.619 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 5
+2015-09-10 14:16:39.800 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 6
+2015-09-10 14:16:39.938 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 7
+2015-09-10 14:16:40.105 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 8
+2015-09-10 14:16:40.142 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 9
+2015-09-10 14:16:40.313 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 10
+2015-09-10 14:16:40.486 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 11
+2015-09-10 14:16:40.653 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 12
+2015-09-10 14:16:40.812 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 13
+2015-09-10 14:16:41.007 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 14
+2015-09-10 14:16:41.191 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 15
+2015-09-10 14:16:41.368 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 16
+2015-09-10 14:16:41.603 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 17
+2015-09-10 14:16:41.754 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 18
+2015-09-10 14:16:41.944 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 19
+2015-09-10 14:16:42.100 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 20
+2015-09-10 14:16:42.270 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 21
+2015-09-10 14:16:43.196 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:16:43.196 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs features: 
+2015-09-10 14:16:43.196 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-09-10 14:16:43.408 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+97.94 97.94 97.94
+2015-09-10 14:16:43.408 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Explicit component
+2015-09-10 14:16:43.409 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .train features: 
+2015-09-10 14:16:43.409 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 2
+2015-09-10 14:16:43.561 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 3
+2015-09-10 14:16:43.652 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 4
+2015-09-10 14:16:43.808 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 5
+2015-09-10 14:16:43.952 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 6
+2015-09-10 14:16:44.083 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 7
+2015-09-10 14:16:44.230 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 8
+2015-09-10 14:16:44.259 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 9
+2015-09-10 14:16:44.406 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 10
+2015-09-10 14:16:44.543 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 11
+2015-09-10 14:16:44.686 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 12
+2015-09-10 14:16:44.823 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 13
+2015-09-10 14:16:44.977 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 14
+2015-09-10 14:16:45.123 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 15
+2015-09-10 14:16:45.266 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 16
+2015-09-10 14:16:45.440 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 17
+2015-09-10 14:16:45.549 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 18
+2015-09-10 14:16:45.689 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 19
+2015-09-10 14:16:45.801 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 20
+2015-09-10 14:16:45.930 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 21
+2015-09-10 14:16:46.353 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:16:46.353 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs features: 
+2015-09-10 14:16:46.353 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-09-10 14:16:46.525 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+95.88 95.88 95.88
+2015-09-10 14:16:46.525 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - NonExplicit component
+2015-09-10 14:16:46.530 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Printing .train features: 
+2015-09-10 14:16:46.530 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 2
+2015-09-10 14:16:47.647 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 3
+2015-09-10 14:16:48.232 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 4
+2015-09-10 14:16:49.155 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 5
+2015-09-10 14:16:49.919 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 6
+2015-09-10 14:16:50.507 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 7
+2015-09-10 14:16:51.255 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 8
+2015-09-10 14:16:51.417 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 9
+2015-09-10 14:16:52.206 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 10
+2015-09-10 14:16:52.855 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 11
+2015-09-10 14:16:53.685 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 12
+2015-09-10 14:16:54.422 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 13
+2015-09-10 14:16:55.248 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 14
+2015-09-10 14:16:56.040 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 15
+2015-09-10 14:16:56.769 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 16
+2015-09-10 14:16:57.780 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 17
+2015-09-10 14:16:58.329 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 18
+2015-09-10 14:16:59.144 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 19
+2015-09-10 14:16:59.743 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 20
+2015-09-10 14:17:00.444 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 21
+2015-09-10 14:17:01.809 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:17:01.809 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-09-10 14:17:01.809 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-09-10 14:17:02.647 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+21.34 21.34 21.34
+2015-09-10 14:17:02.648 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - ArgExt component
+2015-09-10 14:17:02.650 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Training:
+2015-09-10 14:17:02.650 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 2
+2015-09-10 14:17:06.526 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 3
+2015-09-10 14:17:08.966 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 4
+2015-09-10 14:17:12.851 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 5
+2015-09-10 14:17:18.022 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 6
+2015-09-10 14:17:21.617 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 7
+2015-09-10 14:17:25.286 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 8
+2015-09-10 14:17:26.116 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 9
+2015-09-10 14:17:30.307 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 10
+2015-09-10 14:17:33.645 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 11
+2015-09-10 14:17:37.217 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 12
+2015-09-10 14:17:41.104 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 13
+2015-09-10 14:17:45.425 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 14
+2015-09-10 14:17:48.674 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 15
+2015-09-10 14:17:52.673 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 16
+2015-09-10 14:17:57.710 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 17
+2015-09-10 14:18:00.524 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 18
+2015-09-10 14:18:04.897 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 19
+2015-09-10 14:18:08.131 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 20
+2015-09-10 14:18:11.656 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 21
+2015-09-10 14:18:22.588 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:18:22.591 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs features: 
+2015-09-10 14:18:22.591 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-09-10 14:25:58.813 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:25:58.819 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:25:58.819 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Connective component
+2015-09-10 14:25:58.820 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Training:
+2015-09-10 14:25:58.821 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 2
+2015-09-10 14:26:01.098 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 3
+2015-09-10 14:26:02.416 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 4
+2015-09-10 14:26:04.365 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 5
+2015-09-10 14:26:06.331 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 6
+2015-09-10 14:26:08.002 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 7
+2015-09-10 14:26:09.920 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 8
+2015-09-10 14:26:10.365 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 9
+2015-09-10 14:26:12.266 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 10
+2015-09-10 14:26:13.999 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 11
+2015-09-10 14:26:16.081 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 12
+2015-09-10 14:26:17.934 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 13
+2015-09-10 14:26:20.163 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 14
+2015-09-10 14:26:22.041 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 15
+2015-09-10 14:26:23.926 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 16
+2015-09-10 14:26:26.332 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 17
+2015-09-10 14:26:27.889 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 18
+2015-09-10 14:26:29.926 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 19
+2015-09-10 14:26:31.562 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 20
+2015-09-10 14:26:33.287 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 21
+2015-09-10 14:26:42.758 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Printing .gs features: 
+2015-09-10 14:26:42.759 [main] INFO  sg.edu.nus.comp.pdtb.parser.ConnComp - Section: 23
+2015-09-10 14:26:44.992 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - GS
+2015-09-10 14:26:44.992 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Acc:97.45
+2015-09-10 14:26:44.992 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - F1:95.93
+2015-09-10 14:26:44.992 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - ArgPos component
+2015-09-10 14:26:44.993 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .train features: 
+2015-09-10 14:26:44.993 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 2
+2015-09-10 14:26:45.133 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 3
+2015-09-10 14:26:45.227 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 4
+2015-09-10 14:26:45.369 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 5
+2015-09-10 14:26:45.502 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 6
+2015-09-10 14:26:45.613 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 7
+2015-09-10 14:26:45.741 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 8
+2015-09-10 14:26:45.773 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 9
+2015-09-10 14:26:45.901 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 10
+2015-09-10 14:26:46.023 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 11
+2015-09-10 14:26:46.162 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 12
+2015-09-10 14:26:46.304 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 13
+2015-09-10 14:26:46.460 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 14
+2015-09-10 14:26:46.592 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 15
+2015-09-10 14:26:46.726 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 16
+2015-09-10 14:26:46.898 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 17
+2015-09-10 14:26:47.006 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 18
+2015-09-10 14:26:47.143 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 19
+2015-09-10 14:26:47.256 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 20
+2015-09-10 14:26:47.378 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 21
+2015-09-10 14:26:48.247 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:26:48.247 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Printing .gs features: 
+2015-09-10 14:26:48.248 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgPosComp - Section: 23
+2015-09-10 14:26:48.417 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+97.94 97.94 97.94
+2015-09-10 14:26:48.418 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Explicit component
+2015-09-10 14:26:48.419 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .train features: 
+2015-09-10 14:26:48.419 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 2
+2015-09-10 14:26:48.556 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 3
+2015-09-10 14:26:48.656 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 4
+2015-09-10 14:26:48.813 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 5
+2015-09-10 14:26:48.944 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 6
+2015-09-10 14:26:49.054 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 7
+2015-09-10 14:26:49.183 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 8
+2015-09-10 14:26:49.212 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 9
+2015-09-10 14:26:49.342 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 10
+2015-09-10 14:26:49.455 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 11
+2015-09-10 14:26:49.588 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 12
+2015-09-10 14:26:49.713 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 13
+2015-09-10 14:26:49.867 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 14
+2015-09-10 14:26:50.003 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 15
+2015-09-10 14:26:50.139 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 16
+2015-09-10 14:26:50.308 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 17
+2015-09-10 14:26:50.408 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 18
+2015-09-10 14:26:50.547 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 19
+2015-09-10 14:26:50.657 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 20
+2015-09-10 14:26:50.782 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 21
+2015-09-10 14:26:51.177 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:26:51.177 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Printing .gs features: 
+2015-09-10 14:26:51.177 [main] INFO  sg.edu.nus.comp.pdtb.parser.ExplicitComp - Section: 23
+2015-09-10 14:26:51.336 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+95.88 95.88 95.88
+2015-09-10 14:26:51.336 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - NonExplicit component
+2015-09-10 14:26:51.339 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Printing .train features: 
+2015-09-10 14:26:51.339 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 2
+2015-09-10 14:26:52.371 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 3
+2015-09-10 14:26:52.969 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 4
+2015-09-10 14:26:53.805 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 5
+2015-09-10 14:26:54.509 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 6
+2015-09-10 14:26:55.079 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 7
+2015-09-10 14:26:55.781 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 8
+2015-09-10 14:26:55.935 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 9
+2015-09-10 14:26:56.637 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 10
+2015-09-10 14:26:57.223 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 11
+2015-09-10 14:26:57.932 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 12
+2015-09-10 14:26:58.608 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 13
+2015-09-10 14:26:59.380 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 14
+2015-09-10 14:27:00.103 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 15
+2015-09-10 14:27:00.766 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 16
+2015-09-10 14:27:01.620 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 17
+2015-09-10 14:27:02.108 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 18
+2015-09-10 14:27:02.838 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 19
+2015-09-10 14:27:03.441 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 20
+2015-09-10 14:27:04.125 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 21
+2015-09-10 14:27:09.777 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:27:09.777 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Testing (.gs):
+2015-09-10 14:27:09.777 [main] INFO  sg.edu.nus.comp.pdtb.parser.NonExplicitComp - Section: 23
+2015-09-10 14:27:10.531 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Prec	Recall	F1
+50.25 50.25 50.25
+2015-09-10 14:27:10.531 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - ArgExt component
+2015-09-10 14:27:10.534 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Training:
+2015-09-10 14:27:10.534 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 2
+2015-09-10 14:27:14.322 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 3
+2015-09-10 14:27:16.744 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 4
+2015-09-10 14:27:20.635 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 5
+2015-09-10 14:27:25.766 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 6
+2015-09-10 14:27:29.315 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 7
+2015-09-10 14:27:32.924 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 8
+2015-09-10 14:27:33.756 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 9
+2015-09-10 14:27:37.811 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 10
+2015-09-10 14:27:41.120 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 11
+2015-09-10 14:27:44.617 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 12
+2015-09-10 14:27:48.307 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 13
+2015-09-10 14:27:52.584 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 14
+2015-09-10 14:27:55.912 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 15
+2015-09-10 14:27:59.831 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 16
+2015-09-10 14:28:04.677 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 17
+2015-09-10 14:28:07.286 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 18
+2015-09-10 14:28:11.627 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 19
+2015-09-10 14:28:14.923 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 20
+2015-09-10 14:28:18.492 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 21
+2015-09-10 14:28:29.428 [main] INFO  sg.edu.nus.comp.pdtb.runners.Tester - Testing .gs
+2015-09-10 14:28:29.432 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Printing .gs features: 
+2015-09-10 14:28:29.432 [main] INFO  sg.edu.nus.comp.pdtb.parser.ArgExtComp - Section: 23
+2015-09-10 14:33:54.680 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Loading properties from: config.properties
+2015-09-10 14:33:54.686 [main] INFO  sg.edu.nus.comp.pdtb.util.NestedProperties - Done loading properties.
+2015-09-10 14:33:54.691 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:33:54.693 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:33:54.964 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:54.965 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:33:54.991 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:54.994 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:33:55.222 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.223 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:33:55.232 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.237 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:33:55.310 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - ChrisBrownsWife.txt.pipe
+2015-09-10 14:33:55.310 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:33:55.310 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:33:55.412 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.412 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:33:55.438 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.438 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:33:55.725 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.725 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:33:55.734 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.736 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:33:55.830 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Eminemfan1.txt.pipe
+2015-09-10 14:33:55.831 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:33:55.831 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:33:55.954 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.955 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:33:55.974 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:33:55.974 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:00.639 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:00.639 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:00.649 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:00.651 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:00.711 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Emma1D.txt.pipe
+2015-09-10 14:34:00.711 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:00.711 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:00.777 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:00.777 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:00.792 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:00.792 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:01.050 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.050 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:01.059 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.060 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:01.106 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - ImaDoctor.txt.pipe
+2015-09-10 14:34:01.106 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:01.106 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:01.168 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.169 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:01.181 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.182 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:01.251 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.252 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:01.257 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.259 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:01.294 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - KanyeWest.txt.pipe
+2015-09-10 14:34:01.294 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:01.294 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:01.357 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.357 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:01.371 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.371 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:01.475 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.475 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:01.482 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.484 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:01.510 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - kaybandz.txt.pipe
+2015-09-10 14:34:01.510 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:01.510 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:01.578 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.578 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:01.596 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:01.597 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:02.252 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.252 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:02.261 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.263 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:02.298 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - keepiit100.txt.pipe
+2015-09-10 14:34:02.298 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:02.298 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:02.367 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.367 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:02.381 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.382 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:02.490 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.490 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:02.497 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.499 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:02.536 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - LikeABoss.txt.pipe
+2015-09-10 14:34:02.536 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:02.536 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:02.602 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.602 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:02.616 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:02.616 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:04.571 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.571 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:04.582 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.584 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:04.633 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Lilmar43.txt.pipe
+2015-09-10 14:34:04.633 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:04.634 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:04.713 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.714 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:04.727 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.727 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:04.819 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.820 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:04.827 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.829 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:04.872 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Mickey.txt.pipe
+2015-09-10 14:34:04.873 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:04.873 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:04.947 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.947 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:04.963 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:04.963 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:05.276 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.276 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:05.284 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.286 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:05.330 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Peachess.txt.pipe
+2015-09-10 14:34:05.330 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:05.330 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:05.389 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.389 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:05.402 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.402 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:05.512 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.512 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:05.519 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.521 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:05.548 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - poloman24.txt.pipe
+2015-09-10 14:34:05.548 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:05.548 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:05.610 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.610 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:05.623 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.623 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:05.816 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.816 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:05.823 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.824 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:05.859 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Purple2.txt.pipe
+2015-09-10 14:34:05.859 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:05.859 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:05.922 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.922 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:05.937 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:05.937 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:06.024 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.025 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:06.032 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.034 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:06.071 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Shadygirl.txt.pipe
+2015-09-10 14:34:06.071 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:06.071 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:06.137 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.137 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:06.150 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.150 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:06.310 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.311 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:06.317 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.319 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:06.350 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Shizukesa.txt.pipe
+2015-09-10 14:34:06.350 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:06.350 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:06.408 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.408 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:06.421 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.421 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:06.654 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.654 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:06.662 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.664 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:06.689 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - sidthekid.txt.pipe
+2015-09-10 14:34:06.689 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:06.689 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:06.769 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.769 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:06.783 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:06.784 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:07.462 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:07.462 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:07.471 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:07.472 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:07.519 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Spoon.txt.pipe
+2015-09-10 14:34:07.519 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:07.519 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:07.588 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:07.589 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:07.606 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:07.606 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:12.997 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:12.997 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:13.004 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.005 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:13.031 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Student123.txt.pipe
+2015-09-10 14:34:13.032 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:13.032 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:13.104 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.104 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:13.118 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.118 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:13.205 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.205 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:13.213 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.215 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:13.259 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Th3DuckSt0ry.txt.pipe
+2015-09-10 14:34:13.259 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:13.259 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:13.326 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.326 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:13.339 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.339 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:13.466 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.466 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:13.473 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.475 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:13.503 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft2/pdtb/P6D2 - Twin.txt.pipe
+2015-09-10 14:34:13.505 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:13.505 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:13.562 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.562 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:13.574 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.574 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:13.656 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.657 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:13.662 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.664 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:13.692 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - aslmaster99.txt.pipe
+2015-09-10 14:34:13.692 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:13.692 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:13.755 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.755 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:13.768 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.769 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:13.917 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.917 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:13.925 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:13.927 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:13.959 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - BMTHkk.txt.pipe
+2015-09-10 14:34:13.959 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:13.959 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:14.014 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.015 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:14.027 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.028 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:14.092 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.093 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:14.099 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.101 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:14.127 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - BobTheBuilder.txt.pipe
+2015-09-10 14:34:14.127 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:14.127 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:14.191 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.191 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:14.204 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.204 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:14.292 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.293 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:14.300 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.301 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:14.331 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - BuggsBunny.txt.pipe
+2015-09-10 14:34:14.332 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:14.332 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:14.387 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.387 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:14.399 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.400 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:14.503 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.503 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:14.509 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.511 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:14.535 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - ChrisBrownsWife.txt.pipe
+2015-09-10 14:34:14.535 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:14.535 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:14.609 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.609 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:14.623 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.623 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:14.828 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.828 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:14.835 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.837 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:14.877 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - Eminemfan1.txt.pipe
+2015-09-10 14:34:14.877 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:14.877 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:14.943 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.943 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:14.956 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:14.957 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:19.384 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.384 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:19.392 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.394 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:19.437 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - Emma1D.txt.pipe
+2015-09-10 14:34:19.437 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:19.437 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:19.488 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.488 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:19.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.501 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:19.633 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.634 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:19.639 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.640 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:19.662 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - ImaDoctor.txt.pipe
+2015-09-10 14:34:19.662 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:19.663 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:19.716 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.716 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:19.727 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.727 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:19.775 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.775 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:19.781 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.783 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
+2015-09-10 14:34:19.807 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done with everything. The PDTB relations for the file are in: /Users/ilija/workspace/PDTB_LITMAN/litman_corpus/ruckers-2/ruckers_raw_txt_2/draft1/pdtb/P6D1 - KanyeWest.txt.pipe
+2015-09-10 14:34:19.807 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running the PDTB parser
+2015-09-10 14:34:19.807 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running connective classifier...
+2015-09-10 14:34:19.863 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.863 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument position classifier...
+2015-09-10 14:34:19.875 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.876 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running argument extractor classifier...
+2015-09-10 14:34:19.965 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.965 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running Explicit classifier...
+2015-09-10 14:34:19.971 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Done.
+2015-09-10 14:34:19.973 [main] INFO  class sg.edu.nus.comp.pdtb.runners.PdtbParser - Running NonExplicit classifier...
