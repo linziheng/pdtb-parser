@@ -138,6 +138,10 @@ public class PdtbParser {
 
 			while ((line = reader.readLine()) != null) {
 				String[] cols = line.split("\\|", -1);
+				if (cols.length != 48) {
+					log.error("Pipe file " + pipeFile.getAbsolutePath() + " is corrupted, number of columns is "
+							+ cols.length + " instead of 48.");
+				}
 				map.put(cols[3], line);
 			}
 		}
