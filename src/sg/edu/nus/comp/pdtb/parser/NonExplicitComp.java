@@ -886,7 +886,7 @@ public class NonExplicitComp extends Component {
 				String[] cols = feature[1].split("\\|", -1);
 				String fullSense = Corpus.getFullSense(tmp[tmp.length - 1]);
 				if (fullSense.equals("EntRel") || fullSense.equals("AltLex")) {
-					feature[1].replaceAll("Implicit\\|", fullSense + "|");
+					feature[1] = feature[1].replaceAll("Implicit\\|", fullSense + "|");
 					pw.println(feature[1]);
 				} else {
 					StringBuilder sb = new StringBuilder();
