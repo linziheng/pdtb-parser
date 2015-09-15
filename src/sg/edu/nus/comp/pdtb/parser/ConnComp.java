@@ -18,6 +18,7 @@ package sg.edu.nus.comp.pdtb.parser;
 import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
 import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -27,12 +28,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
-import edu.stanford.nlp.trees.Tree;
+import sg.edu.nus.comp.pdtb.util.Util;
 
 /**
  * 
@@ -149,6 +151,8 @@ public class ConnComp extends Component {
 		File testFile = new File(OUT_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 		PrintWriter spansFile = new PrintWriter(OUT_PATH + name + ".spans");
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
 
 		log.info("Printing " + featureType + " features: ");
 		for (int section : Settings.TEST_SECTIONS) {
@@ -157,18 +161,38 @@ public class ConnComp extends Component {
 
 			for (File file : files) {
 				log.trace("Article: " + file.getName());
+
+				String articleId = file.getName().substring(0, 8);
+
+				String articleName = dir + articleId;
+
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
+
+				File articleSpansFile = new File(articleName + ".spans");
+				PrintWriter articleSpans = new PrintWriter(articleSpansFile);
+
 				List<String[]> features = generateFeatures(file, featureType);
 				for (String[] feature : features) {
 					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
 
 					String[] tmp = feature[0].split("\\s+");
 					String spanString = feature[1] + " " + feature[2] + " " + feature[3].replace(' ', '_') + " "
 							+ file.getName() + " " + tmp[tmp.length - 1];
 
 					spansFile.println(spanString);
+					articleSpans.println(spanString + " " + feature[4].replace(' ', '_'));
 				}
 				featureFile.flush();
 				spansFile.flush();
+				articleFeatures.close();
+				articleSpans.close();
+
+				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
+				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				new File(pipeDir).mkdirs();
+				makePipeFile(pipeDir, articleOut, articleSpansFile, file.getName());
 			}
 		}
 		featureFile.close();
@@ -177,6 +201,66 @@ public class ConnComp extends Component {
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
 
 		return outFile;
+	}
+
+	private File makePipeFile(String pipeDir, File articleOut, File articleSpans, String article) throws IOException {
+		File pipeFile = new File(pipeDir + "/" + article);
+
+		PrintWriter pw = new PrintWriter(pipeFile);
+		boolean isEmpty = true;
+		try (BufferedReader out = Util.reader(articleOut)) {
+			try (BufferedReader spans = Util.reader(articleSpans)) {
+
+				// 0[0.0000] 1[1.0000] 1
+				String outLine;
+
+				while ((outLine = out.readLine()) != null) {
+					// span sent_number word article true_label head_word
+					// 39..42 1 But wsj_2300.pipe 1 but
+					String spanLine = spans.readLine();
+					if (outLine.endsWith("1")) {
+						isEmpty = false;
+						String section = article.substring(4, 6);
+						String articleId = article.substring(6, 8);
+						String[] cols = spanLine.split("\\s+");
+
+						StringBuilder pipeLine = new StringBuilder();
+						pipeLine.append("Explicit");
+						pipeLine.append('|');
+						pipeLine.append(section);
+						pipeLine.append('|');
+						pipeLine.append(articleId);
+						pipeLine.append('|');
+						pipeLine.append(cols[0]);
+						pipeLine.append('|');
+						pipeLine.append(cols[1]);
+						pipeLine.append('|');
+						pipeLine.append(cols[2].replace('_', ' '));
+						pipeLine.append('|');
+						// 6
+						pipeLine.append('|');
+						pipeLine.append(cols[1]);
+						pipeLine.append('|');
+						pipeLine.append(cols[5]);
+						pipeLine.append('|');
+
+						for (int i = 10; i < 48; ++i) {
+							pipeLine.append('|');
+						}
+
+						pw.println(pipeLine.toString().trim());
+					}
+					pw.flush();
+				}
+			}
+		}
+		pw.close();
+
+		if (isEmpty) {
+			pipeFile.delete();
+		}
+
+		return pipeFile;
 	}
 
 	@Override
@@ -243,7 +327,7 @@ public class ConnComp extends Component {
 
 									String feature = printFeature(root, nodes, isExplicit, true);
 
-									features.add(new String[] { feature, span, i + "", orgWord.toString() });
+									features.add(new String[] { feature, span, i + "", orgWord.toString(), conns });
 								}
 							}
 						}
@@ -290,7 +374,7 @@ public class ConnComp extends Component {
 							}
 							if (span != null) {
 								String feature = printFeature(root, nodes, isExplicit);
-								features.add(new String[] { feature, span, i + "", orgWord.toString().trim() });
+								features.add(new String[] { feature, span, i + "", orgWord.toString().trim(), conns });
 							}
 						}
 					}

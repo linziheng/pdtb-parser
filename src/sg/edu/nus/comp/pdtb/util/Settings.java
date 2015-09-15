@@ -15,6 +15,11 @@
 
 package sg.edu.nus.comp.pdtb.util;
 
+import java.io.File;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 /**
  * Static class to hold parser configuration variables.
  * 
@@ -22,98 +27,104 @@ package sg.edu.nus.comp.pdtb.util;
  */
 public class Settings extends NestedProperties {
 
-  /**
-   * Train sections.
-   */
-  public static int[] TRAIN_SECTIONS;
+	private static Logger log = LogManager.getLogger(Settings.class);
 
-  /**
-   * Test sections.
-   */
-  public static int[] TEST_SECTIONS;
+	/**
+	 * Train sections.
+	 */
+	public static int[] TRAIN_SECTIONS;
 
-  /**
-   * Relation semantic sense evaluation level.
-   */
-  public static int SEMANTIC_LEVEL;
+	/**
+	 * Test sections.
+	 */
+	public static int[] TEST_SECTIONS;
 
-  /**
-   * Path to the PDTB corpus.
-   */
-  public static String PDTB_PATH;
+	/**
+	 * Relation semantic sense evaluation level.
+	 */
+	public static int SEMANTIC_LEVEL;
 
-  /**
-   * Training parse tree directory.
-   */
-  public static String PTB_TREE_PATH;
+	/**
+	 * Path to the PDTB corpus.
+	 */
+	public static String PDTB_PATH;
 
-  /**
-   * Automatic parse tree directory.
-   */
-  public static String PTB_AUTO_TREE_PATH;
+	/**
+	 * Training parse tree directory.
+	 */
+	public static String PTB_TREE_PATH;
 
-  /**
-   * Automatic parse tree directory for the non-explicit component.
-   */
-  public static String PTB_NONEXP_TREES_PATH;
+	/**
+	 * Automatic parse tree directory.
+	 */
+	public static String PTB_AUTO_TREE_PATH;
 
-  /**
-   * Training dependency tree directory.
-   */
-  public static String DEPEND_TREE_PATH;
+	/**
+	 * Automatic parse tree directory for the non-explicit component.
+	 */
+	public static String PTB_NONEXP_TREES_PATH;
 
-  /**
-   * Automatic dependency tree directory.
-   */
-  public static String DEPEND_AUTO_TREE_PATH;
+	/**
+	 * Training dependency tree directory.
+	 */
+	public static String DEPEND_TREE_PATH;
 
-  /**
-   * Raw article text files.
-   */
-  public static String PTB_RAW_PATH;
+	/**
+	 * Automatic dependency tree directory.
+	 */
+	public static String DEPEND_AUTO_TREE_PATH;
 
-  /**
-   * Paragraph information path (auxiliary data).
-   */
-  public static String PARA_PATH;
+	/**
+	 * Raw article text files.
+	 */
+	public static String PTB_RAW_PATH;
 
-  /**
-   * Sentence information path (auxiliary data).
-   */
-  public static String SENT_MAP_PATH;
+	/**
+	 * Paragraph information path (auxiliary data).
+	 */
+	public static String PARA_PATH;
 
-  /**
-   * Auxiliary data for the non-explicit component.
-   */
-  public static String PROD_RULES_FILE;
+	/**
+	 * Sentence information path (auxiliary data).
+	 */
+	public static String SENT_MAP_PATH;
 
-  /**
-   * Auxiliary data for the non-explicit component.
-   */
-  public static String DEP_RULES_FILE;
+	/**
+	 * Auxiliary data for the non-explicit component.
+	 */
+	public static String PROD_RULES_FILE;
 
-  /**
-   * Auxiliary data for the non-explicit component.
-   */
-  public static String WORD_PAIRS_FILE;
+	/**
+	 * Auxiliary data for the non-explicit component.
+	 */
+	public static String DEP_RULES_FILE;
 
-  /**
-   * Directory for output of the argument extractor component, used for error propagation.
-   */
-  public static String ARG_EXT_EP;
+	/**
+	 * Auxiliary data for the non-explicit component.
+	 */
+	public static String WORD_PAIRS_FILE;
 
-  /**
-   * Directory for output of the argument extractor component, used for error propagation.
-   */
-  public static String ARG_EXT_AUTO;
+	/**
+	 * Results directory.
+	 */
+	public static String OUT_PATH;
 
-  /**
-   * Directory for the generated parse and dependency trees generated when parsing free text.
-   */
-  public static String TMP_PATH;
+	/**
+	 * Directory for the generated parse and dependency trees generated when
+	 * parsing free text.
+	 */
+	public static String TMP_PATH;
 
-  /**
-   * Results directory.
-   */
-  public static String OUT_PATH;
+	static {
+		String[] pathsToCreate = { OUT_PATH, TMP_PATH };
+
+		for (String path : pathsToCreate) {
+
+			File outPath = new File(path);
+			if (!outPath.exists()) {
+				log.info(path + " does not exists, creating it.");
+				outPath.mkdirs();
+			}
+		}
+	}
 }

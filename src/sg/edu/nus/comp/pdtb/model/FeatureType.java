@@ -16,33 +16,42 @@
 package sg.edu.nus.comp.pdtb.model;
 
 public enum FeatureType {
-  GoldStandard, ErrorPropagation, Auto, Training, AnyText;
+	GoldStandard, ErrorPropagation, Auto, Training, AnyText;
 
-  public static FeatureType[] testingValues() {
-    return new FeatureType[] {GoldStandard};
-  }
+	public static FeatureType[] testingValues() {
+		return new FeatureType[] { ErrorPropagation };
+	}
 
-  @Override
-  public String toString() {
-    String string = "";
-    switch (this) {
-      case Training:
-        string = ".train";
-        break;
-      case GoldStandard:
-        string = ".gs";
-        break;
-      case ErrorPropagation:
-        string = ".gs.ep";
-        break;
-      case Auto:
-        string = ".auto.ep";
-        break;
-      case AnyText:
-        string = ".res";
-        break;
-    }
+	@Override
+	public String toString() {
+		String string = "";
+		switch (this) {
+		case Training:
+			string = ".train";
+			break;
+		case GoldStandard:
+			string = ".gs";
+			break;
+		case ErrorPropagation:
+			string = ".gs.ep";
+			break;
+		case Auto:
+			string = ".auto.ep";
+			break;
+		case AnyText:
+			string = ".res";
+			break;
+		}
 
-    return string;
-  }
+		return string;
+	}
+
+	public boolean isTestingType() {
+		for (FeatureType testingType : testingValues()) {
+			if (this == testingType) {
+				return true;
+			}
+		}
+		return false;
+	}
 }

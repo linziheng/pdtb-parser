@@ -268,7 +268,7 @@ public class Scorer {
     for (String eWord : eParts) {
       for (String pWord : pParts) {
         if (eWord.equals(pWord)) {
-          return eWord.length() > 1;
+          return eWord.length() > 0;
         }
       }
     }

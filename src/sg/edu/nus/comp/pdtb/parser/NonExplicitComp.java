@@ -21,6 +21,8 @@ import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -35,6 +37,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.Dependency;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Stemmer;
@@ -43,7 +46,6 @@ import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
-import edu.stanford.nlp.trees.Tree;
 
 /**
  * 
@@ -114,23 +116,47 @@ public class NonExplicitComp extends Component {
 		File testFile = new File(OUT_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
+
 		log.info("Testing (" + featureType + "):");
 		for (int section : Settings.TEST_SECTIONS) {
 			log.info("Section: " + section);
 			File[] files = Corpus.getSectionFiles(section);
 
-			for (File article : files) {
-				log.trace("Article: " + article.getName());
+			for (File file : files) {
+				log.trace("Article: " + file.getName());
+
+				String articleId = file.getName().substring(0, 8);
+
+				String articleName = dir + articleId;
+
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
+				File articleAux = new File(articleName + ".aux");
+				PrintWriter articleAuxWriter = new PrintWriter(articleAux);
+
 				List<String[]> features = null;
 				if (featureType == FeatureType.GoldStandard) {
-					features = generateFeatures(article, featureType);
+					features = generateFeatures(file, featureType);
 				} else {
-					features = generateEpFeatures(article, featureType);
+					features = generateEpFeatures(file, featureType);
 				}
 				for (String[] feature : features) {
 					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
+					articleAuxWriter.println(feature[1]);
 				}
+
 				featureFile.flush();
+				articleFeatures.close();
+				articleAuxWriter.close();
+
+				File articleOut = MaxEntClassifier.predict(testFile, modelFile,
+						new File(Settings.OUT_PATH + name + ".out"));
+				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				new File(pipeDir).mkdirs();
+				makePipeFile(pipeDir, articleOut, articleAux, file.getName());
 			}
 		}
 		featureFile.close();
@@ -138,6 +164,34 @@ public class NonExplicitComp extends Component {
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
 
 		return outFile;
+	}
+
+	private File makePipeFile(String pipeDir, File articleOut, File articleAux, String article) throws IOException {
+		File pipeFile = new File(pipeDir + "/" + article);
+
+		try (FileWriter writer = new FileWriter(pipeFile, true);
+				BufferedReader read = Util.reader(articleOut);
+				BufferedReader auxRead = Util.reader(articleAux);) {
+			String aux;
+			while ((aux = auxRead.readLine()) != null) {
+				String[] tmp = read.readLine().split("\\s+");
+				String[] cols = aux.split("\\|", -1);
+				String fullSense = Corpus.getFullSense(tmp[tmp.length - 1]);
+				if (fullSense.equals("EntRel") || fullSense.equals("AltLex")) {
+					aux = aux.replaceAll("Implicit\\|", fullSense + "|");
+					writer.write(aux + Util.NEW_LINE);
+				} else {
+					StringBuilder sb = new StringBuilder();
+					for (int i = 0; i < 48; ++i) {
+						sb.append((i == 11) ? fullSense : cols[i]);
+						sb.append("|");
+					}
+					sb.deleteCharAt(sb.length() - 1);
+					writer.write(sb.toString() + Util.NEW_LINE);
+				}
+			}
+		}
+		return pipeFile;
 	}
 
 	private List<String[]> generateEpFeatures(File article, FeatureType featureType) throws IOException {
@@ -213,7 +267,7 @@ public class NonExplicitComp extends Component {
 						} else {
 							feature.append("xxx");
 						}
-						if (featureType == FeatureType.AnyText) {
+						if (featureType != FeatureType.Training && featureType != FeatureType.GoldStandard) {
 							nonExpRel = genNonExpRel(arg1Tree, arg2Tree, senIdx1, senIdx2);
 						}
 						features.add(new String[] { feature.toString(), nonExpRel });
@@ -266,22 +320,28 @@ public class NonExplicitComp extends Component {
 			path.append(article.getName());
 			path.append(".pipe");
 		} else {
-			path.append(Settings.OUT_PATH);
-			path.append(featureType == FeatureType.Auto ? Settings.ARG_EXT_AUTO : Settings.ARG_EXT_EP);
+			path.append(OUT_PATH);
+			path.append("pipes");
+			path.append(featureType.toString().replace('.', '_'));
+			path.append('/');
 			path.append(article.getName());
 		}
-		String[] texts = Util.readFile(path.toString()).split("\\n+");
 		List<String> result = new ArrayList<>();
-		for (String txt : texts) {
-			if (txt.length() > 0) {
-				String[] rel = txt.split("\\|", -1);
-				if (rel.length != 48) {
-					log.error("Invalid EP arg_ext relations. Column size should be 48 but it was " + rel.length
-							+ " in article " + article + " pipe " + txt);
-				}
+		try {
+			String[] pipes = Util.readFile(path.toString()).split(Util.NEW_LINE);
+			for (String pipe : pipes) {
+				if (pipe.length() > 0) {
+					String[] rel = pipe.split("\\|", -1);
+					if (rel.length != 48) {
+						log.error("Invalid EP arg_ext relations. Column size should be 48 but it was " + rel.length
+								+ " in article " + article + " pipe " + pipe);
+					}
 
-				result.add(txt);
+					result.add(pipe);
+				}
 			}
+		} catch (FileNotFoundException e) {
+			log.info("No EP arguments for article: " + article.getName() + " : " + e.getMessage());
 		}
 
 		return result;
@@ -319,12 +379,15 @@ public class NonExplicitComp extends Component {
 					|| (type.equals("NonExp") && !rel.startsWith("Explicit"))) {
 				String[] cols = rel.split("\\|", -1);
 				String[] tmp = cols[23].split(";");
-				String arg1Gorn = tmp[tmp.length - 1].split(",")[0];
-				String arg2Gorn = cols[33].split(";")[0].split(",")[0];
-				int sen1 = Integer.parseInt(arg1Gorn);
-				int sen2 = Integer.parseInt(arg2Gorn);
-				if (sen1 == senId1 && sen2 == senId2) {
-					return rel;
+				String arg1Gorn = tmp[tmp.length - 1].split(",")[0].trim();
+				String arg2Gorn = cols[33].split(";")[0].split(",")[0].trim();
+
+				if (arg1Gorn.length() > 0 && arg2Gorn.length() > 0) {
+					int sen1 = Integer.parseInt(arg1Gorn);
+					int sen2 = Integer.parseInt(arg2Gorn);
+					if (sen1 == senId1 && sen2 == senId2) {
+						return rel;
+					}
 				}
 			}
 		}
@@ -879,8 +942,8 @@ public class NonExplicitComp extends Component {
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(filePath + ".out"));
 
 		File resultFile = new File(filePath + ".res");
-		PrintWriter pw = new PrintWriter(resultFile);
-		try (BufferedReader read = Util.reader(outFile)) {
+
+		try (PrintWriter pw = new PrintWriter(resultFile); BufferedReader read = Util.reader(outFile)) {
 			for (String[] feature : features) {
 				String[] tmp = read.readLine().split("\\s+");
 				String[] cols = feature[1].split("\\|", -1);
@@ -899,7 +962,6 @@ public class NonExplicitComp extends Component {
 				}
 			}
 		}
-		pw.close();
 
 		return resultFile;
 	}

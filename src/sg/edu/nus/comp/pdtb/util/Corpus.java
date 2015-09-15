@@ -192,6 +192,16 @@ public class Corpus {
 		return result;
 	}
 
+	public static List<String> getFilteredSpans(String articleFilename, FeatureType featureType) throws IOException {
+
+		File article = new File(genPipePath(articleFilename));
+
+		List<String> result = getExplicitSpans(article, featureType);
+		result = filterErrorProp(result, article, featureType);
+
+		return result;
+	}
+
 	private static List<String> genExplicitSpans(File article) throws IOException {
 		File spans = new File(Settings.TMP_PATH + article.getName() + "." + ConnComp.NAME + ".spans");
 		File outFile = new File(Settings.TMP_PATH + article.getName() + "." + ConnComp.NAME + ".out");
@@ -233,23 +243,31 @@ public class Corpus {
 		Set<String> epSpans = getEpSpans(article, featureType);
 
 		for (String rel : explicitSpans) {
-			String[] cols = rel.split("\\|", -1);
-			String head = cols[8];
-			String rawText = cols[5].toLowerCase();
-			String span = cols[3];
-			if (!(article.getName().equals("wsj_2369.pipe") && head.equals("if then"))) {
-				int index = rawText.indexOf(head);
-				int start = Integer.parseInt(span.split("\\.\\.")[0]) + index;
-				int end = start + head.length();
-				span = start + ".." + end;
-			}
 
-			if (epSpans.contains(span)) {
+			String headSpan = calculateHeadSpan(rel);
+
+			if (epSpans.contains(headSpan)) {
 				result.add(rel);
 			}
 		}
 
 		return result;
+	}
+
+	public static String calculateHeadSpan(String pipe) {
+		String[] cols = pipe.split("\\|", -1);
+		String head = cols[8];
+		String rawText = cols[5].toLowerCase();
+		String span = cols[3];
+		if (!((cols[1] + cols[2]).equals("2369") && head.equals("if then"))) {
+
+			int index = rawText.indexOf(head);
+			int start = Integer.parseInt(span.split("\\.\\.")[0]) + index;
+			int end = start + head.length();
+			return start + ".." + end;
+		} else {
+			return span;
+		}
 	}
 
 	private static Set<String> getEpSpans(File article, FeatureType featureType) throws IOException {
@@ -261,8 +279,9 @@ public class Corpus {
 			spansFile += ".auto.ep.spans";
 			outFile += ".auto.ep.out";
 		} else {
-			spansFile += ".gs.spans";
-			outFile += ".gs.out";
+			// TODO not sure if correct
+			spansFile += ".gs.ep.spans";
+			outFile += ".gs.ep.out";
 		}
 
 		Set<String> spans = new HashSet<>();
@@ -297,6 +316,24 @@ public class Corpus {
 		path.append(article.getName().substring(4, 6));
 		path.append("/");
 		path.append(article.getName());
+
+		return path.toString();
+	}
+
+	private static String genPipePath(String articleFilename) {
+		StringBuilder path = new StringBuilder();
+		path.append(Settings.PDTB_PATH);
+		path.append(articleFilename.substring(4, 6));
+		path.append("/");
+		path.append(articleFilename + ".pipe");
+
+		return path.toString();
+	}
+
+	public static String genEpP2ipePath(String articleFilename, FeatureType featureType) {
+		StringBuilder path = new StringBuilder();
+//		path.append(featureType == FeatureType.ErrorPropagation ? Settings.ARG_EXT_EP : Settings.ARG_EXT_AUTO);
+		path.append(articleFilename + ".pipe");
 
 		return path.toString();
 	}
@@ -565,4 +602,5 @@ public class Corpus {
 		}
 		return sba.toString().trim();
 	}
+
 }

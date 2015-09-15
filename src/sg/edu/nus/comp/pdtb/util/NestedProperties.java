@@ -37,72 +37,71 @@ import org.apache.logging.log4j.Logger;
  */
 public class NestedProperties {
 
-  private static Logger log = LogManager.getLogger(NestedProperties.class);
+	private static Logger log = LogManager.getLogger(NestedProperties.class);
 
-  /**
-   * Configuration file name.
-   */
-  private static final String PROPERTIES_PATH = "config.properties";
+	/**
+	 * Configuration file name.
+	 */
+	private static final String PROPERTIES_PATH = "config.properties";
 
-  /**
-   * Load properties.
-   */
-  static {
-    try (InputStream input = new FileInputStream(PROPERTIES_PATH)) {
-      log.info("Loading properties from: " + PROPERTIES_PATH);
-      Map<String, Field> classFields = getStaticFields(Settings.class);
-      Properties prop = new Properties();
-      prop.load(input);
-      Set<Object> keySet = prop.keySet();
-      for (Object keyObj : keySet) {
-        String key = keyObj.toString();
-        String value = prop.getProperty(key);
-        log.trace("Resolving property: " + value);
-        value = resolveValue(prop, value);
+	/**
+	 * Load properties.
+	 */
+	static {
+		try (InputStream input = new FileInputStream(PROPERTIES_PATH)) {
+			log.info("Loading properties from: " + PROPERTIES_PATH);
+			Map<String, Field> classFields = getStaticFields(Settings.class);
+			Properties prop = new Properties();
+			prop.load(input);
+			Set<Object> keySet = prop.keySet();
+			for (Object keyObj : keySet) {
+				String key = keyObj.toString();
+				String value = prop.getProperty(key);
+				log.trace("Resolving property: " + value);
+				value = resolveValue(prop, value);
 
-        if (classFields.containsKey(key)) {
-          Field field = classFields.get(key);
-          setFieldValue(field, value);
-        }
-      }
+				if (classFields.containsKey(key)) {
+					Field field = classFields.get(key);
+					setFieldValue(field, value);
+				}
+			}
+			log.info("Done loading properties.");
 
-      log.info("Done loading properties.");
+		} catch (IOException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
 
-    } catch (IOException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
-      e.printStackTrace();
-    }
-  }
+	private static void setFieldValue(Field field, String value)
+			throws NumberFormatException, IllegalArgumentException, IllegalAccessException {
 
-  private static void setFieldValue(Field field, String value) throws NumberFormatException,
-      IllegalArgumentException, IllegalAccessException {
+		if (field.getType().equals(int.class)) {
+			field.set(null, Integer.valueOf(value));
+		} else if (field.getType().equals(int[].class)) {
+			int[] intArray = toIntArray(value);
+			field.set(null, intArray);
+		} else if (field.getType().equals(String.class)) {
+			field.set(null, value);
+		} else {
+			log.error("Field " + field.getName() + " is of unknown class", new IllegalArgumentException());
+		}
+	}
 
-    if (field.getType().equals(int.class)) {
-      field.set(null, Integer.valueOf(value));
-    } else if (field.getType().equals(int[].class)) {
-      int[] intArray = toIntArray(value);
-      field.set(null, intArray);
-    } else if (field.getType().equals(String.class)) {
-      field.set(null, value);
-    } else {
-      log.error("Field " + field.getName() + " is of unknown class", new IllegalArgumentException());
-    }
-  }
+	private static String resolveValue(Properties prop, String value) {
 
-  private static String resolveValue(Properties prop, String value) {
+		while (value.matches(".*\\{.+\\}.*")) {
 
-    while (value.matches(".*\\{.+\\}.*")) {
+			String variable = value.substring(value.indexOf('{') + 1, value.indexOf('}')).trim();
+			String varValue = prop.getProperty(variable);
 
-      String variable = value.substring(value.indexOf('{') + 1, value.indexOf('}')).trim();
-      String varValue = prop.getProperty(variable);
+			if (varValue == null) {
+				log.error("Invalid nested variable " + variable + " in file: " + PROPERTIES_PATH,
+						new IllegalArgumentException());
+			} else {
+				value = value.replace("{" + variable + "}", varValue.trim());
+			}
+		}
 
-      if (varValue == null) {
-        log.error("Invalid nested variable " + variable + " in file: " + PROPERTIES_PATH,
-            new IllegalArgumentException());
-      } else {
-        value = value.replace("{" + variable + "}", varValue.trim());
-      }
-    }
-
-    return value;
-  }
+		return value;
+	}
 }

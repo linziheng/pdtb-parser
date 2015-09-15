@@ -17,17 +17,22 @@ package sg.edu.nus.comp.pdtb.parser;
 
 import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
+import sg.edu.nus.comp.pdtb.util.Util;
 
 /**
  * Common class for parser component.
@@ -37,91 +42,153 @@ import sg.edu.nus.comp.pdtb.util.Settings;
  */
 public abstract class Component {
 
-  protected static Logger log = null;
+	protected static Logger log = null;
 
-  protected String name = "not_set";
-  protected String modelFilePath;
-  protected File modelFile;
-  protected File gsFile;
+	protected String name = "not_set";
+	protected String modelFilePath;
+	protected File modelFile;
+	protected File gsFile;
 
-  public Component(String name, String className) {
-    log = LogManager.getLogger(className);
-    this.name = name;
-    this.modelFilePath = OUT_PATH + name + ".model";
-    this.modelFile = new File(modelFilePath);
-  }
+	public Component(String name, String className) {
+		log = LogManager.getLogger(className);
+		this.name = name;
+		this.modelFilePath = OUT_PATH + name + ".model";
+		this.modelFile = new File(modelFilePath);
+	}
 
-  public abstract List<String[]> generateFeatures(File article, FeatureType featureType)
-      throws IOException;
+	public abstract List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException;
 
-  public abstract File parseAnyText(File modelFile, File inputFile) throws IOException;
+	public abstract File parseAnyText(File modelFile, File inputFile) throws IOException;
 
-  public File parseAnyText(File inputFile) throws IOException {
-    return parseAnyText(modelFile, inputFile);
-  };
+	public File parseAnyText(File inputFile) throws IOException {
+		return parseAnyText(modelFile, inputFile);
+	};
 
-  public File train() throws IOException {
-    File trainFile = printFeaturesToFile(FeatureType.Training);
-    File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
-    return modelFile;
-  }
+	public File train() throws IOException {
+		File trainFile = printFeaturesToFile(FeatureType.Training);
+		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
+		return modelFile;
+	}
 
-  public File test(File model, FeatureType featureType) throws IOException {
-    File testFile = printFeaturesToFile(featureType);
-    String fileName = this.name + featureType.toString() + ".out";
-    File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(fileName));
+	public File test(File model, FeatureType featureType) throws IOException {
+		File testFile = printFeaturesToFile(featureType);
+		String fileName = Settings.OUT_PATH + this.name + featureType.toString() + ".out";
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(fileName));
 
-    return outFile;
-  }
+		return outFile;
+	}
 
-  private File printFeaturesToFile(FeatureType featureType) throws IOException {
-    String name = this.name + featureType.toString();
-    File file = new File(OUT_PATH + name);
-    PrintWriter featureFile = new PrintWriter(file);
+	private File printFeaturesToFile(FeatureType featureType) throws IOException {
 
-    log.info("Printing " + featureType + " features: ");
-    int[] sections =
-        (featureType == FeatureType.Training) ? Settings.TRAIN_SECTIONS : Settings.TEST_SECTIONS;
-    for (int section : sections) {
-      log.info("Section: " + section);
-      File[] files = Corpus.getSectionFiles(section);
+		String name = this.name + featureType.toString();
 
-      for (File article : files) {
-        log.trace("Article: " + article.getName());
-        List<String[]> features = generateFeatures(article, featureType);
-        for (String[] feature : features) {
-          featureFile.println(feature[0]);
-        }
-        featureFile.flush();
-      }
-    }
-    featureFile.close();
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
 
-    return file;
-  }
+		File testFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(testFile);
 
-  public File test(FeatureType featureType) throws IOException {
-    return test(modelFile, featureType);
-  }
+		log.info("Printing " + featureType + " features: ");
+		int[] sections = (featureType == FeatureType.Training) ? Settings.TRAIN_SECTIONS : Settings.TEST_SECTIONS;
+		for (int section : sections) {
+			log.info("Section: " + section);
+			File[] files = Corpus.getSectionFiles(section);
 
-  public File getModelFile() {
-    return modelFile;
-  }
+			for (File file : files) {
+				log.trace("Article: " + file.getName());
 
-  public File getGsFile() {
-    return gsFile;
-  }
+				String articleId = file.getName().substring(0, 8);
+				String articleName = dir + articleId;
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
 
-  public File getGsFile(FeatureType type) {
-    this.gsFile = new File(OUT_PATH + name + type);
-    return gsFile;
-  }
+				File auxFile = new File(articleName + ".aux");
+				PrintWriter auxFileWriter = new PrintWriter(auxFile);
 
-  public String getModelFilePath() {
-    return this.modelFilePath;
-  }
+				List<String[]> features = generateFeatures(file, featureType);
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
+					if (feature.length > 1 && !this.getClass().equals(NonExplicitComp.class)) {
+						String headSpan = Corpus.calculateHeadSpan(feature[1]);
+						auxFileWriter.println(headSpan);
+					}
+				}
+				featureFile.flush();
+				articleFeatures.close();
+				auxFileWriter.close();
 
-  public void setModelFilePath(String modelFilePath) {
-    this.modelFilePath = modelFilePath;
-  }
+				if (featureType.isTestingType() && this.getClass().equals(ExplicitComp.class) && features.size() > 0) {
+					File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
+					String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+					new File(pipeDir).mkdirs();
+					makeExpPipeFile(pipeDir, articleOut, auxFile, file.getName());
+				}
+			}
+		}
+		featureFile.close();
+
+		return testFile;
+	}
+
+	private void makeExpPipeFile(String pipeDir, File articleOut, File auxFile, String article) throws IOException {
+		File pipeFile = new File(pipeDir + "/" + article);
+		String[] lines = Util.readFile(pipeFile).split(Util.NEW_LINE);
+		Map<String, String> spanToPipe = new HashMap<>();
+		for (String pipe : lines) {
+			String[] cols = pipe.split("\\|", -1);
+			spanToPipe.put(cols[3], pipe);
+		}
+		if (spanToPipe.size() > 0) {
+			PrintWriter pipeWriter = new PrintWriter(pipeFile);
+			try (BufferedReader reader = Util.reader(auxFile)) {
+				try (BufferedReader outReader = Util.reader(articleOut)) {
+					String span;
+					while ((span = reader.readLine()) != null) {
+						String[] out = outReader.readLine().split("\\s+");
+						String sense = Corpus.getFullSense(out[out.length - 1]);
+						String[] cols = spanToPipe.get(span).split("\\|", -1);
+						StringBuilder newPipe = new StringBuilder();
+
+						for (int i = 0; i < cols.length; ++i) {
+							if (i == 11) {
+								newPipe.append(sense);
+							} else {
+								newPipe.append(cols[i]);
+							}
+							newPipe.append('|');
+						}
+						newPipe.deleteCharAt(newPipe.length() - 1);
+						pipeWriter.println(newPipe);
+					}
+				}
+			}
+			pipeWriter.close();
+		}
+	}
+
+	public File test(FeatureType featureType) throws IOException {
+		return test(modelFile, featureType);
+	}
+
+	public File getModelFile() {
+		return modelFile;
+	}
+
+	public File getGsFile() {
+		return gsFile;
+	}
+
+	public File getGsFile(FeatureType type) {
+		this.gsFile = new File(OUT_PATH + name + type);
+		return gsFile;
+	}
+
+	public String getModelFilePath() {
+		return this.modelFilePath;
+	}
+
+	public void setModelFilePath(String modelFilePath) {
+		this.modelFilePath = modelFilePath;
+	}
 }
