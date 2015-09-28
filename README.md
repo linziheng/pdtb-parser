@@ -22,9 +22,16 @@ Steps:
 
 3. Unzip the file and from the unziped directory run: 
     
-* ```java -jar parser.jar file_to_parse```
+* ```java -jar parser.jar wsj_2300```
 
-Where file_to_parse is the file you want to parse. You can also try it on the sample file wsj_2300. Check config.properties for modifying the settings. 
+Replace `wsj_2300` with the file you want to parse. The resulting pipe files would be in `./output/`. Check [config.properties](config.properties) for modifying the settings. 
+
+
+### Parse a directory of files in batch mode
+
+1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
+2. Download the parser:
+
 
 
 ## Pipe Format
