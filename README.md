@@ -17,8 +17,8 @@ Steps:
 
 1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
 2. Download the parser:
-    - Level 1 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_1.zip or 
-    - Level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_2.zip
+    - Level 1 zip file https://goo.gl/ROmdhs or 
+    - Level 2 zip file https://goo.gl/PELG2z
 
 3. Unzip the file and from the unziped directory run: 
     
@@ -32,8 +32,8 @@ Steps:
 
 1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
 2. Download the parser:
-    - Level 1 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/batch_parser_level_1.zip or 
-    - Level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/batch_parser_level_2.zip
+    - Level 1 zip file https://goo.gl/0W3aSi or 
+    - Level 2 zip file https://goo.gl/e2gp8t
 
 3. Unzip the file and from the unziped directory run: 
 
