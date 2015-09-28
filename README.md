@@ -32,12 +32,13 @@ Steps:
 
 1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
 2. Download the parser:
-    - Level 1 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_1.zip or 
-    - Level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_2.zip
+    - Level 1 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/batch_parser_level_1.zip or 
+    - Level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/batch_parser_level_2.zip
 
 3. Unzip the file and from the unziped directory run: 
+* ```java -jar batch_parser.jar corpus```
 
-
+Replace `corpus` with the folder containing the text file you want to parse. Note **only** files ending in `.txt` will be parsed. The resulting pipe files would be in a folder named `pdtb_1` or `pdtb_2` (depending on the level), in each folder containing text files.
 
 
 ## Pipe Format
