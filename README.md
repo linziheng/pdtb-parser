@@ -36,9 +36,10 @@ Steps:
     - Level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/batch_parser_level_2.zip
 
 3. Unzip the file and from the unziped directory run: 
+
 * ```java -jar batch_parser.jar corpus```
 
-Replace `corpus` with the folder containing the text file you want to parse. Note **only** files ending in `.txt` will be parsed. The resulting pipe files would be in a folder named `pdtb_1` or `pdtb_2` (depending on the level), in each folder containing text files.
+Replace `corpus` with the folder containing folders and text files you want to parse. Note **only** files ending in `.txt` will be parsed. The resulting pipe and auxiliary files would be in a folder named `pdtb_1` or `pdtb_2` (depending on the level), in each (sub)folder containing text files.
 
 
 ## Pipe Format
