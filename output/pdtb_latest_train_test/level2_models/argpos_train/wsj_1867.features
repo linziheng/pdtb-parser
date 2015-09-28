@@ -1,0 +1,5 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:since conn_POS:IN prev1:billion prev1_POS:CD with_prev1_full:billion_since with_prev1_POS_full:CD_IN prev2:43.3 prev2_POS:CD with_prev2_full:43.3_since with_prev2_POS_full:CD_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:109 prev2_POS:CD with_prev2_full:109_also with_prev2_POS_full:CD_RB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS

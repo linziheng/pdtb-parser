@@ -1,0 +1,5 @@
+conn:after conn_POS:IN prev1:projections prev1_POS:NNS with_prev1_full:projections_after with_prev1_POS_full:NNS_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_after with_prev2_POS_full:PRP$_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:results prev2_POS:NNS with_prev2_full:results_however with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB prev1:volume prev1_POS:NN with_prev1_full:volume_also with_prev1_POS_full:NN_RB prev2:third-quarter prev2_POS:NN with_prev2_full:third-quarter_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Co. prev2_POS:NNP with_prev2_full:Co._also with_prev2_POS_full:NNP_RB PS
+conn:Separately conn_POS:RB sent_pos:0 PS

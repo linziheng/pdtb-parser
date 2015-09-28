@@ -1,0 +1,7 @@
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_though with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:who prev1_POS:WP with_prev1_full:who_also with_prev1_POS_full:WP_RB prev2:Democrats prev2_POS:NNPS with_prev2_full:Democrats_also with_prev2_POS_full:NNPS_RB PS
+conn:until conn_POS:IN prev1:held prev1_POS:VBN with_prev1_full:held_until with_prev1_POS_full:VBN_IN prev2:was prev2_POS:VBD with_prev2_full:was_until with_prev2_POS_full:VBD_IN SS
+conn:As_an_alternative conn_POS:IN_DT_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:plan prev2_POS:NN with_prev2_full:plan_also with_prev2_POS_full:NN_RB PS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

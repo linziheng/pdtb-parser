@@ -1,0 +1,19 @@
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:lbo_because Cause
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:down_if Condition
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:month_after Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:more_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:back_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:non-deductible_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Conjunction
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Cause
+conn_lc:until conn:until conn_POS:IN with_prev_full:deduction_until Asynchronous
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition

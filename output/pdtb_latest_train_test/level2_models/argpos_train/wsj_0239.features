@@ -1,0 +1,26 @@
+conn:when conn_POS:WRB prev1:101 prev1_POS:CD with_prev1_full:101_when with_prev1_POS_full:CD_WRB prev2:French prev2_POS:NNP with_prev2_full:French_when with_prev2_POS_full:NNP_WRB SS
+conn:and conn_POS:CC prev1:convention prev1_POS:NN with_prev1_full:convention_and with_prev1_POS_full:NN_CC prev2:journalism prev2_POS:NN with_prev2_full:journalism_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:blase prev1_POS:NN with_prev1_full:blase_when with_prev1_POS_full:NN_WRB prev2:of prev2_POS:IN with_prev2_full:of_when with_prev2_POS_full:IN_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:They prev2_POS:PRP with_prev2_full:They_also with_prev2_POS_full:PRP_RB PS
+conn:even_if conn_POS:RB_IN prev1:that prev1_POS:RB with_prev1_full:that_even_if with_prev1_POS_full:RB_RB_IN prev2:you prev2_POS:PRP with_prev2_full:you_even_if with_prev2_POS_full:PRP_RB_IN SS
+conn:still conn_POS:RB sent_pos:-3 prev1:can prev1_POS:MD with_prev1_full:can_still with_prev1_POS_full:MD_RB prev2:you prev2_POS:PRP with_prev2_full:you_still with_prev2_POS_full:PRP_RB SS
+conn:At_least_not_when conn_POS:IN_JJS_RB_WRB sent_pos:0 PS
+conn:while conn_POS:IN prev1:drinking prev1_POS:NN with_prev1_full:drinking_while with_prev1_POS_full:NN_IN prev2:coffee prev2_POS:NN with_prev2_full:coffee_while with_prev2_POS_full:NN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:river prev1_POS:NN with_prev1_full:river_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:world prev2_POS:NN with_prev2_full:world_even_if with_prev2_POS_full:NN_RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:feet prev1_POS:NNS with_prev1_full:feet_and with_prev1_POS_full:NNS_CC prev2:2,000 prev2_POS:CD with_prev2_full:2,000_and with_prev2_POS_full:CD_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Only_when conn_POS:RB_WRB sent_pos:0 SS
+conn:as conn_POS:IN prev1:pilot prev1_POS:NN with_prev1_full:pilot_as with_prev1_POS_full:NN_IN prev2:our prev2_POS:PRP$ with_prev2_full:our_as with_prev2_POS_full:PRP$_IN SS
+conn:before conn_POS:IN prev1:feet prev1_POS:NNS with_prev1_full:feet_before with_prev1_POS_full:NNS_IN prev2:few prev2_POS:JJ with_prev2_full:few_before with_prev2_POS_full:JJ_IN SS
+conn:while conn_POS:IN prev1:mud prev1_POS:NN with_prev1_full:mud_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS
+conn:finally conn_POS:RB sent_pos:1 prev1:We prev1_POS:PRP with_prev1_full:We_finally with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:morning prev1_POS:NN with_prev1_full:morning_and with_prev1_POS_full:NN_CC prev2:all prev2_POS:DT with_prev2_full:all_and with_prev2_POS_full:DT_CC SS
+conn:while conn_POS:IN prev1:tee prev1_POS:NN with_prev1_full:tee_while with_prev1_POS_full:NN_IN prev2:first prev2_POS:JJ with_prev2_full:first_while with_prev2_POS_full:JJ_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS

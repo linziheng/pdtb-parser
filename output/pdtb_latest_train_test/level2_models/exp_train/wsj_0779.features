@@ -1,0 +1,23 @@
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and List
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:failures_in_turn Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:premium_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:fed_also Conjunction
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:and_thereby Cause
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:since conn:since conn_POS:IN with_prev_full:but_since Asynchronous
+conn_lc:since conn:since conn_POS:IN with_prev_full:but_since Cause
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:broke_if Condition

@@ -1,0 +1,18 @@
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:run-up_when Synchrony
+conn_lc:before conn:before conn_POS:IN with_prev_full:day_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:confused_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:many_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:many_and Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:declined_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:3\/4_before Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:earnings_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:shares_even_though Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Cause
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:but conn:But conn_POS:CC Concession

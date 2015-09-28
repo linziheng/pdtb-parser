@@ -1,0 +1,28 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:more_if Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:coming_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:coming_after Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:insurance_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:all_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:sick_and Expansion
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:rate_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:insurance_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:risks_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:grounds_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:grounds_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:Before conn_POS:IN with_prev_full:``_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:association_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Temporal

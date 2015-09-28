@@ -1,0 +1,14 @@
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:violence prev2_POS:NN with_prev2_full:violence_though with_prev2_POS_full:NN_IN SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_because with_prev1_POS_full:-RRB-_IN prev2:Guinness prev2_POS:NNP with_prev2_full:Guinness_because with_prev2_POS_full:NNP_IN SS
+conn:Similarly conn_POS:RB sent_pos:0 PS
+conn:Further conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_as with_prev1_POS_full::_IN prev2:outside prev2_POS:NN with_prev2_full:outside_as with_prev2_POS_full:NN_IN SS
+conn:even_when conn_POS:RB_WRB prev1:included prev1_POS:VBN with_prev1_full:included_even_when with_prev1_POS_full:VBN_RB_WRB prev2:routinely prev2_POS:RB with_prev2_full:routinely_even_when with_prev2_POS_full:RB_RB_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:script prev2_POS:NN with_prev2_full:script_and with_prev2_POS_full:NN_CC SS
+conn:In_short conn_POS:IN_JJ sent_pos:0 PS
+conn:unless conn_POS:IN prev1:movie prev1_POS:NN with_prev1_full:movie_unless with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_unless with_prev2_POS_full:DT_IN SS
+conn:Hence conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comedies prev2_POS:NNS with_prev2_full:comedies_and with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:errs prev1_POS:VBZ with_prev1_full:errs_when with_prev1_POS_full:VBZ_WRB prev2:Knight prev2_POS:NNP with_prev2_full:Knight_when with_prev2_POS_full:NNP_WRB SS

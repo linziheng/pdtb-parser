@@ -1,0 +1,13 @@
+conn:also conn_POS:RB sent_pos:2 prev1:Entertainment prev1_POS:NNP with_prev1_full:Entertainment_also with_prev1_POS_full:NNP_RB prev2:Qintex prev2_POS:NNP with_prev2_full:Qintex_also with_prev2_POS_full:NNP_RB PS
+conn:after conn_POS:IN prev1:protection prev1_POS:NN with_prev1_full:protection_after with_prev1_POS_full:NN_IN prev2:11 prev2_POS:CD with_prev2_full:11_after with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:Australia prev1_POS:NNP with_prev1_full:Australia_and with_prev1_POS_full:NNP_CC prev2:Qintex prev2_POS:NNP with_prev2_full:Qintex_and with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:1 prev1_POS:CD with_prev1_full:1_and with_prev1_POS_full:CD_CC prev2:Oct. prev2_POS:NNP with_prev2_full:Oct._and with_prev2_POS_full:NNP_CC SS
+conn:if conn_POS:IN prev1:said prev1_POS:VBD with_prev1_full:said_if with_prev1_POS_full:VBD_IN prev2:Lloyd prev2_POS:NNP with_prev2_full:Lloyd_if with_prev2_POS_full:NNP_IN SS
+conn:but conn_POS:CC prev1:payment prev1_POS:NN with_prev1_full:payment_but with_prev1_POS_full:NN_CC prev2:million prev2_POS:CD with_prev2_full:million_but with_prev2_POS_full:CD_CC SS
+conn:However conn_POS:WRB sent_pos:0 PS
+conn:also conn_POS:RB prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:MGM\/UA prev1_POS:NNP with_prev1_full:MGM\/UA_and with_prev1_POS_full:NNP_CC prev2:for prev2_POS:IN with_prev2_full:for_and with_prev2_POS_full:IN_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:MGM\/UA prev2_POS:NNP with_prev2_full:MGM\/UA_then with_prev2_POS_full:NNP_RB SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:reasons prev2_POS:NNS with_prev2_full:reasons_and with_prev2_POS_full:NNS_CC SS
+conn:because conn_POS:IN prev1:resigned prev1_POS:VBD with_prev1_full:resigned_because with_prev1_POS_full:VBD_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:However conn_POS:RB sent_pos:0 PS

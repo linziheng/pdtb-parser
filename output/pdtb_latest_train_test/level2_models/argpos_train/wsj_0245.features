@@ -1,0 +1,8 @@
+conn:also conn_POS:RB sent_pos:2 prev1:move prev1_POS:NN with_prev1_full:move_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:because conn_POS:IN sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:when conn_POS:WRB prev1:because prev1_POS:IN with_prev1_full:because_when with_prev1_POS_full:IN_WRB prev2:'s prev2_POS:VBZ with_prev2_full:'s_when with_prev2_POS_full:VBZ_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:structured prev2_POS:VBN with_prev2_full:structured_or with_prev2_POS_full:VBN_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:past prev2_POS:NN with_prev2_full:past_however with_prev2_POS_full:NN_RB PS
+conn:when conn_POS:WRB prev1:control prev1_POS:NN with_prev1_full:control_when with_prev1_POS_full:NN_WRB prev2:its prev2_POS:PRP$ with_prev2_full:its_when with_prev2_POS_full:PRP$_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS

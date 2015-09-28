@@ -1,0 +1,10 @@
+conn:indeed conn_POS:RB sent_pos:2 prev1:plan prev1_POS:NN with_prev1_full:plan_indeed with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_indeed with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:thus conn_POS:RB sent_pos:2 prev1:plan prev1_POS:NN with_prev1_full:plan_thus with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_thus with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Nor conn_POS:CC sent_pos:0 PS
+conn:thus conn_POS:RB sent_pos:2 prev1:plan prev1_POS:NN with_prev1_full:plan_thus with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_thus with_prev2_POS_full:DT_RB PS
+conn:as_a_result conn_POS:IN_DT_NN sent_pos:-2 prev1:decline prev1_POS:VB with_prev1_full:decline_as_a_result with_prev1_POS_full:VB_IN_DT_NN prev2:only prev2_POS:RB with_prev2_full:only_as_a_result with_prev2_POS_full:RB_IN_DT_NN PS

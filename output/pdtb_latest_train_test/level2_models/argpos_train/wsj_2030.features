@@ -1,0 +1,9 @@
+conn:However conn_POS:RB sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:undeveloped prev1_POS:JJ with_prev1_full:undeveloped_but with_prev1_POS_full:JJ_CC prev2:still prev2_POS:RB with_prev2_full:still_but with_prev2_POS_full:RB_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:specifically conn_POS:RB prev1:that prev1_POS:WDT with_prev1_full:that_specifically with_prev1_POS_full:WDT_RB prev2:program prev2_POS:NN with_prev2_full:program_specifically with_prev2_POS_full:NN_RB SS
+conn:when conn_POS:WRB prev1:plan prev1_POS:NN with_prev1_full:plan_when with_prev1_POS_full:NN_WRB prev2:its prev2_POS:PRP$ with_prev2_full:its_when with_prev2_POS_full:PRP$_WRB SS

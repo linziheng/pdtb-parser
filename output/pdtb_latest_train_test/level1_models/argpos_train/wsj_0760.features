@@ -1,0 +1,3 @@
+conn:while conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_while with_prev1_POS_full:NN_IN prev2:16 prev2_POS:CD with_prev2_full:16_while with_prev2_POS_full:CD_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:segment prev2_POS:NN with_prev2_full:segment_while with_prev2_POS_full:NN_IN SS

@@ -1,0 +1,16 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:inquiry_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:except conn:except conn_POS:IN with_prev_full:,_except Exception
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:before conn:before conn_POS:IN with_prev_full:lincoln_before Asynchronous
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:lincoln_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:-rrb-_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction

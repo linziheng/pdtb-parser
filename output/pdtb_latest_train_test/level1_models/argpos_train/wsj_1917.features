@@ -1,0 +1,4 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Lionel prev1_POS:NNP with_prev1_full:Lionel_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Lionel prev1_POS:NNP with_prev1_full:Lionel_also with_prev1_POS_full:NNP_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:after conn_POS:IN prev1:suit prev1_POS:NN with_prev1_full:suit_after with_prev1_POS_full:NN_IN prev2:'s prev2_POS:POS with_prev2_full:'s_after with_prev2_POS_full:POS_IN SS

@@ -1,0 +1,7 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:possible_if Contingency
+conn_lc:largely_because conn:largely_because conn_POS:RB_IN with_prev_full:,_largely_because Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:``_before Temporal

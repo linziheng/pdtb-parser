@@ -1,0 +1,26 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:sales prev2_POS:NNS with_prev2_full:sales_if with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_because with_prev1_POS_full:CC_IN SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:because conn_POS:IN prev1:technologies prev1_POS:NNS with_prev1_full:technologies_because with_prev1_POS_full:NNS_IN prev2:new prev2_POS:JJ with_prev2_full:new_because with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:so_that conn_POS:IN_IN prev1:publicly prev1_POS:RB with_prev1_full:publicly_so_that with_prev1_POS_full:RB_IN_IN prev2:reported prev2_POS:VBN with_prev2_full:reported_so_that with_prev2_POS_full:VBN_IN_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:year prev2_POS:NN with_prev2_full:year_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_before with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:guidelines prev2_POS:NNS with_prev2_full:guidelines_also with_prev2_POS_full:NNS_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:officials prev2_POS:NNS with_prev2_full:officials_also with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:Francisco prev2_POS:NNP with_prev2_full:Francisco_also with_prev2_POS_full:NNP_RB PS
+conn:until conn_POS:IN prev1:investors prev1_POS:NNS with_prev1_full:investors_until with_prev1_POS_full:NNS_IN prev2:venture prev2_POS:NN with_prev2_full:venture_until with_prev2_POS_full:NN_IN SS

@@ -1,0 +1,4 @@
+conn:previously conn_POS:RB sent_pos:1 prev1:BNL prev1_POS:NNP with_prev1_full:BNL_previously with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:BNL prev1_POS:NNP with_prev1_full:BNL_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:Italy prev2_POS:NNP with_prev2_full:Italy_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:losses prev2_POS:NNS with_prev2_full:losses_and with_prev2_POS_full:NNS_CC SS

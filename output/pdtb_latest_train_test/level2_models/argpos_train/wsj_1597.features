@@ -1,0 +1,3 @@
+conn:also conn_POS:RB sent_pos:2 prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:Results prev2_POS:NNS with_prev2_full:Results_also with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:results prev1_POS:NNS with_prev1_full:results_and with_prev1_POS_full:NNS_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:Separately conn_POS:RB sent_pos:0 PS

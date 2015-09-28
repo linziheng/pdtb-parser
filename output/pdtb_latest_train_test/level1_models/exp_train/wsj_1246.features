@@ -1,0 +1,23 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:cells_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:cells_while Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:still conn:still conn_POS:RB with_prev_full:they_still Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:work_before Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:antibody_then Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Comparison
+conn_lc:still conn:still conn_POS:RB with_prev_full:must_still Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:so conn_POS:RB with_prev_full:and_so Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:still conn:still conn_POS:RB with_prev_full:were_still Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Contingency

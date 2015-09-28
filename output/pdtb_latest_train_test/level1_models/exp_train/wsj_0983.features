@@ -1,0 +1,28 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:worse_because Contingency
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:values_because Contingency
+conn_lc:in_particular conn:in_particular conn_POS:IN_JJ with_prev_full:funds_in_particular Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:holders_because Contingency
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN with_prev_full:``_as_long_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Contingency
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:borrow_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fund_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fund_when Contingency
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:problem_because Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:issues_instead Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion

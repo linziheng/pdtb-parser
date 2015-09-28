@@ -1,0 +1,17 @@
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:healthy_if Condition
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:avoided_only_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:but_before Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:crisis_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:investments_as Synchrony
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

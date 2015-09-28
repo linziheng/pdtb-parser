@@ -1,0 +1,10 @@
+conn:also conn_POS:RB sent_pos:2 prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:Suppliers prev2_POS:NNS with_prev2_full:Suppliers_also with_prev2_POS_full:NNS_RB PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Co. prev2_POS:NNP with_prev2_full:Co._for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:share prev1_POS:NN with_prev1_full:share_because with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_because with_prev2_POS_full:DT_IN SS
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:As conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_As with_prev1_POS_full:``_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:companies prev2_POS:NNS with_prev2_full:companies_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Ky. prev2_POS:NNP with_prev2_full:Ky._also with_prev2_POS_full:NNP_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:revenues prev2_POS:NNS with_prev2_full:revenues_for_example with_prev2_POS_full:NNS_IN_NN PS

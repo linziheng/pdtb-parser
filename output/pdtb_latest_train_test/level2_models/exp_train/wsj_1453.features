@@ -1,0 +1,30 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:happen_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:happen_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:did_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:is_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:through_when Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:by_comparison conn:By_comparison conn_POS:IN_NN Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while List
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while List
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sell_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:translations_when Synchrony
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:up_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Conjunction

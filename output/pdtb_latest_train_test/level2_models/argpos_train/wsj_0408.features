@@ -1,0 +1,6 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:later conn_POS:RB prev1:so prev1_POS:RB with_prev1_full:so_later with_prev1_POS_full:RB_RB prev2:do prev2_POS:VB with_prev2_full:do_later with_prev2_POS_full:VB_RB SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Warner prev2_POS:NNP with_prev2_full:Warner_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Azoff prev1_POS:NNP with_prev1_full:Azoff_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS

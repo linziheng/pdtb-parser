@@ -1,0 +1,31 @@
+conn:even_before conn_POS:RB_IN prev1:Corp. prev1_POS:NNP with_prev1_full:Corp._even_before with_prev1_POS_full:NNP_RB_IN prev2:AMR prev2_POS:NNP with_prev2_full:AMR_even_before with_prev2_POS_full:NNP_RB_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:acted prev1_POS:VBD with_prev1_full:acted_after with_prev1_POS_full:VBD_IN prev2:developer prev2_POS:NN with_prev2_full:developer_after with_prev2_POS_full:NN_IN SS
+conn:after conn_POS:IN prev1:reopened prev1_POS:VBN with_prev1_full:reopened_after with_prev1_POS_full:VBN_IN prev2:never prev2_POS:RB with_prev2_full:never_after with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:shares prev2_POS:NNS with_prev2_full:shares_and with_prev2_POS_full:NNS_CC SS
+conn:as conn_POS:IN prev1:76.50 prev1_POS:CD with_prev1_full:76.50_as with_prev1_POS_full:CD_IN prev2:$ prev2_POS:$ with_prev2_full:$_as with_prev2_POS_full:$_IN SS
+conn:even_before conn_POS:RB_IN prev1:stalling prev1_POS:VBG with_prev1_full:stalling_even_before with_prev1_POS_full:VBG_RB_IN prev2:of prev2_POS:IN with_prev2_full:of_even_before with_prev2_POS_full:IN_RB_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:Trump prev1_POS:NNP with_prev1_full:Trump_because with_prev1_POS_full:NNP_IN prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._because with_prev2_POS_full:NNP_IN SS
+conn:before conn_POS:IN prev1:bid prev1_POS:NN with_prev1_full:bid_before with_prev1_POS_full:NN_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_before with_prev2_POS_full:PRP$_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:had prev1_POS:VBD with_prev1_full:had_also with_prev1_POS_full:VBD_RB prev2:AMR prev2_POS:NNP with_prev2_full:AMR_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comment prev2_POS:VB with_prev2_full:comment_and with_prev2_POS_full:VB_CC SS
+conn:before conn_POS:IN prev1:market prev1_POS:NN with_prev1_full:market_before with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_before with_prev2_POS_full:DT_IN SS
+conn:before conn_POS:IN prev1:sell prev1_POS:VB with_prev1_full:sell_before with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_before with_prev2_POS_full:RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:share prev2_POS:NN with_prev2_full:share_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:point prev1_POS:NN with_prev1_full:point_and with_prev1_POS_full:NN_CC prev2:talking prev2_POS:NN with_prev2_full:talking_and with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:unraveled prev1_POS:VBN with_prev1_full:unraveled_after with_prev1_POS_full:VBN_IN prev2:deal prev2_POS:NN with_prev2_full:deal_after with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:billion prev2_POS:CD with_prev2_full:billion_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Nor conn_POS:CC sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:restructuring prev1_POS:NN with_prev1_full:restructuring_because with_prev1_POS_full:NN_IN prev2:or prev2_POS:CC with_prev2_full:or_because with_prev2_POS_full:CC_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:bidders prev1_POS:NNS with_prev1_full:bidders_because with_prev1_POS_full:NNS_IN prev2:other prev2_POS:JJ with_prev2_full:other_because with_prev2_POS_full:JJ_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:Also prev2_POS:RB with_prev2_full:Also_because with_prev2_POS_full:RB_IN SS

@@ -1,0 +1,2 @@
+conn:as conn_POS:IN prev1:earnings prev1_POS:NNS with_prev1_full:earnings_as with_prev1_POS_full:NNS_IN prev2:lower prev2_POS:JJR with_prev2_full:lower_as with_prev2_POS_full:JJR_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:businesses prev2_POS:NNS with_prev2_full:businesses_and with_prev2_POS_full:NNS_CC SS

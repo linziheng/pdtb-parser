@@ -1,0 +1,9 @@
+conn_lc:although conn:Although conn_POS:IN with_prev_full:``_although Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:impact_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:costs_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:firms_and Expansion

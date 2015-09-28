@@ -1,0 +1,5 @@
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:fell prev1_POS:VBD with_prev1_full:fell_and with_prev1_POS_full:VBD_CC prev2:prices prev2_POS:NNS with_prev2_full:prices_and with_prev2_POS_full:NNS_CC SS
+conn:as conn_POS:IN prev1:rose prev1_POS:VBD with_prev1_full:rose_as with_prev1_POS_full:VBD_IN prev2:bonds prev2_POS:NNS with_prev2_full:bonds_as with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:dollar prev1_POS:NN with_prev1_full:dollar_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Also conn_POS:RB sent_pos:0 PS

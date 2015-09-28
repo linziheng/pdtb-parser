@@ -1,0 +1,7 @@
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1,000 prev2_POS:CD with_prev2_full:1,000_and with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:section prev1_POS:NN with_prev1_full:section_before with_prev1_POS_full:NN_IN prev2:Rock prev2_POS:NNP with_prev2_full:Rock_before with_prev2_POS_full:NNP_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Sagos prev2_POS:NNS with_prev2_full:Sagos_if with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS

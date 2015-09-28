@@ -1,0 +1,20 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:nonintervention prev2_POS:NN with_prev2_full:nonintervention_while with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:Aid prev2_POS:NN with_prev2_full:Aid_also with_prev2_POS_full:NN_RB PS
+conn:therefore conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_therefore with_prev1_POS_full:VBD_RB prev2:It prev2_POS:PRP with_prev2_full:It_therefore with_prev2_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:election prev1_POS:NN with_prev1_full:election_if with_prev1_POS_full:NN_IN prev2:February prev2_POS:NNP with_prev2_full:February_if with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:dictatorship prev1_POS:NN with_prev1_full:dictatorship_and with_prev1_POS_full:NN_CC prev2:Sandinista prev2_POS:JJ with_prev2_full:Sandinista_and with_prev2_POS_full:JJ_CC SS
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:Salvador prev1_POS:NNP with_prev1_full:Salvador_if with_prev1_POS_full:NNP_IN prev2:El prev2_POS:NNP with_prev2_full:El_if with_prev2_POS_full:NNP_IN SS
+conn:In_the_meantime conn_POS:IN_DT_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:happen prev1_POS:VB with_prev1_full:happen_if with_prev1_POS_full:VB_IN prev2:would prev2_POS:MD with_prev2_full:would_if with_prev2_POS_full:MD_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:believe prev2_POS:VBP with_prev2_full:believe_if with_prev2_POS_full:VBP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

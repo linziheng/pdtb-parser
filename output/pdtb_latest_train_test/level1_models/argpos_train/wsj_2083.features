@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:demand prev1_POS:NN with_prev1_full:demand_and with_prev1_POS_full:NN_CC prev2:overtaken prev2_POS:VBN with_prev2_full:overtaken_and with_prev2_POS_full:VBN_CC SS
+conn:as_a_result conn_POS:IN_DT_NN prev1:margins prev1_POS:NNS with_prev1_full:margins_as_a_result with_prev1_POS_full:NNS_IN_DT_NN prev2:profit prev2_POS:NN with_prev2_full:profit_as_a_result with_prev2_POS_full:NN_IN_DT_NN SS
+conn:But conn_POS:CC sent_pos:0 PS

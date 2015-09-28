@@ -1,0 +1,11 @@
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:incorrect_when Pragmatic_condition
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:devalued_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:frequency_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:mind_as Synchrony
+conn_lc:unless conn:Unless conn_POS:IN Alternative

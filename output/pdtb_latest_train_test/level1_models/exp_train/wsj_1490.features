@@ -1,0 +1,18 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:losses_if Contingency
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Contingency
+conn_lc:so conn:So conn_POS:CC Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:money_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:banks_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:higher_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:came_before Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:mess_until Temporal
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal

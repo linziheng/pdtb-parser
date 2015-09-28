@@ -1,0 +1,9 @@
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_So with_prev1_POS_full:``_RB PS
+conn:when conn_POS:WRB sent_pos:2 prev1:So prev1_POS:RB with_prev1_full:So_when with_prev1_POS_full:RB_WRB prev2:`` prev2_POS:`` with_prev2_full:``_when with_prev2_POS_full:``_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:particularly_if conn_POS:RB_IN prev1:'' prev1_POS:'' with_prev1_full:''_particularly_if with_prev1_POS_full:''_RB_IN prev2:, prev2_POS:, with_prev2_full:,_particularly_if with_prev2_POS_full:,_RB_IN SS
+conn:because conn_POS:IN prev1:downturn prev1_POS:NN with_prev1_full:downturn_because with_prev1_POS_full:NN_IN prev2:latest prev2_POS:JJS with_prev2_full:latest_because with_prev2_POS_full:JJS_IN SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS

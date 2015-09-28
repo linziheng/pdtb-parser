@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:officer_and Expansion
+conn_lc:later conn:Later conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:board_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

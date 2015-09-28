@@ -1,0 +1,17 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:funds prev1_POS:NNS with_prev1_full:funds_after with_prev1_POS_full:NNS_IN prev2:market prev2_POS:NN with_prev2_full:market_after with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:rose prev2_POS:VBD with_prev2_full:rose_in_fact with_prev2_POS_full:VBD_IN_NN PS
+conn:before conn_POS:IN prev1:orders prev1_POS:NNS with_prev1_full:orders_before with_prev1_POS_full:NNS_IN prev2:void prev2_POS:VB with_prev2_full:void_before with_prev2_POS_full:VB_IN SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Mass. prev2_POS:NNP with_prev2_full:Mass._for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:later conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_later with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_later with_prev2_POS_full:,_RB SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:weeks prev1_POS:NNS with_prev1_full:weeks_as with_prev1_POS_full:NNS_IN prev2:several prev2_POS:JJ with_prev2_full:several_as with_prev2_POS_full:JJ_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:redemptions prev2_POS:NNS with_prev2_full:redemptions_however with_prev2_POS_full:NNS_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS

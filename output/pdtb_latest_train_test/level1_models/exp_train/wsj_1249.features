@@ -1,0 +1,19 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:--_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:u.s._when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:share_when Contingency
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:japanese_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:day_since Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:summer_and Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:even_after conn:even_after conn_POS:RB_IN with_prev_full:,_even_after Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:virus_while Temporal
+conn_lc:and conn:And conn_POS:CC Expansion

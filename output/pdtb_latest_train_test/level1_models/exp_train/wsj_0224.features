@@ -1,0 +1,14 @@
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:company_as_long_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:pence_before Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:jaguar_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:analysts_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:share_after Temporal
+conn_lc:so conn:so conn_POS:IN with_prev_full:way_so Contingency

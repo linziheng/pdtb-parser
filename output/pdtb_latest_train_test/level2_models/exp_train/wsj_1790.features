@@ -1,0 +1,21 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:counseling_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:counseling_as Cause
+conn_lc:especially_if conn:especially_if conn_POS:RB_IN with_prev_full:,_especially_if Condition
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:when conn:when conn_POS:WRB with_prev_full:career_when Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:couples_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:erode_if Condition
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:also conn:also conn_POS:RB with_prev_full:association_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:program_because Cause
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:dramatically_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:dalton_also Conjunction
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:but conn:But conn_POS:CC Contrast

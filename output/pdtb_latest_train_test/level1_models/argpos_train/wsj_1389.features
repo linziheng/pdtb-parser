@@ -1,0 +1,22 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:so prev2_POS:RB with_prev2_full:so_and with_prev2_POS_full:RB_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:and prev2_POS:CC with_prev2_full:and_if with_prev2_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:slowing prev1_POS:VBG with_prev1_full:slowing_and with_prev1_POS_full:VBG_CC prev2:is prev2_POS:VBZ with_prev2_full:is_and with_prev2_POS_full:VBZ_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_but with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:advances prev2_POS:NNS with_prev2_full:advances_and with_prev2_POS_full:NNS_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:which prev2_POS:WDT with_prev2_full:which_if with_prev2_POS_full:WDT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:steeply prev2_POS:RB with_prev2_full:steeply_and with_prev2_POS_full:RB_CC SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:accounts prev2_POS:NNS with_prev2_full:accounts_but with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:rates prev2_POS:NNS with_prev2_full:rates_but with_prev2_POS_full:NNS_CC SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_As_a_result with_prev1_POS_full:``_IN_DT_NN PS

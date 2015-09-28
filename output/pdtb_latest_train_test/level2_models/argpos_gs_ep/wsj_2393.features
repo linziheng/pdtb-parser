@@ -1,0 +1,6 @@
+conn:because conn_POS:IN sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:when conn_POS:WRB prev1:occurs prev1_POS:VBZ with_prev1_full:occurs_when with_prev1_POS_full:VBZ_WRB prev2:call prev2_POS:NN with_prev2_full:call_when with_prev2_POS_full:NN_WRB SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_because with_prev1_POS_full:''_IN prev2:1987 prev2_POS:CD with_prev2_full:1987_because with_prev2_POS_full:CD_IN SS
+conn:so conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_so with_prev1_POS_full:``_IN prev2:requirements prev2_POS:NNS with_prev2_full:requirements_so with_prev2_POS_full:NNS_IN SS

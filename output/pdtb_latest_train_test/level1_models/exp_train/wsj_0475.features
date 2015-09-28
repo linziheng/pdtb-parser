@@ -1,0 +1,6 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Temporal
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency

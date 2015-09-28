@@ -1,0 +1,22 @@
+conn:After conn_POS:IN sent_pos:0 SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:losses prev1_POS:NNS with_prev1_full:losses_because with_prev1_POS_full:NNS_IN prev2:suffered prev2_POS:VBD with_prev2_full:suffered_because with_prev2_POS_full:VBD_IN SS
+conn:while conn_POS:IN prev1:sold prev1_POS:VBD with_prev1_full:sold_while with_prev1_POS_full:VBD_IN prev2:they prev2_POS:PRP with_prev2_full:they_while with_prev2_POS_full:PRP_IN SS
+conn:and conn_POS:CC prev1:buying prev1_POS:VBG with_prev1_full:buying_and with_prev1_POS_full:VBG_CC prev2:was prev2_POS:VBD with_prev2_full:was_and with_prev2_POS_full:VBD_CC SS
+conn:because conn_POS:IN prev1:others prev1_POS:NNS with_prev1_full:others_because with_prev1_POS_full:NNS_IN prev2:and prev2_POS:CC with_prev2_full:and_because with_prev2_POS_full:CC_IN SS
+conn:while conn_POS:IN prev1:bought prev1_POS:VBD with_prev1_full:bought_while with_prev1_POS_full:VBD_IN prev2:they prev2_POS:PRP with_prev2_full:they_while with_prev2_POS_full:PRP_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:defendants prev2_POS:NNS with_prev2_full:defendants_while with_prev2_POS_full:NNS_IN SS
+conn:since conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_since with_prev1_POS_full:NNS_IN prev2:three prev2_POS:CD with_prev2_full:three_since with_prev2_POS_full:CD_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_because with_prev1_POS_full:VBZ_IN prev2:This prev2_POS:DT with_prev2_full:This_because with_prev2_POS_full:DT_IN SS
+conn:after conn_POS:IN prev1:1970 prev1_POS:CD with_prev1_full:1970_after with_prev1_POS_full:CD_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:investigations prev1_POS:NNS with_prev1_full:investigations_when with_prev1_POS_full:NNS_WRB prev2:its prev2_POS:PRP$ with_prev2_full:its_when with_prev2_POS_full:PRP$_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:occurred prev1_POS:VBN with_prev1_full:occurred_and with_prev1_POS_full:VBN_CC prev2:have prev2_POS:VB with_prev2_full:have_and with_prev2_POS_full:VB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:attention prev2_POS:NN with_prev2_full:attention_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:study prev1_POS:NN with_prev1_full:study_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS

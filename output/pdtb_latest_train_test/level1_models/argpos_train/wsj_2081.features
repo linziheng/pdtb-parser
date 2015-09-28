@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:offset prev2_POS:VBN with_prev2_full:offset_however with_prev2_POS_full:VBN_RB PS

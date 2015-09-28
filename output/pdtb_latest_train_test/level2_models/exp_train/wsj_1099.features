@@ -1,0 +1,62 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:after conn:after conn_POS:IN with_prev_full:bullet_after Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:swallowed_if Condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:out_unless Alternative
+conn_lc:before conn:before conn_POS:IN with_prev_full:received_before Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:and_although Concession
+conn_lc:while conn:while conn_POS:IN with_prev_full:acknowledged_while Synchrony
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:before conn:before conn_POS:IN with_prev_full:decisions_before Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:position_because Cause
+conn_lc:until conn:until conn_POS:IN with_prev_full:zoology_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:but_after Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:work_because Cause
+conn_lc:yet conn:Yet conn_POS:CC Concession
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Contrast
+conn_lc:soon_after conn:Soon_after conn_POS:RB_IN Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:corry_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:occurred_as Synchrony
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:and_just_as Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony
+conn_lc:a_day_after conn:a_day_after conn_POS:DT_NN_IN with_prev_full:york_a_day_after Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:agree_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:share_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:steel_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Concession
+conn_lc:indeed conn:Indeed conn_POS:RB Instantiation
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:steel_as_long_as Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:steel_as_long_as Synchrony
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Condition
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:until conn:until conn_POS:IN with_prev_full:move_until Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fire_when Synchrony
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:bought_and Conjunction

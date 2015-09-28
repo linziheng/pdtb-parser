@@ -1,0 +1,13 @@
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:off prev1_POS:RB with_prev1_full:off_as with_prev1_POS_full:RB_IN prev2:paid prev2_POS:VBN with_prev2_full:paid_as with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:assets prev2_POS:NNS with_prev2_full:assets_but with_prev2_POS_full:NNS_CC SS
+conn:In_the_meantime conn_POS:IN_DT_NN sent_pos:0 PS
+conn:until conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_until with_prev1_POS_full:,_IN prev2:estate prev2_POS:NN with_prev2_full:estate_until with_prev2_POS_full:NN_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:assets prev2_POS:NNS with_prev2_full:assets_then with_prev2_POS_full:NNS_RB SS
+conn:until conn_POS:IN prev1:assets prev1_POS:NNS with_prev1_full:assets_until with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_until with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:cash prev2_POS:NN with_prev2_full:cash_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:budget prev2_POS:NN with_prev2_full:budget_because with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS

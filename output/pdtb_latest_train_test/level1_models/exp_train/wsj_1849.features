@@ -1,0 +1,26 @@
+conn_lc:since conn:since conn_POS:IN with_prev_full:end_since Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:junk_when Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:statistics_in_fact Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1982_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:at_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:nothing_if Contingency
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:up_and Expansion
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:low_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:%_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:use_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:here_and Expansion

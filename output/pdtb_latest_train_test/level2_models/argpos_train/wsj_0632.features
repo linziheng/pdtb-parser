@@ -1,0 +1,11 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:PLC prev2_POS:NNP with_prev2_full:PLC_as with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:October prev2_POS:NNP with_prev2_full:October_and with_prev2_POS_full:NNP_CC SS
+conn:instead conn_POS:RB prev1:moved prev1_POS:VBN with_prev1_full:moved_instead with_prev1_POS_full:VBN_RB prev2:and prev2_POS:CC with_prev2_full:and_instead with_prev2_POS_full:CC_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:independence prev2_POS:NN with_prev2_full:independence_but with_prev2_POS_full:NN_CC SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:Ford prev2_POS:NNP with_prev2_full:Ford_on_the_other_hand with_prev2_POS_full:NNP_IN_DT_JJ_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:once conn_POS:RB prev1:bid prev1_POS:NN with_prev1_full:bid_once with_prev1_POS_full:NN_RB prev2:Ford prev2_POS:NNP with_prev2_full:Ford_once with_prev2_POS_full:NNP_RB SS
+conn:or conn_POS:CC prev1:approval prev1_POS:NN with_prev1_full:approval_or with_prev1_POS_full:NN_CC prev2:shareholder prev2_POS:NN with_prev2_full:shareholder_or with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:sentiment prev1_POS:NN with_prev1_full:sentiment_also with_prev1_POS_full:NN_RB prev2:Union prev2_POS:NN with_prev2_full:Union_also with_prev2_POS_full:NN_RB PS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_If with_prev2_POS_full:,_IN SS

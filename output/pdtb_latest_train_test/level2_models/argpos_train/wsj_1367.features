@@ -1,0 +1,25 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:480 prev2_POS:CD with_prev2_full:480_but with_prev2_POS_full:CD_CC SS
+conn:Three_months_after conn_POS:CD_NNS_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:NNP sent_pos:0 SS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Now prev2_POS:RB with_prev2_full:Now_for_example with_prev2_POS_full:RB_IN_NN PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Russia prev2_POS:NNP with_prev2_full:Russia_but with_prev2_POS_full:NNP_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:tea prev2_POS:NN with_prev2_full:tea_because with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:later prev1_POS:RB with_prev1_full:later_but with_prev1_POS_full:RB_CC prev2:be prev2_POS:VB with_prev2_full:be_but with_prev2_POS_full:VB_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:She prev1_POS:PRP with_prev1_full:She_also with_prev1_POS_full:PRP_RB PS
+conn:only_if conn_POS:RB_IN prev1:interested prev1_POS:JJ with_prev1_full:interested_only_if with_prev1_POS_full:JJ_RB_IN prev2:was prev2_POS:VBD with_prev2_full:was_only_if with_prev2_POS_full:VBD_RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:impossible prev2_POS:JJ with_prev2_full:impossible_then with_prev2_POS_full:JJ_RB SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:Volokh prev2_POS:NNP with_prev2_full:Volokh_though with_prev2_POS_full:NNP_IN SS
+conn:so conn_POS:IN prev1:revised prev1_POS:VBN with_prev1_full:revised_so with_prev1_POS_full:VBN_IN prev2:recipe prev2_POS:NN with_prev2_full:recipe_so with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:when conn_POS:WRB prev1:live prev1_POS:VBP with_prev1_full:live_when with_prev1_POS_full:VBP_WRB prev2:you prev2_POS:PRP with_prev2_full:you_when with_prev2_POS_full:PRP_WRB SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:order prev2_POS:NN with_prev2_full:order_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:field prev2_POS:NN with_prev2_full:field_but with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:school prev2_POS:NN with_prev2_full:school_then with_prev2_POS_full:NN_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS

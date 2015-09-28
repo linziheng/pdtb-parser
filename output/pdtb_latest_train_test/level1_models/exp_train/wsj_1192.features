@@ -1,0 +1,21 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:rates_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:downturn_also Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:previously conn:Previously conn_POS:RB Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:programs_because Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:shortly_before conn:Shortly_before conn_POS:RB_IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:shortly_after conn:Shortly_after conn_POS:RB_IN Temporal
+conn_lc:because conn:because conn_POS:RB with_prev_full:was_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:free_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:airlines_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:profits_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion

@@ -1,0 +1,3 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:press_before Temporal
+conn_lc:however conn:However conn_POS:RB Comparison

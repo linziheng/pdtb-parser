@@ -1,0 +1,7 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:since conn_POS:IN prev1:improved prev1_POS:VBN with_prev1_full:improved_since with_prev1_POS_full:VBN_IN prev2:has prev2_POS:VBZ with_prev2_full:has_since with_prev2_POS_full:VBZ_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:stock prev1_POS:NN with_prev1_full:stock_also with_prev1_POS_full:NN_RB prev2:Its prev2_POS:PRP$ with_prev2_full:Its_also with_prev2_POS_full:PRP$_RB PS
+conn:at_least_partly_because conn_POS:IN_JJS_RB_IN prev1:, prev1_POS:, with_prev1_full:,_at_least_partly_because with_prev1_POS_full:,_IN_JJS_RB_IN prev2:lately prev2_POS:RB with_prev2_full:lately_at_least_partly_because with_prev2_POS_full:RB_IN_JJS_RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1991 prev2_POS:CD with_prev2_full:1991_and with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:markets prev1_POS:NNS with_prev1_full:markets_before with_prev1_POS_full:NNS_IN prev2:control prev2_POS:VB with_prev2_full:control_before with_prev2_POS_full:VB_IN SS

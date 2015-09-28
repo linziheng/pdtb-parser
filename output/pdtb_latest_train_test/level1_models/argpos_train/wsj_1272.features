@@ -1,0 +1,32 @@
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_when with_prev1_POS_full:CC_WRB SS
+conn:As_if conn_POS:IN_IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:D.T. prev1_POS:NNP with_prev1_full:D.T._also with_prev1_POS_full:NNP_RB PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Kasparov prev2_POS:NNP with_prev2_full:Kasparov_but with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:apparent prev1_POS:JJ with_prev1_full:apparent_as with_prev1_POS_full:JJ_IN prev2:became prev2_POS:VBD with_prev2_full:became_as with_prev2_POS_full:VBD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:moves prev2_POS:NNS with_prev2_full:moves_but with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:thrust prev2_POS:NN with_prev2_full:thrust_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:; prev1_POS:: with_prev1_full:;_then with_prev1_POS_full::_RB prev2:13 prev2_POS:CD with_prev2_full:13_then with_prev2_POS_full:CD_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:knights prev2_POS:NNS with_prev2_full:knights_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:knight prev1_POS:NN with_prev1_full:knight_and with_prev1_POS_full:NN_CC prev2:dangerous prev2_POS:JJ with_prev2_full:dangerous_and with_prev2_POS_full:JJ_CC SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:resigning prev1_POS:VBG with_prev1_full:resigning_as_soon_as with_prev1_POS_full:VBG_RB_RB_IN prev2:from prev2_POS:IN with_prev2_full:from_as_soon_as with_prev2_POS_full:IN_RB_RB_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:replies prev2_POS:NNS with_prev2_full:replies_and with_prev2_POS_full:NNS_CC SS
+conn:later conn_POS:RB sent_pos:-2 prev1:said prev1_POS:VBD with_prev1_full:said_later with_prev1_POS_full:VBD_RB prev2:Kasparov prev2_POS:NNP with_prev2_full:Kasparov_later with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:new prev2_POS:JJ with_prev2_full:new_and with_prev2_POS_full:JJ_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_when with_prev1_POS_full:CC_WRB SS
+conn:instead conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_instead with_prev1_POS_full:CC_RB prev2:move prev2_POS:NN with_prev2_full:move_instead with_prev2_POS_full:NN_RB SS
+conn:later conn_POS:RB prev1:remarked prev1_POS:VBD with_prev1_full:remarked_later with_prev1_POS_full:VBD_RB prev2:Kasparov prev2_POS:NNP with_prev2_full:Kasparov_later with_prev2_POS_full:NNP_RB PS
+conn:in_the_end conn_POS:IN_DT_NN prev1:, prev1_POS:, with_prev1_full:,_in_the_end with_prev1_POS_full:,_IN_DT_NN prev2:but prev2_POS:CC with_prev2_full:but_in_the_end with_prev2_POS_full:CC_IN_DT_NN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS

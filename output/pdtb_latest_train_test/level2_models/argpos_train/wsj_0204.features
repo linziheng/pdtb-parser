@@ -1,0 +1,3 @@
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:fund prev1_POS:NN with_prev1_full:fund_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:or prev2_POS:CC with_prev2_full:or_if with_prev2_POS_full:CC_IN SS

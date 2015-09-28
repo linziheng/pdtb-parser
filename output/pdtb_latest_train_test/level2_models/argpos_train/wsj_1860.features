@@ -1,0 +1,15 @@
+conn:if conn_POS:IN prev1:disappointed prev1_POS:VBN with_prev1_full:disappointed_if with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS
+conn:Besides conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:advances prev1_POS:NNS with_prev1_full:advances_since with_prev1_POS_full:NNS_IN prev2:'s prev2_POS:POS with_prev2_full:'s_since with_prev2_POS_full:POS_IN SS
+conn:later conn_POS:RB sent_pos:-2 prev1:interest prev1_POS:NN with_prev1_full:interest_later with_prev1_POS_full:NN_RB prev2:majority prev2_POS:NN with_prev2_full:majority_later with_prev2_POS_full:NN_RB PS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Ford prev2_POS:NNP with_prev2_full:Ford_however with_prev2_POS_full:NNP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:ago prev2_POS:RB with_prev2_full:ago_but with_prev2_POS_full:RB_CC SS
+conn:ever_since conn_POS:RB_IN prev1:wayside prev1_POS:NN with_prev1_full:wayside_ever_since with_prev1_POS_full:NN_RB_IN prev2:the prev2_POS:DT with_prev2_full:the_ever_since with_prev2_POS_full:DT_RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:announcement prev2_POS:NN with_prev2_full:announcement_but with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:`` prev1_POS:`` with_prev1_full:``_when with_prev1_POS_full:``_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:later conn_POS:RB prev1:bid prev1_POS:NN with_prev1_full:bid_later with_prev1_POS_full:NN_RB prev2:larger prev2_POS:JJR with_prev2_full:larger_later with_prev2_POS_full:JJR_RB SS
+conn:until conn_POS:IN prev1:Jaguar prev1_POS:NNP with_prev1_full:Jaguar_until with_prev1_POS_full:NNP_IN prev2:for prev2_POS:IN with_prev2_full:for_until with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Otherwise conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:before prev2_POS:RB with_prev2_full:before_but with_prev2_POS_full:RB_CC SS

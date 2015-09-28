@@ -1,0 +1,8 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:so conn_POS:IN prev1:robes prev1_POS:NNS with_prev1_full:robes_so with_prev1_POS_full:NNS_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_so with_prev2_POS_full:PRP$_IN SS
+conn:and conn_POS:CC prev1:shook prev1_POS:VBD with_prev1_full:shook_and with_prev1_POS_full:VBD_CC prev2:still prev2_POS:RB with_prev2_full:still_and with_prev2_POS_full:RB_CC SS
+conn:as conn_POS:IN prev1:judge prev1_POS:NN with_prev1_full:judge_as with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_as with_prev2_POS_full:DT_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:always prev2_POS:RB with_prev2_full:always_if with_prev2_POS_full:RB_IN SS

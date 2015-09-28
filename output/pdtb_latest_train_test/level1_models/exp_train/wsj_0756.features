@@ -1,0 +1,17 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:later conn:later conn_POS:RB with_prev_full:and_later Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:proposals_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:out_if Contingency
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:vaguest_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:clout_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:clout_as Contingency

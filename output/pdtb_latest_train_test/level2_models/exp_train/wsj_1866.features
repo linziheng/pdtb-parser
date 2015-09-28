@@ -1,0 +1,23 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:fluke_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:still conn:still conn_POS:RB with_prev_full:public_still Concession
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:points_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:still conn:still conn_POS:RB with_prev_full:,_still Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:come_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:ready_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Synchrony
+conn_lc:then conn:Then conn_POS:RB with_prev_full:``_then Asynchronous

@@ -1,0 +1,23 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Boren prev2_POS:NNP with_prev2_full:Boren_and with_prev2_POS_full:NNP_CC SS
+conn:indeed conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_indeed with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_indeed with_prev2_POS_full:,_RB SS
+conn:rather conn_POS:RB prev1:or prev1_POS:CC with_prev1_full:or_rather with_prev1_POS_full:CC_RB prev2:-- prev2_POS:: with_prev2_full:--_rather with_prev2_POS_full::_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:until conn_POS:IN prev1:nuance prev1_POS:NN with_prev1_full:nuance_until with_prev1_POS_full:NN_IN prev2:warn-your-enemy prev2_POS:JJ with_prev2_full:warn-your-enemy_until with_prev2_POS_full:JJ_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:month prev2_POS:NN with_prev2_full:month_but with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:think prev2_POS:VB with_prev2_full:think_if with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:only_when conn_POS:RB_WRB prev1:operations prev1_POS:NNS with_prev1_full:operations_only_when with_prev1_POS_full:NNS_RB_WRB prev2:covert prev2_POS:JJ with_prev2_full:covert_only_when with_prev2_POS_full:JJ_RB_WRB SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:insists prev2_POS:VBZ with_prev2_full:insists_though with_prev2_POS_full:VBZ_IN SS
+conn:Because conn_POS:IN sent_pos:0 PS
+conn:if conn_POS:IN prev1:place prev1_POS:NN with_prev1_full:place_if with_prev1_POS_full:NN_IN prev2:taken prev2_POS:VBN with_prev2_full:taken_if with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:before conn_POS:IN prev1:know prev1_POS:VB with_prev1_full:know_before with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_before with_prev2_POS_full:TO_IN SS
+conn:if conn_POS:IN sent_pos:2 prev1:-- prev1_POS:: with_prev1_full:--_if with_prev1_POS_full::_IN prev2:Maybe prev2_POS:RB with_prev2_full:Maybe_if with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:argue prev2_POS:VB with_prev2_full:argue_if with_prev2_POS_full:VB_IN SS
+conn:because conn_POS:IN prev1:committees prev1_POS:NNS with_prev1_full:committees_because with_prev1_POS_full:NNS_IN prev2:oversight prev2_POS:NN with_prev2_full:oversight_because with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

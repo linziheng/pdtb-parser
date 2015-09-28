@@ -1,0 +1,21 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:deals prev2_POS:NNS with_prev2_full:deals_and with_prev2_POS_full:NNS_CC SS
+conn:as conn_POS:IN prev1:funds prev1_POS:NNS with_prev1_full:funds_as with_prev1_POS_full:NNS_IN prev2:raising prev2_POS:VBG with_prev2_full:raising_as with_prev2_POS_full:VBG_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:19 prev2_POS:CD with_prev2_full:19_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:so conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_so with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_so with_prev2_POS_full:,_IN SS
+conn:Unless conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:discouraging prev1_POS:JJ with_prev1_full:discouraging_because with_prev1_POS_full:JJ_IN prev2:especially prev2_POS:RB with_prev2_full:especially_because with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:still conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_still with_prev1_POS_full:VBZ_RB prev2:it prev2_POS:PRP with_prev2_full:it_still with_prev2_POS_full:PRP_RB PS
+conn:unless conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_unless with_prev1_POS_full::_IN prev2:next prev2_POS:JJ with_prev2_full:next_unless with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:financings prev1_POS:NNS with_prev1_full:financings_also with_prev1_POS_full:NNS_RB prev2:Delayed prev2_POS:JJ with_prev2_full:Delayed_also with_prev2_POS_full:JJ_RB PS
+conn:still conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_still with_prev1_POS_full:PRP_RB prev2:says prev2_POS:VBZ with_prev2_full:says_still with_prev2_POS_full:VBZ_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:funds prev2_POS:NNS with_prev2_full:funds_and with_prev2_POS_full:NNS_CC SS
+conn:Partly_because conn_POS:RB_IN sent_pos:0 SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,14 @@
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:heart_instead Alternative
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:amusing_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:jailed_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:jailed_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction

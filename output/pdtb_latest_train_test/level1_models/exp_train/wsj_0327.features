@@ -1,0 +1,30 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:3\/4_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:sharply_now_that Temporal
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:sharply_now_that Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sold_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:earnings_as Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:firm_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:behind_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:maker_if Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:shares_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:3\/32_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:3\/4_after Temporal

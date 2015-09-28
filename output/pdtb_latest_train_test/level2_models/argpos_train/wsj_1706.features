@@ -1,0 +1,8 @@
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_but with_prev1_POS_full::_CC prev2:486 prev2_POS:CD with_prev2_full:486_but with_prev2_POS_full:CD_CC SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Dell prev2_POS:NNP with_prev2_full:Dell_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:delays prev2_POS:NNS with_prev2_full:delays_however with_prev2_POS_full:NNS_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:computers prev2_POS:NNS with_prev2_full:computers_as with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:adds prev2_POS:VBZ with_prev2_full:adds_whereas with_prev2_POS_full:VBZ_IN SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:computers prev2_POS:NNS with_prev2_full:computers_and with_prev2_POS_full:NNS_CC SS

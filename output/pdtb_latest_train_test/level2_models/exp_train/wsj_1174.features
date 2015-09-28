@@ -1,0 +1,16 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:a_week_before conn:a_week_before conn_POS:DT_NN_IN with_prev_full:stocks_a_week_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:be_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_while conn:Even_while conn_POS:RB_IN Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:sometimes_after conn:sometimes_after conn_POS:RB_IN with_prev_full:,_sometimes_after Asynchronous
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast

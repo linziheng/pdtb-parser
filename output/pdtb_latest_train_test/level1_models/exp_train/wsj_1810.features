@@ -1,0 +1,19 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:slightly_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:session_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:morning_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:later conn:later conn_POS:RB with_prev_full:bonds_later Temporal
+conn_lc:while conn:while conn_POS:NN with_prev_full:down_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:,_partly_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:prices_later Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:large_and Expansion

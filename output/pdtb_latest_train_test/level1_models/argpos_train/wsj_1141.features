@@ -1,0 +1,5 @@
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:history prev2_POS:NN with_prev2_full:history_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:him prev2_POS:PRP with_prev2_full:him_and with_prev2_POS_full:PRP_CC SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:before conn_POS:IN prev1:Belfast prev1_POS:NNP with_prev1_full:Belfast_before with_prev1_POS_full:NNP_IN prev2:become prev2_POS:VB with_prev2_full:become_before with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

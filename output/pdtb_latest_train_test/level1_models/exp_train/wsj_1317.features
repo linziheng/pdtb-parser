@@ -1,0 +1,31 @@
+conn_lc:just_five_months_after conn:Just_five_months_after conn_POS:RB_CD_NNS_IN Temporal
+conn_lc:later conn:later conn_POS:RB with_prev_full:company_later Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:london_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:and_although Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:executives_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:operations_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:roman_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:job_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:roman_also Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:that_although Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:successively_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:accounts_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

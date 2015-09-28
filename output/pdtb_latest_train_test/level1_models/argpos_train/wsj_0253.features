@@ -1,0 +1,4 @@
+conn:but conn_POS:IN prev1:disclosed prev1_POS:VBN with_prev1_full:disclosed_but with_prev1_POS_full:VBN_IN prev2:n't prev2_POS:RB with_prev2_full:n't_but with_prev2_POS_full:RB_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:move prev1_POS:NN with_prev1_full:move_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Moreover conn_POS:JJR sent_pos:0 PS
+conn:so_that conn_POS:IN_IN prev1:plants prev1_POS:NNS with_prev1_full:plants_so_that with_prev1_POS_full:NNS_IN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_so_that with_prev2_POS_full:PRP$_IN_IN SS

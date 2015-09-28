@@ -1,0 +1,6 @@
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:neighborhoods prev2_POS:NNS with_prev2_full:neighborhoods_for_instance with_prev2_POS_full:NNS_IN_NN PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:chains prev2_POS:NNS with_prev2_full:chains_though with_prev2_POS_full:NNS_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_and with_prev2_POS_full:NNS_CC SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS

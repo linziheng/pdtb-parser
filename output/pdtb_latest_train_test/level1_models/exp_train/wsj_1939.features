@@ -1,0 +1,24 @@
+conn_lc:within_minutes_after conn:Within_minutes_after conn_POS:IN_NNS_IN Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:bag_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:reconciliation_unless Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:bill_unless Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:crumbling_as Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:more_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:street_while Comparison
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

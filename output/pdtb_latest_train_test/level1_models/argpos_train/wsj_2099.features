@@ -1,0 +1,3 @@
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Angeles prev2_POS:NNP with_prev2_full:Angeles_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:while conn_POS:IN prev1:position prev1_POS:NN with_prev1_full:position_while with_prev1_POS_full:NN_IN prev2:market prev2_POS:NN with_prev2_full:market_while with_prev2_POS_full:NN_IN SS

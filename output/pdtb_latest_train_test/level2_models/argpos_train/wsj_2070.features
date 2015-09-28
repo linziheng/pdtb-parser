@@ -1,0 +1,8 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Tuesday prev2_POS:NNP with_prev2_full:Tuesday_but with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:still conn_POS:RB prev1:'s prev1_POS:VBZ with_prev1_full:'s_still with_prev1_POS_full:VBZ_RB prev2:there prev2_POS:EX with_prev2_full:there_still with_prev2_POS_full:EX_RB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Later conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:modest prev2_POS:JJ with_prev2_full:modest_and with_prev2_POS_full:JJ_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:nevertheless conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_nevertheless with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_nevertheless with_prev2_POS_full:,_RB SS

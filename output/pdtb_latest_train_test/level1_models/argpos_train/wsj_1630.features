@@ -1,0 +1,9 @@
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Corp. prev2_POS:NNP with_prev2_full:Corp._after with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:building prev1_POS:NN with_prev1_full:building_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:after conn_POS:IN prev1:Brooklyn prev1_POS:NNP with_prev1_full:Brooklyn_after with_prev1_POS_full:NNP_IN prev2:downtown prev2_POS:NN with_prev2_full:downtown_after with_prev2_POS_full:NN_IN SS
+conn:shortly_after conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_shortly_after with_prev1_POS_full:,_RB_IN prev2:interest prev2_POS:NN with_prev2_full:interest_shortly_after with_prev2_POS_full:NN_RB_IN SS
+conn:after conn_POS:IN prev1:option prev1_POS:NN with_prev1_full:option_after with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_after with_prev2_POS_full:PRP$_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:space prev2_POS:NN with_prev2_full:space_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:building prev2_POS:NN with_prev2_full:building_also with_prev2_POS_full:NN_RB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,16 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_if with_prev1_POS_full:``_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:otherwise conn_POS:RB sent_pos:2 prev1:-LCB- prev1_POS:-LRB- with_prev1_full:-LCB-_otherwise with_prev1_POS_full:-LRB-_RB prev2:But prev2_POS:CC with_prev2_full:But_otherwise with_prev2_POS_full:CC_RB PS
+conn:and conn_POS:CC prev1:Saatchi prev1_POS:NNP with_prev1_full:Saatchi_and with_prev1_POS_full:NNP_CC prev2:Maurice prev2_POS:NNP with_prev2_full:Maurice_and with_prev2_POS_full:NNP_CC SS
+conn:nor conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_nor with_prev1_POS_full:,_CC prev2:board prev2_POS:NN with_prev2_full:board_nor with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:price prev2_POS:NN with_prev2_full:price_but with_prev2_POS_full:NN_CC SS
+conn:so_that conn_POS:IN_IN prev1:financially prev1_POS:RB with_prev1_full:financially_so_that with_prev1_POS_full:RB_IN_IN prev2:company prev2_POS:NN with_prev2_full:company_so_that with_prev2_POS_full:NN_IN_IN SS
+conn:as conn_POS:IN prev1:Friday prev1_POS:NNP with_prev1_full:Friday_as with_prev1_POS_full:NNP_IN prev2:abounded prev2_POS:VBD with_prev2_full:abounded_as with_prev2_POS_full:VBD_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:nor conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_nor with_prev1_POS_full:,_CC prev2:us prev2_POS:PRP with_prev2_full:us_nor with_prev2_POS_full:PRP_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:announcement prev2_POS:NN with_prev2_full:announcement_because with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Co. prev2_POS:NNP with_prev2_full:Co._also with_prev2_POS_full:NNP_RB PS
+conn:previously conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_previously with_prev1_POS_full:VBD_RB prev2:account prev2_POS:NN with_prev2_full:account_previously with_prev2_POS_full:NN_RB PS

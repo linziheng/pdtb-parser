@@ -1,0 +1,23 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:comes_as Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:level_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:merrill_also Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:''_so Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:trades_until Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:inc._also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:them_unless Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:yesterday_because Contingency

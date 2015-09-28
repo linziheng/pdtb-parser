@@ -1,0 +1,62 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:bullet_after Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:swallowed_if Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:out_unless Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:received_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:and_although Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:acknowledged_while Temporal
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:decisions_before Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:position_because Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:zoology_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:but_after Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:work_because Contingency
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:soon_after conn:Soon_after conn_POS:RB_IN Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:corry_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:occurred_as Temporal
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:and_just_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:a_day_after conn:a_day_after conn_POS:DT_NN_IN with_prev_full:york_a_day_after Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:agree_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:share_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:steel_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:steel_as_long_as Temporal
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:steel_as_long_as Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Contingency
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:move_until Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fire_when Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:bought_and Expansion

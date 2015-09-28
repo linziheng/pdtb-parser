@@ -1,0 +1,30 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:day_when Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if_if_you_create_a_wonderment_,_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then conn:If_If_you_create_a_wonderment_,_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then conn_POS:IN_IN_PRP_VBP_DT_NN_,_IN_PRP_VBP_NN_RB_JJ_IN_DT_JJ_VBZ_IN_VBG_NN_IN_PRP_,_RB with_prev_full:``_if_if_you_create_a_wonderment_,_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then Contingency
+conn_lc:if_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then conn:if_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then conn_POS:IN_IN_PRP_VBP_NN_RB_JJ_IN_DT_JJ_VBZ_IN_VBG_NN_IN_PRP_,_RB with_prev_full:,_if_if_you_create_something_so_exciting_that_the_public_dreams_of_being_part_of_it_,_then Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:it_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:even_before conn:Even_before conn_POS:RB_IN Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:war_as Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison

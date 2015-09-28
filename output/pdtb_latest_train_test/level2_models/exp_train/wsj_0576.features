@@ -1,0 +1,18 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Cause
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:before conn:before conn_POS:IN with_prev_full:decades_before Asynchronous
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:necessity_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:necessity_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:flown_while Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:changed_and Conjunction
+conn_lc:just_because conn:just_because conn_POS:RB_IN with_prev_full:consumption_just_because Cause

@@ -1,0 +1,9 @@
+conn:because conn_POS:IN prev1:system prev1_POS:NN with_prev1_full:system_because with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_because with_prev2_POS_full:PRP$_IN SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:activity prev2_POS:NN with_prev2_full:activity_also with_prev2_POS_full:NN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ago prev2_POS:RB with_prev2_full:ago_and with_prev2_POS_full:RB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Canada prev2_POS:NNP with_prev2_full:Canada_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:crude prev2_POS:NN with_prev2_full:crude_however with_prev2_POS_full:NN_RB PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:however prev2_POS:RB with_prev2_full:however_since with_prev2_POS_full:RB_IN SS

@@ -1,0 +1,14 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:prices prev2_POS:NNS with_prev2_full:prices_while with_prev2_POS_full:NNS_IN SS
+conn:as conn_POS:IN prev1:safety prev1_POS:NN with_prev1_full:safety_as with_prev1_POS_full:NN_IN prev2:for prev2_POS:IN with_prev2_full:for_as with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:plummeted prev1_POS:VBD with_prev1_full:plummeted_and with_prev1_POS_full:VBD_CC prev2:prices prev2_POS:NNS with_prev2_full:prices_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:later conn_POS:RB sent_pos:2 prev1:stocks prev1_POS:NNS with_prev1_full:stocks_later with_prev1_POS_full:NNS_RB prev2:But prev2_POS:CC with_prev2_full:But_later with_prev2_POS_full:CC_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:later conn_POS:RB prev1:dollar prev1_POS:NN with_prev1_full:dollar_later with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_later with_prev2_POS_full:DT_RB PS
+conn:although conn_POS:IN prev1:yen prev1_POS:NN with_prev1_full:yen_although with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_although with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:further prev1_POS:RB with_prev1_full:further_because with_prev1_POS_full:RB_IN prev2:any prev2_POS:RB with_prev2_full:any_because with_prev2_POS_full:RB_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:jitters prev2_POS:NNS with_prev2_full:jitters_and with_prev2_POS_full:NNS_CC SS
+conn:just_because conn_POS:RB_IN prev1:orchestra prev1_POS:NN with_prev1_full:orchestra_just_because with_prev1_POS_full:NN_RB_IN prev2:whole prev2_POS:JJ with_prev2_full:whole_just_because with_prev2_POS_full:JJ_RB_IN SS

@@ -1,0 +1,4 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:proposal prev2_POS:NN with_prev2_full:proposal_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:if conn_POS:IN prev1:occur prev1_POS:VB with_prev1_full:occur_if with_prev1_POS_full:VB_IN prev2:would prev2_POS:MD with_prev2_full:would_if with_prev2_POS_full:MD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

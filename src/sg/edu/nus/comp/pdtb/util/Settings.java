@@ -21,7 +21,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
+ * 
  * Static class to hold parser configuration variables.
+ * 
+ * See <b>config.properties</b> file for the configuration values.
  * 
  * @author ilija.ilievski@u.nus.edu
  */
@@ -53,6 +56,15 @@ public class Settings extends NestedProperties {
 	 * Training parse tree directory.
 	 */
 	public static String PTB_TREE_PATH;
+
+	/**
+	 * Path to the BioDRB corpus.
+	 */
+	public static String BIO_DRB_PATH;
+
+	public static String BIO_DRB_TREE_PATH;
+	public static String BIO_DRB_RAW_PATH;
+	public static String BIO_DRB_ANN_PATH;
 
 	/**
 	 * Automatic parse tree directory.

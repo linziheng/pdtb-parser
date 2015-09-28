@@ -1,0 +1,5 @@
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:categories prev2_POS:NNS with_prev2_full:categories_but with_prev2_POS_full:NNS_CC SS
+conn:later conn_POS:RB prev1:up prev1_POS:RP with_prev1_full:up_later with_prev1_POS_full:RP_RB prev2:passed prev2_POS:VBN with_prev2_full:passed_later with_prev2_POS_full:VBN_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:together prev2_POS:RB with_prev2_full:together_but with_prev2_POS_full:RB_CC SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS

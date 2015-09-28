@@ -1,0 +1,5 @@
+conn_lc:later conn:Later conn_POS:RB Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:association_after Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion

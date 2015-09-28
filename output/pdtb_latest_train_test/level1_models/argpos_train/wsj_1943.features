@@ -1,0 +1,4 @@
+conn:also conn_POS:RB prev1:issue prev1_POS:NN with_prev1_full:issue_also with_prev1_POS_full:NN_RB prev2:bond prev2_POS:NN with_prev2_full:bond_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:TVA prev2_POS:NNP with_prev2_full:TVA_in_fact with_prev2_POS_full:NNP_IN_NN PS
+conn:after conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_after with_prev1_POS_full:NNS_IN prev2:two prev2_POS:CD with_prev2_full:two_after with_prev2_POS_full:CD_IN SS

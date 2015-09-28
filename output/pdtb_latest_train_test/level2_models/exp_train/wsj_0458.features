@@ -1,0 +1,3 @@
+conn_lc:just_when conn:Just_when conn_POS:RB_WRB Asynchronous
+conn_lc:lest conn:lest conn_POS:IN with_prev_full:,_lest Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

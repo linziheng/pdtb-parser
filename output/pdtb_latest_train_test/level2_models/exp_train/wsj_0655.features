@@ -1,0 +1,21 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:priority_just_as Synchrony
+conn_lc:if conn:if conn_POS:IN with_prev_full:cease-fire_if Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:came_as Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:dole_also Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:comes_as Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:had_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:units_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:units_when Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:remarks_also Conjunction
+conn_lc:so_much_as conn:so_much_as conn_POS:RB_RB_IN with_prev_full:attacks_so_much_as Synchrony
+conn_lc:so_much_as conn:so_much_as conn_POS:RB_RB_IN with_prev_full:attacks_so_much_as Alternative

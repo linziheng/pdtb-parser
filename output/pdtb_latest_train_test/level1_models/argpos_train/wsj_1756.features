@@ -1,0 +1,6 @@
+conn:then conn_POS:RB prev1:said prev1_POS:VBD with_prev1_full:said_then with_prev1_POS_full:VBD_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB PS
+conn:unless conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_unless with_prev1_POS_full:,_IN prev2:markets prev2_POS:NNS with_prev2_full:markets_unless with_prev2_POS_full:NNS_IN SS
+conn:if conn_POS:IN prev1:acquisition prev1_POS:NN with_prev1_full:acquisition_if with_prev1_POS_full:NN_IN prev2:any prev2_POS:DT with_prev2_full:any_if with_prev2_POS_full:DT_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:unless conn_POS:IN prev1:bid prev1_POS:NN with_prev1_full:bid_unless with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_unless with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:it prev2_POS:PRP with_prev2_full:it_and with_prev2_POS_full:PRP_CC SS

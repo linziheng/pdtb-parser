@@ -1,0 +1,4 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:reported_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:decisions_until Temporal

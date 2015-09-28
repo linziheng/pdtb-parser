@@ -1,0 +1,5 @@
+conn:also conn_POS:RB sent_pos:2 prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:Results prev2_POS:NNS with_prev2_full:Results_also with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:quarter prev2_POS:NN with_prev2_full:quarter_and with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:results prev2_POS:NNS with_prev2_full:results_and with_prev2_POS_full:NNS_CC SS

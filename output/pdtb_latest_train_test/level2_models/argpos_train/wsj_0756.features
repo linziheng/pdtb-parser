@@ -1,0 +1,16 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:later conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_later with_prev1_POS_full:CC_RB prev2:1987 prev2_POS:CD with_prev2_full:1987_later with_prev2_POS_full:CD_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:proposals prev1_POS:NNS with_prev1_full:proposals_also with_prev1_POS_full:NNS_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:out prev1_POS:RP with_prev1_full:out_if with_prev1_POS_full:RP_IN prev2:lose prev2_POS:VB with_prev2_full:lose_if with_prev2_POS_full:VB_IN SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:overhauled prev2_POS:VBN with_prev2_full:overhauled_and with_prev2_POS_full:VBN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:prices prev2_POS:NNS with_prev2_full:prices_but with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:vaguest prev1_POS:JJS with_prev1_full:vaguest_when with_prev1_POS_full:JJS_WRB prev2:its prev2_POS:PRP$ with_prev2_full:its_when with_prev2_POS_full:PRP$_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:clout prev1_POS:NN with_prev1_full:clout_as with_prev1_POS_full:NN_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_as with_prev2_POS_full:PRP$_IN SS

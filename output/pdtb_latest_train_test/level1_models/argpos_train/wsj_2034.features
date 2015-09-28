@@ -1,0 +1,15 @@
+conn:after conn_POS:IN prev1:bikers prev1_POS:NNS with_prev1_full:bikers_after with_prev1_POS_full:NNS_IN prev2:of prev2_POS:IN with_prev2_full:of_after with_prev2_POS_full:IN_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:nature prev2_POS:NN with_prev2_full:nature_while with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:longer prev2_POS:RB with_prev2_full:longer_for_example with_prev2_POS_full:RB_IN_NN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:unless conn_POS:IN prev1:bikes prev1_POS:NNS with_prev1_full:bikes_unless with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_unless with_prev2_POS_full:DT_IN SS
+conn:yet conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_yet with_prev1_POS_full:,_RB prev2:bike prev2_POS:NN with_prev2_full:bike_yet with_prev2_POS_full:NN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:regulations prev2_POS:NNS with_prev2_full:regulations_and with_prev2_POS_full:NNS_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:furor prev1_POS:NN with_prev1_full:furor_when with_prev1_POS_full:NN_WRB prev2:a prev2_POS:DT with_prev2_full:a_when with_prev2_POS_full:DT_WRB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:because conn_POS:IN prev1:them prev1_POS:PRP with_prev1_full:them_because with_prev1_POS_full:PRP_IN prev2:love prev2_POS:VBP with_prev2_full:love_because with_prev2_POS_full:VBP_IN SS
+conn:and conn_POS:CC prev1:Fame prev1_POS:NNP with_prev1_full:Fame_and with_prev1_POS_full:NNP_CC prev2:of prev2_POS:IN with_prev2_full:of_and with_prev2_POS_full:IN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:kid prev2_POS:NN with_prev2_full:kid_but with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,25 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when_and_if conn:When_and_if conn_POS:WRB_CC_IN Temporal
+conn_lc:when_and_if conn:When_and_if conn_POS:WRB_CC_IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:,_instead Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:trust_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Contingency
+conn_lc:nonetheless conn:nonetheless conn_POS:RB with_prev_full:,_nonetheless Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Expansion
+conn_lc:even_though conn:Even_though conn_POS:RB_IN with_prev_full:``_even_though Comparison
+conn_lc:and conn:And conn_POS:CC Expansion

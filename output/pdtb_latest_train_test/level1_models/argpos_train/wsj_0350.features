@@ -1,0 +1,10 @@
+conn:also conn_POS:RB sent_pos:2 prev1:legislation prev1_POS:NN with_prev1_full:legislation_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:because conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_because with_prev1_POS_full:NN_IN prev2:last prev2_POS:JJ with_prev2_full:last_because with_prev2_POS_full:JJ_IN SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:billion prev2_POS:CD with_prev2_full:billion_though with_prev2_POS_full:CD_IN SS
+conn:as conn_POS:IN prev1:rallied prev1_POS:VBD with_prev1_full:rallied_as with_prev1_POS_full:VBD_IN prev2:prices prev2_POS:NNS with_prev2_full:prices_as with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB prev1:prices prev1_POS:NNS with_prev1_full:prices_also with_prev1_POS_full:NNS_RB prev2:bond prev2_POS:NN with_prev2_full:bond_also with_prev2_POS_full:NN_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:likely prev1_POS:JJ with_prev1_full:likely_as with_prev1_POS_full:JJ_IN prev2:more prev2_POS:RBR with_prev2_full:more_as with_prev2_POS_full:RBR_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:fines prev1_POS:NNS with_prev1_full:fines_after with_prev1_POS_full:NNS_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:as conn_POS:IN prev1:quarter prev1_POS:NN with_prev1_full:quarter_as with_prev1_POS_full:NN_IN prev2:third prev2_POS:JJ with_prev2_full:third_as with_prev2_POS_full:JJ_IN SS

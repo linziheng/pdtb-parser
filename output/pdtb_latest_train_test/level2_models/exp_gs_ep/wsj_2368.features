@@ -1,0 +1,6 @@
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation£
+conn_lc:and conn:And conn_POS:CC List£
+conn_lc:and conn:And conn_POS:CC List£
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:and_even_if Condition£
+conn_lc:while conn:while conn_POS:IN with_prev_full:hair_while Synchrony£
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition£

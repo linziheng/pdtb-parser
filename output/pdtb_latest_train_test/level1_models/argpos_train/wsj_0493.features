@@ -1,0 +1,5 @@
+conn:because conn_POS:IN prev1:analysts prev1_POS:NNS with_prev1_full:analysts_because with_prev1_POS_full:NNS_IN prev2:surprised prev2_POS:VBD with_prev2_full:surprised_because with_prev2_POS_full:VBD_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:account prev2_POS:NN with_prev2_full:account_while with_prev2_POS_full:NN_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:deaths prev1_POS:NNS with_prev1_full:deaths_if with_prev1_POS_full:NNS_IN prev2:or prev2_POS:CC with_prev2_full:or_if with_prev2_POS_full:CC_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:earnings prev2_POS:NNS with_prev2_full:earnings_but with_prev2_POS_full:NNS_CC SS

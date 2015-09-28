@@ -1,0 +1,22 @@
+conn:as conn_POS:IN prev1:good prev1_POS:JJ with_prev1_full:good_as with_prev1_POS_full:JJ_IN prev2:looked prev2_POS:VBD with_prev2_full:looked_as with_prev2_POS_full:VBD_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:Besides conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:or conn_POS:CC prev1:' prev1_POS:'' with_prev1_full:'_or with_prev1_POS_full:''_CC prev2:can prev2_POS:MD with_prev2_full:can_or with_prev2_POS_full:MD_CC SS
+conn:when conn_POS:WRB prev1:; prev1_POS:: with_prev1_full:;_when with_prev1_POS_full::_WRB prev2:subjective prev2_POS:JJ with_prev2_full:subjective_when with_prev2_POS_full:JJ_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:1985 prev1_POS:CD with_prev1_full:1985_after with_prev1_POS_full:CD_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:yet prev2_POS:RB with_prev2_full:yet_but with_prev2_POS_full:RB_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:WDT with_prev2_full:that_if with_prev2_POS_full:WDT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:performed prev1_POS:VBN with_prev1_full:performed_because with_prev1_POS_full:VBN_IN prev2:n't prev2_POS:RB with_prev2_full:n't_because with_prev2_POS_full:RB_IN SS
+conn:if conn_POS:IN prev1:peanuts prev1_POS:NNS with_prev1_full:peanuts_if with_prev1_POS_full:NNS_IN prev2:like prev2_POS:IN with_prev2_full:like_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:besides conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_besides with_prev1_POS_full:,_IN prev2:sensation prev2_POS:NN with_prev2_full:sensation_besides with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Similarly conn_POS:RB sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:possibilities prev2_POS:NNS with_prev2_full:possibilities_though with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Scientists prev1_POS:NNS with_prev1_full:Scientists_also with_prev1_POS_full:NNS_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS

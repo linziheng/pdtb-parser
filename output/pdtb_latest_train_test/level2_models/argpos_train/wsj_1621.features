@@ -1,0 +1,8 @@
+conn:also conn_POS:RB sent_pos:2 prev1:earnings prev1_POS:NNS with_prev1_full:earnings_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:sector prev2_POS:NN with_prev2_full:sector_also with_prev2_POS_full:NN_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:levels prev2_POS:NNS with_prev2_full:levels_and with_prev2_POS_full:NNS_CC SS

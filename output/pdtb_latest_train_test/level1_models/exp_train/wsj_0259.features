@@ -1,0 +1,13 @@
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:off_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:assets_until Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

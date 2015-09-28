@@ -1,0 +1,24 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:;_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if_if_a_manufacturer_is_clearly_trying_to_get_something_out_of_it_..._if_it_'s_too_transparent_..._then conn:if_if_a_manufacturer_is_clearly_trying_to_get_something_out_of_it_..._if_it_'s_too_transparent_..._then conn_POS:IN_IN_DT_NN_VBZ_RB_VBG_TO_VB_NN_IN_IN_PRP_:_IN_PRP_VBZ_RB_JJ_:_IN with_prev_full:and_if_if_a_manufacturer_is_clearly_trying_to_get_something_out_of_it_..._if_it_'s_too_transparent_..._then Condition
+conn_lc:if_if_it_'s_too_transparent_..._then conn:if_if_it_'s_too_transparent_..._then conn_POS:IN_IN_PRP_VBZ_RB_JJ_:_IN with_prev_full:..._if_if_it_'s_too_transparent_..._then Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:backfire_because Cause
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:in_the_meanwhile conn:In_the_meanwhile conn_POS:IN_DT_NN with_prev_full:``_in_the_meanwhile Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:since conn:since conn_POS:IN with_prev_full:million_since Asynchronous
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:had_previously Asynchronous

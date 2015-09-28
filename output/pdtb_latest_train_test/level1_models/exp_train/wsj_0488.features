@@ -1,0 +1,10 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:leader_since Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:pound_if Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:doomsayers_while Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:''_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:dealers_also Expansion

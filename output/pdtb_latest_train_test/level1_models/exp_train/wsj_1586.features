@@ -1,0 +1,29 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:sharply_since Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:sharply_since Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:next conn:Next conn_POS:JJ Temporal
+conn_lc:besides conn:Besides conn_POS:IN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:leathers_also Expansion
+conn_lc:later conn:later conn_POS:RBR with_prev_full:furs_later Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

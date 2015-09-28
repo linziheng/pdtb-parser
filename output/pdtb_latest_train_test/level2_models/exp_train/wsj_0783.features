@@ -1,0 +1,8 @@
+conn_lc:if conn:If conn_POS:IN Pragmatic_condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:nonetheless conn:nonetheless conn_POS:RB with_prev_full:is_nonetheless Concession
+conn_lc:in_large_part_because conn:in_large_part_because conn_POS:IN_JJ_NN_IN with_prev_full:loss_in_large_part_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition

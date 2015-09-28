@@ -1,0 +1,51 @@
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:forgotten prev2_POS:VBN with_prev2_full:forgotten_and with_prev2_POS_full:VBN_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:for prev2_POS:IN with_prev2_full:for_as with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:easier prev1_POS:JJR with_prev1_full:easier_and with_prev1_POS_full:JJR_CC prev2:becomes prev2_POS:VBZ with_prev2_full:becomes_and with_prev2_POS_full:VBZ_CC SS
+conn:until conn_POS:IN prev1:delayed prev1_POS:VBN with_prev1_full:delayed_until with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_until with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:possible prev2_POS:JJ with_prev2_full:possible_because with_prev2_POS_full:JJ_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:more prev1_POS:JJR with_prev1_full:more_because with_prev1_POS_full:JJR_IN prev2:worth prev2_POS:JJ with_prev2_full:worth_because with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:much prev2_POS:RB with_prev2_full:much_because with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:corporation prev2_POS:NN with_prev2_full:corporation_after with_prev2_POS_full:NN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:then conn_POS:RB prev1:they prev1_POS:PRP with_prev1_full:they_then with_prev1_POS_full:PRP_RB prev2:; prev2_POS:: with_prev2_full:;_then with_prev2_POS_full::_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:bonds prev1_POS:NNS with_prev1_full:bonds_when with_prev1_POS_full:NNS_WRB prev2:junk prev2_POS:NN with_prev2_full:junk_when with_prev2_POS_full:NN_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:downside prev2_POS:NN with_prev2_full:downside_and with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:investors prev1_POS:NNS with_prev1_full:investors_even_if with_prev1_POS_full:NNS_RB_IN prev2:help prev2_POS:VB with_prev2_full:help_even_if with_prev2_POS_full:VB_RB_IN SS
+conn:Once conn_POS:RB prev1:`` prev1_POS:`` with_prev1_full:``_Once with_prev1_POS_full:``_RB prev2:: prev2_POS:: with_prev2_full::_Once with_prev2_POS_full::_RB SS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:usual prev2_POS:JJ with_prev2_full:usual_also with_prev2_POS_full:JJ_RB SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Pa. prev2_POS:NNP with_prev2_full:Pa._also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:Moreover prev2_POS:RB with_prev2_full:Moreover_because with_prev2_POS_full:RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:tight prev1_POS:RB with_prev1_full:tight_when with_prev1_POS_full:RB_WRB prev2:sit prev2_POS:VB with_prev2_full:sit_when with_prev2_POS_full:VB_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:an_average_of_six_months_before conn_POS:DT_NN_IN_CD_NNS_IN prev1:began prev1_POS:VBD with_prev1_full:began_an_average_of_six_months_before with_prev1_POS_full:VBD_DT_NN_IN_CD_NNS_IN prev2:decrease prev2_POS:NN with_prev2_full:decrease_an_average_of_six_months_before with_prev2_POS_full:NN_DT_NN_IN_CD_NNS_IN SS
+conn:and conn_POS:CC prev1:- prev1_POS:: with_prev1_full:-_and with_prev1_POS_full::_CC prev2:done prev2_POS:VBN with_prev2_full:done_and with_prev2_POS_full:VBN_CC SS
+conn:About_six_months_before conn_POS:RB_CD_NNS_IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:again prev2_POS:RB with_prev2_full:again_as with_prev2_POS_full:RB_IN SS
+conn:though conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:Unfortunately prev2_POS:RB with_prev2_full:Unfortunately_though with_prev2_POS_full:RB_RB PS
+conn:so_that conn_POS:RB_IN prev1:length prev1_POS:NN with_prev1_full:length_so_that with_prev1_POS_full:NN_RB_IN prev2:in prev2_POS:IN with_prev2_full:in_so_that with_prev2_POS_full:IN_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bit prev2_POS:NN with_prev2_full:bit_but with_prev2_POS_full:NN_CC SS
+conn:overall conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_overall with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_overall with_prev2_POS_full:,_RB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:medicine prev1_POS:NN with_prev1_full:medicine_when with_prev1_POS_full:NN_WRB prev2:take prev2_POS:VBP with_prev2_full:take_when with_prev2_POS_full:VBP_WRB SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:just_when conn_POS:RB_WRB prev1:opportunities prev1_POS:NNS with_prev1_full:opportunities_just_when with_prev1_POS_full:NNS_RB_WRB prev2:investment prev2_POS:NN with_prev2_full:investment_just_when with_prev2_POS_full:NN_RB_WRB SS

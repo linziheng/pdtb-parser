@@ -1,0 +1,6 @@
+conn:after conn_POS:IN prev1:Medical prev1_POS:NNP with_prev1_full:Medical_after with_prev1_POS_full:NNP_IN prev2:American prev2_POS:NNP with_prev2_full:American_after with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:IMA prev1_POS:NNP with_prev1_full:IMA_also with_prev1_POS_full:NNP_RB PS
+conn:Earlier conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:identify prev1_POS:VB with_prev1_full:identify_but with_prev1_POS_full:VB_CC prev2:n't prev2_POS:RB with_prev2_full:n't_but with_prev2_POS_full:RB_CC SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:amortization prev2_POS:NN with_prev2_full:amortization_but with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,4 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:programs_since Temporal

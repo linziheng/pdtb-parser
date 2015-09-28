@@ -1,0 +1,22 @@
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_though with_prev2_POS_full:NN_IN SS
+conn:if conn_POS:IN prev1:world prev1_POS:NN with_prev1_full:world_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:for_instance conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:IBM prev2_POS:NNP with_prev2_full:IBM_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_while with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB prev1:Inc. prev1_POS:NNP with_prev1_full:Inc._also with_prev1_POS_full:NNP_RB prev2:Computers prev2_POS:NNPS with_prev2_full:Computers_also with_prev2_POS_full:NNPS_RB PS
+conn:still conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_still with_prev1_POS_full:VBZ_RB prev2:there prev2_POS:EX with_prev2_full:there_still with_prev2_POS_full:EX_RB PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:and prev2_POS:CC with_prev2_full:and_thus with_prev2_POS_full:CC_RB SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:Intel prev1_POS:NNP with_prev1_full:Intel_also with_prev1_POS_full:NNP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:so_that conn_POS:IN_IN prev1:, prev1_POS:, with_prev1_full:,_so_that with_prev1_POS_full:,_IN_IN prev2:nation prev2_POS:NN with_prev2_full:nation_so_that with_prev2_POS_full:NN_IN_IN SS
+conn:when conn_POS:WRB prev1:automatically prev1_POS:RB with_prev1_full:automatically_when with_prev1_POS_full:RB_WRB prev2:Digital prev2_POS:NNP with_prev2_full:Digital_when with_prev2_POS_full:NNP_WRB SS
+conn:then conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_then with_prev1_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Digital prev1_POS:NNP with_prev1_full:Digital_also with_prev1_POS_full:NNP_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:yesterday prev1_POS:RB with_prev1_full:yesterday_after with_prev1_POS_full:RB_IN prev2:work prev2_POS:VB with_prev2_full:work_after with_prev2_POS_full:VB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:crumbling prev2_POS:VBG with_prev2_full:crumbling_but with_prev2_POS_full:VBG_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS

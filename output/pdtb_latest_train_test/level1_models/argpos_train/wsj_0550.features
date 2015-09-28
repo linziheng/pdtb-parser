@@ -1,0 +1,14 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:UFO prev2_POS:NNP with_prev2_full:UFO_but with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:them prev2_POS:PRP with_prev2_full:them_and with_prev2_POS_full:PRP_CC SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN SS
+conn:because conn_POS:IN prev1:exist prev1_POS:VBP with_prev1_full:exist_because with_prev1_POS_full:VBP_IN prev2:UFOs prev2_POS:NNS with_prev2_full:UFOs_because with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:coming prev1_POS:VBG with_prev1_full:coming_and with_prev1_POS_full:VBG_CC prev2:keep prev2_POS:VB with_prev2_full:keep_and with_prev2_POS_full:VB_CC SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:friend prev2_POS:NN with_prev2_full:friend_after with_prev2_POS_full:NN_IN SS
+conn:just_after conn_POS:RB_IN prev1:screen prev1_POS:NN with_prev1_full:screen_just_after with_prev1_POS_full:NN_RB_IN prev2:radar prev2_POS:NN with_prev2_full:radar_just_after with_prev2_POS_full:NN_RB_IN SS
+conn:until conn_POS:IN prev1:continue prev1_POS:VB with_prev1_full:continue_until with_prev1_POS_full:VB_IN prev2:doubt prev2_POS:NN with_prev2_full:doubt_until with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:secret prev2_POS:NN with_prev2_full:secret_and with_prev2_POS_full:NN_CC SS

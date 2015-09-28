@@ -1,0 +1,25 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:occurs_when Condition
+conn_lc:yet conn:Yet conn_POS:CC Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:would_indeed Restatement
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:not_because conn:not_because conn_POS:RB_IN with_prev_full:but_not_because Cause
+conn_lc:rather conn:Rather conn_POS:RB Restatement
+conn_lc:because conn:because conn_POS:RB with_prev_full:diminish_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:prices_because Cause
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:disaster_and Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:face_when Synchrony
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:victims_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:should_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:remembered_when Synchrony

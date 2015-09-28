@@ -1,0 +1,26 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:end_because Cause
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:informed_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:instead conn:Instead conn_POS:RB Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:methods_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:it_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:bills_because Cause
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:revenues_and Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:expect_when Synchrony
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:whereas conn:Whereas conn_POS:IN Contrast
+conn_lc:though conn:though conn_POS:IN with_prev_full:-lrb-_though Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if_if_the_ldp_,_as_currently_composed_,_ca_n't_make_the_transformation_,_then conn:If_If_the_LDP_,_as_currently_composed_,_ca_n't_make_the_transformation_,_then conn_POS:IN_IN_DT_NNP_,_RB_RB_VBN_,_MD_RB_VB_DT_NN_,_RB Condition
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:months_before Asynchronous

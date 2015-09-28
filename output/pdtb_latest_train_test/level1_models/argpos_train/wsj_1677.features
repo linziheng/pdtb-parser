@@ -1,0 +1,22 @@
+conn:so conn_POS:IN prev1:computers prev1_POS:NNS with_prev1_full:computers_so with_prev1_POS_full:NNS_IN prev2:buy prev2_POS:VB with_prev2_full:buy_so with_prev2_POS_full:VB_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:network prev1_POS:NN with_prev1_full:network_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:if conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_if with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_if with_prev2_POS_full:DT_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:items prev1_POS:NNS with_prev1_full:items_as with_prev1_POS_full:NNS_IN prev2:wire prev2_POS:NN with_prev2_full:wire_as with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:computer prev2_POS:NN with_prev2_full:computer_also with_prev2_POS_full:NN_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:can prev2_POS:MD with_prev2_full:can_but with_prev2_POS_full:MD_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:humans prev1_POS:NNS with_prev1_full:humans_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:and conn_POS:CC prev1:junk prev1_POS:NN with_prev1_full:junk_and with_prev1_POS_full:NN_CC prev2:'s prev2_POS:VBZ with_prev2_full:'s_and with_prev2_POS_full:VBZ_CC SS
+conn:if conn_POS:IN prev1:priority prev1_POS:NN with_prev1_full:priority_if with_prev1_POS_full:NN_IN prev2:top prev2_POS:JJ with_prev2_full:top_if with_prev2_POS_full:JJ_IN SS
+conn:so conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_so with_prev1_POS_full:``_IN prev2:product prev2_POS:NN with_prev2_full:product_so with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Lotus prev2_POS:NNP with_prev2_full:Lotus_also with_prev2_POS_full:NNP_RB PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:librarian prev2_POS:NN with_prev2_full:librarian_for_example with_prev2_POS_full:NN_IN_NN PS

@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -42,7 +43,9 @@ import sg.edu.nus.comp.pdtb.model.Dependency;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Stemmer;
 import sg.edu.nus.comp.pdtb.model.TreeNode;
+import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
@@ -74,6 +77,14 @@ public class NonExplicitComp extends Component {
 	private static final int NUM_WORD_PAIRS = 500;
 
 	private static final int PHRASE_LENGTH = 3;
+
+	private Type corpus = Type.PDTB;
+
+	private String orgText;
+
+	private ArrayList<String> spanMap;
+
+	private Map<String, LinkedList<Integer>> spanToSenId;
 
 	public NonExplicitComp() throws IOException {
 		super(NAME, NonExplicitComp.class.getName());
@@ -166,6 +177,43 @@ public class NonExplicitComp extends Component {
 		return outFile;
 	}
 
+	private File makeBioPipeFile(String pipeDir, File articleOut, File articleAux, String article) throws IOException {
+
+		File pipeFile = new File(pipeDir + "/" + article + ".pipe");
+		String[] pipes = (pipeFile.exists()) ? Util.readFile(pipeFile).split(Util.NEW_LINE) : new String[0];
+
+		try (PrintWriter pipeWriter = new PrintWriter(pipeFile);
+				BufferedReader read = Util.reader(articleOut);
+				BufferedReader auxRead = Util.reader(articleAux);) {
+			for (String pipe : pipes) {
+				if (pipe.startsWith("Explicit")) {
+					pipeWriter.println(pipe);
+				}
+			}
+			String aux;
+			while ((aux = auxRead.readLine()) != null) {
+				String[] tmp = read.readLine().split("\\s+");
+				String[] cols = aux.split("\\|", -1);
+				String fullSense = tmp[tmp.length - 1];
+
+				if (fullSense.equals("AltLex")) {
+					aux = aux.replaceAll("Implicit\\|", fullSense + "|");
+					pipeWriter.println(aux);
+				} else {
+					StringBuilder sb = new StringBuilder();
+					for (int i = 0; i < 27; ++i) {
+						sb.append((i == 8) ? fullSense : cols[i]);
+						sb.append("|");
+					}
+					sb.deleteCharAt(sb.length() - 1);
+					pipeWriter.println(sb.toString());
+				}
+			}
+		}
+
+		return pipeFile;
+	}
+
 	private File makePipeFile(String pipeDir, File articleOut, File articleAux, String article) throws IOException {
 		File pipeFile = new File(pipeDir + "/" + article);
 
@@ -195,83 +243,108 @@ public class NonExplicitComp extends Component {
 	}
 
 	private List<String[]> generateEpFeatures(File article, FeatureType featureType) throws IOException {
+		return generateEpFeatures(Type.PDTB, article, featureType);
+	}
 
-		trees = Corpus.getNonExpTrees(article, featureType);
-		if (featureType == FeatureType.Auto || dtreeMap == null) {
-			buildDependencyTrees(article, featureType);
-		}
+	private List<String[]> generateEpFeatures(Type corpus, File article, FeatureType featureType) throws IOException {
 
 		List<String[]> features = new ArrayList<>();
-		int[] paragraphs = Corpus.getParagraphs(article, featureType);
-
-		List<String> relations = getEpRelations(article, featureType);
-
+		int[] paragraphs = null;
+		List<String> relations = null;
 		List<String> impRel = null;
-		if (featureType != FeatureType.AnyText) {
-			impRel = Corpus.getNonExplicitSpans(article);
+
+		if (corpus.equals(Type.PDTB)) {
+			if (featureType == FeatureType.AnyText) {
+				orgText = Util.readFile(article);
+			} else {
+				orgText = Util.readFile(Corpus.genRawTextPath(article));
+			}
+			trees = Corpus.getNonExpTrees(article, featureType);
+			if (featureType == FeatureType.Auto || dtreeMap == null) {
+				buildDependencyTrees(article, featureType);
+			}
+			paragraphs = Corpus.getParagraphs(article, Corpus.getSpanMapAsList(article, featureType), featureType);
+			relations = getEpRelations(article, featureType);
+			if (featureType != FeatureType.AnyText) {
+				impRel = Corpus.getNonExplicitSpans(article);
+			}
+		} else {
+			String rawTextFilename = Settings.BIO_DRB_RAW_PATH + article.getName();
+			orgText = Util.readFile(rawTextFilename);
+			spanMap = Corpus.getBioSpanMapAsList(article, featureType);
+			paragraphs = Corpus.getParagraphs(Type.BIO_DRB, new File(rawTextFilename), spanMap, featureType);
+			trees = Corpus.getBioTrees(article, featureType);
+			buildBioDependencyTrees(article, featureType);
+			relations = getEpRelations(article, featureType);
+			if (featureType != FeatureType.AnyText) {
+				impRel = Corpus.getBioNonExplicitSpans(article);
+			}
+
+			List<String> allRelations = new ArrayList<String>(relations);
+			allRelations.addAll(impRel);
+			spanToSenId = Corpus.getBioSpanToSenId(spanMap, allRelations);
+
 		}
 
 		for (int i = 0; i < paragraphs.length; ++i) {
 			int index = paragraphs[i];
 			int limit = ((i + 1) < paragraphs.length ? paragraphs[i + 1] : trees.size()) - 1;
 			for (; index < limit; ++index) {
+				// log.trace("Parsing paragraph " + index + " out of " +
+				// paragraphs[paragraphs.length - 1]);
 				int senIdx1 = index;
 				int senIdx2 = index + 1;
 				String expRel = findRelation(relations, "Exp", senIdx1, senIdx2);
 
 				if (expRel == null) {
-					String nonExpRel = featureType == FeatureType.AnyText ? null
-							: findRelation(impRel, "NonExp", senIdx1, senIdx2);
 					String[] types = null;
+					String nonExpRel = null;
 
-					if (nonExpRel != null) {
-						types = getTypes(nonExpRel);
-					}
-
-					if (types != null && types[0].isEmpty()) {// no level 2 type
-						continue;
-					}
-
-					if (featureType == FeatureType.AnyText || types != null) { // else
-																				// just
-																				// +1
-																				// for
-																				// total
-						// print to feature file
-						StringBuilder feature = new StringBuilder();
-						Tree arg1Tree = trees.get(senIdx1);
-						Tree arg2Tree = trees.get(senIdx2);
-
-						List<TreeNode> arg1 = new ArrayList<>();
-						arg1.add(new TreeNode(arg1Tree.firstChild(), arg1Tree.firstChild(), senIdx1));
-
-						List<TreeNode> arg2 = new ArrayList<>();
-						arg2.add(new TreeNode(arg2Tree.firstChild(), arg2Tree.firstChild(), senIdx2));
-
-						String productionRules = printProductionRules(arg1, arg2);
-						feature.append(productionRules);
-
-						String dependencyRules = printDependencyRules(arg1, arg2);
-						feature.append(dependencyRules);
-
-						String wordPairs = printWordPairs(arg1, arg2);
-						feature.append(wordPairs);
-						String arg2Word = printArg2Word(arg1, arg2);
-						feature.append(arg2Word);
-
-						if (featureType != FeatureType.AnyText) {
-							for (String type : types) {
-								feature.append(type.replace(' ', '_'));
-								feature.append('£');
-							}
-						} else {
-							feature.append("xxx");
+					if (featureType != FeatureType.AnyText) {
+						nonExpRel = findRelation(impRel, "NonExp", senIdx1, senIdx2);
+						types = null;
+						if (nonExpRel != null) {
+							types = getTypes(nonExpRel);
 						}
-						if (featureType != FeatureType.Training && featureType != FeatureType.GoldStandard) {
-							nonExpRel = genNonExpRel(arg1Tree, arg2Tree, senIdx1, senIdx2);
+
+						if (types != null && types[0].isEmpty()) {
+							continue;
 						}
-						features.add(new String[] { feature.toString(), nonExpRel });
 					}
+
+					StringBuilder feature = new StringBuilder();
+					Tree arg1Tree = trees.get(senIdx1);
+					Tree arg2Tree = trees.get(senIdx2);
+
+					List<TreeNode> arg1 = new ArrayList<>();
+					arg1.add(new TreeNode(arg1Tree.firstChild(), arg1Tree.firstChild(), senIdx1));
+
+					List<TreeNode> arg2 = new ArrayList<>();
+					arg2.add(new TreeNode(arg2Tree.firstChild(), arg2Tree.firstChild(), senIdx2));
+
+					String productionRules = printProductionRules(arg1, arg2);
+					feature.append(productionRules);
+
+					String dependencyRules = printDependencyRules(arg1, arg2);
+					feature.append(dependencyRules);
+
+					String wordPairs = printWordPairs(arg1, arg2);
+					feature.append(wordPairs);
+					String arg2Word = printArg2Word(arg1, arg2);
+					feature.append(arg2Word);
+
+					if (types != null && types.length > 0) {
+						for (String type : types) {
+							feature.append(type.replace(' ', '_'));
+							feature.append('£');
+						}
+					} else {
+						feature.append("xxx");
+					}
+					if (featureType != FeatureType.GoldStandard) {
+						nonExpRel = genNonExpRel(arg1Tree, arg2Tree, senIdx1, senIdx2);
+					}
+					features.add(new String[] { feature.toString(), nonExpRel });
 				}
 			}
 		}
@@ -288,25 +361,49 @@ public class NonExplicitComp extends Component {
 		String arg1Text = Corpus.nodesToString(arg1Pos);
 		String arg2Text = Corpus.nodesToString(arg2Pos);
 
+		String arg1Span = Corpus.continuousTextToSpan(arg1Text, orgText);
+		String arg2Span = Corpus.continuousTextToSpan(arg2Text, orgText);
+
 		StringBuilder sb = new StringBuilder();
 
-		for (int i = 0; i < 48; ++i) {
-			if (i == 0) {
-				sb.append("Implicit");
+		if (corpus.equals(Type.PDTB)) {
+			for (int i = 0; i < 48; ++i) {
+				if (i == 0) {
+					sb.append("Implicit");
+				}
+				if (i == 22) {
+					sb.append(arg1Span);
+				}
+				if (i == 23) {
+					sb.append(senIdx1);
+				}
+				if (i == 24) {
+					sb.append(arg1Text);
+				}
+				if (i == 32) {
+					sb.append(arg2Span);
+				}
+				if (i == 33) {
+					sb.append(senIdx2);
+				}
+				if (i == 34) {
+					sb.append(arg2Text);
+				}
+				sb.append("|");
 			}
-			if (i == 23) {
-				sb.append(senIdx1);
+		} else {
+			for (int i = 0; i < 27; ++i) {
+				if (i == 0) {
+					sb.append("Implicit");
+				}
+				if (i == 14) {
+					sb.append(arg1Span);
+				}
+				if (i == 20) {
+					sb.append(arg2Span);
+				}
+				sb.append("|");
 			}
-			if (i == 24) {
-				sb.append(arg1Text);
-			}
-			if (i == 33) {
-				sb.append(senIdx2);
-			}
-			if (i == 34) {
-				sb.append(arg2Text);
-			}
-			sb.append("|");
 		}
 		sb.deleteCharAt(sb.length() - 1);
 
@@ -325,6 +422,10 @@ public class NonExplicitComp extends Component {
 			path.append(featureType.toString().replace('.', '_'));
 			path.append('/');
 			path.append(article.getName());
+
+			if (corpus.equals(Type.BIO_DRB)) {
+				path.append(".pipe");
+			}
 		}
 		List<String> result = new ArrayList<>();
 		try {
@@ -332,16 +433,17 @@ public class NonExplicitComp extends Component {
 			for (String pipe : pipes) {
 				if (pipe.length() > 0) {
 					String[] rel = pipe.split("\\|", -1);
-					if (rel.length != 48) {
-						log.error("Invalid EP arg_ext relations. Column size should be 48 but it was " + rel.length
-								+ " in article " + article + " pipe " + pipe);
+					int pipeLength = corpus.equals(Type.PDTB) ? 48 : 27;
+					if (rel.length != pipeLength) {
+						log.error("Invalid EP arg_ext relations. Column size should be " + pipeLength + " but it was "
+								+ rel.length + " in article " + article + " pipe " + pipe);
 					}
 
 					result.add(pipe);
 				}
 			}
 		} catch (FileNotFoundException e) {
-			log.info("No EP arguments for article: " + article.getName() + " : " + e.getMessage());
+			log.warn("No EP arguments for article: " + article.getName() + " : " + e.getMessage());
 		}
 
 		return result;
@@ -354,7 +456,7 @@ public class NonExplicitComp extends Component {
 		return printWordPairs(arg1, arg2);
 	}
 
-	private static String[] getTypes(String rel) {
+	private String[] getTypes(String rel) {
 
 		if (rel.startsWith("EntRel")) {
 			return new String[] { "EntRel" };
@@ -362,7 +464,12 @@ public class NonExplicitComp extends Component {
 			return new String[] { "NoRel" };
 		} else {
 			String[] cols = rel.split("\\|", -1);
-			String[] senses = new String[] { cols[11], cols[12], cols[13], cols[14] };
+			String[] senses = null;
+			if (corpus.equals(Type.PDTB)) {
+				senses = new String[] { cols[11], cols[12], cols[13], cols[14] };
+			} else {
+				senses = new String[] { cols[8], cols[9] };
+			}
 			Set<String> types = Util.getUniqueSense(senses);
 			if (types.isEmpty()) {
 				return new String[] { "" };
@@ -372,15 +479,30 @@ public class NonExplicitComp extends Component {
 		}
 	}
 
-	private String findRelation(List<String> relations, String type, int senId1, int senId2) {
+	private String findRelation(List<String> relations, String type, int senId1, int senId2) throws IOException {
 
 		for (String rel : relations) {
 			if ((type.equals("Exp") && rel.startsWith("Explicit"))
 					|| (type.equals("NonExp") && !rel.startsWith("Explicit"))) {
+
 				String[] cols = rel.split("\\|", -1);
-				String[] tmp = cols[23].split(";");
-				String arg1Gorn = tmp[tmp.length - 1].split(",")[0].trim();
-				String arg2Gorn = cols[33].split(";")[0].split(",")[0].trim();
+				String arg1Gorn = "";
+				String arg2Gorn = "";
+
+				if (corpus.equals(Type.PDTB)) {
+					String[] tmp = cols[23].split(";");
+					arg1Gorn = tmp[tmp.length - 1].split(",")[0].trim();
+					arg2Gorn = cols[33].split(";")[0].split(",")[0].trim();
+				} else {
+					LinkedList<Integer> arg1s = spanToSenId.get(cols[14]);
+					if (arg1s != null && arg1s.size() > 0) {
+						arg1Gorn = arg1s.getLast().toString();
+					}
+					LinkedList<Integer> arg2s = spanToSenId.get(cols[20]);
+					if (arg2s != null && arg2s.size() > 0) {
+						arg2Gorn = arg2s.getFirst().toString();
+					}
+				}
 
 				if (arg1Gorn.length() > 0 && arg2Gorn.length() > 0) {
 					int sen1 = Integer.parseInt(arg1Gorn);
@@ -396,14 +518,25 @@ public class NonExplicitComp extends Component {
 
 	@Override
 	public List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException {
+		return generateFeatures(Type.PDTB, article, featureType);
+	}
 
-		trees = Corpus.getTrees(article, featureType);
-
-		buildDependencyTrees(article, featureType);
-
+	public List<String[]> generateFeatures(Type corpus, File article, FeatureType featureType) throws IOException {
 		List<String[]> features = new ArrayList<>();
 
-		List<String> relations = Corpus.getNonExplicitSpans(article);
+		List<String> relations = null;
+		if (corpus.equals(Type.PDTB)) {
+			trees = Corpus.getTrees(article, featureType);
+			buildDependencyTrees(article, featureType);
+			relations = Corpus.getNonExplicitSpans(article);
+			orgText = Util.readFile(Corpus.genRawTextPath(article));
+		} else {
+			trees = Corpus.getBioTrees(article, featureType);
+			buildBioDependencyTrees(article, featureType);
+			relations = Corpus.getBioNonExplicitSpans(article);
+			orgText = Util.readFile(Settings.BIO_DRB_RAW_PATH + article.getName());
+			spanMap = Corpus.getBioSpanMapAsList(article, featureType);
+		}
 		for (String rel : relations) {
 			StringBuilder feature = new StringBuilder();
 
@@ -421,6 +554,9 @@ public class NonExplicitComp extends Component {
 
 			String[] cols = rel.split("\\|", -1);
 			String[] senses = new String[] { cols[11], cols[12], cols[13], cols[14] };
+			if (corpus.equals(Type.BIO_DRB)) {
+				senses = new String[] { cols[8], cols[9] };
+			}
 
 			Set<String> types = new HashSet<>();
 			if (cols[0].matches("Implicit|AltLex")) {
@@ -454,11 +590,15 @@ public class NonExplicitComp extends Component {
 	}
 
 	private boolean isLegalType(String type) {
-		String[] legalTypes = (Settings.SEMANTIC_LEVEL == 1) ? LEVEL_1_TYPES : LEVEL_2_TYPES;
-		return Util.arrayContains(legalTypes, type);
+		if (corpus.equals(Type.PDTB)) {
+			String[] legalTypes = (Settings.SEMANTIC_LEVEL == 1) ? LEVEL_1_TYPES : LEVEL_2_TYPES;
+			return Util.arrayContains(legalTypes, type);
+		} else {
+			return true;
+		}
 	}
 
-	private String printProductionRules(String relation) {
+	private String printProductionRules(String relation) throws IOException {
 		List<TreeNode> arg1 = getTreeNodes(relation, "arg1");
 		List<TreeNode> arg2 = getTreeNodes(relation, "arg2");
 		return printProductionRules(arg1, arg2);
@@ -552,10 +692,16 @@ public class NonExplicitComp extends Component {
 
 	}
 
-	private List<TreeNode> getTreeNodes(String relation, String arg) {
+	private List<TreeNode> getTreeNodes(String relation, String arg) throws IOException {
 
 		String[] cols = relation.split("\\|", -1);
-		String gornAddress = cols[arg.equals("arg1") ? 23 : 33];
+		String gornAddress;
+		if (corpus.equals(Type.PDTB)) {
+			gornAddress = cols[arg.equals("arg1") ? 23 : 33];
+		} else {
+			String span = cols[arg.equals("arg1") ? 14 : 20];
+			gornAddress = Corpus.spanToSenIds(span, spanMap).getFirst().toString();
+		}
 		String[] treeAddress = gornAddress.split(";");
 		List<TreeNode> result = new ArrayList<TreeNode>();
 		for (String address : treeAddress) {
@@ -575,8 +721,15 @@ public class NonExplicitComp extends Component {
 
 	private String printWordPairs(String rel) {
 		String[] cols = rel.split("\\|", -1);
-		String arg1 = cols[24];
-		String arg2 = cols[34];
+		String arg1 = null;
+		String arg2 = null;
+		if (corpus.equals(Type.PDTB)) {
+			arg1 = cols[24];
+			arg2 = cols[34];
+		} else {
+			arg1 = Corpus.spanToText(cols[14], orgText);
+			arg2 = Corpus.spanToText(cols[20], orgText);
+		}
 
 		return printWordPairs(arg1, arg2);
 	}
@@ -618,7 +771,7 @@ public class NonExplicitComp extends Component {
 		return line.toString();
 	}
 
-	private String printDependencyRules(String rel) {
+	private String printDependencyRules(String rel) throws IOException {
 		List<TreeNode> arg1 = getTreeNodes(rel, "arg1");
 		List<TreeNode> arg2 = getTreeNodes(rel, "arg2");
 		return printDependencyRules(arg1, arg2);
@@ -745,7 +898,80 @@ public class NonExplicitComp extends Component {
 
 	private String printArg2WordFromPipeline(String relation) {
 		String[] tmp = relation.split("\\|", -1);
-		return printArg2Word(tmp[34]);
+		return printArg2Word((corpus.equals(Type.PDTB)) ? tmp[34] : Corpus.spanToText(tmp[20], orgText));
+	}
+
+	private void buildBioDependencyTrees(File article, FeatureType featureType) throws IOException {
+		dtreeMap = new HashMap<String, Dependency>();
+		String[] dtreeTexts = Corpus.getBioDependTrees(article, featureType);
+
+		if (dtreeTexts.length != trees.size()) {
+			logDiffTreeCountErr(dtreeTexts.length, article, featureType);
+		}
+
+		for (int i = 0; i < dtreeTexts.length; i++) {
+			String dtreeText = dtreeTexts[i];
+
+			if (dtreeText.isEmpty() || trees.get(i).children().length == 0) {
+				continue;
+			}
+
+			Tree tree = trees.get(i).getChild(0);
+			List<Tree> allPosNodes = new ArrayList<Tree>();
+			getAllPosNodes(tree, allPosNodes);
+			String[] rels = dtreeText.split("\n");
+
+			// if there is no dependency tree for the parse tree
+			if (rels.length == 0 || (rels.length == 1 && rels[0].isEmpty())) {
+				continue;
+			}
+
+			for (String tmp : rels) {
+				if (tmp.equals("_nil_") || tmp.startsWith("root") || tmp.isEmpty()) {
+					continue;
+				}
+				int ind1 = tmp.indexOf('(');
+				int ind2 = tmp.lastIndexOf(')');
+				int split = tmp.indexOf(", ");
+
+				String label = tmp.substring(0, ind1);
+
+				String tmp1 = tmp.substring(ind1 + 1, split);
+				String w1 = tmp1.substring(tmp1.lastIndexOf('-') + 1);
+
+				String tmp2 = tmp.substring(split + 2, ind2);
+				String w2 = tmp2.substring(tmp2.lastIndexOf('-') + 1);
+
+				w1 = w1.replaceAll("[^\\d]", "");
+				w2 = w2.replaceAll("[^\\d]", "");
+
+				int pInd = Integer.parseInt(w1) - 1;
+				int cInd = Integer.parseInt(w2) - 1;
+
+				Tree p = allPosNodes.get(pInd).firstChild();
+				Tree c = allPosNodes.get(cInd).firstChild();
+
+				pInd = p.nodeNumber(tree);
+				cInd = c.nodeNumber(tree);
+
+				Dependency pDep = dtreeMap.get(i + " : " + pInd);
+				if (pDep == null) {
+					pDep = new Dependency(p);
+				}
+
+				Dependency cDep = dtreeMap.get(i + " : " + cInd);
+				if (cDep == null) {
+					cDep = new Dependency(c);
+				}
+
+				pDep.addDependents(cInd);
+				cDep.setDependsOn(p);
+				cDep.setLabel(label);
+
+				dtreeMap.put(i + " : " + cInd, cDep);
+				dtreeMap.put(i + " : " + pInd, pDep);
+			}
+		}
 	}
 
 	protected void buildDependencyTrees(File article, FeatureType featureType) throws IOException {
@@ -969,4 +1195,98 @@ public class NonExplicitComp extends Component {
 	protected HashMap<String, Dependency> getDtreeMap() {
 		return this.dtreeMap;
 	}
+
+	public File trainBioDrb() throws IOException {
+
+		corpus = Type.BIO_DRB;
+
+		FeatureType featureType = FeatureType.Training;
+
+		String name = this.name + featureType.toString();
+
+		File trainFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(trainFile);
+
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		for (File file : files) {
+			if (TestBioDrb.trainSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+
+				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
+
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+				}
+				featureFile.flush();
+			}
+		}
+		featureFile.close();
+
+		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
+
+		return modelFile;
+	}
+
+	public File testBioDrb(FeatureType featureType) throws IOException {
+		corpus = Type.BIO_DRB;
+		String name = this.name + featureType.toString();
+
+		File testFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(testFile);
+
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
+
+		log.info("Testing (" + featureType + "):");
+
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		for (File file : files) {
+			if (TestBioDrb.testSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+
+				String articleName = dir + file.getName();
+
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
+				File articleAux = new File(articleName + ".aux");
+				PrintWriter articleAuxWriter = new PrintWriter(articleAux);
+
+				List<String[]> features = generateEpFeatures(Type.BIO_DRB, file, featureType);
+
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
+					articleAuxWriter.println(feature[1]);
+				}
+
+				featureFile.flush();
+				articleFeatures.close();
+				articleAuxWriter.close();
+
+				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
+				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				new File(pipeDir).mkdirs();
+				makeBioPipeFile(pipeDir, articleOut, articleAux, file.getName());
+			}
+		}
+		featureFile.close();
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+
+		return outFile;
+	}
+
 }

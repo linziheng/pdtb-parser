@@ -1,0 +1,25 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:shares_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:that_after Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:ceaselessly_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:companies_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:back_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:861_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:861_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:industry_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:dealings_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Expansion

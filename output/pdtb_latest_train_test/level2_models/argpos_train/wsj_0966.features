@@ -1,0 +1,22 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:earned prev2_POS:VBN with_prev2_full:earned_but with_prev2_POS_full:VBN_CC SS
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:maintained prev2_POS:VBN with_prev2_full:maintained_and with_prev2_POS_full:VBN_CC SS
+conn:if conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_if with_prev1_POS_full::_IN prev2:full prev2_POS:JJ with_prev2_full:full_if with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:reduced prev1_POS:VBN with_prev1_full:reduced_and with_prev1_POS_full:VBN_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:back prev2_POS:RB with_prev2_full:back_and with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:schools prev2_POS:NNS with_prev2_full:schools_but with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:so conn_POS:RB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_so with_prev1_POS_full:CC_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:court prev2_POS:NN with_prev2_full:court_while with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:'' prev1_POS:'' with_prev1_full:''_when with_prev1_POS_full:''_WRB prev2:Claus prev2_POS:NNP with_prev2_full:Claus_when with_prev2_POS_full:NNP_WRB SS
+conn:until conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_until with_prev1_POS_full:,_IN prev2:quietly prev2_POS:RB with_prev2_full:quietly_until with_prev2_POS_full:RB_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:health prev2_POS:NN with_prev2_full:health_when with_prev2_POS_full:NN_WRB SS
+conn:while conn_POS:IN prev1:tickets prev1_POS:NNS with_prev1_full:tickets_while with_prev1_POS_full:NNS_IN prev2:football prev2_POS:NN with_prev2_full:football_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:included prev2_POS:VBN with_prev2_full:included_even_though with_prev2_POS_full:VBN_RB_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:before conn_POS:IN prev1:cleaned prev1_POS:VBN with_prev1_full:cleaned_before with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_before with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS

@@ -1,0 +1,4 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:tana_before Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:sales_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:complex_because Contingency

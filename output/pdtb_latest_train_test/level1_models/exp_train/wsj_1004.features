@@ -1,0 +1,19 @@
+conn_lc:as_well conn:as_well conn_POS:IN_RB with_prev_full:participate_as_well Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:technology_as Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:ibm_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:prevalent_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:today_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:mainly_because conn:mainly_because conn_POS:RB_IN with_prev_full:was_mainly_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:interested_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:enough_so_that Contingency
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

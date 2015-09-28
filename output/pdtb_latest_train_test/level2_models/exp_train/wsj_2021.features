@@ -1,0 +1,15 @@
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:shortly_thereafter conn:Shortly_thereafter conn_POS:RB_RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:because conn:because conn_POS:IN with_prev_full:use_because Cause
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:-lrb-_even_though Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:underreacting_when Condition
+conn_lc:if conn:If conn_POS:IN Pragmatic_condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:effectively_unless Alternative

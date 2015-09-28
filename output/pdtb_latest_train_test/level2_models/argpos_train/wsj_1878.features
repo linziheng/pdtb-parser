@@ -1,0 +1,7 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:Park prev1_POS:NNP with_prev1_full:Park_when with_prev1_POS_full:NNP_WRB prev2:Candlestick prev2_POS:NNP with_prev2_full:Candlestick_when with_prev2_POS_full:NNP_WRB SS
+conn:So conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_So with_prev1_POS_full:``_CC PS
+conn:before conn_POS:IN sent_pos:2 prev1:So prev1_POS:CC with_prev1_full:So_before with_prev1_POS_full:CC_IN prev2:`` prev2_POS:`` with_prev2_full:``_before with_prev2_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:for prev1_POS:IN with_prev1_full:for_since with_prev1_POS_full:IN_IN prev2:up prev2_POS:RP with_prev2_full:up_since with_prev2_POS_full:RP_IN SS

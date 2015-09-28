@@ -1,0 +1,7 @@
+conn:before conn_POS:IN prev1:votes prev1_POS:NNS with_prev1_full:votes_before with_prev1_POS_full:NNS_IN prev2:60 prev2_POS:CD with_prev2_full:60_before with_prev2_POS_full:CD_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:there prev1_POS:RB with_prev1_full:there_and with_prev1_POS_full:RB_CC prev2:be prev2_POS:VB with_prev2_full:be_and with_prev2_POS_full:VB_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:sides prev1_POS:NNS with_prev1_full:sides_also with_prev1_POS_full:NNS_RB prev2:two prev2_POS:CD with_prev2_full:two_also with_prev2_POS_full:CD_RB PS
+conn:also conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_also with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS

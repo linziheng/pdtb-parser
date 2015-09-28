@@ -1,0 +1,52 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:easier_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:delayed_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:more_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:then conn:then conn_POS:RB with_prev_full:they_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:investors_even_if Condition
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Conjunction
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tight_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:an_average_of_six_months_before conn:an_average_of_six_months_before conn_POS:DT_NN_IN_CD_NNS_IN with_prev_full:began_an_average_of_six_months_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:-_and Conjunction
+conn_lc:about_six_months_before conn:About_six_months_before conn_POS:RB_CD_NNS_IN Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:length_so_that Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:overall conn:overall conn_POS:RB with_prev_full:but_overall Restatement
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:medicine_when Condition
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:just_when conn:just_when conn_POS:RB_WRB with_prev_full:opportunities_just_when Synchrony

@@ -1,0 +1,35 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Pragmatic_condition
+conn_lc:but conn:But conn_POS:CC Pragmatic_concession
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:getting_when Synchrony
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:once conn:once conn_POS:RB with_prev_full:,_once Asynchronous
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:mill_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:once conn:Once conn_POS:RB Asynchronous
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Synchrony
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

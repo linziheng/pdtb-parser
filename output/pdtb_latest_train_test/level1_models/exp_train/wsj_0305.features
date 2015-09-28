@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:Then conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Expansion
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:yet_although Comparison
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Temporal
+conn_lc:while conn:while conn_POS:NN with_prev_full:own_while Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:costs_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:competitor_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:wathen_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:``_and Expansion
+conn_lc:even_after conn:Even_after conn_POS:RB_IN Temporal
+conn_lc:next conn:Next conn_POS:RB Temporal
+conn_lc:and conn:And conn_POS:CC Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:service_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:service_and Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:refinance_if Contingency
+conn_lc:still conn:still conn_POS:RB with_prev_full:and_still Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rcb-_and Expansion
+conn_lc:as conn:As conn_POS:IN with_prev_full:``_as Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:two_and Expansion

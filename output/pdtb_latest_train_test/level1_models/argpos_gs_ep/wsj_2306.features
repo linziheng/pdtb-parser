@@ -1,0 +1,24 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:sharply prev2_POS:RB with_prev2_full:sharply_but with_prev2_POS_full:RB_CC SS
+conn:because conn_POS:IN prev1:today prev1_POS:NN with_prev1_full:today_because with_prev1_POS_full:NN_IN prev2:until prev2_POS:IN with_prev2_full:until_because with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Gabelli prev2_POS:NNP with_prev2_full:Gabelli_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:months prev2_POS:NNS with_prev2_full:months_but with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:Friday prev1_POS:NNP with_prev1_full:Friday_after with_prev1_POS_full:NNP_IN prev2:shares prev2_POS:NNS with_prev2_full:shares_after with_prev2_POS_full:NNS_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:morning prev1_POS:NN with_prev1_full:morning_before with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_before with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_If with_prev2_POS_full:,_IN SS
+conn:and conn_POS:CC prev1:rising prev1_POS:VBG with_prev1_full:rising_and with_prev1_POS_full:VBG_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS

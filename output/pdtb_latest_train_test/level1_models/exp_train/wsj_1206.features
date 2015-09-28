@@ -1,0 +1,31 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:bad_after Temporal
+conn_lc:though conn:though conn_POS:IN with_prev_full:--_though Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:later conn:later conn_POS:RB with_prev_full:then_later Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:storer_also Expansion
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:buy-out_after Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:tv_if Contingency
+conn_lc:overall conn:Overall conn_POS:NNP Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:survive_if Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:payments_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:recently_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion

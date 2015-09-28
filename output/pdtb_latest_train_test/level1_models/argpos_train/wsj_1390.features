@@ -1,0 +1,18 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:images prev2_POS:NNS with_prev2_full:images_but with_prev2_POS_full:NNS_CC SS
+conn:rather conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_rather with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_rather with_prev2_POS_full:,_RB SS
+conn:and conn_POS:CC prev1:industry prev1_POS:NN with_prev1_full:industry_and with_prev1_POS_full:NN_CC prev2:growth prev2_POS:NN with_prev2_full:growth_and with_prev2_POS_full:NN_CC SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:Warnaco prev1_POS:NNP with_prev1_full:Warnaco_also with_prev1_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_after with_prev1_POS_full:IN_IN prev2:say prev2_POS:VBP with_prev2_full:say_after with_prev2_POS_full:VBP_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_then with_prev1_POS_full:VBD_RB prev2:It prev2_POS:PRP with_prev2_full:It_then with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Masket prev2_POS:NNP with_prev2_full:Masket_but with_prev2_POS_full:NNP_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:stores prev2_POS:NNS with_prev2_full:stores_but with_prev2_POS_full:NNS_CC SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS

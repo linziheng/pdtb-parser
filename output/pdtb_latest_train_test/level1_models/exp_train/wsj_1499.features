@@ -1,0 +1,26 @@
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:law_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:bill_also Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:so conn:So conn_POS:CC Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:bill_also Expansion
+conn_lc:as_if conn:as_if conn_POS:IN_IN with_prev_full:,_as_if Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:bill_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:bush_also Expansion
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:declared_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Comparison

@@ -1,0 +1,23 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_as conn:Even_as conn_POS:RB_IN Synchrony
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:began_after Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:reports_as Synchrony
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:machinists_also Conjunction
+conn_lc:just_before conn:just_before conn_POS:RB_IN with_prev_full:,_just_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:relying_instead Alternative
+conn_lc:also conn:also conn_POS:RB with_prev_full:decline_also Conjunction
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:company_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:board_also Conjunction
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Alternative
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Contrast

@@ -1,0 +1,14 @@
+conn:and conn_POS:CC prev1:life prev1_POS:NN with_prev1_full:life_and with_prev1_POS_full:NN_CC prev2:middle-class prev2_POS:NN with_prev2_full:middle-class_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:behind prev1_POS:RB with_prev1_full:behind_as with_prev1_POS_full:RB_IN prev2:far prev2_POS:RB with_prev2_full:far_as with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:security prev1_POS:NN with_prev1_full:security_but with_prev1_POS_full:NN_CC prev2:or prev2_POS:CC with_prev2_full:or_but with_prev2_POS_full:CC_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:audit prev2_POS:NN with_prev2_full:audit_but with_prev2_POS_full:NN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:or conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_or with_prev1_POS_full::_CC prev2:trouble prev2_POS:NN with_prev2_full:trouble_or with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:allegory prev2_POS:NN with_prev2_full:allegory_as with_prev2_POS_full:NN_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:satire prev1_POS:NN with_prev1_full:satire_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:If conn_POS:IN prev1:: prev1_POS:: with_prev1_full::_If with_prev1_POS_full::_IN prev2:this prev2_POS:DT with_prev2_full:this_If with_prev2_POS_full:DT_IN SS

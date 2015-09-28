@@ -21,6 +21,7 @@ import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -37,7 +38,9 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
+import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
@@ -90,6 +93,38 @@ public class ArgExtComp extends Component {
 		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
 		return modelFile;
 	};
+
+	public File trainBioDrb() throws IOException {
+		File trainFile = new File(OUT_PATH + name + FeatureType.Training);
+		PrintWriter featureFile = new PrintWriter(trainFile);
+		log.info("Training:");
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		for (File article : files) {
+			if (TestBioDrb.trainSet.contains(article.getName())) {
+				log.trace("Article: " + article.getName());
+
+				List<String[]> features = generateFeatures(Type.BIO_DRB, article, FeatureType.Training);
+				doneSoFar += features.size();
+
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+				}
+
+				featureFile.flush();
+			}
+		}
+		featureFile.close();
+
+		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
+		return modelFile;
+	}
 
 	@Override
 	public File getGsFile(FeatureType featureType) {
@@ -356,6 +391,56 @@ public class ArgExtComp extends Component {
 		return outFile;
 	};
 
+	public File testBioDrb(FeatureType featureType) throws IOException {
+		String name = NAME + featureType.toString();
+		File featureFile = new File(OUT_PATH + name);
+		File pipeFile = new File(OUT_PATH + name + ".pipe");
+		File auxFile = new File(OUT_PATH + name + ".aux");
+
+		PrintWriter featureWriter = new PrintWriter(featureFile);
+		PrintWriter pipeWriter = new PrintWriter(pipeFile);
+		PrintWriter auxWriter = new PrintWriter(auxFile);
+
+		labels = getArgPosLabels(featureType);
+		majorIndex = 0;
+
+		log.info("Testing: ");
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		for (File article : files) {
+			if (TestBioDrb.testSet.contains(article.getName())) {
+				log.trace("Article: " + article.getName());
+				List<String[]> features = generateFeatures(Type.BIO_DRB, article, featureType);
+				for (String[] feature : features) {
+					featureWriter.println(feature[0]);
+					pipeWriter.println(feature[1]);
+					auxWriter.println(feature[2]);
+				}
+				featureWriter.flush();
+				pipeWriter.flush();
+				auxWriter.flush();
+			}
+		}
+		featureWriter.close();
+		pipeWriter.close();
+		auxWriter.close();
+
+		MaxEntClassifier.predict(featureFile, modelFile, new File(OUT_PATH + name + ".out"));
+		log.info("Generating arguments");
+		File outFile = generateArguments(Type.BIO_DRB, featureType);
+
+		String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+		new File(pipeDir).mkdirs();
+		makeBioPipeFile(pipeDir, outFile);
+		return outFile;
+	}
+
 	private List<String> getArgPosLabels(FeatureType featureType) throws IOException {
 		return getArgPosLabels(null, featureType);
 	}
@@ -367,7 +452,7 @@ public class ArgExtComp extends Component {
 		if (featureType == FeatureType.AnyText) {
 			path = Settings.TMP_PATH + inputFile.getName() + "." + ArgPosComp.NAME + ".out";
 		} else {
-			path = Settings.OUT_PATH + ArgPosComp.NAME + featureType;
+			path = Settings.OUT_PATH + ArgPosComp.NAME + featureType + ".out";
 		}
 
 		List<String> list = new ArrayList<>();
@@ -386,19 +471,38 @@ public class ArgExtComp extends Component {
 
 	@Override
 	public List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException {
+		return generateFeatures(Type.PDTB, article, featureType);
+	}
+
+	public List<String[]> generateFeatures(Type corpus, File article, FeatureType featureType) throws IOException {
 		List<String[]> features = new ArrayList<>();
-		ArrayList<String> spanArray = Corpus.getSpanMapAsList(article, featureType);
-		Map<String, String> spanHashMap = Corpus.getSpanMap(article, featureType);
-		trees = Corpus.getTrees(article, featureType);
 
-		List<String> explicitSpans = Corpus.getExplicitSpans(article, featureType);
+		ArrayList<String> spanArray = null;
+		Map<String, String> spanHashMap = null;
+		List<String> explicitSpans = null;
 
-		if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
-			explicitSpans = Corpus.filterErrorProp(explicitSpans, article, featureType);
-		}
+		if (corpus.equals(Type.PDTB)) {
+			spanArray = Corpus.getSpanMapAsList(article, featureType);
+			spanHashMap = Corpus.getSpanMap(article, featureType);
+			trees = Corpus.getTrees(article, featureType);
+			explicitSpans = Corpus.getExplicitSpans(article, featureType);
 
-		if (featureType == FeatureType.Auto) {
-			sentMap = Corpus.getSentMap(article);
+			if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
+				explicitSpans = Corpus.filterErrorProp(explicitSpans, article, featureType);
+			}
+
+			if (featureType == FeatureType.Auto) {
+				sentMap = Corpus.getSentMap(article);
+			}
+		} else {
+			spanArray = Corpus.getBioSpanMapAsList(article, featureType);
+			spanHashMap = Corpus.getBioSpanMap(article, featureType);
+			trees = Corpus.getBioTrees(article, featureType);
+			explicitSpans = Corpus.getBioExplicitSpans(article, featureType);
+
+			if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
+				explicitSpans = Corpus.filterBioErrorProp(explicitSpans, article, featureType);
+			}
 		}
 
 		int index = 0;
@@ -406,10 +510,23 @@ public class ArgExtComp extends Component {
 		for (String rel : explicitSpans) {
 
 			String[] cols = rel.split("\\|", -1);
+
 			String argPos = null;
-			if (featureType == FeatureType.Training) {
-				argPos = Corpus.getLabel(cols[23], cols[33]);
+			if (corpus == Type.PDTB) {
+				if (featureType == FeatureType.Training) {
+					argPos = Corpus.getLabel(cols[23], cols[33]);
+				} else {
+					argPos = labels.get(majorIndex);
+				}
 			} else {
+				argPos = Corpus.getBioLabel(cols[14], cols[20], spanArray);
+			}
+
+			if (argPos.equals("FS")) {
+				continue;
+			}
+
+			if (featureType != FeatureType.Training) {
 				argPos = labels.get(majorIndex);
 			}
 			++majorIndex;
@@ -421,7 +538,8 @@ public class ArgExtComp extends Component {
 				List<Node> nodes = new ArrayList<>();
 				Tree root = null;
 
-				String[] spans = cols[3].split(";");
+				String[] spans = corpus.equals(Type.PDTB) ? cols[3].split(";") : cols[1].split(";");
+
 				for (String spanTmp : spans) {
 					String[] span = spanTmp.split("\\.\\.");
 
@@ -432,8 +550,17 @@ public class ArgExtComp extends Component {
 						String[] canSpan = spanCols[3].split("\\.\\.");
 						// Start matches
 						// if (span[0].equals(canSpan[0]) || nodes.size() > 0) {
-						if (span[0].equals(canSpan[0]) || (nodes.size() > 0 && spans.length == 1
-								&& Integer.parseInt(canSpan[1]) <= Integer.parseInt(span[1]))) {
+						boolean flag = span[0].equals(canSpan[0]) || (nodes.size() > 0 && spans.length == 1
+								&& Integer.parseInt(canSpan[1]) <= Integer.parseInt(span[1]));
+						if (corpus.equals(Type.BIO_DRB)) {
+							int start = Integer.parseInt(canSpan[0]);
+							int end = Integer.parseInt(canSpan[1]);
+							int outStart = Integer.parseInt(span[0]);
+							int outEnd = Integer.parseInt(span[1]);
+
+							flag = outStart <= start && end <= outEnd;
+						}
+						if (flag) {
 							if (nodes.size() == 0) {
 								contIndex = index;
 							}
@@ -465,21 +592,46 @@ public class ArgExtComp extends Component {
 					}
 				}
 				if (!nodes.isEmpty()) {
-					String connStr = cols[8].trim().replace(' ', '_');
-					String c = cols[5].substring(0, 1);
-					if (c.toLowerCase().equals(connStr.substring(0, 1))) {
-						connStr = c + connStr.substring(1);
+					String connStr = null;
+					String connCat = null;
+
+					if (corpus.equals(Type.PDTB)) {
+						connStr = cols[8].trim().replace(' ', '_');
+						String c = cols[5].substring(0, 1);
+						if (c.toLowerCase().equals(connStr.substring(0, 1))) {
+							connStr = c + connStr.substring(1);
+						}
+
+						connCat = ConnComp.findCategory(cols[8]);
+					} else {
+						StringBuilder tmp = new StringBuilder();
+						for (Node node : nodes) {
+							tmp.append(node.tree + " ");
+						}
+						connStr = tmp.toString();
+						connStr = connStr.trim().toLowerCase().replace(' ', '_');
+						connCat = ConnComp.findCategory(connStr.replace('_', ' '), corpus);
 					}
 
-					String connCat = ConnComp.findCategory(cols[8]);
 					Tree connNode = nodes.get(nodes.size() - 1).tree.parent(root);
 
-					Tree[] argNodes = getArgNodes(root, cols, spanArray, connCat, connNode);
+					Tree[] argNodes = corpus.equals(Type.PDTB) ? getArgNodes(root, cols, spanArray, connCat, connNode)
+							: getBioArgNodes(root, cols, spanArray, connCat, connNode);
 					List<Tree> internal = getInternalNodes(root, root);
-					String treeNum = featureType == FeatureType.AnyText ? cols[7] : getNodeNum(cols[23], featureType);
+
+					String treeNum;
+					String line;
 					int total = (doneSoFar + features.size());
-					String line = article.getName().substring(0, 8) + ":" + total + "-" + (total + internal.size())
-							+ ":Arg1(" + cols[22] + "):Arg2(" + cols[32] + "):" + cols[3];
+					if (corpus.equals(Type.PDTB)) {
+						treeNum = featureType == FeatureType.AnyText ? cols[7] : getNodeNum(cols[23], featureType);
+						line = article.getName().substring(0, 8) + ":" + total + "-" + (total + internal.size())
+								+ ":Arg1(" + cols[22] + "):Arg2(" + cols[32] + "):" + cols[3];
+
+					} else {
+						treeNum = Corpus.spanToSenIds(cols[14], spanArray).getFirst().toString();
+						line = article.getName() + ":" + total + "-" + (total + internal.size()) + ":Arg1(" + cols[14]
+								+ "):Arg2(" + cols[20] + "):" + cols[1];
+					}
 
 					for (Tree node : internal) {
 						String label = "";
@@ -694,6 +846,29 @@ public class ArgExtComp extends Component {
 		return result;
 	}
 
+	private Tree[] getBioArgNodes(Tree root, String[] cols, ArrayList<String> spanArray, String connCat,
+			Tree connNode) {
+		List<Tree> arg1Nodes = getTreeNodesFromSpan(cols[14], spanArray);
+
+		if (connCat.equals("Coordinator") && connNode.value().equals("CC")) {
+			Tree[] children = connNode.parent(root).children();
+			for (Tree child : children) {
+				int ind = arg1Nodes.indexOf(child);
+				if (ind == -1 && isPuncTag(child.value())) {
+					arg1Nodes.add(child);
+				}
+			}
+		}
+
+		Tree arg1Node = (arg1Nodes.size() == 1) ? arg1Nodes.get(0) : getLCA(root, arg1Nodes);
+
+		List<Tree> arg2Nodes = getTreeNodesFromSpan(cols[20], spanArray);
+
+		Tree arg2Node = (arg2Nodes.size() == 1) ? arg2Nodes.get(0) : getLCA(root, arg2Nodes);
+
+		return new Tree[] { arg1Node, arg2Node };
+	}
+
 	private Tree[] getArgNodes(Tree root, String[] cols, ArrayList<String> spanArray, String connCat, Tree connNode) {
 		List<Tree> arg1Nodes = getTreeNodesFromSpan(cols[22], spanArray);
 		arg1Nodes.addAll(getTreeNodesFromSpan(cols[29], spanArray));
@@ -820,16 +995,84 @@ public class ArgExtComp extends Component {
 		return result;
 	}
 
-	public File generateArguments(FeatureType featureType) throws IOException {
+	private File generateArguments(FeatureType featureType) throws IOException {
+		return generateArguments(Type.PDTB, featureType);
+	}
+
+	public File generateArguments(Type corpus, FeatureType featureType) throws IOException {
 
 		File resultFile = new File(OUT_PATH + NAME + featureType.toString() + ".args");
 		PrintWriter resultWriter = new PrintWriter(resultFile);
+		log.info("Printing same sentence arguments.");
+		printSsArgs(corpus, resultWriter, featureType);
 
-		printSsArgs(resultWriter, featureType);
-		printPsArgs(resultWriter, featureType);
+		log.info("Printing previous sentence arguments.");
+		if (corpus.equals(Type.BIO_DRB)) {
+			printBioPsArgs(resultWriter, featureType);
+		} else {
+			printPsArgs(resultWriter, featureType);
+		}
 		resultWriter.close();
 
 		return resultFile;
+	}
+
+	private void makeBioPipeFile(String pipeDir, File outFile) throws IOException {
+		log.info("Adding arguments to pipe files:");
+		try (BufferedReader outReader = Util.reader(outFile)) {
+			String out;
+			Map<String, String> argResults = new HashMap<>();
+			Set<String> articles = new HashSet<>();
+
+			while ((out = outReader.readLine()) != null) {
+				String[] outCols = out.split("\\|", -1);
+				String article = outCols[outCols.length - 3] + ".pipe";
+				String span = outCols[outCols.length - 2];
+				String key = article + "_" + span;
+				argResults.put(key, out);
+				articles.add(article);
+			}
+
+			for (String article : articles) {
+				log.trace("Article: " + article);
+				File pipeFile = new File(pipeDir + "/" + article);
+				String[] lines = Util.readFile(pipeFile).trim().split(Util.NEW_LINE);
+				PrintWriter pipeWriter = new PrintWriter(pipeFile);
+
+				for (String pipe : lines) {
+					if (pipe.isEmpty()) {
+						log.warn("Article:" + article + " has no pipes!");
+						continue;
+					}
+					String[] cols = pipe.split("\\|", -1);
+					if (cols.length != 27) {
+						log.error("Invalid pipe file: " + article);
+					}
+					String argOut = argResults.get(article + "_" + cols[1]);
+					if (argOut != null) {
+						String[] arguments = argOut.split("\\|", -1);
+						StringBuilder newPipe = new StringBuilder();
+
+						for (int i = 0; i < cols.length; ++i) {
+							if (i == 14) {
+								newPipe.append(arguments[6]);
+							} else if (i == 20) {
+								newPipe.append(arguments[7]);
+							} else {
+								newPipe.append(cols[i]);
+							}
+							newPipe.append('|');
+						}
+						newPipe.deleteCharAt(newPipe.length() - 1);
+						pipeWriter.println(newPipe);
+					} else {
+						log.warn("No argumnets for file: " + article);
+						pipeWriter.println(pipe);
+					}
+				}
+				pipeWriter.close();
+			}
+		}
 	}
 
 	private void makePipeFile(String pipeDir, File outFile) throws IOException {
@@ -891,6 +1134,58 @@ public class ArgExtComp extends Component {
 		}
 	}
 
+	private void printBioPsArgs(PrintWriter resultWriter, FeatureType featureType) throws IOException {
+		labels = getArgPosLabels(featureType);
+		majorIndex = 0;
+
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		for (File article : files) {
+
+			Map<String, String> spanHashMap = Corpus.getBioSpanMap(article, featureType);
+			trees = Corpus.getBioTrees(article, featureType);
+			orgText = Util.readFile(Settings.BIO_DRB_RAW_PATH + article.getName());
+			orgText = orgText.replaceAll("`", "'");
+			List<String> explicitSpans = Corpus.getBioExplicitSpans(article, featureType);
+			ArrayList<String> spanArray = Corpus.getBioSpanMapAsList(article, featureType);
+
+			if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
+				explicitSpans = Corpus.filterBioErrorProp(explicitSpans, article, featureType);
+			}
+			for (String rel : explicitSpans) {
+				String[] cols = rel.split("\\|", -1);
+
+				String argPos = Corpus.getBioLabel(cols[14], cols[20], spanArray);
+				if (argPos.equals("FS")) {
+					continue;
+				}
+
+				String label = labels.get(majorIndex);
+				majorIndex++;
+				if (label.equals("PS")) {
+
+					String[] args = getPSArgSpans(Type.BIO_DRB, rel, spanArray, spanHashMap, featureType);
+
+					String arg1Exp = cols[14];
+					String arg2Exp = cols[20];
+
+					String resultLine = Corpus.spanToText(arg1Exp, orgText) + "|" + Corpus.spanToText(arg2Exp, orgText)
+							+ "|" + Corpus.spanToText(args[0], orgText) + "|" + Corpus.spanToText(args[1], orgText)
+							+ "|" + arg1Exp + "|" + arg2Exp + "|" + args[0] + "|" + args[1] + "|" + article.getName()
+							+ "|" + cols[1] + "|PS";
+					resultWriter.println(resultLine);
+					resultWriter.flush();
+				}
+			}
+		}
+	}
+
 	private void printPsArgs(PrintWriter resultWriter, FeatureType featureType) throws IOException {
 
 		labels = getArgPosLabels(featureType);
@@ -915,7 +1210,7 @@ public class ArgExtComp extends Component {
 					majorIndex++;
 					if (label.equals("PS")) {
 						String[] cols = rel.split("\\|", -1);
-						String[] args = getPSArgSpans(rel, spanHashMap, featureType);
+						String[] args = getPSArgSpans(Type.PDTB, rel, null, spanHashMap, featureType);
 
 						String arg1Exp = cols[22];
 						String arg2Exp = cols[32];
@@ -933,10 +1228,25 @@ public class ArgExtComp extends Component {
 
 	}
 
-	private String[] getPSArgSpans(String pipe, Map<String, String> spanHashMap, FeatureType featureType) {
+	private String[] getPSArgSpans(Type corpus, String pipe, ArrayList<String> spanArray,
+			Map<String, String> spanHashMap, FeatureType featureType) throws IOException {
+
 		String[] cols = pipe.split("\\|", -1);
-		String connSpan = cols[3];
-		String[] connGorn = cols[4].split(";");
+
+		String connSpan = cols[corpus.equals(Type.PDTB) ? 3 : 1];
+		String[] connGorn = null;
+		if (corpus.equals(Type.PDTB)) {
+			connGorn = cols[4].split(";");
+		} else {
+			LinkedList<Integer> temp = Corpus.spanToSenIds(cols[1], spanArray);
+			Set<Integer> set = new HashSet<>(temp);
+			connGorn = new String[set.size()];
+			int i = 0;
+			for (Integer t : set) {
+				connGorn[i] = t.toString();
+				++i;
+			}
+		}
 		int connTree = -1;
 
 		for (String conn : connGorn) {
@@ -970,7 +1280,8 @@ public class ArgExtComp extends Component {
 		return new String[] { arg1Span, arg2Span };
 	}
 
-	private void printSsArgs(PrintWriter resultWriter, FeatureType featureType) throws IOException {
+	private void printSsArgs(Type corpus, PrintWriter resultWriter, FeatureType featureType) throws IOException {
+
 		String prefix = OUT_PATH + NAME + featureType.toString();
 		try (BufferedReader er = Util.reader(prefix + ".aux");
 				BufferedReader prd = Util.reader(prefix + ".out");
@@ -980,11 +1291,23 @@ public class ArgExtComp extends Component {
 			while ((tmp = er.readLine()) != null) {
 				String[] line = tmp.split(":");
 				String article = line[0];
-				orgText = Util.readFile(Settings.PTB_RAW_PATH + "/23/" + article);
+				String path = Settings.PTB_RAW_PATH + "/23/" + article;
+				Map<String, String> spanHashMap = null;
+
+				if (corpus.equals(Type.BIO_DRB)) {
+					path = Settings.BIO_DRB_RAW_PATH + article;
+					spanHashMap = Corpus.getBioSpanMap(new File(article), featureType);
+					trees = Corpus.getBioTrees(new File(article), featureType);
+
+				} else {
+					spanHashMap = Corpus.getSpanMap(new File(article + ".pipe"), featureType);
+					trees = Corpus.getTrees(new File(article + ".pipe"), featureType);
+					sentMap = Corpus.getSentMap(new File(article + ".pipe"));
+
+				}
+				orgText = Util.readFile(path);
 				orgText = orgText.replaceAll("`", "'");
-				Map<String, String> spanHashMap = Corpus.getSpanMap(new File(article + ".pipe"), featureType);
-				trees = Corpus.getTrees(new File(article + ".pipe"), featureType);
-				sentMap = Corpus.getSentMap(new File(article + ".pipe"));
+
 				String[] index = line[1].split("\\-");
 				int stIndex = Integer.parseInt(index[0]);
 				int endIndex = Integer.parseInt(index[1]);
@@ -1106,7 +1429,8 @@ public class ArgExtComp extends Component {
 					try {
 						end = Integer.toString(span.end);
 					} catch (StringIndexOutOfBoundsException e) {
-						log.error("ERr");
+						log.error("Error: " + e.getMessage());
+						e.printStackTrace();
 					}
 					sb.append(end);
 				}
@@ -1216,4 +1540,5 @@ public class ArgExtComp extends Component {
 		}
 		return false;
 	}
+
 }

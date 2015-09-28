@@ -1,0 +1,33 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:troubling_because Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:risks_while Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:credit_only_if Contingency
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:costs_while Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:back_when Temporal
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:loan_even_if Contingency
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:loan_even_if Comparison
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:all_until Temporal
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

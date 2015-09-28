@@ -1,0 +1,15 @@
+conn:after conn_POS:IN prev1:alliance prev1_POS:NN with_prev1_full:alliance_after with_prev1_POS_full:NN_IN prev2:possible prev2_POS:JJ with_prev2_full:possible_after with_prev2_POS_full:JJ_IN SS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Saab prev2_POS:NNP with_prev2_full:Saab_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:as conn_POS:IN prev1:interest prev1_POS:NN with_prev1_full:interest_as with_prev1_POS_full:NN_IN prev2:lost prev2_POS:VBD with_prev2_full:lost_as with_prev2_POS_full:VBD_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:Overall conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Jaguar prev2_POS:NNP with_prev2_full:Jaguar_however with_prev2_POS_full:NNP_RB PS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:GM prev2_POS:NNP with_prev2_full:GM_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:for prev2_POS:IN with_prev2_full:for_since with_prev2_POS_full:IN_IN SS
+conn:when conn_POS:WRB prev1:offerings prev1_POS:NNS with_prev1_full:offerings_when with_prev1_POS_full:NNS_WRB prev2:luxury prev2_POS:NN with_prev2_full:luxury_when with_prev2_POS_full:NN_WRB SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Friday prev2_POS:NNP with_prev2_full:Friday_and with_prev2_POS_full:NNP_CC SS

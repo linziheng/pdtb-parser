@@ -1,0 +1,28 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:But conn_POS:CC Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:power_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:much_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:matters_even_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:wrong_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:turmoil_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:moreover conn:moreover conn_POS:RB with_prev_full:,_moreover Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Expansion
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:and_thereby Contingency

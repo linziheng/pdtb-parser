@@ -1,0 +1,24 @@
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:accepted_only_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:attitudes_and Conjunction
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_JJ_IN with_prev_full:cares_as_long_as Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_JJ_IN with_prev_full:cares_as_long_as Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:month_after Asynchronous
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:after conn:after conn_POS:IN with_prev_full:year_after Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:So conn_POS:RB with_prev_full:``_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Conjunction

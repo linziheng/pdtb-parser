@@ -1,0 +1,24 @@
+conn_lc:as conn:As conn_POS:IN Synchrony£
+conn_lc:and conn:And conn_POS:CC Conjunction£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:because conn:because conn_POS:IN with_prev_full:today_because Cause£
+conn_lc:but conn:But conn_POS:CC Conjunction£
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation£
+conn_lc:also conn:Also conn_POS:RB Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:and conn:And conn_POS:CC Conjunction£
+conn_lc:after conn:after conn_POS:IN with_prev_full:friday_after Asynchronous£
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition£Synchrony£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:still conn:Still conn_POS:RB Contrast£
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:and conn:And conn_POS:CC Conjunction£
+conn_lc:before conn:before conn_POS:IN with_prev_full:morning_before Asynchronous£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Contrast£
+conn_lc:but conn:but conn_POS:CC with_prev_full:``_but Contrast£
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition£
+conn_lc:and conn:and conn_POS:CC with_prev_full:rising_and List£

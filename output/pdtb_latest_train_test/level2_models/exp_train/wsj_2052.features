@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:eight_months_after conn:Eight_months_after conn_POS:CD_NNS_IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:--_while Contrast
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:but_as_soon_as Asynchronous
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:personnel_also Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:afghanistan_even_as Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:months_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Contrast
+conn_lc:or conn:or conn_POS:CC with_prev_full:sent_or Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction

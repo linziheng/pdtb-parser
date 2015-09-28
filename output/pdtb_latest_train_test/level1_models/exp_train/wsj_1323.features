@@ -1,0 +1,11 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:fizzes_as Temporal
+conn_lc:though conn:though conn_POS:IN with_prev_full:now_though Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:gentle_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:young_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:business_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:beautiful_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:quadrupeds_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:name_as Temporal

@@ -1,0 +1,14 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:finally conn:Finally conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:though conn:Though conn_POS:NNP Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:exasperation_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:hampered_if Contingency
+conn_lc:though conn:Though conn_POS:NNP Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:once conn:once conn_POS:RB with_prev_full:join_once Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:fell_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:kind_when Contingency
+conn_lc:as conn:As conn_POS:IN Temporal

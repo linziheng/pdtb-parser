@@ -1,0 +1,17 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:code_if Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:settled_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:option_but Comparison
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:number_and Expansion

@@ -1,0 +1,17 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:will_and Expansion
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:documents_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:involuntarily_and Expansion
+conn_lc:because conn:because conn_POS:RB with_prev_full:and_because Contingency
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:judge_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:keenan_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:consultants_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:uaw_also Expansion

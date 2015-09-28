@@ -1,0 +1,2 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:billion prev2_POS:CD with_prev2_full:billion_while with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:billion prev2_POS:CD with_prev2_full:billion_and with_prev2_POS_full:CD_CC SS

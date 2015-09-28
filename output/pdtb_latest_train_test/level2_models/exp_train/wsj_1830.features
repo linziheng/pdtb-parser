@@ -1,0 +1,26 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:zip_when Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Conjunction
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:salmonella_if Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:problems_as_long_as Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:producers_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:problem_as_long_as Condition
+conn_lc:so conn:So conn_POS:CC Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:even_then conn:Even_then conn_POS:RB_RB Conjunction
+conn_lc:but conn:But conn_POS:CC Concession

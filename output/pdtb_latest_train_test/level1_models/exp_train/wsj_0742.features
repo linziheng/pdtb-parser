@@ -1,0 +1,38 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:since conn:Since conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:chicago_before Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:exchange_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:futures_when Temporal
+conn_lc:a_decade_before conn:a_decade_before conn_POS:DT_NN_IN with_prev_full:,_a_decade_before Temporal
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:and_although Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tools_when Temporal
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:securities_so_that Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:--_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Comparison

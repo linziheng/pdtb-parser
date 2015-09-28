@@ -1,0 +1,6 @@
+conn:if conn_POS:IN prev1:universities prev1_POS:NNS with_prev1_full:universities_if with_prev1_POS_full:NNS_IN prev2:Canadian prev2_POS:JJ with_prev2_full:Canadian_if with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Connaught prev2_POS:NNP with_prev2_full:Connaught_and with_prev2_POS_full:NNP_CC SS
+conn:if conn_POS:IN prev1:ownership prev1_POS:NN with_prev1_full:ownership_if with_prev1_POS_full:NN_IN prev2:foreign prev2_POS:JJ with_prev2_full:foreign_if with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:company prev1_POS:NN with_prev1_full:company_and with_prev1_POS_full:NN_CC prev2:pharmaceutical prev2_POS:JJ with_prev2_full:pharmaceutical_and with_prev2_POS_full:JJ_CC SS
+conn:still conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_still with_prev1_POS_full:VBZ_RB prev2:company prev2_POS:NN with_prev2_full:company_still with_prev2_POS_full:NN_RB PS
+conn:While conn_POS:IN sent_pos:0 SS

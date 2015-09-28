@@ -1,0 +1,6 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:or conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_or with_prev1_POS_full::_CC prev2:paid prev2_POS:VBN with_prev2_full:paid_or with_prev2_POS_full:VBN_CC SS
+conn:as_long_as conn_POS:RB_RB_IN prev1:basis prev1_POS:NN with_prev1_full:basis_as_long_as with_prev1_POS_full:NN_RB_RB_IN prev2:pro-rata prev2_POS:JJ with_prev2_full:pro-rata_as_long_as with_prev2_POS_full:JJ_RB_RB_IN SS
+conn:then conn_POS:RB prev1:properties prev1_POS:NNS with_prev1_full:properties_then with_prev1_POS_full:NNS_RB prev2:the prev2_POS:DT with_prev2_full:the_then with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:repairs prev2_POS:NNS with_prev2_full:repairs_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:away prev1_POS:RB with_prev1_full:away_and with_prev1_POS_full:RB_CC prev2:walk prev2_POS:VB with_prev2_full:walk_and with_prev2_POS_full:VB_CC SS

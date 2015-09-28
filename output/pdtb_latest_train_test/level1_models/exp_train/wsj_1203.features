@@ -1,0 +1,35 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:them_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:but_though Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:market_when Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:that_as_soon_as Temporal
+conn_lc:if_if_the_number_is_a_little_better_,_then conn:If_If_the_number_is_a_little_better_,_then conn_POS:IN_IN_DT_NN_VBZ_DT_RB_JJR_,_RB with_prev_full:``_if_if_the_number_is_a_little_better_,_then Contingency
+conn_lc:if_if_it_is_worse_then conn:if_if_it_is_worse_then conn_POS:IN_IN_PRP_VBZ_JJR_RB with_prev_full:,_if_if_it_is_worse_then Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:september_and Expansion
+conn_lc:however conn:However conn_POS:RB with_prev_full:``_however Comparison
+conn_lc:if_if_you_exclude_defense-related_orders_then conn:if_if_you_exclude_defense-related_orders_then conn_POS:IN_IN_PRP_VBP_JJ_NNS_RB with_prev_full:,_if_if_you_exclude_defense-related_orders_then Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:range_before Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:haven_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:metal_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:lower_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:said_even_though Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Comparison

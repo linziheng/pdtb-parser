@@ -1,0 +1,16 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:business prev1_POS:NN with_prev1_full:business_as with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:though conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_though with_prev1_POS_full::_IN prev2:disaster prev2_POS:NN with_prev2_full:disaster_though with_prev2_POS_full:NN_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN prev1:: prev1_POS:: with_prev1_full::_If with_prev1_POS_full::_IN prev2:strategy prev2_POS:NN with_prev2_full:strategy_If with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:UNC prev1_POS:NNP with_prev1_full:UNC_also with_prev1_POS_full:NNP_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:parts prev2_POS:NNS with_prev2_full:parts_if with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Va. prev2_POS:NNP with_prev2_full:Va._also with_prev2_POS_full:NNP_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_and with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:blame prev2_POS:VB with_prev2_full:blame_but with_prev2_POS_full:VB_CC SS
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:But conn_POS:CC sent_pos:0 PS

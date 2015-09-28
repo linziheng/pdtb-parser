@@ -1,0 +1,25 @@
+conn_lc:since conn:since conn_POS:IN with_prev_full:end_since Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:junk_when Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:statistics_in_fact Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:1982_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:at_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:nothing_if Condition
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Restatement
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:up_and Conjunction
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:low_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Restatement
+conn_lc:as conn:as conn_POS:IN with_prev_full:%_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:use_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:here_and Conjunction

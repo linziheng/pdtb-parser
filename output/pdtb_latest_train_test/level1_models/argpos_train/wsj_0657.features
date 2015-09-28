@@ -1,0 +1,2 @@
+conn:also conn_POS:RB prev1:sales prev1_POS:NNS with_prev1_full:sales_also with_prev1_POS_full:NNS_RB prev2:export prev2_POS:NN with_prev2_full:export_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:yen prev1_POS:NNS with_prev1_full:yen_and with_prev1_POS_full:NNS_CC prev2:billion prev2_POS:CD with_prev2_full:billion_and with_prev2_POS_full:CD_CC SS

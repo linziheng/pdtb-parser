@@ -1,0 +1,5 @@
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:sledding prev2_POS:NN with_prev2_full:sledding_though with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:subsidiary prev1_POS:NN with_prev1_full:subsidiary_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:million prev2_POS:CD with_prev2_full:million_however with_prev2_POS_full:CD_RB PS

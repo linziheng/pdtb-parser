@@ -1,0 +1,8 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:bit_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:plateau_since Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:rate_after Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:significantly_as Temporal

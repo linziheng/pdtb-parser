@@ -1,0 +1,27 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:surged_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:surged_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:2645.08_even_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:318.79_and Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:surface_or Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:surge_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:traders_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:firmed_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:firmed_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/8_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/8_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:separately conn:separately conn_POS:RB with_prev_full:which_separately Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:7\/8_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:30_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:30_after Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:bank_since Temporal

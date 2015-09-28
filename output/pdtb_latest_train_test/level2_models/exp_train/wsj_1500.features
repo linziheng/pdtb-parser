@@ -1,0 +1,23 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:dive_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Conjunction
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:that_even_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:much_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:turnaround_before Asynchronous
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:expected_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:again_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:place_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:higher_if Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction

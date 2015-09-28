@@ -1,0 +1,10 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:if_if_we_'re_asking_for_something_unreasonable_or_unethical_and_so_on_,_then conn:if_if_we_'re_asking_for_something_unreasonable_or_unethical_and_so_on_,_then conn_POS:IN_IN_PRP_VBP_VBG_IN_NN_JJ_CC_JJ_CC_RB_RB_,_RB with_prev_full:,_if_if_we_'re_asking_for_something_unreasonable_or_unethical_and_so_on_,_then Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion

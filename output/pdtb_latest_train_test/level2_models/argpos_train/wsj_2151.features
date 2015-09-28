@@ -1,0 +1,19 @@
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Boeings prev2_POS:NNPS with_prev2_full:Boeings_and with_prev2_POS_full:NNPS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_then with_prev1_POS_full:CC_RB PS
+conn:indeed conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_indeed with_prev1_POS_full:VBZ_RB prev2:GPA prev2_POS:NNP with_prev2_full:GPA_indeed with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_as with_prev1_POS_full:CC_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_and with_prev2_POS_full:NN_CC SS
+conn:thus conn_POS:RB sent_pos:1 prev1:Aeroflot prev1_POS:NNP with_prev1_full:Aeroflot_thus with_prev1_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:July prev2_POS:NNP with_prev2_full:July_and with_prev2_POS_full:NNP_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:fleets prev2_POS:VBZ with_prev2_full:fleets_but with_prev2_POS_full:VBZ_CC SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:after conn_POS:IN prev1:Soviets prev1_POS:NNPS with_prev1_full:Soviets_after with_prev1_POS_full:NNPS_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:1983 prev2_POS:CD with_prev2_full:1983_though with_prev2_POS_full:CD_IN SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:York prev1_POS:NNP with_prev1_full:York_when with_prev1_POS_full:NNP_WRB prev2:New prev2_POS:NNP with_prev2_full:New_when with_prev2_POS_full:NNP_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS

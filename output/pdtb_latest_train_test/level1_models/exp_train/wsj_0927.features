@@ -1,0 +1,15 @@
+conn_lc:soon_after conn:soon_after conn_POS:RB_IN with_prev_full:,_soon_after Temporal
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:previously conn:Previously conn_POS:RB Temporal
+conn_lc:previously conn:Previously conn_POS:RB Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:schwarz_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:trust_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:he_previously Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:taylor_also Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:taylor_also Expansion

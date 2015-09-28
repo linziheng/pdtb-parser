@@ -1,0 +1,3 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:was_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion

@@ -1,0 +1,5808 @@
+(ROOT
+  (S
+    (NP
+      (NP (JJ Stage-specific) (NNS changes))
+      (PP (IN in)
+        (NP
+          (NP (JJ fetal) (NN thymocyte) (NN proliferation))
+          (PP
+            (PP (IN during)
+              (NP (DT the) (NN CD4-8)))
+            (: -)
+            (PP (TO to)
+              (NP
+                (QP (CD CD4) (CD +8))
+                (NP
+                  (NP (JJ +) (NN transition))
+                  (PP (IN in)
+                    (NP (JJ wild) (NN type))))
+                (, ,)
+                (NP
+                  (NP
+                    (NP (NNS Rag1))
+                    (PRN (: -)
+                      (NP (NNP /))
+                      (: -)))
+                  (, ,)
+                  (CC and)
+                  (NP (NNS Hoxa3)))
+                (, ,)
+                (NP
+                  (NP (JJ Pax1) (JJ mutant) (NNS mice))
+                  (NP (NNP Abstract) (NNP Background)))
+                (: :)
+                (NP
+                  (NP (DT The) (NN function))
+                  (PP (IN of)
+                    (NP (DT the) (JJ thymic) (NN microenvironment))))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB promote)
+            (NP (JJ thymocyte) (NN maturation))
+            (, ,)
+            (PP (IN in)
+              (NP
+                (NP (NN part))
+                (PP (IN via)
+                  (NP
+                    (NP (NN regulation))
+                    (PP (IN of)
+                      (NP (JJ thymocyte) (NN proliferation)
+                        (CC and)
+                        (NN cell) (NN death)))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNS Defects))
+    (PP (IN in)
+      (NP
+        (NP (JJ fetal) (JJ thymic) (JJ epithelial) (NN cell))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEC))
+          (-RRB- -RRB-))
+        (SBAR
+          (WHNP
+            (NP (NN development)
+              (CC and)
+              (NN function))
+            (PRN (, ,)
+              (CC and)
+              (ADVP (RB therefore))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN formation))
+                  (PP (IN of)
+                    (NP (DT a) (JJ functional) (NN microenvironment)))))
+              (, ,)))
+          (S
+            (VP (MD can)
+              (VP (VB be)
+                (VP (VBN caused)
+                  (UCP (DT either)
+                    (ADJP (RB directly)
+                      (PP (IN by)
+                        (NP (NNP TEC) (NN differentiation) (NNS defects))))
+                    (CC or)
+                    (ADVP (RB indirectly))
+                    (PP (IN by)
+                      (NP (JJ defective) (NN thymocyte) (NN maturation)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT this) (NN paper)))
+    (NP (PRP we))
+    (VP (VBD studied)
+      (NP (JJ fetal) (NN thymocyte) (NN proliferation))
+      (PP (IN during)
+        (NP
+          (NP (DT the) (JJ early) (NN transition))
+          (PP (IN from)
+            (NP (DT the) (NN CD3-4-8))
+            (: -))))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (RB triple) (JJ negative))
+          (, ,)
+          (NP (NNP TN)))
+        (-RRB- -RRB-))
+      (PP (TO to)
+        (NP
+          (QP (CD CD4) (CD +8))
+          (JJ +)
+          (PRN (-LRB- -LRB-)
+            (NP (JJ double) (NN positive))
+            (, ,)
+            (NP (NNP DP))
+            (-RRB- -RRB-))
+          (NNS stages))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD compared)
+      (NP
+        (NP
+          (NP
+            (NP (JJ wild) (NN type) (NNS mice))
+            (PP (IN with)
+              (NP (NNS Rag1))))
+          (: -)
+          (S
+            (VP (NN /)
+              (PRN (: -)
+                (UCP
+                  (NP (NNS mice))
+                  (CC and)
+                  (PP (IN with)
+                    (NP (JJ Hoxa3) (NNS +))))
+                (: /))
+              (NP
+                (PRN (: -)
+                  (NP (NNP Pax1))
+                  (: -))
+                (NNS /)))))
+        (: -)
+        (NP
+          (NP (JJ compound) (JJ mutant) (NNS mice))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP have)
+                (NP (NNS blocks))
+                (PP (IN at)
+                  (NP
+                    (NP (JJ different) (NNS stages))
+                    (PP (IN of)
+                      (NP (JJ thymocyte) (NN development)))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNS Results))
+    (: :)
+    (NP
+      (NP (JJ Wild) (NN type))
+      (SBAR
+        (S
+          (NP (JJ fetal)
+            (CC and)
+            (JJ adult) (NNS thymus))
+          (VP (VBD showed)
+            (NP (JJ stage-specific) (NNS differences))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN proliferation) (NNS profiles))
+                (PP (IN of)
+                  (NP (VBG developing) (NNS thymocytes)))))
+            (, ,)
+            (PP (IN with)
+              (NP
+                (NP (JJ fetal) (NNS stages))
+                (VP (VBG showing)
+                  (NP
+                    (NP
+                      (ADJP (RB generally) (JJR higher))
+                      (NNS levels))
+                    (PP (IN of)
+                      (NP (NN proliferation)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN proliferation) (NN profile))
+      (PP (IN of)
+        (NP
+          (NP (JJ fetal) (NNS thymocytes))
+          (PP (IN from)
+            (NP (NNS Rag1)))))
+      (: -)
+      (VP (VBN /)
+        (PRN (: -)
+          (S
+            (NP (NNS mutants))
+            (ADVP (RB also))
+            (VP (VBD had)
+              (NP
+                (NP (JJ stage-specific) (NNS increases))
+                (PP (IN in)
+                  (NP (NN proliferation))))
+              (PP (VBN compared)
+                (PP (TO to)
+                  (NP
+                    (NP (JJ wild) (NN type))
+                    (NP
+                      (NP (JJ fetal) (NNS thymocytes))
+                      (, ,)
+                      (PP (IN in)
+                        (NP
+                          (NP (NN contrast))
+                          (PP (TO to)
+                            (NP
+                              (NP (DT the) (JJR lower) (NN proliferation))
+                              (VP
+                                (ADVP (RB previously))
+                                (VBN reported)
+                                (PP (IN for)
+                                  (NP
+                                    (NP (NNS thymocytes))
+                                    (PP (IN from)
+                                      (NP (JJ adult) (NNS Rag1)))))))))))
+                    (: -))))))
+          (: /)))
+      (: -))
+    (VP (VBZ mutants))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB previously))
+      (VP (VBN shown)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NNP Hoxa3) (NNP +) (NNP /))
+              (PRN (: -)
+                (NP
+                  (NP (NNS Pax1))
+                  (: -)
+                  (NP (NNP /)))
+                (: -))
+              (NNS mice))
+            (VP (VBP have)
+              (NP
+                (NP (JJ abnormal) (JJ fetal) (NN TEC) (NN development))
+                (, ,)
+                (VP (VBG resulting)
+                  (PP (IN in)
+                    (NP
+                      (NP (VBN increased) (NNS apoptosis))
+                      (PP (IN at)
+                        (NP (DT the) (NNP TN)))))
+                  (PP (TO to)
+                    (NP (NN DP) (NN transition)
+                      (CC and)
+                      (VBN decreased) (NNP DP) (NN cell) (NNS numbers))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Fetal) (NNS thymocytes))
+      (PP (IN from)
+        (NP
+          (NP (NNP Hoxa3) (NNP +) (NNP /))
+          (: -)
+          (NP (NNS Pax1))
+          (: -)
+          (NP (NNP /))
+          (: -)
+          (NP (JJ compound) (NNS mutants)))))
+    (VP (VBD had)
+      (VP
+        (VP (VBN increased)
+          (NP (NN proliferation)))
+        (, ,)
+        (CC but)
+        (VP
+          (NP
+            (NP (JJR fewer) (VBG proliferating) (NNS cells))
+            (, ,)
+            (PP (IN at)
+              (NP (DT the) (NNP DP) (NN stage)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD observed)
+      (NP
+        (NP (DT a) (NN decrease))
+        (PP (IN in)
+          (NP
+            (NP
+              (NP (DT the) (NN level))
+              (PP (IN of)
+                (NP (DT the) (JJ cytokines) (NN IL-7))))
+            (CC and)
+            (NP
+              (NP (NNP SCF))
+              (VP (VBN produced)
+                (PP (IN by)
+                  (NP
+                    (NP (NNP Hoxa3) (NNP +) (NNP /))
+                    (: -)
+                    (NP (NNS Pax1))
+                    (: -)
+                    (NP (NNP /))
+                    (: -)
+                    (NP (NNP TECs))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP Conclusion))
+    (: :)
+    (S
+      (NP (PRP$ Our) (NNS results))
+      (VP (VBP indicate)
+        (NP
+          (NP
+            (ADJP (JJ complex)
+              (CC and)
+              (JJ stage-specific))
+            (NNS effects))
+          (PP (IN of)
+            (NP (JJ abnormal) (NNP TEC) (NN development))))
+        (PP (IN on)
+          (NP (JJ thymocyte) (NN proliferation)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Background) (NNP Thymocyte) (NN development))
+      (VP (VBZ occurs)
+        (PP (IN within)
+          (NP
+            (NP (DT a) (JJ complex) (NN network))
+            (PP (IN of)
+              (NP
+                (NP (NNS cells))
+                (, ,)
+                (NP (NN extracellular) (NN matrix))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ secreted) (NNS factors))
+      (VP (VBD referred)
+        (S
+          (VP (TO to)
+            (VP
+              (PP (IN as)
+                (NP (DT the) (JJ thymic) (NN microenvironment)))
+              (VB -LSB-)
+              (NP (CD 1) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Current) (NN evidence))
+    (VP (VBZ suggests)
+      (SBAR (IN that)
+        (S
+          (NP (DT this) (NN microenvironment))
+          (VP (VBZ is)
+            (VP (VBN created)
+              (PP (IN during)
+                (NP (JJ fetal) (NNS thymus) (NNS organogenesis)))
+              (PP (IN through)
+                (NP
+                  (NP (JJ stage-dependent) (NNS interactions))
+                  (PP (IN between)
+                    (S
+                      (VP
+                        (VP (VBG differentiating)
+                          (NP
+                            (NP (JJ thymic) (JJ epithelial) (NNS cells))
+                            (PRN (-LRB- -LRB-)
+                              (NP (NNP TECs))
+                              (-RRB- -RRB-))))
+                        (CC and)
+                        (VP (VBG developing)
+                          (NP (NNS thymocytes))
+                          (S
+                            (VP (VBG -LSB-)
+                              (NP (CD 2-6) (NNS -RSB-)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (NNS blocks))
+      (PP (IN at)
+        (NP
+          (NP (JJ different) (NNS stages))
+          (PP (IN of)
+            (NP
+              (NP (JJ thymocyte) (NN development) (NN result))
+              (PP (IN in)
+                (NP
+                  (NP (NN differential) (NNS effects))
+                  (PP (IN on)
+                    (NP (NNP TEC))))))))))
+    (VP (VBP differentiation)
+      (CC and)
+      (VBP function))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Because)
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ complex) (NN interdependence))
+          (PP (IN of)
+            (NP
+              (NP (NNP TEC))
+              (CC and)
+              (NP (JJ thymocyte) (NN differentiation)))))))
+    (, ,)
+    (NP
+      (NP (NNS defects))
+      (PP (IN in)
+        (NP (JJ fetal) (NNP TEC) (NN development))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN caused)
+          (ADVP (RB either))
+          (PP
+            (ADVP (RB directly))
+            (PP (IN by)
+              (NP (JJ cell-autonomous) (NNP TEC) (NN differentiation) (NNS defects)))
+            (, ,)
+            (CC or)
+            (ADVP (RB indirectly))
+            (PP (IN by)
+              (NP (JJ defective) (NN thymocyte) (NN maturation)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Once)
+      (S
+        (NP (DT a) (JJ mature) (JJ thymic) (NN environment))
+        (VP (VBZ is)
+          (VP (VBN formed)))))
+    (, ,)
+    (NP
+      (NP
+        (UCP
+          (ADJP (JJ many))
+          (, ,)
+          (CONJP (IN if) (RB not))
+          (NP (RB all)))
+        (NNS stages))
+      (PP (IN of)
+        (NP (JJ thymocyte) (NN maturation))))
+    (VP (VBP require)
+      (NP (NNS interactions))
+      (PP (IN with)
+        (NP (JJ thymic) (JJ epithelial) (NNS cells))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (NNS defects))
+      (PP (IN in)
+        (NP (NNP TECs))))
+    (VP (MD can)
+      (ADVP (RB in))
+      (VP (VB turn)
+        (NP (NN cause) (NNS defects))
+        (PP (IN in)
+          (NP (JJ thymocyte) (NN differentiation) (, ,) (NN proliferation) (, ,)
+            (CC or)
+            (NN cell) (NN death)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Thymocyte) (NN differentiation))
+    (VP (VBZ undergoes)
+      (NP (CD two) (JJ main) (NNS transitions)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ first))
+    (VP (VBZ is)
+      (PP (IN from)
+        (NP
+          (NP
+            (NP (DT the) (NN CD3-4-8) (NN -))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (RB triple) (JJ negative))
+                (, ,)
+                (NP (NNP TN)))
+              (-RRB- -RRB-)))
+          (TO to)
+          (NP (DT the)
+            (QP (CD CD4) (CD +8))
+            (NNP +)
+            (PRN (-LRB- -LRB-)
+              (NP (JJ double) (NN positive))
+              (, ,)
+              (NP (NNP DP))
+              (-RRB- -RRB-))
+            (NNS stages)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (DT this) (NN transition)))
+    (, ,)
+    (NP (NNP T) (NN cell) (NNS precursors))
+    (ADVP (RB sequentially))
+    (VP
+      (VP (VB gain)
+        (CC and)
+        (VB lose)
+        (NP
+          (NP (NN cell) (NN surface) (NN expression))
+          (PP (IN of)
+            (NP (NNP CD44)
+              (CC and)
+              (NNP CD25) (NNS markers)))))
+      (, ,)
+      (VP (VB express)
+        (NP
+          (NP (DT the) (JJ pre-T) (NN cell) (NN receptor))
+          (PRN (-LRB- -LRB-)
+            (NP (NN pTCR))
+            (-RRB- -RRB-))))
+      (, ,)
+      (CC and)
+      (VP (VB undergo)
+        (NP (JJ β-selection) (NNP -LSB-) (CD 2,7-9) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ other) (NN transition))
+    (VP (VBZ is)
+      (PP (IN from)
+        (NP
+          (NP (NNP CD4) (CD +8) (NNP +) (NNP DP))
+          (PP (TO to)
+            (NP
+              (QP (CD CD4) (CD +)
+                (CC or)
+                (CD CD8) (CD +))
+              (JJ single) (JJ positive)
+              (PRN (-LRB- -LRB-)
+                (NP (NNP SP))
+                (-RRB- -RRB-))
+              (NNS thymocytes)))
+          (, ,)
+          (SBAR
+            (WHPP (IN in)
+              (WHNP (WDT which)))
+            (S
+              (NP (NNP DP) (NNS cells))
+              (VP
+                (VP (VB express)
+                  (NP (NNP CD3)))
+                (, ,)
+                (VP (VB rearrange)
+                  (NP (PRP$ their) (NN α-TCR)))
+                (, ,)
+                (VP
+                  (VP (VB undergo)
+                    (NP
+                      (ADJP (JJ positive)
+                        (CC and)
+                        (JJ negative))
+                      (NN selection)))
+                  (, ,)
+                  (CC and)
+                  (ADVP (RB down))
+                  (VP (VB regulate)
+                    (S
+                      (NP (NNP CD4)
+                        (CC or)
+                        (NNP CD8))
+                      (VP (TO to)
+                        (VP (VB become)
+                          (NP (CD functional) (NNP CD8) (NNP +)
+                            (CC or)
+                            (NNP CD4) (NNP +) (NNP SP) (NNP T) (NNS cells))
+                          (S
+                            (VP (VBG -LSB-)
+                              (NP (CD 10,11) (NNS -RSB-)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN addition))
+        (PP (TO to)
+          (NP
+            (UCP
+              (ADJP (JJ functional))
+              (CC and)
+              (NP (NN cell) (NN surface)))
+            (NN marker) (NNS changes)))))
+    (, ,)
+    (NP (DT each) (JJ thymocyte) (NN differentiation) (NN stage))
+    (VP (VBZ is)
+      (VP (VBN marked)
+        (PP (IN by)
+          (NP
+            (NP (JJ characteristic) (NNS changes))
+            (PP (IN in)
+              (NP (NN proliferation)
+                (CC and)
+                (NNS apoptosis)))))
+        (S
+          (VP (VBG -LSB-)
+            (NP (CD 12-18) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS most) (NN well))
+      (VP (VBN defined)
+        (NP
+          (NP (NN role))
+          (PP (IN for)
+            (NP (NNP TECs))))
+        (PP (IN in)
+          (S
+            (ADVP (RB directly))
+            (VP (VBG affecting)
+              (NP (JJ thymocyte) (NN differentiation)))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB mediate)
+            (NP
+              (NP (JJ positive) (NN selection))
+              (PP (IN via)
+                (NP
+                  (NP (NN expression))
+                  (PP (IN of)
+                    (NP (NNP MHC) (NNP molecules) (NNP -LSB-) (NNP 11,19-22) (NNP -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (JJ unclear))
+      (SBAR
+        (SBAR (IN whether)
+          (S
+            (NP (NNP TECs))
+            (ADVP (RB directly))
+            (VP (VB promote)
+              (NP
+                (NP (JJ specific) (NNS stages))
+                (PP (IN of)
+                  (NP (JJ thymocyte) (NN differentiation))))
+              (PP (IN during)
+                (NP
+                  (NP (NNS stages))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBP do) (RB not)
+                        (VP (VB involve)
+                          (NP (NN MHC-TCR) (NNS interactions)))))))))))
+        (, ,)
+        (CC or)
+        (SBAR (IN whether)
+          (S
+            (NP
+              (NP (PRP$ their) (NN role))
+              (PP (IN at)
+                (NP (JJ other) (NNS stages))))
+            (VP (VBZ is)
+              (ADVP (RB primarily))
+              (S
+                (VP (TO to)
+                  (VP (VB promote)
+                    (NP
+                      (NP (NN cell) (NN growth))
+                      (CC and)
+                      (NP (NN /)
+                        (CC or)
+                        (NN survival)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Cytokines))
+      (VP (VBN produced)
+        (PP (IN by)
+          (NP (NNP TECs)))))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB promote)
+                  (NP (NN proliferation))
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ early) (NNS stages))
+                      (PP (IN of)
+                        (NP (JJ thymocyte) (NN development))))))
+                (, ,)
+                (CC and)
+                (VP (VB have)
+                  (VP (VBN been)
+                    (VP (VBN proposed)
+                      (S
+                        (VP (TO to)
+                          (VP (VB regulate)
+                            (NP (NNS apoptosis)
+                              (CC and)
+                              (NN differentiation)))))
+                      (, ,)
+                      (SBAR (IN although)
+                        (S
+                          (NP (PRP$ their) (JJ precise) (NNS roles))
+                          (VP (VBP remain)
+                            (NP (JJ controversial) (NNP -LSB-) (CD 23,24) (NNS -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS TECs))
+    (VP (VBP have)
+      (ADVP (RB also))
+      (VP (VBN been)
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP (VB promote)
+                (NP (JJ thymocyte) (NN proliferation))
+                (PP (IN in)
+                  (NP (NNP SP) (NNS cells)))
+                (SBAR (IN after)
+                  (S
+                    (NP (NN selection))
+                    (VP (VBZ has)
+                      (VP (VBN occurred)
+                        (NP
+                          (QP (CD -LSB-) (CD 15))
+                          (NNS -RSB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP (DT a) (JJ defined) (NN role))
+      (PP (IN for)
+        (NP
+          (NP (NNP TECs))
+          (PP (IN at)
+            (NP (DT the) (NNP TN-DP) (NN transition))))))
+    (VP (VBZ remains)
+      (ADJP (JJ elusive)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (RB Much))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN research))
+          (PP (IN on)
+            (NP (DT this) (NN transition))))))
+    (VP (VBZ has)
+      (VP (VBN focused)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN role))
+            (PP (IN of)
+              (NP (DT the) (NN pre-TCR)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (VBG Mounting) (NN evidence))
+    (VP (VBZ suggests)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN pre-TCR))
+          (VP (VBZ does) (RB not)
+            (VP (VB require)
+              (NP (NN interaction))
+              (PP (IN with)
+                (NP (DT a) (NN ligand)))
+              (S
+                (VP (TO to)
+                  (VP (VB perform)
+                    (NP
+                      (NP (PRP$ its) (NN function))
+                      (, ,)
+                      (CC and)
+                      (NP (DT the) (JJ subsequent) (NN CD44-25))
+                      (: -)))))
+              (PRN (-LRB- -LRB-)
+                (NP (JJ TN4)
+                  (CC or)
+                  (JJ pre-DP))
+                (-RRB- -RRB-))
+              (S
+                (VP (TO to)
+                  (VP (VB DP)
+                    (SBAR
+                      (S
+                        (NP (NN transition))
+                        (VP (VBZ has)
+                          (VP (VBN been)
+                            (VP (VBN termed)
+                              (S (`` ``)
+                                (NP (JJ programmed) (NN differentiation))
+                                ('' ''))
+                              (S
+                                (VP (TO to)
+                                  (VP (VB indicate)
+                                    (SBAR (IN that)
+                                      (S
+                                        (NP (DT this) (NN step))
+                                        (VP (MD can)
+                                          (VP (VB occur)
+                                            (PP (IN in)
+                                              (NP (VBN isolated) (NNS thymocytes))))))))))
+                              (, ,)
+                              (S
+                                (ADVP (RB presumably))
+                                (PP (IN without)
+                                  (NP
+                                    (NP (NN input))
+                                    (PP (IN from)
+                                      (NP (JJ extrinsic) (NNS signals)))))
+                                (VP (VBG -LSB-)
+                                  (NP (CD 25-27) (NNS -RSB-)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (NP (NN evidence))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (JJ thymic) (NN microenvironment))
+          (VP (VBZ does)
+            (VP (VB contribute)
+              (NP
+                (NP (NNS signals))
+                (VP (VBN required)
+                  (PP (IN for)
+                    (NP (DT the) (NNP TN-DP) (NN transition)))
+                  (, ,)
+                  (S
+                    (ADVP (RB particularly))
+                    (VP (TO to)
+                      (VP (VB promote)
+                        (NP (JJ thymocyte) (NN proliferation)
+                          (CC and)
+                          (NNS apoptosis))
+                        (S
+                          (VP (VBG -LSB-)
+                            (NP (CD 13,28-30) (NNS -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ specific) (NN nature)
+        (CC and)
+        (NN purpose))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNP TEC) (NN contribution))
+          (PP (IN during)
+            (NP (DT this) (JJ important) (NN transition))))))
+    (ADVP (RB therefore))
+    (VP (VBZ remains)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN determined))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN In) (NN order)
+      (S
+        (VP (TO to)
+          (VP (VB investigate)
+            (NP
+              (NP (DT the) (NN regulation))
+              (PP (IN of)
+                (NP (JJ thymocyte) (NN development))))
+            (PP (IN by)
+              (NP (NNP TECs)))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG studying)
+        (NP
+          (NP (NNP Hoxa3) (NNP +)
+            (PRN (: /)
+              (NP (CD -) (NNS Pax1))
+              (: -))
+            (NNP /))
+          (: -)
+          (NP (JJ compound) (JJ mutant) (NNS mice)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Hoxa3)
+      (CC and)
+      (NNS Pax1))
+    (VP (VBP are)
+      (NP
+        (NP (NN transcription) (NNS factors))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP act)
+              (PP (IN in)
+                (NP
+                  (NP (DT a) (JJ common) (NN pathway))
+                  (VP (VBG regulating)
+                    (NP
+                      (NP (JJ thymus) (NNS organogenesis))
+                      (CC and)
+                      (NP (JJ thymic) (JJ epithelial) (NN cell) (NN development) (NNP -LSB-) (NNP 29,31-34) (NNP -RSB-)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (FRAG
+      (ADJP (RB Hoxa3) (JJ +))
+      (: /))
+    (: -)
+    (S
+      (NP (JJ Pax1)
+        (PRN (: -)
+          (NP (NNP /))
+          (: -))
+        (JJ compound) (NNS mutants))
+      (VP
+        (VP (VBP have)
+          (NP
+            (NP (NNS defects))
+            (PP (IN in)
+              (NP (NNP TEC) (NN development)))
+            (PP (VBG including)
+              (NP
+                (NP
+                  (NP (JJ reduced) (NNS numbers))
+                  (PP (IN of)
+                    (NP (NNP TECs))))
+                (, ,)
+                (NP
+                  (NP (JJR fewer))
+                  (NP (NNP MHC) (NNP Class) (NNP II) (NNP +) (NNP TECs)))
+                (, ,)
+                (CC and)
+                (NP
+                  (NP (NNS changes))
+                  (PP (IN in)
+                    (NP (NNP TEC) (NN proliferation))))))))
+        (CC and)
+        (VP (VBZ apoptosis))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT These) (NNP TEC) (NNS defects))
+    (VP (VBP result)
+      (PP (IN in)
+        (NP
+          (NP (JJ thymocyte) (NN maturation) (NNS defects))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP include)
+                (NP
+                  (NP (DT a) (NN decrease))
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ total) (NN thymocyte) (NN number))
+                      (CC and)
+                      (NP (DT a) (JJ 10-fold) (NN reduction)))))
+                (UCP
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN number))
+                      (PP (IN of)
+                        (NP (NNP DP) (NNS thymocytes)))))
+                  (, ,)
+                  (CC but)
+                  (NP
+                    (NP (DT an)
+                      (ADJP (RB apparently) (JJ normal))
+                      (NN transition))
+                    (PP (IN from)
+                      (NP
+                        (NP (DT the) (NN TN3))
+                        (PP (TO to)
+                          (NP (DT the) (JJ pre-DP) (NN stage)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN decrease))
+        (PP (IN in)
+          (NP (NNP DP) (NNS cells))))
+      (VP (VBZ is)
+        (VP (VBN associated)
+          (PP (IN with)
+            (NP
+              (NP (VBN increased) (NNS apoptosis))
+              (PP (IN in)
+                (NP (DT both) (NN pre-DP))))))))
+    (CC and)
+    (S
+      (NP (NNP DP) (NNS cells))
+      (VP (VBZ -LSB-)
+        (NP (CD 29) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP
+          (NP (DT the) (NNS defects))
+          (PP (IN at)
+            (NP (DT the) (NN TN)
+              (S
+                (VP (TO to)
+                  (VP (VB DP)
+                    (NP (NN transition))
+                    (PP (IN in)
+                      (NP (DT these) (NNS mutants)))))))))
+        (VP (VBP are)
+          (VP (VBN caused)
+            (PP (IN by)
+              (NP
+                (NP (JJ defective) (NN TEC) (NN function))
+                (CONJP (RB rather) (IN than))
+                (NP (JJ thymocyte-intrinsic) (NNS defects))))))))
+    (, ,)
+    (NP (DT these) (NNS mice))
+    (VP (VBP represent)
+      (S
+        (NP (DT an) (NN opportunity))
+        (VP (TO to)
+          (VP (VB study)
+            (NP
+              (NP (DT the) (NN role))
+              (PP (IN of)
+                (NP (NNP TECs))))
+            (PP (IN in)
+              (S
+                (VP (VBG promoting)
+                  (NP (DT this) (NN transition)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP
+          (ADVP (RBR further))
+          (VB investigate)
+          (NP
+            (NP (DT the) (NN role))
+            (PP (IN of)
+              (NP (NNP TECs))))
+          (PP (IN in)
+            (S
+              (VP (VBG promoting)
+                (NP (JJ thymocyte) (NN death)
+                  (CC and)
+                  (NN growth))
+                (PP (IN during)
+                  (NP (DT the) (NNP TN)))
+                (PP (TO to)
+                  (NP (NNP DP) (NN transition)))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD assayed)
+      (NP
+        (NP (DT the) (NN proliferation))
+        (PP (IN of)
+          (NP
+            (NP (JJ specific) (NN thymocyte) (NNS subsets))
+            (VP (VBG using)
+              (NP
+                (NP (NNP BrdU) (NNP incorporation))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ detects)
+                      (NP
+                        (NP (NN cycling) (NNS cells))
+                        (PP (IN in)
+                          (NP (NNP S-phase)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBD compared)
+        (NP
+          (NP (JJ fetal)
+            (CC and)
+            (JJ adult) (JJ wild) (NN type) (NNS mice))
+          (PP (IN with)
+            (NP (NNS Hoxa3))))))
+    (, ,)
+    (NP (JJ Pax1) (NN compound) (NNS mutants))
+    (VP (VBZ -LSB-)
+      (NP (CD 29,34) (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD assayed)
+      (NP
+        (NP (NNS Rag1))
+        (: -)
+        (NP
+          (NP (NNP /))
+          (: -)
+          (NP
+            (NP (NNS mice))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBP have)
+                  (NP
+                    (NP (NNS defects))
+                    (PP (IN in)
+                      (NP (NNP TEC) (NN development))))
+                  (PP (JJ due) (TO to)
+                    (NP
+                      (NP (VBN arrested) (JJ thymocyte) (NN maturation))
+                      (PP (IN at)
+                        (NP
+                          (NP (DT the) (JJ TN3) (NN stage))
+                          (VP (VBG -LSB-)
+                            (NP (CD 35) (NNS -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD found)
+      (NP (JJ stage-specific) (NNS differences))
+      (PP (IN in)
+        (NP (NN proliferation) (NNS levels)))
+      (PP (IN between)
+        (NP
+          (NP (JJ fetal))
+          (CC and)
+          (NP (JJ adult) (JJ wild) (NN type) (NNS thymocytes)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD found)
+      (NP
+        (NP (JJ distinct) (NNS patterns))
+        (PP (IN of)
+          (NP (JJ thymocyte) (NN proliferation))))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NNS Rag1))
+          (: -)
+          (NP (NNP /))
+          (: -)
+          (CC and)
+          (NP (JJ Hoxa3) (, ,) (JJ Pax1) (NNS mutants)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ abnormal) (NN cell) (NN death))
+      (CC and)
+      (NP
+        (NP (NN proliferation) (NNS patterns))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NNS Hoxa3))
+            (, ,)
+            (NP (JJ Pax1) (JJ compound) (JJ mutant) (JJ fetal) (NNS thymocytes))))))
+    (VP (MD might)
+      (VP (VB be)
+        (VP (VBN caused)
+          (PP (IN in)
+            (NP (NN part)))
+          (PP (IN by)
+            (NP
+              (NP
+                (NP
+                  (ADJP (JJ observed))
+                  (NNS reductions))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN transcription) (NNS levels))
+                    (PP (IN of)
+                      (NP (DT the) (JJ cytokines) (NN IL-7))))))
+              (CC and)
+              (NP
+                (NP (NNP SCF))
+                (VP (VBN produced)
+                  (PP (IN by)
+                    (NP (NNP TECs))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS results))
+    (VP
+      (VP (VBP support)
+        (NP (DT a) (JJ critical) (NN role))
+        (PP (IN for)
+          (NP
+            (NP (NN microenvironment))
+            (VP (VBN created)
+              (PP (IN by)
+                (NP (NNP TECs)))
+              (PP (IN in)
+                (S
+                  (VP (VBG regulating)
+                    (NP (JJ thymocyte) (NN proliferation))
+                    (PP (IN during)
+                      (NP (DT the) (NNP TN)))
+                    (PP (TO to)
+                      (NP (NNP DP) (NN transition))))))))))
+      (, ,)
+      (CC and)
+      (VP (VBP show)
+        (SBAR (IN that)
+          (S
+            (NP (DT this) (NN function))
+            (VP (VBZ is)
+              (VP (VBN disrupted)
+                (PP (IN in)
+                  (NP (JJ Hoxa3) (, ,) (JJ Pax1) (JJ compound) (NNS mutants)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (NNS Results))
+      (IN As)
+      (NP (DT an) (JJ initial) (NN analysis)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD compared)
+      (NP (JJ thymocyte) (NN proliferation))
+      (PP (IN between)
+        (NP (NNS thymocytes)))
+      (PP (IN from)
+        (NP
+          (NP (RB late) (JJ fetal)
+            (PRN (-LRB- -LRB-)
+              (NP
+                (QP (CD E17) (CD .5)))
+              (-RRB- -RRB-)))
+          (CC and)
+          (NP
+            (NP (NN adult))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (CD 6))
+                (: --)
+                (NP (CD 8) (NN week)))
+              (-RRB- -RRB-))
+            (NP (JJ wild) (NN type) (NN C57BL6/J) (NNS mice))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP
+          (NP (NNS differences))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN proliferation))
+              (PP (IN of)
+                (NP (JJ fetal) (NN vs.) (NN adult) (NN TCR-expressing))))))
+        (VP
+          (VP (VBZ thymocytes))
+          (CC and)
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBN reported)
+                (NP
+                  (QP (CD -LSB-) (CD 36))
+                  (NNS -RSB-))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD were)
+      (ADJP (JJ interested)
+        (PP (IN in)
+          (S
+            (VP (VBG investigating)
+              (NP (DT the)
+                (ADJP (RBR more) (JJ immature))
+                (NN thymocyte) (NNS subsets)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BrdU))
+    (VP (VBD labeled)
+      (SBAR
+        (S
+          (NP (JJ fetal)
+            (CC and)
+            (JJ adult) (NNS thymi))
+          (VP (VBD were)
+            (VP (VBN analyzed)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NN percent))
+                  (PP (IN of)
+                    (NP
+                      (NP
+                        (NP (VBG proliferating) (NNS cells))
+                        (PP (IN in)
+                          (NP (JJ different) (NN CD3-4-8))))
+                      (: -)
+                      (NP
+                        (NP (NNP TN) (NN thymocyte) (NNS subsets))
+                        (VP (VBN defined)
+                          (PP (IN by)
+                            (NP (NNP CD44)))))
+                      (CC and)
+                      (NP
+                        (NP (JJ CD25) (NN expression))
+                        (VP (VBG -LSB-)
+                          (NP
+                            (QP (CD 8) (CD -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP CD3) (CD +4) (CD +8) (JJ +) (NN population))
+    (VP (VBD was)
+      (VP (VBN defined)
+        (PP (IN by)
+          (NP
+            (NP (NN co-staining))
+            (PP (IN of)
+              (NP
+                (NP (DT all) (CD three) (NNS markers))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP Fig.) (CD 1A))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ typical) (NN analysis))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (DT the) (NNP BrdU) (NNP +) (NNS cells))
+            (PP (IN in)
+              (NP (NNP DP) (NNS cells))))
+          (CC and)
+          (NP
+            (NP (DT the) (CD four) (NNP CD44)
+              (CC vs.)
+              (NNP CD25) (NN subsets))
+            (PP (IN within)
+              (NP (DT the) (NNP TN) (NN cell) (NN population)))))))
+    (VP (VBZ is)
+      (VP (VBN shown)
+        (PP (IN in)
+          (NP (NNP Figure) (CD 1)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Compiled) (NNS data))
+      (PP (IN for)
+        (NP
+          (NP (DT each) (NN subset))
+          (PP (IN from)
+            (NP (DT all) (NNS experiments))))))
+    (VP (VBZ is)
+      (VP (VBN shown)
+        (PP (IN in)
+          (NP (NNP Table) (CD 1)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (JJ wild) (NN type) (NN adult))
+        (-LRB- -LRB-)
+        (NP (NNP Fig.) (CD 1C) (, ,) (CD 1F))
+        (-RRB- -RRB-))
+      (CC and)
+      (NP
+        (NP (JJ fetal))
+        (-LRB- -LRB-)
+        (NP (NNP Fig.) (CD 1D) (, ,) (CD 1F))
+        (-RRB- -RRB-)))
+    (VP (VBP thymocyte)
+      (SBAR
+        (S
+          (NP (NN proliferation) (NN profile) (NNS patterns))
+          (VP (VBD differed)
+            (ADVP (RB significantly))
+            (PP (IN at)
+              (NP (JJ specific) (NNS stages)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ overall) (NN proliferation) (NN level))
+      (PP (IN in)
+        (NP (NNP TN) (NNS cells))))
+    (VP (VBD was)
+      (VP (VBN increased)
+        (PP (IN by)
+          (NP
+            (NP (CD 50) (NN %))
+            (PP (IN in)
+              (NP (JJ fetal) (NNS thymocytes)))))
+        (PRN (-LRB- -LRB-)
+          (ADVP (RB p))
+          (ADJP (JJ <)
+            (NP (CD 0.01)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RBS Most) (RB dramatically))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS percentages))
+      (PP (IN of)
+        (NP
+          (NP (NNP BrdU) (NNP +) (NNS cells))
+          (PP (IN in)
+            (NP (JJ fetal) (NNS thymocytes))))))
+    (VP (VBD were)
+      (VP (VBN 10-fold)
+        (ADVP (JJR higher) (IN than))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN adult))
+            (PP (IN at)
+              (NP
+                (NP (DT the) (JJS earliest) (, ,)
+                  (ADJP
+                    (ADJP (JJ TN1))
+                    (PRN (-LRB- -LRB-)
+                      (FRAG
+                        (ADJP (JJ CD44)
+                          (NP (CD +25)))
+                        (: -))
+                      (-RRB- -RRB-)))
+                  (JJ thymocyte) (NN differentiation) (NN stage))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP P)
+                    (QP (CD <) (CD 0.001)))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A)
+      (ADJP
+        (ADJP (RB much) (JJR lower))
+        (, ,)
+        (CC but)
+        (ADJP (RB still) (JJ significant)))
+      (NN increase))
+    (VP (VBD was)
+      (VP (VBN seen)
+        (PP (IN in)
+          (NP
+            (NP (JJ fetal) (NN TN2) (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP
+                  (ADJP (CD 25) (NN %))
+                  (NN increase))
+                (, ,)
+                (NP (NNP p) (NNP <) (NNP 0.01)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Proliferation))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (ADJP
+        (ADJP (RB significantly) (JJR higher))
+        (PP (IN at)
+          (NP (DT the) (JJ fetal) (NN TN3) (NN stage))))
+      (PP (VBN compared)
+        (PP (TO to)
+          (NP
+            (NP (NN adult))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP
+                  (ADJP (CD 50) (NN %))
+                  (NN increase))
+                (, ,)
+                (NP (NNP p) (NNP <) (NNP 0.01)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Proliferation))
+      (PP (IN at)
+        (NP (DT the)
+          (ADJP
+            (ADJP (JJ TN4/pre-DP))
+            (PRN (-LRB- -LRB-)
+              (FRAG
+                (ADJP (JJ CD44-25))
+                (: -))
+              (-RRB- -RRB-)))
+          (NN stage))))
+    (VP (VBD was)
+      (ADJP (JJ similar)
+        (PP (IN between)
+          (NP (JJ fetal)
+            (CC and)
+            (JJ adult) (NNS thymocytes)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP (NNP DP) (NNS cells))
+    (VP (VBD showed)
+      (NP (DT a) (JJ 3-fold) (NN increase))
+      (PP (IN in)
+        (NP (NN proliferation)))
+      (PP (IN in)
+        (NP
+          (NP
+            (NP (DT the) (JJ fetal) (NNS thymus))
+            (ADVP (JJ relative)
+              (PP (TO to)
+                (NP (NN adult)))))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP p) (NNP <) (NNP 0.01))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (RB nearly) (DT every) (NN stage))
+      (PP (IN from)
+        (NP
+          (NP (DT the) (JJS earliest) (NN TN))
+          (PP (TO to)
+            (NP (DT the) (NNP DP) (NNS stages))))))
+    (VP (VBD showed)
+      (NP (RB significantly) (VBN increased) (NN proliferation))
+      (PP (IN in)
+        (NP (JJ fetal) (NNS thymocytes)))
+      (ADVP (JJ relative)
+        (PP (TO to)
+          (NP (NNS adults)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ possible))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (JJR lower) (NN percentage))
+            (PP (IN of)
+              (NP
+                (NP (VBG proliferating) (NNS cells))
+                (VP (VBN seen)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (JJ TN1) (NN population))
+                      (PP (IN in)
+                        (NP (NNS adults)))))))))
+          (VP (VBD was)
+            (ADJP (JJ due)
+              (PP (TO to)
+                (NP
+                  (NP (DT an) (VBN increased) (NN number))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP B)
+                        (NX
+                          (NX (NNS cells))
+                          (CC and)
+                          (NX (JJ NK) (NNS cells))))
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (JJ adult) (NNS thymus))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (VP (MD would) (RB not)
+                                (VP (VB have)
+                                  (VP (VBN been)
+                                    (VP (VBN excluded)
+                                      (PP (IN in)
+                                        (NP (PRP$ our) (JJ initial) (NN analysis))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (DT this))
+        (VP (VBD was)
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP
+                (NP (DT the)
+                  (ADJP (RBS most) (JJ striking))
+                  (NNS differences))
+                (VP (VBN seen)
+                  (PP (IN between)
+                    (NP (JJ fetal)
+                      (CC and)
+                      (JJ adult) (NNS stages))))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD repeated)
+      (NP
+        (NP (DT this) (NN analysis))
+        (VP (VBG adding)
+          (NP
+            (NP
+              (NP (NNS antibodies))
+              (PP (IN against)
+                (NP (NNP B220))))
+            (CC and)
+            (NP
+              (NP
+                (QP (CD NK1) (CD .1)))
+              (PP (TO to)
+                (NP (CD CD3) (, ,) (CD 4)
+                  (CC and)
+                  (CD 8)))))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (VBN excluded) (NN gate))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Fig.) (CD 1G))
+                (, ,)
+                (NP (CD 1H))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Even))
+      (VBG excluding)
+      (NP (DT these) (NN cell) (NNS populations)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (NP
+        (NP (DT a)
+          (ADJP (RB significantly) (JJR lower))
+          (NN percentage))
+        (PP (IN of)
+          (NP
+            (NP (VBG proliferating) (NNS cells))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (JJ TN1) (NN population))
+                (PP (IN in)
+                  (NP (DT the) (JJ adult) (NNS thymus)))))))
+        (SBAR (IN than)
+          (FRAG
+            (PP (IN in)
+              (NP
+                (NP (DT the) (JJ fetal) (NNS thymus))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP Fig.) (CD 1I))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP (DT this) (NN difference))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ due)
+        (PP (TO to)
+          (NP
+            (NP (JJ different) (NNS numbers))
+            (PP (IN of)
+              (NP
+                (UCP (NNP B)
+                  (CC and)
+                  (JJ NK))
+                (NNS cells))))))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN adult))
+          (PP (IN vs.)
+            (NP (JJ fetal) (NNS thymus))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD compared)
+      (NP
+        (NP (NN proliferation))
+        (PP (IN of)
+          (NP
+            (NP (JJ fetal) (NNS thymocytes))
+            (PP (IN from)
+              (NP (JJ Rag1)
+                (PRN (: -)
+                  (NP (NNP /))
+                  (: -))
+                (NNS mice))))))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NNS results))
+          (VP (VBN obtained)
+            (PP (IN from)
+              (NP (JJ wild) (NN type) (NNS mice)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNS Thymocytes))
+        (PP (IN in)
+          (NP (DT the) (JJ adult) (NNS Rag1))))
+      (: -)
+      (NP (NNP /))
+      (: -))
+    (ADVP (RB thymus))
+    (VP (VBP have)
+      (VP (VBN been)
+        (ADVP (RB previously))
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP
+                  (NP (JJ overall) (JJR lower) (NNS levels))
+                  (PP (IN of)
+                    (NP (NN proliferation))))
+                (SBAR (IN than)
+                  (S
+                    (NP (JJ adult) (JJ wild) (NN type) (NN TN) (NNS thymocytes))
+                    (VP (VBD -LSB-)
+                      (NP
+                        (NP
+                          (QP (CD 13) (CD -RSB-)))
+                        (, ,)
+                        (ADVP (RB particularly)))
+                      (PP (IN at)
+                        (NP
+                          (NP (DT the) (JJ TN3) (NN stage))
+                          (VP (VBG -LSB-)
+                            (NP (CD 37-40) (NNS -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (JJ fetal) (NNS stages)))
+    (, ,)
+    (NP (PRP$ our) (NNS results))
+    (VP (VBD showed)
+      (NP
+        (NP (DT that) (NN proliferation))
+        (FRAG
+          (ADVP (RB also))
+          (ADJP (VBN varied)
+            (PP (IN between)
+              (NP
+                (NP (NNS thymocytes))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (JJ wild) (NN type))
+                    (CC and)
+                    (NP (NNS Rag1)))))))
+          (: -)
+          (NP
+            (NP (NNP /))
+            (: -)
+            (NP
+              (NP (NNS thymus))
+              (PP (IN at)
+                (NP
+                  (NP (JJ discrete) (NNS stages))
+                  (PP (IN of)
+                    (NP (JJ thymocyte) (NN differentiation))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (JJS earliest) (JJ TN1) (NN stage)))
+    (, ,)
+    (NP
+      (NP (JJ thymocyte) (NN proliferation) (NNS levels))
+      (PP (IN in)
+        (NP (JJ Rag1)
+          (PRN (: -)
+            (NP (NNP /))
+            (: -))
+          (NNS thymi))))
+    (VP (VBD were)
+      (ADJP (JJ similar)
+        (PP (TO to)
+          (NP
+            (NP (JJ fetal) (JJ wild) (NN type) (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP Fig.) (CD 1E) (, ,) (CD 1F))
+                (: ;)
+                (NP (NNP Table) (CD 1)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (NNP TN2) (NN stage)))
+    (, ,)
+    (NP
+      (NP (JJ fetal) (NNS thymocytes))
+      (PP (IN from)
+        (NP (JJ Rag1)
+          (PRN (: -)
+            (NP (NNP /))
+            (: -))
+          (NNS mice))))
+    (VP (VBD had)
+      (NP
+        (NP
+          (NP (DT a) (NN proliferation))
+          (NP (NN level)))
+        (RB nearly) (RB twice)
+        (NP
+          (NP (DT that))
+          (PP (IN of)
+            (NP
+              (NP
+                (ADJP (JJ wild) (NN type))
+                (JJ fetal) (NNS thymocytes))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP p)
+                  (QP (CD <) (CD 0.001)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT the) (NNP TN3) (NN stage)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN percentage))
+      (PP (IN of)
+        (S
+          (VP (VBG proliferating)
+            (NP (JJ Rag1)
+              (PRN (: -)
+                (NP (NNP /))
+                (: -))
+              (NNS thymocytes))))))
+    (VP (VBD had)
+      (VP (VBN dropped)
+        (ADVP (RB slightly))
+        (PP (IN below)
+          (NP
+            (NP (DT that))
+            (PP (IN of)
+              (NP
+                (NP
+                  (NP (JJ wild) (NN type) (JJ fetal) (NNS thymocytes))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (CD ~)
+                        (ADJP (CD 30) (NN %))
+                        (NN decrease))
+                      (, ,)
+                      (NP (NNP p) (NNP <) (NNP 0.01)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (NP
+                  (ADJP (JJ equal)
+                    (PP (TO to)
+                      (NP (JJ wild) (NN type) (NN adult))))
+                  (JJ TN3) (NN proliferation) (NNS levels))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (NN addition)))
+      (, ,)
+      (NP
+        (NP (DT the) (NNS percentages))
+        (PP (IN of)
+          (NP
+            (NP (NNP BrdU) (NNP +) (NNS cells))
+            (PP (IN in)
+              (NP (NNP TN1)
+                (CC and)
+                (NNP TN2))))))
+      (VP (VBZ subsets)
+        (PP (IN in)
+          (NP (DT the) (NNS Rag1)))
+        (: -)
+        (ADVP (RB /))))
+    (: -)
+    (S
+      (NP (JJ fetal) (NNS thymus))
+      (VP (VBD were)
+        (ADJP
+          (ADJP (RB significantly) (JJR higher))
+          (PP (IN than)
+            (NP
+              (NP (DT those))
+              (PP (IN of)
+                (NP (DT the) (JJ wild) (NN type) (NNS adults))))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP P)
+            (QP (CD <) (CD 0.001)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT These) (NNS results))
+        (PP (IN with)
+          (NP
+            (NP (NNS Rag1))
+            (PRN (: -)
+              (VP (VBN /)
+                (PRN (: -)
+                  (S
+                    (NP (JJ fetal) (NNS thymocytes))
+                    (NP
+                      (NP (NN contrast))
+                      (PP (IN with)
+                        (NP
+                          (NP (NNS thymocytes))
+                          (PP (IN in)
+                            (NP (DT the) (NNP Rag)))))))
+                  (: -)))
+              (: /)))))
+      (: -)
+      (NP (NN adult))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBP have)
+            (NP
+              (ADJP (RB much) (JJR lower))
+              (NN proliferation))
+            (PP (IN than)
+              (NP
+                (NP (JJ wild) (NN type) (NN adult) (NNS thymocytes))
+                (PP (IN at)
+                  (NP
+                    (NP (DT all) (NNS stages))
+                    (PP (IN of)
+                      (NP (JJ thymocyte) (NN differentiation)))))))))))
+    (VP (VBZ -LSB-)
+      (NP (CD 13) (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (PRP$ Our) (JJ previous) (NN analysis))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ Hoxa3) (JJ +) (NN /))
+            (: -)
+            (NP (NNS Pax1))
+            (: -)
+            (NP (NNP /))
+            (: -)
+            (NP (JJ compound) (JJ mutant) (NN thymocyte) (NN phenotype)))))
+      (VP (VBD showed)
+        (NP (DT a) (JJ specific) (JJ partial) (NN block))
+        (PP (IN at)
+          (NP (DT the) (NNP TN)))
+        (PP (TO to)
+          (NP
+            (NP (NNP DP) (NN transition))
+            (, ,)
+            (VP (VBN associated)
+              (PP (IN with)
+                (NP
+                  (NP (VBN increased) (NNS apoptosis))
+                  (PP (IN at)
+                    (NP (PDT both) (DT the) (NNP TN4/pre-DP)
+                      (CC and)
+                      (NNP DP) (NNS subsets))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT a) (JJ 10-fold) (NN decrease))
+        (PP (IN in)
+          (NP (NNP DP) (NN cell) (NNS numbers))))
+      (VP (VBZ -LSB-)
+        (NP (CD 29) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Using)
+        (NP (NNP BrdU) (NN analysis))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD compared)
+      (NP
+        (NP (DT the) (NN proliferation))
+        (PP (IN of)
+          (NP
+            (NP (NNP Hoxa3) (NNP +) (NNP /))
+            (: -)
+            (NP (NNS Pax1))
+            (: -)
+            (NP (NNP /))
+            (: -)
+            (NP (JJ fetal) (NNS thymocytes)))))
+      (PP (IN during)
+        (NP (DT the) (NNP TN)))
+      (PP (TO to)
+        (NP (NNP DP) (NN transition)))
+      (PP (VBN compared)
+        (PP (TO to)
+          (NP (JJ littermate) (NNS controls)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (JJ Thymocyte) (NN proliferation) (NNS levels))
+        (PP (IN for)
+          (NP
+            (NP
+              (NP (DT all) (NNS genotypes))
+              (-LRB- -LRB-)
+              (NP
+                (NP (NNP Hoxa3) (NNP +))
+                (PRN (: /)
+                  (NP
+                    (NP (NNP -))
+                    (, ,)
+                    (NP (NNP Pax1) (NNP +)))
+                  (: /)))
+              (: -))
+            (, ,)
+            (NP
+              (NP (NNS Pax1))
+              (PRN (: -)
+                (NP (NNP /))
+                (: -)))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (NNP Hoxa3) (NNP +) (NNP /))
+              (PRN (: -)
+                (NP
+                  (NP (NNS Pax1))
+                  (: -)
+                  (NP (NNP /)))
+                (: -))
+              (-RRB- -RRB-)))))
+      (VP (VBD were)
+        (NP
+          (NP
+            (ADJP (JJ similar)
+              (PP (TO to)
+                (NP
+                  (NP (JJ wild) (NN type))
+                  (PP (IN in)
+                    (NP
+                      (NP (DT all))
+                      (PP (IN of)
+                        (NP (DT the) (JJ canonical) (NN TN1-TN4))))))))
+            (NNS stages))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP Fig.) (CD 2A) (CD ,2) (NNP B) (NNP ,2) (NNP C))
+              (: ;)
+              (NP (NNP Table) (CD 1)))
+            (-RRB- -RRB-)))
+        (, ,)
+        (ADJP (JJ consistent)
+          (PP (IN with)
+            (NP (DT the) (JJ normal) (NNS percentages))))))
+    (CC and)
+    (S
+      (NP
+        (NP (NN cell) (NNS numbers))
+        (PP (IN for)
+          (NP (DT these) (NNS subpopulations))))
+      (VP
+        (ADVP (RB previously))
+        (VBD reported)
+        (NP
+          (QP (CD -LSB-) (CD 29))
+          (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Recent) (NNS papers))
+      (PP (IN by)
+        (NP (NNP Penit))))
+    (PRN (, ,)
+      (S
+        (NP (NNP et) (NNP al.))
+        (VP (VBP have)
+          (VP (VBN provided)
+            (NP (NNS data))
+            (PP (IN from)
+              (NP
+                (NP (NN cell) (NN cycle) (NN analysis))
+                (VP (VBG suggesting)
+                  (SBAR (IN that)
+                    (S
+                      (NP
+                        (NP (DT a) (JJ discrete) (NN CD44-25lo) (NN population))
+                        (PP (IN with)
+                          (NP (DT a) (JJ specific) (NN proliferation) (NN profile))))
+                      (VP (MD can)
+                        (VP (VB be)
+                          (VP (VBN identified) (, ,)
+                            (PP (JJ such)))))))
+                  (SBAR (IN that)
+                    (S
+                      (NP
+                        (NP (DT the) (NN transition))
+                        (PP (IN from)
+                          (NP
+                            (NP (NNP TN3))
+                            (PP (TO to)
+                              (NP (NNP DP))))))
+                      (VP (MD can)
+                        (VP (VB be)
+                          (VP
+                            (ADVP (RBR further))
+                            (VBN subdivided)
+                            (PP (IN into)
+                              (NP (NNS CD25hi) (, ,) (NNP CD25lo) (, ,)
+                                (CC and)
+                                (NNP CD25))))))))))))))
+      (, -))
+    (VP (VBZ subsets)
+      (NP
+        (QP (CD -LSB-) (CD 12,13))
+        (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Analysis))
+      (PP (IN of)
+        (NP
+          (NP (NN proliferation))
+          (VP (VBG using)
+            (NP (DT these) (JJR more))))))
+    (ADVP (RB narrowly))
+    (VP (VBD defined)
+      (SBAR
+        (S
+          (NP (NNS subsets))
+          (ADVP (RB still))
+          (VP (VBD showed)
+            (NP
+              (NP (NNS values))
+              (ADJP (JJ similar)
+                (PP (TO to)
+                  (NP
+                    (NP (JJ wild) (NN type))
+                    (PP (IN in)
+                      (NP (DT the) (NN CD44-25lo) (NN subset))))))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NNP Fig.) (CD 2D) (CD ,2) (NNP E) (NNP ,2) (NNP F))
+                  (: ;)
+                  (NP (NNP Table) (CD 2)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN proliferation) (NN level))
+      (PP (IN of)
+        (NP (NNP DP) (NNS cells))))
+    (VP (VBD increased)
+      (ADJP (RB nearly) (JJ 2-fold)
+        (PP (IN in)
+          (NP (JJ compound) (NNS mutants))))
+      (PP (VBN compared)
+        (PP (TO to)
+          (NP
+            (NP (JJ wild) (NN type))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP Fig.) (CD 2C) (, ,) (CD 2F))
+                (: ;)
+                (NP (NNP Table) (CD 1)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN spite))
+        (PP (IN of)
+          (NP
+            (NP (DT this) (NN increase))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN percentage))
+                (PP (IN of)
+                  (NP (VBG proliferating) (NNS cells)))))))))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ actual) (NN number))
+      (PP (IN of)
+        (NP (NNP BrdU) (NNP +) (NNP DP) (NNS cells))))
+    (VP (VBD was)
+      (VP (VBN reduced)
+        (ADJP (JJ 4-fold))
+        (PP (VBN compared)
+          (PP (TO to)
+            (NP
+              (NP (JJ wild) (NN type))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (JJ compound) (NNS mutants))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (CD 15.03) (CD ±) (CD 8.73) (CD ×) (CD 104) (CD vs.) (CD 61.94) (CD ±) (CD 32.12) (NNP ×) (NNP 104))
+                      (PP (IN in)
+                        (NP (JJ wild) (NN type) (: ;) (NN p)))
+                      (ADJP (JJ <)
+                        (NP (CD 0.01))))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS numbers))
+      (PP (IN of)
+        (NP
+          (NP (VBG proliferating) (NNS cells))
+          (PP (IN at)
+            (NP (DT the) (JJ pre-DP) (NN stage))))))
+    (VP (VBD were)
+      (ADJP (JJ unchanged))
+      (PRN (-LRB- -LRB-)
+        (VP (RB not) (VBN shown))
+        (-RRB- -RRB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBN Combined)
+      (PP (IN with)
+        (NP (PRP$ our) (JJ previous) (NNS results))))
+    (, ,)
+    (NP (DT this) (NN result))
+    (VP (VBZ shows)
+      (SBAR (IN that)
+        (S
+          (NP (DT both) (JJ increased) (NNS apoptosis)
+            (CC and)
+            (JJ reduced) (NN proliferation))
+          (VP (VBP contribute)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN decrease))
+                (PP (IN in)
+                  (NP (NNP DP) (NNS cells)))))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NNS Hoxa3))
+                (, ,)
+                (NP (JJ Pax1) (NN compound) (NNS mutants))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (FRAG
+      (ADVP (RB Unfortunately))
+      (, ,)
+      (NP (NNP Hoxa3) (NNP +))
+      (: /))
+    (: -)
+    (S
+      (NP (JJ Pax1)
+        (PRN (: -)
+          (NP (NNP /))
+          (: -))
+        (NNS mice))
+      (VP (VBP die)
+        (PP (IN at)
+          (NP (NN birth)))
+        (, ,)
+        (S
+          (VP (VBG preventing)
+            (NP
+              (NP (NN analysis))
+              (PP (IN of)
+                (NP (JJ thymocyte) (NN proliferation))))
+            (PP (IN in)
+              (NP (JJ adult) (NN compound) (NNS mutants)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Cytokines))
+      (VP (VBN produced)
+        (PP (IN by)
+          (NP (NNP TECs)))))
+    (VP (VBP are)
+      (NP
+        (NP (JJ good) (NNS candidates))
+        (PP (IN for)
+          (S
+            (VP (VBG mediating)
+              (NP
+                (NP
+                  (QP (IN at) (JJS least) (DT some)))
+                (PP (IN of)
+                  (NP
+                    (NP (DT these) (NNS changes))
+                    (PP (IN in)
+                      (NP (JJ thymocyte) (NN proliferation)
+                        (CC and)
+                        (NNS apoptosis))))))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNS Hoxa3))
+                  (, ,)
+                  (NP (JJ Pax1) (NN compound) (NNS mutants)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Using)
+        (NP (JJ semi-quantitative) (NN RT-PCR))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD analyzed)
+      (NP
+        (NP (DT the) (NN expression))
+        (PP (IN of)
+          (NP
+            (NP (CD two) (NNS cytokines))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP are)
+                  (VP (VBN produced)
+                    (PP (IN by)
+                      (NP (NNP TECs) (, ,) (NNP IL-7)
+                        (CC and)
+                        (NNP SCF)))
+                    (, ,)
+                    (PP (IN in)
+                      (NP
+                        (NP (JJ pooled) (, ,) (JJ genotype-matched) (NN E14) (CD .5) (NNS thymi))
+                        (PRN (-LRB- -LRB-)
+                          (NP
+                            (QP (CD Fig.) (CD 3)))
+                          (-RRB- -RRB-))))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Hoxa3) (NNP +))
+    (PRN (: /)
+      (PP (IN -)
+        (NP (NNS Pax1))
+        (: -))
+      (: /))
+    (: -)
+    (NP
+      (NP (JJ compound) (NNS mutants))
+      (VP (VBN had)
+        (NP
+          (NP (VBN decreased) (NN transcription))
+          (PP (IN of)
+            (NP
+              (NP (DT both) (NNS cytokines))
+              (ADVP (JJ relative)
+                (PP (TO to)
+                  (NP (DT all) (JJ other) (NNS genotypes)))))))
+        (, ,)
+        (PP (VBG including)
+          (NP
+            (NP (NNS Pax1))
+            (: -)
+            (NP (NNP /))
+            (: -)
+            (NP (JJ single) (NNS mutants))))))
+    (. .)))
+
+(ROOT
+  (S
+    (FRAG
+      (ADVP (RB However))
+      (, ,)
+      (NP (NNP Hoxa3) (NNP +))
+      (: /))
+    (: -)
+    (S
+      (S
+        (NP (JJ Pax1)
+          (PRN (: -)
+            (NP (NNP /))
+            (: -))
+          (JJ compound) (NNS mutants))
+        (VP (VBD were) (RB not)
+          (ADJP (RB completely) (JJ missing)
+            (SBAR
+              (S
+                (NP (DT either) (NN cytokine))
+                (VP (VBD analyzed)))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP
+          (NP (DT the) (NN magnitude))
+          (PP (IN of)
+            (NP (DT the) (NN decrease))))
+        (VP (VBD was)
+          (NP
+            (NP (NN variable))
+            (PP (IN between)
+              (NP (NNS pools)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB test)
+          (SBAR (IN whether)
+            (S
+              (NP
+                (NP (DT the) (NNS changes))
+                (PP (IN in)
+                  (NP (JJ cytokine) (NNS levels))))
+              (VP (VBD were)
+                (ADJP (JJ responsible)
+                  (PP (IN for)
+                    (NP (DT the)
+                      (ADJP (JJ observed) (JJ thymocyte))
+                      (NN development) (NNS phenotypes))))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD attempted)
+      (S
+        (VP (TO to)
+          (VP (VB rescue)
+            (NP (DT these) (NNS phenotypes))
+            (PP (IN by)
+              (NP
+                (NP (NN supplementation))
+                (PP (IN in)
+                  (NP
+                    (NP (JJ fetal) (JJ thymic) (NN organ) (NN culture))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP FTOC))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (QP (CD E15) (CD .5))
+        (JJ embryonic) (JJ thymic) (NNS lobes))
+      (PP (IN from)
+        (NP (JJ individual) (NNS embryos))))
+    (VP (VBD were)
+      (VP (VBN cultured)
+        (ADVP (RB separately))
+        (PP (IN in)
+          (NP (NNP FTOC)))
+        (, ,)
+        (PP (IN with)
+          (CC or)
+          (IN without)
+          (NP (JJ added) (NNP IL-7)
+            (CC or)
+            (NNP SCF)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNS Cultures))
+        (PP (IN from)
+          (NP (NN control) (NNS genotypes))))
+      (PRN (-LRB- -LRB-)
+        (FRAG
+          (FRAG
+            (ADJP (JJ wild) (NN type))
+            (, ,)
+            (NP (NNP Pax1) (NNP +))
+            (: /))
+          (: -)
+          (FRAG
+            (FRAG (, ,)
+              (NP (NNP Hoxa3) (NNP +)))
+            (: /)
+            (FRAG
+              (FRAG
+                (INTJ (UH -))
+                (, ,)
+                (NP (NNS Pax1)))
+              (: -)
+              (FRAG
+                (ADJP (JJ /))
+                (: -)))))
+        (-RRB- -RRB-)))
+    (VP (VBD behaved)
+      (PP (IN as)
+        (NP (JJ expected) (JJ -LSB-) (JJ 41-46) (NNS -RSB-)))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (NN addition))
+          (PP (IN of)
+            (NP
+              (NP (NN IL-7))
+              (VP (VBG causing)
+                (NP (DT an) (NN increase))
+                (PP (IN in)
+                  (NP
+                    (NP
+                      (NP (DT the) (NN percentage))
+                      (PP (IN of)
+                        (NP (NNP DN) (NNS cells))))
+                    (CC and)
+                    (NP
+                      (NP (DT a) (JJ corresponding) (NN decrease))
+                      (PP (IN in)
+                        (NP (NNP DP) (NNS cells))))))
+                (, ,)
+                (SBAR (IN while)
+                  (S
+                    (S
+                      (VP (VBG adding)
+                        (NP (NNP SCF))))
+                    (VP (VBD had)
+                      (NP
+                        (NP (DT no) (JJ significant) (NN effect))
+                        (PP (IN on)
+                          (NP (JJ thymocyte) (NN development))))))))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NNS data))
+                  (VP (RB not) (VBN shown)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (S
+      (PP (TO to)
+        (NP (PRP$ our) (NN surprise)))
+      (NP (DT the) (CD two) (NNS separated))
+      (VP (VBZ lobes)
+        (PP (IN from)
+          (NP (NNP Hoxa3) (NNP +) (NNP /)))
+        (PRN (: -)
+          (FRAG
+            (ADJP (JJ Pax1))
+            (: -))
+          (: /))))
+    (: -)
+    (S
+      (NP (NN compound) (NNS mutants))
+      (VP (VBD did) (RB not)
+        (ADVP (RB always))
+        (VP (VB develop)
+          (PP (IN in)
+            (NP (JJ predictable) (NNS ways))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP
+      (NP (JJ separated) (NNS lobes))
+      (VP (VBN cultured)
+        (PP (IN under)
+          (NP (JJ identical) (NNS conditions)))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN absence))
+            (PP (IN of)
+              (NP (DT any) (VBN added) (NNS cytokines)))))))
+    (VP (VBD had)
+      (ADVP (RB widely))
+      (S
+        (VP (VBG differing)
+          (NP (NNS results)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNS Changes))
+        (PP (IN in)
+          (NP
+            (NP (JJ thymocyte) (NN cell) (NN number)
+              (CC and)
+              (NN differentiation))
+            (PP (IN after)
+              (NP (NN culture))))))
+      (VP (VBD were)
+        (ADJP (RB highly) (JJ variable))))
+    (: ;)
+    (S
+      (PP (IN for)
+        (NP (NN example)))
+      (, ,)
+      (NP (NN cell) (NNS numbers))
+      (VP (MD could)
+        (VP (VB differ)
+          (ADVP (RB stochastically))
+          (PP (IN after)
+            (NP (NN culture)))
+          (PP (IN by)
+            (NP
+              (NP
+                (QP (RB as) (JJ much) (IN as) (CD 10-fold)))
+              (PP (IN between)
+                (NP
+                  (NP (CD two) (NNS lobes))
+                  (PP (IN from)
+                    (NP (DT the) (JJ same) (JJ compound) (JJ mutant) (NN embryo))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN result))
+    (VP (VBD was)
+      (ADVP (RB never))
+      (VP (VBN obtained)
+        (PP (IN with)
+          (NP
+            (ADJP (RB separately) (JJ cultured))
+            (JJ thymic) (NNS lobes)))
+        (PP (IN from)
+          (NP
+            (NP (DT any) (JJ other) (NN genotype))
+            (, ,)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (ADVP (RB always))
+                (VP (VBD developed)
+                  (ADVP (RB identically))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (VP (VBN cultured)
+                        (PP (IN without)
+                          (NP (NNS cytokines)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN property))
+      (PP (IN of)
+        (NP (DT the) (JJ compound) (JJ mutant) (JJ thymic) (NNS lobes))))
+    (ADVP (RB probably))
+    (VP (VBZ reflects)
+      (NP
+        (NP (JJ phenotypic) (NN variability))
+        (VP
+          (ADVP (RB previously))
+          (VBN seen)
+          (PP (IN in)
+            (NP
+              (NP (PRP$ our) (NN histological)
+                (CC and)
+                (JJ gross) (NN morphological) (NN analysis))
+              (PP (IN of)
+                (NP (DT these) (JJ mutants)
+                  (QP (CD -LSB-) (CD 29,34))
+                  (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (NNP Discussion))
+      (IN In)
+      (NP (DT this) (NN study)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP have)
+      (VP (VBN examined)
+        (NP (JJ thymocyte) (NN proliferation))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN fetal))
+            (CC and)
+            (NP (JJ adult) (JJ wild) (NN type) (NNS thymus))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS results))
+    (VP (VBD showed)
+      (NP (JJ clear) (JJ stage-specific) (NNS differences))
+      (PP (IN in)
+        (NP (JJ wild) (NN type) (NN thymocyte) (NN proliferation)))
+      (PP (VBG depending)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ developmental) (NN age))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN microenvironment))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNP i.e.) (NNP fetal))
+                    (PP (IN vs.)
+                      (NP (NN adult))))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD analyzed)
+      (NP
+        (NP (CD two) (JJ mutant) (NNS strains))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP have)
+              (NP
+                (NP
+                  (NP (DT either) (NNS cell-autonomous))
+                  (-LRB- -LRB-)
+                  (NP (NNP Hoxa3) (NNP +) (NNP /))
+                  (PRN (: -)
+                    (NP
+                      (NP (NNS Pax1))
+                      (: -)
+                      (NP (NNP /)))
+                    (: -))
+                  (-RRB- -RRB-))
+                (CC or)
+                (NP
+                  (NP (NNS non-cell-autonomous))
+                  (-LRB- -LRB-)
+                  (NP (NNS Rag1))
+                  (PRN (: -)
+                    (NP (NNP /))
+                    (: -))
+                  (-RRB- -RRB-))
+                (NP (NNP TEC) (NNS defects)))
+              (, ,)
+              (PP (IN with)
+                (NP
+                  (NP (NNS blocks))
+                  (PP (IN at)
+                    (NP
+                      (NP (JJ different) (NNS stages))
+                      (PP (IN of)
+                        (NP (JJ thymocyte) (NN differentiation))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Abnormal) (NNP TEC) (NN development))
+      (PP (IN in)
+        (NP
+          (NP (DT both))
+          (PP (IN of)
+            (NP (DT these) (JJ mutant) (NNS strains))))))
+    (VP (VBD resulted)
+      (PP (IN in)
+        (NP
+          (NP (DT both) (NNS increases)
+            (CC and)
+            (NNS decreases))
+          (PP (IN in)
+            (NP (JJ thymocyte) (NN proliferation)))))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (JJ stage-specific) (NN manner))
+          (, ,)
+          (CONJP (RB rather) (IN than))
+          (NP (RB simply) (DT an) (JJ overall) (JJ reduced) (NN ability))))
+      (S
+        (VP (TO to)
+          (VP (VB promote)
+            (NP (NN proliferation))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP (JJ considerable) (NN evidence))
+      (SBAR (IN that)
+        (S
+          (NP (NNS thymopoiesis))
+          (VP (VBZ differs)
+            (PP (IN in)
+              (NP (DT the) (JJ fetal) (NNS thymus)))
+            (PP (IN during)
+              (NP
+                (NP (DT the) (JJ initial) (NN creation))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the)
+                      (ADJP (JJ microenvironment) (, ,) (RB as) (JJ opposed)
+                        (PP (TO to)
+                          (NP (JJ adult) (NNS thymus))))
+                      (NN function))
+                    (PRN (-LRB- -LRB-)
+                      (VP (VBN reviewed)
+                        (PP (IN in)
+                          (NP
+                            (QP (CD -LSB-) (CD 47))
+                            (NNS -RSB-))))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Differences))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN reported)
+            (PP (IN in)
+              (NP (NNS responses)))
+            (PP (TO to)
+              (NP (DT some) (NNS cytokines)))
+            (, ,)
+            (PP (IN in)
+              (S
+                (VP (VBG signaling)
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (JJ TN-DP) (NN transition))
+                      (PP (IN in)
+                        (NP (NNP fetal)))))
+                  (PP (VBN compared)
+                    (PP (TO to)
+                      (NP (JJ adult) (NNS thymus)))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN in)
+        (NP
+          (NP (NN proliferation))
+          (PP (IN of)
+            (NP (NNP CD4) (NNP +) (NNP SP)))))
+      (NP (NNS thymocytes))
+      (VP (VBZ -LSB-)
+        (NP (CD 36,48-50) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN proliferation) (NNS profiles))
+      (PP (IN of)
+        (NP (CC both)
+          (NP
+            (NP (JJ wild) (NN type))
+            (CC and)
+            (NP (NNP Rag)))
+          (: -)
+          (ADJP (JJ /))
+          (: -)
+          (NP (JJ fetal) (NNS thymocytes)))))
+    (VP (VBP support)
+      (NP (DT the) (NNS hypothesis))
+      (SBAR (IN that)
+        (S
+          (NP (JJ fetal) (NN thymocyte) (NN maturation))
+          (VP (VBZ is)
+            (ADJP (RB fundamentally) (JJ different)
+              (PP (IN from)
+                (NP
+                  (NP (JJ thymocyte) (NN development))
+                  (PP (IN in)
+                    (NP (DT the) (JJ adult) (NNS thymus))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP TN1)
+      (CC and)
+      (NNP DP) (NNS stages))
+    (DT both)
+    (VP (VBP show)
+      (NP (VBN increased) (NN proliferation))
+      (PP (IN in)
+        (NP
+          (NP (JJ wild-type) (JJ fetal) (NNS thymocytes))
+          (PP (VBN compared)
+            (PP (TO to)
+              (NP (NNS adults)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN difference))
+      (PP (IN at)
+        (NP (DT the) (NNP TN1) (NN stage))))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ due)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN presence))
+            (PP (IN of)
+              (NP
+                (NP (JJR more) (NN B)
+                  (CC or)
+                  (NN NK) (NNS cells))
+                (PP (IN in)
+                  (NP (DT the) (JJ adult) (NNS thymus)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (PRP it))
+        (VP (VBZ is)
+          (ADVP (RB formally))
+          (ADJP (JJ possible))
+          (SBAR (IN that)
+            (S
+              (NP (DT some) (JJ other) (NN cell) (NN type))
+              (VP (MD may)
+                (ADVP (RB still))
+                (VP (VB be)
+                  (VP (VBN included)
+                    (PP (IN in)
+                      (NP (PRP$ our) (JJ TN1) (NN population)))))))))))
+    (, ,)
+    (NP (DT this) (NN analysis))
+    (ADVP (RB strongly))
+    (VP (VBZ suggests)
+      (SBAR (IN that)
+        (S
+          (NP (NNP TN1) (NNS cells))
+          (VP (VBP have)
+            (NP
+              (NP (JJ different) (NN proliferation) (NNS profiles))
+              (PP (IN in)
+                (NP (JJ fetal)
+                  (CC and)
+                  (JJ adult) (NNS thymus))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (ADJP
+            (ADJP (RB well) (VBN documented))
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (NNS thymocytes))
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ adult) (NNS Rag1))
+                      (CC or)
+                      (NP (JJ Rag2) (NNS mutants)))))
+                (VP (VBP have)
+                  (ADVP (RB dramatically))
+                  (VP (VBN reduced)
+                    (NP (NN proliferation))
+                    (PP (VBN compared)
+                      (PP (TO to)
+                        (NP (JJ wild) (NN type)))))))))
+          (, ,)
+          (ADVP (RB particularly))
+          (PP (IN at)
+            (NP
+              (NP (DT the) (JJ TN3) (NN stage))
+              (VP (VBG -LSB-)
+                (NP (CD 37-40) (NNS -RSB-))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Penit)
+        (CC et)
+        (NNP al.))
+      (VP (VBD reported)
+        (NP
+          (NP (CD 2))
+          (PRN (: --)
+            (NP
+              (NP
+                (QP (CD 10) (CD fold))
+                (NNS reductions))
+              (PP (IN at)
+                (NP
+                  (NP (DT every) (NN stage))
+                  (PP (IN of)
+                    (NP (JJ thymocyte) (NN development)))
+                  (PP (IN in)
+                    (NP (NNP Rag)))
+                  (: -))))
+            (: /))
+          (: -)
+          (NP
+            (NP (NNS adults))
+            (VP (VBG -LSB-)
+              (NP (CD 13) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Recent) (NN work))
+      (PP (IN by)
+        (NP
+          (NP (NNP Petrie))
+          (, ,)
+          (CC et)
+          (NP (NN al.)))))
+    (VP (VBZ has)
+      (VP (VBN shown)
+        (SBAR
+          (SBAR (IN that)
+            (S
+              (NP (DT this) (VBN reduced) (NN proliferation))
+              (VP (VBZ is) (RB not)
+                (ADJP (JJ intrinsic)
+                  (S
+                    (VP (TO to)
+                      (VP (VB Rag)
+                        (NP (JJ mutant) (NNS thymocytes)))))))))
+          (, ,)
+          (CC but)
+          (SBAR (RB rather)
+            (S
+              (VP (VBZ is)
+                (ADJP (JJ secondary)
+                  (PP (TO to)
+                    (NP
+                      (NP (JJ thymic) (NN microenvironment) (NNS defects))
+                      (PP (IN in)
+                        (NP (NNP Rag) (NNS mutants))))))
+                (S
+                  (VP (VBG -LSB-)
+                    (NP (CD 37) (NNS -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS results))
+    (VP (VBP show)
+      (SBAR (IN that)
+        (S
+          (PP (IN at)
+            (NP (JJ fetal) (NNS stages)))
+          (, ,)
+          (NP (NNP Rag) (JJ mutant) (NNS thymocytes))
+          (VP (VBP have)
+            (NP
+              (NP (DT a) (NN proliferation) (NN profile))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ is)
+                    (ADJP
+                      (ADJP (RB much) (RBR more) (JJ similar))
+                      (PP (TO to)
+                        (NP
+                          (NP (JJ wild) (NN type) (NNS thymocytes))
+                          (PP (IN at)
+                            (NP (DT the) (JJ same) (NN stage))))))
+                    (, ,)
+                    (PP (IN with)
+                      (NP
+                        (NP
+                          (QP (JJR less) (IN than)
+                            (NP (DT a) (JJ 2-fold) (NN difference))))
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NN percentage))
+                            (PP (IN of)
+                              (NP
+                                (NP (VBG proliferating) (NNS cells))
+                                (PP (IN at)
+                                  (NP (DT any) (NN stage)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP
+      (NP (JJ TN3) (NN stage) (NNS thymocytes))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN Rag))
+          (: -)
+          (NP
+            (NP
+              (NP (NNP /))
+              (PRN (: -)
+                (S
+                  (NP (NN adult) (NNS thymus))
+                  (VP (VBP have)
+                    (S
+                      (NP (NN proliferation) (NNS levels))
+                      (ADJP (JJ 3-fold)
+                        (PP (IN below)
+                          (NP (JJ wild) (NN type) (NNS thymus))))
+                      (S
+                        (VP (VBG -LSB-)
+                          (NP
+                            (NP
+                              (QP (CD 13,37) (CD -RSB-)))
+                            (PRN (, ,)
+                              (SBAR (IN while)
+                                (FRAG
+                                  (PP (IN in)
+                                    (NP (DT the) (NNP Rag)))))
+                              (, -))))))))
+                (: /)))
+            (: -)
+            (NP
+              (NP (JJ fetal) (NNS thymus))
+              (NP (CD TN3) (NNS cells)))))))
+    (VP (VBP are)
+      (NP
+        (NP
+          (QP (RB only) (CD 25)))
+        (: --)
+        (NP
+          (ADJP
+            (NP (CD 30) (NN %))
+            (JJR lower)
+            (SBAR (IN than)
+              (FRAG
+                (PP (IN in)
+                  (NP (JJ wild) (NN type))))))
+          (JJ fetal) (NNS thymus))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Proliferation))
+    (VP
+      (VP (VBZ is) (RB not)
+        (VP (VBN changed)
+          (PP (IN at)
+            (NP (DT all) (NNS stages)))))
+      (, ,)
+      (CC and)
+      (VP (VBZ is)
+        (ADVP (RB actually))
+        (VP (VBN increased)
+          (ADVP (JJ relative)
+            (PP (TO to)
+              (NP (JJ wild) (NN type))))
+          (PP (IN at)
+            (NP (DT the) (NNP TN2) (NN stage))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT This) (NN increase))
+        (PP (IN at)
+          (NP (DT the) (NNP TN2) (NN stage))))
+      (VP (MD may)
+        (VP (VB be)
+          (ADJP (JJ due)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN failure))
+                (PP (IN of)
+                  (NP (CD TN2) (NNS cells))))))
+          (S
+            (VP (TO to)
+              (VP (VB initiate)
+                (NP
+                  (NP (JJ TCRβ) (NN gene))
+                  (PRN (: rearrangement)
+                    (PP (IN at)
+                      (NP
+                        (NP (DT this) (NN stage))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (VP (VBZ is)
+                              (ADVP (RB normally))
+                              (VP (VBN associated)
+                                (PP (IN with)
+                                  (NP (VBN decreased) (NN proliferation.Rag))))))))
+                      (: -))
+                    (: /)))))))))
+    (: -)
+    (S
+      (NP (NNS mutants))
+      (VP (VBP have)
+        (NP
+          (NP (DT a) (JJ profound) (JJ thymocyte) (NN development) (NN block))
+          (PP (IN at)
+            (NP (DT the) (NN TN3))))
+        (PP (TO to)
+          (NP
+            (NP (JJ TN4/preDP) (NN transition))
+            (VP (VBG -LSB-)
+              (NP (CD 51) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (JJ normal) (JJ wild) (NN type) (JJ fetal) (NN thymus) (NN development)))
+    (, ,)
+    (NP (JJ significant) (NN DP) (NN cell) (NN development))
+    (VP (VBZ does) (RB not)
+      (VP (VB occur)
+        (PP (IN until)
+          (NP (NNP E16) (CD .5)))
+        (PP (IN in)
+          (NP (JJS most) (JJ genetic) (NNS backgrounds)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (DT a) (NN result)))
+    (PRN (, ,)
+      (S
+        (PP (IN at)
+          (NP (NNP E17) (CD .5)))
+        (NP
+          (NP (DT the) (JJ thymic) (NN microenvironment))
+          (PP (IN in)
+            (NP (NNP Rag) (NNS mutants))))
+        (VP
+          (VP (VBZ has) (RB not)
+            (VP (VBN been)
+              (VP (VBN exposed)
+                (PP (TO to)
+                  (NP (JJ abnormal) (NN thymocyte) (NN development)))
+                (PP (IN for)
+                  (ADJP (RB very) (JJ long))))))
+          (, ,)
+          (CC and)
+          (VP (VBZ has) (RB not)
+            (ADVP (RB yet))
+            (VP (VBN developed)
+              (NP
+                (NP (DT the) (JJ full) (NN phenotype))
+                (VP (VBN seen)
+                  (PP (IN in)
+                    (NP (DT the) (JJ steady) (NN state) (NN adult))))))))))
+    (NP (NNP Rag) (NNP mutant))
+    (VP (VBZ thymus)
+      (NP
+        (QP (CD -LSB-) (CD 35))
+        (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ Hoxa3) (, ,) (JJ Pax1) (JJ compound) (NNS mutants)))
+    (, ,)
+    (S
+      (NP (JJ cell-autonomous) (NNP TEC) (NNS defects))
+      (VP (VBP cause)
+        (NP (DT a) (JJ partial) (NN block))
+        (PP (IN at)
+          (NP (DT the) (NNP DN-DP) (NN transition)))))
+    (, ,) (IN so)
+    (S
+      (NP (NNS thymocytes))
+      (VP (VBP do)
+        (NP (NN progress))
+        (PP (TO to)
+          (NP (NNP DP)
+            (CC and)
+            (NNP SP) (NNS stages)))
+        (, ,)
+        (S
+          (VP
+            (ADVP (IN albeit)
+              (PP (IN at)
+                (NP (JJ reduced) (NNS frequencies))))
+            (VBG -LSB-)
+            (NP (CD 29) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP TEC) (NNS defects))
+    (VP (VBP are)
+      (VP (VBN seen)
+        (ADVP (RB as) (RB early))
+        (PP (IN as)
+          (NP (NNP E12) (CD .5)))
+        (PP (IN in)
+          (NP (DT these) (NNS mutants)))
+        (, ,)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (JJS earliest) (NNS stages))
+            (PP (IN of)
+              (NP
+                (NP (NNS organogenesis))
+                (VP (VBG -LSB-)
+                  (NP (CD 34) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (DT the) (NNP TEC) (NNS defects))
+      (PP (IN in)
+        (NP (DT these) (NNS mice))))
+    (VP (MD would)
+      (VP (VB be)
+        (VP (VBN expected)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP
+                  (NP (JJ different) (NNS effects))
+                  (PP (IN on)
+                    (NP (JJ thymocyte) (NN proliferation))))
+                (ADVP (IN than)
+                  (PP (IN in)
+                    (NP (NNP Rag) (NNS mutants))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT this) (NN study)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD found)
+      (NP (JJ stage-specific) (NNS changes))
+      (PP (IN in)
+        (NP (JJ thymocyte) (NN proliferation)))
+      (PP (IN at)
+        (NP (DT the) (NNP DP) (NN stage))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (JJ previous) (NN analysis))
+    (VP (VBD reported)
+      (NP
+        (NP (VBN decreased) (NNP DP) (NN cell) (NN number))
+        (CC and)
+        (NP
+          (NP (VBN increased) (NNS apoptosis))
+          (PP (IN in)
+            (NP (PDT both) (DT the) (JJ pre-DP)
+              (CC and)
+              (NNP DP) (NNS stages)))
+          (PP (IN in)
+            (NP (DT these) (JJ mutants)
+              (QP (CD -LSB-) (CD 29))
+              (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP DP) (NN cell) (NNS numbers))
+        (PP (IN in)
+          (NP (PDT both)
+            (NP (DT this))
+            (CC and)
+            (NP (PRP$ our) (JJ previous) (NN study)))))
+      (VP (VBD were)
+        (VP (VBN decreased)
+          (PRN (: 10-fold)
+            (FRAG
+              (FRAG
+                (PP (IN in)
+                  (NP (DT the) (NNS Hoxa3)))
+                (NP (CD +))
+                (: /))
+              (: -)
+              (FRAG
+                (ADJP (JJ Pax1))
+                (: -)))
+            (: /)))))
+    (: -)
+    (S
+      (NP (NN compound))
+      (VP (VBZ mutants)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (JJ first) (NN glance)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN increase))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN percentage))
+          (PP (IN of)
+            (NP
+              (NP (VBG proliferating) (NNS cells))
+              (PP (IN at)
+                (NP (DT the) (NNP DP) (NN stage))))))))
+    (VP (VBZ appears)
+      (ADJP (NN contradictory)
+        (PP (TO to)
+          (NP (DT this) (NN phenotype)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT this) (NN increase))
+    (ADVP (RB actually))
+    (VP (VBZ corresponds)
+      (PP (TO to)
+        (NP
+          (NP (VBN decreased) (NNS numbers))
+          (PP (IN of)
+            (S
+              (VP (VBG proliferating)
+                (NP (NNP DP) (NNS cells))
+                (PP (VBN compared)
+                  (PP (TO to)
+                    (NP (JJ wild) (NN type))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP (JJ pre-DP) (NNS cells))
+    (VP (VBD did) (RB not)
+      (VP (VB have)
+        (NP
+          (NP (DT a) (NN change))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN number)
+                (CC or)
+                (NN percentage))
+              (PP (IN of)
+                (NP (VBG proliferating) (NNS cells)))))
+          (, ,)
+          (VP (VBG suggesting)
+            (SBAR
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (NNS signals))
+                    (VP (VBG promoting)
+                      (NP
+                        (NP (NN proliferation))
+                        (PP (IN of)
+                          (NP (DT these) (NNS cells))))))
+                  (VP (VBZ is)
+                    (ADVP (RB still))
+                    (ADJP (JJ present)))))
+              (, ,)
+              (CC and)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (NN proliferation))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNP DP))
+                        (CC and)
+                        (NP (JJ pre-DP) (NNS cells)))))
+                  (VP (MD may)
+                    (VP (VB be)
+                      (VP (VBN regulated)
+                        (ADVP (RB independently))))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (JJ Pre-DP) (NNS cells))
+      (VP (VBP do)))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ three-fold) (NN increase))
+        (PP (IN in)
+          (NP (JJ apoptosis) (NNS -LSB-)))))
+    (NP (CD 29) (NN -RSB-))
+    (, ,)
+    (S
+      (VP (VBG suggesting)
+        (SBAR (IN that)
+          (S
+            (NP (JJ separate) (NNS signals))
+            (VP (VB regulate)
+              (NP
+                (NP (NN proliferation)
+                  (CC and)
+                  (NN survival))
+                (PP (IN of)
+                  (NP (DT these) (NNS cells)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBN Combined)
+      (PP (IN with)
+        (NP (PRP$ our) (JJ previous) (NNS data))))
+    (, ,)
+    (NP (DT this) (NN result))
+    (VP (VBZ suggests)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NN decrease))
+            (PP (IN in)
+              (NP
+                (NP (NNP DP) (NN cell) (NNS numbers))
+                (VP (VBN seen)
+                  (PP (IN in)
+                    (NP (DT the) (JJ Hoxa3-Pax1) (JJ compound) (NNS mutants)))))))
+          (VP (VBZ is)
+            (ADJP (DT both) (JJ due)
+              (PP (TO to)
+                (NP (DT an) (NN increase)))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN number))
+                  (PP (IN of)
+                    (NP (NN pre-DP)
+                      (CC and)
+                      (NN DP) (NNS cells))))))
+            (S
+              (VP (VBG undergoing)
+                (NP
+                  (NP (NNS apoptosis))
+                  (CONJP (RB as) (RB well) (IN as))
+                  (NP (DT a) (NN decrease)))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN number))
+                    (PP (IN of)
+                      (NP (VBG proliferating) (NNP DP)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Insufficiencies))
+      (PP (IN of)
+        (NP (JJ multiple) (NNS cytokines))))
+    (VP (MD might)
+      (VP (VB be)
+        (VP (VBN involved)
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (DT the) (NNS changes))
+                (PP (IN in)
+                  (NP (NN proliferation))))
+              (CC and)
+              (NP
+                (NP (NN cell) (NN death))
+                (PP (IN at)
+                  (NP (DT the) (NN CD44-25))))
+              (: -)
+              (CC and)
+              (NP
+                (NP (NNP DP) (NNS stages))
+                (PP (IN in)
+                  (NP (NN Hoxa3-Pax1) (NN compound) (NNS mutants)))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP SCF)
+        (CC and)
+        (NNP IL-7))
+      (VP (VBP are)
+        (ADVP (RB first))
+        (VP (VBN expressed)
+          (ADVP (RB as) (RB early))
+          (PP (IN as)
+            (NP (NNP E12) (CD .5)))
+          (PP (IN in)
+            (NP (DT the) (VBG developing) (NNS thymus))))))
+    (, ,)
+    (VP
+      (ADVP (RB well)
+        (PP (IN before)
+          (NP (JJ significant) (NN thymocyte) (NN maturation))))
+      (VBZ takes)
+      (NP (NN place) (NNS -LSB-)))
+    (NP (CD 52,53) (NN -RSB-))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP
+          (NP (DT the) (NN number))
+          (PP (IN of)
+            (NP (NNP TECs))))
+        (VP (VBZ is)
+          (VP (VBN reduced)
+            (PP (IN by)
+              (PP (IN about)
+                (FRAG
+                  (FRAG
+                    (ADJP (JJ 2-fold)
+                      (PP (IN in)
+                        (NP (JJ Hoxa3) (NNS +))))
+                    (: /))
+                  (: -)
+                  (FRAG
+                    (X
+                      (NP (NNS Pax1))
+                      (: -)
+                      (PP (IN /)))
+                    (: -)
+                    (NP (JJ compound) (NNS mutants))))))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN number))
+      (PP (IN of)
+        (NP (NNS thymocytes))))
+    (VP (VBZ is)
+      (VP (VBN reduced)
+        (PP (IN by)
+          (NP
+            (NP (DT a)
+              (ADJP (RB slightly) (JJR greater))
+              (NN amount))
+            (, ,) (RB around)
+            (NP (JJ 3-fold) (VBG -LSB-) (CD 29) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (S
+      (NP (DT the) (NNS reductions))
+      (VP (VBN seen)
+        (PP (IN in)
+          (NP
+            (NP (JJ cytokine) (NN message) (NNS levels))
+            (PP (IN in)
+              (NP (DT the) (JJ Hoxa3) (CD +) (NNS /)))))
+        (PRN (: -)
+          (FRAG
+            (ADJP (JJ Pax1))
+            (: -))
+          (: /))))
+    (: -)
+    (S
+      (NP (NN compound) (NNS mutants))
+      (VP (VBP are) (RB not)
+        (ADJP (JJ secondary)
+          (PP (TO to)
+            (NP (VBN decreased) (NNP TEC) (NNS numbers))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)
+    (NP (DT these) (NNS mutants))
+    (VP (MD should)
+      (VP (VB have)
+        (NP
+          (NP (DT a) (JJ relative) (NN increase))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN proportion))
+              (PP (IN of)
+                (NP (NNP TECs)))))
+          (, ,)
+          (VP (VBG making)
+            (NP
+              (NP (DT the) (NNS reductions))
+              (VP (VBN seen)
+                (PP (IN in)
+                  (NP
+                    (NP (JJ cytokine) (NNS levels))
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (JJ mutant) (NN thymi))
+                        (ADJP (RB even) (RBR more) (JJ striking))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBN reduced) (NN expression))
+      (PP (IN of)
+        (NP
+          (NP (DT these) (NNS cytokines))
+          (PP (IN in)
+            (NP
+              (NP (NNP Hoxa3) (NNP +) (NNP /))
+              (: -)
+              (NP (NNS Pax1))
+              (: -)
+              (NP (NNP /))
+              (: -)
+              (NP (JJ compound) (NNS mutants)))))))
+    (VP
+      (VP (MD could)
+        (VP (VB be)
+          (NP
+            (NP (DT an) (JJ indirect) (NN effect))
+            (PP (IN of)
+              (NP (JJ defective) (NNP TEC) (NN differentiation))))))
+      (, ,)
+      (CC or)
+      (VP (MD could)
+        (VP (VB be)
+          (NP (JJ direct) (JJ downstream) (NNS targets))
+          (SBAR (IN since)
+            (S
+              (NP (DT both) (NNS Hoxa3)
+                (CC and)
+                (NNS Pax1))
+              (VP (VBP are)
+                (VP (VBN expressed)
+                  (PP (IN in)
+                    (NP (JJ fetal) (NNS thymus)))
+                  (S
+                    (VP (VBG -LSB-)
+                      (NP (CD 54,55) (NNS -RSB-)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Comparison))
+      (PP (IN of)
+        (NP (DT the)
+          (NP (NNP Hoxa3) (NNP +) (NNP /))
+          (: -)
+          (NP (NNS Pax1))
+          (: -)
+          (NP (NNP /))
+          (: -)
+          (NP
+            (NP (NN phenotype))
+            (PP (IN with)
+              (NP
+                (NP (DT those))
+                (PP (IN of)
+                  (NP (JJ cytokine) (NNS mutants)))))))))
+    (VP (VBP do) (RB not)
+      (VP (VB reveal)
+        (NP
+          (NP (JJ many) (NNS similarities))
+          (VP (VBG -LSB-)
+            (NP (CD 30,46,56-61) (NNS -RSB-))
+            (, ,)
+            (ADVP (RB probably))
+            (FRAG
+              (FRAG
+                (PP (RB because) (IN of)
+                  (NP
+                    (NP (DT the) (JJ simultaneous) (NNS reductions))
+                    (PP (IN in)
+                      (NP
+                        (NP (JJ multiple) (NNS cytokines))
+                        (PP (IN in)
+                          (NP (DT the) (NNS Hoxa3)))))))
+                (NP (CD +))
+                (: /))
+              (: -)
+              (FRAG
+                (X
+                  (NP (NNS Pax1))
+                  (: -)
+                  (PP (IN /)))
+                (: -)
+                (NP (NNS mutants))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (NNP SCF)
+      (CC and)
+      (NNP IL-7))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP
+                  (NP (JJ synergistic) (NNS functions))
+                  (VP (VBG -LSB-)
+                    (NP (CD 62,63) (NNS -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (NNS changes))
+      (PP (IN in)
+        (NP
+          (NP (JJ multiple) (NNS cytokines))
+          (PP (IN in)
+            (NP
+              (NP (NNP Hoxa3) (NNP +) (NNP /))
+              (: -)
+              (NP (NNS Pax1))
+              (: -)
+              (NP (NNP /))
+              (: -)
+              (NP (NNS mutants)))))))
+    (VP (MD would)
+      (VP (VB be)
+        (VP (VBN expected)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP
+                  (NP (JJ complex) (NNS effects))
+                  (PP (IN on)
+                    (NP (JJ thymocyte) (NN development)))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (MD could)
+                        (VP (VB be)
+                          (ADJP (JJ difficult)
+                            (S
+                              (VP (TO to)
+                                (VP (VB predict))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Interpretation))
+      (PP (IN of)
+        (NP (DT the) (JJ observed) (NN phenotype))))
+    (VP (VBZ is)
+      (ADVP (RBR further))
+      (ADJP (JJ complicated)
+        (PP (IN by)
+          (NP (DT the) (NN fact))))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NN none))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS cytokines))
+                (VP (VBN tested)))))
+          (VP (VBP are)
+            (ADJP (RB completely) (JJ absent))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT A) (JJ striking) (NN example))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ complete) (NN absence))
+          (PP (IN of)
+            (NP
+              (NP (NN γδTCR))
+              (VP (VBG +)
+                (NP
+                  (NP (JJ thymocyte) (NN development))
+                  (PP (IN in)
+                    (NP (NN IL-7) (NNS mutants))))
+                (, ,)
+                (PP (IN in)
+                  (NP
+                    (NP (NN contrast))
+                    (PP (TO to)
+                      (NP
+                        (NP (JJ normal) (NN γδTCR) (NN +) (NN cell) (NN development))
+                        (PP (IN in)
+                          (NP (NNP Hoxa3) (NNP +) (NNP /)))))))
+                (PRN (: -)
+                  (FRAG
+                    (ADJP (JJ Pax1))
+                    (: -))
+                  (: /))))))))
+    (: -)
+    (S
+      (NP (NNS mutants))
+      (VP (VBZ -LSB-)
+        (NP
+          (NP (CD 29) (NNS -RSB-))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP have)
+                (ADVP (RB dramatically))
+                (VP (VBN reduced)
+                  (NP (NN IL-7) (NNS levels)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN result))
+    (VP (VBZ suggests)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN although)
+            (S
+              (NP (JJ γδTCR) (NN +) (NN cell) (NN development))
+              (VP (VBZ requires)
+                (ADJP (JJ IL-7)))))
+          (, ,)
+          (NP (JJ low) (NNS levels))
+          (VP (VBP are)
+            (ADJP (JJ sufficient)
+              (PP (IN for)
+                (NP (DT this) (NN function))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (NN analysis))
+      (PP (IN of)
+        (NP
+          (NP (NNS mutants))
+          (PP (IN with)
+            (NP
+              (NP (JJ low) (NNS levels))
+              (PP (IN of)
+                (NP (NNS cytokines))))))))
+    (VP (MD may)
+      (VP (VB provide)
+        (NP (DT a) (NN system))
+        (PP (IN for)
+          (S
+            (VP (VBG uncovering)
+              (NP
+                (NP (DT both) (JJ dosage-dependent) (NNS requirements))
+                (CC and)
+                (RB later)
+                (NP
+                  (NP (NNS functions))
+                  (PP (IN for)
+                    (NP (DT these) (NNS factors)))))
+              (PP (IN in)
+                (S
+                  (VP (VBG promoting)
+                    (NP (JJ thymocyte) (NN development))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (ADJP (JJ possible))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT some))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS differences))
+                (VP (VBN seen)
+                  (PP (IN between)
+                    (NP
+                      (NP (NNP Hoxa3) (NNP +) (NNP /))
+                      (: -)
+                      (NP (NNS Pax1))
+                      (: -)
+                      (NP (NNP /))
+                      (: -)
+                      (CC and)
+                      (NP (JJ cytokine) (JJ mutant) (NNS phenotypes))))))))
+          (VP (VBP reflect)
+            (NP
+              (NP (JJ different) (NNS effects))
+              (PP (IN of)
+                (NP
+                  (NP (NNS cytokines))
+                  (PP (IN at)
+                    (NP (JJ fetal)
+                      (CC and)
+                      (JJ adult) (NNS stages))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Studies))
+      (PP (IN of)
+        (NP (NN IL-7R) (NNS mutants))))
+    (VP (VBD showed)
+      (NP
+        (ADJP (RB relatively) (JJ normal))
+        (JJ thymocyte) (NN maturation))
+      (PP (IN at)
+        (NP (JJ fetal) (NNS stages)))
+      (, ,)
+      (ADVP (IN albeit)
+        (PP (IN with)
+          (NP (VBN reduced) (NN thymocyte) (NNS numbers))))
+      (, ,)
+      (PP (IN in)
+        (NP (NN contrast)))
+      (PP (TO to)
+        (NP
+          (NP (DT a) (JJ severe) (NN block))
+          (PP (IN in)
+            (NP (JJ thymocyte) (NN differentiation)))))
+      (PP (IN in)
+        (NP
+          (NP (JJ adult) (NNS thymus))
+          (VP (VBG -LSB-)
+            (NP (CD 49) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Analysis))
+      (PP (IN of)
+        (NP
+          (NP (JJ cytokine) (NNS mutants))
+          (PP (IN during)
+            (NP (JJ fetal) (NNS stages))))))
+    (VP (MD could)
+      (ADVP (RB therefore))
+      (VP (VB reveal)
+        (NP
+          (NP (DT a)
+            (ADJP (RBR more) (JJ complete))
+            (NN picture))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN role))
+              (PP (IN of)
+                (NP (DT these)
+                  (ADJP (JJ cytokines)
+                    (PP (IN during)
+                      (NP (JJ fetal) (NNS thymus))))
+                  (NN development))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Conclusions))
+    (NP (PRP$ Our) (NNS results))
+    (VP (VBP show)
+      (SBAR (IN that)
+        (S
+          (NP (NN fetal)
+            (CC and)
+            (JJ adult) (JJ wild) (NN type) (NNS thymocytes))
+          (VP (VBP have)
+            (NP
+              (NP (JJ stage-specific) (NNS differences))
+              (PP (IN in)
+                (NP (NN proliferation))))
+            (, ,)
+            (PP (IN with)
+              (S
+                (NP (DT both) (NNP TN1)
+                  (CC and)
+                  (NNP DP) (NNS cells))
+                (VP (VBG exhibiting)
+                  (NP
+                    (NP (JJR higher) (NNS levels))
+                    (PP (IN of)
+                      (NP (NN proliferation))))
+                  (PP (IN in)
+                    (NP (JJ fetal) (NNS thymus))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (JJ fetal) (JJ wild-type) (NN profile))
+    (VP (VBD was)
+      (ADJP (RB very) (JJ similar)
+        (PP (TO to)
+          (NP
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBN seen)
+                  (PP (IN for)
+                    (FRAG
+                      (NP (JJ fetal) (NNP Rag) (NNP mutant) (NNP thymocytes))
+                      (, ,)
+                      (PP (IN in)
+                        (NP
+                          (NP (NN contrast))
+                          (PP (TO to)
+                            (NP (JJ adult) (NN Rag))))
+                        (: -))
+                      (: /))))))
+            (: -)
+            (NP (NNS thymus))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Therefore))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS changes))
+      (PP (IN in)
+        (NP
+          (NP (NN proliferation))
+          (VP (VBN seen)
+            (PP (IN in)
+              (NP (DT the) (JJ fetal) (NNP Rag) (JJ mutant) (NN thymocytes)))))))
+    (VP (VBP reflect)
+      (NP
+        (NP (DT the) (JJS earliest) (NN microenvironment) (NNS changes))
+        (VP (VBG occurring)
+          (PP (IN as)
+            (NP
+              (NP (DT a) (NN result))
+              (PP (IN of)
+                (NP
+                  (NP (JJ defective) (JJ TEC-thymocyte) (NNS interactions))
+                  (PP (IN in)
+                    (NP (DT the) (NNP Rag)
+                      (PRN (: -)
+                        (NP (NNP /))
+                        (: -))
+                      (NNS thymus))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ current) (NN study))
+    (VP
+      (VP
+        (ADVP (RBR further))
+        (VBZ supports)
+        (NP (DT a) (NN role))
+        (PP (IN for)
+          (NP
+            (NP (NNP TECs))
+            (PP (IN in)
+              (S
+                (VP (VBG regulating)
+                  (NP (DT both) (JJ thymocyte) (NN proliferation)
+                    (CC and)
+                    (NN survival))
+                  (PP (IN during)
+                    (NP (DT the) (NNP DN-DP) (NN transition)))))))))
+      (, ,)
+      (CC and)
+      (VP (VBZ suggests)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN proliferation)
+                (CC and)
+                (NNS apoptosis))
+              (PP (IN of)
+                (NP (NNP TN4)
+                  (CC and)
+                  (NNP DP) (NNS cells))))
+            (VP (VBP are)
+              (VP (VBN regulated)
+                (ADVP (RB independently))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS results))
+    (VP (VBP provide)
+      (NP
+        (NP (JJ direct) (JJ genetic) (NN evidence))
+        (PP (IN for)
+          (NP
+            (NP (DT these) (NNS functions))
+            (PP (IN of)
+              (NP (NNP TECs))))))
+      (, ,)
+      (PP (IN by)
+        (S
+          (VP (VBG showing)
+            (SBAR (IN that)
+              (S
+                (NP (DT these) (NNS processes))
+                (VP (VBP are)
+                  (ADJP (JJ defective)
+                    (PP (IN in)
+                      (NP
+                        (NP (NNS mutants))
+                        (PP (IN with)
+                          (NP (DT a) (JJ primary) (NNP TEC) (NN differentiation) (NN defect))))))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (DT the) (NNS Hoxa3))
+                      (, ,)
+                      (NP (JJ Pax1) (NN compound) (NNS mutants)))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Taken)
+        (ADVP (RB together))))
+    (, ,)
+    (NP (PRP$ our) (NNS results))
+    (ADVP (RB further))
+    (VP (VBD define)
+      (SBAR
+        (S
+          (NP (DT the) (NN role) (NNS TECs))
+          (VP (VBP play)
+            (PP (IN at)
+              (NP
+                (NP (DT this) (JJ complex) (NN stage))
+                (PP (IN of)
+                  (NP (JJ thymocyte) (NN development)))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP
+        (NP (NNP Methods) (NNP Hoxa3) (NNP +) (NNP /))
+        (PRN (: -)
+          (NP (NNP Pax1) (NNP +))
+          (: /)))
+      (: -)
+      (S
+        (NP (NNS mice))
+        (VP (VBD were)
+          (VP (VBN mated)
+            (S
+              (VP (TO to)
+                (VP (VB Pax1)
+                  (ADJP (RB +) (JJ /) (: -)
+                    (CC or)
+                    (JJ Pax1) (: -)))))))))
+    (X
+      (X (SYM /))
+      (: -)
+      (VP (VBN mice)
+        (CC and)
+        (VBN genotyped)
+        (PP (IN for)
+          (NP (DT both) (NNS Hoxa3)
+            (CC and)
+            (NNS Pax1)))
+        (PP (IN by)
+          (NP (NNP PCR)))
+        (SBAR (IN as)
+          (S
+            (VP (VBD described)
+              (S
+                (ADVP (RB previously))
+                (VP (VBG -LSB-)
+                  (NP (CD 29) (NNS -RSB-))))))))
+      (. .))))
+
+(ROOT
+  (S
+    (NP (NNS Comparisons))
+    (VP (VBD were)
+      (VP (VBN made)
+        (PP (IN between)
+          (NP
+            (NP (NNS littermates))
+            (PP (IN from)
+              (NP (DT the) (JJ same) (NN colony)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (ADJP
+          (ADJP (JJ Rag1))
+          (PRN (: -)
+            (ADVP (RB /))
+            (: -)))
+        (NNS mice))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Jackson) (NNPS Labs))
+        (-RRB- -RRB-)))
+    (VP (VBD were)
+      (VP (VBN maintained)
+        (PP (IN as)
+          (NP (DT a) (JJ homozygous) (JJ mutant) (NN colony)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT All) (NNS mice))
+    (VP (VBD were)
+      (VP (VBN maintained)
+        (ADJP (RB as) (JJ congenic))
+        (PP (IN on)
+          (NP (DT a) (JJ C57BL/6) (JJ genetic) (NN background)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Noon))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN day))
+          (PP (IN of)
+            (NP (JJ vaginal) (NN plug))))))
+    (VP (VBD was)
+      (VP (VBN considered)
+        (NP
+          (QP (CD E0) (CD .5)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT All) (NN animal))
+    (VP (VBP use)
+      (SBAR
+        (S
+          (NP (NNS procedures))
+          (VP (VBD were)
+            (VP (VBN approved)
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (NNP Medical) (NNP College))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP Georgia) (NNP Committee))
+                      (PP (IN on)
+                        (NP
+                          (NP (NNP Animal) (NNP Use))
+                          (PP (IN for)
+                            (NP (NNP Research)
+                              (CC and)
+                              (NNP Education)))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP CAURE))
+                            (-RRB- -RRB-)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Fetal) (NN thymocyte))
+      (PP (IN in)
+        (NP (NNP vivo) (NNP BrdU) (NN incorporation))))
+    (VP (VBD was)
+      (VP (VBN done)
+        (PP
+          (PP (IN by)
+            (FRAG
+              (NP
+                (NP (JJ intraperitoneal) (NN injection))
+                (PP (IN of)
+                  (NP
+                    (NP (NNP BrdU))
+                    (-LRB- -LRB-)
+                    (NP (JJ 5-Bromo-2))
+                    ('' '))))
+              (: -)
+              (NP
+                (NP (NNP Deoxyuridine))
+                (: ;)
+                (NP (NNP Sigma)))
+              (-RRB- -RRB-)))
+          (PP (IN on)
+            (NP
+              (NP
+                (NP (DT the) (NN morning))
+                (PP (IN of)
+                  (NP (NNP E17) (CD .5))))
+              (, ,)
+              (NP
+                (NP (CD two) (NNS doses))
+                (PP (IN per)
+                  (NP (NN mouse))))
+              (CC and)
+              (NP
+                (NP (CD 1) (NN mg))
+                (PP (IN per)
+                  (NP (NN dose)))))))
+        (PP (IN with)
+          (NP
+            (NP (DT a) (CD 0.5) (NN hour) (NN pause))
+            (, ,)
+            (SBAR (IN as)
+              (S
+                (ADVP (RB previously))
+                (VP (VBD described)
+                  (NP
+                    (QP (CD -LSB-) (CD 13))
+                    (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (CD Two) (NNS hours))
+      (IN after)
+      (NP (DT the) (JJ first) (NN injection)))
+    (, ,)
+    (NP (JJ fetal) (NNS thymi))
+    (VP (VBD were)
+      (VP (VBN isolated)
+        (PP (IN by)
+          (NP
+            (NP (NN dissection)
+              (CC and)
+              (JJ single-cell) (NNS suspensions))
+            (VP (VBN prepared)
+              (PP (IN by)
+                (S
+                  (VP (VBG passing)
+                    (NP (DT the) (NNS thymocytes))
+                    (PP (IN through)
+                      (NP (NN cell) (NNS strainers)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Adult) (NN thymocyte))
+      (PP (IN in)
+        (NP (NNP vivo) (NNP BrdU) (NN incorporation))))
+    (VP (VBD was)
+      (VP (VBN done)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (JJ same) (NN injection) (NN protocol))
+            (VP (VBG using)
+              (NP
+                (NP (CD 6))
+                (: --)
+                (NP
+                  (NP (CD 8) (NN week))
+                  (NP (JJ old) (NNP C57BL/6) (NN adult) (NNS mice)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN Four-color) (NN flow))
+    (ADVP (RB cytometry))
+    (VP (VBD was)
+      (VP (VBN performed)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (DT the) (JJ following) (JJ monoclonal) (NNS antibodies))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Pharmingen))
+                (-RRB- -RRB-))
+              (: :)
+              (NP
+                (NP
+                  (NP
+                    (NP (JJ biotin) (JJ anti-mouse) (NN CD25))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NN clone))
+                        (: :)
+                        (NP (CD 7D4)))
+                      (-RRB- -RRB-)))
+                  (VP (VBN visualized)
+                    (PP (IN with)
+                      (NP (JJ Per-CP) (JJ conjugated) (NN streptavidin))))
+                  (: ;)
+                  (NP
+                    (NP (NNP APC) (NN anti-mouse) (NNP CD44))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NN clone))
+                        (: :)
+                        (NP (NNP IM7)))
+                      (-RRB- -RRB-)))
+                  (: ;)
+                  (CC and)
+                  (NP (CD three) (JJ phycoerythrin)
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP PE))
+                      (-RRB- -RRB-))
+                    (NN conjugated) (NNS antibodies)))
+                (: :)
+                (NP
+                  (NP
+                    (NP (JJ anti-mouse) (NN CD4))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NN clone))
+                        (: :)
+                        (NP (NN RM4-5)))
+                      (-RRB- -RRB-)))
+                  (, ,)
+                  (NP
+                    (NP (JJ anti-mouse) (NNS CD8a))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NN clone))
+                        (: :)
+                        (NP (CD 53) (: --) (CD 6.7)))
+                      (-RRB- -RRB-)))
+                  (, ,)
+                  (CC and)
+                  (NP
+                    (NP (JJ anti-mouse) (NNS CD3ε))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NN clone))
+                        (: :)
+                        (NP (CD 145-2C11)))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT some) (NNS experiments)))
+    (, ,)
+    (NP (NNP PE))
+    (VP (VBD conjugated)
+      (SBAR
+        (S
+          (NP
+            (NP (NNS antibodies))
+            (PP (IN against)
+              (NP
+                (NP (NNP B220))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NN clone))
+                    (: :)
+                    (NP (NN RA3-6B2)))
+                  (-RRB- -RRB-))
+                (CC and)
+                (NP (NNP NK1) (CD .1))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NN clone))
+                    (: :)
+                    (NP (NNP PK136)))
+                  (-RRB- -RRB-)))))
+          (VP (VBD were)
+            (VP
+              (ADVP (RB also))
+              (VBN included))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (NN cell) (NN surface) (NN staining)))
+    (, ,)
+    (NP (DT the) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN fixed)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP
+                (ADJP (CD 2) (NN %))
+                (NN paraformaldehyde))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP PFA))
+                (-RRB- -RRB-)))
+            (PRN (: /)
+              (S
+                (NP
+                  (NP (NNP PBS))
+                  (PP (IN at)
+                    (NP (CD 4))))
+                (NP (NNP °) (NNP C)))))
+          (ADVP (RB overnight)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS cells))
+    (VP (VBD were)
+      (VP
+        (VP
+          (ADVP (RB then))
+          (VBN washed))
+        (, ,)
+        (VP (VBN permeabilized)
+          (PP (IN with)
+            (FRAG
+              (NP
+                (NP (CD 0.1) (NN %))
+                (NP (NNP Triton) (NNP X-100)))
+              (: /)
+              (NP
+                (NP (CD 0.1) (NN %))
+                (ADJP
+                  (ADJP (JJ Na-Citrate))
+                  (PRN (-LRB- -LRB-)
+                    (ADJP
+                      (QP (CD pH7) (CD .2)))
+                    (-RRB- -RRB-)))
+                (PP (IN on)
+                  (NP
+                    (NP (NN ice))
+                    (PP (IN for)
+                      (NP (CD 2) (NN min)))))))))
+        (, ,)
+        (CC and)
+        (VP
+          (ADVP (RB then))
+          (VBN treated)
+          (PP (IN with)
+            (NP
+              (NP (CD 50) (NNS units))
+              (PP (IN of)
+                (NP (NNP DNaseI)))))
+          (PP (IN at)
+            (NP
+              (NP (CD 37) (NNP °) (NNP C))
+              (PP (IN for)
+                (NP (CD 10) (NN min))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Cells))
+    (VP (VBD were)
+      (ADVP (RB then))
+      (VP (VBN stained)
+        (PP (IN with)
+          (NP
+            (NP (NNP FITC) (JJ anti-BrdU) (NN antibody))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Pharmingen))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Data))
+      (VP (VBD were)
+        (VP (VBN collected)
+          (PP (IN by)
+            (S
+              (ADVP (RB selectively))
+              (VP (VBG gating)
+                (NP
+                  (NP (DT either) (NN CD3-4-8))
+                  (: -)
+                  (CC or)
+                  (NP
+                    (NP (NNP CD3))
+                    (NP
+                      (NP
+                        (QP (CD +4) (CD +8))
+                        (JJ +) (NNS populations))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP Becton) (NNP Dickinson) (NNP dual) (NN laser) (NNP FACSCalibur))
+                        (-RRB- -RRB-)))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS analyses))
+      (VP (VBD were)
+        (VP (VBN performed)
+          (PP (IN with)
+            (NP (NNP Cellquest) (NN software))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Significant) (NNS differences))
+    (VP (VBD were)
+      (VP (VBN determined)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (JJ unpaired) (NN Student) (POS 's))
+            (NN t-test)
+            (CC or)
+            (NN ANOVA) (NN analysis)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (QP (CD E14) (CD .5))
+      (JJ fetal) (NN thymic) (NNS lobes))
+    (VP (VBD were)
+      (VP (VBN collected)
+        (CC and)
+        (VBN stored)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN TRIzol))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP GIBCO) (NNP BRL))
+              (-RRB- -RRB-))))
+        (PP (IN at)
+          (NP (NNP -70) (NNP °) (NNP C)))
+        (PP (IN until)
+          (NP (NNP RNA) (NN isolation)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Pools))
+      (PP (IN of)
+        (NP
+          (NP (JJ 5-to10) (NNS thymi))
+          (PP (IN from)
+            (NP
+              (NP (NNS embryos))
+              (PP (IN of)
+                (NP (DT the) (JJ same) (NN genotype))))))))
+    (VP (VBD were)
+      (VP (VBN homogenized)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP
+                (NP (NNP Micro) (NNP Pellet) (NNP Pestles))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP Nalge) (NNP Nunc) (NNP International))
+                  (-RRB- -RRB-)))
+              (PP (IN in)
+                (NP (CD 1.5) (JJ ml-eppendorf) (NNS tubes))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP RNA))
+      (VP (VBD was)
+        (VP (VBN isolated))))
+    (CC and)
+    (S
+      (NP (DT the) (JJ genomic) (NN DNA))
+      (VP (VBD was)
+        (VP (VBN depleted)
+          (PP (IN by)
+            (S
+              (VP (VBG using)
+                (NP
+                  (NP (NNP DNaseI))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Amplification) (NNP Grade))
+                    (, ,)
+                    (NP (NNP GIBCO) (NNP BRL))
+                    (-RRB- -RRB-))
+                  (PP (VBG following)
+                    (NP
+                      (NP (DT the) (NN manufacturer) (POS 's))
+                      (NNS protocols))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Reverse) (NN transcription))
+      (PP (IN of)
+        (NP
+          (NP (CD 1) (NN μg))
+          (PP (IN of)
+            (NP
+              (NP (JJ total) (NNS RNA))
+              (PP (TO to)
+                (NP (NN cDNA))))))))
+    (VP (VBD was)
+      (VP (VBN done)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (NNP SuperScript) (NNP II))
+              (PP (VBG following)
+                (NP
+                  (NP
+                    (NP (DT the) (NN manufacturer) (POS 's))
+                    (NN protocol))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP GIBCO) (NNP BRL))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Equal) (NNS amounts))
+      (PP (IN of)
+        (NP
+          (NP (NN cDNA))
+          (PP (IN from)
+            (NP (JJ different) (NNS genotypes))))))
+    (VP (VBD were)
+      (VP (VBN added)
+        (PP (TO to)
+          (S
+            (NP (DT a) (JJ final) (CD 20) (CD μl) (NNP PCR) (NN reaction) (NN mixture))
+            (VP (VBG using)
+              (NP (DT the) (NNP QIAGEN) (NNP Taq) (NNP PCR) (NNS kits)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PCR) (NNS conditions))
+    (VP (VBD were) (: :)
+      (S
+        (NP
+          (NP
+            (NP
+              (NP
+                (QP (CD 94) (CD °))
+                (NNP C) (CD 30) (NN sec))
+              (, ,)
+              (NP
+                (QP (CD 50) (CD °))
+                (NNP C) (CD 1) (NN min))
+              (, ,)
+              (NP
+                (QP (CD 72) (CD °))
+                (NNP C) (CD 1)
+                (ADJP (JJ min)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN IL-7))
+                      (, ,)
+                      (NP (NNP SCF))
+                      (CC and)
+                      (NP (PRP$ their) (JJ internal) (NN control)))))
+                (NN β-actin))
+              (: ;)
+              (CC or)
+              (NP
+                (QP (CD 94) (CD °))
+                (NNP C) (CD 30) (NN sec)))
+            (PRN (, ,)
+              (NP (CD 60))
+              (ADJP (JJ °)
+                (NP
+                  (QP ($ C) (CD 1) (CD min))))
+              (, ,)
+              (NP (CD 72))
+              (ADJP (JJ °)
+                (NP
+                  (QP ($ C) (CD 1) (CD min))))))
+          (PP (IN for)
+            (NP
+              (NP (NNS TGFβ1))
+              (CC and)
+              (NP (PRP$ its) (JJ internal) (NN control)))))
+        (ADJP (JJ β-actin))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PCR) (NNS products))
+    (VP (VBD were)
+      (VP (VBN visualized)
+        (PP (IN by)
+          (NP
+            (NP
+              (ADJP (CD 5) (NN %))
+              (JJ acrylamide) (NN gel) (NNS electrophoresis))
+            (CC and)
+            (NP (NN ethidium) (NN bromide) (NN staining))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Band) (NNS densities))
+    (VP (VBD were)
+      (VP (VBN measured)
+        (CC and)
+        (VBN analyzed)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (DT the) (NNP Molecular) (NNP Analyst) (NN software) (NN package))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Bio-Rad) (NNP Laboratories))
+                (, ,)
+                (NP (NNP Version) (CD 1.4.1))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (JJ Primer) (NNS sequences))
+      (VP (VBD were)))
+    (: :)
+    (NP
+      (NP
+        (NP (NNP IL-7) (NNP -LSB-))
+        (NP (CD 65) (NNS -RSB-)))
+      (: :)
+      (NP
+        (NP (NN IL-7))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 5))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP ACT) (NNP ACA) (NNP CCC) (NNP ACC) (NNP TCC) (NNP CGC) (NNS A3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NN IL-7))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 3))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP TCT) (NNP CAG) (NNP TAG) (NNP TCT) (NNP CTT) (NNP TAG) (NNS G3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NNP SCF) (NNP -LSB-))
+        (NP (CD 65) (NNS -RSB-)))
+      (: :)
+      (NP
+        (NP (NNP SCF))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 5))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP TCT) (NNP TCA) (NNP ACT) (NNP GCT) (NNP CCT) (NNP ATT) (NNS T3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NNP SCF))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 3))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP ACT) (NNP GCT) (NNP ACT) (NNP GCT) (NNP GTC) (NNP ATT) (NNS C3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NNP TGFβ1) (NNP -LSB-))
+        (NP (CD 66) (NNS -RSB-)))
+      (: :)
+      (NP
+        (NP (NNS TGFβ1))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 5))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP GCG) (NNP GAC) (NNP TAC) (NNP TAT) (NNP GCT) (NNP AAA) (NNP GAG) (NNS G3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NNS TGFβ1))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 3))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP GTT) (NNP GTG) (NNP TTG) (NNP GTT) (NNP GTA) (NNP GAG) (NNP GGC) (NNS A3) ('' ')))
+      (: ;)
+      (NP
+        (NP (JJ β-actin) (NNS -LSB-))
+        (NP
+          (QP (CD 67) (CD -RSB-))))
+      (: :)
+      (NP
+        (NP (NN β-actin))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 5))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP GGG) (NNP TCA) (NNP GAA) (NNP GGA) (NNP CTC) (NNP CTA) (NNS TG3) ('' ')))
+      (: ;)
+      (NP
+        (NP (NN β-actin))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 3))
+          ('' ') (-RRB- -RRB-))
+        (NP (CD 5) (`` `) (NNP GTA) (NNP ACA) (NNP ATG) (NNP CCA) (NNP TGT) (NNP TCA) (NNS AT3) ('' '))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Thymic) (NNS lobes))
+    (VP (VBD were)
+      (VP (VBN dissected)
+        (PP (IN from)
+          (NP
+            (QP (CD E15) (CD .5))
+            (NNS embryos)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (CD two) (NNS lobes))
+      (PP (IN from)
+        (NP (DT each) (NN embryo))))
+    (VP (VBD cultured)
+      (ADVP (RB separately))
+      (PP (IN in)
+        (NP (JJ high) (NN oxygen) (NN submersion) (NN culture)))
+      (SBAR (IN as)
+        (S
+          (ADVP (RB previously))
+          (VP (VBD described)
+            (NP
+              (QP (CD -LSB-) (CD 41))
+              (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Fetal) (JJ thymic) (NN organ) (NNS cultures))
+    (VP (VBD were)
+      (VP (VBN supplemented)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (CD 100) (NN u/ml))
+              (PP (IN of)
+                (NP (NN IL-7))))
+            (CC or)
+            (NP
+              (NP (CD 20) (NN ng/ml))
+              (PP (IN of)
+                (NP
+                  (NP (NNP SCF))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Pepro) (NNP Tech) (NNP Inc.))
+                    (-RRB- -RRB-)))))))
+        (SBAR (IN as)
+          (S
+            (ADVP (RB previously))
+            (VP (VBD described)
+              (NP
+                (QP (CD -LSB-) (CD 41))
+                (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT each) (NN embryo)))
+    (, ,)
+    (NP (CD one) (NN lobe))
+    (VP (VBD was)
+      (VP (VBN treated)
+        (SBAR (IN while)
+          (S
+            (NP (DT the) (JJ other))
+            (VP (VBD was)
+              (VP (VBN cultured)
+                (PP (IN in)
+                  (NP (NN parallel)))
+                (PP (IN without)
+                  (NP (JJ supplemental) (NN cytokine)))
+                (PP (IN as)
+                  (NP (DT an) (JJ internal) (NN control)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN control) (NNS experiments)))
+    (, ,)
+    (NP (NNS lobes))
+    (VP (VBD were)
+      (VP (VBN cultured)
+        (ADVP (RB separately))
+        (PP (IN under)
+          (NP (JJ identical) (NNS conditions)))
+        (PP (IN without)
+          (NP (NN cytokine)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (CD five) (NNS days))
+        (PP (IN in)
+          (NP (NN culture)))))
+    (, ,)
+    (NP (DT the) (NNS cells))
+    (VP (VBD were)
+      (VP
+        (VP (VBN stained)
+          (PP (IN by)
+            (NP
+              (NP (NNP PE-anti-mouse) (NNP CD4))
+              (CC and)
+              (NP (NNP FITC-anti-mouse) (NNP CD8)))))
+        (CC and)
+        (VP (VBN analyzed)
+          (PP (IN by)
+            (NP
+              (NP (NN flow))
+              (ADJP (RB cytometry) (IN as) (JJ above)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Authors) (POS '))
+      (NNS contributions))
+    (VP
+      (VP
+        (ADVP (RB DMS))
+        (VBD conceived)
+        (PP (IN of)
+          (NP (DT the) (NN study))))
+      (CC and)
+      (VP (VBD performed)
+        (SBAR
+          (S
+            (NP
+              (NP (DT all))
+              (PP (IN of)
+                (NP (DT the) (NNS experiments))))
+            (VP (VBD described))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP NRM))
+    (VP
+      (VP (VBD contributed)
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN design))
+            (PP (IN of)
+              (NP (DT the) (NN study)
+                (CC and)
+                (NNS data) (NN analysis))))))
+      (, ,)
+      (CC and)
+      (VP (VBD drafted)
+        (NP (DT the) (NN manuscript))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT All) (NNS authors))
+    (VP
+      (VP (VBD read))
+      (CC and)
+      (VP (VBD approved)
+        (NP (DT the) (JJ final) (NN manuscript))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Figure)
+      (CC and)
+      (NNP Table))
+    (VP (VBZ captions)
+      (NP (NN Figure))
+      (NP
+        (NP
+          (NP (CD 1))
+          (: :)
+          (NP
+            (NP (NN DNA) (NN synthesis) (NNS patterns))
+            (PP (IN of)
+              (NP
+                (NP (JJ fetal))
+                (PP (IN vs.)
+                  (NP (JJ adult) (NN thymocyte) (NNS subsets)))))
+            (SBAR (IN as)
+              (S
+                (S
+                  (VP (VBN measured)
+                    (PP (IN by)
+                      (NP
+                        (NP (NN incorporation))
+                        (PP (IN of)
+                          (NP (NNP BrdU) (NNP A.) (NNP Thymocytes)))))))
+                (VP (VBD were)
+                  (VP (VBN gated)
+                    (PP (IN as)
+                      (NP (DT either) (NN CD3-4-8))))))))
+          (: -)
+          (NP
+            (NP (NNP TN))
+            (CC or)
+            (NP
+              (NP (NNP CD3) (CD +4) (CD +8) (NNP +) (NNP DP))
+              (PP (IN by)
+                (NP (NN cell) (NN surface) (NN marker) (NN expression))))))
+        (CC and)
+        (RB forward)
+        (NP
+          (NP (NN scatter))
+          (PRN (-LRB- -LRB-)
+            (S
+              (NP (NNP SP) (NNS cells))
+              (VP (MD should)
+                (VP (VB be)
+                  (VP
+                    (VP (VBN located)
+                      (PP (IN between)
+                        (NP (DT these) (CD two) (NNS gates))))
+                    (, ,)
+                    (CC and)
+                    (ADVP (RB therefore))
+                    (VP (VBN excluded)
+                      (PP (IN from)
+                        (NP (NN analysis))))))))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP B.) (NNP Gate))
+    (VP (VBD used)
+      (PP (IN for)
+        (NP
+          (NP (NN analysis))
+          (PP (IN of)
+            (NP (NNP BrdU) (NN incorporation)))))
+      (PP (IN on)
+        (NP (JJ gated) (NNS subpopulations))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Panels) (NNP C-E))
+    (VP (VBP show)
+      (SBAR
+        (S
+          (NP (NNP CD44)
+            (CC vs.)
+            (NNP CD25))
+          (VP (VBP dot)
+            (NP
+              (NP
+                (NP
+                  (NP
+                    (NP (NNS plots))
+                    (PP (IN of)
+                      (NP (DT the) (JJ gated) (NN CD3-4-8))))
+                  (: -)
+                  (NP
+                    (NP (NN population))
+                    (PP (IN from)
+                      (NP (CD 5))))
+                  (: --)
+                  (NP
+                    (NP
+                      (NP
+                        (ADJP (CD 6) (NN week) (JJ old))
+                        (JJ adult) (NN C57BL/6))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP C))
+                        (-RRB- -RRB-)))
+                    (, ,)
+                    (NP
+                      (NP
+                        (QP (CD E17) (CD .5))
+                        (JJ fetal) (NNS C57BL/6))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP D))
+                        (-RRB- -RRB-)))
+                    (, ,)
+                    (CC and)
+                    (NP
+                      (QP (CD E17) (CD .5))
+                      (JJ fetal) (NN RAG))))
+                (PRN (: -)
+                  (NP (NNP /))
+                  (: -)))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP E))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Percentages))
+    (VP (VBP are)
+      (VP (VBN shown)
+        (PP (IN in)
+          (NP (DT each) (NN quadrant)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP F.) (NNP Percentages))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (NNP BrdU) (NNP +) (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Mean) (NNP ±) (NNP SEM))
+              (-RRB- -RRB-)))
+          (PP (IN in)
+            (NP
+              (NP (DT each) (NN subset))
+              (PP (IN of)
+                (NP (NNP TN) (NNS cells))))))))
+    (VP (VBN defined)
+      (PP
+        (PP (IN by)
+          (NP (NNP CD44)
+            (CC and)
+            (NNP CD25)))
+        (, ,)
+        (CC and)
+        (PP (IN in)
+          (NP (NNP DP) (NNS cells)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP G.) (NNP Adult) (NN wild-type) (NNS thymocytes))
+    (VP (VBD were)
+      (VP (VBN gated)
+        (PP (IN as)
+          (NP (NNP CD3-4-8-B220-NK1) (CD .1)))))
+    (: -) (. .)))
+
+(ROOT
+  (S
+    (NP (NNP H.) (NNP CD44)
+      (CC vs.)
+      (NNP CD25))
+    (VP (VBP dot)
+      (NP
+        (NP (NNS plots))
+        (PP (IN of)
+          (NP (DT the) (JJ gated) (NN population))))
+      (PP (IN from)
+        (PRN (-LRB- -LRB-)
+          (NP (NNP G))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NN I.) (NN Percentage))
+    (PP (IN of)
+      (NP
+        (NP (NNP BrdU) (NNP +) (NNS cells))
+        (PRN (-LRB- -LRB-)
+          (S
+            (VP (VB mean)
+              (NP (NNP ±) (NNP SEM))))
+          (-RRB- -RRB-))))
+    (PP (IN in)
+      (NP (NN adult)
+        (CC and)
+        (JJ fetal) (NN TN1) (NNS thymocytes)))
+    (PP (VBG excluding)
+      (NP
+        (NP
+          (UCP (NNP B)
+            (CC and)
+            (JJ NK))
+          (NNS cells))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP H))
+          (, ,)
+          (NP (NNP G))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Figure) (CD 2))
+    (: :)
+    (NP
+      (NP (NNP Proliferation))
+      (PP (IN of)
+        (NP
+          (NP
+            (QP (CD E17) (CD .5))
+            (NNS Hoxa3-Pax1))
+          (NP
+            (NP (JJ compound) (JJ mutant) (NNS thymocytes))
+            (PP (VBN compared)
+              (PP (TO to)
+                (NP (JJ wild) (NN type))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Panels) (NNP A-B))
+    (VP (VBP show)
+      (SBAR
+        (S
+          (NP (NNP CD44)
+            (CC vs.)
+            (NNP CD25))
+          (VP (VBP dot)
+            (NP
+              (NP
+                (NP (NNS plots))
+                (PP (IN of)
+                  (NP (DT the) (JJ gated) (NN CD3-4-8))))
+              (: -)
+              (NP
+                (NP (NN population))
+                (PP (IN from)
+                  (NP
+                    (ADJP
+                      (ADJP
+                        (ADJP
+                          (QP (CD E17) (CD .5))
+                          (JJ wild) (NN type))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP A))
+                          (-RRB- -RRB-)))
+                      (CC and)
+                      (ADJP
+                        (ADJP (RB Hoxa3) (RB +) (JJ /))
+                        (PRN (: -)
+                          (FRAG
+                            (ADJP (JJ Pax1))
+                            (: -))
+                          (: /)))
+                      (: -))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP B))
+                      (-RRB- -RRB-))
+                    (NNS thymus)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Percentages))
+    (VP (VBP are)
+      (VP (VBN shown)
+        (PP (IN in)
+          (NP (DT each) (NN quadrant)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP C.) (NNP Percentages))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (NNP BrdU) (NNP +) (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Mean) (NNP ±) (NNP SEM))
+              (-RRB- -RRB-)))
+          (PP (IN in)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP
+                  (NP (CD 4) (NNS subsets))
+                  (PP (IN of)
+                    (NP (NNP TN) (NNS cells))))))))))
+    (VP (VBN defined)
+      (PP
+        (PP (IN by)
+          (NP (NNP CD44)
+            (CC and)
+            (NNP CD25)))
+        (, ,)
+        (CC and)
+        (PP (IN in)
+          (NP (NNP DP) (NNS cells)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP D) (, ,) (NNP E.) (NNP CD44)
+      (CC vs.)
+      (NNP CD25))
+    (VP (VBP dot)
+      (NP
+        (NP
+          (NP (NNS plots))
+          (PP (IN of)
+            (NP (DT the) (JJ gated) (NN CD3-4-8))))
+        (: -)
+        (NP
+          (NP (NN population))
+          (VP (VBN divided)
+            (PP (IN into)
+              (ADVP
+                (NP (CD five) (NNS subsets))
+                (RB as))))
+          (VP (VBN defined)
+            (PP (IN by)
+              (NP
+                (QP (CD -LSB-) (CD 12))
+                (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP F.) (NNP Percentages))
+      (PP (IN of)
+        (NP (NNP BrdU) (NNP +) (NNS cells)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Mean) (NNP ±) (NNP SEM))
+        (-RRB- -RRB-))
+      (PP (IN in)
+        (NP
+          (NP
+            (NP (DT each))
+            (PP (IN of)
+              (NP
+                (QP (CD 3) (CD CD44)))))
+          (: -)
+          (NP
+            (NP (NNP TN) (NNS subsets))
+            (VP (VBN defined)
+              (PP (IN in)
+                (NP (NNP panels) (NNP D)
+                  (CC and)
+                  (NNP E.) (NNP DP) (NNS values))))
+            (VP (VBN shown)
+              (PP (IN for)
+                (NP (NN comparison))))))))
+    (VP (VBP are)
+      (ADVP
+        (ADVP
+          (NP (DT the) (JJ same))
+          (RB as))
+        (PP (IN in)
+          (NP
+            (NP
+              (NP (NNP C.) (NNP Figure))
+              (NP (CD 3)))
+            (: :)
+            (NP
+              (NP (NNP Expression))
+              (PP (IN of)
+                (NP
+                  (NP (NNS cytokines))
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ fetal) (NNS thymi))
+                      (PP (IN of)
+                        (NP (NNP Hoxa3) (NNP +) (NNP /))))))))
+            (: -)
+            (NP (NNS Pax1))
+            (: -)
+            (NP (NNP /))
+            (: -)
+            (NP (NNS mice))
+            (CC and)
+            (NP (NNS controls)))))
+      (VP (VBN measured)
+        (PP (IN by)
+          (NP
+            (NP (JJ semi-quantitative) (NN RT-PCR))
+            (SBAR
+              (S
+                (NP (DT Each) (NN lane))
+                (VP (VBZ contains)
+                  (NP (JJ pooled) (NN cDNA))
+                  (PP (IN from)
+                    (NP (CD 5)))
+                  (: --)
+                  (NP
+                    (NP (CD 10) (CD E14) (CD .5) (JJ embryonic) (NNS thymi))
+                    (PP (IN of)
+                      (NP (DT the) (JJ same) (NN genotype)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Representative) (NNS results))
+      (PP (IN from)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (CD three) (NNS experiments))
+              (PP (IN for)
+                (NP (DT each) (NN cytokine))))))))
+    (VP (VBP are)
+      (VP (VBN shown)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN β-actin))
+    (VP (VBD was)
+      (VP (VBN used)
+        (PP (IN as)
+          (NP (DT a) (NN control)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Panel) (NNP A))
+      (, ,)
+      (NP
+        (NP (NN expression))
+        (PP (IN of)
+          (NP (NN IL-7)))))
+    (: ;)
+    (NP
+      (NP (NNP Panel) (NNP B))
+      (, ,)
+      (NP
+        (NP (NN expression))
+        (PP (IN of)
+          (NP (NNP SCF)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Table) (CD 1))
+    (: :)
+    (S
+      (S
+        (NP
+          (NP
+            (NP (NN Percentage))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Mean) (NNP ±) (NNP SD))
+              (-RRB- -RRB-)))
+          (PP (IN of)
+            (NP
+              (NP (NNP BrdU) (NNP +) (NNS cells))
+              (PP (IN in)
+                (NP
+                  (NP (DT each) (NN subset))
+                  (PP (IN of)
+                    (NP (JJ fetal) (NNS thymocytes))))))))
+        (NP (NNP Table) (CD 2)))
+      (: :)
+      (S
+        (NP
+          (NP
+            (NP (NNP Percentages))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Mean) (NNP ±) (NNP SD))
+              (-RRB- -RRB-)))
+          (PP (IN of)
+            (NP
+              (NP (NNP BrdU) (NNP +) (NNS cells))
+              (PP (IN in)
+                (NP
+                  (NP (JJ selected) (NNS subsets))
+                  (PP (IN of)
+                    (NP (NN wild-type)
+                      (CC and)
+                      (NN compound))))))))
+        (NP (JJ mutant) (JJ fetal) (NNS thymocytes))))))
+

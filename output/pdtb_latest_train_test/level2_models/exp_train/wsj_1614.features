@@ -1,0 +1,8 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:week_after Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bank_when Synchrony
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:once conn:Once conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:for_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:million_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:billion_after Asynchronous

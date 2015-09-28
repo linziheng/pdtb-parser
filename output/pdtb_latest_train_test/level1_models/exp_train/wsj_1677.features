@@ -1,0 +1,22 @@
+conn_lc:so conn:so conn_POS:IN with_prev_full:computers_so Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:network_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:year_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:items_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:humans_also Expansion
+conn_lc:once conn:Once conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:junk_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:priority_if Contingency
+conn_lc:so conn:so conn_POS:IN with_prev_full:``_so Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion

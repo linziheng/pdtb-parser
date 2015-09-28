@@ -1,0 +1,16 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:they prev1_POS:PRP with_prev1_full:they_also with_prev1_POS_full:PRP_RB prev2:But prev2_POS:CC with_prev2_full:But_also with_prev2_POS_full:CC_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:audits prev2_POS:NN with_prev2_full:audits_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:bill prev1_POS:NN with_prev1_full:bill_after with_prev1_POS_full:NN_IN prev2:Senate prev2_POS:NNP with_prev2_full:Senate_after with_prev2_POS_full:NNP_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:enactment prev2_POS:NN with_prev2_full:enactment_even_if with_prev2_POS_full:NN_RB_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:around prev2_POS:RB with_prev2_full:around_although with_prev2_POS_full:RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:group prev1_POS:NN with_prev1_full:group_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:HOBBY prev2_POS:NN with_prev2_full:HOBBY_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:42,455 prev2_POS:CD with_prev2_full:42,455_and with_prev2_POS_full:CD_CC SS
+conn:when conn_POS:WRB prev1:sideline prev1_POS:NN with_prev1_full:sideline_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB SS
+conn:Yet conn_POS:CC sent_pos:0 PS

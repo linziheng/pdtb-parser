@@ -1,0 +1,11 @@
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:hunky-dory prev2_POS:JJ with_prev2_full:hunky-dory_but with_prev2_POS_full:JJ_CC SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:operations prev2_POS:NNS with_prev2_full:operations_and with_prev2_POS_full:NNS_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Rather conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:acknowledged prev2_POS:VBD with_prev2_full:acknowledged_but with_prev2_POS_full:VBD_CC SS
+conn:so conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_so with_prev1_POS_full:CC_RB prev2:defense prev2_POS:NN with_prev2_full:defense_so with_prev2_POS_full:NN_RB SS
+conn:before conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_before with_prev1_POS_full:IN_IN prev2:disclosed prev2_POS:VBD with_prev2_full:disclosed_before with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS

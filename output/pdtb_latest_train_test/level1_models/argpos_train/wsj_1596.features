@@ -1,0 +1,10 @@
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:spokesman prev1_POS:NN with_prev1_full:spokesman_also with_prev1_POS_full:NN_RB prev2:A prev2_POS:DT with_prev2_full:A_also with_prev2_POS_full:DT_RB PS
+conn:Until conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Until with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:end prev2_POS:NN with_prev2_full:end_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:translations prev2_POS:NNS with_prev2_full:translations_also with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:pressure prev2_POS:NN with_prev2_full:pressure_and with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:although conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_although with_prev1_POS_full:''_IN prev2:, prev2_POS:, with_prev2_full:,_although with_prev2_POS_full:,_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS

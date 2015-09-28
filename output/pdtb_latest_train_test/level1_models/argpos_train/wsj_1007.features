@@ -1,0 +1,8 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:dollar prev2_POS:NN with_prev2_full:dollar_but with_prev2_POS_full:NN_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:added prev2_POS:VBD with_prev2_full:added_however with_prev2_POS_full:VBD_RB PS
+conn:as conn_POS:IN prev1:trade prev1_POS:NN with_prev1_full:trade_as with_prev1_POS_full:NN_IN prev2:later prev2_POS:JJR with_prev2_full:later_as with_prev2_POS_full:JJR_IN SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:term prev2_POS:NN with_prev2_full:term_then with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:upswing prev2_POS:NN with_prev2_full:upswing_before with_prev2_POS_full:NN_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:growth prev2_POS:NN with_prev2_full:growth_although with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:note prev2_POS:VBP with_prev2_full:note_while with_prev2_POS_full:VBP_IN SS

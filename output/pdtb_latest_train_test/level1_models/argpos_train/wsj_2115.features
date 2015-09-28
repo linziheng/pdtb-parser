@@ -1,0 +1,5 @@
+conn:because conn_POS:IN prev1:criticism prev1_POS:NN with_prev1_full:criticism_because with_prev1_POS_full:NN_IN prev2:conflict-of-interest prev2_POS:NN with_prev2_full:conflict-of-interest_because with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:CPAs prev2_POS:NNS with_prev2_full:CPAs_but with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:rules prev2_POS:NNS with_prev2_full:rules_and with_prev2_POS_full:NNS_CC SS

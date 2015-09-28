@@ -1,0 +1,19 @@
+conn:also conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_also with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:us prev2_POS:PRP with_prev2_full:us_and with_prev2_POS_full:PRP_CC SS
+conn:even_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_as with_prev1_POS_full:,_RB_IN prev2:effort prev2_POS:NN with_prev2_full:effort_even_as with_prev2_POS_full:NN_RB_IN SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Senate prev2_POS:NNP with_prev2_full:Senate_after with_prev2_POS_full:NNP_IN SS
+conn:still conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_still with_prev1_POS_full:,_RB prev2:bill prev2_POS:NN with_prev2_full:bill_still with_prev2_POS_full:NN_RB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:groups prev1_POS:NNS with_prev1_full:groups_also with_prev1_POS_full:NNS_RB prev2:Small-business prev2_POS:NN with_prev2_full:Small-business_also with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:after conn_POS:IN prev1:outraged prev1_POS:VBN with_prev1_full:outraged_after with_prev1_POS_full:VBN_IN prev2:was prev2_POS:VBD with_prev2_full:was_after with_prev2_POS_full:VBD_IN SS
+conn:Even_though conn_POS:RB_IN sent_pos:0 SS
+conn:especially_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_especially_as with_prev1_POS_full:,_RB_IN prev2:priority prev2_POS:NN with_prev2_full:priority_especially_as with_prev2_POS_full:NN_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:benefit prev1_POS:VB with_prev1_full:benefit_because with_prev1_POS_full:VB_IN prev2:would prev2_POS:MD with_prev2_full:would_because with_prev2_POS_full:MD_IN SS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:united prev2_POS:VBN with_prev2_full:united_however with_prev2_POS_full:VBN_RB PS
+conn:then conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_then with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:otherwise conn_POS:RB prev1:might prev1_POS:MD with_prev1_full:might_otherwise with_prev1_POS_full:MD_RB prev2:that prev2_POS:WDT with_prev2_full:that_otherwise with_prev2_POS_full:WDT_RB SS
+conn:yet conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_yet with_prev1_POS_full:,_CC prev2:company prev2_POS:NN with_prev2_full:company_yet with_prev2_POS_full:NN_CC SS

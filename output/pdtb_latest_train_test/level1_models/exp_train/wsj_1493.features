@@ -1,0 +1,19 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:come_as Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:buy-out_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:while conn:While conn_POS:IN with_prev_full:-lrb-_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:campbell-mithun_also Expansion
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:account_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:memo_also Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:work_until Temporal
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

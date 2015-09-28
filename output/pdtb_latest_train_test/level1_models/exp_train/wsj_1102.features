@@ -1,0 +1,12 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:points_and Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:news_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

@@ -1,0 +1,23 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:gains_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:changed_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:shares_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:673_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:673_as Cause
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:sidelines_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:sidelines_as Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:likely_unless Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:place_before Asynchronous

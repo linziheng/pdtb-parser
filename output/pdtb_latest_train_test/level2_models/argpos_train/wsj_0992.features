@@ -1,0 +1,6 @@
+conn:when conn_POS:WRB prev1:seizures prev1_POS:NNS with_prev1_full:seizures_when with_prev1_POS_full:NNS_WRB prev2:breakthrough prev2_POS:NN with_prev2_full:breakthrough_when with_prev2_POS_full:NN_WRB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:anecdotal prev1_POS:JJ with_prev1_full:anecdotal_if with_prev1_POS_full:JJ_IN prev2:it prev2_POS:PRP with_prev2_full:it_if with_prev2_POS_full:PRP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:symposiums prev2_POS:NNS with_prev2_full:symposiums_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS

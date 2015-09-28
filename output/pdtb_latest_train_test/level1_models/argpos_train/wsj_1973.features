@@ -1,0 +1,5 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Street prev2_POS:NNP with_prev2_full:Street_but with_prev2_POS_full:NNP_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_while with_prev1_POS_full:CC_IN SS
+conn:unless conn_POS:IN prev1:said prev1_POS:VBD with_prev1_full:said_unless with_prev1_POS_full:VBD_IN prev2:Maxwell prev2_POS:NNP with_prev2_full:Maxwell_unless with_prev2_POS_full:NNP_IN SS
+conn:If conn_POS:IN sent_pos:0 SS

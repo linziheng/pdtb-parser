@@ -1,0 +1,25 @@
+conn_lc:just_after conn:Just_after conn_POS:RB_IN Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rope_when Synchrony
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:pay_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:error_and List
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:within_a_year_after conn:within_a_year_after conn_POS:IN_DT_NN_IN with_prev_full:director_within_a_year_after Asynchronous
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction

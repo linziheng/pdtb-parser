@@ -1,0 +1,11 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:fizzes_as Synchrony
+conn_lc:though conn:though conn_POS:IN with_prev_full:now_though Concession
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:gentle_before Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:young_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:business_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:beautiful_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:quadrupeds_and List
+conn_lc:as conn:as conn_POS:IN with_prev_full:name_as Synchrony

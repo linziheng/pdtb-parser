@@ -1,0 +1,17 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:down prev2_POS:RP with_prev2_full:down_and with_prev2_POS_full:RP_CC SS
+conn:after conn_POS:IN prev1:buffetting prev1_POS:NN with_prev1_full:buffetting_after with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_after with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_and with_prev2_POS_full:NNS_CC SS
+conn:even_before conn_POS:RB_IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_even_before with_prev1_POS_full:,_RB_IN prev2:Yesterday prev2_POS:NN with_prev2_full:Yesterday_even_before with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_also with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:plummeted prev1_POS:VBD with_prev1_full:plummeted_after with_prev1_POS_full:VBD_IN prev2:price prev2_POS:NN with_prev2_full:price_after with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:industry prev2_POS:NN with_prev2_full:industry_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:time prev1_POS:NN with_prev1_full:time_before with_prev1_POS_full:NN_IN prev2:mark prev2_POS:VB with_prev2_full:mark_before with_prev2_POS_full:VB_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:until conn_POS:IN prev1:stop prev1_POS:VB with_prev1_full:stop_until with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_until with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:greater prev2_POS:JJR with_prev2_full:greater_and with_prev2_POS_full:JJR_CC SS
+conn:until conn_POS:IN prev1:or prev1_POS:CC with_prev1_full:or_until with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_until with_prev2_POS_full:,_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

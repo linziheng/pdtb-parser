@@ -1,0 +1,12 @@
+conn:as conn_POS:IN prev1:amazement prev1_POS:NN with_prev1_full:amazement_as with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:unless conn_POS:IN prev1:enter prev1_POS:VB with_prev1_full:enter_unless with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_unless with_prev2_POS_full:RB_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:status prev1_POS:NN with_prev1_full:status_while with_prev1_POS_full:NN_IN prev2:red prev2_POS:JJ with_prev2_full:red_while with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:out prev2_POS:RP with_prev2_full:out_and with_prev2_POS_full:RP_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:later conn_POS:RB prev1:back prev1_POS:RB with_prev1_full:back_later with_prev1_POS_full:RB_RB prev2:sneaked prev2_POS:VBD with_prev2_full:sneaked_later with_prev2_POS_full:VBD_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:Marina prev1_POS:NNP with_prev1_full:Marina_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB prev1:Animals prev1_POS:NNPS with_prev1_full:Animals_also with_prev1_POS_full:NNPS_RB prev2:to prev2_POS:TO with_prev2_full:to_also with_prev2_POS_full:TO_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:cats prev2_POS:NNS with_prev2_full:cats_though with_prev2_POS_full:NNS_IN SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:heat prev2_POS:NN with_prev2_full:heat_but with_prev2_POS_full:NN_CC SS

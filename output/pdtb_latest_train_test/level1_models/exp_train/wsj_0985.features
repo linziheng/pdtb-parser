@@ -1,0 +1,15 @@
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:incorrect_when Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:much_as conn:much_as conn_POS:RB_IN with_prev_full:,_much_as Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:devalued_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:frequency_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:mind_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:mind_as Contingency
+conn_lc:unless conn:Unless conn_POS:IN Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison

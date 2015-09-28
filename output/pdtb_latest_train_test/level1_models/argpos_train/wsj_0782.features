@@ -1,0 +1,6 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:significant prev1_POS:JJ with_prev1_full:significant_because with_prev1_POS_full:JJ_IN prev2:is prev2_POS:VBZ with_prev2_full:is_because with_prev2_POS_full:VBZ_IN SS
+conn:when conn_POS:WRB prev1:so prev1_POS:RB with_prev1_full:so_when with_prev1_POS_full:RB_WRB prev2:more prev2_POS:RBR with_prev2_full:more_when with_prev2_POS_full:RBR_WRB SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:steelmaker prev2_POS:NN with_prev2_full:steelmaker_because with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:Bethlehem prev2_POS:NNP with_prev2_full:Bethlehem_also with_prev2_POS_full:NNP_RB PS
+conn:Once conn_POS:RB sent_pos:0 SS

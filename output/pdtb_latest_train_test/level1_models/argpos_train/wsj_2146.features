@@ -1,0 +1,5 @@
+conn:and conn_POS:CC prev1:quarter prev1_POS:NN with_prev1_full:quarter_and with_prev1_POS_full:NN_CC prev2:fourth prev2_POS:JJ with_prev2_full:fourth_and with_prev2_POS_full:JJ_CC SS
+conn:if conn_POS:IN prev1:reorganization prev1_POS:NN with_prev1_full:reorganization_if with_prev1_POS_full:NN_IN prev2:bankruptcy-court prev2_POS:NN with_prev2_full:bankruptcy-court_if with_prev2_POS_full:NN_IN SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:26.02 prev1_POS:CD with_prev1_full:26.02_and with_prev1_POS_full:CD_CC prev2:$ prev2_POS:$ with_prev2_full:$_and with_prev2_POS_full:$_CC SS

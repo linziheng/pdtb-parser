@@ -1,0 +1,9 @@
+conn_lc:until conn:until conn_POS:IN with_prev_full:zealand_until Contingency
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:irresponsible_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Expansion

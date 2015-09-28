@@ -1,0 +1,14 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:month_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:usual_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:activity_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:activity_as Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:''_although Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:even_before conn:Even_before conn_POS:RB_IN with_prev_full:``_even_before Temporal

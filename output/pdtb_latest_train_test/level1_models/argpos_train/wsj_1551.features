@@ -1,0 +1,4 @@
+conn:also conn_POS:RB sent_pos:2 prev1:Journal prev1_POS:NNP with_prev1_full:Journal_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:Kong prev2_POS:NNP with_prev2_full:Kong_also with_prev2_POS_full:NNP_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:Jones prev1_POS:NNP with_prev1_full:Jones_also with_prev1_POS_full:NNP_RB prev2:Dow prev2_POS:NNP with_prev2_full:Dow_also with_prev2_POS_full:NNP_RB PS

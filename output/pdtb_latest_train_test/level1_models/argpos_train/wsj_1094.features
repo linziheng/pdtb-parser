@@ -1,0 +1,28 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:bill prev1_POS:NN with_prev1_full:bill_if with_prev1_POS_full:NN_IN prev2:welfare prev2_POS:NN with_prev2_full:welfare_if with_prev2_POS_full:NN_IN SS
+conn:except conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_except with_prev1_POS_full:,_IN prev2:funds prev2_POS:NNS with_prev2_full:funds_except with_prev2_POS_full:NNS_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:finally conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_finally with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_finally with_prev2_POS_full:,_RB SS
+conn:if conn_POS:IN prev1:honesty prev1_POS:NN with_prev1_full:honesty_if with_prev1_POS_full:NN_IN prev2:all prev2_POS:DT with_prev2_full:all_if with_prev2_POS_full:DT_IN SS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:ever_since conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_ever_since with_prev1_POS_full:CC_RB_IN SS
+conn:unless conn_POS:IN prev1:more prev1_POS:JJR with_prev1_full:more_unless with_prev1_POS_full:JJR_IN prev2:anything prev2_POS:NN with_prev2_full:anything_unless with_prev2_POS_full:NN_IN SS
+conn:if conn_POS:IN prev1:less prev1_POS:JJR with_prev1_full:less_if with_prev1_POS_full:JJR_IN prev2:far prev2_POS:RB with_prev2_full:far_if with_prev2_POS_full:RB_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:he prev2_POS:PRP with_prev2_full:he_also with_prev2_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:days prev2_POS:NNS with_prev2_full:days_when with_prev2_POS_full:NNS_WRB SS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:he prev2_POS:PRP with_prev2_full:he_also with_prev2_POS_full:PRP_RB PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:mate prev2_POS:NN with_prev2_full:mate_though with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:endangerment prev2_POS:NN with_prev2_full:endangerment_but with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:momentum prev1_POS:NN with_prev1_full:momentum_as with_prev1_POS_full:NN_IN prev2:gathered prev2_POS:VBD with_prev2_full:gathered_as with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:later conn_POS:RB sent_pos:2 prev1:did prev1_POS:VBD with_prev1_full:did_later with_prev1_POS_full:VBD_RB prev2:He prev2_POS:PRP with_prev2_full:He_later with_prev2_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:then prev2_POS:RB with_prev2_full:then_while with_prev2_POS_full:RB_IN SS
+conn:likewise conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_likewise with_prev1_POS_full:VBZ_RB prev2:House prev2_POS:NNP with_prev2_full:House_likewise with_prev2_POS_full:NNP_RB PS

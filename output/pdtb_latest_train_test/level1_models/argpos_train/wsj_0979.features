@@ -1,0 +1,8 @@
+conn:just_as conn_POS:RB_IN prev1:'' prev1_POS:'' with_prev1_full:''_just_as with_prev1_POS_full:''_RB_IN prev2:reasons prev2_POS:NNS with_prev2_full:reasons_just_as with_prev2_POS_full:NNS_RB_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Entertainment prev1_POS:NNP with_prev1_full:Entertainment_also with_prev1_POS_full:NNP_RB prev2:Qintex prev2_POS:NNP with_prev2_full:Qintex_also with_prev2_POS_full:NNP_RB PS
+conn:until conn_POS:IN prev1:stay prev1_POS:VB with_prev1_full:stay_until with_prev1_POS_full:VB_IN prev2:will prev2_POS:MD with_prev2_full:will_until with_prev2_POS_full:MD_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Separately conn_POS:RB sent_pos:0 PS

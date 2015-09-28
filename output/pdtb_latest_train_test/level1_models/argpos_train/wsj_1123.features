@@ -1,0 +1,7 @@
+conn:also conn_POS:RB sent_pos:2 prev1:critics prev1_POS:NNS with_prev1_full:critics_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:but conn_POS:CC prev1:... prev1_POS:: with_prev1_full:..._but with_prev1_POS_full::_CC prev2:golfers prev2_POS:NNS with_prev2_full:golfers_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:miss prev2_POS:VBP with_prev2_full:miss_and with_prev2_POS_full:VBP_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:Lauder prev1_POS:NNP with_prev1_full:Lauder_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:because conn_POS:IN prev1:... prev1_POS:: with_prev1_full:..._because with_prev1_POS_full::_IN prev2:issues prev2_POS:NNS with_prev2_full:issues_because with_prev2_POS_full:NNS_IN SS

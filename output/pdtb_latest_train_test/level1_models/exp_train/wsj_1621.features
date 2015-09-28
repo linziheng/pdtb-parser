@@ -1,0 +1,8 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:earnings_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

@@ -1,0 +1,10 @@
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:rock_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:liquid_when Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:done_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:RB with_prev_full:heightened_because Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:--_while Concession

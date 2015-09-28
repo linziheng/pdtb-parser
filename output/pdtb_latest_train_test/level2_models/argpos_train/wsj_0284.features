@@ -1,0 +1,17 @@
+conn:and conn_POS:CC prev1:will prev1_POS:NN with_prev1_full:will_and with_prev1_POS_full:NN_CC prev2:her prev2_POS:PRP$ with_prev2_full:her_and with_prev2_POS_full:PRP$_CC SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:documents prev1_POS:NNS with_prev1_full:documents_because with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:involuntarily prev1_POS:RB with_prev1_full:involuntarily_and with_prev1_POS_full:RB_CC prev2:here prev2_POS:RB with_prev2_full:here_and with_prev2_POS_full:RB_CC SS
+conn:because conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_because with_prev1_POS_full:CC_RB prev2:involuntarily prev2_POS:RB with_prev2_full:involuntarily_because with_prev2_POS_full:RB_RB SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:judge prev1_POS:NN with_prev1_full:judge_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Keenan prev1_POS:NNP with_prev1_full:Keenan_also with_prev1_POS_full:NNP_RB prev2:Judge prev2_POS:NNP with_prev2_full:Judge_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:consultants prev1_POS:NNS with_prev1_full:consultants_and with_prev1_POS_full:NNS_CC prev2:legal prev2_POS:JJ with_prev2_full:legal_and with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:office prev2_POS:NN with_prev2_full:office_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:venture prev2_POS:NN with_prev2_full:venture_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:UAW prev1_POS:NNP with_prev1_full:UAW_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

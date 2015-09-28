@@ -1,0 +1,23 @@
+conn:when conn_POS:WRB prev1:pinch prev1_POS:VB with_prev1_full:pinch_when with_prev1_POS_full:VB_WRB prev2:to prev2_POS:TO with_prev2_full:to_when with_prev2_POS_full:TO_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:disruptions prev2_POS:NNS with_prev2_full:disruptions_but with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:but prev1_POS:CC with_prev1_full:but_when with_prev1_POS_full:CC_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:measures prev2_POS:NNS with_prev2_full:measures_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:deeper prev2_POS:JJR with_prev2_full:deeper_because with_prev2_POS_full:JJR_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:funds prev2_POS:NNS with_prev2_full:funds_but with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:traders prev1_POS:NNS with_prev1_full:traders_also with_prev1_POS_full:NNS_RB prev2:Foreign prev2_POS:JJ with_prev2_full:Foreign_also with_prev2_POS_full:JJ_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:projects prev2_POS:NNS with_prev2_full:projects_and with_prev2_POS_full:NNS_CC SS
+conn:Even_when conn_POS:RB_WRB sent_pos:0 SS
+conn:because conn_POS:IN prev1:tight prev1_POS:JJ with_prev1_full:tight_because with_prev1_POS_full:JJ_IN prev2:be prev2_POS:VB with_prev2_full:be_because with_prev2_POS_full:VB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:loans prev1_POS:NNS with_prev1_full:loans_because with_prev1_POS_full:NNS_IN prev2:new prev2_POS:JJ with_prev2_full:new_because with_prev2_POS_full:JJ_IN SS
+conn:as conn_POS:IN prev1:period prev1_POS:NN with_prev1_full:period_as with_prev1_POS_full:NN_IN prev2:repayment prev2_POS:NN with_prev2_full:repayment_as with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:shortages prev1_POS:NNS with_prev1_full:shortages_also with_prev1_POS_full:NNS_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS

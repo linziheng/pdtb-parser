@@ -1,0 +1,32 @@
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:increasing_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:increasing_as Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:alarmed_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:alarmed_when Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:home_instead Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:;_once Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:help_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:others_if Contingency

@@ -1,0 +1,23 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:at_least_when conn:at_least_when conn_POS:IN_JJS_WRB with_prev_full:,_at_least_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:head_and Conjunction
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:yet conn:Yet conn_POS:RB Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:yet conn:Yet conn_POS:CC Concession
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:to_if Condition
+conn_lc:yet conn:Yet conn_POS:RB Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:sings_while Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:monroe_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

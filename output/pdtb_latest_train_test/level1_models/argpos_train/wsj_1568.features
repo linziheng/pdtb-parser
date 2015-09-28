@@ -1,0 +1,20 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:store prev2_POS:NN with_prev2_full:store_while with_prev2_POS_full:NN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:gently prev1_POS:RB with_prev1_full:gently_and with_prev1_POS_full:RB_CC prev2:lap prev2_POS:VBP with_prev2_full:lap_and with_prev2_POS_full:VBP_CC SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:Beach prev1_POS:NNP with_prev1_full:Beach_also with_prev1_POS_full:NNP_RB prev2:Newport prev2_POS:NNP with_prev2_full:Newport_also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:-3 prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:greedy prev2_POS:JJ with_prev2_full:greedy_then with_prev2_POS_full:JJ_RB SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:cheap prev2_POS:JJ with_prev2_full:cheap_since with_prev2_POS_full:JJ_IN SS
+conn:Indeed conn_POS:UH sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:table prev1_POS:NN with_prev1_full:table_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB prev1:operators prev1_POS:NNS with_prev1_full:operators_also with_prev1_POS_full:NNS_RB prev2:Beach prev2_POS:NNP with_prev2_full:Beach_also with_prev2_POS_full:NNP_RB PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:too prev2_POS:RB with_prev2_full:too_since with_prev2_POS_full:RB_IN SS

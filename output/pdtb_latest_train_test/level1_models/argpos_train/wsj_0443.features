@@ -1,0 +1,9 @@
+conn:because conn_POS:IN prev1:interest prev1_POS:NN with_prev1_full:interest_because with_prev1_POS_full:NN_IN prev2:national prev2_POS:JJ with_prev2_full:national_because with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comment prev2_POS:VB with_prev2_full:comment_and with_prev2_POS_full:VB_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:commercials prev2_POS:NNS with_prev2_full:commercials_but with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:higher prev1_POS:RBR with_prev1_full:higher_if with_prev1_POS_full:RBR_IN prev2:even prev2_POS:RB with_prev2_full:even_if with_prev2_POS_full:RB_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:instead conn_POS:RB sent_pos:2 prev1:interest prev1_POS:NN with_prev1_full:interest_instead with_prev1_POS_full:NN_RB prev2:But prev2_POS:CC with_prev2_full:But_instead with_prev2_POS_full:CC_RB PS

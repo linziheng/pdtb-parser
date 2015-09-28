@@ -1,0 +1,26 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:models_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:year_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:digital_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:digital_when Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:digital_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:ibm_when Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:market_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Contingency
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:mainframes_as_soon_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:december_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:december_as Contingency
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:and_partly_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:earnings_when Temporal

@@ -1,0 +1,20 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:unless conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_unless with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:By_then conn_POS:IN_RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:says prev2_POS:VBZ with_prev2_full:says_if with_prev2_POS_full:VBZ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:steadily prev1_POS:RB with_prev1_full:steadily_and with_prev1_POS_full:RB_CC prev2:risen prev2_POS:VBN with_prev2_full:risen_and with_prev2_POS_full:VBN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:prospered prev1_POS:VBN with_prev1_full:prospered_because with_prev1_POS_full:VBN_IN prev2:has prev2_POS:VBZ with_prev2_full:has_because with_prev2_POS_full:VBZ_IN SS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:spending prev2_POS:NN with_prev2_full:spending_also with_prev2_POS_full:NN_RB SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:could prev2_POS:MD with_prev2_full:could_if with_prev2_POS_full:MD_IN SS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:spending prev2_POS:NN with_prev2_full:spending_since with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,25 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:brands_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:brands_when Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:responsibilities_while Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:benefits_but Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:535_when Pragmatic_condition
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:consequently conn:consequently conn_POS:RB with_prev_full:standing_consequently Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:society_and Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:finally conn:Finally conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:more_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:expect_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:making_and Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Conjunction
+conn_lc:finally conn:Finally conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:more_and Conjunction
+conn_lc:moreover conn:moreover conn_POS:RB with_prev_full:,_moreover Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:senate_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:senate_when Synchrony
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:furthermore conn:furthermore conn_POS:RB with_prev_full:,_furthermore Conjunction
+conn_lc:in_sum conn:In_sum conn_POS:IN_NN Restatement

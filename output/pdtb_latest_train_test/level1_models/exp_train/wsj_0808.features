@@ -1,0 +1,4 @@
+conn_lc:ever_since conn:Ever_since conn_POS:RB_IN Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:is_then Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:reviewed_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion

@@ -1,0 +1,29 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:takeover_and Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:so conn:So conn_POS:CC Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:points_if Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:much_unless Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stonewalled_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:steinhardt_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:stock_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:but_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:but_meanwhile Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarters_as Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:while conn:While conn_POS:IN Comparison

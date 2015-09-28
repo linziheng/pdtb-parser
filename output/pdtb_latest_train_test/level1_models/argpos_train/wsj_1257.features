@@ -1,0 +1,3 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:closing prev2_POS:VBG with_prev2_full:closing_but with_prev2_POS_full:VBG_CC SS
+conn:when conn_POS:WRB prev1:system prev1_POS:NN with_prev1_full:system_when with_prev1_POS_full:NN_WRB prev2:franchise prev2_POS:NN with_prev2_full:franchise_when with_prev2_POS_full:NN_WRB SS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:Shareholders prev2_POS:NNS with_prev2_full:Shareholders_also with_prev2_POS_full:NNS_RB PS

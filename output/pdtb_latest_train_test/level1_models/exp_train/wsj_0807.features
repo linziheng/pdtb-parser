@@ -1,0 +1,7 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:operations_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:operations_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:plunged_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:plunged_when Contingency

@@ -1,0 +1,39 @@
+17:01:25.093 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+17:01:25.099 s.e.n.c.p.u.NestedProperties INFO  [main:68] - Done loading properties.
+17:01:26.168 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:121] - Scores
+17:01:26.168 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:122] - Connective
+17:01:26.169 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:123] - 
+
+Prec	Recall	F1
+80.02	49.70	61.32
+
+17:01:26.169 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:125] - Argument 1 Exact
+17:01:26.170 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:126] - 
+
+Prec	Recall	F1
+37.94	23.56	29.07
+
+17:01:26.170 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:128] - Argument 2 Exact
+17:01:26.170 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:129] - 
+
+Prec	Recall	F1
+45.63	28.34	34.96
+
+17:01:26.170 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:131] - Both Arguments Exact
+17:01:26.170 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:132] - 
+
+Prec	Recall	F1
+27.61	17.15	21.16
+
+17:01:26.171 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:134] - Explicit Sense
+17:01:26.171 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:135] - 
+
+Prec	Recall	F1
+75.81	47.08	58.09
+
+17:01:26.171 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:137] - NonExplicit Sense
+17:01:26.171 c.e.n.c.p.r.ScorePdtbOnBioDrb INFO  [main:138] - 
+
+Prec	Recall	F1
+20.76	20.60	20.68
+

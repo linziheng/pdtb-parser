@@ -1,0 +1,21 @@
+conn:if conn_POS:IN prev1:dive prev1_POS:NN with_prev1_full:dive_if with_prev1_POS_full:NN_IN prev2:sharp prev2_POS:JJ with_prev2_full:sharp_if with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:widely prev2_POS:RB with_prev2_full:widely_but with_prev2_POS_full:RB_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:who prev1_POS:WP with_prev1_full:who_also with_prev1_POS_full:WP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:even_if conn_POS:RB_IN prev1:that prev1_POS:IN with_prev1_full:that_even_if with_prev1_POS_full:IN_RB_IN prev2:warns prev2_POS:VBZ with_prev2_full:warns_even_if with_prev2_POS_full:VBZ_RB_IN SS
+conn:because conn_POS:IN prev1:much prev1_POS:RB with_prev1_full:much_because with_prev1_POS_full:RB_IN prev2:advance prev2_POS:VB with_prev2_full:advance_because with_prev2_POS_full:VB_IN SS
+conn:before conn_POS:IN prev1:turnaround prev1_POS:NN with_prev1_full:turnaround_before with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_before with_prev2_POS_full:DT_IN SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:expected prev1_POS:VBN with_prev1_full:expected_as with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_as with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:if conn_POS:IN prev1:again prev1_POS:RB with_prev1_full:again_if with_prev1_POS_full:RB_IN prev2:rates prev2_POS:NNS with_prev2_full:rates_if with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:place prev1_POS:NN with_prev1_full:place_and with_prev1_POS_full:NN_CC prev2:take prev2_POS:VB with_prev2_full:take_and with_prev2_POS_full:VB_CC SS
+conn:if conn_POS:IN sent_pos:-3 prev1:higher prev1_POS:RBR with_prev1_full:higher_if with_prev1_POS_full:RBR_IN prev2:pushed prev2_POS:VBN with_prev2_full:pushed_if with_prev2_POS_full:VBN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:suggested prev2_POS:VBD with_prev2_full:suggested_if with_prev2_POS_full:VBD_IN SS
+conn:as conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_as with_prev1_POS_full:NN_IN prev2:quiet prev2_POS:JJ with_prev2_full:quiet_as with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:currency prev2_POS:NN with_prev2_full:currency_also with_prev2_POS_full:NN_RB PS

@@ -1,0 +1,4 @@
+conn:while conn_POS:IN prev1:quarter prev1_POS:NN with_prev1_full:quarter_while with_prev1_POS_full:NN_IN prev2:third prev2_POS:JJ with_prev2_full:third_while with_prev2_POS_full:JJ_IN SS
+conn:as conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_as with_prev1_POS_full:NNS_IN prev2:two prev2_POS:CD with_prev2_full:two_as with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:rose prev1_POS:VBP with_prev1_full:rose_and with_prev1_POS_full:VBP_CC prev2:yields prev2_POS:NNS with_prev2_full:yields_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,2 @@
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:Indianapolis prev2_POS:NNP with_prev2_full:Indianapolis_when with_prev2_POS_full:NNP_WRB SS
+conn:because conn_POS:IN prev1:retire prev1_POS:VB with_prev1_full:retire_because with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_because with_prev2_POS_full:TO_IN SS

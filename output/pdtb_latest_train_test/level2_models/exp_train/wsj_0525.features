@@ -1,0 +1,20 @@
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:consequently conn:Consequently conn_POS:RB Cause
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:decade_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:decade_as Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:inc._also Conjunction
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:separately conn:Separately conn_POS:RB Alternative
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:up_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast

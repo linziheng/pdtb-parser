@@ -1,0 +1,23 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:year_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:year_as Pragmatic_cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:bonds_and Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:munis_as Synchrony
+conn_lc:as_well conn:as_well conn_POS:RB_RB with_prev_full:work_as_well Conjunction
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:--_even_as Synchrony
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:value_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:week_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:weaker_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:rising_as Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:market_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:securities_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:1\/2_after Asynchronous

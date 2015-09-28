@@ -1,0 +1,16 @@
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Calif. prev2_POS:NNP with_prev2_full:Calif._after with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:inquiry prev1_POS:NN with_prev1_full:inquiry_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:parent prev2_POS:NN with_prev2_full:parent_and with_prev2_POS_full:NN_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:government prev2_POS:NN with_prev2_full:government_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:except conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_except with_prev1_POS_full:,_IN prev2:hearings prev2_POS:NNS with_prev2_full:hearings_except with_prev2_POS_full:NNS_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:before conn_POS:IN prev1:Lincoln prev1_POS:NNP with_prev1_full:Lincoln_before with_prev1_POS_full:NNP_IN prev2:of prev2_POS:IN with_prev2_full:of_before with_prev2_POS_full:IN_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:Lincoln prev1_POS:NNP with_prev1_full:Lincoln_because with_prev1_POS_full:NNP_IN prev2:of prev2_POS:IN with_prev2_full:of_because with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_also with_prev2_POS_full:-RRB-_RB PS
+conn:also conn_POS:RB prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_also with_prev1_POS_full:-RRB-_RB prev2:Calif. prev2_POS:NNP with_prev2_full:Calif._also with_prev2_POS_full:NNP_RB PS
+conn:if conn_POS:IN sent_pos:-3 prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:committee prev2_POS:NN with_prev2_full:committee_if with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

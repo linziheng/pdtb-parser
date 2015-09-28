@@ -1,0 +1,21 @@
+conn_lc:if conn:IF conn_POS:IN Contingency
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:similarly conn:Similarly conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:soar_when Temporal
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:if_and_when conn:if_and_when conn_POS:IN_CC_WRB with_prev_full:unsure_if_and_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:''_while Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

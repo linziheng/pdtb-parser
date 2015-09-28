@@ -1,0 +1,46 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:picture_and Expansion
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:deputies_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:functionaries_when Temporal
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:germany_because Contingency
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS with_prev_full:-lrb-_in_other_words Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:reported_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as_well conn:as_well conn_POS:RB_RB with_prev_full:thereafter_as_well Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:primarily_because conn:Primarily_because conn_POS:RB_IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:schizophrenia_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:professed_and Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency
+conn_lc:or conn:or conn_POS:CC with_prev_full:caught_or Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:or_if Contingency
+conn_lc:or conn:or conn_POS:CC with_prev_full:''_or Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:failed_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:you_but Comparison
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:mad_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:mad_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:or conn:Or conn_POS:CC Comparison

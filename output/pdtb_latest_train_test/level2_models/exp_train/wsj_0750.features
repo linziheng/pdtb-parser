@@ -1,0 +1,8 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:anti-intellectualism_and Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:call_when Condition
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction

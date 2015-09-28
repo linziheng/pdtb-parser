@@ -1,0 +1,7 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:group prev2_POS:NN with_prev2_full:group_but with_prev2_POS_full:NN_CC SS
+conn:a_few_months_after conn_POS:DT_JJ_NNS_IN prev1:, prev1_POS:, with_prev1_full:,_a_few_months_after with_prev1_POS_full:,_DT_JJ_NNS_IN prev2:1987 prev2_POS:CD with_prev2_full:1987_a_few_months_after with_prev2_POS_full:CD_DT_JJ_NNS_IN SS
+conn:also conn_POS:RB prev1:bank prev1_POS:NN with_prev1_full:bank_also with_prev1_POS_full:NN_RB prev2:merchant prev2_POS:NN with_prev2_full:merchant_also with_prev2_POS_full:NN_RB PS
+conn:one_day_after conn_POS:CD_NN_IN prev1:comes prev1_POS:VBZ with_prev1_full:comes_one_day_after with_prev1_POS_full:VBZ_CD_NN_IN prev2:retirement prev2_POS:NN with_prev2_full:retirement_one_day_after with_prev2_POS_full:NN_CD_NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:earlier prev2_POS:RB with_prev2_full:earlier_but with_prev2_POS_full:RB_CC SS
+conn:until conn_POS:IN prev1:remain prev1_POS:VB with_prev1_full:remain_until with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_until with_prev2_POS_full:TO_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS

@@ -1,0 +1,4 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:13th prev2_POS:NNP with_prev2_full:13th_and with_prev2_POS_full:NNP_CC SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

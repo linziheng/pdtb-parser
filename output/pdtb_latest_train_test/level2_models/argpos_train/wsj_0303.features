@@ -1,0 +1,2 @@
+conn:only_if conn_POS:RB_IN prev1:and prev1_POS:CC with_prev1_full:and_only_if with_prev1_POS_full:CC_RB_IN prev2:, prev2_POS:, with_prev2_full:,_only_if with_prev2_POS_full:,_RB_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:liberals prev2_POS:NNS with_prev2_full:liberals_if with_prev2_POS_full:NNS_IN SS

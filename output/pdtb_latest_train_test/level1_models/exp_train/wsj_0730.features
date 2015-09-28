@@ -1,0 +1,26 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:stabbed_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:robberies_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tickets_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:delays_if Contingency
+conn_lc:specifically conn:Specifically conn_POS:RB Expansion
+conn_lc:before conn:Before conn_POS:IN Temporal
+conn_lc:if_if_they_'re_telling_the_truth_now_,_then conn:If_If_they_'re_telling_the_truth_now_,_then conn_POS:IN_IN_PRP_VBP_VBG_DT_NN_RB_,_RB with_prev_full:``_if_if_they_'re_telling_the_truth_now_,_then Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:before conn:Before conn_POS:IN with_prev_full:lag_before Temporal
+conn_lc:if conn:IF conn_POS:IN Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:be_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:happens_because Contingency
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:;_by_contrast Comparison
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:hours_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:heroes_if Contingency

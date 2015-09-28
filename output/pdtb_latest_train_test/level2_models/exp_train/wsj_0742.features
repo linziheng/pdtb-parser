@@ -1,0 +1,34 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:since conn:Since conn_POS:IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:chicago_before Asynchronous
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:exchange_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:futures_when Synchrony
+conn_lc:a_decade_before conn:a_decade_before conn_POS:DT_NN_IN with_prev_full:,_a_decade_before Asynchronous
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:and_although Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tools_when Synchrony
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:securities_so_that Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:also conn:also conn_POS:RB with_prev_full:--_also Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Contrast

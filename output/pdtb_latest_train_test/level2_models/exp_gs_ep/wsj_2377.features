@@ -1,0 +1,20 @@
+conn_lc:as conn:As conn_POS:IN Synchrony£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:to_when Synchrony£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:responsibilities_when Pragmatic_condition£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:happened_when Synchrony£
+conn_lc:while conn:while conn_POS:IN with_prev_full:place_while Synchrony£
+conn_lc:also conn:also conn_POS:RB with_prev_full:'ve_also Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:thus conn:Thus conn_POS:RB Cause£
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:testify_nor Conjunction£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Cause£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast£
+conn_lc:thus conn:Thus conn_POS:RB Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:matter_only_if Condition£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Cause£
+conn_lc:thus conn:Thus conn_POS:RB Cause£
+conn_lc:particularly_after conn:particularly_after conn_POS:RB_IN with_prev_full:,_particularly_after Asynchronous£

@@ -1,0 +1,20 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:When conn_POS:WRB prev1:: prev1_POS:: with_prev1_full::_When with_prev1_POS_full::_WRB prev2:Chekhov prev2_POS:NNP with_prev2_full:Chekhov_When with_prev2_POS_full:NNP_WRB SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:children prev1_POS:NNS with_prev1_full:children_and with_prev1_POS_full:NNS_CC prev2:have prev2_POS:VBP with_prev2_full:have_and with_prev2_POS_full:VBP_CC SS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:n't prev2_POS:RB with_prev2_full:n't_so with_prev2_POS_full:RB_RB SS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:them prev2_POS:PRP with_prev2_full:them_since with_prev2_POS_full:PRP_IN SS
+conn:or conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_or with_prev1_POS_full::_CC prev2:one prev2_POS:CD with_prev2_full:one_or with_prev2_POS_full:CD_CC SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:; prev1_POS:: with_prev1_full:;_when with_prev1_POS_full::_WRB prev2:score prev2_POS:NN with_prev2_full:score_when with_prev2_POS_full:NN_WRB SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:mother prev2_POS:NN with_prev2_full:mother_so with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:pain prev2_POS:NN with_prev2_full:pain_when with_prev2_POS_full:NN_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:by_comparison conn_POS:IN_NN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_by_comparison with_prev1_POS_full:CC_IN_NN PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:view prev2_POS:NN with_prev2_full:view_then with_prev2_POS_full:NN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:voice prev2_POS:NN with_prev2_full:voice_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_then with_prev1_POS_full:CC_RB PS

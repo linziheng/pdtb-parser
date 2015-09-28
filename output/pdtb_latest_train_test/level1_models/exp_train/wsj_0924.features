@@ -1,0 +1,4 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:triggered_if Contingency
+conn_lc:once conn:Once conn_POS:RB Contingency
+conn_lc:separately conn:Separately conn_POS:RB Temporal
+conn_lc:separately conn:Separately conn_POS:RB Expansion

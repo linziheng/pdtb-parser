@@ -1,0 +1,16 @@
+conn:When conn_POS:WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:slow prev2_POS:JJ with_prev2_full:slow_but with_prev2_POS_full:JJ_CC SS
+conn:Though conn_POS:NNP sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:coming prev2_POS:VBG with_prev2_full:coming_but with_prev2_POS_full:VBG_CC SS
+conn:unless conn_POS:IN prev1:store prev1_POS:NN with_prev1_full:store_unless with_prev1_POS_full:NN_IN prev2:fast-food prev2_POS:NN with_prev2_full:fast-food_unless with_prev2_POS_full:NN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_If with_prev2_POS_full:,_IN SS
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:once conn_POS:RB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_once with_prev1_POS_full:CC_RB SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN SS

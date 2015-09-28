@@ -1,0 +1,4 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:nadeau_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:-lcb-_and Conjunction
+conn_lc:only_until conn:only_until conn_POS:RB_IN with_prev_full:executive_only_until Asynchronous

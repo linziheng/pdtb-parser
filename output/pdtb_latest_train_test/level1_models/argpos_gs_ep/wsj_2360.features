@@ -1,0 +1,13 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Regulators prev1_POS:NNS with_prev1_full:Regulators_also with_prev1_POS_full:NNS_RB PS
+conn:until conn_POS:IN prev1:dividends prev1_POS:NNS with_prev1_full:dividends_until with_prev1_POS_full:NNS_IN prev2:stock prev2_POS:NN with_prev2_full:stock_until with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:holdings prev2_POS:NNS with_prev2_full:holdings_but with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:quarter prev2_POS:NN with_prev2_full:quarter_for_instance with_prev2_POS_full:NN_IN_NN PS
+conn:instead conn_POS:RB prev1:should prev1_POS:MD with_prev1_full:should_instead with_prev1_POS_full:MD_RB prev2:regulators prev2_POS:NNS with_prev2_full:regulators_instead with_prev2_POS_full:NNS_RB PS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:CenTrust prev2_POS:NNP with_prev2_full:CenTrust_however with_prev2_POS_full:NNP_RB PS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:30 prev2_POS:CD with_prev2_full:30_thus with_prev2_POS_full:CD_RB SS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:sale prev2_POS:NN with_prev2_full:sale_also with_prev2_POS_full:NN_RB PS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Critics prev2_POS:NNS with_prev2_full:Critics_however with_prev2_POS_full:NNS_RB PS
+conn:when conn_POS:WRB prev1:deposit prev1_POS:NN with_prev1_full:deposit_when with_prev1_POS_full:NN_WRB prev2:of prev2_POS:IN with_prev2_full:of_when with_prev2_POS_full:IN_WRB SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:thrift prev2_POS:NN with_prev2_full:thrift_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:bonds prev2_POS:NNS with_prev2_full:bonds_and with_prev2_POS_full:NNS_CC SS

@@ -1,0 +1,14 @@
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:;_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:flawed_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:until conn:until conn_POS:IN with_prev_full:anywhere_until Asynchronous
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:,_so_that Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:incentive_because Cause
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:if_if_i_am_catching_your_attention_,_then conn:If_If_I_am_catching_your_attention_,_then conn_POS:IN_IN_PRP_VBP_VBG_PRP$_NN_,_RB Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:views_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:views_and Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition

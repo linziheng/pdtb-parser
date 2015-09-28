@@ -1,0 +1,13 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Californians prev2_POS:NNS with_prev2_full:Californians_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:today prev2_POS:NN with_prev2_full:today_and with_prev2_POS_full:NN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_after with_prev1_POS_full:VBD_IN prev2:reversal prev2_POS:NN with_prev2_full:reversal_after with_prev2_POS_full:NN_IN SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Greifswald prev2_POS:NNP with_prev2_full:Greifswald_and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB prev1:monitor prev1_POS:NN with_prev1_full:monitor_also with_prev1_POS_full:NN_RB prev2:human-rights prev2_POS:NNS with_prev2_full:human-rights_also with_prev2_POS_full:NNS_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:Jupiter prev2_POS:NNP with_prev2_full:Jupiter_while with_prev2_POS_full:NNP_IN SS
+conn:seven_years_after conn_POS:CD_NNS_IN prev1:, prev1_POS:, with_prev1_full:,_seven_years_after with_prev1_POS_full:,_CD_NNS_IN prev2:relations prev2_POS:NNS with_prev2_full:relations_seven_years_after with_prev2_POS_full:NNS_CD_NNS_IN SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:people prev2_POS:NNS with_prev2_full:people_as with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Fighting prev1_POS:NN with_prev1_full:Fighting_also with_prev1_POS_full:NN_RB PS
+conn:as conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_as with_prev1_POS_full:VBD_IN prev2:talks prev2_POS:NNS with_prev2_full:talks_as with_prev2_POS_full:NNS_IN SS

@@ -1,0 +1,6 @@
+conn:a_year_after conn_POS:DT_NN_IN prev1:comes prev1_POS:VBZ with_prev1_full:comes_a_year_after with_prev1_POS_full:VBZ_DT_NN_IN prev2:decline prev2_POS:NN with_prev2_full:decline_a_year_after with_prev2_POS_full:NN_DT_NN_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:business prev2_POS:NN with_prev2_full:business_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:industrywide prev1_POS:RB with_prev1_full:industrywide_as with_prev1_POS_full:RB_IN prev2:reflected prev2_POS:VBN with_prev2_full:reflected_as with_prev2_POS_full:VBN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:trouble prev2_POS:NN with_prev2_full:trouble_and with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,9 @@
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:printing prev2_POS:NN with_prev2_full:printing_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:market prev2_POS:NN with_prev2_full:market_while with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:10,000 prev1_POS:CD with_prev1_full:10,000_when with_prev1_POS_full:CD_WRB prev2:under prev2_POS:IN with_prev2_full:under_when with_prev2_POS_full:IN_WRB SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:Quebecor prev1_POS:NNP with_prev1_full:Quebecor_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB PS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:purchase prev2_POS:NN with_prev2_full:purchase_but with_prev2_POS_full:NN_CC SS

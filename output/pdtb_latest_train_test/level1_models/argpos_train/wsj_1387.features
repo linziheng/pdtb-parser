@@ -1,0 +1,29 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_as with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:hurt prev1_POS:VBN with_prev1_full:hurt_because with_prev1_POS_full:VBN_IN prev2:most prev2_POS:RBS with_prev2_full:most_because with_prev2_POS_full:RBS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:all prev1_POS:DT with_prev1_full:all_because with_prev1_POS_full:DT_IN prev2:at prev2_POS:IN with_prev2_full:at_because with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:restrictions prev2_POS:NNS with_prev2_full:restrictions_and with_prev2_POS_full:NNS_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:organizations prev2_POS:NNS with_prev2_full:organizations_and with_prev2_POS_full:NNS_CC SS
+conn:since conn_POS:IN prev1:been prev1_POS:VBN with_prev1_full:been_since with_prev1_POS_full:VBN_IN prev2:has prev2_POS:VBZ with_prev2_full:has_since with_prev2_POS_full:VBZ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_because with_prev1_POS_full:CC_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:plan prev1_POS:NN with_prev1_full:plan_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:cards prev2_POS:NNS with_prev2_full:cards_or with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:far prev2_POS:RB with_prev2_full:far_though with_prev2_POS_full:RB_RB PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:illegal prev1_POS:JJ with_prev1_full:illegal_because with_prev1_POS_full:JJ_IN prev2:be prev2_POS:VB with_prev2_full:be_because with_prev2_POS_full:VB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:foreign prev2_POS:JJ with_prev2_full:foreign_but with_prev2_POS_full:JJ_CC SS
+conn:because conn_POS:IN prev1:complicated prev1_POS:VBN with_prev1_full:complicated_because with_prev1_POS_full:VBN_IN prev2:further prev2_POS:RB with_prev2_full:further_because with_prev2_POS_full:RB_IN SS
+conn:although conn_POS:IN prev1:because prev1_POS:IN with_prev1_full:because_although with_prev1_POS_full:IN_IN prev2:complicated prev2_POS:VBN with_prev2_full:complicated_although with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:Korean prev1_POS:JJ with_prev1_full:Korean_because with_prev1_POS_full:JJ_IN prev2:South prev2_POS:JJ with_prev2_full:South_because with_prev2_POS_full:JJ_IN SS

@@ -1,0 +1,5 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:deaths prev2_POS:NNS with_prev2_full:deaths_but with_prev2_POS_full:NNS_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:operations prev2_POS:NNS with_prev2_full:operations_because with_prev2_POS_full:NNS_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:efforts prev2_POS:NNS with_prev2_full:efforts_but with_prev2_POS_full:NNS_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:hospitals prev2_POS:NNS with_prev2_full:hospitals_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:injured prev1_POS:VBN with_prev1_full:injured_and with_prev1_POS_full:VBN_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS

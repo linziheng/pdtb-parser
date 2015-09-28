@@ -1,0 +1,3 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:upheld_because Contingency
+conn_lc:however conn:However conn_POS:RB Comparison

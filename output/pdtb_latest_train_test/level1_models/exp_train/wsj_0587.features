@@ -1,0 +1,8 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:prison_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:measure_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:rebels_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:pact_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:saturday_while Temporal

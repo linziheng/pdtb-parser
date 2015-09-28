@@ -1,0 +1,22 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Expansion
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:after conn:After conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:still conn:still conn_POS:RB with_prev_full:,_still Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:groups_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:outraged_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:outraged_after Contingency
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:especially_as conn:especially_as conn_POS:RB_IN with_prev_full:,_especially_as Temporal
+conn_lc:especially_as conn:especially_as conn_POS:RB_IN with_prev_full:,_especially_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:benefit_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:which_then Temporal
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:might_otherwise Expansion
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:,_yet Comparison

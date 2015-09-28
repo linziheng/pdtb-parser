@@ -1,0 +1,5 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:economy_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:pace_and Conjunction
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Contrast

@@ -1,0 +1,5 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:then_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:break_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

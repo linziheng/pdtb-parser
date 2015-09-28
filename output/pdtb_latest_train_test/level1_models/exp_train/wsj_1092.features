@@ -1,0 +1,16 @@
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as_if conn:as_if conn_POS:IN_IN with_prev_full:behave_as_if Expansion
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:;_instead Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:culture_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:norms_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:,_only_when Temporal
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:,_only_when Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency

@@ -1,0 +1,9 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:temblor prev2_POS:NN with_prev2_full:temblor_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:killed prev1_POS:VBN with_prev1_full:killed_and with_prev1_POS_full:VBN_CC prev2:reported prev2_POS:VBN with_prev2_full:reported_and with_prev2_POS_full:VBN_CC SS
+conn:and conn_POS:CC prev1:area prev1_POS:NN with_prev1_full:area_and with_prev1_POS_full:NN_CC prev2:disaster prev2_POS:NN with_prev2_full:disaster_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Fla. prev2_POS:NNP with_prev2_full:Fla._and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:13,120 prev2_POS:CD with_prev2_full:13,120_but with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:Lebanon prev1_POS:NNP with_prev1_full:Lebanon_before with_prev1_POS_full:NNP_IN prev2:from prev2_POS:IN with_prev2_full:from_before with_prev2_POS_full:IN_IN SS

@@ -1,0 +1,13 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:numbers prev1_POS:NNS with_prev1_full:numbers_and with_prev1_POS_full:NNS_CC prev2:these prev2_POS:DT with_prev2_full:these_and with_prev2_POS_full:DT_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_For_example with_prev1_POS_full:``_IN_NN PS
+conn:also conn_POS:RB sent_pos:1 prev1:Warner prev1_POS:NNP with_prev1_full:Warner_also with_prev1_POS_full:NNP_RB PS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:publishing prev2_POS:NN with_prev2_full:publishing_even_though with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:'' prev2_POS:'' with_prev2_full:''_also with_prev2_POS_full:''_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Warner prev1_POS:NNP with_prev1_full:Warner_also with_prev1_POS_full:NNP_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:On_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:flow prev1_POS:NN with_prev1_full:flow_because with_prev1_POS_full:NN_IN prev2:cash prev2_POS:NN with_prev2_full:cash_because with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:System prev1_POS:NNP with_prev1_full:System_and with_prev1_POS_full:NNP_CC prev2:Broadcasting prev2_POS:NNP with_prev2_full:Broadcasting_and with_prev2_POS_full:NNP_CC SS
+conn:because conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_because with_prev1_POS_full:CC_IN prev2:System prev2_POS:NNP with_prev2_full:System_because with_prev2_POS_full:NNP_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:1.875 prev2_POS:CD with_prev2_full:1.875_while with_prev2_POS_full:CD_IN SS

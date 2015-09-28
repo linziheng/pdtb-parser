@@ -1,0 +1,5 @@
+conn:but conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_but with_prev1_POS_full::_CC prev2:limit prev2_POS:NN with_prev2_full:limit_but with_prev2_POS_full:NN_CC SS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Republicans prev2_POS:NNPS with_prev2_full:Republicans_meanwhile with_prev2_POS_full:NNPS_RB PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:night prev2_POS:NN with_prev2_full:night_after with_prev2_POS_full:NN_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:cut prev1_POS:NN with_prev1_full:cut_if with_prev1_POS_full:NN_IN prev2:tax prev2_POS:NN with_prev2_full:tax_if with_prev2_POS_full:NN_IN SS

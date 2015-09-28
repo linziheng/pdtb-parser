@@ -1,0 +1,6 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:group_also Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:co._also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:bind_because Contingency

@@ -1,0 +1,45 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:,_once Temporal
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:in_the_end conn:in_the_end conn_POS:IN_DT_NN with_prev_full:because_in_the_end Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Temporal
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:in_part_because conn:in_part_because conn_POS:IN_NN_IN with_prev_full:,_in_part_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:opportunity_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:lottery_when Comparison
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:true_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:once conn:Once conn_POS:IN with_prev_full:``_once Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:after conn:after conn_POS:RB with_prev_full:atlanta_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pitches_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pitches_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sometimes_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sometimes_when Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:dance_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:obviously_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:susceptible_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:susceptible_when Contingency
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency

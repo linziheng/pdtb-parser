@@ -1,0 +1,48 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:risks_if Contingency
+conn_lc:in_short conn:In_short conn_POS:IN_JJ Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:passbook_and Expansion
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:grow_when Temporal
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:you_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stanford_when Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:month_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:amount_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:monthly_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:begins_when Temporal
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:''_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:income_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:funds_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:things_so_that Contingency
+conn_lc:just_when conn:just_when conn_POS:RB_WRB with_prev_full:off_just_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:matter_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:interest_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:happens_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency

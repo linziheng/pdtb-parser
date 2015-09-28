@@ -1,0 +1,10 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:anti-intellectualism prev1_POS:NN with_prev1_full:anti-intellectualism_and with_prev1_POS_full:NN_CC prev2:campus prev2_POS:NN with_prev2_full:campus_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Society prev2_POS:NNP with_prev2_full:Society_but with_prev2_POS_full:NNP_CC SS
+conn:then conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:call prev1_POS:VB with_prev1_full:call_when with_prev1_POS_full:VB_WRB prev2:could prev2_POS:MD with_prev2_full:could_when with_prev2_POS_full:MD_WRB SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:major prev2_POS:NN with_prev2_full:major_but with_prev2_POS_full:NN_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS

@@ -1,0 +1,10 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:year_after Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:restrictions_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:markets_because Contingency
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:sell_even_when Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:weeks_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:decide_before Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:..._but Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:plan_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison

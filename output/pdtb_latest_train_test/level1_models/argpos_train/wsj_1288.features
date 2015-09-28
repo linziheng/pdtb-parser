@@ -1,0 +1,4 @@
+conn:also conn_POS:RB prev1:-- prev1_POS:: with_prev1_full:--_also with_prev1_POS_full::_RB prev2:Securities prev2_POS:NNPS with_prev2_full:Securities_also with_prev2_POS_full:NNPS_RB PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:results prev2_POS:NNS with_prev2_full:results_however with_prev2_POS_full:NNS_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:income prev2_POS:NN with_prev2_full:income_however with_prev2_POS_full:NN_RB PS

@@ -1,0 +1,21 @@
+conn:as conn_POS:IN prev1:pride prev1_POS:NN with_prev1_full:pride_as with_prev1_POS_full:NN_IN prev2:of prev2_POS:IN with_prev2_full:of_as with_prev2_POS_full:IN_IN SS
+conn:long_after conn_POS:RB_IN prev1:profitable prev1_POS:JJ with_prev1_full:profitable_long_after with_prev1_POS_full:JJ_RB_IN prev2:remained prev2_POS:VBD with_prev2_full:remained_long_after with_prev2_POS_full:VBD_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:schedule prev2_POS:NN with_prev2_full:schedule_but with_prev2_POS_full:NN_CC SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:agency prev2_POS:NN with_prev2_full:agency_even_though with_prev2_POS_full:NN_RB_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:worry prev2_POS:VBP with_prev2_full:worry_if with_prev2_POS_full:VBP_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:losses prev1_POS:NNS with_prev1_full:losses_because with_prev1_POS_full:NNS_IN prev2:big prev2_POS:JJ with_prev2_full:big_because with_prev2_POS_full:JJ_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:in_turn conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_turn with_prev1_POS_full:,_IN_NN prev2:government prev2_POS:NN with_prev2_full:government_in_turn with_prev2_POS_full:NN_IN_NN PS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB SS
+conn:when conn_POS:WRB prev1:thwarted prev1_POS:VBN with_prev1_full:thwarted_when with_prev1_POS_full:VBN_WRB prev2:was prev2_POS:VBD with_prev2_full:was_when with_prev2_POS_full:VBD_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:recently prev1_POS:RB with_prev1_full:recently_as with_prev1_POS_full:RB_IN prev2:feet prev2_POS:NNS with_prev2_full:feet_as with_prev2_POS_full:NNS_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:exposure prev1_POS:NN with_prev1_full:exposure_as with_prev1_POS_full:NN_IN prev2:financial prev2_POS:JJ with_prev2_full:financial_as with_prev2_POS_full:JJ_IN SS
+conn:before conn_POS:IN prev1:weeks prev1_POS:NNS with_prev1_full:weeks_before with_prev1_POS_full:NNS_IN prev2:for prev2_POS:IN with_prev2_full:for_before with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:unless conn_POS:IN prev1:unlikely prev1_POS:JJ with_prev1_full:unlikely_unless with_prev1_POS_full:JJ_IN prev2:scheme prev2_POS:NN with_prev2_full:scheme_unless with_prev2_POS_full:NN_IN SS

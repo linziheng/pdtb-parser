@@ -1,0 +1,17 @@
+conn_lc:further conn:Further conn_POS:RBR Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:prostitution_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:earlier conn:Earlier conn_POS:RBR Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:pisa_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:china_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:started_when Synchrony
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:stopped_unless Alternative
+conn_lc:because conn:because conn_POS:IN with_prev_full:plan_because Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Cause
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:later conn:later conn_POS:RB with_prev_full:off_later Asynchronous

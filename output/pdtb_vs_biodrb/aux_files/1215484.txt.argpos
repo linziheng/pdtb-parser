@@ -1,0 +1,14 @@
+conn:as conn_POS:IN prev1:practice prev1_POS:NN with_prev1_full:practice_as with_prev1_POS_full:NN_IN prev2:clinical prev2_POS:JJ with_prev2_full:clinical_as with_prev2_POS_full:JJ_IN NA
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:cancer prev2_POS:NN with_prev2_full:cancer_however with_prev2_POS_full:NN_RB NA
+conn:after conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_after with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_after with_prev2_POS_full:,_IN NA
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:population prev2_POS:NN with_prev2_full:population_so with_prev2_POS_full:NN_IN NA
+conn:Although conn_POS:IN sent_pos:0 NA
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:mammography prev2_POS:NN with_prev2_full:mammography_however with_prev2_POS_full:NN_RB NA
+conn:therefore conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_therefore with_prev1_POS_full:VBP_RB prev2:techniques prev2_POS:NNS with_prev2_full:techniques_therefore with_prev2_POS_full:NNS_RB NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:also conn_POS:RB prev1:differentiation prev1_POS:NNS with_prev1_full:differentiation_also with_prev1_POS_full:NNS_RB prev2:lactational prev2_POS:NN with_prev2_full:lactational_also with_prev2_POS_full:NN_RB NA
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:radiation prev2_POS:NN with_prev2_full:radiation_while with_prev2_POS_full:NN_IN NA
+conn:when conn_POS:WRB prev1:dangerous prev1_POS:JJ with_prev1_full:dangerous_when with_prev1_POS_full:JJ_WRB prev2:more prev2_POS:RBR with_prev2_full:more_when with_prev2_POS_full:RBR_WRB NA
+conn:therefore conn_POS:RB prev1:we prev1_POS:PRP with_prev1_full:we_therefore with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_therefore with_prev2_POS_full:,_RB NA
+conn:also conn_POS:RB prev1:have prev1_POS:VBP with_prev1_full:have_also with_prev1_POS_full:VBP_RB prev2:defects prev2_POS:NNS with_prev2_full:defects_also with_prev2_POS_full:NNS_RB NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:-RSB- prev2_POS:NNS with_prev2_full:-RSB-_but with_prev2_POS_full:NNS_CC NA

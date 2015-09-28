@@ -1,0 +1,24 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:stumbling_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:city_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:territory_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:,_just_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:primary_partly_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rrb-_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:campaign_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:it_until Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:until_after Temporal
+conn_lc:though conn:though conn_POS:RB with_prev_full:far_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:deception_and Expansion

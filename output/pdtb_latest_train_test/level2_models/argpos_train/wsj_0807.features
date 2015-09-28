@@ -1,0 +1,6 @@
+conn:after conn_POS:IN prev1:operations prev1_POS:NNS with_prev1_full:operations_after with_prev1_POS_full:NNS_IN prev2:consolidate prev2_POS:VB with_prev2_full:consolidate_after with_prev2_POS_full:VB_IN SS
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:operations prev1_POS:NNS with_prev1_full:operations_if with_prev1_POS_full:NNS_IN prev2:Emhart prev2_POS:NNP with_prev2_full:Emhart_if with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:schedule prev2_POS:NN with_prev2_full:schedule_and with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:plunged prev1_POS:VBD with_prev1_full:plunged_when with_prev1_POS_full:VBD_WRB prev2:stock prev2_POS:NN with_prev2_full:stock_when with_prev2_POS_full:NN_WRB SS

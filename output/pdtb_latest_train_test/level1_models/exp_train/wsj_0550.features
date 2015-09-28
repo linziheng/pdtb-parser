@@ -1,0 +1,14 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:exist_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:coming_and Expansion
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:just_after conn:just_after conn_POS:RB_IN with_prev_full:screen_just_after Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:continue_until Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

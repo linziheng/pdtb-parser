@@ -1,0 +1,25 @@
+conn_lc:just_after conn:Just_after conn_POS:RB_IN Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rope_when Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:pay_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:error_and Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:within_a_year_after conn:within_a_year_after conn_POS:IN_DT_NN_IN with_prev_full:director_within_a_year_after Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion

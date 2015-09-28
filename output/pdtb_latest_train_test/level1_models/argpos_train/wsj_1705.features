@@ -1,0 +1,22 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:days prev2_POS:NNS with_prev2_full:days_and with_prev2_POS_full:NNS_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:nation prev2_POS:NN with_prev2_full:nation_but with_prev2_POS_full:NN_CC SS
+conn:only_after conn_POS:RB_IN prev1:accepted prev1_POS:VBN with_prev1_full:accepted_only_after with_prev1_POS_full:VBN_RB_IN prev2:were prev2_POS:VBD with_prev2_full:were_only_after with_prev2_POS_full:VBD_RB_IN SS
+conn:and conn_POS:CC prev1:attitudes prev1_POS:NNS with_prev1_full:attitudes_and with_prev1_POS_full:NNS_CC prev2:Texas prev2_POS:NNP with_prev2_full:Texas_and with_prev2_POS_full:NNP_CC SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:parent prev2_POS:NN with_prev2_full:parent_for_instance with_prev2_POS_full:NN_IN_NN PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:research prev2_POS:NN with_prev2_full:research_but with_prev2_POS_full:NN_CC SS
+conn:as_long_as conn_POS:RB_JJ_IN prev1:cares prev1_POS:VBZ with_prev1_full:cares_as_long_as with_prev1_POS_full:VBZ_RB_JJ_IN prev2:who prev2_POS:WP with_prev2_full:who_as_long_as with_prev2_POS_full:WP_RB_JJ_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:month prev1_POS:NN with_prev1_full:month_after with_prev1_POS_full:NN_IN prev2:sales prev2_POS:NNS with_prev2_full:sales_after with_prev2_POS_full:NNS_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_after with_prev1_POS_full:NN_IN prev2:last prev2_POS:JJ with_prev2_full:last_after with_prev2_POS_full:JJ_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:Texas prev2_POS:NNP with_prev2_full:Texas_although with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_So with_prev1_POS_full:``_RB PS
+conn:also conn_POS:RB prev1:have prev1_POS:VBP with_prev1_full:have_also with_prev1_POS_full:VBP_RB prev2:Travis prev2_POS:NNP with_prev2_full:Travis_also with_prev2_POS_full:NNP_RB PS

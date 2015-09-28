@@ -1,0 +1,11 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:face_when Temporal
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:,_ultimately Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:dominated_and Expansion
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:staff_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

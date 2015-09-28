@@ -1,0 +1,6 @@
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:works prev2_POS:VBZ with_prev2_full:works_and with_prev2_POS_full:VBZ_CC SS
+conn:while conn_POS:IN prev1:building prev1_POS:NN with_prev1_full:building_while with_prev1_POS_full:NN_IN prev2:and prev2_POS:CC with_prev2_full:and_while with_prev2_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:And prev2_POS:CC with_prev2_full:And_since with_prev2_POS_full:CC_IN SS
+conn:Similarly conn_POS:RB sent_pos:0 PS

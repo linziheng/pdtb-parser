@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:yet conn:Yet conn_POS:RB Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:likewise conn:Likewise conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:reduced_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:reduced_as Cause
+conn_lc:so conn:So conn_POS:RB Cause

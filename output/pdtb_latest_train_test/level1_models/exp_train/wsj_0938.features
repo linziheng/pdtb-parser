@@ -1,0 +1,16 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:financing_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:bid_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:that_until Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:drabinsky_unless Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:financing_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:offer_before Temporal

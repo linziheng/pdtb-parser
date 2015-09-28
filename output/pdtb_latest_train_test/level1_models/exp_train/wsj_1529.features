@@ -1,0 +1,13 @@
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:himself_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:himself_when Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:''_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:''_but Comparison
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:;_indeed Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:before conn:before conn_POS:RB with_prev_full:industries_before Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison

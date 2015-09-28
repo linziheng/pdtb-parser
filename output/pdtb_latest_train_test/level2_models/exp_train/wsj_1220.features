@@ -1,0 +1,4 @@
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Cause
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction

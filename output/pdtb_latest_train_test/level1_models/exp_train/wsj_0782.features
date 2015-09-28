@@ -1,0 +1,7 @@
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:significant_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:once conn:Once conn_POS:RB Temporal

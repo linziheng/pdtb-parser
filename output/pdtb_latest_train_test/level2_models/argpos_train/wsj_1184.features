@@ -1,0 +1,8 @@
+conn:if conn_POS:IN prev1:contracts prev1_POS:NNS with_prev1_full:contracts_if with_prev1_POS_full:NNS_IN prev2:defense prev2_POS:NN with_prev2_full:defense_if with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:therefore conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_therefore with_prev1_POS_full:CC_RB prev2:problems prev2_POS:NNS with_prev2_full:problems_therefore with_prev2_POS_full:NNS_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:finally conn_POS:RB sent_pos:2 prev1:GE prev1_POS:NNP with_prev1_full:GE_finally with_prev1_POS_full:NNP_RB prev2:When prev2_POS:WRB with_prev2_full:When_finally with_prev2_POS_full:WRB_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1985 prev2_POS:CD with_prev2_full:1985_and with_prev2_POS_full:CD_CC SS
+conn:after conn_POS:IN prev1:initiated prev1_POS:VBN with_prev1_full:initiated_after with_prev1_POS_full:VBN_IN prev2:, prev2_POS:, with_prev2_full:,_after with_prev2_POS_full:,_IN SS
+conn:On_the_contrary conn_POS:IN_DT_NN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_On_the_contrary with_prev1_POS_full:``_IN_DT_NN PS

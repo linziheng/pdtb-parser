@@ -1,0 +1,36 @@
+conn_lc:in_particular conn:in_particular conn_POS:IN_JJ with_prev_full:and_in_particular Instantiation
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:in_the_end conn:in_the_end conn_POS:IN_DT_NN with_prev_full:but_in_the_end Contrast
+conn_lc:especially_if conn:especially_if conn_POS:RB_IN with_prev_full:,_especially_if Condition
+conn_lc:especially_if conn:especially_if conn_POS:RB_IN with_prev_full:,_especially_if Restatement
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:-lrb-_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:aggregates_also Conjunction
+conn_lc:but conn:But conn_POS:CC Cause
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Conjunction
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:long_before conn:long_before conn_POS:JJ_IN with_prev_full:it_long_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:should_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:should_also Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tight_when Synchrony
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:less_if Condition
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:,_indeed Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:reynolds_also Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Cause
+conn_lc:in_the_end conn:In_the_end conn_POS:IN_DT_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_particular conn:In_particular conn_POS:IN_JJ Restatement
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Synchrony
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:in_the_end conn:In_the_end conn_POS:IN_DT_NN Restatement
+conn_lc:but conn:But conn_POS:CC Contrast

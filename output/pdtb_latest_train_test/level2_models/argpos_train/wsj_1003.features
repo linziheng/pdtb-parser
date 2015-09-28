@@ -1,0 +1,12 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:nor conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_nor with_prev1_POS_full:,_CC prev2:steel prev2_POS:NN with_prev2_full:steel_nor with_prev2_POS_full:NN_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:quarter prev1_POS:NN with_prev1_full:quarter_as with_prev1_POS_full:NN_IN prev2:fourth prev2_POS:JJ with_prev2_full:fourth_as with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:weak prev1_POS:JJ with_prev1_full:weak_and with_prev1_POS_full:JJ_CC prev2:remains prev2_POS:VBZ with_prev2_full:remains_and with_prev2_POS_full:VBZ_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:noted prev2_POS:VBD with_prev2_full:noted_however with_prev2_POS_full:VBD_RB PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:million prev2_POS:CD with_prev2_full:million_because with_prev2_POS_full:CD_IN SS
+conn:when conn_POS:WRB prev1:inventory prev1_POS:NN with_prev1_full:inventory_when with_prev1_POS_full:NN_WRB prev2:higher-cost prev2_POS:JJ with_prev2_full:higher-cost_when with_prev2_POS_full:JJ_WRB SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS

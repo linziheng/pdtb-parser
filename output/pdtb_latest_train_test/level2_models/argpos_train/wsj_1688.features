@@ -1,0 +1,22 @@
+conn:In_the_first_25_minutes_after conn_POS:IN_DT_JJ_CD_NNS_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:once conn_POS:IN prev1:time prev1_POS:NN with_prev1_full:time_once with_prev1_POS_full:NN_IN prev2:tough prev2_POS:JJ with_prev2_full:tough_once with_prev2_POS_full:JJ_IN SS
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:sued prev2_POS:VBN with_prev2_full:sued_or with_prev2_POS_full:VBN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Therefore conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:standard prev2_POS:NN with_prev2_full:standard_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:disaster prev2_POS:NN with_prev2_full:disaster_if with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:damage prev1_POS:NN with_prev1_full:damage_while with_prev1_POS_full:NN_IN prev2:serious prev2_POS:JJ with_prev2_full:serious_while with_prev2_POS_full:JJ_IN SS
+conn:until conn_POS:IN prev1:know prev1_POS:VB with_prev1_full:know_until with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_until with_prev2_POS_full:RB_IN SS
+conn:but conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_but with_prev1_POS_full::_CC prev2:clears prev2_POS:VBZ with_prev2_full:clears_but with_prev2_POS_full:VBZ_CC SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:claims prev2_POS:NNS with_prev2_full:claims_though with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:protected prev1_POS:VBN with_prev1_full:protected_when with_prev1_POS_full:VBN_WRB prev2:is prev2_POS:VBZ with_prev2_full:is_when with_prev2_POS_full:VBZ_WRB SS
+conn:or conn_POS:CC prev1:time prev1_POS:NN with_prev1_full:time_or with_prev1_POS_full:NN_CC prev2:of prev2_POS:IN with_prev2_full:of_or with_prev2_POS_full:IN_CC SS
+conn:when conn_POS:WRB prev1:or prev1_POS:CC with_prev1_full:or_when with_prev1_POS_full:CC_WRB prev2:time prev2_POS:NN with_prev2_full:time_when with_prev2_POS_full:NN_WRB SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:shocked prev1_POS:VBN with_prev1_full:shocked_if with_prev1_POS_full:VBN_IN prev2:totally prev2_POS:RB with_prev2_full:totally_if with_prev2_POS_full:RB_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:association prev1_POS:NN with_prev1_full:association_also with_prev1_POS_full:NN_RB prev2:lawyers prev2_POS:NNS with_prev2_full:lawyers_also with_prev2_POS_full:NNS_RB PS

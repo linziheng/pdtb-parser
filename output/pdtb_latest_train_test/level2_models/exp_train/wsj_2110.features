@@ -1,0 +1,10 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:year_after Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:restrictions_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:markets_because Cause
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:sell_even_when Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:weeks_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:decide_before Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:..._but Concession
+conn_lc:until conn:until conn_POS:IN with_prev_full:plan_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast

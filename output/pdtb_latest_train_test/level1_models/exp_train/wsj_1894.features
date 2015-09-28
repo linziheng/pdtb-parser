@@ -1,0 +1,6 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:creditors_while Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:station_before Temporal
+conn_lc:afterward conn:afterward conn_POS:RB with_prev_full:one_afterward Temporal

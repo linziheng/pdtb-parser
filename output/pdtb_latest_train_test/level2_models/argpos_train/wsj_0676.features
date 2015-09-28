@@ -1,0 +1,11 @@
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:currency prev2_POS:NN with_prev2_full:currency_thus with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:though conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:Today prev2_POS:NN with_prev2_full:Today_though with_prev2_POS_full:NN_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Motors prev2_POS:NNP with_prev2_full:Motors_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:advertising prev2_POS:NN with_prev2_full:advertising_however with_prev2_POS_full:NN_RB PS
+conn:particularly_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_particularly_as with_prev1_POS_full:,_RB_IN prev2:charge prev2_POS:NN with_prev2_full:charge_particularly_as with_prev2_POS_full:NN_RB_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:makers prev2_POS:NNS with_prev2_full:makers_when with_prev2_POS_full:NNS_WRB SS

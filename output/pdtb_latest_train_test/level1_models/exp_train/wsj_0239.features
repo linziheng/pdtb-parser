@@ -1,0 +1,26 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:101_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:convention_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:blase_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:that_even_if Comparison
+conn_lc:still conn:still conn_POS:RB with_prev_full:can_still Comparison
+conn_lc:at_least_not_when conn:At_least_not_when conn_POS:IN_JJS_RB_WRB Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:drinking_while Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:river_and Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:feet_and Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:only_when conn:Only_when conn_POS:RB_WRB Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:pilot_as Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:feet_before Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:mud_while Temporal
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:we_finally Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:morning_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:tee_while Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:as conn:As conn_POS:IN Temporal

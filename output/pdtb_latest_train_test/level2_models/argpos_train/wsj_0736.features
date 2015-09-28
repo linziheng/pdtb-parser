@@ -1,0 +1,5 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Poughkeepsie prev1_POS:NNP with_prev1_full:Poughkeepsie_also with_prev1_POS_full:NNP_RB PS
+conn:Additionally conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:bank prev1_POS:NN with_prev1_full:bank_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:agreement prev1_POS:NN with_prev1_full:agreement_and with_prev1_POS_full:NN_CC prev2:that prev2_POS:DT with_prev2_full:that_and with_prev2_POS_full:DT_CC SS
+conn:as_a_result conn_POS:IN_DT_NN sent_pos:-2 prev1:resume prev1_POS:VB with_prev1_full:resume_as_a_result with_prev1_POS_full:VB_IN_DT_NN prev2:might prev2_POS:MD with_prev2_full:might_as_a_result with_prev2_POS_full:MD_IN_DT_NN SS

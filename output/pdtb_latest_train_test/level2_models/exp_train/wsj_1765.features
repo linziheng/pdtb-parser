@@ -1,0 +1,9 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:operations_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:still conn:still conn_POS:RB with_prev_full:were_still Concession
+conn_lc:but conn:But conn_POS:CC Contrast

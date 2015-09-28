@@ -1,0 +1,5 @@
+conn:after conn_POS:IN prev1:1989 prev1_POS:CD with_prev1_full:1989_after with_prev1_POS_full:CD_IN prev2:for prev2_POS:IN with_prev2_full:for_after with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:Calloway prev1_POS:NNP with_prev1_full:Calloway_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_as with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

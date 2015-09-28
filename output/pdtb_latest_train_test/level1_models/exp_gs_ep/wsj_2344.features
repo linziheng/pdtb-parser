@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:statements_and Expansion£
+conn_lc:before conn:before conn_POS:IN with_prev_full:notice_before Temporal£
+conn_lc:after conn:after conn_POS:IN with_prev_full:million_after Temporal£
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion£
+conn_lc:separately conn:Separately conn_POS:RB Expansion£

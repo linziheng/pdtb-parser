@@ -1,0 +1,16 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:possibility_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:failed_and Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:lawsuits_while Synchrony
+conn_lc:after conn:after conn_POS:IN with_prev_full:quickly_after Asynchronous
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:them_after Asynchronous
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:government_after Asynchronous

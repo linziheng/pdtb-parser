@@ -1,0 +1,19 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:rather conn:rather conn_POS:RB with_prev_full:but_rather Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:industry_and Conjunction
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:warnaco_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:that_after Asynchronous
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:then conn:then conn_POS:RB with_prev_full:was_then Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:while conn:While conn_POS:IN Contrast

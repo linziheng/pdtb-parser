@@ -1,0 +1,2 @@
+conn:before conn_POS:IN prev1:desecration prev1_POS:NN with_prev1_full:desecration_before with_prev1_POS_full:NN_IN prev2:flag prev2_POS:NN with_prev2_full:flag_before with_prev2_POS_full:NN_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:signature prev2_POS:NN with_prev2_full:signature_because with_prev2_POS_full:NN_IN SS

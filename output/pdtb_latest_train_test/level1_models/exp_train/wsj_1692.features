@@ -1,0 +1,14 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:suffered_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:suffered_when Contingency
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:her_because Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:fired_after Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:assistant_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:people_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:'d_because Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:clients_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:team_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:influence_when Temporal

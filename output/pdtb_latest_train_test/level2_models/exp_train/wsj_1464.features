@@ -1,0 +1,35 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:summer_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:stabilized_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:jumped_and Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:bonds_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:slipping_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:up_and Restatement
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:bonds_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:kochan_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:value_as Synchrony
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:week_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:week_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:week_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:once conn:once conn_POS:RB with_prev_full:but_once Asynchronous
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:dashed_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:dashed_when Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:issue_when Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:holders_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast

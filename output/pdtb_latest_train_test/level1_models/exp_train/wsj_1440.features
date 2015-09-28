@@ -1,0 +1,33 @@
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:now_and Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:distinction_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:by_comparison conn:by_comparison conn_POS:IN_NN with_prev_full:,_by_comparison Comparison
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:so conn:so conn_POS:RB with_prev_full:and_so Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:stocks_because Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:so conn:so conn_POS:CC with_prev_full:,_so Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:106_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:5\/8_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:3\/4_after Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:1\/2_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:1\/2_after Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:10_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:10_after Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:5\/8_and Expansion
+conn_lc:earlier conn:earlier conn_POS:RB with_prev_full:which_earlier Temporal

@@ -1,0 +1,12 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:moved_instead Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:once conn_POS:RB with_prev_full:bid_once Temporal
+conn_lc:or conn:or conn_POS:CC with_prev_full:approval_or Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:sentiment_also Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

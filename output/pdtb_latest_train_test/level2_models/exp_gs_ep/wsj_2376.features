@@ -1,0 +1,35 @@
+conn_lc:just_when conn:Just_when conn_POS:RB_WRB Synchrony£
+conn_lc:or conn:Or conn_POS:CC Alternative£
+conn_lc:and conn:and conn_POS:CC with_prev_full:next_and List£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:until conn:until conn_POS:IN with_prev_full:buying_until Asynchronous£
+conn_lc:so conn:So conn_POS:IN Cause£
+conn_lc:thus conn:Thus conn_POS:RB Cause£
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition£
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast£
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession£
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous£
+conn_lc:and conn:And conn_POS:CC List£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:also conn:also conn_POS:RB with_prev_full:year_also Conjunction£
+conn_lc:so conn:So conn_POS:IN with_prev_full:``_so Cause£
+conn_lc:thus conn:Thus conn_POS:RB Cause£
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause£
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Concession£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause£
+conn_lc:since conn:since conn_POS:IN with_prev_full:%_since Asynchronous£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause£
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous£
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:until conn:until conn_POS:IN with_prev_full:today_until Asynchronous£
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:before conn:before conn_POS:IN with_prev_full:amount_before Asynchronous£
+conn_lc:because conn:because conn_POS:IN with_prev_full:year_because Cause£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause£

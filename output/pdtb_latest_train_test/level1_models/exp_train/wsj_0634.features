@@ -1,0 +1,16 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:clients_as Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:markets_when Temporal
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:abroad_because Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

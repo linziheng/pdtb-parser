@@ -1,0 +1,18 @@
+conn_lc:further conn:Further conn_POS:RBR Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:prostitution_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:earlier conn:Earlier conn_POS:RBR Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:pisa_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:china_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:started_when Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:stopped_unless Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:plan_because Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:off_later Temporal

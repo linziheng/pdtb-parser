@@ -1,0 +1,10 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:his_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:airline_also Conjunction
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:largely_because conn:largely_because conn_POS:RB_IN with_prev_full:hired_largely_because Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:profitability_while Synchrony
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:bakes_previously Asynchronous

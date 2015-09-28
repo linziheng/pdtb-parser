@@ -1,0 +1,10 @@
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:differ_as Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:warming_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:up_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison

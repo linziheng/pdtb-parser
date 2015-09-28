@@ -1,0 +1,10 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:september_after Temporal
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:refinancing_also Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:sears_then Temporal

@@ -1,0 +1,5 @@
+conn:and conn_POS:CC prev1:statements prev1_POS:NNS with_prev1_full:statements_and with_prev1_POS_full:NNS_CC prev2:financial prev2_POS:JJ with_prev2_full:financial_and with_prev2_POS_full:JJ_CC SS
+conn:before conn_POS:IN prev1:notice prev1_POS:NN with_prev1_full:notice_before with_prev1_POS_full:NN_IN prev2:written prev2_POS:JJ with_prev2_full:written_before with_prev2_POS_full:JJ_IN SS
+conn:after conn_POS:IN prev1:million prev1_POS:CD with_prev1_full:million_after with_prev1_POS_full:CD_IN prev2:185 prev2_POS:CD with_prev2_full:185_after with_prev2_POS_full:CD_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Separately conn_POS:RB sent_pos:0 PS

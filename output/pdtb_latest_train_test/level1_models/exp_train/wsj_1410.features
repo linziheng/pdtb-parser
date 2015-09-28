@@ -1,0 +1,17 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:alliance_after Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:interest_as Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:overall conn:Overall conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:offerings_when Temporal
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

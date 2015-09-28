@@ -1,0 +1,11 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Krenz prev2_POS:NNP with_prev2_full:Krenz_however with_prev2_POS_full:NNP_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:even_after conn_POS:RB_IN prev1:weapons prev1_POS:NNS with_prev1_full:weapons_even_after with_prev1_POS_full:NNS_RB_IN prev2:the prev2_POS:DT with_prev2_full:the_even_after with_prev2_POS_full:DT_RB_IN SS
+conn:as conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_as with_prev1_POS_full:VBD_IN prev2:remarks prev2_POS:NNS with_prev2_full:remarks_as with_prev2_POS_full:NNS_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:talks prev1_POS:NNS with_prev1_full:talks_as with_prev1_POS_full:NNS_IN prev2:strategy prev2_POS:NN with_prev2_full:strategy_as with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS

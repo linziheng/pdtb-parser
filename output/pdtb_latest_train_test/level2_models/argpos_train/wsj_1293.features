@@ -1,0 +1,8 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:must prev1_POS:MD with_prev1_full:must_also with_prev1_POS_full:MD_RB prev2:they prev2_POS:PRP with_prev2_full:they_also with_prev2_POS_full:PRP_RB SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Supervision prev2_POS:NNP with_prev2_full:Supervision_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:month prev2_POS:NN with_prev2_full:month_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:billion prev1_POS:CD with_prev1_full:billion_and with_prev1_POS_full:CD_CC prev2:3.3 prev2_POS:CD with_prev2_full:3.3_and with_prev2_POS_full:CD_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:future prev2_POS:NN with_prev2_full:future_as with_prev2_POS_full:NN_IN SS
+conn:unless conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_unless with_prev1_POS_full:,_IN prev2:continue prev2_POS:VB with_prev2_full:continue_unless with_prev2_POS_full:VB_IN SS

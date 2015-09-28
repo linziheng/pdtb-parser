@@ -1,0 +1,25 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:issues prev2_POS:NNS with_prev2_full:issues_and with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:soar prev1_POS:VBP with_prev1_full:soar_when with_prev1_POS_full:VBP_WRB prev2:usually prev2_POS:RB with_prev2_full:usually_when with_prev2_POS_full:RB_WRB SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:stocks prev2_POS:NNS with_prev2_full:stocks_on_the_other_hand with_prev2_POS_full:NNS_IN_DT_JJ_NN PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:disinflation prev2_POS:NN with_prev2_full:disinflation_because with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:attractive prev1_POS:JJ with_prev1_full:attractive_when with_prev1_POS_full:JJ_WRB prev2:more prev2_POS:RBR with_prev2_full:more_when with_prev2_POS_full:RBR_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:-- prev1_POS:: with_prev1_full:--_even_if with_prev1_POS_full::_RB_IN prev2:wrong prev2_POS:JJ with_prev2_full:wrong_even_if with_prev2_POS_full:JJ_RB_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_as with_prev2_POS_full:NN_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:high prev2_POS:JJ with_prev2_full:high_and with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB prev1:scene prev1_POS:NN with_prev1_full:scene_also with_prev1_POS_full:NN_RB prev2:political prev2_POS:JJ with_prev2_full:political_also with_prev2_POS_full:JJ_RB PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:them prev1_POS:PRP with_prev1_full:them_because with_prev1_POS_full:PRP_IN prev2:into prev2_POS:IN with_prev2_full:into_because with_prev2_POS_full:IN_IN SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:unless conn_POS:IN prev1:restricted prev1_POS:JJ with_prev1_full:restricted_unless with_prev1_POS_full:JJ_IN prev2:is prev2_POS:VBZ with_prev2_full:is_unless with_prev2_POS_full:VBZ_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Lambert prev2_POS:NNP with_prev2_full:Lambert_also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:rises prev1_POS:VBZ with_prev1_full:rises_when with_prev1_POS_full:VBZ_WRB prev2:usually prev2_POS:RB with_prev2_full:usually_when with_prev2_POS_full:RB_WRB SS

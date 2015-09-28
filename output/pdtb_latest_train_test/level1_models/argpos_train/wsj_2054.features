@@ -1,0 +1,6 @@
+conn:when conn_POS:WRB prev1:uproar prev1_POS:NN with_prev1_full:uproar_when with_prev1_POS_full:NN_WRB prev2:an prev2_POS:DT with_prev2_full:an_when with_prev2_POS_full:DT_WRB SS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:now_that conn_POS:RB_IN prev1:`` prev1_POS:`` with_prev1_full:``_now_that with_prev1_POS_full:``_RB_IN prev2:arguing prev2_POS:VBG with_prev2_full:arguing_now_that with_prev2_POS_full:VBG_RB_IN SS
+conn:because conn_POS:IN prev1:analogy prev1_POS:NN with_prev1_full:analogy_because with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_because with_prev2_POS_full:DT_IN SS
+conn:when conn_POS:WRB prev1:waves prev1_POS:NNS with_prev1_full:waves_when with_prev1_POS_full:NNS_WRB prev2:made prev2_POS:VBD with_prev2_full:made_when with_prev2_POS_full:VBD_WRB SS
+conn:Indeed conn_POS:RB sent_pos:0 PS

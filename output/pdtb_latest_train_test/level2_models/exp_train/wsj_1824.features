@@ -1,0 +1,33 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:soon_if Condition
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:manpower_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:cross_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rough_when Condition
+conn_lc:until conn:until conn_POS:IN with_prev_full:determined_until Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:vacant_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:bonds_even_if Concession
+conn_lc:even_before conn:Even_before conn_POS:RB_IN Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:victims_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:and_though Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

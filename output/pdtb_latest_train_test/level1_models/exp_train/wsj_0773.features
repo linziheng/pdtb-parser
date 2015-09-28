@@ -1,0 +1,23 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:pride_as Contingency
+conn_lc:long_after conn:long_after conn_POS:RB_IN with_prev_full:profitable_long_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:losses_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Temporal
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:thwarted_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:thwarted_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:recently_as Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:exposure_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:exposure_as Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:weeks_before Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:unlikely_unless Expansion

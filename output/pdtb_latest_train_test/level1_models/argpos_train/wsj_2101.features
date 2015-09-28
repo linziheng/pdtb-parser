@@ -1,0 +1,4 @@
+conn:and conn_POS:CC prev1:companies prev1_POS:NNS with_prev1_full:companies_and with_prev1_POS_full:NNS_CC prev2:core prev2_POS:NN with_prev2_full:core_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:Integrated prev1_POS:NNP with_prev1_full:Integrated_also with_prev1_POS_full:NNP_RB PS
+conn:but conn_POS:CC prev1:estimate prev1_POS:NN with_prev1_full:estimate_but with_prev1_POS_full:NN_CC prev2:new prev2_POS:JJ with_prev2_full:new_but with_prev2_POS_full:JJ_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS

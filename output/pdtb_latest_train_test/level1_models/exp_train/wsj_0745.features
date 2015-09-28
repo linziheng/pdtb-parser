@@ -1,0 +1,16 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:maker_then Temporal
+conn_lc:once conn:once conn_POS:IN with_prev_full:level_once Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:share_after Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:shares_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:succeed_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:politics_also Expansion
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:company_while Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:in_the_end conn:In_the_end conn_POS:IN_DT_NN Expansion

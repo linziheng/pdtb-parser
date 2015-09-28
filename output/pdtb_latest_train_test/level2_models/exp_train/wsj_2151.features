@@ -1,0 +1,19 @@
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:and_as Synchrony
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:aeroflot_thus Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:after conn:after conn_POS:IN with_prev_full:soviets_after Asynchronous
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:york_when Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction

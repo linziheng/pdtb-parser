@@ -1,0 +1,4 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:business_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:most_also Expansion

@@ -1,0 +1,9 @@
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Contrast
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction

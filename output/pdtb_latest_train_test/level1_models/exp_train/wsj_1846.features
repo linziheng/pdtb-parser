@@ -1,0 +1,10 @@
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:in_other_words conn:in_other_words conn_POS:IN_JJ_NNS with_prev_full:,_in_other_words Expansion
+conn_lc:as_if conn:As_if conn_POS:IN_IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:resolution_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:surfaced_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:'s_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Temporal

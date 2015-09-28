@@ -1,0 +1,21 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:said_then Synchrony
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:but_instead Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:risk_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:came_when Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Contrast
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:buy_if Condition
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Concession
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:year_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:year_while Contrast
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

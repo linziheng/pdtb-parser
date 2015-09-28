@@ -1,0 +1,9 @@
+conn:as conn_POS:IN prev1:Monday prev1_POS:NNP with_prev1_full:Monday_as with_prev1_POS_full:NNP_IN prev2:Black prev2_POS:NNP with_prev2_full:Black_as with_prev2_POS_full:NNP_IN SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:2683.20 prev2_POS:CD with_prev2_full:2683.20_after with_prev2_POS_full:CD_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:mixed prev2_POS:VBN with_prev2_full:mixed_while with_prev2_POS_full:VBN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:level prev2_POS:NN with_prev2_full:level_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:breaks prev1_POS:NNS with_prev1_full:breaks_also with_prev1_POS_full:NNS_RB prev2:tax prev2_POS:NN with_prev2_full:tax_also with_prev2_POS_full:NN_RB PS
+conn:as conn_POS:IN prev1:months prev1_POS:NNS with_prev1_full:months_as with_prev1_POS_full:NNS_IN prev2:coming prev2_POS:VBG with_prev2_full:coming_as with_prev2_POS_full:VBG_IN SS
+conn:if conn_POS:IN prev1:Christmas prev1_POS:NNP with_prev1_full:Christmas_if with_prev1_POS_full:NNP_IN prev2:this prev2_POS:DT with_prev2_full:this_if with_prev2_POS_full:DT_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

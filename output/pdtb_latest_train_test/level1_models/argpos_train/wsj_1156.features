@@ -1,0 +1,5 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:largely_because conn_POS:RB_IN prev1:up prev1_POS:RP with_prev1_full:up_largely_because with_prev1_POS_full:RP_RB_IN prev2:picking prev2_POS:VBG with_prev2_full:picking_largely_because with_prev2_POS_full:VBG_RB_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:cautioned prev2_POS:VBD with_prev2_full:cautioned_however with_prev2_POS_full:VBD_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

@@ -1,0 +1,32 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:week_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:week_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:yet conn:yet conn_POS:RB with_prev_full:and_yet Comparison
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:daihatsu_also Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:chrysler_also Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:but_only_after Temporal
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:but_only_after Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:disqualified_because Contingency
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion

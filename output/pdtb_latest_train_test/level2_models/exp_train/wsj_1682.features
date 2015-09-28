@@ -1,0 +1,18 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:low_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Conjunction
+conn_lc:nonetheless conn:nonetheless conn_POS:RB with_prev_full:baker_nonetheless Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:so conn:so conn_POS:IN with_prev_full:loud_so Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Pragmatic_condition
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:some_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:protectionism_as Synchrony
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:;_after Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

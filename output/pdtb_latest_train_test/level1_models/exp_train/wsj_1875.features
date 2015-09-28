@@ -1,0 +1,56 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Comparison
+conn_lc:nor conn:Nor conn_POS:CC Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:just_minutes_after conn:just_minutes_after conn_POS:RB_NNS_IN with_prev_full:chief_just_minutes_after Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:ailment_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:once conn:once conn_POS:IN with_prev_full:positions_once Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:summer_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:old_when Temporal
+conn_lc:since conn:Since conn_POS:IN Temporal
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:later conn:later conn_POS:RB with_prev_full:he_later Temporal
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:krenz_also Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:besides conn:Besides conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:so conn_POS:CC with_prev_full:,_so Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:heard_but Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:to_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:process_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:happen_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:could_ultimately Temporal
+conn_lc:in_contrast conn:in_contrast conn_POS:IN_NN with_prev_full:,_in_contrast Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:insisting_instead Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:finally conn:Finally conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:commission_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:recovered_once Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:paper_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:furnaces_and Expansion
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:,_as_a_result Contingency

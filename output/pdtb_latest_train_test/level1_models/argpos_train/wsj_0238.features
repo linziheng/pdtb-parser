@@ -1,0 +1,6 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:90,000 prev2_POS:CD with_prev2_full:90,000_also with_prev2_POS_full:CD_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:% prev2_POS:NN with_prev2_full:%_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:Still conn_POS:RB sent_pos:0 PS

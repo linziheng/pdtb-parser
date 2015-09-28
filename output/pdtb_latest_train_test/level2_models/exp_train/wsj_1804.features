@@ -1,0 +1,14 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:that_also Conjunction
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:..._and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_turn conn:in_turn conn_POS:RB_RB with_prev_full:which_in_turn Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:whitbread_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:whitbread_also Conjunction

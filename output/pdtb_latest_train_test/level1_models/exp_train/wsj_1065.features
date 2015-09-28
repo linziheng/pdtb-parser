@@ -1,0 +1,21 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:squeeze_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:squeeze_as Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:complete_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:prices_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:conclude_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:lawyers_also Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:wardwell_also Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:killed_after Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:lorin_then Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:he_previously Temporal

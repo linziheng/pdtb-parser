@@ -1,0 +1,3 @@
+conn:as conn_POS:IN prev1:come prev1_POS:VBP with_prev1_full:come_as with_prev1_POS_full:VBP_IN prev2:changes prev2_POS:NNS with_prev2_full:changes_as with_prev2_POS_full:NNS_IN SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN SS
+conn:before conn_POS:IN prev1:division prev1_POS:NN with_prev1_full:division_before with_prev1_POS_full:NN_IN prev2:U.S.A. prev2_POS:NNP with_prev2_full:U.S.A._before with_prev2_POS_full:NNP_IN SS

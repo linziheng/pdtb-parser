@@ -1,0 +1,4 @@
+conn:while conn_POS:IN prev1:July prev1_POS:NNP with_prev1_full:July_while with_prev1_POS_full:NNP_IN prev2:from prev2_POS:IN with_prev2_full:from_while with_prev2_POS_full:IN_IN SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:eliminated prev1_POS:VBN with_prev1_full:eliminated_when with_prev1_POS_full:VBN_WRB prev2:were prev2_POS:VBD with_prev2_full:were_when with_prev2_POS_full:VBD_WRB SS
+conn:also conn_POS:RB prev1:government prev1_POS:NN with_prev1_full:government_also with_prev1_POS_full:NN_RB prev2:Canadian prev2_POS:JJ with_prev2_full:Canadian_also with_prev2_POS_full:JJ_RB PS

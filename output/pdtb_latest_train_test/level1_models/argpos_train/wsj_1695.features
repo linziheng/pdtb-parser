@@ -1,0 +1,23 @@
+conn:when conn_POS:WRB prev1:brands prev1_POS:NNS with_prev1_full:brands_when with_prev1_POS_full:NNS_WRB prev2:two prev2_POS:CD with_prev2_full:two_when with_prev2_POS_full:CD_WRB SS
+conn:while conn_POS:IN prev1:responsibilities prev1_POS:NNS with_prev1_full:responsibilities_while with_prev1_POS_full:NNS_IN prev2:basic prev2_POS:JJ with_prev2_full:basic_while with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:benefits prev1_POS:NNS with_prev1_full:benefits_but with_prev1_POS_full:NNS_CC prev2:local prev2_POS:JJ with_prev2_full:local_but with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:535 prev1_POS:CD with_prev1_full:535_when with_prev1_POS_full:CD_WRB prev2:of prev2_POS:IN with_prev2_full:of_when with_prev2_POS_full:IN_WRB SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:president prev2_POS:NN with_prev2_full:president_also with_prev2_POS_full:NN_RB SS
+conn:consequently conn_POS:RB prev1:standing prev1_POS:NN with_prev1_full:standing_consequently with_prev1_POS_full:NN_RB prev2:'s prev2_POS:VBZ with_prev2_full:'s_consequently with_prev2_POS_full:VBZ_RB PS
+conn:and conn_POS:CC prev1:society prev1_POS:NN with_prev1_full:society_and with_prev1_POS_full:NN_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:more prev1_POS:RBR with_prev1_full:more_and with_prev1_POS_full:RBR_CC prev2:matters prev2_POS:VBZ with_prev2_full:matters_and with_prev2_POS_full:VBZ_CC SS
+conn:if conn_POS:IN prev1:expect prev1_POS:VB with_prev1_full:expect_if with_prev1_POS_full:VB_IN prev2:would prev2_POS:MD with_prev2_full:would_if with_prev2_POS_full:MD_IN SS
+conn:if conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Second prev2_POS:JJ with_prev2_full:Second_if with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:making prev1_POS:NN with_prev1_full:making_and with_prev1_POS_full:NN_CC prev2:policy prev2_POS:NN with_prev2_full:policy_and with_prev2_POS_full:NN_CC SS
+conn:indeed conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_indeed with_prev1_POS_full:VBZ_RB prev2:This prev2_POS:DT with_prev2_full:This_indeed with_prev2_POS_full:DT_RB PS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:more prev1_POS:RBR with_prev1_full:more_and with_prev1_POS_full:RBR_CC prev2:matter prev2_POS:VBP with_prev2_full:matter_and with_prev2_POS_full:VBP_CC SS
+conn:moreover conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_moreover with_prev1_POS_full:,_RB prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_moreover with_prev2_POS_full:-RRB-_RB PS
+conn:when conn_POS:WRB prev1:Senate prev1_POS:NNP with_prev1_full:Senate_when with_prev1_POS_full:NNP_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:furthermore conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_furthermore with_prev1_POS_full:,_RB prev2:investigation prev2_POS:NN with_prev2_full:investigation_furthermore with_prev2_POS_full:NN_RB PS
+conn:In_sum conn_POS:IN_NN sent_pos:0 PS

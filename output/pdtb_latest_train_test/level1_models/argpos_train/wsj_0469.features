@@ -1,0 +1,20 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:system prev1_POS:NN with_prev1_full:system_because with_prev1_POS_full:NN_IN prev2:court prev2_POS:NN with_prev2_full:court_because with_prev2_POS_full:NN_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:narrow prev2_POS:JJ with_prev2_full:narrow_however with_prev2_POS_full:JJ_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:elected prev2_POS:VBN with_prev2_full:elected_and with_prev2_POS_full:VBN_CC SS
+conn:then conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:until conn_POS:IN prev1:terms prev1_POS:NNS with_prev1_full:terms_until with_prev1_POS_full:NNS_IN prev2:two-year prev2_POS:JJ with_prev2_full:two-year_until with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Connecticut prev2_POS:NNP with_prev2_full:Connecticut_however with_prev2_POS_full:NNP_RB PS
+conn:after conn_POS:IN prev1:forces prev1_POS:NNS with_prev1_full:forces_after with_prev1_POS_full:NNS_IN prev2:strike prev2_POS:NN with_prev2_full:strike_after with_prev2_POS_full:NN_IN SS
+conn:once conn_POS:RB prev1:increase prev1_POS:VB with_prev1_full:increase_once with_prev1_POS_full:VB_RB prev2:will prev2_POS:MD with_prev2_full:will_once with_prev2_POS_full:MD_RB SS
+conn:and conn_POS:CC prev1:dissolved prev1_POS:VBN with_prev1_full:dissolved_and with_prev1_POS_full:VBN_CC prev2:are prev2_POS:VBP with_prev2_full:are_and with_prev2_POS_full:VBP_CC SS
+conn:partly_because conn_POS:RB_IN prev1:year prev1_POS:NN with_prev1_full:year_partly_because with_prev1_POS_full:NN_RB_IN prev2:this prev2_POS:DT with_prev2_full:this_partly_because with_prev2_POS_full:DT_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:left prev1_POS:VBN with_prev1_full:left_and with_prev1_POS_full:VBN_CC prev2:have prev2_POS:VBP with_prev2_full:have_and with_prev2_POS_full:VBP_CC SS
+conn:since conn_POS:IN prev1:hired prev1_POS:VBN with_prev1_full:hired_since with_prev1_POS_full:VBN_IN prev2:been prev2_POS:VBN with_prev2_full:been_since with_prev2_POS_full:VBN_IN SS
+conn:if conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_if with_prev1_POS_full:NN_IN prev2:next prev2_POS:IN with_prev2_full:next_if with_prev2_POS_full:IN_IN SS
+conn:because conn_POS:IN prev1:charge prev1_POS:NN with_prev1_full:charge_because with_prev1_POS_full:NN_IN prev2:drunk-driving prev2_POS:JJ with_prev2_full:drunk-driving_because with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:plea prev2_POS:NN with_prev2_full:plea_but with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:but prev1_POS:CC with_prev1_full:but_when with_prev1_POS_full:CC_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS

@@ -1,0 +1,2 @@
+conn:when conn_POS:WRB prev1:dividend prev1_POS:NN with_prev1_full:dividend_when with_prev1_POS_full:NN_WRB prev2:modest prev2_POS:JJ with_prev2_full:modest_when with_prev2_POS_full:JJ_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:1985 prev2_POS:CD with_prev2_full:1985_but with_prev2_POS_full:CD_CC SS

@@ -1,0 +1,18 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:europe_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:europe_and Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:helplessly_as Synchrony
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:system_finally Asynchronous
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:until conn:until conn_POS:IN with_prev_full:open_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:by_comparison conn:By_comparison conn_POS:IN_NN with_prev_full:-lrb-_by_comparison Contrast
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:rather conn:Rather conn_POS:RB Alternative
+conn_lc:when conn:when conn_POS:WRB with_prev_full:shots_when Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:happier_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:or conn:or conn_POS:CC with_prev_full:machines_or Alternative

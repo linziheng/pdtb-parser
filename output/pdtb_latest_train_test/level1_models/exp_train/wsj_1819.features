@@ -1,0 +1,25 @@
+conn_lc:until conn:until conn_POS:IN with_prev_full:agreement_until Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:liability_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:bally_also Expansion
+conn_lc:because conn:because conn_POS:RB with_prev_full:case_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:applause_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:victimized_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:;_thus Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:court_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:clients_unless Expansion
+conn_lc:before conn:Before conn_POS:IN Temporal

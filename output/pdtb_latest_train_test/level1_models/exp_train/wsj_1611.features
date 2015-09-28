@@ -1,0 +1,10 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:it_if Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:case_although Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:litigation_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:litigation_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:case_but Comparison

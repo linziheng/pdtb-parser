@@ -1,0 +1,13 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:quarter prev2_POS:NN with_prev2_full:quarter_as with_prev2_POS_full:NN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:quarter prev2_POS:NN with_prev2_full:quarter_however with_prev2_POS_full:NN_RB PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:companies prev1_POS:NNS with_prev1_full:companies_if with_prev1_POS_full:NNS_IN prev2:other prev2_POS:JJ with_prev2_full:other_if with_prev2_POS_full:JJ_IN SS
+conn:even_though conn_POS:RB_IN sent_pos:2 prev1:climbed prev1_POS:VBD with_prev1_full:climbed_even_though with_prev1_POS_full:VBD_RB_IN prev2:Profit prev2_POS:NN with_prev2_full:Profit_even_though with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:profit prev1_POS:NN with_prev1_full:profit_also with_prev1_POS_full:NN_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB PS
+conn:largely_because conn_POS:RB_IN prev1:are prev1_POS:VBP with_prev1_full:are_largely_because with_prev1_POS_full:VBP_RB_IN prev2:% prev2_POS:NN with_prev2_full:%_largely_because with_prev2_POS_full:NN_RB_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:share prev2_POS:NN with_prev2_full:share_while with_prev2_POS_full:NN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:continued prev2_POS:VBD with_prev2_full:continued_as with_prev2_POS_full:VBD_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_but with_prev2_POS_full:NN_CC SS

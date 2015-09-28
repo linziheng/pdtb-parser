@@ -1,0 +1,5 @@
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:said prev2_POS:VBD with_prev2_full:said_when with_prev2_POS_full:VBD_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:countries prev2_POS:NNS with_prev2_full:countries_and with_prev2_POS_full:NNS_CC SS

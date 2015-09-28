@@ -1,0 +1,5 @@
+conn:as conn_POS:IN prev1:September prev1_POS:NNP with_prev1_full:September_as with_prev1_POS_full:NNP_IN prev2:from prev2_POS:IN with_prev2_full:from_as with_prev2_POS_full:IN_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:pound prev2_POS:NN with_prev2_full:pound_while with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:October prev2_POS:NNP with_prev2_full:October_while with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:pounds prev1_POS:NNS with_prev1_full:pounds_and with_prev1_POS_full:NNS_CC prev2:hundred prev2_POS:CD with_prev2_full:hundred_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:cents prev2_POS:NNS with_prev2_full:cents_and with_prev2_POS_full:NNS_CC SS

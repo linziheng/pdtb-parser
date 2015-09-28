@@ -1,0 +1,9 @@
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:intervention prev2_POS:NN with_prev2_full:intervention_also with_prev2_POS_full:NN_RB PS
+conn:instead conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_instead with_prev1_POS_full:CC_RB prev2:Mulford prev2_POS:NNP with_prev2_full:Mulford_instead with_prev2_POS_full:NNP_RB SS
+conn:after conn_POS:IN prev1:appear prev1_POS:VB with_prev1_full:appear_after with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Johnson prev1_POS:NNP with_prev1_full:Johnson_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_because with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:nonetheless conn_POS:RB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_nonetheless with_prev1_POS_full:CC_RB PS

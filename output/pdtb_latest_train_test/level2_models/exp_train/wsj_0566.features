@@ -1,0 +1,8 @@
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:offer_and Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction

@@ -1,0 +1,16 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:winter prev1_POS:NN with_prev1_full:winter_if with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_if with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:cheaply prev2_POS:RB with_prev2_full:cheaply_but with_prev2_POS_full:RB_CC SS
+conn:IF conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:proliferate prev1_POS:VBP with_prev1_full:proliferate_as with_prev1_POS_full:VBP_IN prev2:procedures prev2_POS:NNS with_prev2_full:procedures_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:infertility prev2_POS:NN with_prev2_full:infertility_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:coverage prev2_POS:NN with_prev2_full:coverage_but with_prev2_POS_full:NN_CC SS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:notes prev2_POS:VBZ with_prev2_full:notes_while with_prev2_POS_full:VBZ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_while with_prev1_POS_full:CC_IN SS
+conn:if conn_POS:IN prev1:Christmas prev1_POS:NNP with_prev1_full:Christmas_if with_prev1_POS_full:NNP_IN prev2:before prev2_POS:IN with_prev2_full:before_if with_prev2_POS_full:IN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:is prev1_POS:VBZ with_prev1_full:is_because with_prev1_POS_full:VBZ_IN prev2:popularity prev2_POS:NN with_prev2_full:popularity_because with_prev2_POS_full:NN_IN SS

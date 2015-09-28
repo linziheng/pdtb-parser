@@ -1,0 +1,5 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:failed prev2_POS:VBD with_prev2_full:failed_and with_prev2_POS_full:VBD_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:face prev2_POS:VB with_prev2_full:face_but with_prev2_POS_full:VB_CC SS
+conn:although conn_POS:IN prev1:offer prev1_POS:NN with_prev1_full:offer_although with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_although with_prev2_POS_full:PRP$_IN SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:conceded prev2_POS:VBD with_prev2_full:conceded_but with_prev2_POS_full:VBD_CC SS

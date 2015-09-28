@@ -1,0 +1,14 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:apart prev2_POS:RB with_prev2_full:apart_and with_prev2_POS_full:RB_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:also conn_POS:RB prev1:panel prev1_POS:NN with_prev1_full:panel_also with_prev1_POS_full:NN_RB prev2:finance prev2_POS:NN with_prev2_full:finance_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:factory prev1_POS:NN with_prev1_full:factory_and with_prev1_POS_full:NN_CC prev2:Swiss-cheese prev2_POS:NN with_prev2_full:Swiss-cheese_and with_prev2_POS_full:NN_CC SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:interests prev2_POS:NNS with_prev2_full:interests_for_example with_prev2_POS_full:NNS_IN_NN PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:collectibles prev1_POS:NNS with_prev1_full:collectibles_also with_prev1_POS_full:NNS_RB prev2:of prev2_POS:IN with_prev2_full:of_also with_prev2_POS_full:IN_RB PS
+conn:also conn_POS:RB prev1:benefits prev1_POS:NNS with_prev1_full:benefits_also with_prev1_POS_full:NNS_RB prev2:tax prev2_POS:NN with_prev2_full:tax_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:reform prev1_POS:NN with_prev1_full:reform_and with_prev1_POS_full:NN_CC prev2:wanted prev2_POS:VBD with_prev2_full:wanted_and with_prev2_POS_full:VBD_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:fund-raiser prev2_POS:NN with_prev2_full:fund-raiser_then with_prev2_POS_full:NN_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:weekend prev2_POS:NN with_prev2_full:weekend_but with_prev2_POS_full:NN_CC SS

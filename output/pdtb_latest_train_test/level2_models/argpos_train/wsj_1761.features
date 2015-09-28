@@ -1,0 +1,21 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Co. prev2_POS:NNP with_prev2_full:Co._and with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:period prev2_POS:NN with_prev2_full:period_but with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:now prev2_POS:RB with_prev2_full:now_and with_prev2_POS_full:RB_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_and with_prev2_POS_full:NNS_CC SS
+conn:later conn_POS:RB sent_pos:-3 prev1:questions prev1_POS:NNS with_prev1_full:questions_later with_prev1_POS_full:NNS_RB prev2:ask prev2_POS:VB with_prev2_full:ask_later with_prev2_POS_full:VB_RB SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN SS
+conn:as conn_POS:RB prev1:down prev1_POS:RP with_prev1_full:down_as with_prev1_POS_full:RP_RB prev2:slow prev2_POS:VB with_prev2_full:slow_as with_prev2_POS_full:VB_RB SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:if conn_POS:IN prev1:stocks prev1_POS:NNS with_prev1_full:stocks_if with_prev1_POS_full:NNS_IN prev2:with prev2_POS:IN with_prev2_full:with_if with_prev2_POS_full:IN_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:if conn_POS:IN prev1:selling prev1_POS:VBG with_prev1_full:selling_if with_prev1_POS_full:VBG_IN prev2:consider prev2_POS:VB with_prev2_full:consider_if with_prev2_POS_full:VB_IN SS
+conn:since conn_POS:IN prev1:company prev1_POS:NN with_prev1_full:company_since with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_since with_prev2_POS_full:DT_IN SS
+conn:Similarly conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:well prev2_POS:RB with_prev2_full:well_and with_prev2_POS_full:RB_CC SS

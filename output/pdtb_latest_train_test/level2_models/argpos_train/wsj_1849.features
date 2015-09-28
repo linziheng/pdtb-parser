@@ -1,0 +1,26 @@
+conn:since conn_POS:IN prev1:end prev1_POS:NN with_prev1_full:end_since with_prev1_POS_full:NN_IN prev2:an prev2_POS:DT with_prev2_full:an_since with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:junk prev1_POS:NN with_prev1_full:junk_when with_prev1_POS_full:NN_WRB prev2:financiers prev2_POS:NNS with_prev2_full:financiers_when with_prev2_POS_full:NNS_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:in_fact conn_POS:IN_NN sent_pos:2 prev1:statistics prev1_POS:NNS with_prev1_full:statistics_in_fact with_prev1_POS_full:NNS_IN_NN prev2:Government prev2_POS:NN with_prev2_full:Government_in_fact with_prev2_POS_full:NN_IN_NN PS
+conn:and conn_POS:CC prev1:1982 prev1_POS:CD with_prev1_full:1982_and with_prev1_POS_full:CD_CC prev2:year prev2_POS:NN with_prev2_full:year_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:at prev1_POS:IN with_prev1_full:at_if with_prev1_POS_full:IN_IN prev2:arrived prev2_POS:VBN with_prev2_full:arrived_if with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:nothing prev1_POS:NN with_prev1_full:nothing_if with_prev1_POS_full:NN_IN prev2:means prev2_POS:VBZ with_prev2_full:means_if with_prev2_POS_full:VBZ_IN SS
+conn:indeed conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_indeed with_prev1_POS_full:VBZ_RB prev2:This prev2_POS:DT with_prev2_full:This_indeed with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:bet prev2_POS:NN with_prev2_full:bet_if with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:up prev1_POS:RB with_prev1_full:up_and with_prev1_POS_full:RB_CC prev2:go prev2_POS:VB with_prev2_full:go_and with_prev2_POS_full:VB_CC SS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:profits prev2_POS:NNS with_prev2_full:profits_thus with_prev2_POS_full:NNS_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:bet prev2_POS:NN with_prev2_full:bet_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:low prev1_POS:JJ with_prev1_full:low_and with_prev1_POS_full:JJ_CC prev2:still prev2_POS:RB with_prev2_full:still_and with_prev2_POS_full:RB_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:higher prev2_POS:JJR with_prev2_full:higher_and with_prev2_POS_full:JJR_CC SS
+conn:In_other_words conn_POS:IN_JJ_NNS sent_pos:0 PS
+conn:as conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_as with_prev1_POS_full:NN_IN prev2:16 prev2_POS:CD with_prev2_full:16_as with_prev2_POS_full:CD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:use prev1_POS:VB with_prev1_full:use_when with_prev1_POS_full:VB_WRB prev2:to prev2_POS:TO with_prev2_full:to_when with_prev2_POS_full:TO_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:shocks prev2_POS:NNS with_prev2_full:shocks_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:here prev1_POS:RB with_prev1_full:here_and with_prev1_POS_full:RB_CC prev2:is prev2_POS:VBZ with_prev2_full:is_and with_prev2_POS_full:VBZ_CC SS

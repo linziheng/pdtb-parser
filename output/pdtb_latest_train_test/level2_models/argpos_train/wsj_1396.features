@@ -1,0 +1,5 @@
+conn:because conn_POS:IN prev1:nettlesome prev1_POS:JJ with_prev1_full:nettlesome_because with_prev1_POS_full:JJ_IN prev2:particularly prev2_POS:RB with_prev2_full:particularly_because with_prev2_POS_full:RB_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:votes prev2_POS:NNS with_prev2_full:votes_then with_prev2_POS_full:NNS_RB SS
+conn:While conn_POS:IN sent_pos:0 SS

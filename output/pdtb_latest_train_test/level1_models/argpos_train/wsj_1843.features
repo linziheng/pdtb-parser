@@ -1,0 +1,7 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:week prev2_POS:NN with_prev2_full:week_as with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:banks prev2_POS:NNS with_prev2_full:banks_and with_prev2_POS_full:NNS_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:as conn_POS:IN prev1:trends prev1_POS:NNS with_prev1_full:trends_as with_prev1_POS_full:NNS_IN prev2:interestrate prev2_POS:NN with_prev2_full:interestrate_as with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:shorter prev1_POS:JJR with_prev1_full:shorter_when with_prev1_POS_full:JJR_WRB prev2:are prev2_POS:VBP with_prev2_full:are_when with_prev2_POS_full:VBP_WRB SS
+conn:when conn_POS:WRB prev1:longer prev1_POS:JJR with_prev1_full:longer_when with_prev1_POS_full:JJR_WRB prev2:and prev2_POS:CC with_prev2_full:and_when with_prev2_POS_full:CC_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:before prev2_POS:RB with_prev2_full:before_and with_prev2_POS_full:RB_CC SS

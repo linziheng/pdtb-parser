@@ -1,0 +1,9 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:which_then Asynchronous
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:potential_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:potential_and Cause
+conn_lc:nonetheless conn:Nonetheless conn_POS:RB Concession
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Asynchronous

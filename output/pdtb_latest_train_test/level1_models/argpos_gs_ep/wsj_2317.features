@@ -1,0 +1,4 @@
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:Elcotel prev2_POS:NNP with_prev2_full:Elcotel_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:Elcotel prev2_POS:NNP with_prev2_full:Elcotel_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:company prev2_POS:NN with_prev2_full:company_also with_prev2_POS_full:NN_RB PS

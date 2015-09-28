@@ -1,0 +1,15 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:faced_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:--_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:revenue_if Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:later conn:later conn_POS:RB with_prev_full:will_later Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison

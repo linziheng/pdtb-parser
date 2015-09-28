@@ -1,0 +1,22 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Conjunction
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:after conn:After conn_POS:IN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Synchrony
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:still conn:still conn_POS:RB with_prev_full:,_still Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:groups_also Conjunction
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:outraged_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:outraged_after Cause
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Contrast
+conn_lc:especially_as conn:especially_as conn_POS:RB_IN with_prev_full:,_especially_as Synchrony
+conn_lc:especially_as conn:especially_as conn_POS:RB_IN with_prev_full:,_especially_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:benefit_because Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:then conn:then conn_POS:RB with_prev_full:which_then Asynchronous
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:might_otherwise Alternative
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:,_yet Concession

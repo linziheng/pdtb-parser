@@ -1,0 +1,7 @@
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:,_previously Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:commission_since Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:except conn:except conn_POS:IN with_prev_full:offer_except Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:shares_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

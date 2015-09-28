@@ -1,0 +1,4 @@
+conn:still conn_POS:RB sent_pos:2 prev1:rules prev1_POS:NNS with_prev1_full:rules_still with_prev1_POS_full:NNS_RB prev2:GASB prev2_POS:NNP with_prev2_full:GASB_still with_prev2_POS_full:NNP_RB PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:unless conn_POS:IN prev1:rules prev1_POS:NNS with_prev1_full:rules_unless with_prev1_POS_full:NNS_IN prev2:FASB prev2_POS:NNP with_prev2_full:FASB_unless with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

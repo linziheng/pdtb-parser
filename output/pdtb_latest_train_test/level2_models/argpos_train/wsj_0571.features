@@ -1,0 +1,15 @@
+conn:because conn_POS:IN prev1:resigned prev1_POS:VBD with_prev1_full:resigned_because with_prev1_POS_full:VBD_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:as_if conn_POS:IN_IN prev1:policy prev1_POS:NN with_prev1_full:policy_as_if with_prev1_POS_full:NN_IN_IN prev2:monetary prev2_POS:JJ with_prev2_full:monetary_as_if with_prev2_POS_full:JJ_IN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Consequently conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_after with_prev1_POS_full:IN_IN prev2:show prev2_POS:VBP with_prev2_full:show_after with_prev2_POS_full:VBP_IN SS
+conn:instead conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_instead with_prev1_POS_full:,_RB prev2:investment prev2_POS:NN with_prev2_full:investment_instead with_prev2_POS_full:NN_RB SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:Then prev2_POS:RB with_prev2_full:Then_when with_prev2_POS_full:RB_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:mindless prev2_POS:JJ with_prev2_full:mindless_and with_prev2_POS_full:JJ_CC SS
+conn:Unless conn_POS:IN sent_pos:0 SS
+conn:before conn_POS:IN prev1:considering prev1_POS:VBG with_prev1_full:considering_before with_prev1_POS_full:VBG_IN prev2:need prev2_POS:VBP with_prev2_full:need_before with_prev2_POS_full:VBP_IN SS

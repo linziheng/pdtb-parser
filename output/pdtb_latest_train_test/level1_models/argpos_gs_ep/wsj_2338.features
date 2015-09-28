@@ -1,0 +1,9 @@
+conn:as conn_POS:IN prev1:mid-1990s prev1_POS:NNS with_prev1_full:mid-1990s_as with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_as with_prev2_POS_full:DT_IN SS
+conn:as conn_POS:IN prev1:unprofitable prev1_POS:JJ with_prev1_full:unprofitable_as with_prev1_POS_full:JJ_IN prev2:became prev2_POS:VBD with_prev2_full:became_as with_prev2_POS_full:VBD_IN SS
+conn:before conn_POS:IN prev1:place prev1_POS:NN with_prev1_full:place_before with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_before with_prev2_POS_full:IN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:problem prev2_POS:NN with_prev2_full:problem_however with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:up prev2_POS:RP with_prev2_full:up_and with_prev2_POS_full:RP_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Pontiac prev2_POS:NNP with_prev2_full:Pontiac_however with_prev2_POS_full:NNP_RB PS
+conn:before conn_POS:IN prev1:GM prev1_POS:NNP with_prev1_full:GM_before with_prev1_POS_full:NNP_IN prev2:at prev2_POS:IN with_prev2_full:at_before with_prev2_POS_full:IN_IN SS
+conn:as_a_result conn_POS:IN_DT_NN sent_pos:-2 prev1:politically prev1_POS:RB with_prev1_full:politically_as_a_result with_prev1_POS_full:RB_IN_DT_NN prev2:beating prev2_POS:NN with_prev2_full:beating_as_a_result with_prev2_POS_full:NN_IN_DT_NN PS

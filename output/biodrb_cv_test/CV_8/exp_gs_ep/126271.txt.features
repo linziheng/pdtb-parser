@@ -1,0 +1,50 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction£
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Conjunction£
+conn_lc:though conn:Though conn_POS:IN Concession£
+conn_lc:because conn:because conn_POS:IN with_prev_full:choice_because Cause£
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:may_thus Cause£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause£
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction£
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Continuation£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:replication_and Conjunction£
+conn_lc:because conn:Because conn_POS:IN Cause£
+conn_lc:if conn:if conn_POS:IN with_prev_full:possible_if Condition£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:is_thus Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal£Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:also conn:also conn_POS:RB with_prev_full:solution_also Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal£Conjunction£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:amplification_when Temporal£
+conn_lc:because conn:Because conn_POS:IN Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal£Conjunction£
+conn_lc:after conn:After conn_POS:IN Temporal£Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:disappeared_and Conjunction£
+conn_lc:after conn:After conn_POS:IN Temporal£
+conn_lc:and conn:and conn_POS:CC with_prev_full:amounts_and Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal£
+conn_lc:until conn:until conn_POS:IN with_prev_full:observed_until Temporal£
+conn_lc:and conn:and conn_POS:CC with_prev_full:amplicons_and Conjunction£
+conn_lc:while conn:while conn_POS:IN Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation£
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Contrast£
+conn_lc:while conn:While conn_POS:IN Contrast£
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:can_therefore Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:concentrations_and Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rsb-_and Continuation£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:since conn:Since conn_POS:IN Cause£
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Contrast£
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Concession£
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause£
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Conjunction£
+conn_lc:although conn:Although conn_POS:IN Concession£
+conn_lc:however conn:However conn_POS:RB Concession£
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£

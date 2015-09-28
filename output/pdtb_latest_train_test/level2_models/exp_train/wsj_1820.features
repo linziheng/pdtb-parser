@@ -1,0 +1,10 @@
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:september_after Asynchronous
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:refinancing_also Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:sears_then Asynchronous

@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:system_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:still conn:still conn_POS:RB with_prev_full:is_still Concession
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:ibm_when Condition
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:and conn:And conn_POS:CC Conjunction

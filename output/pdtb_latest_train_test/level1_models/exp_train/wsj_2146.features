@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:quarter_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:reorganization_if Contingency
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:26.02_and Expansion

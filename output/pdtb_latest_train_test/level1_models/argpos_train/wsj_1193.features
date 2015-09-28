@@ -1,0 +1,11 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:40 prev2_POS:CD with_prev2_full:40_and with_prev2_POS_full:CD_CC SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:characters prev2_POS:NNS with_prev2_full:characters_also with_prev2_POS_full:NNS_RB PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:tie-ins prev2_POS:NN with_prev2_full:tie-ins_though with_prev2_POS_full:NN_RB PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:resigned prev1_POS:VBN with_prev1_full:resigned_after with_prev1_POS_full:VBN_IN prev2:had prev2_POS:VBD with_prev2_full:had_after with_prev2_POS_full:VBD_IN SS
+conn:just_a_day_after conn_POS:RB_DT_NN_IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_just_a_day_after with_prev1_POS_full:,_RB_DT_NN_IN prev2:Yesterday prev2_POS:NN with_prev2_full:Yesterday_just_a_day_after with_prev2_POS_full:NN_RB_DT_NN_IN SS
+conn:and conn_POS:CC prev1:coincidence prev1_POS:NN with_prev1_full:coincidence_and with_prev1_POS_full:NN_CC prev2:a prev2_POS:DT with_prev2_full:a_and with_prev2_POS_full:DT_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:annually prev2_POS:RB with_prev2_full:annually_but with_prev2_POS_full:RB_CC SS

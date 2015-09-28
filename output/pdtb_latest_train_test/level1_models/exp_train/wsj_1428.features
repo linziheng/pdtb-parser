@@ -1,0 +1,23 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:now_if Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:change_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:previously conn:Previously conn_POS:RB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:quotas_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:quotas_while Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:proposal_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison

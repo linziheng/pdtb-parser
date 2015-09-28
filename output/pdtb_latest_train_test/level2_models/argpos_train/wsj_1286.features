@@ -1,0 +1,36 @@
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:to prev2_POS:TO with_prev2_full:to_because with_prev2_POS_full:TO_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:understood prev2_POS:VBN with_prev2_full:understood_and with_prev2_POS_full:VBN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:complex prev2_POS:JJ with_prev2_full:complex_but with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:since conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_since with_prev1_POS_full:''_IN prev2:, prev2_POS:, with_prev2_full:,_since with_prev2_POS_full:,_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:schoolteachers prev1_POS:NNS with_prev1_full:schoolteachers_and with_prev1_POS_full:NNS_CC prev2:many prev2_POS:JJ with_prev2_full:many_and with_prev2_POS_full:JJ_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:if_only conn_POS:IN_RB prev1:better prev1_POS:JJR with_prev1_full:better_if_only with_prev1_POS_full:JJR_IN_RB prev2:children prev2_POS:NNS with_prev2_full:children_if_only with_prev2_POS_full:NNS_IN_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:useful prev2_POS:JJ with_prev2_full:useful_since with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ghettos prev2_POS:NNS with_prev2_full:ghettos_and with_prev2_POS_full:NNS_CC SS
+conn:Conversely conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:schools prev2_POS:NNS with_prev2_full:schools_and with_prev2_POS_full:NNS_CC SS
+conn:if_only conn_POS:IN_RB prev1:, prev1_POS:, with_prev1_full:,_if_only with_prev1_POS_full:,_IN_RB prev2:know prev2_POS:VB with_prev2_full:know_if_only with_prev2_POS_full:VB_IN_RB SS
+conn:if conn_POS:IN prev1:helpful prev1_POS:JJ with_prev1_full:helpful_if with_prev1_POS_full:JJ_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:pap prev2_POS:NN with_prev2_full:pap_since with_prev2_POS_full:NN_IN SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:grade prev2_POS:NN with_prev2_full:grade_but with_prev2_POS_full:NN_CC SS
+conn:afterward conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_afterward with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_afterward with_prev2_POS_full:,_RB SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:even_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_as with_prev1_POS_full:,_RB_IN prev2:governance prev2_POS:NN with_prev2_full:governance_even_as with_prev2_POS_full:NN_RB_IN SS
+conn:though conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_though with_prev1_POS_full::_IN prev2:pupils prev2_POS:NNS with_prev2_full:pupils_though with_prev2_POS_full:NNS_IN SS
+conn:as conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_as with_prev1_POS_full:IN_IN prev2:fact prev2_POS:NN with_prev2_full:fact_as with_prev2_POS_full:NN_IN SS
+conn:as conn_POS:IN prev1:ladder prev1_POS:NN with_prev1_full:ladder_as with_prev1_POS_full:NN_IN prev2:educational prev2_POS:JJ with_prev2_full:educational_as with_prev2_POS_full:JJ_IN SS
+conn:though conn_POS:IN prev1:-LRB- prev1_POS:-LRB- with_prev1_full:-LRB-_though with_prev1_POS_full:-LRB-_IN prev2:flourish prev2_POS:VB with_prev2_full:flourish_though with_prev2_POS_full:VB_IN SS
+conn:though conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_though with_prev1_POS_full::_IN prev2:fact prev2_POS:NN with_prev2_full:fact_though with_prev2_POS_full:NN_IN SS

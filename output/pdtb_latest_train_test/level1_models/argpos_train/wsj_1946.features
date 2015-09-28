@@ -1,0 +1,15 @@
+conn:after conn_POS:IN prev1:1981 prev1_POS:CD with_prev1_full:1981_after with_prev1_POS_full:CD_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:watched prev1_POS:VBN with_prev1_full:watched_because with_prev1_POS_full:VBN_IN prev2:closely prev2_POS:RB with_prev2_full:closely_because with_prev2_POS_full:RB_IN SS
+conn:when conn_POS:WRB prev1:'' prev1_POS:'' with_prev1_full:''_when with_prev1_POS_full:''_WRB prev2:sick prev2_POS:JJ with_prev2_full:sick_when with_prev2_POS_full:JJ_WRB SS
+conn:but conn_POS:CC prev1:immediately prev1_POS:RB with_prev1_full:immediately_but with_prev1_POS_full:RB_CC prev2:themselves prev2_POS:PRP with_prev2_full:themselves_but with_prev2_POS_full:PRP_CC SS
+conn:and conn_POS:CC prev1:syndrome prev1_POS:NN with_prev1_full:syndrome_and with_prev1_POS_full:NN_CC prev2:sick-building prev2_POS:JJ with_prev2_full:sick-building_and with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:unavailable prev1_POS:JJ with_prev1_full:unavailable_when with_prev1_POS_full:JJ_WRB prev2:was prev2_POS:VBD with_prev2_full:was_when with_prev2_POS_full:VBD_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:until conn_POS:IN prev1:conclusion prev1_POS:NN with_prev1_full:conclusion_until with_prev1_POS_full:NN_IN prev2:that prev2_POS:DT with_prev2_full:that_until with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:proceedings prev1_POS:NNS with_prev1_full:proceedings_while with_prev1_POS_full:NNS_IN prev2:condemnation prev2_POS:NN with_prev2_full:condemnation_while with_prev2_POS_full:NN_IN SS
+conn:before conn_POS:IN prev1:lawsuits prev1_POS:NNS with_prev1_full:lawsuits_before with_prev1_POS_full:NNS_IN prev2:additional prev2_POS:JJ with_prev2_full:additional_before with_prev2_POS_full:JJ_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Weinstein prev1_POS:NNP with_prev1_full:Weinstein_also with_prev1_POS_full:NNP_RB prev2:Judge prev2_POS:NNP with_prev2_full:Judge_also with_prev2_POS_full:NNP_RB PS

@@ -1,0 +1,16 @@
+conn:also conn_POS:RB prev1:interest prev1_POS:NN with_prev1_full:interest_also with_prev1_POS_full:NN_RB prev2:Soviet prev2_POS:JJ with_prev2_full:Soviet_also with_prev2_POS_full:JJ_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:delays prev2_POS:VBZ with_prev2_full:delays_however with_prev2_POS_full:VBZ_RB PS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:bullion prev2_POS:NN with_prev2_full:bullion_and with_prev2_POS_full:NN_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:exchange prev2_POS:NN with_prev2_full:exchange_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:Africa prev2_POS:NNP with_prev2_full:Africa_also with_prev2_POS_full:NNP_RB SS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:economy prev2_POS:NN with_prev2_full:economy_thus with_prev2_POS_full:NN_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:days prev2_POS:NNS with_prev2_full:days_however with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:purchasing prev2_POS:NN with_prev2_full:purchasing_but with_prev2_POS_full:NN_CC SS
+conn:even_if conn_POS:RB_IN prev1:but prev1_POS:CC with_prev1_full:but_even_if with_prev1_POS_full:CC_RB_IN prev2:, prev2_POS:, with_prev2_full:,_even_if with_prev2_POS_full:,_RB_IN SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:said prev2_POS:VBD with_prev2_full:said_even_though with_prev2_POS_full:VBD_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,24 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ponds prev2_POS:NNS with_prev2_full:ponds_and with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:South prev1_POS:NNP with_prev1_full:South_before with_prev1_POS_full:NNP_IN prev2:the prev2_POS:DT with_prev2_full:the_before with_prev2_POS_full:DT_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:when conn_POS:WRB prev1:exemptions prev1_POS:NNS with_prev1_full:exemptions_when with_prev1_POS_full:NNS_WRB prev2:over prev2_POS:IN with_prev2_full:over_when with_prev2_POS_full:IN_WRB SS
+conn:because conn_POS:IN prev1:deductible prev1_POS:JJ with_prev1_full:deductible_because with_prev1_POS_full:JJ_IN prev2:n't prev2_POS:RB with_prev2_full:n't_because with_prev2_POS_full:RB_IN SS
+conn:Once conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:average prev1_POS:JJ with_prev1_full:average_because with_prev1_POS_full:JJ_IN prev2:than prev2_POS:IN with_prev2_full:than_because with_prev2_POS_full:IN_IN SS
+conn:not_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_not_because with_prev1_POS_full:,_RB_IN prev2:formula prev2_POS:NN with_prev2_full:formula_not_because with_prev2_POS_full:NN_RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:computer prev1_POS:NN with_prev1_full:computer_because with_prev1_POS_full:NN_IN prev2:by prev2_POS:IN with_prev2_full:by_because with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS
+conn:because conn_POS:IN prev1:arise prev1_POS:VBP with_prev1_full:arise_because with_prev1_POS_full:VBP_IN prev2:and prev2_POS:CC with_prev2_full:and_because with_prev2_POS_full:CC_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:jail prev2_POS:NN with_prev2_full:jail_but with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:now_that conn_POS:RB_IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_now_that with_prev1_POS_full:CC_RB_IN SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:return prev2_POS:NN with_prev2_full:return_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:taxes prev1_POS:NNS with_prev1_full:taxes_also with_prev1_POS_full:NNS_RB prev2:employment prev2_POS:NN with_prev2_full:employment_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:states prev1_POS:NNS with_prev1_full:states_also with_prev1_POS_full:NNS_RB prev2:Revenue-short prev2_POS:JJ with_prev2_full:Revenue-short_also with_prev2_POS_full:JJ_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:delinquents prev2_POS:NNS with_prev2_full:delinquents_and with_prev2_POS_full:NNS_CC SS
+conn:since conn_POS:IN prev1:York prev1_POS:NNP with_prev1_full:York_since with_prev1_POS_full:NNP_IN prev2:New prev2_POS:NNP with_prev2_full:New_since with_prev2_POS_full:NNP_IN SS

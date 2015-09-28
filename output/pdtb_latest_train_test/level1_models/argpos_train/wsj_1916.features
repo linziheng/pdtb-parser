@@ -1,0 +1,16 @@
+conn:as conn_POS:IN prev1:yesterday prev1_POS:NN with_prev1_full:yesterday_as with_prev1_POS_full:NN_IN prev2:themselves prev2_POS:PRP with_prev2_full:themselves_as with_prev2_POS_full:PRP_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_before with_prev1_POS_full:NNS_IN prev2:two prev2_POS:CD with_prev2_full:two_before with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:reopened prev2_POS:VBN with_prev2_full:reopened_and with_prev2_POS_full:VBN_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:well prev2_POS:RB with_prev2_full:well_as with_prev2_POS_full:RB_IN SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:L.A. prev2_POS:NNP with_prev2_full:L.A._and with_prev2_POS_full:NNP_CC SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:said prev2_POS:VBD with_prev2_full:said_although with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:duration prev1_POS:NN with_prev1_full:duration_and with_prev1_POS_full:NN_CC prev2:significant prev2_POS:JJ with_prev2_full:significant_and with_prev2_POS_full:JJ_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:priority prev2_POS:NN with_prev2_full:priority_and with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:revenues prev2_POS:NNS with_prev2_full:revenues_but with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:friends prev2_POS:NNS with_prev2_full:friends_while with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:study prev1_POS:NN with_prev1_full:study_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

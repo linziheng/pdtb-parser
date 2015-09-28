@@ -1,0 +1,15 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:1981_after Asynchronous
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:watched_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:immediately_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:syndrome_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:unavailable_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:until conn:until conn_POS:IN with_prev_full:conclusion_until Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:proceedings_while Synchrony
+conn_lc:before conn:before conn_POS:IN with_prev_full:lawsuits_before Asynchronous
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:weinstein_also Conjunction

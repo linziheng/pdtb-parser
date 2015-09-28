@@ -1,0 +1,22 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:earnings_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:1990_because Cause
+conn_lc:only_because conn:only_because conn_POS:RB_IN with_prev_full:stock_only_because Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:exchange_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:come_and Conjunction
+conn_lc:and conn:And conn_POS:CC with_prev_full:``_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:well_when Synchrony
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:they_finally Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:levels_even_when Condition
+conn_lc:and conn:And conn_POS:CC Conjunction

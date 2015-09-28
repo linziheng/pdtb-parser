@@ -1,0 +1,19 @@
+conn_lc:if conn:If conn_POS:IN Restatement
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:who_previously Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:deadline_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Condition
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:postponement_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:businesses_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:happen_if Condition
+conn_lc:though conn:Though conn_POS:NNP Concession
+conn_lc:once conn:once conn_POS:IN with_prev_full:b.a.t_once Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:uncertainty_also Conjunction
+conn_lc:finally conn:Finally conn_POS:RB Conjunction

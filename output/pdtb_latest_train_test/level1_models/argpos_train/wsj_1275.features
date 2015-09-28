@@ -1,0 +1,2 @@
+conn:also conn_POS:RB prev1:ads prev1_POS:NNS with_prev1_full:ads_also with_prev1_POS_full:NNS_RB prev2:for prev2_POS:IN with_prev2_full:for_also with_prev2_POS_full:IN_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:parent prev1_POS:NN with_prev1_full:parent_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

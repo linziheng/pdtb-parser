@@ -1,0 +1,13 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:%_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:co._also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:spilled_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:spilled_when Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:ashland_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:refiner_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:operations_after Asynchronous

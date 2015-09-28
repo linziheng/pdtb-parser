@@ -1,0 +1,20 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:division prev1_POS:NN with_prev1_full:division_also with_prev1_POS_full:NN_RB prev2:Lexus prev2_POS:NNP with_prev2_full:Lexus_also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Ky. prev2_POS:NNP with_prev2_full:Ky._for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:franchises prev1_POS:NNS with_prev1_full:franchises_because with_prev1_POS_full:NNS_IN prev2:Lexus prev2_POS:NNP with_prev2_full:Lexus_because with_prev2_POS_full:NNP_IN SS
+conn:in_part_because conn_POS:IN_NN_IN prev1:franchise prev1_POS:NN with_prev1_full:franchise_in_part_because with_prev1_POS_full:NN_IN_NN_IN prev2:Lexus prev2_POS:NNP with_prev2_full:Lexus_in_part_because with_prev2_POS_full:NNP_IN_NN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:1982 prev2_POS:CD with_prev2_full:1982_however with_prev2_POS_full:CD_RB PS
+conn:then conn_POS:RB prev1:departments prev1_POS:NNS with_prev1_full:departments_then with_prev1_POS_full:NNS_RB prev2:sales prev2_POS:NNS with_prev2_full:sales_then with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:1985 prev2_POS:CD with_prev2_full:1985_but with_prev2_POS_full:CD_CC SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:engineers prev2_POS:NNS with_prev2_full:engineers_and with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB prev1:recorder prev1_POS:NN with_prev1_full:recorder_also with_prev1_POS_full:NN_RB prev2:picocassette prev2_POS:NN with_prev2_full:picocassette_also with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:leaves prev2_POS:NNS with_prev2_full:leaves_but with_prev2_POS_full:NNS_CC SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:'' prev1_POS:'' with_prev1_full:''_also with_prev1_POS_full:''_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:or conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_or with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_or with_prev2_POS_full:,_CC SS

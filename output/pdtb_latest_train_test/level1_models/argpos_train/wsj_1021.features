@@ -1,0 +1,3 @@
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:not prev2_POS:RB with_prev2_full:not_however with_prev2_POS_full:RB_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:group prev1_POS:NN with_prev1_full:group_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:shares prev2_POS:NNS with_prev2_full:shares_but with_prev2_POS_full:NNS_CC SS

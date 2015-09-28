@@ -1,0 +1,263 @@
+Implicit||Wr|Comm|Null|Null||for example|Instantiation||||||161..272|Inh|Null|Null|Null||274..574|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Background.Backward Background||||||274..443|Inh|Null|Null|Null||445..574|Inh|Null|Null|Null||
+Explicit|576..584|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||667..749|Inh|Null|Null|Null||585..665|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||274..574|Inh|Null|Null|Null||576..749|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||576..749|Inh|Null|Null|Null||751..893|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||751..893|Inh|Null|Null|Null||895..1253|Inh|Null|Null|Null||
+Explicit|984..988|Wr|Comm|Null|Null|||Temporal.Precedence||||||895..982|Inh|Null|Null|Null||989..1125|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||984..1125|Inh|Null|Null|Null||1127..1253|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||751..1253|Inh|Null|Null|Null||1255..2236|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||also|Conjunction||||||1255..1391|Inh|Null|Null|Null||1393..1609|Inh|Null|Null|Null||
+Explicit|1524..1531|Wr|Comm|Null|Null|||Contrast||||||1393..1522|Inh|Null|Null|Null||1532..1609|Inh|Null|Null|Null||
+Explicit|1621..1625|Wr|Comm|Null|Null|||Conjunction||||||1255..1391|Inh|Null|Null|Null||1611..1620;1626..1745|Inh|Null|Null|Null||
+Explicit|1680..1683|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||1611..1678|Inh|Null|Null|Null||1684..1745|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||1611..1745|Inh|Null|Null|Null||1747..1795|Inh|Null|Null|Null||
+AltLex|1797..1835|Wr|Comm|Null|Null|||Cause.Result||||||1747..1795|Inh|Null|Null|Null||1797..1911|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||furthermore|Conjunction||||||1747..1911|Inh|Null|Null|Null||1913..2236|Inh|Null|Null|Null||
+Explicit|2116..2123|Wr|Comm|Null|Null|||Contrast||||||1913..2114|Inh|Null|Null|Null||2125..2236|Inh|Null|Null|Null||
+AltLex|2238..2264|Wr|Comm|Null|Null|||Cause.Claim||||||1255..2236|Inh|Null|Null|Null||2238..2405|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||NONE|Continuation||||||2422..2549|Inh|Null|Null|Null||2551..2667|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||2551..2667|Inh|Null|Null|Null||2669..2922|Inh|Null|Null|Null||
+Explicit|3045..3052|Wr|Comm|Null|Null|||Cause.Reason||||||2926..3044|Inh|Null|Null|Null||3053..3115|Inh|Null|Null|Null||
+Explicit|3117..3124|Wr|Comm|Null|Null|||Contrast||||||2926..3115|Inh|Null|Null|Null||3126..3371|Inh|Null|Null|Null||
+Explicit|3246..3253|Wr|Comm|Null|Null|||Contrast||||||3117..3244|Inh|Null|Null|Null||3254..3371|Inh|Null|Null|Null||
+AltLex|3373..3389|Wr|Comm|Null|Null|||Cause.Result||||||2926..3371|Inh|Null|Null|Null||3373..3450|Inh|Null|Null|Null||
+Explicit|3452..3459|Wr|Comm|Null|Null|||Cause.Reason||||||3639..3702|Inh|Null|Null|Null||3460..3637|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||3373..3450|Inh|Null|Null|Null||3452..3702|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||3706..3836|Inh|Null|Null|Null||3838..4001|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||3838..3888|Inh|Null|Null|Null||3890..4001|Inh|Null|Null|Null||
+Explicit|3964..3970|Wr|Comm|Null|Null|||Conjunction||||||3890..3962|Inh|Null|Null|Null||3972..4001|Inh|Null|Null|Null||
+Explicit|4051..4055|Wr|Comm|Null|Null|||Conjunction||||||3838..4001|Inh|Null|Null|Null||4003..4050;4056..4176|Inh|Null|Null|Null||
+Explicit|4094..4096|Wr|Comm|Null|Null|||Purpose.Enablement||||||4041..4093|Inh|Null|Null|Null||4097..4221|Inh|Null|Null|Null||
+Explicit|4226..4230|Wr|Comm|Null|Null|||Conjunction||||||4003..4221|Inh|Null|Null|Null||4223..4225;4231..4447|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||4223..4447|Inh|Null|Null|Null||4449..4632|Inh|Null|Null|Null||
+Explicit|4573..4576|Wr|Comm|Null|Null|||Conjunction||||||4449..4571|Inh|Null|Null|Null||4577..4632|Inh|Null|Null|Null||
+Explicit|4878..4882|Wr|Comm|Null|Null|||Conjunction||||||4636..4844|Inh|Null|Null|Null||4846..4877;4883..4987|Inh|Null|Null|Null||
+Explicit|4991..4999|Wr|Comm|Null|Null|||Concession.Expectation||||||5105..5189|Inh|Null|Null|Null||5000..5103|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||5105..5189|Inh|Null|Null|Null||5191..5334|Inh|Null|Null|Null||
+AltLex|5531..5558|Wr|Comm|Null|Null|||Cause.Claim||||||5338..5529|Inh|Null|Null|Null||5531..5658|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||5685..5892|Inh|Null|Null|Null||5894..5975|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||5894..5975|Inh|Null|Null|Null||5977..6040|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||5977..6040|Inh|Null|Null|Null||6042..6189|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||6042..6189|Inh|Null|Null|Null||6191..6328|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||6191..6328|Inh|Null|Null|Null||6330..6458|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||6462..6659|Inh|Null|Null|Null||6661..6749|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||6661..6749|Inh|Null|Null|Null||6751..6831|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||6751..6831|Inh|Null|Null|Null||6833..6895|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||6833..6895|Inh|Null|Null|Null||6897..7062|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||6897..7062|Inh|Null|Null|Null||7064..7181|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||7064..7181|Inh|Null|Null|Null||7183..7284|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||7288..7388|Inh|Null|Null|Null||7390..7447|Inh|Null|Null|Null||
+Explicit|7449..7457|Wr|Comm|Null|Null|||Restatement.Specification||||||7390..7447|Inh|Null|Null|Null||7459..8159|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||7449..7647|Inh|Null|Null|Null||7649..7788|Inh|Null|Null|Null||
+Explicit|7790..7802|Wr|Comm|Null|Null|||Temporal.Precedence||||||7649..7788|Inh|Null|Null|Null||7804..7921|Inh|Null|Null|Null||
+Explicit|7884..7887|Wr|Comm|Null|Null|||Conjunction|Temporal.Precedence|||||7790..7883|Inh|Null|Null|Null||7888..7921|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||7884..7921|Inh|Null|Null|Null||7923..8036|Inh|Null|Null|Null||
+Explicit|8038..8043|Wr|Comm|Null|Null|||Temporal.Succession||||||8095..8159|Inh|Null|Null|Null||8044..8093|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||7923..8036|Inh|Null|Null|Null||8038..8159|Inh|Null|Null|Null||
+Explicit|8146..8151|Wr|Comm|Null|Null|||Temporal.Precedence||||||8126..8145|Inh|Null|Null|Null||8152..8159|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||7390..7447|Inh|Null|Null|Null||8161..8241|Inh|Null|Null|Null||
+Explicit|8201..8204|Wr|Comm|Null|Null|||Conjunction||||||8161..8199|Inh|Null|Null|Null||8205..8241|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||8245..8337|Inh|Null|Null|Null||8339..8904|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||8339..8392|Inh|Null|Null|Null||8394..8467|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||8394..8467|Inh|Null|Null|Null||8469..8557|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||8469..8557|Inh|Null|Null|Null||8559..8730|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||8559..8730|Inh|Null|Null|Null||8732..8804|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||8732..8804|Inh|Null|Null|Null||8806..8904|Inh|Null|Null|Null||
+Explicit|8875..8880|Wr|Comm|Null|Null|||Temporal.Succession||||||8806..8874|Inh|Null|Null|Null||8881..8904|Inh|Null|Null|Null||
+Explicit|8906..8919|Wr|Comm|Null|Null|||Alternative.Disjunctive||||||8245..8337|Inh|Null|Null|Null||8921..9136|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||8906..9136|Inh|Null|Null|Null||9138..9240|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||8906..9240|Inh|Null|Null|Null||9242..9310|Inh|Null|Null|Null||
+Explicit|9433..9441|Wr|Comm|Null|Null|||Restatement.Specification||||||9314..9431|Inh|Null|Null|Null||9443..10413|Inh|Null|Null|Null||
+Explicit|9560..9565|Wr|Comm|Null|Null|||Temporal.Succession||||||9694..9835|Inh|Null|Null|Null||9566..9692|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||9433..9558|Inh|Null|Null|Null||9560..9835|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||9694..9835|Inh|Null|Null|Null||9837..10044|Inh|Null|Null|Null||
+Explicit|9912..9916|Wr|Comm|Null|Null|||Temporal.Precedence||||||9837..9906|Inh|Null|Null|Null||9908..9911;9917..10044|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||9908..10044|Inh|Null|Null|Null||10046..10303|Inh|Null|Null|Null||
+Explicit|10161..10165|Wr|Comm|Null|Null|||Temporal.Precedence||||||10061..10159|Inh|Null|Null|Null||10166..10303|Inh|Null|Null|Null||
+Explicit|10274..10276|Wr|Comm|Null|Null|||Purpose.Goal||||||10161..10273|Inh|Null|Null|Null||10277..10303|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||finally|Temporal.Precedence||||||10046..10303|Inh|Null|Null|Null||10305..10413|Inh|Null|Null|Null||
+Explicit|10330..10332|Wr|Comm|Null|Null|||Purpose.Enablement||||||10305..10329|Inh|Null|Null|Null||10333..10357|Inh|Null|Null|Null||
+Explicit|10358..10361|Wr|Comm|Null|Null|||Conjunction|Temporal.Precedence|||||10305..10357|Inh|Null|Null|Null||10362..10413|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||9314..9431|Inh|Null|Null|Null||10415..10462|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||10415..10462|Inh|Null|Null|Null||10464..10579|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||10464..10579|Inh|Null|Null|Null||10581..10750|Inh|Null|Null|Null||
+Explicit|10608..10610|Wr|Comm|Null|Null|||Purpose.Enablement||||||10581..10607|Inh|Null|Null|Null||10611..10697|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||10754..10871|Inh|Null|Null|Null||10873..11026|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||10873..11026|Inh|Null|Null|Null||11028..11168|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||11028..11168|Inh|Null|Null|Null||11170..11322|Inh|Null|Null|Null||
+Explicit|11219..11221|Wr|Comm|Null|Null|||Purpose.Enablement||||||11170..11218|Inh|Null|Null|Null||11222..11322|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||11170..11322|Inh|Null|Null|Null||11324..12248|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||11324..11441|Inh|Null|Null|Null||11443..11761|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||11443..11761|Inh|Null|Null|Null||11763..11987|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||11763..11987|Inh|Null|Null|Null||11989..12153|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||because|Cause.Reason||||||11989..12057|Inh|Null|Null|Null||12059..12153|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||11989..12153|Inh|Null|Null|Null||12155..12248|Inh|Null|Null|Null||
+Explicit|12345..12350|Wr|Comm|Null|Null|||Temporal.Succession||||||12374..12521|Inh|Null|Null|Null||12351..12372|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||12252..12343|Inh|Null|Null|Null||12345..12521|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||12345..12521|Inh|Null|Null|Null||12523..12635|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||12523..12635|Inh|Null|Null|Null||12637..12774|Inh|Null|Null|Null||
+Explicit|12776..12779|Wr|Comm|Null|Null|||Purpose.Goal||||||12803..13132|Inh|Null|Null|Null||12780..12801|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||12684..12774|Inh|Null|Null|Null||12776..13132|Inh|Null|Null|Null||
+Explicit|12941..12945|Wr|Comm|Null|Null|||Temporal.Precedence||||||12776..12939|Inh|Null|Null|Null||12946..13132|Inh|Null|Null|Null||
+Explicit|13134..13139|Wr|Comm|Null|Null|||Temporal.Succession||||||13171..13291|Inh|Null|Null|Null||13140..13169|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||12941..13132|Inh|Null|Null|Null||13134..13291|Inh|Null|Null|Null||
+AltLex|13293..13312|Wr|Comm|Null|Null|||Temporal.Precedence||||||13134..13291|Inh|Null|Null|Null||13293..13448|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||13452..13507|Inh|Null|Null|Null||13509..13765|Inh|Null|Null|Null||
+Explicit|13651..13653|Wr|Comm|Null|Null|||Purpose.Enablement||||||13509..13650|Inh|Null|Null|Null||13654..13765|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||13509..13765|Inh|Null|Null|Null||13767..13876|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||13767..13876|Inh|Null|Null|Null||13878..14189|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||13878..14189|Inh|Null|Null|Null||14191..14323|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||14191..14323|Inh|Null|Null|Null||14325..14421|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||14325..14421|Inh|Null|Null|Null||14423..14550|Inh|Null|Null|Null||
+Explicit|14554..14557|Wr|Comm|Null|Null|||Purpose.Goal||||||14581..14702|Inh|Null|Null|Null||14558..14579|Inh|Null|Null|Null||
+Explicit|14704..14709|Wr|Comm|Null|Null|||Temporal.Succession||||||14735..14898|Inh|Null|Null|Null||14710..14733|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||14554..14702|Inh|Null|Null|Null||14704..14898|Inh|Null|Null|Null||
+Explicit|14760..14763|Wr|Comm|Null|Null|||Conjunction|Temporal.Precedence|||||14735..14759|Inh|Null|Null|Null||14764..14898|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||14902..14935|Inh|Null|Null|Null||14937..15011|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||14937..15011|Inh|Null|Null|Null||15013..15064|Inh|Null|Null|Null||
+Explicit|15221..15225|Wr|Comm|Null|Null|||Temporal.Precedence||||||15077..15201|Inh|Null|Null|Null||15203..15220;15226..15273|Inh|Null|Null|Null||
+Explicit|15275..15283|Wr|Comm|Null|Null|||Contrast||||||15427..15613|Inh|Null|Null|Null||15284..15425|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||15077..15273|Inh|Null|Null|Null||15275..15613|Inh|Null|Null|Null||
+Explicit|15617..15624|Wr|Comm|Null|Null|||Cause.Reason||||||15714..15823|Inh|Null|Null|Null||15625..15712|Inh|Null|Null|Null||
+AltLex|15898..15918|Wr|Comm|Null|Null|||Cause.Result||||||15825..15896|Inh|Null|Null|Null||15898..15981|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||15714..15981|Inh|Null|Null|Null||15983..16371|Inh|Null|Null|Null||
+Explicit|16072..16075|Wr|Comm|Null|Null|||Conjunction||||||15983..16070|Inh|Null|Null|Null||16076..16186|Inh|Null|Null|Null||
+Explicit|16188..16199|Wr|Comm|Null|Null|||Conjunction||||||16072..16186|Inh|Null|Null|Null||16201..16371|Inh|Null|Null|Null||
+Explicit|16201..16205|Wr|Comm|Null|Null|||Temporal.Synchronous|Circumstance.Forward Circumstance|||||16188..16199;16250..16371|Inh|Null|Null|Null||16206..16248|Inh|Null|Null|Null||
+Explicit|16375..16382|Wr|Comm|Null|Null|||Cause.Reason||||||16442..16574|Inh|Null|Null|Null||16383..16440|Inh|Null|Null|Null||
+Explicit|16576..16578|Wr|Comm|Null|Null|||Purpose.Goal||||||16654..16731|Inh|Null|Null|Null||16579..16652|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||16375..16574|Inh|Null|Null|Null||16576..16731|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||16654..16731|Inh|Null|Null|Null||16733..17222|Inh|Null|Null|Null||
+Explicit|16772..16777|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||16745..16771|Inh|Null|Null|Null||16778..16811|Inh|Null|Null|Null||
+Explicit|16813..16820|Wr|Comm|Null|Null|||Contrast||||||16733..16811|Inh|Null|Null|Null||16821..16943|Inh|Null|Null|Null||
+Explicit|16945..16949|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||16950..16998|Inh|Null|Null|Null||17000..17222|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||16733..16943|Inh|Null|Null|Null||16945..17222|Inh|Null|Null|Null||
+Explicit|17126..17133|Wr|Comm|Null|Null|||Contrast||||||16945..17124|Inh|Null|Null|Null||17134..17222|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||17226..17358|Inh|Null|Null|Null||17360..18078|Inh|Null|Null|Null||
+Explicit|17460..17464|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||17386..17459;17523..17622|Inh|Null|Null|Null||17465..17522|Inh|Null|Null|Null||
+Explicit|17676..17680|Wr|Comm|Null|Null|||Conjunction||||||17360..17622|Inh|Null|Null|Null||17626..17674;17681..17833|Inh|Null|Null|Null||
+Explicit|17888..17892|Wr|Comm|Null|Null|||Conjunction||||||17626..17833|Inh|Null|Null|Null||17837..17887;17893..18039;18032..18078|Inh|Null|Null|Null||
+Explicit|18010..18017|Wr|Comm|Null|Null|||Contrast||||||17837..18008|Inh|Null|Null|Null||18018..18078|Inh|Null|Null|Null||
+Explicit|18080..18082|Wr|Comm|Null|Null|||Purpose.Goal||||||18171..18268|Inh|Null|Null|Null||18083..18169|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||17226..17358|Inh|Null|Null|Null||18080..18268|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||18080..18268|Inh|Null|Null|Null||18270..18362|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||18171..18362|Inh|Null|Null|Null||18364..18455|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||18080..18455|Inh|Null|Null|Null||18457..18568|Inh|Null|Null|Null||
+Explicit|18572..18574|Wr|Comm|Null|Null|||Purpose.Goal||||||18660..18739|Inh|Null|Null|Null||18575..18658|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||18572..18739|Inh|Null|Null|Null||18741..18928|Inh|Null|Null|Null||
+Explicit|18805..18810|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||18753..18804|Inh|Null|Null|Null||18811..18836|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||18741..18836|Inh|Null|Null|Null||18838..18928|Inh|Null|Null|Null||
+Explicit|18932..18934|Wr|Comm|Null|Null|||Purpose.Goal||||||18996..19050|Inh|Null|Null|Null||18935..18994|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||18932..19050|Inh|Null|Null|Null||19052..19677|Inh|Null|Null|Null||
+Explicit|19207..19214|Wr|Comm|Null|Null|||Contrast||||||19052..19205|Inh|Null|Null|Null||19216..19381|Inh|Null|Null|Null||
+Explicit|19283..19286|Wr|Comm|Null|Null|||Conjunction||||||19207..19281|Inh|Null|Null|Null||19287..19381|Inh|Null|Null|Null||
+Explicit|19383..19394|Wr|Comm|Null|Null|||Contrast||||||19052..19381|Inh|Null|Null|Null||19396..19479|Inh|Null|Null|Null||
+Explicit|19511..19515|Wr|Comm|Null|Null|||Conjunction||||||19052..19479|Inh|Null|Null|Null||19481..19510;19516..19677|Inh|Null|Null|Null||
+Explicit|19681..19683|Wr|Comm|Null|Null|||Purpose.Goal||||||19856..19968|Inh|Null|Null|Null||19684..19854|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||19681..19968|Inh|Null|Null|Null||19970..21022|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||19970..20173|Inh|Null|Null|Null||20175..20273|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in contrast|Contrast||||||19970..20173|Inh|Null|Null|Null||20275..20430|Inh|Null|Null|Null||
+Explicit|20321..20324|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||20275..20319|Inh|Null|Null|Null||20325..20430|Inh|Null|Null|Null||
+Explicit|20432..20434|Wr|Comm|Null|Null|||Purpose.Goal||||||20485..20586|Inh|Null|Null|Null||20435..20483|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||19970..20173|Inh|Null|Null|Null||20432..20586|Inh|Null|Null|Null||
+Explicit|20543..20548|Wr|Comm|Null|Null|||Temporal.Succession||||||20503..20542|Inh|Null|Null|Null||20549..20586|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||20432..20586|Inh|Null|Null|Null||20588..20664|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||20588..20664|Inh|Null|Null|Null||20666..20782|Inh|Null|Null|Null||
+Explicit|20784..20795|Wr|Comm|Null|Null|||Contrast||||||19970..20173|Inh|Null|Null|Null||20797..21022|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||21038..21122|Inh|Null|Null|Null||21124..21237|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||21124..21237|Inh|Null|Null|Null||21239..21454|Inh|Null|Null|Null||
+Explicit|21325..21332|Wr|Comm|Null|Null|||Contrast||||||21239..21323|Inh|Null|Null|Null||21333..21454|Inh|Null|Null|Null||
+Explicit|21456..21464|Wr|Comm|Null|Null|||Concession.Expectation||||||21546..21609|Inh|Null|Null|Null||21465..21544|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||21239..21454|Inh|Null|Null|Null||21456..21609|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||21456..21609|Inh|Null|Null|Null||21611..21737|Inh|Null|Null|Null||
+Explicit|21647..21654|Wr|Comm|Null|Null|||Cause.Reason||||||21611..21646|Inh|Null|Null|Null||21655..21737|Inh|Null|Null|Null||
+Explicit|21824..21827|Wr|Comm|Null|Null|||Conjunction||||||21741..21822|Inh|Null|Null|Null||21828..21859|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||since|Cause.Reason||||||21741..21859|Inh|Null|Null|Null||21861..22043|Inh|Null|Null|Null||
+Explicit|21954..21961|Wr|Comm|Null|Null|||Contrast||||||21861..21952|Inh|Null|Null|Null||21963..22043|Inh|Null|Null|Null||
+Explicit|22045..22053|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||21954..22043|Inh|Null|Null|Null||22054..22169|Inh|Null|Null|Null||
+Explicit|22108..22110|Wr|Comm|Null|Null|||Purpose.Enablement||||||22045..22107|Inh|Null|Null|Null||22111..22169|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||21741..21859|Inh|Null|Null|Null||22171..22520|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||furthermore|Conjunction||||||22171..22347|Inh|Null|Null|Null||22349..22520|Inh|Null|Null|Null||
+Explicit|22448..22454|Wr|Comm|Null|Null|||Cause.Reason||||||22412..22447|Inh|Null|Null|Null||22455..22482|Inh|Null|Null|Null||
+Explicit|22634..22641|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||22524..22632|Inh|Null|Null|Null||22643..22900|Inh|Null|Null|Null||
+Explicit|22683..22686|Wr|Comm|Null|Null|||Purpose.Enablement||||||22634..22682|Inh|Null|Null|Null||22687..22758|Inh|Null|Null|Null||
+Explicit|22760..22771|Wr|Comm|Null|Null|||Conjunction||||||22634..22758|Inh|Null|Null|Null||22773..22900|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||22524..22900|Inh|Null|Null|Null||22902..23074|Inh|Null|Null|Null||
+Explicit|23076..23087|Wr|Comm|Null|Null|||Instantiation||||||22902..23074|Inh|Null|Null|Null||23089..23269|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||22950..23074|Inh|Null|Null|Null||23271..23454|Inh|Null|Null|Null||
+Explicit|23360..23368|Wr|Comm|Null|Null|||Concession.Contra-expectation||||||23271..23358|Inh|Null|Null|Null||23369..23454|Inh|Null|Null|Null||
+Explicit|23459..23468|Wr|Comm|Null|Null|||Cause.Result||||||23271..23358|Inh|Null|Null|Null||23456..23458;23469..23653|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Backward Circumstance||||||23456..23653|Inh|Null|Null|Null||23655..24457|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||23655..23783|Inh|Null|Null|Null||23785..23863|Inh|Null|Null|Null||
+Explicit|23865..23876|Wr|Comm|Null|Null|||Contrast||||||23655..23863|Inh|Null|Null|Null||23878..24010|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||23655..24010|Inh|Null|Null|Null||24012..24328|Inh|Null|Null|Null||
+Explicit|24114..24117|Wr|Comm|Null|Null|||Contrast||||||24063..24112|Inh|Null|Null|Null||24118..24142|Inh|Null|Null|Null||
+Explicit|24144..24152|Wr|Comm|Null|Null|||Concession.Expectation||||||24219..24328|Inh|Null|Null|Null||24153..24217|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||furthermore|Conjunction||||||24012..24142|Inh|Null|Null|Null||24144..24328|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||finally|Conjunction||||||23655..24010|Inh|Null|Null|Null||24330..24457|Inh|Null|Null|Null||
+Explicit|24461..24469|Wr|Comm|Null|Null|||Concession.Expectation||||||24581..24679|Inh|Null|Null|Null||24470..24579|Inh|Null|Null|Null||
+Explicit|24681..24683|Wr|Comm|Null|Null|||Purpose.Enablement||||||24722..24824|Inh|Null|Null|Null||24684..24720|Inh|Null|Null|Null||
+Explicit|24725..24734|Wr|Comm|Null|Null|||Cause.Result||||||24461..24679|Inh|Null|Null|Null||24681..24724;24735..24743;24743..24824|Inh|Null|Null|Null||
+Explicit|25044..25048|Wr|Comm|Null|Null|||Conjunction||||||24828..25039|Inh|Null|Null|Null||25041..25043;25049..25161|Inh|Null|Null|Null||
+Explicit|25112..25114|Wr|Comm|Null|Null|||Cause.Reason||||||25060..25111|Inh|Null|Null|Null||25115..25161|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Result||||||24828..25161|Inh|Null|Null|Null||25163..25247|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||for example|Instantiation||||||25163..25247|Inh|Null|Null|Null||25249..25416|Inh|Null|Null|Null||
+Explicit|25301..25304|Wr|Comm|Null|Null|||Conjunction||||||25248..25299|Inh|Null|Null|Null||25305..25416|Inh|Null|Null|Null||
+Explicit|25343..25345|Wr|Comm|Null|Null|||Cause.Reason||||||25301..25342|Inh|Null|Null|Null||25346..25415|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||however|Contrast||||||25163..25247|Inh|Null|Null|Null||25418..25633|Inh|Null|Null|Null||
+Explicit|25494..25501|Wr|Comm|Null|Null|||Contrast||||||25444..25492|Inh|Null|Null|Null||25502..25550|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Claim||||||25162..25247;25418..25633|Inh|Null|Null|Null||25635..25743|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in addition|Conjunction||||||25747..25894|Inh|Null|Null|Null||25896..26031|Inh|Null|Null|Null||
+Explicit|25932..25936|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||25910..25931|Inh|Null|Null|Null||25937..25957|Inh|Null|Null|Null||
+Explicit|26033..26057|Wr|Comm|Null|Null|||Cause.Justification||||||26144..26247|Inh|Null|Null|Null||26058..26142|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||25896..26031|Inh|Null|Null|Null||26033..26247|Inh|Null|Null|Null||
+Explicit|26249..26260|Wr|Comm|Null|Null|||Contrast||||||25747..26247|Inh|Null|Null|Null||26262..26415|Inh|Null|Null|Null||
+Explicit|26417..26425|Wr|Comm|Null|Null|||Concession.Expectation||||||26556..26605|Inh|Null|Null|Null||26426..26554|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||26249..26415|Inh|Null|Null|Null||26417..26605|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||in contrast|Contrast||||||26417..26605|Inh|Null|Null|Null||26607..26881|Inh|Null|Null|Null||
+Explicit|26751..26766|Wr|Comm|Null|Null|||Cause.Justification||||||26607..26749|Inh|Null|Null|Null||26767..26881|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||26607..26881|Inh|Null|Null|Null||26883..27130|Inh|Null|Null|Null||
+Explicit|27300..27304|Wr|Comm|Null|Null|||Conjunction||||||27147..27290|Inh|Null|Null|Null||27292..27299;27305..27469|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||therefore|Cause.Claim||||||27147..27469|Inh|Null|Null|Null||27471..27841|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||furthermore|Conjunction||||||27471..27654|Inh|Null|Null|Null||27656..27841|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28554..28641|Inh|Null|Null|Null||28643..28725|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28643..28725|Inh|Null|Null|Null||28727..28773|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28727..28773|Inh|Null|Null|Null||28775..28801|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28775..28801|Inh|Null|Null|Null||28803..28859|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28775..28859|Inh|Null|Null|Null||28861..28964|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28861..28965|Inh|Null|Null|Null||28966..29000|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||28966..29000|Inh|Null|Null|Null||29002..29052|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||29093..29300|Inh|Null|Null|Null||29302..29508|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||29302..29418|Inh|Null|Null|Null||29420..29508|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||29093..29300|Inh|Null|Null|Null||29510..29545|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||29510..29545|Inh|Null|Null|Null||29547..29613|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||29547..29613|Inh|Null|Null|Null||29615..29690|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||29703..29826|Inh|Null|Null|Null||29828..29873;30249..30295;30250..30295|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||29828..29873|Inh|Null|Null|Null||29875..30174|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||29875..30082|Inh|Null|Null|Null||30084..30174|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||29828..29873|Inh|Null|Null|Null||30176..30247|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||30249..30295|Inh|Null|Null|Null||30297..30511|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||30524..30722|Inh|Null|Null|Null||30724..31130|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||30724..31037|Inh|Null|Null|Null||31039..31130|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||30524..30722|Inh|Null|Null|Null||31132..31231|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||31244..31406|Inh|Null|Null|Null||31408..31564|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||31408..31513|Inh|Null|Null|Null||31515..31564|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||31244..31406|Inh|Null|Null|Null||31566..31963|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||31566..31750|Inh|Null|Null|Null||31752..31963|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||31976..32185|Inh|Null|Null|Null||32187..32804|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||32187..32471|Inh|Null|Null|Null||32473..32642|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||32473..32642|Inh|Null|Null|Null||32644..32732|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||finally|Temporal.Precedence||||||32644..32732|Inh|Null|Null|Null||32734..32804|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||32817..32938|Inh|Null|Null|Null||32940..33396|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||next|Temporal.Precedence||||||32940..33129|Inh|Null|Null|Null||33131..33274|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||then|Temporal.Precedence||||||33131..33274|Inh|Null|Null|Null||33276..33396|Inh|Null|Null|Null||
+Explicit|33339..33344|Wr|Comm|Null|Null|||Temporal.Succession||||||33276..33337|Inh|Null|Null|Null||33345..33396|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||32817..32938|Inh|Null|Null|Null||33398..33461|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||specifically|Restatement.Specification||||||33474..33632|Inh|Null|Null|Null||33634..33835;33949..34233|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Circumstance.Forward Circumstance||||||33633..33835|Inh|Null|Null|Null||33837..33947|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||33634..33835|Inh|Null|Null|Null||33949..34063|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||and|Conjunction||||||33949..34063|Inh|Null|Null|Null||34065..34233|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||33474..33632|Inh|Null|Null|Null||34235..34307|Inh|Null|Null|Null||
+Explicit|34288..34293|Wr|Comm|Null|Null|||Temporal.Succession|Circumstance.Forward Circumstance|||||34249..34287|Inh|Null|Null|Null||34294..34307|Inh|Null|Null|Null||
+Implicit||Wr|Comm|Null|Null||none|Continuation||||||34235..34307|Inh|Null|Null|Null||34309..34381|Inh|Null|Null|Null||

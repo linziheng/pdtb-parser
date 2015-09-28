@@ -1,0 +1,27 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:and_now_that Temporal
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:and_now_that Contingency
+conn_lc:and conn:And conn_POS:CC with_prev_full:``_and Expansion
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:concern_as_long_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:weakest_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:harvest_also Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:gulf_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:earlier conn:earlier conn_POS:RBR with_prev_full:contracts_earlier Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:traders_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:it_when Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:standpoint_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:that_even_though Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency

@@ -1,0 +1,18 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:today_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:prison_before Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:supporters_even_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:crossroads_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:''_if Contingency
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:or conn:or conn_POS:CC with_prev_full:--_or Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:yet conn:yet conn_POS:RB with_prev_full:,_yet Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:If conn_POS:IN Contingency

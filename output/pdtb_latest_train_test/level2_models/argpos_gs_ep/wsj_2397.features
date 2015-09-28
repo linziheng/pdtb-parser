@@ -1,0 +1,21 @@
+conn:and conn_POS:CC prev1:credit prev1_POS:NN with_prev1_full:credit_and with_prev1_POS_full:NN_CC prev2:on prev2_POS:IN with_prev2_full:on_and with_prev2_POS_full:IN_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:partly_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_partly_because with_prev1_POS_full:,_RB_IN prev2:changed prev2_POS:VBN with_prev2_full:changed_partly_because with_prev2_POS_full:VBN_RB_IN SS
+conn:nor conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_nor with_prev1_POS_full:,_CC prev2:conditions prev2_POS:NNS with_prev2_full:conditions_nor with_prev2_POS_full:NNS_CC SS
+conn:if conn_POS:IN prev1:threatened prev1_POS:VBN with_prev1_full:threatened_if with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:more prev2_POS:JJR with_prev2_full:more_although with_prev2_POS_full:JJR_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:if conn_POS:IN prev1:economy prev1_POS:NN with_prev1_full:economy_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:dollar prev1_POS:NN with_prev1_full:dollar_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:as conn_POS:IN prev1:Friday prev1_POS:NNP with_prev1_full:Friday_as with_prev1_POS_full:NNP_IN prev2:decline prev2_POS:VB with_prev2_full:decline_as with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:week prev1_POS:NN with_prev1_full:week_and with_prev1_POS_full:NN_CC prev2:this prev2_POS:DT with_prev2_full:this_and with_prev2_POS_full:DT_CC SS
+conn:if conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_if with_prev1_POS_full:CC_IN prev2:week prev2_POS:NN with_prev2_full:week_if with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:does prev2_POS:VBZ with_prev2_full:does_however with_prev2_POS_full:VBZ_RB PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:over prev2_POS:RB with_prev2_full:over_though with_prev2_POS_full:RB_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:though prev2_POS:RB with_prev2_full:though_and with_prev2_POS_full:RB_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS

@@ -1,0 +1,4 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:rather conn:rather conn_POS:RB with_prev_full:but_rather Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Expansion
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion

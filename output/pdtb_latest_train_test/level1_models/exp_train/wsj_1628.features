@@ -1,0 +1,12 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:afterward conn:Afterward conn_POS:RB Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:reduction_and Expansion
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:that_ultimately Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:it_when Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Temporal
+conn_lc:as_an_alternative conn:As_an_alternative conn_POS:IN_DT_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:plan_also Expansion

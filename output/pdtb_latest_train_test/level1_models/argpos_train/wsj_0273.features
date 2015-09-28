@@ -1,0 +1,13 @@
+conn:after conn_POS:IN prev1:government prev1_POS:NN with_prev1_full:government_after with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS
+conn:after conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_after with_prev1_POS_full:VBD_IN prev2:announcement prev2_POS:NN with_prev2_full:announcement_after with_prev2_POS_full:NN_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:if conn_POS:IN prev1:assets prev1_POS:NNS with_prev1_full:assets_if with_prev1_POS_full:NNS_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_if with_prev2_POS_full:PRP$_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:trust prev1_POS:NN with_prev1_full:trust_and with_prev1_POS_full:NN_CC prev2:liquidating prev2_POS:JJ with_prev2_full:liquidating_and with_prev2_POS_full:JJ_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:government prev1_POS:NN with_prev1_full:government_after with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:million prev1_POS:CD with_prev1_full:million_but with_prev1_POS_full:CD_CC prev2:90 prev2_POS:CD with_prev2_full:90_but with_prev2_POS_full:CD_CC SS
+conn:if conn_POS:IN prev1:kept prev1_POS:VBN with_prev1_full:kept_if with_prev1_POS_full:VBN_IN prev2:have prev2_POS:VB with_prev2_full:have_if with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:dice prev1_POS:NNS with_prev1_full:dice_and with_prev1_POS_full:NNS_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS

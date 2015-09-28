@@ -1,0 +1,9 @@
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Expansion
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:khan_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion

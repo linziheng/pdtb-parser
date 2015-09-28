@@ -1,0 +1,8 @@
+conn:in_turn conn_POS:IN_NN prev1:which prev1_POS:WDT with_prev1_full:which_in_turn with_prev1_POS_full:WDT_IN_NN prev2:, prev2_POS:, with_prev2_full:,_in_turn with_prev2_POS_full:,_IN_NN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Khan prev2_POS:NNP with_prev2_full:Khan_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:capital prev2_POS:NN with_prev2_full:capital_while with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:capital prev2_POS:NN with_prev2_full:capital_also with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:disclosed prev2_POS:VBN with_prev2_full:disclosed_but with_prev2_POS_full:VBN_CC SS
+conn:also conn_POS:RB prev1:Khan prev1_POS:NNP with_prev1_full:Khan_also with_prev1_POS_full:NNP_RB prev2:Aga prev2_POS:NNP with_prev2_full:Aga_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ties prev2_POS:NNS with_prev2_full:ties_and with_prev2_POS_full:NNS_CC SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS

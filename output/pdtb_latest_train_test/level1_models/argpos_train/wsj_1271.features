@@ -1,0 +1,15 @@
+conn:In_other_words conn_POS:IN_JJ_NNS sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:mainly_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_mainly_because with_prev1_POS_full:,_RB_IN prev2:materialized prev2_POS:VBD with_prev2_full:materialized_mainly_because with_prev2_POS_full:VBD_RB_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:Officials prev1_POS:NNS with_prev1_full:Officials_also with_prev1_POS_full:NNS_RB PS
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:hours prev2_POS:NNS with_prev2_full:hours_or with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:freeway prev2_POS:NN with_prev2_full:freeway_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:stations prev2_POS:NNS with_prev2_full:stations_because with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:groups prev2_POS:NNS with_prev2_full:groups_because with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS

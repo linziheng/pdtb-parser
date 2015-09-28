@@ -1,0 +1,12 @@
+conn:while conn_POS:IN prev1:streak prev1_POS:NN with_prev1_full:streak_while with_prev1_POS_full:NN_IN prev2:losing prev2_POS:NN with_prev2_full:losing_while with_prev2_POS_full:NN_IN SS
+conn:after conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_after with_prev1_POS_full:NN_IN prev2:light prev2_POS:NN with_prev2_full:light_after with_prev2_POS_full:NN_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:yesterday prev1_POS:NN with_prev1_full:yesterday_as with_prev1_POS_full:NN_IN prev2:shares prev2_POS:NNS with_prev2_full:shares_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:account prev2_POS:NN with_prev2_full:account_and with_prev2_POS_full:NN_CC SS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:waned prev1_POS:VBD with_prev1_full:waned_as with_prev1_POS_full:VBD_IN prev2:interest prev2_POS:NN with_prev2_full:interest_as with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:on prev1_POS:RB with_prev1_full:on_and with_prev1_POS_full:RB_CC prev2:wore prev2_POS:VBD with_prev2_full:wore_and with_prev2_POS_full:VBD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:684 prev2_POS:CD with_prev2_full:684_and with_prev2_POS_full:CD_CC SS
+conn:nevertheless conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_nevertheless with_prev1_POS_full:,_RB prev2:officials prev2_POS:NNS with_prev2_full:officials_nevertheless with_prev2_POS_full:NNS_RB SS

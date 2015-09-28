@@ -1,0 +1,5 @@
+conn:After conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_because with_prev1_POS_full:IN_IN prev2:noted prev2_POS:VBD with_prev2_full:noted_because with_prev2_POS_full:VBD_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:suggested prev2_POS:VBD with_prev2_full:suggested_however with_prev2_POS_full:VBD_RB PS
+conn:in_fact conn_POS:IN_NN prev1:have prev1_POS:VBP with_prev1_full:have_in_fact with_prev1_POS_full:VBP_IN_NN prev2:PPI prev2_POS:NNP with_prev2_full:PPI_in_fact with_prev2_POS_full:NNP_IN_NN PS

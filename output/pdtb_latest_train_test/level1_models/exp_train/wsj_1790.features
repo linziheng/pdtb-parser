@@ -1,0 +1,21 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:counseling_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:counseling_as Contingency
+conn_lc:especially_if conn:especially_if conn_POS:RB_IN with_prev_full:,_especially_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:career_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:couples_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:erode_if Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:association_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:program_because Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:dramatically_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:dalton_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

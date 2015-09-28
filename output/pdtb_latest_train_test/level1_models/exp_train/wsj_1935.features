@@ -1,0 +1,25 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:occurs_when Contingency
+conn_lc:yet conn:Yet conn_POS:CC Expansion
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:would_indeed Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:not_because conn:not_because conn_POS:RB_IN with_prev_full:but_not_because Contingency
+conn_lc:rather conn:Rather conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:RB with_prev_full:diminish_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:prices_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:disaster_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:face_when Temporal
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:victims_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:should_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:remembered_when Temporal

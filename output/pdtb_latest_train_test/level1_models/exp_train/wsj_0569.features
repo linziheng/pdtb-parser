@@ -1,0 +1,26 @@
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:position_as Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:firm_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:plate_after Temporal
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:in_contrast conn:in_contrast conn_POS:IN_NN with_prev_full:,_in_contrast Comparison
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:just_when conn:just_when conn_POS:RB_WRB with_prev_full:forecast_just_when Temporal
+conn_lc:still conn:still conn_POS:RB with_prev_full:could_still Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:says_later Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

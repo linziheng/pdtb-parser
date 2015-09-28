@@ -1,0 +1,6 @@
+conn:also conn_POS:RB prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Mips prev1_POS:NNP with_prev1_full:Mips_also with_prev1_POS_full:NNP_RB PS
+conn:because conn_POS:IN prev1:Mips prev1_POS:NNP with_prev1_full:Mips_because with_prev1_POS_full:NNP_IN prev2:for prev2_POS:IN with_prev2_full:for_because with_prev2_POS_full:IN_IN SS
+conn:as conn_POS:IN prev1:ally prev1_POS:NN with_prev1_full:ally_as with_prev1_POS_full:NN_IN prev2:more prev2_POS:JJR with_prev2_full:more_as with_prev2_POS_full:JJR_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:month prev2_POS:NN with_prev2_full:month_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:and conn_POS:CC prev1:computers prev1_POS:NNS with_prev1_full:computers_and with_prev1_POS_full:NNS_CC prev2:MIPS prev2_POS:NNP with_prev2_full:MIPS_and with_prev2_POS_full:NNP_CC SS

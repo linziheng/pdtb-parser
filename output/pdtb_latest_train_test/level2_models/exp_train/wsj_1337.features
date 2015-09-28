@@ -1,0 +1,22 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:stocks_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:gains_also Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:pence_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:dealings_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:1523.22_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:take_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Pragmatic_cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Pragmatic_cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List

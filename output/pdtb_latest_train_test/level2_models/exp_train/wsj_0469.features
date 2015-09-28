@@ -1,0 +1,20 @@
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:system_because Cause
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous
+conn_lc:until conn:until conn_POS:IN with_prev_full:terms_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Exception
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:forces_after Asynchronous
+conn_lc:once conn:once conn_POS:RB with_prev_full:increase_once Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:dissolved_and Conjunction
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:year_partly_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:left_and Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:hired_since Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:year_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:charge_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony

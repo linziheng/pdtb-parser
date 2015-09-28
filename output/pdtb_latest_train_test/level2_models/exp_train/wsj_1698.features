@@ -1,0 +1,23 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:me_before Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:day_after Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:as conn:As conn_POS:IN with_prev_full:``_as Synchrony
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Synchrony
+conn_lc:lest conn:lest conn_POS:IN with_prev_full:restraint_lest Alternative
+conn_lc:because conn:because conn_POS:IN with_prev_full:veto_because Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:meaningless_unless Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:automatically_unless Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:straitjacket_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition

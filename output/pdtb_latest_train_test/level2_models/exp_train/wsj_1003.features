@@ -1,0 +1,13 @@
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction
+conn_lc:however conn:However conn_POS:RB Concession
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:weak_and Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:inventory_when Synchrony
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast

@@ -1,0 +1,5 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:which_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:apart_when Asynchronous
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:cut_as_long_as Condition
+conn_lc:shortly_after conn:Shortly_after conn_POS:RB_IN Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

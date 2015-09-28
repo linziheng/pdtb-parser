@@ -1,0 +1,15 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Manville prev2_POS:NNP with_prev2_full:Manville_but with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:holdings prev2_POS:NNS with_prev2_full:holdings_but with_prev2_POS_full:NNS_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:offer prev2_POS:NN with_prev2_full:offer_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:filing prev1_POS:NN with_prev1_full:filing_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Union prev2_POS:NNP with_prev2_full:Union_and with_prev2_POS_full:NNP_CC SS
+conn:when conn_POS:WRB prev1:holiday prev1_POS:NN with_prev1_full:holiday_when with_prev1_POS_full:NN_WRB prev2:a prev2_POS:DT with_prev2_full:a_when with_prev2_POS_full:DT_WRB SS
+conn:because conn_POS:IN prev1:unfit prev1_POS:JJ with_prev1_full:unfit_because with_prev1_POS_full:JJ_IN prev2:deemed prev2_POS:VBN with_prev2_full:deemed_because with_prev2_POS_full:VBN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1997 prev2_POS:CD with_prev2_full:1997_and with_prev2_POS_full:CD_CC SS
+conn:if conn_POS:IN prev1:return prev1_POS:VB with_prev1_full:return_if with_prev1_POS_full:VB_IN prev2:only prev2_POS:RB with_prev2_full:only_if with_prev2_POS_full:RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:since conn_POS:IN prev1:Israel prev1_POS:NNP with_prev1_full:Israel_since with_prev1_POS_full:NNP_IN prev2:to prev2_POS:TO with_prev2_full:to_since with_prev2_POS_full:TO_IN SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:two prev2_POS:CD with_prev2_full:two_also with_prev2_POS_full:CD_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Warsaw prev2_POS:NNP with_prev2_full:Warsaw_but with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:at prev2_POS:IN with_prev2_full:at_and with_prev2_POS_full:IN_CC SS

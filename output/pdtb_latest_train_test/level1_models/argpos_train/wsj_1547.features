@@ -1,0 +1,10 @@
+conn:but conn_POS:CC prev1:plan prev1_POS:NN with_prev1_full:plan_but with_prev1_POS_full:NN_CC prev2:peace prev2_POS:NN with_prev2_full:peace_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:conflict prev2_POS:NN with_prev2_full:conflict_but with_prev2_POS_full:NN_CC SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:efforts prev1_POS:NNS with_prev1_full:efforts_after with_prev1_POS_full:NNS_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_after with_prev2_POS_full:PRP$_IN SS
+conn:after conn_POS:IN prev1:known prev1_POS:VBN with_prev1_full:known_after with_prev1_POS_full:VBN_IN prev2:became prev2_POS:VBD with_prev2_full:became_after with_prev2_POS_full:VBD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:jury prev1_POS:NN with_prev1_full:jury_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:as conn_POS:IN prev1:Tegucigalpa prev1_POS:NNP with_prev1_full:Tegucigalpa_as with_prev1_POS_full:NNP_IN prev2:outside prev2_POS:IN with_prev2_full:outside_as with_prev2_POS_full:IN_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Party prev2_POS:NNP with_prev2_full:Party_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:unless conn_POS:IN prev1:coalition prev1_POS:NN with_prev1_full:coalition_unless with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_unless with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:operations prev2_POS:NNS with_prev2_full:operations_but with_prev2_POS_full:NNS_CC SS

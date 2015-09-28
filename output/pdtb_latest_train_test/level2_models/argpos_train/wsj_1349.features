@@ -1,0 +1,16 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:administration prev2_POS:NN with_prev2_full:administration_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:but prev2_POS:CC with_prev2_full:but_also with_prev2_POS_full:CC_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:alternative prev2_POS:NN with_prev2_full:alternative_and with_prev2_POS_full:NN_CC SS
+conn:later conn_POS:RB prev1:sought prev1_POS:VBD with_prev1_full:sought_later with_prev1_POS_full:VBD_RB prev2:who prev2_POS:WP with_prev2_full:who_later with_prev2_POS_full:WP_RB PS
+conn:and conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_and with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:today prev2_POS:NN with_prev2_full:today_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:needs prev2_POS:NNS with_prev2_full:needs_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:disaster prev1_POS:NN with_prev1_full:disaster_and with_prev1_POS_full:NN_CC prev2:national prev2_POS:JJ with_prev2_full:national_and with_prev2_POS_full:JJ_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:war prev2_POS:NN with_prev2_full:war_then with_prev2_POS_full:NN_RB SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:language prev2_POS:NN with_prev2_full:language_and with_prev2_POS_full:NN_CC SS
+conn:even_when conn_POS:RB_WRB prev1:and prev1_POS:CC with_prev1_full:and_even_when with_prev1_POS_full:CC_RB_WRB prev2:, prev2_POS:, with_prev2_full:,_even_when with_prev2_POS_full:,_RB_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:purpose prev2_POS:NN with_prev2_full:purpose_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Islands prev2_POS:NNP with_prev2_full:Islands_and with_prev2_POS_full:NNP_CC SS

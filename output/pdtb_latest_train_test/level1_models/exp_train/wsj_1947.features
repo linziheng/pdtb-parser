@@ -1,0 +1,9 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:;_once Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

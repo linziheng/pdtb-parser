@@ -1,0 +1,11 @@
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Party prev2_POS:NNP with_prev2_full:Party_after with_prev2_POS_full:NNP_IN SS
+conn:so conn_POS:IN prev1:Committee prev1_POS:NNP with_prev1_full:Committee_so with_prev1_POS_full:NNP_IN prev2:Central prev2_POS:NNP with_prev2_full:Central_so with_prev2_POS_full:NNP_IN SS
+conn:later conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_later with_prev1_POS_full:PRP_RB prev2:as prev2_POS:IN with_prev2_full:as_later with_prev2_POS_full:IN_RB PS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:gasoline prev2_POS:NN with_prev2_full:gasoline_so with_prev2_POS_full:NN_RB SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Pravda prev2_POS:NNP with_prev2_full:Pravda_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:then conn_POS:RB prev1:who prev1_POS:WP with_prev1_full:who_then with_prev1_POS_full:WP_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:-- prev2_POS:: with_prev2_full:--_also with_prev2_POS_full::_RB SS

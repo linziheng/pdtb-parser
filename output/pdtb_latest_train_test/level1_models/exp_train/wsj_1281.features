@@ -1,0 +1,8 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:ship_as Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:ship_if Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:yesterday_after Temporal

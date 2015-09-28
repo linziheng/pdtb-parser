@@ -1,0 +1,2 @@
+conn:also conn_POS:RB sent_pos:2 prev1:contract prev1_POS:NN with_prev1_full:contract_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:as conn_POS:IN prev1:services prev1_POS:NNS with_prev1_full:services_as with_prev1_POS_full:NNS_IN prev2:MCI prev2_POS:NNP with_prev2_full:MCI_as with_prev2_POS_full:NNP_IN SS

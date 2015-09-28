@@ -1,0 +1,12 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:ruling_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:agency_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:improved_while Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:court_also Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:case_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:settlement_while Synchrony

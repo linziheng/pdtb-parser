@@ -1,0 +1,6 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:spring_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion

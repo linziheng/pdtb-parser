@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:10 prev1_POS:CD with_prev1_full:10_but with_prev1_POS_full:CD_CC prev2:Nov. prev2_POS:NNP with_prev2_full:Nov._but with_prev2_POS_full:NNP_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:Corp. prev1_POS:NNP with_prev1_full:Corp._also with_prev1_POS_full:NNP_RB prev2:Financial prev2_POS:NNP with_prev2_full:Financial_also with_prev2_POS_full:NNP_RB PS

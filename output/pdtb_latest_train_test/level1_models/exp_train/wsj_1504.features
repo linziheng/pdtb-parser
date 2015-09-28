@@ -1,0 +1,17 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:questions_as Temporal
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:example_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:example_and Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:else conn:else conn_POS:RB with_prev_full:,_else Expansion
+conn_lc:for conn:for conn_POS:IN with_prev_full:,_for Contingency
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:complaints_so_that Contingency
+conn_lc:for conn:for conn_POS:IN with_prev_full:,_for Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:anybody_unless Expansion
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison

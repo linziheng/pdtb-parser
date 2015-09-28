@@ -1,0 +1,3 @@
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:1990 prev2_POS:CD with_prev2_full:1990_although with_prev2_POS_full:CD_IN SS
+conn:thereafter conn_POS:RB sent_pos:-2 prev1:% prev1_POS:NN with_prev1_full:%_thereafter with_prev1_POS_full:NN_RB prev2:7 prev2_POS:CD with_prev2_full:7_thereafter with_prev2_POS_full:CD_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

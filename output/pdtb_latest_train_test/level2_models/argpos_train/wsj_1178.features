@@ -1,0 +1,5 @@
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:officer prev2_POS:NN with_prev2_full:officer_if with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:Axa prev2_POS:NNP with_prev2_full:Axa_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:operates prev2_POS:VBZ with_prev2_full:operates_and with_prev2_POS_full:VBZ_CC SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:nonetheless conn_POS:RB prev1:Bebear prev1_POS:NNP with_prev1_full:Bebear_nonetheless with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._nonetheless with_prev2_POS_full:NNP_RB SS

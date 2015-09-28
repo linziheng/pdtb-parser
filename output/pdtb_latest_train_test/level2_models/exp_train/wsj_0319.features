@@ -1,0 +1,8 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:ago_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:reaction_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction

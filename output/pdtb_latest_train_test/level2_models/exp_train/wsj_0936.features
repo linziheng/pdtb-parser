@@ -1,0 +1,27 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:but conn:But conn_POS:CC Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:power_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:much_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Restatement
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:matters_even_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:wrong_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:turmoil_and Conjunction
+conn_lc:moreover conn:moreover conn_POS:RB with_prev_full:,_moreover Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Restatement
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:and_thereby Cause

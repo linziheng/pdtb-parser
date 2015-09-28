@@ -1,0 +1,35 @@
+conn_lc:just_when conn:Just_when conn_POS:RB_WRB Temporal£
+conn_lc:or conn:Or conn_POS:CC Expansion£
+conn_lc:and conn:and conn_POS:CC with_prev_full:next_and Expansion£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£
+conn_lc:if conn:If conn_POS:IN Contingency£
+conn_lc:until conn:until conn_POS:IN with_prev_full:buying_until Temporal£
+conn_lc:so conn:So conn_POS:IN Contingency£
+conn_lc:thus conn:Thus conn_POS:RB Contingency£
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency£
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison£
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal£
+conn_lc:and conn:And conn_POS:CC Expansion£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:also conn:also conn_POS:RB with_prev_full:year_also Expansion£
+conn_lc:so conn:So conn_POS:IN with_prev_full:``_so Contingency£
+conn_lc:thus conn:Thus conn_POS:RB Contingency£
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency£
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency£
+conn_lc:since conn:since conn_POS:IN with_prev_full:%_since Temporal£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency£
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal£
+conn_lc:if conn:If conn_POS:IN Contingency£
+conn_lc:until conn:until conn_POS:IN with_prev_full:today_until Temporal£
+conn_lc:if conn:If conn_POS:IN Contingency£
+conn_lc:before conn:before conn_POS:IN with_prev_full:amount_before Temporal£
+conn_lc:because conn:because conn_POS:IN with_prev_full:year_because Contingency£
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency£

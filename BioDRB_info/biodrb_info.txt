@@ -1,0 +1,64 @@
+Column definitions:
+ 0 - Relation type (Explicit, Implicit, AltLex, NoRel)
+ 1 - (Sets of) Text span for connective (when explicit) (eg. 472..474)
+ 7 - Connective string “inserted” for Implicit relation
+ 8 - Sense1 of Explicit Connective (or Implicit Connective)
+ 9 - Sense2 of Explicit Connective (or Implicit Connective)
+14 - (Sets of) Text span for Arg1
+20 - (Sets of) Text span for Arg2
+
+Implicit||Wr|Comm|Null|Null||NONE|Continuation||||||145..429|Inh|Null|Null|Null||431..569|Inh|Null|Null|Null||
+Explicit|461..470|Wr|Comm|Null|Null|||Temporal.Succession||||||431..460|Inh|Null|Null|Null||471..486|Inh|Null|Null|Null||
+
+
+24 Articles
+5859 Relations
+3001 Implicit
+2636 Explicit
+ 193 AltLex
+  29 NoRel
+
+Relation types:
+level 1 - level 2
+cause - Reason Result Claim Justification
+condition - Hypothetical Factual Non-Factual
+purpose - Goal Enablement
+temporal - Synchronous Precedence Succession
+concession - Contra-Expecation Expectation
+alternative - Chosen-Alternative Conjunctive Disjunctive
+contrast 
+instantiation
+conjunction
+exception
+similarity
+continuation
+circumstance - Forward-Circumstance Backward-Circumstance
+background - Forward-Background Backward-Background
+restatement - Equivalence Generalization Specification
+reinforcement
+
+Relations per article:
+     316 1064873.txt
+     263 1064895.txt
+     263 1065313.txt
+     193 1065338.txt
+     262 1080127.txt
+     227 1087843.txt
+     288 111020.txt
+     133 111021.txt
+     369 1134656.txt
+     296 1134658.txt
+     234 1156890.txt
+     246 115840.txt
+     293 1159166.txt
+     287 1200558.txt
+     275 1215484.txt
+     192 1257440.txt
+     263 126271.txt
+     238 130029.txt
+     274 1310901.txt
+      60 138670.txt
+     152 138685.txt
+     277 1403772.txt
+     252 1421503.txt
+     206 1513057.txt

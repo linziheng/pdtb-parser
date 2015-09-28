@@ -1,0 +1,10 @@
+conn:or conn_POS:CC prev1:close prev1_POS:VB with_prev1_full:close_or with_prev1_POS_full:VB_CC prev2:will prev2_POS:MD with_prev2_full:will_or with_prev2_POS_full:MD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:if conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_if with_prev1_POS_full:''_IN prev2:capacity prev2_POS:NN with_prev2_full:capacity_if with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:mid-1990s prev1_POS:NNS with_prev1_full:mid-1990s_as with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_as with_prev2_POS_full:DT_IN SS
+conn:Unless conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Unless with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:U.S. prev1_POS:NNP with_prev1_full:U.S._and with_prev1_POS_full:NNP_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:when conn_POS:WRB prev1:acquired prev1_POS:VBD with_prev1_full:acquired_when with_prev1_POS_full:VBD_WRB prev2:it prev2_POS:PRP with_prev2_full:it_when with_prev2_POS_full:PRP_WRB SS
+conn:also conn_POS:RB sent_pos:2 prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:Chrysler prev2_POS:NNP with_prev2_full:Chrysler_also with_prev2_POS_full:NNP_RB PS

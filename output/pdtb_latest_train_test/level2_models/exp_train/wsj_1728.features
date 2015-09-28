@@ -1,0 +1,11 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:monday_as Cause
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:breaks_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:christmas_if Condition
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast

@@ -1,0 +1,9 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:reorganization_because Cause

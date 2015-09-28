@@ -1,0 +1,5 @@
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:paid_when Temporal
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:debts_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:payments_because Contingency

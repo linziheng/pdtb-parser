@@ -1,0 +1,5 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:profitable prev2_POS:JJ with_prev2_full:profitable_but with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:remain prev1_POS:VB with_prev1_full:remain_when with_prev1_POS_full:VB_WRB prev2:will prev2_POS:MD with_prev2_full:will_when with_prev2_POS_full:MD_WRB SS

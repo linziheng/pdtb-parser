@@ -1,0 +1,21 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:but_unless Alternative
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:by_then conn:By_then conn_POS:IN_RB Asynchronous
+conn_lc:by_then conn:By_then conn_POS:IN_RB Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:steadily_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:prospered_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:but conn:But conn_POS:CC Concession

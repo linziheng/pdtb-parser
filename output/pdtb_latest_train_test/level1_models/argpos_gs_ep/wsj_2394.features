@@ -1,0 +1,9 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:miles prev1_POS:NNS with_prev1_full:miles_and with_prev1_POS_full:NNS_CC prev2:frequent-flier prev2_POS:JJ with_prev2_full:frequent-flier_and with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:National prev1_POS:NNP with_prev1_full:National_also with_prev1_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Airlines prev2_POS:NNP with_prev2_full:Airlines_and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB prev1:USAir prev1_POS:NNP with_prev1_full:USAir_also with_prev1_POS_full:NNP_RB prev2:and prev2_POS:CC with_prev2_full:and_also with_prev2_POS_full:CC_RB SS
+conn:and conn_POS:CC prev1:million prev1_POS:CD with_prev1_full:million_and with_prev1_POS_full:CD_CC prev2:20 prev2_POS:CD with_prev2_full:20_and with_prev2_POS_full:CD_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:competitors prev2_POS:NNS with_prev2_full:competitors_however with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:down prev2_POS:RB with_prev2_full:down_and with_prev2_POS_full:RB_CC SS

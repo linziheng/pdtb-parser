@@ -1,0 +1,8 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:appointee prev2_POS:NN with_prev2_full:appointee_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comment prev2_POS:VB with_prev2_full:comment_and with_prev2_POS_full:VB_CC SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:National prev2_POS:NNP with_prev2_full:National_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:and conn_POS:CC prev1:position prev1_POS:NN with_prev1_full:position_and with_prev1_POS_full:NN_CC prev2:important prev2_POS:JJ with_prev2_full:important_and with_prev2_POS_full:JJ_CC SS
+conn:before conn_POS:IN prev1:consideration prev1_POS:NN with_prev1_full:consideration_before with_prev1_POS_full:NN_IN prev2:thorough prev2_POS:JJ with_prev2_full:thorough_before with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:also conn_POS:RB prev1:Simmons prev1_POS:NNP with_prev1_full:Simmons_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS

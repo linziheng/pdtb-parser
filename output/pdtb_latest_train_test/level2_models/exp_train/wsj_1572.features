@@ -1,0 +1,45 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:once conn:once conn_POS:IN with_prev_full:,_once Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:in_the_end conn:in_the_end conn_POS:IN_DT_NN with_prev_full:because_in_the_end Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Asynchronous
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:in_part_because conn:in_part_because conn_POS:IN_NN_IN with_prev_full:,_in_part_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:opportunity_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:lottery_when Concession
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Conjunction
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:true_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:once conn:Once conn_POS:IN with_prev_full:``_once Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:or conn:Or conn_POS:CC Conjunction
+conn_lc:after conn:after conn_POS:RB with_prev_full:atlanta_after Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:who_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pitches_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pitches_when Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sometimes_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sometimes_when Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:dance_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:obviously_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:susceptible_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:susceptible_when Cause
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause

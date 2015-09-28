@@ -1,0 +1,5 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Quotron prev1_POS:NNP with_prev1_full:Quotron_also with_prev1_POS_full:NNP_RB PS
+conn:as conn_POS:IN prev1:pressure prev1_POS:NN with_prev1_full:pressure_as with_prev1_POS_full:NN_IN prev2:some prev2_POS:DT with_prev2_full:some_as with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_but with_prev2_POS_full:VBD_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

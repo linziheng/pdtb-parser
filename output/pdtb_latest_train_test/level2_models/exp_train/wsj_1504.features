@@ -1,0 +1,17 @@
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:questions_as Synchrony
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Alternative
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:example_and Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:example_and Asynchronous
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:else conn:else conn_POS:RB with_prev_full:,_else Alternative
+conn_lc:for conn:for conn_POS:IN with_prev_full:,_for Cause
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:complaints_so_that Cause
+conn_lc:for conn:for conn_POS:IN with_prev_full:,_for Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:anybody_unless Alternative
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast

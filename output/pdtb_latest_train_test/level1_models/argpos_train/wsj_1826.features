@@ -1,0 +1,6 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Almanac prev2_POS:NNP with_prev2_full:Almanac_and with_prev2_POS_full:NNP_CC SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Calif. prev2_POS:NNP with_prev2_full:Calif._meanwhile with_prev2_POS_full:NNP_RB PS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:attention prev1_POS:NN with_prev1_full:attention_also with_prev1_POS_full:NN_RB prev2:But prev2_POS:CC with_prev2_full:But_also with_prev2_POS_full:CC_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:last prev2_POS:RB with_prev2_full:last_and with_prev2_POS_full:RB_CC SS

@@ -1,0 +1,4 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:Friday prev2_POS:NNP with_prev2_full:Friday_as with_prev2_POS_full:NNP_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_but with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:`` prev1_POS:`` with_prev1_full:``_when with_prev1_POS_full:``_WRB prev2:will prev2_POS:MD with_prev2_full:will_when with_prev2_POS_full:MD_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:deal prev2_POS:NN with_prev2_full:deal_and with_prev2_POS_full:NN_CC SS

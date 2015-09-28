@@ -1,0 +1,10 @@
+conn:after conn_POS:IN prev1:restructuring prev1_POS:VBG with_prev1_full:restructuring_after with_prev1_POS_full:VBG_IN prev2:massive prev2_POS:JJ with_prev2_full:massive_after with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Co. prev1_POS:NNP with_prev1_full:Co._also with_prev1_POS_full:NNP_RB prev2:Sun prev2_POS:NNP with_prev2_full:Sun_also with_prev2_POS_full:NNP_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:operations prev1_POS:NNS with_prev1_full:operations_as with_prev1_POS_full:NNS_IN prev2:those prev2_POS:DT with_prev2_full:those_as with_prev2_POS_full:DT_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:1988 prev2_POS:CD with_prev2_full:1988_also with_prev2_POS_full:CD_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:earnings prev1_POS:NNS with_prev1_full:earnings_also with_prev1_POS_full:NNS_RB prev2:Per-share prev2_POS:JJ with_prev2_full:Per-share_also with_prev2_POS_full:JJ_RB PS
+conn:even_as conn_POS:RB_IN prev1:rose prev1_POS:VBD with_prev1_full:rose_even_as with_prev1_POS_full:VBD_RB_IN prev2:facility prev2_POS:NN with_prev2_full:facility_even_as with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:results prev1_POS:NNS with_prev1_full:results_also with_prev1_POS_full:NNS_RB prev2:production prev2_POS:NN with_prev2_full:production_also with_prev2_POS_full:NN_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:declined prev2_POS:VBD with_prev2_full:declined_however with_prev2_POS_full:VBD_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:operations prev2_POS:NNS with_prev2_full:operations_but with_prev2_POS_full:NNS_CC SS

@@ -1,0 +1,19 @@
+conn:for_instance conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Iowa prev2_POS:NNP with_prev2_full:Iowa_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_although with_prev1_POS_full:CC_IN SS
+conn:though conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:Overall prev2_POS:RB with_prev2_full:Overall_though with_prev2_POS_full:RB_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Midwest prev2_POS:NNP with_prev2_full:Midwest_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:even_after conn_POS:RB_IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_even_after with_prev1_POS_full:CC_RB_IN SS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:alone prev2_POS:RB with_prev2_full:alone_however with_prev2_POS_full:RB_RB PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:presumably_because conn_POS:RB_IN prev1:longer prev1_POS:RBR with_prev1_full:longer_presumably_because with_prev1_POS_full:RBR_RB_IN prev2:independent prev2_POS:JJ with_prev2_full:independent_presumably_because with_prev2_POS_full:JJ_RB_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:jobs prev2_POS:NNS with_prev2_full:jobs_while with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:194,000 prev2_POS:CD with_prev2_full:194,000_and with_prev2_POS_full:CD_CC SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:secure prev2_POS:JJ with_prev2_full:secure_and with_prev2_POS_full:JJ_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:women prev2_POS:NNS with_prev2_full:women_and with_prev2_POS_full:NNS_CC SS

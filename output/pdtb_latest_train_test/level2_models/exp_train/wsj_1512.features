@@ -1,0 +1,6 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:sick_because Cause
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast
+conn_lc:largely_because conn:largely_because conn_POS:RB_IN with_prev_full:consensus_largely_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction

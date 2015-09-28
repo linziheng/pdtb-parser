@@ -1,0 +1,5 @@
+conn:However conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:issue prev1_POS:NN with_prev1_full:issue_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:holders prev2_POS:NNS with_prev2_full:holders_also with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:offering prev2_POS:NN with_prev2_full:offering_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:offered prev1_POS:VBN with_prev1_full:offered_after with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_after with_prev2_POS_full:VB_IN SS

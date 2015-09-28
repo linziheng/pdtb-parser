@@ -1,0 +1,64 @@
+conn:Although conn_POS:IN prev1:Abstract prev1_POS:NN with_prev1_full:Abstract_Although with_prev1_POS_full:NN_IN prev2:region prev2_POS:NN with_prev2_full:region_Although with_prev2_POS_full:NN_IN NA
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB NA
+conn:Therefore conn_POS:RB sent_pos:0 NA
+conn:Whereas conn_POS:IN sent_pos:0 NA
+conn:therefore conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_therefore with_prev1_POS_full:VBZ_RB prev2:genes prev2_POS:NNS with_prev2_full:genes_therefore with_prev2_POS_full:NNS_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC NA
+conn:therefore conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_therefore with_prev1_POS_full:VBP_RB prev2:and prev2_POS:CC with_prev2_full:and_therefore with_prev2_POS_full:CC_RB NA
+conn:When conn_POS:WRB sent_pos:0 NA
+conn:After conn_POS:IN sent_pos:0 NA
+conn:then conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_then with_prev1_POS_full:VBD_RB prev2:membranes prev2_POS:NNS with_prev2_full:membranes_then with_prev2_POS_full:NNS_RB NA
+conn:Since conn_POS:IN sent_pos:0 NA
+conn:Thereafter conn_POS:RB prev1:h. prev1_POS:NN with_prev1_full:h._Thereafter with_prev1_POS_full:NN_RB prev2:16 prev2_POS:CD with_prev2_full:16_Thereafter with_prev2_POS_full:CD_RB NA
+conn:When conn_POS:WRB sent_pos:0 NA
+conn:and conn_POS:CC prev1:DNA prev1_POS:NN with_prev1_full:DNA_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC NA
+conn:and conn_POS:CC prev1:digested prev1_POS:VBN with_prev1_full:digested_and with_prev1_POS_full:VBN_CC prev2:was prev2_POS:VBD with_prev2_full:was_and with_prev2_POS_full:VBD_CC NA
+conn:as conn_POS:IN prev1:extracted prev1_POS:VBN with_prev1_full:extracted_as with_prev1_POS_full:VBN_IN prev2:was prev2_POS:VBD with_prev2_full:was_as with_prev2_POS_full:VBD_IN NA
+conn:as conn_POS:IN prev1:performed prev1_POS:VBN with_prev1_full:performed_as with_prev1_POS_full:VBN_IN prev2:was prev2_POS:VBD with_prev2_full:was_as with_prev2_POS_full:VBD_IN NA
+conn:After conn_POS:IN sent_pos:0 NA
+conn:After conn_POS:IN sent_pos:0 NA
+conn:However conn_POS:RB sent_pos:0 NA
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:CML-T1 prev2_POS:NNP with_prev2_full:CML-T1_whereas with_prev2_POS_full:NNP_IN NA
+conn:Consequently conn_POS:RB sent_pos:0 NA
+conn:next conn_POS:RB sent_pos:1 prev1:We prev1_POS:PRP with_prev1_full:We_next with_prev1_POS_full:PRP_RB NA
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB NA
+conn:also conn_POS:RB prev1:cells prev1_POS:NNS with_prev1_full:cells_also with_prev1_POS_full:NNS_RB prev2:LAMA-84 prev2_POS:NN with_prev2_full:LAMA-84_also with_prev2_POS_full:NN_RB NA
+conn:Accordingly conn_POS:RB sent_pos:0 NA
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:AzadC prev2_POS:NNP with_prev2_full:AzadC_as with_prev2_POS_full:NNP_IN NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:expression prev2_POS:NN with_prev2_full:expression_but with_prev2_POS_full:NN_CC NA
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_whereas with_prev2_POS_full:-RRB-_IN NA
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:uracil prev2_POS:VB with_prev2_full:uracil_whereas with_prev2_POS_full:VB_IN NA
+conn:and conn_POS:CC prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_and with_prev1_POS_full:-RRB-_CC prev2:RPMI-8226 prev2_POS:NN with_prev2_full:RPMI-8226_and with_prev2_POS_full:NN_CC NA
+conn:Furthermore conn_POS:RB sent_pos:0 NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:In_contrast conn_POS:IN_NN sent_pos:0 NA
+conn:Since conn_POS:IN sent_pos:0 NA
+conn:In_fact conn_POS:IN_NN sent_pos:0 NA
+conn:and conn_POS:CC prev1:DNMT\/MBPs prev1_POS:NNPS with_prev1_full:DNMT\/MBPs_and with_prev1_POS_full:NNPS_CC prev2:tested prev2_POS:NNP with_prev2_full:tested_and with_prev2_POS_full:NNP_CC NA
+conn:Whereas conn_POS:IN sent_pos:0 NA
+conn:since conn_POS:IN prev1:IRF-4-expression prev1_POS:JJ with_prev1_full:IRF-4-expression_since with_prev1_POS_full:JJ_IN prev2:absent prev2_POS:JJ with_prev2_full:absent_since with_prev2_POS_full:JJ_IN NA
+conn:whereas conn_POS:IN prev1:cells prev1_POS:NNS with_prev1_full:cells_whereas with_prev1_POS_full:NNS_IN prev2:negative prev2_POS:JJ with_prev2_full:negative_whereas with_prev2_POS_full:JJ_IN NA
+conn:thus conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_thus with_prev1_POS_full:MD_RB prev2:and prev2_POS:CC with_prev2_full:and_thus with_prev2_POS_full:CC_RB NA
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_also with_prev2_POS_full:-RRB-_RB NA
+conn:However conn_POS:RB sent_pos:0 NA
+conn:Since conn_POS:IN sent_pos:0 NA
+conn:then conn_POS:RB sent_pos:1 prev1:We prev1_POS:PRP with_prev1_full:We_then with_prev1_POS_full:PRP_RB NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:promoter prev2_POS:NN with_prev2_full:promoter_since with_prev2_POS_full:NN_IN NA
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:and prev2_POS:CC with_prev2_full:and_also with_prev2_POS_full:CC_RB NA
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_thus with_prev2_POS_full:-RRB-_RB NA
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:thus prev2_POS:RB with_prev2_full:thus_also with_prev2_POS_full:RB_RB NA
+conn:as conn_POS:IN prev1:induction prev1_POS:NN with_prev1_full:induction_as with_prev1_POS_full:NN_IN prev2:IRF-4 prev2_POS:NN with_prev2_full:IRF-4_as with_prev2_POS_full:NN_IN NA
+conn:Furthermore conn_POS:RB sent_pos:0 NA
+conn:thus conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_thus with_prev1_POS_full:MD_RB prev2:which prev2_POS:WDT with_prev2_full:which_thus with_prev2_POS_full:WDT_RB NA
+conn:Furthermore conn_POS:RB sent_pos:0 NA
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:DNMTs prev2_POS:NNS with_prev2_full:DNMTs_while with_prev2_POS_full:NNS_IN NA
+conn:Indeed conn_POS:RB sent_pos:0 NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:and conn_POS:CC prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_and with_prev1_POS_full:-RRB-_CC prev2:6 prev2_POS:CD with_prev2_full:6_and with_prev2_POS_full:CD_CC NA
+conn:thus conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_thus with_prev1_POS_full:MD_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB NA
+conn:Still conn_POS:RB sent_pos:0 NA
+conn:For_example conn_POS:IN_NN sent_pos:0 NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_while with_prev2_POS_full:-RRB-_IN NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:expression prev2_POS:NN with_prev2_full:expression_and with_prev2_POS_full:NN_CC NA
+conn:and conn_POS:CC prev1:clones prev1_POS:NNS with_prev1_full:clones_and with_prev1_POS_full:NNS_CC prev2:methylated prev2_POS:JJ with_prev2_full:methylated_and with_prev2_POS_full:JJ_CC NA

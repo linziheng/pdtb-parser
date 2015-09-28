@@ -1,0 +1,18 @@
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:visitors_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:soviets_also Conjunction
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:until conn:until conn_POS:IN with_prev_full:years_until Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:know-how_if Condition
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Concession
+conn_lc:and conn:And conn_POS:CC Conjunction

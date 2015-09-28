@@ -1,0 +1,21 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:mixed_as Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:as_well conn:As_well conn_POS:RB_RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:future_and Expansion
+conn_lc:overall conn:Overall conn_POS:JJ Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:intel_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:27_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/2_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:yesterday_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:shares_after Temporal

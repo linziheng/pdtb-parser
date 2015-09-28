@@ -1,0 +1,14 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:still conn:still conn_POS:RB with_prev_full:officials_still Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:intensify_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:investors_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

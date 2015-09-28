@@ -1,0 +1,23 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:watchers_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:declines_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:outstanding_when Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:stable_and Expansion
+conn_lc:simply_because conn:simply_because conn_POS:RB_IN with_prev_full:,_simply_because Contingency
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:interest_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:dealings_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:dealings_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

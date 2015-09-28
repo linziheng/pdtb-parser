@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:radiation_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:galileo_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:center_after Asynchronous
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Concession
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Concession
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:;_instead Alternative

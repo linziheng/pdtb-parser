@@ -1,0 +1,15 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB with_prev_full:-lrb-_indeed Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:traduced_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:cuts_as_soon_as Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:interest_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:still conn:still conn_POS:RB with_prev_full:stuff_still Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:paid_or Expansion
+conn_lc:nor conn:Nor conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

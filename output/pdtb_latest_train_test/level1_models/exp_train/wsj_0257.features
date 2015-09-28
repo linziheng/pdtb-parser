@@ -1,0 +1,18 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:once conn:Once conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:low_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:on_so_that Contingency
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:him_when Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Contingency
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:,_ultimately Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:germans_then Temporal
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:and_finally Temporal
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:and_finally Contingency

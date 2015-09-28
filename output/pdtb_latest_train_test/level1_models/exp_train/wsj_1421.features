@@ -1,0 +1,10 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:--_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:utsumi_also Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:out_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:profitable_if Contingency
+conn_lc:while conn:While conn_POS:IN Comparison

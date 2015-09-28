@@ -1,0 +1,13 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:corp._also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:there_and Expansion
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:will_ultimately Temporal
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:will_ultimately Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Contingency

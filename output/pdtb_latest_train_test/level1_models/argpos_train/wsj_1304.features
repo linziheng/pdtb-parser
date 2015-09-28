@@ -1,0 +1,3 @@
+conn:also conn_POS:RB prev1:producer prev1_POS:NN with_prev1_full:producer_also with_prev1_POS_full:NN_RB prev2:nickel prev2_POS:NN with_prev2_full:nickel_also with_prev2_POS_full:NN_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:months prev2_POS:NNS with_prev2_full:months_though with_prev2_POS_full:NNS_IN SS
+conn:if conn_POS:IN prev1:months prev1_POS:NNS with_prev1_full:months_if with_prev1_POS_full:NNS_IN prev2:12 prev2_POS:CD with_prev2_full:12_if with_prev2_POS_full:CD_IN SS

@@ -1,0 +1,5 @@
+conn:After conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:occur prev1_POS:VB with_prev1_full:occur_and with_prev1_POS_full:VB_CC prev2:will prev2_POS:MD with_prev2_full:will_and with_prev2_POS_full:MD_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:buy-outs prev2_POS:NNS with_prev2_full:buy-outs_and with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

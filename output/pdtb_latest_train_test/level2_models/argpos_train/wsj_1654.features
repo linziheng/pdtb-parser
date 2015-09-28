@@ -1,0 +1,17 @@
+conn:if conn_POS:IN prev1:erupt prev1_POS:VB with_prev1_full:erupt_if with_prev1_POS_full:VB_IN prev2:will prev2_POS:MD with_prev2_full:will_if with_prev2_POS_full:MD_IN SS
+conn:also conn_POS:RB prev1:companies prev1_POS:NNS with_prev1_full:companies_also with_prev1_POS_full:NNS_RB prev2:catalog prev2_POS:NN with_prev2_full:catalog_also with_prev2_POS_full:NN_RB PS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:believes prev2_POS:VBZ with_prev2_full:believes_as with_prev2_POS_full:VBZ_IN SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:chains prev2_POS:NNS with_prev2_full:chains_also with_prev2_POS_full:NNS_RB PS
+conn:because conn_POS:IN prev1:December prev1_POS:NNP with_prev1_full:December_because with_prev1_POS_full:NNP_IN prev2:of prev2_POS:IN with_prev2_full:of_because with_prev2_POS_full:IN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:blockbuster prev2_POS:NN with_prev2_full:blockbuster_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_because with_prev1_POS_full:''_IN prev2:ago prev2_POS:RB with_prev2_full:ago_because with_prev2_POS_full:RB_IN SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:retailers prev2_POS:NNS with_prev2_full:retailers_also with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Chicago prev2_POS:NNP with_prev2_full:Chicago_also with_prev2_POS_full:NNP_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:more prev1_POS:JJR with_prev1_full:more_and with_prev1_POS_full:JJR_CC prev2:spend prev2_POS:VB with_prev2_full:spend_and with_prev2_POS_full:VB_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:hear prev1_POS:VB with_prev1_full:hear_as with_prev1_POS_full:VB_IN prev2:'ll prev2_POS:MD with_prev2_full:'ll_as with_prev2_POS_full:MD_IN SS

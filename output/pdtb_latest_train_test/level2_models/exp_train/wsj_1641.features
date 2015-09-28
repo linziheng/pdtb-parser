@@ -1,0 +1,6 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:universities_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:ownership_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Conjunction
+conn_lc:still conn:still conn_POS:RB with_prev_full:is_still Contrast
+conn_lc:while conn:While conn_POS:IN Contrast

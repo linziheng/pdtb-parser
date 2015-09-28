@@ -1,0 +1,5 @@
+conn:because conn_POS:IN prev1:Services prev1_POS:NNPS with_prev1_full:Services_because with_prev1_POS_full:NNPS_IN prev2:Human prev2_POS:NNP with_prev2_full:Human_because with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:decision prev1_POS:NN with_prev1_full:decision_while with_prev1_POS_full:NN_IN prev2:firm prev2_POS:JJ with_prev2_full:firm_while with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

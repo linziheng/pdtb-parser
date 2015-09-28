@@ -1,0 +1,16 @@
+conn_lc:even_as conn:Even_as conn_POS:RB_IN Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:came_after Asynchronous
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:although conn:although conn_POS:IN with_prev_full:that_although Concession
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:finally conn:Finally conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:revenue_when Synchrony
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:before conn:before conn_POS:IN with_prev_full:convincing_before Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Contrast

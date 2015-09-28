@@ -1,0 +1,11 @@
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:quake prev2_POS:NN with_prev2_full:quake_although with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:rubble prev1_POS:NN with_prev1_full:rubble_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:retrofitting prev2_POS:NN with_prev2_full:retrofitting_even_if with_prev2_POS_full:NN_RB_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:steel prev2_POS:NN with_prev2_full:steel_then with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:employees prev1_POS:NNS with_prev1_full:employees_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:officials prev2_POS:NNS with_prev2_full:officials_however with_prev2_POS_full:NNS_RB PS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:well prev2_POS:RB with_prev2_full:well_although with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:earthquakes prev2_POS:NNS with_prev2_full:earthquakes_and with_prev2_POS_full:NNS_CC SS

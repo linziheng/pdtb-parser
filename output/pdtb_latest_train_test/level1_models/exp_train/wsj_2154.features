@@ -1,0 +1,15 @@
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:companies_later Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:damages_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:observers_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:favors_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:--_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:buzzell_and Expansion

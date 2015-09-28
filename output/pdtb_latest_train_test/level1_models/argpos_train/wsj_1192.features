@@ -1,0 +1,20 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:rates prev1_POS:NNS with_prev1_full:rates_and with_prev1_POS_full:NNS_CC prev2:double-digit prev2_POS:JJ with_prev2_full:double-digit_and with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:downturn prev1_POS:NN with_prev1_full:downturn_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:travelers prev2_POS:NNS with_prev2_full:travelers_though with_prev2_POS_full:NNS_RB PS
+conn:Previously conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:programs prev1_POS:NNS with_prev1_full:programs_because with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:week prev2_POS:NN with_prev2_full:week_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:Shortly_before conn_POS:RB_IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:analysts prev2_POS:NNS with_prev2_full:analysts_because with_prev2_POS_full:NNS_IN SS
+conn:Shortly_after conn_POS:RB_IN sent_pos:0 SS
+conn:because conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_because with_prev1_POS_full:VBD_RB prev2:this prev2_POS:DT with_prev2_full:this_because with_prev2_POS_full:DT_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:failed prev2_POS:VBN with_prev2_full:failed_and with_prev2_POS_full:VBN_CC SS
+conn:if conn_POS:IN prev1:free prev1_POS:JJ with_prev1_full:free_if with_prev1_POS_full:JJ_IN prev2:fly prev2_POS:VB with_prev2_full:fly_if with_prev2_POS_full:VB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:week prev2_POS:NN with_prev2_full:week_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:Airlines prev1_POS:NNS with_prev1_full:Airlines_also with_prev1_POS_full:NNS_RB PS
+conn:because conn_POS:IN prev1:profits prev1_POS:NNS with_prev1_full:profits_because with_prev1_POS_full:NNS_IN prev2:squeezing prev2_POS:VBG with_prev2_full:squeezing_because with_prev2_POS_full:VBG_IN SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:surprisingly prev2_POS:RB with_prev2_full:surprisingly_as with_prev2_POS_full:RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:USAir prev2_POS:NNP with_prev2_full:USAir_for_example with_prev2_POS_full:NNP_IN_NN SS

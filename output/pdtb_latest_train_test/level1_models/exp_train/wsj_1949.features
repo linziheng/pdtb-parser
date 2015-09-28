@@ -1,0 +1,7 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:a_few_months_after conn:a_few_months_after conn_POS:DT_JJ_NNS_IN with_prev_full:,_a_few_months_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:bank_also Expansion
+conn_lc:one_day_after conn:one_day_after conn_POS:CD_NN_IN with_prev_full:comes_one_day_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:remain_until Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

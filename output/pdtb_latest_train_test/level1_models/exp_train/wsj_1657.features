@@ -1,0 +1,20 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:was_therefore Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:election_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:dictatorship_and Expansion
+conn_lc:furthermore conn:Furthermore conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:salvador_if Contingency
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:happen_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison

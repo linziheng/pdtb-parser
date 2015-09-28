@@ -1,0 +1,8 @@
+conn:before conn_POS:IN prev1:prison prev1_POS:NN with_prev1_full:prison_before with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_before with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:rally prev2_POS:NN with_prev2_full:rally_and with_prev2_POS_full:NN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:measure prev1_POS:NN with_prev1_full:measure_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:rebels prev1_POS:NNS with_prev1_full:rebels_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:capital prev2_POS:NN with_prev2_full:capital_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:pact prev1_POS:NN with_prev1_full:pact_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:while conn_POS:IN prev1:Saturday prev1_POS:NNP with_prev1_full:Saturday_while with_prev1_POS_full:NNP_IN prev2:airport prev2_POS:NN with_prev2_full:airport_while with_prev2_POS_full:NN_IN SS

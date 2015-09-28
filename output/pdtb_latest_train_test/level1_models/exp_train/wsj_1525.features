@@ -1,0 +1,20 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:mutters_as Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:more_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:more_as Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:million_since Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:challenging_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:began_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:picop_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:traded_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:failed_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:routes_but Comparison

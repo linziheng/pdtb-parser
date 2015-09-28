@@ -1,0 +1,15 @@
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:,_just_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:officials_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:similarly conn:Similarly conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:makers_because Contingency
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

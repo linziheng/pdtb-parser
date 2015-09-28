@@ -1,0 +1,6 @@
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:list_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison

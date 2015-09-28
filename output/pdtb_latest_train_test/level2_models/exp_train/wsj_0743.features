@@ -1,0 +1,3 @@
+conn_lc:so conn:so conn_POS:IN with_prev_full:notified_so Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:numbers_and Conjunction
+conn_lc:because conn:Because conn_POS:IN with_prev_full:``_because Cause

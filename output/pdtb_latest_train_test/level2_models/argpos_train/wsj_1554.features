@@ -1,0 +1,32 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:developers prev2_POS:NNS with_prev2_full:developers_for_example with_prev2_POS_full:NNS_IN_NN PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:volatility prev2_POS:NN with_prev2_full:volatility_also with_prev2_POS_full:NN_RB PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Silver prev2_POS:NN with_prev2_full:Silver_however with_prev2_POS_full:NN_RB PS
+conn:now_that conn_POS:RB_IN prev1:cheap prev1_POS:JJ with_prev1_full:cheap_now_that with_prev1_POS_full:JJ_RB_IN prev2:is prev2_POS:VBZ with_prev2_full:is_now_that with_prev2_POS_full:VBZ_RB_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:silver prev2_POS:NN with_prev2_full:silver_while with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:prices prev2_POS:NNS with_prev2_full:prices_also with_prev2_POS_full:NNS_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:year prev1_POS:NN with_prev1_full:year_and with_prev1_POS_full:NN_CC prev2:this prev2_POS:DT with_prev2_full:this_and with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:production prev2_POS:NN with_prev2_full:production_also with_prev2_POS_full:NN_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:Moreover prev2_POS:RB with_prev2_full:Moreover_while with_prev2_POS_full:RB_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:Yet prev1_POS:RB with_prev1_full:Yet_if with_prev1_POS_full:RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:slaughter prev2_POS:NN with_prev2_full:slaughter_so with_prev2_POS_full:NN_IN SS
+conn:because conn_POS:IN prev1:operators prev1_POS:NNS with_prev1_full:operators_because with_prev1_POS_full:NNS_IN prev2:feedlot prev2_POS:NN with_prev2_full:feedlot_because with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:quarter prev2_POS:NN with_prev2_full:quarter_also with_prev2_POS_full:NN_RB PS
+conn:because conn_POS:IN prev1:lower prev1_POS:JJR with_prev1_full:lower_because with_prev1_POS_full:JJR_IN prev2:also prev2_POS:RB with_prev2_full:also_because with_prev2_POS_full:RB_IN SS
+conn:also conn_POS:RB prev1:Department prev1_POS:NNP with_prev1_full:Department_also with_prev1_POS_full:NNP_RB prev2:Agriculture prev2_POS:NNP with_prev2_full:Agriculture_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:pits prev1_POS:NNS with_prev1_full:pits_and with_prev1_POS_full:NNS_CC prev2:petroleum prev2_POS:NN with_prev2_full:petroleum_and with_prev2_POS_full:NN_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:off prev1_POS:RP with_prev1_full:off_when with_prev1_POS_full:RP_WRB prev2:touched prev2_POS:VBN with_prev2_full:touched_when with_prev2_POS_full:VBN_WRB SS
+conn:until conn_POS:IN prev1:continued prev1_POS:VBD with_prev1_full:continued_until with_prev1_POS_full:VBD_IN prev2:which prev2_POS:WDT with_prev2_full:which_until with_prev2_POS_full:WDT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:more prev1_POS:RBR with_prev1_full:more_when with_prev1_POS_full:RBR_WRB prev2:know prev2_POS:VB with_prev2_full:know_when with_prev2_POS_full:VB_WRB SS
+conn:when conn_POS:WRB prev1:tons prev1_POS:NNS with_prev1_full:tons_when with_prev1_POS_full:NNS_WRB prev2:15,000 prev2_POS:CD with_prev2_full:15,000_when with_prev2_POS_full:CD_WRB SS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:said prev2_POS:VBD with_prev2_full:said_when with_prev2_POS_full:VBD_WRB SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS

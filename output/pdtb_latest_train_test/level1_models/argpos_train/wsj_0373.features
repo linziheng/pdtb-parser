@@ -1,0 +1,6 @@
+conn:before conn_POS:IN prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_before with_prev1_POS_full:-RRB-_IN prev2:million prev2_POS:CD with_prev2_full:million_before with_prev2_POS_full:CD_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:consortium prev2_POS:NN with_prev2_full:consortium_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:When conn_POS:WRB prev1:` prev1_POS:`` with_prev1_full:`_When with_prev1_POS_full:``_WRB prev2:, prev2_POS:, with_prev2_full:,_When with_prev2_POS_full:,_WRB SS
+conn:also conn_POS:RB sent_pos:2 prev1:bankers prev1_POS:NNS with_prev1_full:bankers_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

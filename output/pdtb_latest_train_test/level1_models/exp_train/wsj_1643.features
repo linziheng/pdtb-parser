@@ -1,0 +1,36 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:even_still conn:Even_still conn_POS:RB_RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:historicized_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:over_before Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:morning_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:available_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:by_then conn:by_then conn_POS:IN_RB with_prev_full:and_by_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:by_then conn:By_then conn_POS:IN_RB Temporal
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:victims_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:front_as Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:tv_before Temporal

@@ -1,0 +1,6077 @@
+(ROOT
+  (SINV
+    (VP (VBN Rheumatoid)
+      (NP (NN arthritis) (NN synovium)))
+    (VP (VBZ contains)
+      (S
+        (NP (JJ plasmacytoid) (JJ dendritic) (NNS cells))
+        (VP (VB Abstract)
+          (SBAR
+            (S
+              (NP (PRP We))
+              (VP (VBP have)
+                (ADVP (RB previously))
+                (VP (VBN described)
+                  (NP
+                    (NP (NN enrichment))
+                    (PP (IN of)
+                      (NP (JJ antigen-presenting) (NN HLA-DR)))))))))))
+    (NP
+      (NP (CD +) (JJ nuclear) (NNP RelB) (NNP +) (JJ dendritic) (NNS cells))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP DCs))
+        (-RRB- -RRB-))
+      (PP (IN in)
+        (NP (JJ rheumatoid) (NN arthritis)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP RA))
+        (-RRB- -RRB-))
+      (VP (VBG synovium)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD123) (NNP +) (NNP HLA-DR) (NNP +))
+    (VP (VBD plasmacytoid)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (NNP DCs))
+              (PRN (-LRB- -LRB-)
+                (NP (NNS pDCs))
+                (-RRB- -RRB-)))
+            (CC and)
+            (NP (PRP$ their) (NNS precursors)))
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBN identified)
+                (PP (IN in)
+                  (NP
+                    (NP (JJ human) (JJ peripheral) (NN blood))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP PB))
+                      (-RRB- -RRB-))
+                    (, ,)
+                    (NP (JJ lymphoid) (NN tissue))
+                    (, ,)
+                    (CC and)
+                    (NP (DT some) (JJ inflamed) (NNS tissues))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP
+      (VP (VBN hypothesized)
+        (NP
+          (NP (NN recruitment))
+          (PP (IN of)
+            (NP (NNS pDCs))))
+        (PP (IN into)
+          (NP (DT the) (JJ inflamed) (NNP RA) (NN synovial) (NN environment))))
+      (CC and)
+      (VP
+        (NP (PRP$ their) (NN contribution))
+        (PP (IN as)
+          (NP
+            (NP
+              (NP (JJ antigen-presenting) (NNS cells))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP APCs))
+                (-RRB- -RRB-)))
+            (CC and)
+            (NP
+              (NP (JJ inflammatory) (NNS cells))
+              (PP (IN in)
+                (NP (NNP RA))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD11c) (NNP +))
+    (VP
+      (VP (VBD myeloid)
+        (SBAR
+          (S
+            (NP (NNP DCs)
+              (CC and)
+              (NNP CD123) (NNP +) (NNS pDCs))
+            (VP (VBD were)
+              (UCP
+                (PP (VBN compared)
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ normal))
+                      (CC and)
+                      (NP (NNP RA) (NNP PB)))))
+                (, ,)
+                (S
+                  (VP (VB synovial)
+                    (NP
+                      (NP
+                        (NP (NN fluid))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP SF))
+                          (-RRB- -RRB-)))
+                      (, ,)
+                      (CC and)
+                      (NP
+                        (NP (JJ synovial) (NN tissue))
+                        (PP (IN by)
+                          (NP (NN flow)))))
+                    (ADVP (RB cytometry))
+                    (, ,)
+                    (ADVP (RB immunohistochemistry)))
+                  (, ,)
+                  (CC and)
+                  (VP (VB electron)
+                    (ADVP (RB microscopy)))))))))
+      (CC and)
+      (VP (VBD were)
+        (VP (VBN sorted)
+          (PP (IN for)
+            (NP (JJ functional) (NNS studies))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Nuclear) (NNP RelB-CD123) (NNP +) (NNP DCs))
+    (VP (VBD were)
+      (VP (VBN located)
+        (PP (IN in)
+          (NP
+            (NP (NN perivascular) (NNS regions))
+            (PP (IN of)
+              (NP (NNP RA)))))
+        (, ,)
+        (PP (IN in)
+          (NP
+            (NP
+              (NP (DT a) (JJ similar) (NN frequency))
+              (PP (TO to)
+                (NP (JJ nuclear) (NNP RelB) (NNP +) (NNP CD123))))
+            (: -)
+            (NP
+              (ADJP
+                (ADJP (JJ DCs))
+                (, ,)
+                (CC but)
+                (ADJP (RB not) (JJ normal)))
+              (JJ synovial) (NN tissue) (VBG sublining))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Apart))
+      (IN from)
+      (NP
+        (NP (JJR higher) (NN expression))
+        (PP (IN of)
+          (NP (NN HLA-DR)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS numbers)
+        (CC and)
+        (NNS phenotypes))
+      (PP (IN of)
+        (NP (NNP SF) (NNS pDCs))))
+    (VP (VBD were)
+      (ADJP (JJ similar)
+        (PP (TO to)
+          (NP
+            (NP (DT those))
+            (PP (IN of)
+              (NP (JJ normal) (NNP PB) (NNS pDCs)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (SBAR (IN While)
+        (S
+          (NP
+            (NP (DT the) (NNP APC) (NN function))
+            (PP (IN of)
+              (NP (NNP PB) (NNS pDCs))))
+          (VP (VBD was)
+            (ADJP (RBR less) (JJ efficient))
+            (PP (IN than)
+              (NP
+                (NP (DT that))
+                (PP (IN of)
+                  (NP (NNP PB) (NNP myeloid) (NNP DCs))))))))
+      (, ,)
+      (NP (NNP RA) (NNP SF))
+      (VP (VBZ pDCs)
+        (ADVP (RB efficiently) (RB activated))
+        (NP (JJ resting) (JJ allogeneic) (NNP PB) (NNP T) (NNS cells))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (JJ high) (NNS levels))
+        (PP (IN of)
+          (NP
+            (NP (NNP IFN-γ))
+            (, ,)
+            (NP (NN IL-10))
+            (, ,)
+            (CC and)
+            (NP (NN tumor) (NNS necrosis) (NN factor) (NN α)))))
+      (VP (VBD were)
+        (VP (VBN produced)
+          (PP (IN in)
+            (NP (NN response)))
+          (PP (TO to)
+            (NP
+              (NP (NN incubation))
+              (PP (IN of)
+                (NP (JJ allogeneic) (NNP T) (NNS cells)))))
+          (PP (IN with)
+            (NP
+              (NP (DT either) (NN type))
+              (PP (IN of)
+                (NP (NNP SF) (NNP DCs))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (, ,)
+    (NP (NNS pDCs))
+    (VP (VBP are)
+      (VP (VBN recruited)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB RA)
+                (NP (JJ synovial) (NN tissue)))
+              (CC and)
+              (VP (VB comprise)
+                (S
+                  (NP (DT an) (NNP APC) (NN population))
+                  (ADJP (JJ distinct)
+                    (PP (IN from)
+                      (NP (DT the)
+                        (ADJP (RB previously) (VBN described))
+                        (JJ nuclear) (JJ RelB) (JJ +) (JJ synovial) (NN DCs)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS pDCs))
+    (VP (MD may)
+      (VP (VB contribute)
+        (ADVP (RB significantly))
+        (PP (TO to)
+          (NP (DT the) (JJ local) (JJ inflammatory) (NN environment)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Introduction) (NNP Plasmacytoid) (JJ dendritic) (NNS cells))
+      (PRN (-LRB- -LRB-)
+        (NP (NNS pDCs))
+        (-RRB- -RRB-)))
+    (VP (VBP are)
+      (NP
+        (NP (DT a) (JJ distinct) (NN population))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (JJ antigen-presenting) (NNS cells))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP APCs))
+                (-RRB- -RRB-)))
+            (PP (IN with)
+              (NP
+                (NP
+                  (NP (DT the) (NN capacity))
+                  (PP (IN for)
+                    (NP (JJ potent) (JJ antigen-presenting) (NN function))))
+                (CC and)
+                (NP
+                  (NP (NN production))
+                  (PP (IN of)
+                    (NP
+                      (NP (JJ large) (NNS amounts))
+                      (PP (IN of)
+                        (NP (NNS cytokines))))))))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP
+                  (NP (NN tumor) (NN necrosis) (NN factor))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP TNF))
+                    (-RRB- -RRB-)))
+                (: -)
+                (ADJP (JJ α)
+                  (CC and)
+                  (JJ IFN-α))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Human) (NNS pDCs))
+      (VP (MD can)
+        (VP (VB be)
+          (VP (VBN identified)
+            (PP (IN by)
+              (NP
+                (NP (JJ cell-surface) (NN expression))
+                (PP (IN of)
+                  (NP (NNP MHC) (NNS molecules)))))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN α-chain))
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (DT the) (NN IL-3) (NN receptor))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP CD123))
+              (-RRB- -RRB-)))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (DT the) (NN presence))
+            (PP (IN of)
+              (NP
+                (NP (NN blood) (NN dendritic-cell))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP DC))
+                  (-RRB- -RRB-))))))))
+    (VP (VBZ antigens)
+      (VP (VBN known)
+        (PP (IN as)
+          (NP (NNP BDCA2)
+            (CC and)
+            (NNP BDCA4)))
+        (PP (IN in)
+          (NP
+            (NP (DT a) (NN proportion))
+            (PP (IN of)
+              (NP
+                (NP (NNS cells))
+                (VP (VBG -LSB-)
+                  (NP (CD 1) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN comparison))
+        (PP (IN with)
+          (NP (NNP CD11c) (NNP +) (NNP myeloid) (NNP DCs)))))
+    (, ,)
+    (NP (NNS pDCs))
+    (VP (NN display)
+      (NP
+        (NP (DT a) (JJ distinct) (NN set))
+        (PP (IN of)
+          (NP (JJ chemokine)
+            (CC and)
+            (JJ Toll-like) (NNS receptors))))
+      (S
+        (VP (VBG -LSB-)
+          (NP (CD 2-4) (NNS -RSB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN response))
+        (PP (TO to)
+          (NP
+            (NP (NNS viruses))
+            (CC and)
+            (NP (NNP CpG) (NNP DNA))))))
+    (, ,)
+    (S
+      (NP (NNS pDCs))
+      (VP (VBP become)
+        (VP (VBN activated)
+          (S
+            (VP (TO to)
+              (VP (VB produce)
+                (NP (NNS IFN-α))))))))
+    (CC and)
+    (S
+      (NP (PRP$ their) (NNP APC) (NN function))
+      (VP (VBZ is)
+        (VP (VBN enhanced)
+          (S
+            (VP (VBG -LSB-)
+              (NP (CD 5-8) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (NNS pDCs))
+        (VP (VBD were)
+          (VP
+            (ADVP (RB first))
+            (VBN demonstrated)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (JJ T-cell) (NNS areas))
+                (PP (IN of)
+                  (NP (NN lymph) (NNS nodes)))))
+            (S
+              (VP (VBG -LSB-)
+                (NP (CD 5,9) (NNS -RSB-))))))))
+    (, ,)
+    (NP
+      (NP (NNS precursors))
+      (PP (IN of)
+        (NP (DT this) (NNP DC) (NN population))))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN isolated)
+          (PP (IN from)
+            (NP (JJ several) (NNS sources)))
+          (, ,)
+          (PP (VBG including)
+            (NP
+              (NP (JJ normal) (JJ peripheral) (NN blood))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP PB))
+                (-RRB- -RRB-))
+              (, ,)
+              (NP (NNS thymus))
+              (, ,)
+              (NP (JJ fetal) (NN liver))
+              (, ,)
+              (CC and)
+              (NP (NN bone) (NN marrow) (NNP -LSB-) (CD 10) (NNP -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (PRP they))
+        (VP (VBP do) (RB not)
+          (VP (VB reside)
+            (PP (IN in)
+              (NP (JJ normal) (JJ peripheral) (NNS tissues)))))))
+    (, ,)
+    (NP (NNS pDCs))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP (VB infiltrate)
+                (NP (JJ certain) (NN inflamed) (NNS tissues)
+                  (CC and)
+                  (NN tumor) (NNS sites)))))
+          (, ,)
+          (PP (VBG including)
+            (NP
+              (NP
+                (NP (DT the) (NN skin))
+                (PP (IN in)
+                  (NP (NNS psoriasis)
+                    (CC and)
+                    (NNS lupus))))
+              (, ,)
+              (NP
+                (NP (DT the) (JJ cerebrospinal) (NN fluid))
+                (PP (IN in)
+                  (NP (JJ multiple) (NN sclerosis))))
+              (, ,)
+              (CC and)
+              (NP
+                (NP (NN melanoma)
+                  (CC and)
+                  (NN ovarian) (NN carcinoma) (NN -LSB-))
+                (NP (CD 11-15) (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (SBAR (IN While)
+        (S
+          (NP (NNS pDCs))
+          (VP (VBP play)
+            (NP
+              (NP (DT an) (JJ important) (NN effector) (NN role))
+              (PP (IN in)
+                (NP (JJ viral) (NN disease))))
+            (, ,)
+            (S
+              (VP (VBG being)
+                (NP
+                  (NP (DT the) (JJ major) (NNS producers))
+                  (PP (IN of)
+                    (S
+                      (VP
+                        (VP (VBG IFN-α))
+                        (CC and)
+                        (VP (VBG having)
+                          (NP
+                            (NP (DT a) (JJ primary) (NN role))
+                            (PP (IN in)
+                              (NP (JJ innate) (NN immunity))))))))))))))
+      (, ,)
+      (NP (EX there))
+      (VP (VBZ is)
+        (ADVP (RB also))
+        (NP (NN evidence))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (MD may)
+              (VP (VB play)
+                (NP (DT an) (JJ immunoregulatory) (NN role))
+                (, ,)
+                (PP (IN through)
+                  (NP
+                    (NP (DT the) (NN induction))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS Th2))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP T)
+                            (QP (CD helper) (CD 2)))
+                          (-RRB- -RRB-))))))))))))
+    (: -)
+    (S
+      (NP (NN type) (NNS cytokines))
+      (VP (VBZ -LSB-)
+        (NP (CD 9,16-18) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (JJ synovial) (JJ autoimmune) (NN reaction))
+        (PP (IN of)
+          (NP (JJ rheumatoid) (NN arthritis))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP RA))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (VP (VBN characterized)
+        (PP (IN by)
+          (NP (NN lymphocyte) (, ,) (NN macrophage) (, ,)
+            (CC and)
+            (NN DC) (NN infiltration)))
+        (SBAR (IN that)
+          (S
+            (VP (MD can)
+              (VP (VB progress)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (NN development))
+                    (PP (IN of)
+                      (NP (JJ lymphoid) (NN tissue)))))
+                (PP (IN in)
+                  (NP (JJ established) (NN disease) (NNP -LSB-) (NNP 19-21) (NNP -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP DCs))
+    (VP (VBP are)
+      (ADJP (JJ likely)
+        (S
+          (VP (TO to)
+            (VP (VB contribute)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NN formation)
+                    (CC and)
+                    (NN maintenance))
+                  (PP (IN of)
+                    (NP
+                      (NP
+                        (NP (JJ such) (VBN organized) (JJ lymphoid) (NN tissue)
+                          (CC and)
+                          (NN antigen) (NN presentation))
+                        (PP (IN in)
+                          (NP (NNP RA))))
+                      (CC and)
+                      (NP
+                        (NP (JJ other) (JJ autoimmune) (NNS lesions))
+                        (VP (VBG -LSB-)
+                          (NP (CD 22-24) (NNS -RSB-)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP have)
+        (ADVP (RB previously))
+        (VP (VBN shown)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT the) (NN effector) (NN site))
+                (PP (IN in)
+                  (NP (NNP RA) (JJ synovial) (NN tissue))))
+              (VP (VBZ is)
+                (VP (VBN enriched)
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ differentiated) (JJ myeloid) (NN DCs))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (VP (VBP express)
+                            (NP (JJ CD33) (, ,) (NNS CD11c) (, ,) (NNP MHC)
+                              (CC and)
+                              (NN costimulatory) (NNS molecules))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ nuclear) (NNP RelB))
+      (VP (VBZ -LSB-)
+        (NP (CD 21,25) (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Translocation))
+      (PP (IN of)
+        (NP
+          (NP (NNP RelB))
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN nucleus))
+              (PP (IN of)
+                (NP (JJ myeloid) (NN DCs))))))))
+    (VP (VBZ is)
+      (VP (VBN associated)
+        (PP (IN with)
+          (NP
+            (NP (NNP APC) (NN function))
+            (, ,)
+            (ADVP (RB particularly)
+              (PP (IN through)
+                (NP
+                  (NP (VBN increased) (NN expression))
+                  (PP (IN of)
+                    (NP (NNP MHC) (NNS molecules) (NNP CD86)
+                      (CC and)
+                      (NNP CD40) (NNP -LSB-))))))
+            (NP (CD 26) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ proinflammatory) (NNS cytokines))
+      (ADJP (JJ TNF-α)
+        (CC and)
+        (JJ IL-1β)))
+    (VP (VBP are)
+      (NP
+        (NP (JJ key) (NNS contributors))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ inflammatory) (NN cytokine) (NN cascade))
+            (PP (IN in)
+              (NP (NNP RA) (NNP -LSB-) (CD 27,28) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBZ relates)
+        (PP (TO to)
+          (NP
+            (NP (DT a) (NN number))
+            (PP (IN of)
+              (NP (NNS actions)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (NN activation))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN endothelium))
+            (PP (IN by)
+              (NP (NNP TNF-α))))))
+      (VP (VBZ is)
+        (ADJP (RB particularly) (JJ important)
+          (PP (IN in)
+            (NP (JJ cellular) (NN recruitment))))
+        (PP (TO to)
+          (NP (DT the) (NNP synovium) (NNP -LSB-) (NNP 29-31) (NNP -RSB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP (NNP RA))
+        (VP (VBZ is)
+          (VP (VBN characterized)
+            (PP (IN by)
+              (NP
+                (NP (JJ endothelial) (NN activation))
+                (, ,)
+                (NP (JJ leukocyte) (NN recruitment))
+                (, ,)
+                (CC and)
+                (NP
+                  (NP (DT the) (NN development))
+                  (PP (IN of)
+                    (NP (JJ high) (JJ endothelial) (NNS venules))))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBZ hypothesized)
+      (SBAR (IN that)
+        (S
+          (NP (NNS pDCs))
+          (VP (MD would)
+            (VP (VB be)
+              (VP (VBN enriched)
+                (PP (IN in)
+                  (NP
+                    (ADJP (JJ inflamed)
+                      (CONJP (CC but)
+                        (RB not))
+                      (JJ normal))
+                    (NN synovium)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP
+          (NP (DT the)
+            (ADJP (JJ functional))
+            (NN role))
+          (PP (IN of)
+            (NP
+              (NP (NNS pDCs))
+              (PP (IN in)
+                (NP (NN disease) (NNS pathogenesis))))))
+        (VP (VBZ is)
+          (ADVP (RB only))
+          (VP
+            (ADVP (RB partly))
+            (VBN understood)))))
+    (, ,)
+    (NP (PRP we))
+    (ADVP (RB also))
+    (VP (VBD wished)
+      (S
+        (VP (TO to)
+          (VP (VB address)
+            (SBAR
+              (SBAR (IN whether)
+                (S
+                  (NP (DT these) (NNS cells))
+                  (VP (VBP represent)
+                    (S
+                      (NP (DT a) (NN population))
+                      (ADJP (JJ distinct)
+                        (PP (IN from)
+                          (NP (DT the) (JJ described) (JJ nuclear) (NNP RelB) (NNP +) (JJ synovial) (NN DCs))))))))
+              (, ,)
+              (CC and)
+              (SBAR (IN whether)
+                (S
+                  (NP (PRP they))
+                  (VP (MD may)
+                    (VP (VB contribute)
+                      (PP (IN as)
+                        (NP
+                          (NP (NNP APCs))
+                          (CC or)
+                          (NP (JJ inflammatory) (NNS cells))))
+                      (PP (IN in)
+                        (NP (NNP RA) (NNP -LSB-) (CD 21) (NNS -RSB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Materials)
+        (CC and)
+        (NNS methods) (NN Thirty) (NNS patients))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD fulfilled)
+            (NP
+              (NP (DT the) (NNP American) (NNP College))
+              (PP (IN of)
+                (NP (NNP Rheumatology) (NNS criteria))))
+            (PP (IN for)
+              (NP (NNP RA)))))))
+    (VP (VBD were)
+      (VP (VBN included)
+        (NP
+          (QP (CD -LSB-) (CD 32))
+          (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT these)))
+    (, ,)
+    (NP (CD 10))
+    (VP (VBD provided)
+      (SBAR
+        (S
+          (NP
+            (NP (JJ synovial) (NN fluid)
+              (PRN (-LRB- -LRB-)
+                (NP (NNP SF))
+                (-RRB- -RRB-))
+              (NNS samples))
+            (CC and)
+            (NP (CD 27)))
+          (VP (VBD provided)
+            (NP (NNP PB) (NNS samples))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (DT the) (CD 30) (NNS patients)))
+    (PRN (, ,)
+      (S
+        (NP (CD 80) (NN %))
+        (VP (VBD were)
+          (ADJP (JJ seropositive))))
+      (, ,))
+    (S
+      (NP (CD 62) (NN %))
+      (VP (VBD were)
+        (ADJP (JJ female))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (CD 73) (NN %))
+      (VP (VBD were)
+        (VP (VBG taking)
+          (NP
+            (NP
+              (QP (IN at) (JJS least) (CD one))
+              (JJ disease-modifying) (JJ antirheumatic) (NN drug)
+              (CC or)
+              (JJ low-dose) (NN prednisone))
+            (CC or)
+            (NP (DT both))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Synovial) (NN tissue))
+      (VP (VBD was)
+        (VP (VBN obtained)
+          (PP (IN at)
+            (NP (NN arthroscopy)))
+          (PP (IN from)
+            (NP
+              (NP (CD seven) (NNS patients))
+              (PP (IN with)
+                (NP (NNP RA)))
+              (, ,)
+              (SBAR
+                (WHPP (IN of)
+                  (WHNP (WP whom)))
+                (S
+                  (NP (CD three))
+                  (VP (VBD were)
+                    (ADJP (JJ untreated))))))))))
+    (CC and)
+    (S
+      (NP (CD four))
+      (VP (VBD were)
+        (VP (VBG taking)
+          (NP
+            (NP
+              (QP (IN at) (JJS least) (CD one))
+              (JJ disease-modifying) (NN antirheumatic) (NN drug))
+            (CC and)
+            (NP (JJ low-dose) (NN prednisone))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN duration))
+      (PP (IN of)
+        (NP (NN disease))))
+    (VP (VBD ranged)
+      (PP (IN from)
+        (NP
+          (QP (CD 0.5) (TO to) (CD 18))
+          (NNS years))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD studied)
+      (NP (JJ synovial) (NN tissue))
+      (PP (IN from)
+        (NP (CD four) (JJ healthy) (NNS individuals)))
+      (PP (IN with)
+        (NP
+          (NP
+            (NP (JJ nonspecific) (NN knee) (NN pain))
+            (VP (VBG undergoing)
+              (ADVP (RB arthroscopy))))
+          (, ,)
+          (NP
+            (NP (CD one) (NN patient))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD had)
+                  (VP (VBN had)
+                    (NP
+                      (NP (JJ psoriatic) (NN arthritis))
+                      (PP (IN for)
+                        (NP (CD 8) (NNS years)))))))))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (CD one) (NN patient))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD had)
+                  (VP (VBN had)
+                    (NP
+                      (NP (VBG ankylosing) (NNS spondylitis))
+                      (PP (IN for)
+                        (NP (CD 30) (NNS years))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Each) (NN patient))
+      (PP (IN with)
+        (NP (NN spondyloarthropathy))))
+    (VP (VBD was)
+      (VP (VBG taking)
+        (NP (NN sulfasalazine))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT No) (NN patient))
+      (PP (IN in)
+        (NP (DT the) (NN study))))
+    (VP (VBD was)
+      (VP (VBG taking)
+        (NP (NNS biologics))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Synovial) (NN tissue))
+    (VP (VBD was)
+      (VP (VBN provided)
+        (PP (IN by)
+          (NP
+            (NP (NNP Dr) (NNP Malcolm) (NNP Smith))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Repatriation) (NNP Hospital))
+              (, ,)
+              (NP (NNP Adelaide))
+              (, ,)
+              (NP (NNP Australia))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP PB) (NN buffy) (NNS coats))
+      (VP (VBN prepared)
+        (PP (IN from)
+          (NP (CD 30) (JJ healthy) (NNS donors)))))
+    (VP (VBD were)
+      (VP (VBN obtained)
+        (PP (IN from)
+          (NP
+            (NP (DT the) (NNP Red) (NNP Cross) (NNP Blood) (NNP Transfusion) (NNP Service))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Brisbane))
+              (, ,)
+              (NP (NNP QLD))
+              (, ,)
+              (NP (NNP Australia))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN study))
+    (VP (VBD was)
+      (VP (VBN approved)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NNP Research) (NNP Ethics) (NNP Committee))
+            (PP (IN of)
+              (NP (DT the) (NNP Princess) (NNP Alexandra) (NNP Hospital)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (DT All) (NNS cells))
+      (VP (VBD were)
+        (VP (VBN cultured)
+          (PP (IN in)
+            (NP (NNP RPMI) (CD 1640)))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP Gibco))
+              (, ,)
+              (NP (NNP Life) (NNPS Technologies))
+              (, ,)
+              (NP (NNP Mulgrave))
+              (, ,)
+              (NP (NNP VIC))
+              (, ,)
+              (NP (NNP Australia)))
+            (-RRB- -RRB-)))))
+    (VP (VBD supplemented)
+      (PP (IN with)
+        (NP (CD 10) (NN %))))
+    (NP
+      (NP (NNP FCS))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP CSL) (NNP Ltd))
+        (, ,)
+        (NP (NNP Parkville))
+        (, ,)
+        (NP (NNP VIC) (, ,) (NNP Australia))
+        (-RRB- -RRB-))
+      (, ,)
+      (NP
+        (NP
+          (NP (CD 0.3) (JJ mg/ml) (NN L-glutamine))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP Trace) (NNP Biosciences))
+            (, ,)
+            (NP (NNP Castle) (NNP Hill))
+            (, ,)
+            (NP (NNP NSW) (, ,) (NNP Australia))
+            (-RRB- -RRB-)))
+        (, ,)
+        (NP
+          (NP
+            (ADJP
+              (NP (CD 0.12))
+              (JJ mg/ml))
+            (NN benzylpenicillin))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP CSL))
+            (-RRB- -RRB-)))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (CD 10) (JJ μg) (JJ /) (NN ml) (NN gentamicin))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP Delta) (NNP West))
+              (, ,)
+              (NP (NNP Pharmacia)
+                (CC and)
+                (NNP Upjohn))
+              (, ,)
+              (NP (NNP Spring) (NNP Hill))
+              (, ,)
+              (NP (NNP QLD))
+              (, ,)
+              (NP (NNP Australia)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ monoclonal) (NNS antibodies))
+      (VP (VBN used)
+        (PP (IN in)
+          (NP (DT this) (NN study)))))
+    (VP (VBP include)
+      (NP
+        (NP (NNP FITC))
+        (, ,)
+        (NP
+          (NP (NN phycoerythrin))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP PE))
+            (-RRB- -RRB-)))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (JJ purified)
+            (ADJP (JJ anti-CD11c) (, ,) (JJ CD14-PerCP) (, ,) (JJ PE) (, ,) (JJ biotinylated)
+              (CC and)
+              (JJ purified))
+            (NNS anti-CD123))
+          (, ,)
+          (NP
+            (NP (NN CD86-FITC))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP
+                  (NP (DT all))
+                  (PP (IN from)
+                    (NP (NNP BD) (NNP Pharmingen))))
+                (, ,)
+                (NP (NNP San) (NNP Diego))
+                (, ,)
+                (NP (NNP CA))
+                (, ,) (FW USA))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NN BDCA2-FITC))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Miltenyi) (NNP Biotech))
+              (, ,)
+              (NP (NNP San) (NNP Francisco))
+              (, ,)
+              (NP (NNP CA) (, ,) (NNP USA))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP HLA-DR-biotin))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Coulter) (NNP Immunotech))
+              (, ,)
+              (NP (NNP Fullerton))
+              (, ,)
+              (NP (NNP CA) (, ,) (NNP USA))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NN CD40-FITC))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Biolegend))
+              (, ,)
+              (NP (NNP San) (NNP Diego))
+              (, ,)
+              (NP (NNP CA) (, ,) (NNP USA))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NN CD80-FITC))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Cymbus) (NNP Biotech))
+              (, ,)
+              (NP (NNP Chandlers) (NNP Ford))
+              (, ,)
+              (NP (NNP Hants) (, ,) (NNP UK))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP CD68))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Kp-1))
+              (, ,)
+              (NP (NNP DAKO) (, ,) (NNP Carpinteria))
+              (, ,)
+              (NP (NNP CA) (, ,) (NNP USA))
+              (-RRB- -RRB-)))
+          (, ,)
+          (NP
+            (NP (NNP RelB))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NN C-19))
+                (, ,)
+                (NP (NNP Santa) (NNP Cruz) (NNP Biotech))
+                (, ,)
+                (NP (NNP Santa) (NNP Cruz))
+                (, ,)
+                (NP (NNP CA))
+                (, ,)
+                (NP (NNP USA)))
+              (-RRB- -RRB-)))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (JJ biotinylated) (NN Ulex) (NNS europaeus) (NN agglutinin) (NN I))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Vector) (NNP Laboratories))
+              (, ,)
+              (NP (NNP Burlingame))
+              (, ,)
+              (NP (NNP CA) (, ,) (NNP USA))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Mononuclear) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN prepared)
+        (PP (IN from)
+          (NP
+            (ADJP (JJ normal)
+              (CC or)
+              (JJ RA))
+            (NNP PB)
+            (CC or)
+            (NNP RA) (NNP SF)))
+        (PP (IN by)
+          (NP
+            (NP (NN density) (NN gradient) (NN centrifugation))
+            (PP (IN over)
+              (NP
+                (NP (NNP Ficoll-Paque))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP Pharmacia) (NNP Biotech))
+                  (, ,)
+                  (NP (NNP Uppsala))
+                  (, ,)
+                  (NP (NNP Sweden))
+                  (-RRB- -RRB-))))))
+        (SBAR (IN as)
+          (S
+            (VP (VBD described)
+              (ADVP (RB elsewhere)
+                (NP
+                  (QP (CD -LSB-) (CD 33))
+                  (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP T) (NNS cells))
+      (VP (VBD were)
+        (VP
+          (VP (VBN purified)
+            (PP (IN from)
+              (NP (NNP PB) (NN mononuclear) (NNS cells)))
+            (PP (IN by)
+              (S
+                (VP (VBG passing)
+                  (NP (DT the) (NNS cells))
+                  (PP (IN over)
+                    (NP (DT a) (NN nylon) (NN wool) (NN column)))))))
+          (, ,)
+          (VP (VBN followed)
+            (PP (IN by)
+              (NP
+                (NP (JJ immunomagnetic) (NN depletion))
+                (PP (IN of)
+                  (NP
+                    (NP (JJ remaining) (NNS monocytes))
+                    (, ,)
+                    (NP (NNP DCs))
+                    (, ,)
+                    (NP (NNP B) (NNS cells))
+                    (, ,)
+                    (CC and)
+                    (NP
+                      (NP (NNP NK))
+                      (PRN (-LRB- -LRB-)
+                        (NP (JJ natural) (NN killer))
+                        (-RRB- -RRB-))
+                      (NP (NNS cells)))))))
+            (S
+              (VP (VBG using)
+                (NP (JJ monoclonal) (NNS antibodies))
+                (PP (IN against)
+                  (NP (NNP CD14) (, ,) (NNP CD16) (, ,) (NNP CD19) (, ,) (NNP CD56) (, ,))))))
+          (CC and)
+          (VP (VBN HLA-DR)
+            (PRN (-LRB- -LRB-)
+              (PP
+                (ADVP (DT all))
+                (IN from)
+                (NP (NNP BD) (NNP Pharmingen)))
+              (-RRB- -RRB-))))))
+    (, ,)
+    (VP (VBD followed)
+      (PP (IN by)
+        (NP (NN goat) (NN antimouse) (NN immunoglobulin))))
+    (NP
+      (NP (JJ magnetic) (NNS beads))
+      (, ,)
+      (NP
+        (NP (RB then) (NN passage))
+        (PP (IN through)
+          (NP
+            (NP
+              (NP (DT a) (JJ strong) (JJ magnetic) (NN field))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP MACS))
+                (, ,)
+                (NP (NNP Miltenyi) (NNP Biotech))
+                (-RRB- -RRB-)))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (NN collection))
+              (PP (IN of)
+                (NP (DT the) (JJ unbound) (NN fraction))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP
+        (NP (NN analysis))
+        (PP (IN by)
+          (NP (NN flow) (NN cytometry)))))
+    (, ,)
+    (NP (DT the) (JJ unbound) (NN fraction))
+    (ADVP (RB routinely))
+    (VP (VBD contained)
+      (NP
+        (NP (CD 95))
+        (: --)
+        (NP
+          (NP (CD 98) (NN %))
+          (NP (CD CD3) (NNP +) (NNP T) (NNS cells)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ DC-enriched) (JJ non-T) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN produced)
+        (PP (IN by)
+          (NP
+            (NP (JJ immunomagnetic) (NN depletion))
+            (PP (IN of)
+              (NP (NNP T) (, ,) (NNP B) (, ,)
+                (CC and)
+                (NNP NK) (NNS cells)))))
+        (PP (IN from)
+          (NP (JJ non-T) (NNS cells)))
+        (, ,)
+        (PP (IN by)
+          (NP
+            (NP (NN incubation))
+            (PP (IN with)
+              (NP
+                (NP (JJ monoclonal) (NNS antibodies))
+                (PP (IN against)
+                  (NP (NNP CD19) (, ,) (NNS CD16) (, ,) (NNP CD56) (, ,)
+                    (CC and)
+                    (NNP CD3)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB enumerate)
+          (NP
+            (NP (NNP CD123) (NNP +))
+            (CC and)
+            (NP
+              (NP (JJ CD11c) (JJ +) (NNS subsets))
+              (PP (IN of)
+                (NP (NNP DCs))))))))
+    (, ,)
+    (NP
+      (NP (NN mononuclear) (NNS cells))
+      (PP (IN from)
+        (NP (JJ normal) (NNP PB)
+          (CC or)
+          (NNP RA) (NNP SF))))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP (IN for)
+          (NP (JJ four-colour) (NN flow) (NN cytometry)))
+        (SBAR (IN as)
+          (S
+            (VP (VBD described)
+              (ADVP (RB elsewhere)
+                (NP
+                  (QP (CD -LSB-) (CD 33))
+                  (NNS -RSB-)))
+              (, ,)
+              (S
+                (VP (VBG using)
+                  (NP (JJ monoclonal) (NNS antibodies))
+                  (PP (IN against)
+                    (NP (NNS CD14-PECy5) (, ,) (NNS CD11c-FITC) (, ,) (NNP CD123-PE) (, ,)
+                      (CC and)
+                      (NNP HLA-DR-APC))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Live) (NNP CD14-HLA-DR) (NNP +) (NN mononuclear) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN gated)
+        (PP (IN for)
+          (NP (NN analysis)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Subset) (NNS percentages))
+    (VP (VBP are)
+      (VP (VBN expressed)
+        (PP (IN as)
+          (NP
+            (NP (NN percentage))
+            (PP (IN of)
+              (NP (JJ total) (NN mononuclear) (NNS cells)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Listmode) (NNS data))
+    (VP (VBD were)
+      (VP (VBN analyzed)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (NNP Winlist) (NNP 2.0) (NN software))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Verity) (NNP Software) (NNP House))
+                (, ,)
+                (NP (NNP Topsham))
+                (, ,)
+                (NP (NNP ME) (, ,) (NNP USA))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NNP sorting) (, ,) (NNP PB)
+        (CC or)
+        (NNP SF)))
+    (NP
+      (NP (JJ DC-enriched) (JJ non-T) (NNS cells))
+      (VP (VBN stained)
+        (PP (IN with)
+          (NP (DT the) (JJ same) (CD four) (NNS markers)))))
+    (VP (VBD were)
+      (VP (VBN sorted)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP
+                (NP (DT the) (NNP Moflo) (NN flow) (NN cytometer))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP DAKO))
+                  (-RRB- -RRB-))
+                (, ,)
+                (VP (VBG gating)
+                  (PP (IN on)
+                    (NP
+                      (NP (NNP CD14-HLA-DR) (NNP +))
+                      (CC and)
+                      (NP (DT either) (NNP CD123) (NNP +) (NNP CD11c))))))
+              (: -)
+              (CC or)
+              (NP
+                (NP (NNP CD11c) (NNP +) (NNP CD123))
+                (: -)
+                (NP
+                  (NP (NNS cells))
+                  (, ,)
+                  (ADVP (RB respectively)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (JJ phenotypic) (NN analysis)))
+    (, ,)
+    (S
+      (NP
+        (NP (NN mononuclear) (NNS cells))
+        (PP (IN from)
+          (NP (NNP PB)
+            (CC or)
+            (NNP SF))))
+      (VP (VBD were)
+        (VP (VBN stained)
+          (PP (IN with)
+            (NP (NN CD14-PECy5) (, ,) (NN CD123-PE)
+              (CC or)
+              (NN CD11c-PE)))
+          (, ,)
+          (ADVP (RB HLA-DR-APC)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (CC either)
+        (NP (DT a) (JJ fourth) (JJ monoclonal) (NN antibody))
+        (CC or)
+        (NP (JJ isotype) (NN control) (NN monoclonal) (NN antibody)))
+      (VP (VBD conjugated)
+        (PP (IN with)
+          (NP (NNP FITC)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP DCs))
+    (VP (VBD were)
+      (VP (VBN gated)
+        (SBAR (IN as)
+          (S
+            (VP (VBD described)
+              (ADVP (RB above)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Electron) (NN microscopy))
+      (PP (IN of)
+        (NP (RB freshly) (CD sorted) (NNS cells))))
+    (VP (VBD was)
+      (VP (VBN carried)
+        (PRT (RP out))
+        (SBAR (IN as)
+          (S
+            (VP (VBD described)
+              (ADVP (RB elsewhere)
+                (NP
+                  (QP (CD -LSB-) (CD 5))
+                  (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (NN fixation))
+        (PP (IN in)
+          (NP
+            (NP
+              (ADJP (CD 2.5) (NN %))
+              (NN glutaraldehyde))
+            (PP (IN in)
+              (NP (JJ phosphate-buffered) (NN saline)))))))
+    (, ,)
+    (NP (DT the) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN post-fixed)
+        (PP (IN with)
+          (NP
+            (NP (DT an) (JJ aqueous) (NN solution))
+            (PP (IN of)
+              (NP
+                (ADJP (CD 1) (NN %))
+                (NNS OsO4)))))
+        (S
+          (VP (VBG containing)
+            (NP
+              (NP (CD 1.5) (NN %) (NNS K4Fe))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP CN))
+                (-RRB- -RRB-))
+              (ADJP (CD 6)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Subsequently))
+    (, ,)
+    (NP (DT the) (NNS specimens))
+    (VP (VBD were)
+      (VP
+        (VP (VBN dehydrated)
+          (PP (IN in)
+            (NP (DT an) (NN alcohol) (NN series))))
+        (CC and)
+        (VP (VBN embedded)
+          (PP (IN into)
+            (NP (NN epon))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Ultrathin) (NNS sections))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (QP (CD 50) (CD nm)))
+        (-RRB- -RRB-)))
+    (VP (VBD were)
+      (VP
+        (VP (VBN contrasted)
+          (PP (IN with)
+            (NP (JJ lead) (NN citrate)
+              (CC and)
+              (NN uranyl) (NN acetate))))
+        (CC and)
+        (VP (VBN studied)
+          (PP (IN with)
+            (NP
+              (NP (DT a) (JJ CM100) (NN electron) (NN microscope))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Philips))
+                (, ,)
+                (NP (NNP Eindhoven))
+                (, ,)
+                (NP (DT The) (NNPS Netherlands))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Various) (NNS numbers))
+      (PP (IN of)
+        (NP
+          (NP (NNP sorted) (NNP PB))
+          (CC or)
+          (NP (NNP RA) (NNP SF) (NNP DCs)))))
+    (VP (VBD were)
+      (VP (VBN incubated)
+        (PP (IN with)
+          (NP
+            (NP (CD 105) (JJ allogeneic) (NNP PB) (NNP T) (NNS cells))
+            (PP (IN in)
+              (NP (JJ triplicate) (NNS wells)))))
+        (PP (IN for)
+          (NP
+            (NP (CD 5) (NNS days))
+            (, ,)
+            (SBAR (IN as)
+              (S
+                (VP (VBD described)
+                  (ADVP (RB elsewhere)
+                    (NP
+                      (QP (CD -LSB-) (CD 33))
+                      (NNS -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Supernatants))
+      (VP (VBD were)
+        (VP (VBN removed)
+          (PP (IN from)
+            (NP (DT some) (NNS cultures))))))
+    (CC and)
+    (S
+      (NP
+        (NP
+          (QP (CD -LSB-) (CD 3H))
+          (JJ -RSB-) (NN thymidine))
+        (PRN (-LRB- -LRB-)
+          (NP (CD 1) (NNS μCi))
+          (: /)
+          (NP
+            (NP (NN well))
+            (, ,)
+            (NP (NNP ICN) (NNP Biochemicals)))
+          (-RRB- -RRB-)))
+      (VP (VBD was)
+        (VP (VBN added)
+          (PP (TO to)
+            (NP (DT the) (NN remainder))))))
+    (SBAR (IN for)
+      (S
+        (NP (DT the) (JJ final) (CD 18) (NN h.) (NNS Cells))
+        (VP (VBD were)
+          (VP (VBN harvested)
+            (PP (IN onto)
+              (NP (JJ glass-fiber) (NN filter) (NNS mats)))))))
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN incorporation))
+        (PP (IN of)
+          (NP (NN -LSB-) (CD 3H) (NN -RSB-) (NN thymidine))))
+      (VP (VBD was)
+        (VP (VBN determined)
+          (PP (IN by)
+            (NP
+              (NP (JJ liquid) (NN scintillation) (NN spectroscopy))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NNP Packard) (NNP Topcount))
+                  (, ,)
+                  (NP (NNP Packard) (NNP Instrument) (NNP Co))
+                  (, ,)
+                  (NP (NNP Meriden))
+                  (, ,)
+                  (NP (NNP CT))
+                  (, ,)
+                  (NP (NNP USA)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP IFN-γ) (, ,) (NNP IL-10) (, ,)
+      (CC and)
+      (NNP TNF-α))
+    (VP (VBD were)
+      (VP (VBN measured)
+        (PP (IN in)
+          (NP (NNS supernatants)))
+        (PP (IN by)
+          (NP (NNP ELISA)))
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (NNP OptEIA) (NNP ELISA) (NNS kits))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP BD) (NNP Pharmingen))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Frozen)
+        (CC or)
+        (JJ paraffin-embedded) (NNS sections))
+      (PP (IN of)
+        (NP
+          (NP (JJ synovial) (NN tissue))
+          (PP (IN from)
+            (NP
+              (NP (NNS patients))
+              (PP (IN with)
+                (NP
+                  (ADJP (JJ untreated) (JJ active))
+                  (NNP RA))))))))
+    (VP (VBD were)
+      (VP
+        (VP (VBN obtained)
+          (PP (IN by)
+            (NP (JJ arthroscopic) (NN biopsy))))
+        (CC and)
+        (VP (VBN supplied)
+          (PP (IN by)
+            (NP
+              (NP (NNP Malcolm) (NNP Smith))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Repatriation) (NNP Hospital))
+                (, ,)
+                (NP (NNP Adelaide))
+                (, ,)
+                (NP (NNP Australia))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Normal) (JJ synovial) (NN tissue))
+    (VP (VBD was)
+      (VP (VBN obtained)
+        (PP (IN at)
+          (NP (NN arthroscopy)))
+        (PP
+          (PP (IN from)
+            (NP
+              (NP (NNS patients))
+              (VP (VBG undergoing)
+                (ADVP (RB arthroscopy))
+                (PP (IN for)
+                  (NP (JJ nonspecific) (NN knee) (NN pain))))))
+          (CC and)
+          (PP (IN in)
+            (SBAR
+              (WHNP (WP whom))
+              (S
+                (NP (DT no) (NN abnormality))
+                (VP (VBD was)
+                  (VP (VBN found)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (NN fixation))
+        (PP (IN with)
+          (NP (NN acetone)))))
+    (, ,)
+    (NP (NNS sections))
+    (VP (VBD were)
+      (VP
+        (VP (VBN stained)
+          (PP (IN with)
+            (ADJP (JJ anti-CD11c)
+              (CC or)
+              (JJ anti-CD123)))
+          (S
+            (VP (VBG using)
+              (NP (DT an) (JJ immunoperoxidase) (NN technique)))))
+        (, ,)
+        (CC and)
+        (VP (VBN revealed)
+          (PP (IN with)
+            (NP
+              (NP (NN diaminobenzidine))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP brown))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN Frozen) (NNS sections))
+    (VP (VBD were)
+      (VP (VBN double-stained)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP
+                (NP (NNP U.) (NNS europaeus))
+                (VP (VBN agglutinin)
+                  (NP (PRP I))))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Ulex))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP
+              (NP
+                (NP (DT a) (NN lectin))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (ADVP (RB specifically))
+                    (VP (VBZ binds)
+                      (NP (JJ endothelial) (NNS cells))
+                      (PRN (-LRB- -LRB-)
+                        (ADVP (RB fast))
+                        (ADJP (JJ red))
+                        (-RRB- -RRB-))))))
+              (, ,)
+              (CC and)
+              (NP
+                (NP (JJ anti-CD123))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP brown))
+                  (-RRB- -RRB-))
+                (, ,)
+                (VP (VBG using)
+                  (NP (DT a) (JJ double) (, ,) (NN immunoperoxidase)))))
+            (: --)
+            (NP
+              (NP (JJ immunoalkaline) (NN phosphatase) (NN technique))
+              (SBAR (IN as)
+                (S
+                  (VP (VBD described)
+                    (ADVP (RB elsewhere)
+                      (NP
+                        (QP (CD -LSB-) (CD 34))
+                        (NNS -RSB-)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Formalin-fixed) (JJ paraffin-embedded) (NNS sections))
+    (VP (VBD were)
+      (ADJP (JJ antigen-retrieved)
+        (PP (IN in)
+          (NP
+            (NP (CD 10) (NN mM) (NN citrate) (NN buffer))
+            (PP (IN at)
+              (NP (CD pH6))))))
+      (PP (IN in)
+        (NP (DT an) (NN autoclave)))
+      (, ,)
+      (ADVP (RB then))
+      (VP (VBN stained)
+        (PP
+          (PP (IN with)
+            (NP
+              (NP (JJ anti-CD123))
+              (PRN (-LRB- -LRB-)
+                (NP (NN diaminobenzidine))
+                (, ,)
+                (NP (NNP brown))
+                (-RRB- -RRB-)))
+            (ADVP (RB alone)))
+          (, ,)
+          (CC or)
+          (PP (IN in)
+            (NP (NN combination))))
+        (PP (IN with)
+          (NP
+            (NP (NN anti-RelB))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP BCIP))
+              (, ,)
+              (NP (NNP DAKO))
+              (, ,)
+              (NP (NNP purple))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Sections))
+    (VP (VBD were)
+      (VP (VBN counterstained)
+        (PP (IN with)
+          (NP (NN hematoxylin)))
+        (PP (IN except)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP they))
+              (VP
+                (VP (VBD had)
+                  (VP (VBN been)
+                    (VP (VBN double-stained)
+                      (PP (IN for)
+                        (NP (NNP CD123)
+                          (CC and)
+                          (NNP RelB))))))
+                (CC and)
+                (VP (VBD were)
+                  (VP (VBN photographed)
+                    (S
+                      (VP (VBG using)
+                        (NP
+                          (NP (DT a) (JJ transmitted-light) (NN microscope))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP Leitz) (NNP Diaplan))
+                            (, ,)
+                            (NP (NNP Leica))
+                            (, ,)
+                            (NP (NNP Germany))
+                            (-RRB- -RRB-)))))))))))))
+    (. .)))
+
+(ROOT
+  (X
+    (S
+      (VP (TO To)
+        (VP (VB quantitate)
+          (NP (NN infiltration))
+          (PP (IN by)
+            (NP
+              (NP (NNP CD123) (NNP +) (NNP DCs))
+              (, ,)
+              (NP
+                (NP (DT the) (NN number))
+                (PP (IN of)
+                  (NP (NNP CD123) (NNP +) (NNP Ulex)))))))))
+    (: -)
+    (NP
+      (NP (NNS cells))
+      (SBAR
+        (S
+          (VP (VBD was)
+            (VP (VBN counted)))))
+      (PP (IN in)
+        (NP
+          (NP (NNS sections))
+          (VP (VBN double-stained)
+            (PP (IN with)
+              (NP (NNP CD123)
+                (CC and)
+                (NNP Ulex)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Cells))
+      (VP (VBD were)
+        (VP (VBN counted)
+          (PP (IN in)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP (DT the) (JJ entire) (NNS sections)))))
+          (PP (IN from)
+            (NP
+              (NP (CD three) (NNS patients))
+              (CC and)
+              (NP (CD three) (JJ normal) (NNS controls))))
+          (PP (IN at)
+            (NP (JJ high) (NN power))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN for)
+        (NP (DT each) (NN biopsy)))
+      (NP (DT this) (NN number))
+      (VP (VBD was)
+        (VP (VBN corrected)
+          (PP (IN for)
+            (NP
+              (NP (DT the) (NN area))
+              (PP (IN of)
+                (NP (DT the) (NN section)))))
+          (S
+            (VP (TO to)
+              (VP (VB obtain)
+                (NP
+                  (NP (DT the) (NN number))
+                  (PP (IN per)
+                    (NP (CD mm2))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB quantitate)
+          (NP (NN infiltration))
+          (PP (IN by)
+            (NP (JJ CD11c) (JJ +) (NNS cells))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN number))
+      (PP (IN of)
+        (NP (DT these) (NNS cells))))
+    (VP (VBD was)
+      (VP (VBN counted)
+        (PP (IN in)
+          (NP
+            (NP (CD three) (JJ high-power) (NNS fields))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (JJ synovial) (NN sublining))
+                (PP (IN in)
+                  (NP (NNS sections)))))))
+        (PP (IN from)
+          (NP
+            (NP (CD three) (NNS patients))
+            (CC and)
+            (NP (CD three) (JJ normal) (NNS controls))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Differences))
+    (VP (VBD were)
+      (VP (VBN analyzed)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (JJ unpaired) (NN Student) (POS 's))
+              (NNS t-tests))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Results))
+      (SBAR
+        (S
+          (NP (PRP We))
+          (VP (VBP have)
+            (ADVP (RB previously))
+            (VP (VBN shown)
+              (NP (DT that) (JJ synovial) (NN tissue))
+              (PP (IN in)
+                (NP
+                  (NP (NNP RA))
+                  (CC and)
+                  (NP (NN spondyloarthropathy)))))))))
+    (VP (VBZ is)
+      (VP (VBN enriched)
+        (PP (IN in)
+          (NP
+            (NP (JJ differentiated) (JJ myeloid) (NN DCs))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP express)
+                  (NP
+                    (NP (NNP CD33))
+                    (, ,)
+                    (NP (NNS CD11c))
+                    (, ,)
+                    (NP (NNP MHC) (NN class) (NNP II))
+                    (, ,)
+                    (NP (JJ costimulatory) (NNS molecules))
+                    (, ,)
+                    (CC and)
+                    (NP (JJ nuclear) (NNP RelB) (NNP -LSB-) (CD 21,25) (NNP -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Translocation))
+      (PP (IN of)
+        (NP
+          (NP (NNP RelB))
+          (PP (TO to)
+            (NP (DT the) (NN nucleus))))))
+    (VP (VBZ is)
+      (VP (VBN associated)
+        (PP (IN with)
+          (NP
+            (NP (NN maturation)
+              (CC and)
+              (NN APC) (NN function))
+            (PP (IN of)
+              (NP (JJ myeloid) (NNP DCs) (NNP -LSB-) (CD 26) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT These) (JJ nuclear) (NNP RelB) (NNP +) (NNP DCs))
+    (VP
+      (VP (VBP are)
+        (ADJP (JJ absent)
+          (PP (IN in)
+            (NP (JJ normal) (JJ synovial) (NN tissue)))))
+      (CC and)
+      (VP (VBP are)
+        (ADJP (JJ rare)
+          (PP (IN in)
+            (NP (NNP RA) (NNP SF) (NNP -LSB-) (CD 21,23) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB determine)
+          (SBAR (IN whether)
+            (S
+              (NP (NNP RA) (JJ synovial) (NN tissue))
+              (VP (VBD was)
+                (VP (VBN infiltrated)
+                  (PP (IN by)
+                    (NP
+                      (NP (CD CD123) (JJ +) (NNS pDCs))
+                      (PP (IN in)
+                        (NP (NN addition)))))
+                  (PP (TO to)
+                    (NP (JJ CD11c) (JJ +) (JJ myeloid) (NNS cells))))))))))
+    (, ,)
+    (NP
+      (NP (JJ frozen) (JJ synovial) (NN tissue) (NNS sections))
+      (, ,)
+      (UCP (RB either)
+        (ADJP (JJ normal))
+        (CC or)
+        (PP (IN from)
+          (NP
+            (NP (NNS patients))
+            (PP (IN with)
+              (NP (NN RA)
+                (CC or)
+                (NN spondyloarthropathy))))))
+      (, ,))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP (IN with)
+          (NP (NNP CD11c)
+            (CC or)
+            (NNP CD123)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD11c) (NNP +) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN found)
+        (PP (DT both)
+          (PP (IN in)
+            (NP (DT the) (NN lining) (NN layer)))
+          (CC and)
+          (PP
+            (ADVP (JJ adjacent))
+            (TO to)
+            (NP
+              (NP (NNS vessels))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN sublining))
+                  (PP (IN of)
+                    (NP (JJ normal) (JJ synovial) (NN tissue))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP (NNP CD123))
+    (ADVP (RB only))
+    (VP (VBD stained)
+      (NP
+        (NP (JJ endothelial) (NNS cells))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (JJ normal) (NN tissue))
+            (PRN (-LRB- -LRB-)
+              (S
+                (VP (VBG Fig.)
+                  (NP (CD 1a) (CD ,1))
+                  (X (SYM b))))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP RA) (JJ synovial) (NN tissue)))
+    (, ,)
+    (NP (NNS CD11c))
+    (ADVP (RB again))
+    (VP (VBD stained)
+      (NP (NNS cells))
+      (ADVP (JJ adjacent)
+        (PP (TO to)
+          (NP (NNS vessels))))
+      (, ,)
+      (PP
+        (ADVP (RB now))
+        (IN within)
+        (NP
+          (NP (JJ lymphoid) (NNS aggregates))
+          (PP (IN in)
+            (NP (DT the) (NN sublining))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN population))
+      (PP (IN of)
+        (NP
+          (NP (CD CD123) (JJ +) (NNS cells))
+          (PP (IN with)
+            (NP (JJ dendritic) (NN appearance))))))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (VP (VBN stained)
+        (ADVP (JJ adjacent)
+          (PP (TO to)
+            (NP
+              (NP (CD CD123) (JJ +) (NN blood) (NNS vessels))
+              (PP (IN in)
+                (NP (NNP RA))))))
+        (PRN (-LRB- -LRB-)
+          (S
+            (NP (NNP Fig.))
+            (VP (VBD 1c)
+              (NP (CD ,1))
+              (X
+                (NP (SYM d))))
+            (, ,))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Cells))
+      (VP (VBG expressing)
+        (NP
+          (NP (NNP TNF-α))
+          (PP (IN in)
+            (NP (NNP RA) (JJ synovial) (NN tissue))))))
+    (VP (VBD were)
+      (VP (VBN found)
+        (PP (IN in)
+          (NP
+            (NP (DT a) (JJ similar) (NN location))
+            (PP (IN in)
+              (NP (JJ serial) (NNS sections)))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNS data))
+                (VP (RB not) (VBN shown)))
+              (-RRB- -RRB-))))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (VP (VBD demonstrated)
+              (S
+                (ADVP (RB previously))
+                (VP (VBG -LSB-)
+                  (NP (CD 35) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB confirm)
+          (NP (DT the) (JJ perivascular) (NNP CD123) (NNP +) (NNS cells))
+          (PP (IN in)
+            (NP (JJ synovial) (NN tissue))))))
+    (, ,)
+    (NP
+      (ADJP (JJ normal)
+        (CC and)
+        (JJ RA))
+      (JJ synovial) (NN tissue))
+    (VP (VBD were)
+      (VP (VBN double-stained)
+        (PP
+          (PP (IN with)
+            (NP
+              (NP (DT the) (JJ endothelial) (NN cell) (NN marker) (NN Ulex) (NN agglutinin))
+              (PRN (-LRB- -LRB-)
+                (ADJP (JJ red))
+                (-RRB- -RRB-))))
+          (CC and)
+          (PP (IN with)
+            (NP
+              (NP (NNP CD123))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP brown))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Whereas)
+      (S
+        (NP
+          (NP (DT all) (JJ CD123) (CD +) (NNS structures))
+          (PP (IN in)
+            (NP (JJ normal) (JJ synovial) (NN tissue))))
+        (VP (VBD colocalized)
+          (PP (IN with)
+            (NP
+              (NP (NNP Ulex) (NNP agglutinin))
+              (PRN (-LRB- -LRB-)
+                (NP (NN orange))
+                (-RRB- -RRB-)))))))
+    (, ,)
+    (NP
+      (NP (JJ single-stained) (NNP CD123) (NN +) (NNS cells))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP brown))
+        (-RRB- -RRB-)))
+    (VP (VBD were)
+      (VP (VBN located)
+        (PP
+          (PP (IN in)
+            (NP (JJ perivascular) (JJ lymphoid) (NNS aggregates)))
+          (CC and)
+          (PP (IN within)
+            (NP
+              (NP (DT the) (NN lumen))
+              (PP (IN of)
+                (NP
+                  (NP (JJ occasional) (NN blood) (NNS vessels))
+                  (PP (IN in)
+                    (NP (NNP RA) (JJ synovial) (NN tissue)))))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (VP (VBG Fig.)
+                    (NP (CD 1e) (CD ,1))
+                    (X (SYM f))))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT These) (NNP CD123) (NNP +) (NNS cells))
+      (VP (VBP are)
+        (ADJP (JJ similar)
+          (PP (IN in)
+            (NP (NN appearance)))
+          (PP (TO to)
+            (NP
+              (NP (DT those))
+              (VP
+                (ADVP (RB previously))
+                (VBN demonstrated)
+                (SBAR (IN as)
+                  (S
+                    (NP (NNP CD123) (NNP +))
+                    (VP (VBZ pDCs)
+                      (PP (IN in)
+                        (NP
+                          (NP (JJ human) (NN tonsil))
+                          (, ,)
+                          (SBAR
+                            (WHPP (IN in)
+                              (WHNP (WDT that)))
+                            (S
+                              (NP (PRP they))
+                              (VP (VBP are)
+                                (ADJP
+                                  (ADJP (JJR smaller))
+                                  (SBAR (IN than)
+                                    (S
+                                      (NP (NNP CD11c) (NNP +))
+                                      (VP (VBD myeloid)
+                                        (NP (NNP DCs))
+                                        (, ,)
+                                        (PP (IN with)
+                                          (NP (JJR shorter) (JJ dendritic) (NNS processes)))))))))))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NN cell) (NNS clusters))
+      (VP (VBD gave)
+        (NP
+          (NP (DT the) (NN appearance))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (RB locally) (VBG proliferating) (NNS cells))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP Fig.) (CD 1g))
+                  (-RRB- -RRB-)))
+              (ADJP (JJ -LSB-)
+                (NP (CD 5,36) (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (DT some) (NNS macrophages))
+        (VP (MD can)
+          (VP (VB express)
+            (NP (NNP CD123))))))
+    (, ,)
+    (NP (EX there))
+    (VP (VBD was)
+      (NP
+        (NP (DT no) (NN colocalization))
+        (PP (IN in)
+          (NP
+            (NP (JJ synovial) (NN tissue))
+            (PP (IN of)
+              (NP (NNP CD123)
+                (CC and)
+                (NNP CD68)))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNS data))
+                (VP (RB not) (VBN shown)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (PP
+      (ADVP (RB aside))
+      (IN from)
+      (NP (DT the) (JJ dendritic) (NN morphology)))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD can) (RB not)
+      (VP (VB exclude)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT some))
+              (PP (IN of)
+                (NP (DT the) (JJ CD123) (CD +) (NNS cells))))
+            (VP (VBD stained)
+              (SBAR
+                (S
+                  (VP (VBP are)
+                    (NP
+                      (NP (JJ mast) (NNS cells))
+                      (VP (VBG -LSB-)
+                        (NP (CD 37) (NNS -RSB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB determine)
+          (SBAR (IN whether)
+            (S
+              (NP
+                (NP (CD CD123) (JJ +) (NNS cells))
+                (PP (IN in)
+                  (NP (JJ synovial) (NN tissue))))
+              (VP (VBD were)
+                (ADVP (RB also))
+                (NP (JJ nuclear) (NNP RelB) (NNS +))))))))
+    (, ,)
+    (NP (JJ formalin-fixed) (NN tissue))
+    (VP (VBD was)
+      (VP (VBN double-stained)
+        (PP (IN for)
+          (NP (NNP RelB)
+            (CC and)
+            (NNP CD123)))
+        (PP (IN without)
+          (NP (NN hematoxylin) (NN counterstaining)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT No) (NNP CD123) (NNP +) (NNS cells))
+    (VP (VBD had)
+      (VP (VBN translocated)
+        (NP (NNP RelB))
+        (PP (TO to)
+          (NP (DT the) (NN nucleus)))
+        (, ,)
+        (SBAR (IN although)
+          (S
+            (NP (DT some))
+            (VP (VBD expressed)
+              (NP
+                (NP (JJ cytoplasmic) (NN RelB))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNP Fig.) (NNPS 1h))
+                    (NP (CD ,1) (NNS i)))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP
+      (NP (JJ nuclear) (NN staining))
+      (PP (IN of)
+        (NP (NNP RelB))))
+    (VP (VBD was)
+      (ADJP (JJ evident)
+        (PP (IN in)
+          (NP
+            (NP (JJ adjacent) (NN CD123))
+            (: -)
+            (NP (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP Fig.) (NNPS 1h))
+                (, ,)
+                (NP (NNS arrows)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All) (NNS patients))
+      (PP (IN with)
+        (NP (NNP RA))))
+    (VP (VBD showed)
+      (NP (JJ similar) (NN infiltration))
+      (PP (IN by)
+        (NP
+          (NP (NNS pDCs))
+          (CC and)
+          (NP (DT no) (NNS differences))))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN cell))
+          (SBAR
+            (S
+              (NP (NNS numbers)
+                (CC or)
+                (NN location))
+              (VP (VBD were)
+                (VP (VBN noted)
+                  (PP (IN between)
+                    (NP
+                      (NP (NNS patients))
+                      (PP (IN with)
+                        (NP (NN RA)
+                          (CC or)
+                          (NN spondyloarthropathy)))))))))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNS data))
+              (VP (RB not) (VBN shown)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD quantitated)
+      (NP (NNS pDCs))
+      (PP (IN in)
+        (NP
+          (ADJP (JJ normal)
+            (CC or)
+            (JJ RA))
+          (JJ synovial) (NN tissue)))
+      (PP (IN by)
+        (S
+          (VP (VBG counting)
+            (NP
+              (NP (NNP CD123) (NNP +) (NNP Ulex))
+              (: -)
+              (NP
+                (NP (NNS cells))
+                (PP (IN in)
+                  (NP (JJ synovial) (NN tissue) (NNS sections)))))
+            (PP (IN from)
+              (NP
+                (NP
+                  (NP (NNS patients))
+                  (PP (IN with)
+                    (NP (NNP RA))))
+                (CC or)
+                (NP
+                  (NP (JJ normal) (NNS controls))
+                  (VP (VBN stained)
+                    (PP (IN with)
+                      (NP (NNP CD123)
+                        (CC and)
+                        (NNP Ulex)))
+                    (SBAR (IN as)
+                      (S
+                        (VP (VBN shown)
+                          (PP (IN in)
+                            (NP (NNP Fig.) (CD 1))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Whereas)
+      (S
+        (NP (DT no) (NNS pDCs))
+        (VP (VBD infiltrated)
+          (NP (DT the) (JJ normal) (NN tissue)))))
+    (, ,)
+    (NP
+      (NP
+        (QP (RB approximately) (CD 22))
+        (NNS pDCs))
+      (PP (IN per)
+        (NP (CD mm2))))
+    (VP (VBD were)
+      (VP (VBN identified)
+        (PP (IN within)
+          (NP
+            (NP (DT the) (NNP RA) (NN tissue))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (QP (CD Fig.) (CD 2)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (DT This) (NN number))
+      (VP (VBZ is)
+        (ADJP (JJ similar)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN number))
+              (PP (IN of)
+                (NP (JJ nuclear) (NNP RelB) (NNP +) (JJ differentiated) (NN DCs))))))))
+    (VP (VBD identified)
+      (ADVP (RB previously))
+      (PP (IN in)
+        (NP (NNP RA) (JJ synovial) (NN tissue) (NNS -LSB-))))
+    (NP (CD 38) (NN -RSB-))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP (JJ CD11c) (NN +) (NNS cells))
+    (VP (VBD infiltrated)
+      (NP (DT both)
+        (ADJP (JJ normal)
+          (CC and)
+          (JJ RA))
+        (JJ synovial) (NN tissue))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP
+            (ADJP (RB significantly) (JJR larger))
+            (NNS numbers))
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (NNP RA))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP P) (NNP <) (NNP 0.05))
+                  (-RRB- -RRB-)))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (QP (CD Fig.) (CD 2)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP conclude)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNP CD123) (NNP +) (NN cell) (NN population))
+            (VP (VBZ is)
+              (NP
+                (NP
+                  (ADJP (RBS most) (JJ likely))
+                  (DT a) (NN pDC) (NN population))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ infiltrates)
+                      (NP
+                        (NP
+                          (NP (NNP RA))
+                          (CC and)
+                          (NP (NN spondyloarthropathy)))
+                        (CONJP (CC but)
+                          (RB not))
+                        (NP (JJ normal) (JJ synovial) (NN tissue))))))))))
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (JJ distinct)
+                (PP (IN from)
+                  (NP (DT the) (CD described) (JJ nuclear) (NNP RelB) (NNP +) (NNP DCs) (NNP -LSB-) (CD 21,36,39) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD11c) (NNP +) (NNS cells))
+    (VP (VBP comprise)
+      (NP
+        (ADJP (JJ immature)
+          (CC and)
+          (JJ differentiated))
+        (JJ myeloid)
+        (ADJP (JJ DCs)
+          (CONJP (RB as) (RB well) (IN as))
+          (JJ monocytes))
+        (QP (CD -LSB-) (CD 1,34))
+        (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Differentiated) (JJ nuclear) (NNP RelB) (NNP +) (NNP DCs))
+    (VP (VBP are)
+      (VP (VBN found)
+        (PP
+          (PP (IN within)
+            (NP
+              (NP (DT the) (JJ CD11c) (NNP +) (NNP DC) (NN population))
+              (PP (IN in)
+                (NP
+                  (NP (NNP RA))
+                  (CC and)
+                  (NP (JJ other) (JJ inflammatory) (NNS arthritides))))))
+          (CONJP (CC but)
+            (RB not))
+          (PP (IN in)
+            (NP (JJ normal) (JJ synovial) (NN tissue) (NNP -LSB-) (CD 21) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNS Workers))
+        (PP (IN in)
+          (NP (PRP$ our) (NN laboratory))))
+      (VP (VBP have)
+        (ADVP (RB previously))
+        (VP (VBN shown)
+          (SBAR (IN that)
+            (S
+              (NP (NNP RA) (NNP SF))
+              (VP (VBZ is)
+                (VP (VBN enriched)
+                  (PP (IN in)
+                    (NP (JJ CD11c) (JJ +) (NNS CD33brightCD14))))))))))
+    (: -)
+    (S
+      (NP
+        (NP (JJ myeloid) (NN DCs))
+        (PP (IN with)
+          (NP (JJ efficient) (NNP APC))))
+      (VP (VBP function)
+        (NP
+          (QP (CD -LSB-) (CD 25,40))
+          (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (FRAG
+        (NP (RB freshly) (JJ isolated))))
+    (, ,)
+    (NP
+      (NP (RB only) (DT a) (JJ small) (NN proportion))
+      (PP (IN of)
+        (NP
+          (NP (NNP SF) (NNP CD33brightCD14))
+          (: -)
+          (NP (NNP DCs)))))
+    (VP (VBP have)
+      (VP (VBN translocated)
+        (NP (NNP RelB))
+        (PP (TO to)
+          (NP (DT the) (NN nucleus)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP RA))
+      (CC and)
+      (NP (JJ normal) (NNP PB) (NN mononuclear) (NNS cells)))
+    (VP (VBP contain)
+      (NP
+        (NP
+          (NP (JJ similar) (NNS proportions))
+          (PP (IN of)
+            (NP (NNS CD33brightCD14))))
+        (: -)
+        (NP
+          (NP (NNP DCs) (NNP -LSB-))
+          (NP (CD 25) (NNS -RSB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB examine)
+          (NP
+            (ADJP (JJ plasmacytoid)
+              (CC and)
+              (JJ myeloid))
+            (NN DCs))
+          (PP (IN in)
+            (NP (NN parallel))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBD compared)
+      (NP (NNP RA) (NNP SF))
+      (PP (IN with)
+        (NP
+          (ADJP (JJ RA)
+            (CC and)
+            (JJ healthy))
+          (, ,) (NN control) (NN PB)))
+      (PP (IN for)
+        (NP
+          (NP
+            (NP (DT the) (NN proportion))
+            (PP (IN of)
+              (NP (NNP CD123) (NNP +))))
+          (CC and)
+          (NP
+            (NP (NNP CD11c) (NNP +) (NNP HLA-DR) (NNP +) (NNP CD14))
+            (: -)
+            (NP (NNP DCs))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (NN purification))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NN mononuclear) (NNS cells))
+              (PP (IN from)
+                (NP
+                  (NP (RB either) (JJ normal))
+                  (CC or)
+                  (NP (NNP RA) (NNP PB)))))
+            (CC or)
+            (NP
+              (NP (NNP RA) (NNP SF))
+              (PP (IN by)
+                (NP (JJ gradient) (NN centrifugation))))))))
+    (, ,)
+    (NP (NNS cells))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP (IN with)
+          (NP (NNP CD123-PE) (, ,) (NNS CD11c-FITC) (, ,) (NNS CD14-PECy5) (, ,)
+            (CC and)
+            (NNS HLA-DR-APC)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Polymorphonuclear) (NNS cells))
+    (VP (VBD were)
+      (VP (VBN excluded)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN basis))
+            (PP (IN of)
+              (NP (JJ forward)
+                (CC and)
+                (JJ side) (NN light-scatter)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP (NNS basophils)
+          (CC and)
+          (NNS monocytes))
+        (VP (MD can)
+          (ADVP (RB also))
+          (VP (VB express)
+            (NP (NNP CD123))))))
+    (, ,)
+    (NP (JJ potential) (NNP CD123) (NNP +) (NNS non-DCs))
+    (VP (VBD were)
+      (VP (VBN excluded)
+        (PP (IN by)
+          (S
+            (VP (VBG gating)
+              (S
+                (NP (NNP CD14-HLA-DR) (NNP +) (NNS cells))
+                (VP (VBG -LSB-)
+                  (NP (CD 10) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (JJ four-color) (NN analysis)))
+    (, ,)
+    (NP (NNP CD14-HLA-DR) (NNP +) (NNP CD123) (NNP +)
+      (CC and)
+      (NNP CD11c) (NNP +) (NNP DC) (NNP populations))
+    (VP (MD could)
+      (VP (VB be)
+        (ADJP (JJ distinguished))
+        (PRN (-LRB- -LRB-)
+          (ADJP
+            (QP (CD Fig.) (CD 3)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS percentages))
+      (PP (IN of)
+        (NP
+          (NP (NNP CD123) (NNP +) (NNP CD11c))
+          (: -)
+          (NP
+            (NP (NNS pDCs))
+            (PP (IN in)
+              (NP
+                (NP (NNP RA) (NNP PB))
+                (CC and)
+                (NP (JJ normal) (NN PB))))))))
+    (VP
+      (VP (VBD were)
+        (ADJP (JJ low)))
+      (CC and)
+      (VP (VBD did) (RB not)
+        (VP (VB differ)
+          (PP (IN from)
+            (NP (DT each) (JJ other))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN observation))
+    (VP (VBZ contrasts)
+      (PP (IN with)
+        (NP
+          (NP (DT the) (NN reduction))
+          (PP (IN in)
+            (NP
+              (NP (NNS pDCs))
+              (VP (VBN observed)
+                (PP (IN in)
+                  (NP (NN blood)))
+                (PP (IN from)
+                  (S
+                    (NP
+                      (NP (NNS patients))
+                      (PP (IN with)
+                        (NP (JJ systemic) (NNS lupus) (NNS erythematosus))))
+                    (VP (VBG -LSB-)
+                      (NP (CD 41) (NNS -RSB-)))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP CD11c) (NNP +) (NNP CD123))
+    (: -)
+    (S
+      (NP (NNP myeloid) (NNP DCs))
+      (VP (VBD were)
+        (ADJP
+          (ADJP (RBR more) (JJ common)
+            (PP (IN than)
+              (NP
+                (NP (NNP CD123) (NNP +) (NNP DCs))
+                (PP (IN in)
+                  (NP (NN patient)
+                    (CC and)
+                    (NN control) (NN blood))))))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP P)
+              (QP (CD <) (CD 0.005)))
+            (-RRB- -RRB-)))
+        (, ,)
+        (PP (IN in)
+          (S
+            (VP (VBG keeping)
+              (PP (IN with)
+                (NP
+                  (NP (JJ previous) (NNS studies))
+                  (PP (IN of)
+                    (NP (JJ normal) (NNP PB) (NNP -LSB-) (CD 1) (NNS -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP RA) (NNP SF))
+    (VP (VBD contained)
+      (NP
+        (NP (DT a)
+          (ADJP (RB significantly) (JJR greater))
+          (NN percentage))
+        (PP (IN of)
+          (NP (NNP CD11c) (NNP +) (NNP DCs))))
+      (PP (IN than)
+        (NP
+          (NP (JJ normal))
+          (CC or)
+          (NP
+            (NP (NNP RA) (NNP PB))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP P)
+                (QP (CD <) (CD 0.005)))
+              (-RRB- -RRB-)))))
+      (: --)
+      (PP (IN in)
+        (S
+          (NP
+            (NP (NN accord))
+            (PP (IN with)
+              (NP (JJ previous) (NNS studies))))
+          (VP (VBG using)
+            (NP (DT the) (NNS markers) (NN CD33)
+              (CC and)
+              (NNP CD14) (NNP -LSB-) (CD 40) (NN -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN proportion))
+      (PP (IN of)
+        (NP
+          (NP (NNP CD11c) (NNP +) (NNP DCs))
+          (PP (IN in)
+            (NP (NNP RA) (NNP SF))))))
+    (VP (VBD was)
+      (ADJP (JJR higher))
+      (PP (IN than)
+        (NP
+          (NP (DT that))
+          (PP (IN of)
+            (NP
+              (NP (NNP RA) (NNP SF) (NNP CD123) (NNP +) (NNP DCs))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP P) (NNP <) (NNP 0.05))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (DT the) (NN difference))
+        (VP (VBD was)
+          (ADJP (JJ small)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN percentage))
+      (PP (IN of)
+        (NP
+          (NP (NNP CD123) (NNP +) (NNP DCs))
+          (PP (IN in)
+            (NP (NNP RA) (NNP SF))))))
+    (VP
+      (VP (VBD was)
+        (ADVP (JJR higher) (IN than))
+        (PP (IN in)
+          (NP (NNP RA))))
+      (CC or)
+      (VP (VBP control)
+        (NP
+          (NP (NNP PB))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP P) (NNP <) (NNP 0.05))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS data))
+    (VP (VBP show)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (NNP CD123) (NNP +) (NNP DCs))
+            (VP (VBP are)
+              (ADJP (JJ present)
+                (PP (IN in)
+                  (NP (NNP RA) (NNP SF)))))))
+        (, ,)
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT the) (NN ratio))
+              (PP (IN of)
+                (NP
+                  (NP (NNP CD11c) (NNP +))
+                  (PP (TO to)
+                    (NP (NNP CD123) (NNP +) (NNP DCs))))))
+            (VP (VBZ is)
+              (ADJP (JJ similar)
+                (PP (IN in)
+                  (NP (NNP RA) (NNP SF))))
+              (PP (TO to)
+                (NP
+                  (NP (DT that))
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ normal))
+                      (CC or)
+                      (NP
+                        (NP (NNP RA) (NNP PB))
+                        (PRN (-LRB- -LRB-)
+                          (NP
+                            (QP (RB approximately) (CD 10:1)))
+                          (-RRB- -RRB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP RA) (JJ synovial) (NN tissue)))
+    (, ,)
+    (NP
+      (NP (JJ mature) (JJ myeloid) (JJ nuclear) (NNP RelB) (NNS +))
+      (CC and)
+      (NP (NNP CD123) (NNP +) (NNP DCs)))
+    (VP (VBP have)
+      (VP (VBN infiltrated)
+        (NP
+          (NP (JJ perivascular) (JJ lymphoid) (NNS aggregates))
+          (PP (IN in)
+            (NP (JJ similar) (NNS numbers))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Previously))
+    (, ,)
+    (NP
+      (NP (JJ similar) (NNS numbers))
+      (PP (IN of)
+        (NP
+          (ADJP (JJ immature)
+            (CC and)
+            (JJ mature))
+          (JJ myeloid) (NN DCs))))
+    (VP (VBD were)
+      (VP (VBN identified)
+        (PP (IN in)
+          (NP (NNP RA) (JJ synovial) (NN tissue)))
+        (S
+          (VP (VBG -LSB-)
+            (NP (CD 42) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (NNS pDCs))
+    (VP (VBP make)
+      (PRT (RP up))
+      (NP
+        (NP
+          (QP (RB about) (CD 30))
+          (NN %))
+        (PP (IN of)
+          (NP (NNP DCs))))
+      (PP (IN within)
+        (NP (NNP RA) (JJ synovial) (NN tissue))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP
+          (ADJP (JJ present))
+          (CC and)
+          (ADJP (RB previously) (VBN published)))
+        (NNS data))
+      (, ,)
+      (VP (VBN taken)
+        (ADVP (RB together)))
+      (, ,))
+    (VP (VBP show)
+      (SBAR (IN that)
+        (S
+          (NP (DT both)
+            (ADJP (JJ pDCs)
+              (CC and)
+              (JJ myeloid))
+            (NN DCs))
+          (VP (VBP are)
+            (VP (VBN recruited)
+              (PP (TO to)
+                (NP (NNP RA) (NNP synovium)))
+              (, ,)
+              (PP (IN with)
+                (NP
+                  (NP (DT an) (NN enrichment))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS pDCs))
+                      (PP (IN in)
+                        (NP (JJ synovial) (NN tissue)))
+                      (ADVP (JJ relative)
+                        (PP (TO to)
+                          (NP (NN blood)
+                            (CC or)
+                            (NN SF)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ normal) (NNP PB)))
+    (, ,)
+    (NP (NNS pDCs))
+    (VP (VBP circulate)
+      (PP (IN as)
+        (NP
+          (NP (NNS precursors))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN potential))
+              (PP (IN for)
+                (NP (NN recruitment)))))))
+      (PP (IN into)
+        (NP
+          (NP (NNS tissues))
+          (PP (IN in)
+            (NP (NN response)))
+          (S
+            (VP (TO to)
+              (VP (VB chemokines)
+                (NP
+                  (QP (CD -LSB-) (CD 2,43))
+                  (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBZ precursors)
+      (S
+        (VP (VB exhibit)
+          (NP (DT a)
+            (ADJP (JJ characteristic) (JJ plasmacytoid))
+            (NN morphology))
+          (PP (IN on)
+            (NP (NN electron) (NN microscopy)))
+          (, ,)
+          (NP
+            (NP (DT a) (JJ cell-surface) (NN phenotype))
+            (VP (VBN characterized)
+              (PP
+                (PP (IN by)
+                  (NP
+                    (NP (NN expression))
+                    (PP (IN of)
+                      (NP (DT the) (NNP BDCA2) (NN antigen)))))
+                (, ,)
+                (PP (IN by)
+                  (NP
+                    (NP (JJ low) (NNS levels))
+                    (PP (IN of)
+                      (NP (JJ costimulatory) (NN molecule) (NN expression)))))
+                (, ,)
+                (CC and)
+                (PP (IN by)
+                  (NP
+                    (NP (DT the) (NN potential))
+                    (PP (IN for)
+                      (NP
+                        (NP (JJ IFN-α) (NN production))
+                        (PP (IN in)
+                          (NP (NN response)))))))
+                (PP (TO to)
+                  (NP (JJ viral)
+                    (CC or)
+                    (JJ immunostimulatory) (NN CpG) (NN DNA) (NNS motifs)))))))
+        (NP
+          (QP (CD -LSB-) (CD 1))
+          (NNS -RSB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB therefore))
+    (VP
+      (VP (VBD analyzed)
+        (NP
+          (NP (DT the) (NNS characteristics))
+          (PP (IN of)
+            (NP (NNP sorted) (NNP RA) (NNP SF) (NNP CD123) (NNP +) (NNP DCs)))))
+      (CC and)
+      (VP (VBD compared)
+        (NP (PRP them))
+        (PP (IN with)
+          (NP (NN control) (NNP PB) (NNP CD123) (NNP +) (NNP DCs)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (JJ electron) (JJ microscopic) (NN examination)))
+    (, ,)
+    (NP (RB freshly)
+      (NP (NNP sorted) (NNP PB))
+      (CC and)
+      (NP (NNP SF) (NNP CD123) (NNP +) (NNP DCs)))
+    (VP (VBD appeared)
+      (ADJP (JJ similar))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJ smooth) (NN surface))
+          (CC and)
+          (NP (JJ abundant) (JJ rough) (JJ endoplasmic) (NN reticulum))))
+      (PP (IN in)
+        (NP (DT the) (NN cytoplasm))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN nucleus))
+    (VP
+      (VP (VBD was)
+        (ADJP (JJ nonlobulated)
+          (CC and)
+          (JJ abundant))
+        (PP (IN in)
+          (NP (NN euchromatin))))
+      (CC and)
+      (VP (VBD contained)
+        (NP
+          (NP (DT a) (JJ distinct) (NNS nucleolus))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (QP (CD Fig.) (CD 4)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD11c) (NNP +) (NNP PB) (NNP DCs))
+    (VP (VBD were)
+      (ADJP (RB morphologically) (JJ distinct)
+        (PP (IN from)
+          (NP (DT the) (JJ CD123) (CD +) (NNS pDCs))))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJ lobulated) (NN nucleus))
+          (CC and)
+          (NP (DT some) (JJ phagocytic) (NNS vesicles)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP CD11c) (NNP +) (NNP DCs))
+      (PP (IN from)
+        (NP (NNP SF))))
+    (VP (VBD showed)
+      (NP
+        (NP
+          (ADJP (RBR more) (JJ membrane))
+          (ADJP (JJ ruffling)
+            (CC and)
+            (JJ phagocytic))
+          (NN activity))
+        (PP (IN than)
+          (NP (DT those))))
+      (PP (IN from)
+        (NP
+          (NP (NNP PB))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (QP (CD Fig.) (CD 4)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (NNP SF) (NNP CD123) (NNP +) (NNP DCs))
+    (ADVP (RB morphologically))
+    (VP (VBP resemble)
+      (NP
+        (NP (NNP CD123) (NNP +) (NNP DCs))
+        (PP (IN in)
+          (NP (NNP PB))))
+      (, ,)
+      (SBAR (IN whereas)
+        (S
+          (NP (NNP CD11c) (NNP +) (NNP SF) (NNP DCs))
+          (VP (VBP display)
+            (NP
+              (NP (DT a) (JJR greater) (NN level))
+              (PP (IN of)
+                (NP
+                  (ADJP (JJ ruffling)
+                    (CC and)
+                    (JJ phagocytic))
+                  (NN activity)))
+              (, ,)
+              (VP
+                (ADJP (JJ consistent))
+                (PP (IN with)
+                  (NP
+                    (NP (PRP$ their) (JJ enhanced) (NN level))
+                    (PP (IN of)
+                      (NP (NN activation))))))
+              (, ,)
+              (PP (IN than)
+                (NP
+                  (NP (NNP CD11c) (NNP +))
+                  (VP (VBG circulating)
+                    (NP (NNS precursors))
+                    (S
+                      (VP (VBG -LSB-)
+                        (NP (CD 21) (NNS -RSB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (JJ four-color) (NN flow) (NN cytometric) (NN analysis)))
+    (, ,)
+    (NP (JJ gated) (NNP RA) (NNP SF) (NNP CD14-HLA-DR) (NNP +) (NNP CD123) (NNP +) (NNP DCs))
+    (VP (VBD expressed)
+      (NP
+        (NP (JJ low) (NNS levels))
+        (PP (IN of)
+          (NP (NNP CD40) (, ,) (NNP CD80) (, ,)
+            (CC and)
+            (NNP CD86)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (CC or)
+      (NP
+        (NP (DT the) (NN majority))
+        (PP (IN of)
+          (NP (NNP SF) (NNP CD123) (NNP +) (NNP DCs)))))
+    (VP (VBD expressed)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (JJ BDCA2) (NN marker))
+            (PP (IN of)
+              (NP (JJ immature) (NN pDC))))
+          (VP (VBZ precursors)
+            (NP
+              (QP (CD -LSB-) (CD 1))
+              (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (JJ cell-surface) (NN phenotype))
+    (ADVP (RB closely))
+    (VP (VBZ resembles)
+      (SBAR (IN that)
+        (S
+          (PP (IN of)
+            (NP (NN control)))
+          (NP (NNP PB) (NNP CD123) (NNP +) (NNP DC))
+          (VP (VBZ precursors) (, ,)
+            (SBAR (IN although)
+              (S
+                (NP (NNP BDCA2))
+                (VP (VBD was)
+                  (ADVP (RB consistently))
+                  (VP (VBN expressed)
+                    (PP (IN at)
+                      (NP (JJ high) (NNS levels)))
+                    (PP (RB only) (IN by)
+                      (NP
+                        (NP (DT a) (NN subset))
+                        (PP (IN of)
+                          (NP (NNP CD123) (NNP +) (NNP HLA-DR) (NNP +) (NNS cells)))))
+                    (PP (IN in)
+                      (NP
+                        (NP (NNP PB))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP Fig.) (CD 4b))
+                          (-RRB- -RRB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT No) (NNP PB)
+      (CC or)
+      (NNP SF) (NNS cells))
+    (VP (VBD expressed)
+      (NP
+        (NP (DT the) (NNP DC) (NN differentiation) (NN marker) (NN CD83))
+        (PRN (-LRB- -LRB-)
+          (NP
+            (NP (NNS data))
+            (VP (RB not) (VBN shown)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP (NNP SF) (NNP CD123) (NNP +))
+      (CC and)
+      (NP (NNP CD11c) (NNP +) (NNP DCs)))
+    (VP (VBD expressed)
+      (NP
+        (NP (JJR higher) (NNS levels))
+        (PP (IN of)
+          (NP (JJ cell-surface) (NN HLA-DR))))
+      (PP (IN than)
+        (NP
+          (NP (DT the) (JJ corresponding) (NNS cells))
+          (PP (IN in)
+            (NP (NNP PB)))))
+      (, ,)
+      (S
+        (VP (VBG suggesting)
+          (NP (DT some) (JJ cellular) (NN activation))
+          (PP (IN within)
+            (S
+              (NP (DT the) (NNP SF) (NN environment))
+              (VP (VBG -LSB-)
+                (NP (CD 5,10,44) (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Thus))
+    (NP (NNP CD123) (NNP +) (NNS pDCs))
+    (VP (VBP comprise)
+      (NP
+        (NP (DT a) (JJ small) (NN proportion))
+        (PP (IN of)
+          (NP (NNP RA) (NNP SF) (NN mononuclear) (NNS cells)))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP
+              (VP (VBP are)
+                (ADJP (RB predominantly) (JJ immature)))
+              (CC but)
+              (VP (VBP show)
+                (NP
+                  (NP (DT some) (NN evidence))
+                  (PP (IN of)
+                    (NP
+                      (NP (NN activation))
+                      (PP (IN in)
+                        (NP (NNP situ))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT These) (NNS observations))
+      (PP (VBG regarding)
+        (NP
+          (NP (NN phenotype))
+          (CC and)
+          (NP (NNP PB)
+            (CC and)
+            (NNP SF) (NNS numbers)))))
+    (VP (VBP are)
+      (ADJP (JJ consistent)
+        (PP (IN with)
+          (NP
+            (NP (NNS findings))
+            (PP (IN in)
+              (NP
+                (NP (CD two) (JJ recent) (NNS studies))
+                (VP (VBG -LSB-)
+                  (NP (CD 39,45) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB previously))
+      (VP (VBN shown)
+        (SBAR (IN that)
+          (S
+            (NP (RB freshly) (VBN isolated) (NNS CD33brightCD14-CD11c))
+            (VP (VBZ +)
+              (NP (NNP SF) (NNP DCs))
+              (X
+                (ADVP (RB efficiently)
+                  (S
+                    (VP (VB stimulate)
+                      (NP (JJ resting) (NNP T) (NNS cells))))))
+              (PP (IN in)
+                (NP
+                  (NP (JJ allogeneic) (VBN mixed) (NN lymphocyte) (NNS reactions))
+                  (VP (VBG -LSB-)
+                    (NP (CD 21) (NNS -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NN contrast))
+        (, ,)
+        (SBAR (IN whereas)
+          (S
+            (NP (RB freshly) (VBN isolated) (NNS CD11c))
+            (VP (VBD +)
+              (SBAR
+                (S
+                  (NP (NNP PB) (NNP DCs))
+                  (VP (VBP are)
+                    (NP
+                      (NP (JJ efficient) (NNS APCs))
+                      (PP (IN in)
+                        (NP (VBN mixed) (NN lymphocyte) (NNS reactions))))))))))))
+    (, ,)
+    (NP (NNP CD123) (NNP +) (NNP PB) (NNP DCs))
+    (ADVP (RB usually))
+    (VP (VBP require)
+      (NP
+        (NP (JJ prior) (NN activation))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN presence))
+            (PP (IN of)
+              (NP (NNP IL-3)
+                (CC and)
+                (NNP CD154))))))
+      (PP (IN for)
+        (NP
+          (NP (NN acquisition))
+          (PP (IN of)
+            (NP
+              (NP (NNP APC) (NN function))
+              (PP (IN in)
+                (NP (DT this) (NN assay))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB analyse)
+          (NP
+            (NP (DT the)
+              (ADJP (JJ functional))
+              (NN capability))
+            (PP (IN of)
+              (NP (NNP RA) (NNP SF) (NNP DCs)))))))
+    (, ,)
+    (NP
+      (NP (NNP CD11c) (NNP +))
+      (CC and)
+      (NP (NNP CD123) (NNP +) (NNP DCs)))
+    (VP (VBD were)
+      (VP
+        (VP (VBN sorted)
+          (PP (IN from)
+            (NP
+              (NP (DT either) (JJ normal) (NN PB))
+              (CC or)
+              (NP (NNP RA) (NNP SF)))))
+        (CC and)
+        (VP (VBN incubated)
+          (PP (IN with)
+            (NP (RB freshly) (VBN isolated) (JJ normal) (NNP allogeneic) (NNP PB) (NNP T) (NNS cells))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (ADVP (RB Freshly))
+    (VP (VBD isolated)
+      (NP
+        (NP (NNP PB) (NNP CD11c) (NNP +))
+        (CONJP (CC but)
+          (RB not))
+        (NP (NNP CD123) (NNP +) (NNP DCs)))
+      (ADVP (RB efficiently)
+        (S
+          (VP (VBN stimulated)))))
+    (NP
+      (NP (JJ allogeneic) (JJ T-cell) (NN proliferation))
+      (CC and)
+      (NP
+        (NP
+          (ADJP (JJ IFN-γ)
+            (CC and)
+            (JJ IL-10))
+          (NN production))
+        (PP (IN in)
+          (NP (VBN mixed) (NN lymphocyte) (NNS reactions)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Addition))
+      (PP (IN of)
+        (NP (NN IL-3))))
+    (VP (VBD made)
+      (NP (DT no) (NN difference))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ T-cell) (NN proliferation))
+          (PP (IN in)
+            (NP (NN response)))))
+      (PP (TO to)
+        (NP
+          (NP (NNP CD123) (NNP +) (NNP DCs))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNS data))
+              (VP (RB not) (VBN shown)))
+            (-RRB- -RRB-))))
+      (, ,)
+      (S
+        (VP (VBG suggesting)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (NN death))
+                (PP (IN of)
+                  (NP (DT the) (NNPS APCs))))
+              (VP (VBD was) (RB not)
+                (ADJP (JJ responsible))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP
+      (NP (DT both) (RB freshly) (VBN isolated) (JJ CD11c) (NN +))
+      (CC and)
+      (NP (NNP CD123) (NNP +) (NNP SF) (NNP DCs) (NNP efficiently)))
+    (VP
+      (VP (VBN stimulated)
+        (NP (NN proliferation)))
+      (CC and)
+      (VP
+        (NP
+          (ADJP (JJ IFN-γ)
+            (CC and)
+            (JJ IL-10))
+          (NN production))
+        (PP (IN by)
+          (NP
+            (NP (JJ resting) (JJ normal) (JJ allogeneic) (NNP T) (NNS cells))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (QP (CD Fig.) (CD 5)))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ recent) (NN study))
+    (VP (VBD demonstrated)
+      (NP
+        (NP (DT the) (NN capacity))
+        (PP (IN of)
+          (NP (NNP RA) (NNP SF))))
+      (S
+        (VP (TO to)
+          (VP (VB inhibit)
+            (NP (NN pDC) (NN differentiation))
+            (PP (IN in)
+              (NP (NNP vitro) (NNP -LSB-) (CD 39) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ current) (NNS studies))
+      (VP (VBP are)
+        (ADJP (JJ consistent))
+        (, ,)
+        (SBAR
+          (WHPP (IN in)
+            (WHNP (WDT that)))
+          (S
+            (NP (NNP SF) (NNS pDCs))
+            (VP
+              (VP (VBD showed)
+                (NP
+                  (NP (RB only) (DT some) (NN evidence))
+                  (PP (IN of)
+                    (NP (NN activation))))
+                (PP (IN in)
+                  (NP (NNP situ))))
+              (, ,)
+              (CC but)
+              (VP
+                (ADVP (RB once))
+                (VBD incubated)
+                (PP (IN in)
+                  (NP (JJ mixed) (NN lymphocyte) (NNS reactions)))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN absence))
+                    (PP (IN of)
+                      (NP (NNP SF)))))))))))
+    (NP (PRP they))
+    (VP (VBD displayed)
+      (NP (JJ enhanced) (NNP APC) (NN function))
+      (ADVP (JJ relative))
+      (PP (TO to)
+        (NP
+          (NP (DT that))
+          (PP (IN of)
+            (NP (NNP PB) (NNS pDCs))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Whereas)
+      (S
+        (NP
+          (NP (NN stimulation))
+          (PP (IN of)
+            (ADJP (JJ mixed))))
+        (VP (VBP lymphocyte)
+          (NP
+            (NP (NNS reactions))
+            (PP (DT either)
+              (PP (IN by)
+                (NP (JJ CD11c) (NNS +)))
+              (CC or)
+              (PP (IN by)
+                (NP
+                  (NP (NNP CD123) (NNP +) (NNP PB) (NNP DCs))
+                  (VP (VBN resulted)
+                    (PP (IN in)
+                      (NP (JJ little) (JJ TNF-α) (NN production)))))))))))
+    (, ,)
+    (NP
+      (NP (NN stimulation))
+      (PP (IN by)
+        (NP
+          (NP (DT either))
+          (PP (IN of)
+            (NP
+              (NP (DT these) (NN DCs))
+              (PP (IN from)
+                (NP (NNP RA) (NNP SF))))))))
+    (VP (VBD resulted)
+      (PP (IN in)
+        (NP
+          (NP (JJ high) (NNS levels))
+          (PP (IN of)
+            (NP
+              (NP (JJ TNF-α) (NN secretion))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (QP (CD Fig.) (CD 5)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS data))
+    (VP (VBP indicate)
+      (SBAR (IN that)
+        (S
+          (NP (NNS pDCs))
+          (VP (VBP have)
+            (ADVP
+              (NP
+                (NP (DT the) (NN capacity))
+                (PP (IN for)
+                  (NP (JJ enhanced) (NNP APC) (NN function))))
+              (JJ relative)
+              (PP (TO to)
+                (NP (NNP PB) (NNS pDCs))))
+            (VP
+              (ADVP (RB once))
+              (VBN removed)
+              (PP (IN from)
+                (NP (DT the) (NNP RA) (NNP SF) (NN environment))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Furthermore))
+    (, ,)
+    (S
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN time))
+          (PP (IN of)
+            (NP
+              (NP (NN antigen) (NN presentation))
+              (PP (IN by)
+                (NP
+                  (NP (NNP SF) (NNP DCs))
+                  (PP (TO to)
+                    (NP (NNP T) (NNS cells)))))))))
+      (, ,)
+      (NP
+        (NP (NN production))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (NN number))
+            (PP (IN of)
+              (NP
+                (NP (NNS cytokines))
+                (PP (IN by)
+                  (NP (DT either) (NNP T) (NNS cells)
+                    (CC or)
+                    (NNS DCs))))))))
+      (VP (MD may)
+        (VP (VB be)
+          (VP (VBN stimulated) (, ,)
+            (PP (VBG including)
+              (NP (NNP TNF-α)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT this))
+      (VP (VBZ appears)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP
+                  (NP (DT a) (NN characteristic))
+                  (PP (IN of)
+                    (NP (NNP RA) (NNP synovial) (NNP DCs))))
+                (CONJP (RB rather) (IN than))
+                (NP
+                  (NP (DT the) (NN subtype))
+                  (PP (IN of)
+                    (S
+                      (VP (VBG stimulating)
+                        (NP (NNP DCs))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Discussion) (NNP Ongoing) (NNP inflammation))
+      (PP (IN in)
+        (NP (NNP RA))))
+    (VP (VBZ involves)
+      (NP
+        (NP (JJ positive) (NN feedback) (NNS loops))
+        (PP (IN between)
+          (NP
+            (NP (NNP activated) (NNP T) (NNS cells))
+            (, ,)
+            (NP (NNP B) (NNS cells))
+            (, ,)
+            (NP (NNP DCs))
+            (, ,)
+            (NP (NNS macrophages))
+            (, ,)
+            (CC and)
+            (NP (PRP$ their) (NNS products)))))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (JJ destructive) (NNS consequences))
+          (PP (IN for)
+            (NP (JJ parenchymal) (NNS cells))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN Clinical)
+      (CC and)
+      (NN animal) (NNS data))
+    (VP (VBP indicate)
+      (SBAR (IN that)
+        (S
+          (NP (JJ effector-site) (NN DCs))
+          (VP
+            (VP (VB play)
+              (NP (DT an) (JJ important) (NN proinflammatory) (NN role))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN perpetuation))
+                  (PP (IN of)
+                    (NP (JJ autoimmune) (NN disease))))))
+            (CC and)
+            (VP (VB contribute)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (JJ lymph-node-like) (NN organization))
+                  (PP (IN of)
+                    (NP (DT that) (NN tissue) (NN -LSB-))))))
+            (NP (CD 22,46) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT This) (NN role))
+      (VP (MD may)
+        (VP (VB be)
+          (VP (VBN effected)
+            (PP (IN by)
+              (NP (JJ local) (NN antigen) (NN presentation)))
+            (PP (TO to)
+              (NP (NNP CD4) (NNP +)
+                (CC and)
+                (NNP CD8) (JJ +) (NN effector) (NNS cells)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNP DC) (NN cytokine)
+        (CC and)
+        (NN chemokine) (NNS secretion))
+      (VP (VBP are)
+        (ADVP (RB also))
+        (ADJP (JJ important)
+          (NP
+            (QP (CD -LSB-) (CD 47,48))
+            (NNS -RSB-)))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (ADJP (JJ TNF-α)
+      (CC and)
+      (JJ IL-1β))
+    (VP (VBP are)
+      (ADJP (JJ important)))
+    (NP
+      (NP (JJ downstream)
+        (ADJP (JJ proinflammatory)
+          (CC and)
+          (JJ destructive))
+        (NNS cytokines))
+      (PP (IN in)
+        (NP
+          (NP (NNP RA))
+          (PP (IN for)
+            (NP
+              (NP (JJ somatic) (NNS cells))
+              (, ,)
+              (SBAR
+                (WHNP (WP$ whose) (NNS release))
+                (S
+                  (VP (VBZ is)
+                    (VP (VBN promoted)
+                      (PP (IN by)
+                        (NP
+                          (NP (NN activation))
+                          (PP (IN of)
+                            (NP (NNS macrophages))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP IL-10))
+      (VP (VBZ is)
+        (ADVP (RB highly))
+        (VP (VBN expressed)
+          (PP (IN in)
+            (NP (NNP RA))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP IFN-γ))
+      (VP (VBZ is)
+        (NP
+          (NP (DT an) (JJ important) (JJ T-cell) (NN effector) (NN cytokine))
+          (VP (VBG -LSB-)
+            (NP (CD 49,50) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ current) (NNS studies)))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP show)
+      (SBAR (IN that)
+        (S
+          (PRN (, ,)
+            (PP (IN in)
+              (NP
+                (NP (NN addition))
+                (PP (TO to)
+                  (NP
+                    (NP (DT the)
+                      (ADJP (RB previously) (JJ described))
+                      (NN population))
+                    (PP (IN of)
+                      (NP (JJ nuclear) (NNP RelB) (NNP +) (NNP DCs)))))))
+            (, ,))
+          (NP
+            (NP (DT a) (JJ further) (NN population))
+            (PP (IN of)
+              (NP (JJ nuclear) (NN RelB-CD123) (NN +) (NNS pDCs))))
+          (VP (VBZ is)
+            (VP (VBN located)
+              (PP (IN in)
+                (NP
+                  (NP
+                    (NP (NN perivascular) (NNS regions))
+                    (PP (IN of)
+                      (NP (NNP RA))))
+                  (CONJP (CC but)
+                    (RB not))
+                  (NP (JJ normal) (JJ synovial) (NN tissue) (NN sublining)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Moreover))
+    (, ,)
+    (S
+      (NP (NNS pDCs))
+      (VP (VBD were)
+        (VP (VBN located)
+          (PP (IN within)
+            (NP (NN blood) (NNS vessels))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT both) (NNP DC) (NNS populations))
+      (VP (VBD were)
+        (VP (VBN observed)
+          (PP (IN in)
+            (NP
+              (NP (NN perivascular) (NNS areas))
+              (SBAR
+                (WHPP (IN in)
+                  (WHNP (WDT which) (NNS cells)))
+                (S
+                  (NP (VBG producing) (NNS TNF-α))
+                  (VP (VBD were)
+                    (VP (VBN colocated)
+                      (S
+                        (VP (VBG -LSB-)
+                          (NP (CD 35) (NNS -RSB-)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Adherence))
+      (PP (IN of)
+        (NP
+          (NP (NNP CD123) (NNP +))
+          (CC and)
+          (NP
+            (NP (NNP CD11c) (NNP +) (NNP DCs))
+            (PP (TO to)
+              (NP (JJ TNF-α-activated) (NN endothelium)))))))
+    (VP (VBD was)
+      (ADVP (JJR higher) (IN than))
+      (PP (TO to)
+        (NP
+          (NP (JJ resting) (NN endothelium))
+          (PP (IN in)
+            (NP (NNP vitro)))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNS data))
+              (VP (RB not) (VBN shown)))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP TNF-α))
+    (VP (VBZ plays)
+      (NP (DT an) (JJ important) (NN role))
+      (PP (IN in)
+        (S
+          (NP
+            (NP (DT the) (NN recruitment))
+            (PP (IN of)
+              (NP
+                (NP (JJ other) (NNS leukocytes))
+                (PP (TO to)
+                  (NP (NNP RA) (JJ synovial) (NN tissue))))))
+          (VP (VBG -LSB-)
+            (NP
+              (NP
+                (NP
+                  (QP (CD 29) (CD -RSB-)))
+                (, ,)
+                (CC and)
+                (NP
+                  (NP (DT this)
+                    (ADJP (RBS most) (JJ likely))
+                    (NNS pertains))
+                  (PP (TO to)
+                    (NP
+                      (NP (DT the) (NN recruitment))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNS pDCs))
+                          (PP (TO to)
+                            (NP (NNP RA)))))))))
+              (CONJP (CC but)
+                (RB not))
+              (NP (JJ normal) (JJ synovial) (NN tissue)))
+            (PP (IN through)
+              (NP
+                (NP (NN expression))
+                (PP (IN of)
+                  (NP
+                    (NP (NN adhesion) (NNS molecules))
+                    (PP (JJ such) (IN as)
+                      (NP
+                        (NP
+                          (NP (NN intercellular) (NN adhesion) (NN molecule))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP ICAM))
+                            (-RRB- -RRB-))
+                          (NP (CD -1) (, ,) (NN CD62-E) (, ,)
+                            (CC and)
+                            (NN CD62-P)))
+                        (CC and)
+                        (NP
+                          (NP (NN interaction))
+                          (PP (IN with)
+                            (NP (PRP$ their) (NNS ligands))))))))))
+            (PP (IN on)
+              (NP
+                (NP (NNS pDCs))
+                (VP (VBG -LSB-)
+                  (NP (CD 9,11,51-54) (NNS -RSB-)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Furthermore))
+    (, ,)
+    (NP
+      (NP (JJ TNF-α) (JJ up-regulates) (NN synthesis))
+      (PP (IN of)
+        (NP
+          (NP (NNS chemokines))
+          (PP (IN by)
+            (NP (JJ endothelial) (NNS cells))))))
+    (VP (VBZ -LSB-)
+      (NP (CD 55) (NNS -RSB-)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN During)
+      (NP (CD experimentally) (JJ elicited) (JJ allergic) (NNS rhinitis)))
+    (, ,)
+    (NP (NNP CD123) (NNPS +) (NNP HLA-DR) (NNP +) (NNS pDCs))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBN shown)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (VP (VBN recruited)
+                  (PP (TO to)
+                    (NP (JJ human) (JJ nasal) (NN mucosa) (NNP -LSB-) (NNP 11) (NNP -RSB-))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN gene))
+    (VP
+      (VP
+        (PP (IN for)
+          (NP (NNP MxA)))
+        (VBZ is)
+        (ADVP (RB specifically))
+        (VP (VBN induced)
+          (PP (IN by)
+            (NP (NNP IFN-α)))))
+      (CC and)
+      (VP
+        (ADVP (RB therefore))
+        (VBZ identifies)
+        (NP
+          (NP (DT a) (NN population))
+          (PP (IN of)
+            (NP (VBN activated) (NNS pDCs))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN contrast)))
+    (, ,)
+    (NP (NNP BDCA2))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN marker))
+        (PP (IN of)
+          (NP (JJ immature) (NNS pDCs)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MxA) (NNP +) (NNS pDCs))
+    (VP (VBP have)
+      (ADVP (RB previously))
+      (VP (VBN been)
+        (VP (VBN demonstrated)
+          (PP (IN in)
+            (NP
+              (ADJP (VBN involved))
+              (NNS lupus) (NN skin)
+              (CC and)
+              (JJ inflamed) (NN tonsil)))
+          (S
+            (VP (VBG -LSB-)
+              (NP (CD 13) (NNS -RSB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP RA) (JJ synovial) (NN tissue)))
+    (, ,)
+    (NP (NNP BDCA2))
+    (VP (VBD was)
+      (VP (VBN shown)
+        (S
+          (VP (TO to)
+            (VP (VB stain)
+              (NP (JJR fewer) (NNS cells))
+              (PP (IN than)
+                (NP (NNP CD123)
+                  (CC or)
+                  (NNP MxA)))
+              (, ,)
+              (S
+                (VP (VBG suggesting)
+                  (NP (NN differentiation))
+                  (PP (IN in)
+                    (NP
+                      (NP (NNP situ))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT a) (JJ large) (NN proportion))
+                          (PP (IN of)
+                            (NP (NNS pDCs)))))))
+                  (PP (IN into)
+                    (NP
+                      (NP (NNS cells))
+                      (PP (IN with)
+                        (NP
+                          (NP (DT a) (NN capacity))
+                          (PP (IN for)
+                            (NP
+                              (NP (NN production))
+                              (PP (IN of)
+                                (NP (JJ IFN-α)
+                                  (CC and)
+                                  (JJ other) (NNS cytokines))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Together))
+    (, ,)
+    (NP (DT the) (JJ current)
+      (CC and)
+      (JJ previous) (NNS studies))
+    (VP (VBP demonstrate)
+      (NP
+        (NP (NN recruitment))
+        (PP (IN of)
+          (NP (NNS pDCs))))
+      (PP
+        (PP (TO to)
+          (NP
+            (NP (JJ normal) (JJ lymphoid) (NNS organs))
+            (CONJP (RB as) (RB well) (IN as))
+            (NP (JJ inflammatory) (NNS sites))))
+        (, ,)
+        (PP (IN with)
+          (NP (JJ local) (NN differentiation)))
+        (, ,)
+        (CC but)
+        (PP
+          (NP
+            (NP (DT no) (NN recruitment))
+            (PP (TO to)
+              (NP (JJ normal) (JJ peripheral) (NNS tissues)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (NN contrast)))
+      (, ,)
+      (NP (NNP CD11c) (NNP +))
+      (VP (VBD myeloid)
+        (S
+          (NP (NNS precursors))
+          (VP (VB populate)
+            (NP (JJ normal) (JJ resting) (NNS tissues))))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (VP (VBN shown)
+              (ADVP (RB here)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (JJ additional) (JJ CD11c) (NNS +))
+      (VP (VBD myeloid)
+        (SBAR
+          (S
+            (NP (JJ cellular) (NN recruitment))
+            (VP (VBZ takes)
+              (NP (NN place))
+              (PP (IN at)
+                (NP
+                  (NP (JJ inflammatory) (NNS sites))
+                  (, ,)
+                  (SBAR
+                    (WHADVP (WRB where))
+                    (S
+                      (NP (NNP RelB) (JJ nuclear) (NN translocation))
+                      (VP (VBZ takes)
+                        (VP (VB place)
+                          (NP
+                            (QP (CD -LSB-) (CD 21,56))
+                            (NNS -RSB-)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB previously))
+      (VP (VBN shown)
+        (SBAR (IN that)
+          (S
+            (PRN (, ,)
+              (PP (IN like)
+                (NP (JJ synovial) (NNS pDCs)))
+              (, ,))
+            (NP
+              (NP (NNP CD123) (NNP +) (NNP DCs))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (JJ T-cell) (NN area))
+                  (PP (IN of)
+                    (NP (JJ human) (NN tonsil))))))
+            (VP (VBP are)
+              (ADVP (RB also))
+              (NP
+                (NP (JJ nuclear) (NN RelB))
+                (: -)
+                (NP
+                  (QP (CD -LSB-) (CD 23))
+                  (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS data))
+    (VP (VBP suggest)
+      (ADVP (RB either))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN activation))
+              (PP (IN of)
+                (NP (NNS pDCs))))
+            (VP (VBZ is) (RB not)
+              (VP (VBN associated)
+                (PP (IN with)
+                  (NP
+                    (NP (JJ nuclear) (NN translocation)
+                      (CC and)
+                      (NN transcriptional) (NN activity))
+                    (PP (IN of)
+                      (NP (NNP RelB)))))))))
+        (CC or)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NNS conditions))
+              (PP (IN in)
+                (NP (NN tonsil)
+                  (CC and)
+                  (NN synovium))))
+            (VP (VBP do) (RB not)
+              (VP (VB induce)
+                (NP
+                  (NP (JJ sufficient) (NN RelB) (NN translocation))
+                  (PP (IN for)
+                    (NP (NN detection))))
+                (PP (IN by)
+                  (S
+                    (ADVP (RB immunohistochemistry))
+                    (VP (VBG -LSB-)
+                      (NP (CD 26,57) (NNS -RSB-)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP
+          (NP (JJ preliminary) (NNS studies))
+          (PP (IN in)
+            (NP
+              (NP
+                (ADJP (NN vitro) (NN demonstrate))
+                (NN induction))
+              (PP (IN of)
+                (NP
+                  (NP (NNP RelB))
+                  (PP (IN in)
+                    (NP (NNP PB))))))))
+        (VP
+          (VP (VBZ pDCs)
+            (PP (IN after)
+              (NP (NN stimulation)))
+            (PP (IN with)
+              (NP (NN lipopolysaccharide)
+                (CC and)
+                (NN CpG))))
+          (, ,)
+          (CC and)
+          (VP (VBD reduced)
+            (NP
+              (NP (NN production))
+              (PP (IN of)
+                (NP (NNP IFN-α))))
+            (PP (IN by)
+              (NP
+                (NP (NNS pDCs))
+                (PP (IN in)
+                  (NP (JJ RelB-deficient) (NNS mice)))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (JJ likely))
+      (SBAR (IN that)
+        (S
+          (NP (NNP RelB) (NNP activation))
+          (VP (VBZ does)
+            (VP (VB accompany)
+              (NP (NN pDC) (NN activation)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (S
+      (NP (NNP RelB) (NNP translocation))
+      (VP (MD might)
+        (VP (VB be)
+          (VP
+            (ADVP (RB quantitatively))
+            (VBN reduced)))))
+    (CC or)
+    (S
+      (NP (NNP RelB))
+      (VP (MD might)
+        (VP (VB be)
+          (VP
+            (ADVP (RBR more) (RB rapidly))
+            (VBN degraded)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN nucleus))
+                (PP (IN of)
+                  (NP (NNS pDCs)))))
+            (PP (IN than) (IN of)
+              (NP
+                (NP (JJ myeloid) (NN DCs))
+                (PP (IN in)
+                  (NP (JJ inflamed) (NNS tissues)))))
+            (S
+              (VP (VBG -LSB-)
+                (NP (CD 58) (NNS -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP
+        (NP (NN relevance))
+        (PP (TO to)
+          (NP (DT the) (NNP RA) (JJ inflammatory) (NN lesion)))))
+    (, ,)
+    (NP
+      (NP (NN stimulation))
+      (PP (IN of)
+        (NP
+          (NP (NN blood) (NN pDC) (NNS precursors))
+          (PP (IN with)
+            (NP
+              (NP (NNS signals))
+              (PP (VBG including)
+                (NP
+                  (NP (NNP CD154))
+                  (, ,)
+                  (NP (NN influenza) (NN virus))
+                  (, ,)
+                  (CC or)
+                  (NP (NNP CpG) (NNS oligonucleotides)))))))))
+    (VP (VBZ induces)
+      (NP
+        (NP
+          (NP (NN production))
+          (PP (IN of)
+            (NP
+              (NP (JJ large) (NNS amounts))
+              (PP (IN of)
+                (NP (NNS cytokines)))
+              (, ,)
+              (PP (VBG including)
+                (NP (NNP IFN-α) (, ,) (NNP IFN-β) (, ,)
+                  (CC and)
+                  (NNP TNF-α))))))
+        (: ;)
+        (NP
+          (NP (NN induction))
+          (PP (IN of)
+            (NP (NNP DC) (NN differentiation))))
+        (: ;)
+        (CC and)
+        (NP
+          (NP (NN stimulation))
+          (PP (IN of)
+            (NP (NNP APC) (NN function)))
+          (VP (VBG -LSB-)
+            (NP (CD 3,39,44,59) (NNS -RSB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP
+          (NP (JJ inhibitory) (NNS effects))
+          (PP (IN of)
+            (NP (NNP SF)
+              (UCP
+                (PP (IN on)
+                  (NP (NNP DC) (NN function)))
+                (, ,)
+                (CC and)
+                (RB thus)
+                (PP (IN on)
+                  (NP (JJ T-cell) (NN proliferation)
+                    (CC and)
+                    (NN cytokine))))
+              (NN production))))
+        (, ,)
+        (VP (VBP are)
+          (VP (VBN confirmed)
+            (ADVP (RB here)
+              (NP
+                (QP (CD -LSB-) (CD 21,39,60))
+                (NNS -RSB-)))))))
+    (, ,)
+    (NP
+      (NP (NNS factors))
+      (PP (IN in)
+        (NP (DT the) (NNP RA) (NNP SF) (NN environment)))
+      (, ,)
+      (PP (JJ such) (IN as)
+        (NP (NNP IL-3)
+          (CC and)
+          (NNP CD154)))
+      (, ,))
+    (VP (MD may)
+      (VP (VB be)
+        (ADJP (JJ sufficient)
+          (S
+            (VP (TO to)
+              (VP (VB precondition)
+                (NP (DT the) (NNP SF) (NNS pDCs))
+                (PP (IN for)
+                  (NP (JJ efficient) (NNP APC) (NN function) (FW ex) (NNP vivo) (NNP -LSB-) (CD 36,44)))
+                (ADVP (RB -RSB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP IFN-γ) (, ,) (NNP IL-10) (, ,)
+      (CC and)
+      (NNP TNF-α))
+    (VP (VBD were)
+      (VP (VBN produced)
+        (PP (IN in)
+          (NP
+            (NP (JJ mixed) (NN lymphocyte) (NNS reactions))
+            (VP (VBN stimulated)
+              (PP (IN by)
+                (NP
+                  (NP (NN myeloid)
+                    (CC or)
+                    (NNS pDCs))
+                  (VP (VBN derived)
+                    (PP
+                      (PP (IN from)
+                        (NP (NNP SF)
+                          (CONJP (CC but)
+                            (RB not))
+                          (NNP PB)))
+                      (, ,)
+                      (PP
+                        (ADVP (RB potentially))
+                        (IN by)
+                        (NP (NNP DCs)))
+                      (CC or)
+                      (PP (IN by)
+                        (NP
+                          (NP (NNP T) (NNS cells))
+                          (CC or)
+                          (NP (DT both)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN tissue)))
+    (, ,)
+    (PP (IN as)
+      (NP
+        (NP (DT a) (NN result))
+        (PP (IN of)
+          (NP
+            (NP (NN antigen) (NN presentation))
+            (PP (IN by)
+              (NP (JJ myeloid) (NNS DCs)
+                (CC or)
+                (NNS pDCs)))))))
+    (, ,)
+    (NP (JJ key) (NN effector) (NNS cytokines))
+    (VP (MD may)
+      (VP (VB be)
+        (VP (VBN produced)
+          (PP (IN in)
+            (NP (NN perivascular) (NNS areas)))
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (NNP RA))
+                (, ,)
+                (VP (VBN located)
+                  (ADVP (RB strategically) (RB close))
+                  (PP (TO to)
+                    (NP (JJ endothelial) (NNS cells))))
+                (, ,))
+              (CONJP (RB as) (RB well) (IN as))
+              (NP (JJ incoming) (NNS leukocytes)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is) (RB not)
+      (VP (VBN known)
+        (SBAR (IN whether)
+          (S
+            (NP (NNS pDCs))
+            (VP (VBP are)
+              (ADJP (JJ capable)))))
+        (, ,)
+        (PP (IN like)
+          (NP
+            (NP (JJ myeloid) (NN DCs))
+            (, ,)
+            (PP (IN of)
+              (NP
+                (NP (NN migration))
+                (PP (IN from)
+                  (NP
+                    (NP (JJ synovial) (NN tissue))
+                    (PP (TO to)
+                      (S
+                        (VP (VBG draining)
+                          (NP (NN lymph) (NNS nodes)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ seems)
+      (ADJP (JJ probable))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP
+              (NP (NNS pDCs))
+              (VP (VBN conditioned)
+                (PP (IN by)
+                  (NP (JJ local) (NN IL-3)
+                    (CC and)
+                    (NN CD154)))))
+            (, ,)
+            (CC or)
+            (NP
+              (NP (RB even) (JJ viral)
+                (CC or)
+                (JJ bacterial) (NNS products))
+              (VP (VBN transported)
+                (PP (TO to)
+                  (NP (DT the) (NN synovium)))))
+            (, ,))
+          (VP
+            (ADVP (RB predominantly))
+            (VBP play)
+            (NP (JJ local) (JJ proinflammatory)
+              (CC and)
+              (JJ antigen-presenting) (NNS roles))
+            (, ,)
+            (PP (IN through)
+              (NP
+                (NP (NN secretion))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS cytokines))
+                    (PP (JJ such) (IN as)
+                      (S
+                        (VP
+                          (VP (VBG IFN-α))
+                          (CC and)
+                          (VP
+                            (ADVP (RB possibly))
+                            (VBG TNF-α)
+                            (NP
+                              (QP (CD -LSB-) (CD 61,62))
+                              (NNS -RSB-))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN Conclusion) (NNS pDCs))
+    (VP (VBP are)
+      (VP (VBN recruited)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB RA)
+                (NP (JJ synovial) (NN tissue)))
+              (CC and)
+              (VP (VB comprise)
+                (S
+                  (NP (DT an) (NNP APC) (NN population))
+                  (ADJP (JJ distinct)
+                    (PP (IN from)
+                      (NP (DT the)
+                        (ADJP (RB previously) (VBN described))
+                        (JJ nuclear) (JJ RelB) (JJ +) (JJ synovial) (NN DCs)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP APC) (NN function))
+      (PP (IN of)
+        (NP (NNS pDCs))))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (JJR greater)
+          (PP (IN in)
+            (NP (NNP SF))))
+        (PP (IN than)
+          (PP (IN in)
+            (NP (NNP PB))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Activated) (NNS pDCs))
+      (CC and)
+      (NP (JJ interacting) (NNP T) (NNS cells)))
+    (VP (MD may)
+      (VP (VB contribute)
+        (ADVP (RB significantly))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ inflammatory) (NN environment))
+            (PP (IN in)
+              (NP (NNP RA)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Abbreviations) (NNP APC))
+      (SBAR
+        (S
+          (VP (SYM =)
+            (NP (JJ antigen-presenting) (NN cell))))))
+    (: ;)
+    (NP
+      (NP
+        (NP (NNP DC))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ dendritic) (NN cell))))))
+      (: ;)
+      (NP
+        (NP (NNP ELISA))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ enzyme-linked) (NN immunosorbent) (NN assay))))))
+      (: ;)
+      (NP
+        (NP (NNP FCS))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ fetal) (NN calf) (NN serum))))))
+      (: ;)
+      (NP
+        (NP (NNP FITC))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (NN fluorescein) (NN isothiocyanate))))))
+      (: ;)
+      (NP
+        (NP (NNP IFN))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (NN interferon))))))
+      (: ;)
+      (NP
+        (NP (NNP IL))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (NN interleukin))))))
+      (: ;)
+      (NP
+        (NP (NNP NK))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ natural) (NN killer))))))
+      (: ;)
+      (NP
+        (NP (NNP PB))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ peripheral) (NN blood))))))
+      (: ;)
+      (NP
+        (NP (NN pDC))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ plasmacytoid) (NNS DC))))))
+      (: ;)
+      (NP
+        (NP (NNP PE))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (NN phycoerythrin))))))
+      (: ;)
+      (NP
+        (NP (NNP RA))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ rheumatoid) (NN arthritis))))))
+      (: ;)
+      (NP
+        (NP (NNP SF))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (JJ synovial) (NN fluid))))))
+      (: ;)
+      (NP
+        (NP (NNP TNF))
+        (SBAR
+          (S
+            (VP (SYM =)
+              (NP (NN tumor) (NNS necrosis) (NN factor)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (JJ Competing) (NNS interests))
+        (NP (DT The) (NN author)))
+      (PRN (-LRB- -LRB-) (PRP s) (-RRB- -RRB-)))
+    (VP (VBP declare)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP have)
+            (NP (DT no) (VBG competing) (NNS interests))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Authors) (POS '))
+        (NNS contributions))
+      (VP (VBP LC)))
+    (, ,)
+    (NP (NNP RT) (, ,) (NNP LF) (, ,)
+      (CC and)
+      (NNP PP))
+    (VP
+      (VP (VBD conceived)
+        (NP
+          (NP (DT the) (NNS experiments))
+          (CC and)
+          (NP (NNP LC) (, ,) (NNP AB) (, ,) (NNP LS) (, ,) (NNP JP) (, ,))))
+      (CC and)
+      (VP
+        (ADVP (RB LF))
+        (VBD carried)
+        (NP (PRP them))
+        (PRT (RP out))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP LC) (, ,) (NNP RT) (, ,)
+      (CC and)
+      (NNP LF))
+    (VP (VBD wrote)
+      (NP (DT the) (NN manuscript)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Figure)
+        (CC and)
+        (NNP Table))
+      (VP (VBZ captions)
+        (NP (NNP Figure) (CD 1))))
+    (: :)
+    (S
+      (NP (NNP Nuclear) (NNP RelB-CD123) (NNP +))
+      (VP (VBD plasmacytoid)
+        (SBAR
+          (S
+            (NP
+              (NP (JJ dendritic) (NNS cells))
+              (PRN (-LRB- -LRB-)
+                (NP (NNS pDCs))
+                (-RRB- -RRB-)))
+            (VP (VBP are)
+              (VP
+                (VP (VBN located)
+                  (PP (IN in)
+                    (NP (JJ close) (NN association)))
+                  (PP (IN with)
+                    (NP
+                      (NP (NNS cells))
+                      (VP (VBG expressing)
+                        (NP
+                          (NP (NN tumor) (NN necrosis) (NN factor))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP TNF))
+                            (-RRB- -RRB-)))))))
+                (: -)
+                (VP (VBN α)
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ lymphoid) (NNS aggregates))
+                      (PP (IN of)
+                        (NP
+                          (NP (JJ rheumatoid) (NN arthritis))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP RA))
+                            (-RRB- -RRB-)))))))
+                (NP (JJ synovial) (NN tissue))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (NNS Sections))
+          (PP (IN of)
+            (NP
+              (NP
+                (ADJP (JJ frozen) (JJ normal))
+                (JJ human) (JJ synovial) (NN tissue))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (SYM a))
+                  (, ,)
+                  (NP (SYM b))
+                  (, ,)
+                  (NP (NNP e)))
+                (-RRB- -RRB-)))))
+        (CC or)
+        (NP
+          (NP (JJ synovial) (NN tissue))
+          (PP (IN from)
+            (NP
+              (NP
+                (NP (DT a) (NN patient))
+                (PP (IN with)
+                  (NP
+                    (NP
+                      (ADJP (JJ untreated) (JJ active))
+                      (NNP RA))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (SYM c))
+                        (, ,)
+                        (NP (SYM f))
+                        (, ,)
+                        (NP (NN g)))
+                      (-RRB- -RRB-)))))
+              (CC or)
+              (NP
+                (NP (JJ formalin-fixed) (NNS sections))
+                (PP (IN from)
+                  (NP
+                    (NP (DT a) (NN patient))
+                    (PP (IN with)
+                      (NP (JJ active) (NNP RA))))))))))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (SYM d))
+          (, ,)
+          (NP (NN h))
+          (, ,)
+          (NP (FW i)))
+        (-RRB- -RRB-)))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP (IN with)
+          (ADJP
+            (ADJP
+              (ADJP (JJ anti-CD11c))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (JJ brown))
+                  (, ,)
+                  (NP (SYM a))
+                  (, ,)
+                  (NP (SYM c)))
+                (-RRB- -RRB-)))
+            (, ,)
+            (ADJP
+              (ADJP (JJ anti-CD123))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (JJ brown))
+                  (, ,)
+                  (NP (SYM b))
+                  (, ,)
+                  (NP (SYM d)))
+                (-RRB- -RRB-)))
+            (, ,)
+            (CC or)
+            (ADJP
+              (ADJP (JJ anti-TNF-α))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (JJ brown))
+                  (, ,)
+                  (NP (NN g)))
+                (-RRB- -RRB-)))))
+        (S
+          (VP (VBG using)
+            (NP (DT an) (JJ immunoperoxidase) (NN technique))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (JJ double) (NN staining)))
+    (, ,)
+    (NP (NNS sections))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP
+          (PP (IN with)
+            (NP
+              (NP (NNP Ulex))
+              (PRN (-LRB- -LRB-)
+                (ADJP (JJ red))
+                (-RRB- -RRB-))
+              (CC and)
+              (NP (JJ anti-CD123))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (JJ brown))
+                  (, ,)
+                  (NP (NNP e))
+                  (, ,)
+                  (NP (SYM f))
+                  (, ,)
+                  (NP (NN g)))
+                (-RRB- -RRB-))))
+          (CC or)
+          (PP (IN with)
+            (NP
+              (NP (NNP RelB))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP purple))
+                (-RRB- -RRB-))
+              (CC and)
+              (NP (NNP CD123))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP brown))
+                (, ,)
+                (NP (NN h))
+                (, ,)
+                (NP (NNP i))
+                (-RRB- -RRB-)))))
+        (S
+          (VP (VBG using)
+            (NP (DT a)
+              (ADJP
+                (ADJP (JJ double))
+                (, ,)
+                (ADJP (JJ immunoperoxidase))
+                (: --))
+              (JJ immunoalkaline) (NN phosphatase) (NN technique))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT All) (NNS sections))
+    (VP (VBD were)
+      (VP (VBN counterstained)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (NN hematoxylin))
+              (PRN (-LRB- -LRB-)
+                (ADJP (JJ blue))
+                (-RRB- -RRB-)))
+            (PP (IN except)
+              (NP
+                (NP (NN h))
+                (CC and)
+                (NP (FW i))))
+            (, ,)
+            (SBAR
+              (WHPP (IN in)
+                (WHNP (WDT which)))
+              (S
+                (NP
+                  (NP (DT the) (NN nucleus))
+                  (PP (IN of)
+                    (NP (NNP CD123) (NNP +) (NNS cells))))
+                (VP (VBZ appears)
+                  (PP (IN as)
+                    (NP (DT a) (NN hole))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ thick) (NN arrow))
+      (PP (IN in)
+        (NP (NNP d))))
+    (VP (VBZ identifies)
+      (NP (DT a) (NN blood) (NN vessel)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Thin) (NNS arrows))
+    (VP (VBP denote)
+      (S
+        (NP (JJ representative) (NNP CD123) (NNP +) (NNP perivascular) (NNP DCs))
+        (NP
+          (NP
+            (LST (-LRB- -LRB-) (LS d) (-RRB- -RRB-))
+            (, ,)
+            (NP
+              (NP
+                (NP (JJ representative) (JJ double-stained) (NNS vessels))
+                (PRN (-LRB- -LRB-)
+                  (X (SYM e))
+                  (-RRB- -RRB-))
+                (, ,)
+                (NP
+                  (NP (DT a) (NNP CD123) (NNP +) (NN cell))
+                  (PP (IN within)
+                    (NP
+                      (NP (DT a) (NN blood) (NN vessel))
+                      (PRN (-LRB- -LRB-)
+                        (X (SYM f))
+                        (-RRB- -RRB-))))))
+              (, ,)
+              (CC and)
+              (NP
+                (NP (NNS nuclei))
+                (VP (VBN stained)
+                  (PP (IN by)
+                    (NP (NNP RelB)))))))
+          (PRN (-LRB- -LRB-)
+            (NP (NN h))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Data))
+    (VP (VBP are)
+      (NP
+        (NP (NN representative))
+        (PP (IN of)
+          (NP
+            (NP
+              (QP (IN at) (JJS least) (CD three))
+              (JJ separate) (NN RA) (NNS donors))
+            (PP (IN in)
+              (NP (JJ individual) (NNS experiments)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Scale) (NNS bars))
+    (VP (VBP represent)
+      (NP (CD 20) (NN μm)))
+    (. .)))
+
+(ROOT
+  (X
+    (NP (NN Figure) (CD 2))
+    (: :)
+    (S
+      (NP
+        (NP
+          (NP
+            (QP (CD CD123) (CD +))
+            (JJ dendritic) (NNS cells))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP DCs))
+            (-RRB- -RRB-)))
+        (CC and)
+        (NP (JJ CD11c) (JJ +) (NNS cells)))
+      (VP (VBP are)
+        (VP (VBN enriched)
+          (PP (IN in)
+            (NP
+              (NP
+                (NP (JJ rheumatoid) (NN arthritis))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP RA))
+                  (-RRB- -RRB-)))
+              (NP
+                (NP (JJ synovial) (NN tissue))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP ST))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CD123) (NNP +) (NNP DCs))
+    (VP (VBD were)
+      (VP (VBN quantitated)
+        (PP (IN by)
+          (S
+            (VP (VBG counting)
+              (NP
+                (NP (DT the) (NN number))
+                (PP (IN of)
+                  (NP
+                    (NP (NNP CD123) (NNP +) (NNP Ulex))
+                    (: -)
+                    (NP
+                      (NP (NNS cells))
+                      (PP (IN in)
+                        (NP
+                          (NP (NNS sections))
+                          (VP (VBN double-stained)
+                            (PP (IN with)
+                              (NP (NNP CD123)
+                                (CC and)
+                                (NNP Ulex)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Cells))
+      (VP (VBD were)
+        (VP (VBN counted)
+          (PP (IN in)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP (DT the) (JJ entire) (NNS sections)))))
+          (PP (IN from)
+            (NP
+              (NP (CD three) (NNS patients))
+              (CC and)
+              (NP (CD three) (JJ normal) (NNS controls))))
+          (PP (IN at)
+            (NP (JJ high) (NN power))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN for)
+        (NP (DT each) (NN biopsy)))
+      (NP (DT this) (NN number))
+      (VP (VBD was)
+        (VP (VBN corrected)
+          (PP (IN for)
+            (NP
+              (NP (DT the) (NN area))
+              (PP (IN of)
+                (NP (DT the) (NN section)))))
+          (S
+            (VP (TO to)
+              (VP (VB obtain)
+                (NP (DT the) (NN number/mm2))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB quantitate)
+          (NP (JJ CD11c) (NNP +) (JJ cellular) (NN infiltration)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN number))
+      (PP (IN of)
+        (NP (JJ CD11c) (JJ +) (NNS cells))))
+    (VP (VBD was)
+      (VP (VBN counted)
+        (PP (IN in)
+          (NP
+            (NP (CD three) (JJ high-power) (NNS fields))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (JJ synovial) (NN sublining))
+                (PP (IN in)
+                  (NP (NNS sections)))))))
+        (PP (IN from)
+          (NP
+            (NP (CD three) (NNS patients))
+            (CC and)
+            (NP (CD three) (JJ normal) (NNS controls))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Data) (NNP represent))
+    (VP (VBZ means)
+      (NP
+        (NP (JJ ±) (JJ standard) (NN error))
+        (PP (IN of)
+          (NP (DT the) (NN mean)))))
+    (. .)))
+
+(ROOT
+  (X
+    (NP (NN Figure) (CD 3))
+    (: :)
+    (S
+      (NP
+        (NP
+          (NP (JJ CD11c) (JJ +) (JJ dendritic) (NNS cells))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP DCs))
+            (-RRB- -RRB-)))
+        (CC and)
+        (NP (NNP CD123) (NNP +) (NNP DCs)))
+      (VP (VBP are)
+        (ADJP (JJ present)
+          (PP (IN in)
+            (NP
+              (NP
+                (NP
+                  (NP (JJ rheumatoid) (NN arthritis))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP RA))
+                    (-RRB- -RRB-)))
+                (ADJP (JJ synovial) (JJ fluid)))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP SF))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (NN purification))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NN mononuclear) (NNS cells))
+              (PP (IN from)
+                (NP
+                  (NP (DT either)
+                    (ADJP (JJ normal)
+                      (CC or)
+                      (JJ RA))
+                    (JJ peripheral) (NN blood))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP PB))
+                    (-RRB- -RRB-)))))
+            (CC or)
+            (NP (NNP RA) (NNP SF))))))
+    (, ,)
+    (NP (NNS cells))
+    (VP (VBD were)
+      (VP (VBN stained)
+        (PP (IN with)
+          (NP
+            (NP (NN CD123-PE))
+            (, ,)
+            (NP (NNP CD11c) (NNP FITC))
+            (, ,)
+            (NP (NNS CD14-PECy5))
+            (, ,)
+            (CC and)
+            (NP (NNP HLA-DR-APC))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Live) (NNP HLA-DR) (NNP +) (NNP CD14))
+    (: -)
+    (S
+      (S
+        (NP (NN mononuclear) (NNS cells))
+        (VP (VBD were)
+          (VP (VBN gated))))
+      (: ;)
+      (S
+        (NP (NN polymorphonuclear) (NNS cells))
+        (VP (VBD were)
+          (VP (VBN excluded)
+            (PP (IN on)
+              (NP
+                (NP (DT the) (NN basis))
+                (PP (IN of)
+                  (NP (JJ forward)
+                    (CC and)
+                    (JJ side) (NN light-scatter)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Scatter) (NNS plots))
+    (VP (VBP depict)
+      (S
+        (NP
+          (NP (NN percentage))
+          (PP (IN of)
+            (NP (JJ total) (NNP PB)
+              (CC or)
+              (NNP SF) (NNS cells))))
+        (VP (VBG expressing)
+          (NP (DT the) (VBN indicated) (NNS markers))
+          (PP (IN for)
+            (NP (DT all) (NNS donors))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP APC))
+      (, ,)
+      (NP (JJ antigen-presenting) (NN cell)))
+    (: ;)
+    (NP
+      (NP (NNP PBMC))
+      (, ,)
+      (NP (JJ peripheral) (NN blood) (NN mononuclear) (NNS cells)))
+    (: ;)
+    (NP
+      (NP (NNP PE))
+      (, ,)
+      (NP (NN phycoerythrin)))
+    (: ;)
+    (NP
+      (NP (NNP SFMC))
+      (, ,)
+      (NP (JJ synovial) (JJ fluid) (NN mononuclear) (NNS cells)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Figure) (CD 4))
+    (: :)
+    (NP
+      (ADJP (JJ Morphology)
+        (CC and)
+        (JJ cell-surface))
+      (ADJP (JJ phenotype)
+        (PP (IN of)
+          (ADJP (JJ dendritic))))
+      (NN cell)
+      (PRN (-LRB- -LRB-)
+        (NP (NNP DC))
+        (-RRB- -RRB-))
+      (NNS subpopulations))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (LST (-LRB- -LRB-) (DT a) (-RRB- -RRB-))
+      (NP (NNP Freshly))
+      (VP (VBD isolated)
+        (NP
+          (NP (NNP CD11c) (NNP +) (NNP CD123))
+          (: -)
+          (NP
+            (NP (NNP DCs))
+            (CC and)
+            (NP (NNP CD123) (NNP +) (NNP CD11c))))))
+    (: -)
+    (S
+      (NP (NNP DCs))
+      (VP
+        (VP (VBD were)
+          (VP (VBN sorted)
+            (PP (IN from)
+              (NP
+                (NP
+                  (NP (DT either) (JJ normal) (JJ peripheral) (NN blood))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP PB))
+                    (-RRB- -RRB-)))
+                (CC or)
+                (NP
+                  (NP
+                    (NP
+                      (NP (JJ rheumatoid) (NN arthritis))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP RA))
+                        (-RRB- -RRB-)))
+                    (ADJP (JJ synovial) (JJ fluid)))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP SF))
+                    (-RRB- -RRB-)))))
+            (PP (VBG according)
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (VBG gating) (NN strategy))
+                  (VP (VBN outlined)
+                    (PP (IN in)
+                      (NP (DT the) (NN legend)))
+                    (PP (TO to)
+                      (NP (NNP Fig.) (CD 3)))))))))
+        (CC and)
+        (VP (VBD were) (RB then)
+          (VP (VBN prepared)
+            (PP (IN for)
+              (NP (NN transmission) (NN electron) (NN microscopy)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Micrographs))
+    (VP (VBP are)
+      (NP
+        (NP (NN representative))
+        (PP (IN of)
+          (NP (CD three) (JJ separate) (NNS donors)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Scale) (NNS bars))
+    (VP (VBP represent)
+      (NP (CD 20) (NN μm)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (LST (-LRB- -LRB-) (NN b) (-RRB- -RRB-))
+      (NP (NNP Normal) (NNP PB)
+        (CC or)
+        (NNP RA) (NNP SF) (NN mononuclear) (NNS cells))
+      (VP (VBD were)
+        (VP (VBN stained)
+          (PP (IN with)
+            (NP (NNP CD123-PE) (, ,) (CD CD14-PECy5) (, ,) (CD HLA-DR-APC))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT either) (JJ isotype) (NN control))
+        (CC or)
+        (NP (DT the) (JJ depicted) (NN marker)))
+      (VP (VBD labelled)
+        (PP (IN with)
+          (NP (NNP FITC)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Live) (NNP HLA-DR) (NNP +) (NNP CD14-CD123) (NN +) (NNS cells))
+        (CC or)
+        (NP
+          (ADJP
+            (NP (CD HLA-DR) (NNS +))
+            (JJ CD14-CD11c))
+          (JJ +) (NNS cells)))
+      (VP (VBD were)
+        (VP (VBN gated))))
+    (: ;)
+    (S
+      (NP (NN polymorphonuclear) (NNS cells))
+      (VP (VBD were)
+        (VP (VBN excluded)
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN basis))
+              (PP (IN of)
+                (NP (JJ forward)
+                  (CC and)
+                  (JJ side) (NN light-scatter))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN expression))
+      (PP (IN of)
+        (NP
+          (NP (JJ isotype) (NN control))
+          (PRN (-LRB- -LRB-)
+            (NP (CD dotted) (NNS lines))
+            (-RRB- -RRB-))
+          (CC and)
+          (NP (JJ indicated) (NNS markers))
+          (PRN (-LRB- -LRB-)
+            (NP (JJ continuous) (NNS lines))
+            (-RRB- -RRB-))))
+      (PP (IN by)
+        (NP (DT the) (JJ gated) (NNS cells))))
+    (VP (VBP are)
+      (VP (VBN depicted)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Data))
+    (VP (VBP are)
+      (PP (IN from)
+        (NP
+          (NP (CD three) (NNS donors))
+          (PP (IN of)
+            (NP (JJ normal) (NNP PB)
+              (CC or)
+              (NNP RA) (NNP SF))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP APC))
+      (, ,)
+      (NP (JJ antigen-presenting) (NN cell)))
+    (: ;)
+    (NP
+      (NP (NNP PE))
+      (, ,)
+      (NP (NN phycoerythrin)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Figure) (CD 5))
+    (: :)
+    (NP
+      (NP (NNP CD123) (NNP +))
+      (CC and)
+      (NP
+        (NP (JJ CD11c) (JJ +) (JJ synovial) (NN fluid))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP SF))
+          (-RRB- -RRB-))
+        (SBAR
+          (S
+            (NP
+              (NP (JJ dendritic) (NNS cells))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP DCs))
+                (-RRB- -RRB-)))
+            (VP (VBP are)
+              (ADJP (JJ efficient)
+                (SBAR
+                  (S
+                    (NP
+                      (NP
+                        (NP (JJ antigen-presenting) (NNS cells))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP APCs))
+                          (-RRB- -RRB-)))
+                      (CC and)
+                      (NP
+                        (NP (JJ induce) (NN secretion))
+                        (PP (IN of)
+                          (NP (NN tumor)))))
+                    (VP (VBZ necrosis)
+                      (NP (NN factor) (NN α)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (ADJP (RB Freshly) (JJ sorted))
+          (NNP CD123) (NNP +) (NNPS CD11c)
+          (PRN (: -)
+            (CC or)
+            (NP (NNP CD11c) (NNP +) (NNP CD123))
+            (: -))
+          (NNP DCs))
+        (PP (IN from)
+          (NP
+            (NP
+              (NP (DT either) (JJ normal) (JJ peripheral) (NN blood))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP PB))
+                (-RRB- -RRB-)))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (SYM a))
+                (: --)
+                (NP (SYM d)))
+              (-RRB- -RRB-)))))
+      (CC or)
+      (NP
+        (NP (NNP rheumatoid) (NNP arthritis)
+          (PRN (-LRB- -LRB-)
+            (NP (NNP RA))
+            (-RRB- -RRB-))
+          (NNP SF))
+        (PRN (-LRB- -LRB-)
+          (FRAG
+            (X (SYM e))
+            (: --)
+            (NP (NN h)))
+          (-RRB- -RRB-))))
+    (VP (VBD were)
+      (VP (VBN incubated)
+        (PP (IN with)
+          (NP
+            (QP (CD 105) (CD purified))
+            (JJ normal) (JJ allogeneic) (NN T) (NNS cells)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP T-cell) (NN proliferation))
+    (VP (VBD was)
+      (VP (VBN measured)
+        (PP (IN by)
+          (NP
+            (NP
+              (QP (CD -LSB-) (CD 3H))
+              (JJ -RSB-) (NN thymidine) (NN incorporation))
+            (PP (IN of)
+              (NP (JJ triplicate) (NNS wells)))))
+        (PP (IN after)
+          (NP
+            (NP (CD 60) (NNS hours))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP a))
+              (, ,)
+              (NP (NNP e))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Unstimulated) (NNP T-cell) (NN proliferation))
+    (VP (VBD was)
+      (ADVP (RB routinely))
+      (VP (VBG <)
+        (NP (CD 500) (NN cpm))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Data) (NNP represent))
+    (VP
+      (VP (VBZ means)
+        (NP
+          (NP (JJ ±) (JJ standard) (NN error))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN mean))
+              (PP (IN of)
+                (NP (JJ triplicate) (NNS wells)))))))
+      (CC and)
+      (VP (VBP are)
+        (PP (IN from)
+          (NP (CD three) (JJ individual) (NNP PB)
+            (CC and)
+            (NN SF) (NNS donors)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NNS concentrations))
+        (PP (IN of)
+          (NP (NNP IFNγ) (, ,) (NNP IL-10) (, ,)
+            (CC and)
+            (NNP tumor))))
+      (VP (VBZ necrosis)
+        (NP
+          (NP (NN factor))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP TNF))
+            (-RRB- -RRB-)))))
+    (: -)
+    (S
+      (NP (NN α))
+      (VP (VBD were)
+        (VP (VBN measured)
+          (PP (IN in)
+            (NP
+              (NP (NNS supernatants))
+              (PP (IN of)
+                (NP
+                  (NP (JJ allogeneic) (VBN mixed) (NN lymphocyte) (NNS reactions))
+                  (VP (VBN stimulated)
+                    (PP (IN by)
+                      (NP
+                        (NP (NNP sorted) (NNP PB))
+                        (PRN (-LRB- -LRB-)
+                          (NP
+                            (NP (SYM b))
+                            (: --)
+                            (NP (SYM d)))
+                          (-RRB- -RRB-))
+                        (CC or)
+                        (NP (NNP SF) (NNP DCs))
+                        (PRN (-LRB- -LRB-)
+                          (FRAG
+                            (X (SYM f))
+                            (: --)
+                            (NP (NN h)))
+                          (-RRB- -RRB-))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Data))
+    (VP
+      (VP (VBP are)
+        (NP
+          (NP (NNS means))
+          (PP (IN of)
+            (NP (JJ duplicate) (NNS samples)))))
+      (CC and)
+      (VP (VBP are)
+        (PP (IN from)
+          (NP (CD two) (JJ separate) (NNP SF) (NNS donors)))))
+    (. .)))
+

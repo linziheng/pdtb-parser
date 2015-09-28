@@ -1,0 +1,33 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:Monday prev2_POS:NNP with_prev2_full:Monday_as with_prev2_POS_full:NNP_IN SS
+conn:before conn_POS:IN prev1:points prev1_POS:NNS with_prev1_full:points_before with_prev1_POS_full:NNS_IN prev2:30 prev2_POS:CD with_prev2_full:30_before with_prev2_POS_full:CD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:averages prev1_POS:NNS with_prev1_full:averages_also with_prev1_POS_full:NNS_RB prev2:Broader prev2_POS:JJR with_prev2_full:Broader_also with_prev2_POS_full:JJR_RB PS
+conn:and conn_POS:CC prev1:320.54 prev1_POS:CD with_prev1_full:320.54_and with_prev1_POS_full:CD_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:price prev2_POS:NN with_prev2_full:price_while with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:value prev1_POS:NN with_prev1_full:value_since with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_since with_prev2_POS_full:PRP$_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:range prev2_POS:NN with_prev2_full:range_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:volatility prev1_POS:NN with_prev1_full:volatility_as with_prev1_POS_full:NN_IN prev2:more prev2_POS:JJR with_prev2_full:more_as with_prev2_POS_full:JJR_IN SS
+conn:as conn_POS:IN prev1:sessions prev1_POS:NNS with_prev1_full:sessions_as with_prev1_POS_full:NNS_IN prev2:few prev2_POS:JJ with_prev2_full:few_as with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:32 prev1_POS:CD with_prev1_full:32_and with_prev1_POS_full:CD_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS
+conn:and conn_POS:CC prev1:1\/2 prev1_POS:CD with_prev1_full:1\/2_and with_prev1_POS_full:CD_CC prev2:59 prev2_POS:CD with_prev2_full:59_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:1\/4 prev1_POS:CD with_prev1_full:1\/4_and with_prev1_POS_full:CD_CC prev2:18 prev2_POS:CD with_prev2_full:18_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:Board prev1_POS:NNP with_prev1_full:Board_and with_prev1_POS_full:NNP_CC prev2:Big prev2_POS:NNP with_prev2_full:Big_and with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:58 prev1_POS:CD with_prev1_full:58_and with_prev1_POS_full:CD_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS
+conn:after conn_POS:IN prev1:3\/4 prev1_POS:CD with_prev1_full:3\/4_after with_prev1_POS_full:CD_IN prev2:40 prev2_POS:CD with_prev2_full:40_after with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:5\/8 prev1_POS:CD with_prev1_full:5\/8_and with_prev1_POS_full:CD_CC prev2:24 prev2_POS:CD with_prev2_full:24_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:shares prev1_POS:NNS with_prev1_full:shares_and with_prev1_POS_full:NNS_CC prev2:million prev2_POS:CD with_prev2_full:million_and with_prev2_POS_full:CD_CC SS
+conn:as conn_POS:IN prev1:5\/8 prev1_POS:CD with_prev1_full:5\/8_as with_prev1_POS_full:CD_IN prev2:44 prev2_POS:CD with_prev2_full:44_as with_prev2_POS_full:CD_IN SS
+conn:but conn_POS:CC prev1:leaks prev1_POS:NNS with_prev1_full:leaks_but with_prev1_POS_full:NNS_CC prev2:for prev2_POS:IN with_prev2_full:for_but with_prev2_POS_full:IN_CC SS
+conn:and conn_POS:CC prev1:7\/8 prev1_POS:CD with_prev1_full:7\/8_and with_prev1_POS_full:CD_CC prev2:31 prev2_POS:CD with_prev2_full:31_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:1\/4 prev1_POS:CD with_prev1_full:1\/4_and with_prev1_POS_full:CD_CC prev2:21 prev2_POS:CD with_prev2_full:21_and with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:session prev1_POS:NN with_prev1_full:session_before with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_before with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:proposal prev1_POS:NN with_prev1_full:proposal_and with_prev1_POS_full:NN_CC prev2:revised prev2_POS:JJ with_prev2_full:revised_and with_prev2_POS_full:JJ_CC SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:since conn_POS:IN prev1:decline prev1_POS:NN with_prev1_full:decline_since with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_since with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:Friday prev1_POS:NNP with_prev1_full:Friday_and with_prev1_POS_full:NNP_CC prev2:on prev2_POS:IN with_prev2_full:on_and with_prev2_POS_full:IN_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:63 prev1_POS:CD with_prev1_full:63_after with_prev1_POS_full:CD_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:after conn_POS:IN prev1:company prev1_POS:NN with_prev1_full:company_after with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS

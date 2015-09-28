@@ -1,0 +1,6 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:since conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:However prev2_POS:RB with_prev2_full:However_since with_prev2_POS_full:RB_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:plan prev1_POS:NN with_prev1_full:plan_and with_prev1_POS_full:NN_CC prev2:reorganization prev2_POS:NN with_prev2_full:reorganization_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:valid prev2_POS:JJ with_prev2_full:valid_and with_prev2_POS_full:JJ_CC SS

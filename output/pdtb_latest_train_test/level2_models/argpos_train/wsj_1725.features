@@ -1,0 +1,4 @@
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Manhattan prev2_POS:NNP with_prev2_full:Manhattan_also with_prev2_POS_full:NNP_RB PS
+conn:unless conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_unless with_prev1_POS_full:IN_IN prev2:states prev2_POS:VBZ with_prev2_full:states_unless with_prev2_POS_full:VBZ_IN SS
+conn:and conn_POS:CC prev1:injured prev1_POS:VBN with_prev1_full:injured_and with_prev1_POS_full:VBN_CC prev2:irreparably prev2_POS:RB with_prev2_full:irreparably_and with_prev2_POS_full:RB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS

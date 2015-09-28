@@ -1,0 +1,18 @@
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:trading_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:trading_also Expansion
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:about_three_weeks_after conn:about_three_weeks_after conn_POS:IN_CD_NNS_IN with_prev_full:out_about_three_weeks_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:besides conn:Besides conn_POS:IN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:market_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:shortly_thereafter conn:shortly_thereafter conn_POS:RB_RB with_prev_full:ended_shortly_thereafter Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:monday_as Contingency

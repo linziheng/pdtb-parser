@@ -1,0 +1,11 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:plan_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:efforts_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:known_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:known_after Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:jury_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:tegucigalpa_as Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:coalition_unless Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

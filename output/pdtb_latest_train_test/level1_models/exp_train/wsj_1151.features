@@ -1,0 +1,11 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:market_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:%_after Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:and_as Temporal

@@ -1,0 +1,40 @@
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:war_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:army_but Contrast
+conn_lc:till conn:till conn_POS:IN with_prev_full:up_till Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:night_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:--_even_though Concession
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:till conn:till conn_POS:IN with_prev_full:him_till Asynchronous
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:person_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:-lrb-_but Concession
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:,_now_that Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:leave_until Asynchronous
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

@@ -1,0 +1,27 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:buying_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:buying_then Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:stocks_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:stocks_while Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:board_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:board_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:25_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:operations_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:issues_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:averages_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:92_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:trading_also Expansion
+conn_lc:because conn:Because conn_POS:IN with_prev_full:``_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:11_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:firm_because Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:schedules_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison

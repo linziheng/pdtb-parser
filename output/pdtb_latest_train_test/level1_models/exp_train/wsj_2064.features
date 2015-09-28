@@ -1,0 +1,11 @@
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:planning_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:planning_while Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:furthermore conn:Furthermore conn_POS:RB Expansion
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:if_if_conservatives_do_n't_support_an_increase_in_the_imf_'s_capital_,_then conn:If_If_conservatives_do_n't_support_an_increase_in_the_IMF_'s_capital_,_then conn_POS:IN_IN_NNS_VBP_RB_VB_DT_NN_IN_DT_NNP_POS_NN_,_RB Contingency

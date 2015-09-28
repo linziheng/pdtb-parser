@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:sony_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:power_and Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Temporal
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:conner_also Expansion

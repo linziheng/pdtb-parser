@@ -1,0 +1,4 @@
+conn:because conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_because with_prev1_POS_full:''_IN prev2:dumb prev2_POS:JJ with_prev2_full:dumb_because with_prev2_POS_full:JJ_IN SS
+conn:because conn_POS:IN prev1:Detroit prev1_POS:NNP with_prev1_full:Detroit_because with_prev1_POS_full:NNP_IN prev2:to prev2_POS:TO with_prev2_full:to_because with_prev2_POS_full:TO_IN SS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS

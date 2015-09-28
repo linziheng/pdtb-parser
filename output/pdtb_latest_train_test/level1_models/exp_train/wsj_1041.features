@@ -1,0 +1,12 @@
+conn_lc:since conn:since conn_POS:IN with_prev_full:azt_since Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:drug_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:seven_after Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:inertia_because Contingency
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:nearly_a_year_and_a_half_after conn:nearly_a_year_and_a_half_after conn_POS:RB_DT_NN_CC_DT_NN_IN with_prev_full:comes_nearly_a_year_and_a_half_after Temporal
+conn_lc:while conn:While conn_POS:IN with_prev_full:``_while Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:childhood_if Contingency

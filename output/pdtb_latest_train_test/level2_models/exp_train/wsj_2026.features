@@ -1,0 +1,5 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:profit_when Condition
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:demand_also Conjunction

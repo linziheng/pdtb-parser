@@ -1,0 +1,271 @@
+17:55:09.054 s.e.n.c.p.r.TestBioDrb INFO  [main:109] - ======SCORES======
+17:55:09.054 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.054 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 0
+17:55:09.054 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 1064873.txt 1064895.txt 
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+90.11	63.57	74.55
+
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+86.81	61.24	71.82
+
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+8.18	52.27	5.91
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+80.77	56.98	66.82
+
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+26.30	26.79	26.54
+
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.055 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 5
+17:55:09.056 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 1156890.txt 115840.txt 
+17:55:09.056 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+90.91	56.07	69.36
+
+17:55:09.056 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+88.64	54.67	67.63
+
+17:55:09.056 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+10.40	52.60	8.67
+17:55:09.056 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+81.06	50.00	61.85
+
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+18.99	18.60	18.79
+
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 10
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 138685.txt 1403772.txt 
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+89.84	55.83	68.86
+
+17:55:09.057 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+87.50	54.37	67.07
+
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+19.16	56.29	15.57
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+78.13	48.54	59.88
+
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+20.14	20.14	20.14
+
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 15
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.058 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+76.39	55.00	63.95
+
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+75.00	54.00	62.79
+
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+14.53	51.16	14.53
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+68.06	49.00	56.98
+
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+22.97	23.08	23.02
+
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 20
+17:55:09.059 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+80.00	48.71	60.55
+
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+78.79	47.97	59.63
+
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+19.27	52.29	19.27
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+79.39	48.34	60.09
+
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+17.75	18.02	17.88
+
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.060 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 25
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+84.00	35.74	50.15
+
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+81.00	34.47	48.36
+
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+10.15	38.81	7.16
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+71.00	30.21	42.39
+
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+18.75	18.37	18.56
+
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.061 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 30
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+81.82	50.33	62.32
+
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+80.21	49.34	61.10
+
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+19.96	51.32	17.52
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+73.26	45.07	55.80
+
+17:55:09.062 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+17.79	18.12	17.95
+
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 35
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+87.88	69.05	77.33
+
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+84.24	66.19	74.13
+
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+17.60	62.93	17.07
+17:55:09.063 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+75.15	59.05	66.13
+
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+16.54	16.34	16.44
+
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 40
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+88.71	53.66	66.87
+
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+87.90	53.17	66.26
+
+17:55:09.064 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+14.59	54.71	13.37
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+77.42	46.83	58.36
+
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+18.62	18.24	18.43
+
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:111] - ==================
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:112] - CV 45
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:118] - TestFiles: 
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Connective: 
+
+Prec	Recall	F1
+82.76	50.00	62.34
+
+17:55:09.065 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - ArgPos: 
+
+Prec	Recall	F1
+80.46	48.61	60.61
+
+17:55:09.066 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - 
+EXACT A1:	A2	A1A2 
+16.45	50.22	15.58
+17:55:09.066 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Explict: 
+
+Prec	Recall	F1
+77.01	46.53	58.01
+
+17:55:09.066 s.e.n.c.p.r.TestBioDrb INFO  [main:120] - Implicit: 
+
+Prec	Recall	F1
+16.95	15.79	16.35
+
+17:55:09.066 s.e.n.c.p.r.TestBioDrb INFO  [main:122] - ==================

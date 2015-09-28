@@ -1,0 +1,13 @@
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:officials prev2_POS:NNS with_prev2_full:officials_however with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:dialogue prev2_POS:NN with_prev2_full:dialogue_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:Separately conn_POS:NNP sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:terrorism prev2_POS:NN with_prev2_full:terrorism_and with_prev2_POS_full:NN_CC SS
+conn:particularly_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_particularly_because with_prev1_POS_full:,_RB_IN prev2:terrorism prev2_POS:NN with_prev2_full:terrorism_particularly_because with_prev2_POS_full:NN_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:terrorism prev1_POS:NN with_prev1_full:terrorism_because with_prev1_POS_full:NN_IN prev2:constitute prev2_POS:VBP with_prev2_full:constitute_because with_prev2_POS_full:VBP_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:experts prev1_POS:NNS with_prev1_full:experts_also with_prev1_POS_full:NNS_RB prev2:terrorism prev2_POS:NN with_prev2_full:terrorism_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS

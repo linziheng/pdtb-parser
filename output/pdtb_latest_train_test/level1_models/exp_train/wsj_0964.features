@@ -1,0 +1,9 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:banned_if Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:food_if Contingency
+conn_lc:once conn:once conn_POS:IN with_prev_full:pesticide_once Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:standard_if Contingency

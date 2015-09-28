@@ -15,23 +15,29 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
+import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
 import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
+import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
+import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
-import edu.stanford.nlp.trees.Tree;
 
 /**
  * 
@@ -47,15 +53,35 @@ public class ExplicitComp extends Component {
 
 	@Override
 	public List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException {
+		return generateFeatures(Type.PDTB, article, featureType);
+	}
+
+	public List<String[]> generateFeatures(Type corpus, File article, FeatureType featureType) throws IOException {
 		List<String[]> features = new ArrayList<>();
-		ArrayList<String> spanMap = Corpus.getSpanMapAsList(article, featureType);
-		Map<String, String> spanHashMap = Corpus.getSpanMap(article, featureType);
-		List<Tree> trees = Corpus.getTrees(article, featureType);
 
-		List<String> explicitSpans = Corpus.getExplicitSpans(article, featureType);
+		ArrayList<String> spanMap = null;
 
-		if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
-			explicitSpans = Corpus.filterErrorProp(explicitSpans, article, featureType);
+		Map<String, String> spanHashMap = null;
+		List<String> explicitSpans = null;
+		List<Tree> trees;
+
+		if (corpus.equals(Type.PDTB)) {
+			spanMap = Corpus.getSpanMapAsList(article, featureType);
+			spanHashMap = Corpus.getSpanMap(article, featureType);
+			trees = Corpus.getTrees(article, featureType);
+			explicitSpans = Corpus.getExplicitSpans(article, featureType);
+
+			if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
+				explicitSpans = Corpus.filterErrorProp(explicitSpans, article, featureType);
+			}
+		} else {
+			spanMap = Corpus.getBioSpanMapAsList(article, featureType);
+			spanHashMap = Corpus.getBioSpanMap(article, featureType);
+			trees = Corpus.getBioTrees(article, featureType);
+			explicitSpans = Corpus.getBioExplicitSpans(article, featureType);
+			if (featureType == FeatureType.ErrorPropagation || featureType == FeatureType.Auto) {
+				explicitSpans = Corpus.filterBioErrorProp(explicitSpans, article, featureType);
+			}
 		}
 
 		int index = 0;
@@ -67,7 +93,7 @@ public class ExplicitComp extends Component {
 			List<Node> nodes = new ArrayList<>();
 			Tree root = null;
 
-			String[] spans = cols[3].split(";");
+			String[] spans = cols[corpus.equals(Type.PDTB) ? 3 : 1].split(";");
 
 			for (String spanTmp : spans) {
 				String[] span = spanTmp.split("\\.\\.");
@@ -110,7 +136,8 @@ public class ExplicitComp extends Component {
 			}
 
 			if (!nodes.isEmpty()) {
-				Set<String> semantics = Util.getUniqueSense(new String[] { cols[11], cols[12] });
+				Set<String> semantics = Util.getUniqueSense(new String[] { cols[corpus.equals(Type.PDTB) ? 11 : 8],
+						cols[corpus.equals(Type.PDTB) ? 12 : 9] });
 				String sem = "";
 				if (featureType == FeatureType.Training) {
 					for (String sm : semantics) {
@@ -142,8 +169,10 @@ public class ExplicitComp extends Component {
 		StringBuilder tmp = new StringBuilder();
 		StringBuilder tmp2 = new StringBuilder();
 		for (Node node : nodes) {
-			tmp.append(node.tree.parent(root).value() + " ");
-			tmp2.append(node.tree.value() + " ");
+			if (node.tree.parent(root) != null) {
+				tmp.append(node.tree.parent(root).value() + " ");
+				tmp2.append(node.tree.value() + " ");
+			}
 		}
 		String POS = tmp.toString().trim().replace(' ', '_');
 		String connStr = tmp2.toString().trim().replace(' ', '_');
@@ -215,6 +244,140 @@ public class ExplicitComp extends Component {
 		pw.close();
 
 		return resultFile;
+	}
+
+	public File trainBioDrb() throws IOException {
+
+		FeatureType featureType = FeatureType.Training;
+
+		String name = this.name + featureType.toString();
+
+		File trainFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(trainFile);
+
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith(".txt");
+			}
+		});
+
+		File auxFile = new File(name + ".aux");
+		PrintWriter auxFileWriter = new PrintWriter(auxFile);
+
+		for (File file : files) {
+			if (TestBioDrb.trainSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+
+				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
+
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+					if (feature.length > 1) {
+						auxFileWriter.println(feature[1]);
+					}
+				}
+				featureFile.flush();
+			}
+		}
+		auxFileWriter.close();
+		featureFile.close();
+
+		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
+
+		return modelFile;
+	}
+
+	public File testBioDrb(FeatureType featureType) throws IOException {
+		String name = NAME + featureType.toString();
+		File testFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(testFile);
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
+
+		log.info("Printing " + featureType + " features: ");
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith("txt");
+			}
+		});
+
+		for (File file : files) {
+			if (TestBioDrb.testSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+
+				String articleName = dir + file.getName();
+
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
+
+				File auxFile = new File(articleName + ".aux");
+				PrintWriter auxFileWriter = new PrintWriter(auxFile);
+
+				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
+					String headSpan = feature[1].split("\\|", -1)[1];
+					auxFileWriter.println(headSpan);
+
+				}
+				featureFile.flush();
+				articleFeatures.close();
+				auxFileWriter.close();
+
+				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
+				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				new File(pipeDir).mkdirs();
+				makeExpBioPipeFile(pipeDir, articleOut, auxFile, file.getName());
+			}
+		}
+		featureFile.close();
+
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+
+		return outFile;
+	}
+
+	private void makeExpBioPipeFile(String pipeDir, File articleOut, File auxFile, String article) throws IOException {
+		Map<String, String> spanToPipe = new HashMap<>();
+		File pipeFile = new File(pipeDir + "/" + article + ".pipe");
+		String[] pipes = Util.readFile(pipeFile).split(Util.NEW_LINE);
+		for (String pipe : pipes) {
+			String[] cols = pipe.split("\\|", -1);
+			spanToPipe.put(cols[1], pipe);
+		}
+		if (spanToPipe.size() > 0) {
+			PrintWriter pipeWriter = new PrintWriter(pipeFile);
+			try (BufferedReader reader = Util.reader(auxFile)) {
+				try (BufferedReader outReader = Util.reader(articleOut)) {
+					String span;
+					while ((span = reader.readLine()) != null) {
+						String[] out = outReader.readLine().split("\\s+");
+						String sense = out[out.length - 1];
+						String[] cols = spanToPipe.get(span).split("\\|", -1);
+						StringBuilder newPipe = new StringBuilder();
+
+						for (int i = 0; i < cols.length; ++i) {
+							if (i == 8) {
+								newPipe.append(sense);
+							} else {
+								newPipe.append(cols[i]);
+							}
+							newPipe.append('|');
+						}
+						newPipe.deleteCharAt(newPipe.length() - 1);
+						pipeWriter.println(newPipe);
+					}
+				}
+			}
+			pipeWriter.close();
+		} else {
+			log.warn("Article:" + article + " has no pipes!");
+		}
 	}
 
 }

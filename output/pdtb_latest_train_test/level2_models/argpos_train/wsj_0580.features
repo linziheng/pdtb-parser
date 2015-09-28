@@ -1,0 +1,7 @@
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:and conn_POS:CC prev1:level prev1_POS:NN with_prev1_full:level_and with_prev1_POS_full:NN_CC prev2:this prev2_POS:DT with_prev2_full:this_and with_prev2_POS_full:DT_CC SS
+conn:before conn_POS:IN prev1:industry prev1_POS:NN with_prev1_full:industry_before with_prev1_POS_full:NN_IN prev2:thrift prev2_POS:NN with_prev2_full:thrift_before with_prev2_POS_full:NN_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:July prev2_POS:NNP with_prev2_full:July_but with_prev2_POS_full:NNP_CC SS
+conn:because conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_because with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_because with_prev2_POS_full:DT_IN SS

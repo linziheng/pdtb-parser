@@ -1,0 +1,24 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:worse_because Cause
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:values_because Cause
+conn_lc:in_particular conn:in_particular conn_POS:IN_JJ with_prev_full:funds_in_particular Restatement
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:holders_because Cause
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN with_prev_full:``_as_long_as Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Condition
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:borrow_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fund_when Synchrony
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:because conn:because conn_POS:IN with_prev_full:problem_because Cause
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:issues_instead Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction

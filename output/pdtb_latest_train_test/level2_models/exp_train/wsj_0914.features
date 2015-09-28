@@ -1,0 +1,4 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:split_because Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause

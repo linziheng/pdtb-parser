@@ -1,0 +1,4 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:value prev2_POS:NN with_prev2_full:value_and with_prev2_POS_full:NN_CC SS
+conn:Indeed conn_POS:RB sent_pos:0 PS

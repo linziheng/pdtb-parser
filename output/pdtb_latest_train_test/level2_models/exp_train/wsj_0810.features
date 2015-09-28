@@ -1,0 +1,12 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:fournier_also Conjunction
+conn_lc:once conn:Once conn_POS:RB Asynchronous
+conn_lc:once conn:Once conn_POS:RB Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:but_before Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Pragmatic_contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:alternatively conn:Alternatively conn_POS:RB Alternative

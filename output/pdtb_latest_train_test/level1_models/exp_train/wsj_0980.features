@@ -1,0 +1,8 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:caution_when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:caution_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Contingency
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:currency_before Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:weeks_before Temporal
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal

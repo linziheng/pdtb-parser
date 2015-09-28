@@ -1,0 +1,28 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:rule_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:combination_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:georgia-pacific_if Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:georgia-pacific_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:earnings_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:organization_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:clearance_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:nekoosa_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:fee_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:immediately_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:takeovers_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:Before conn_POS:IN with_prev_full:`_before Temporal
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:since conn:Since conn_POS:IN Temporal

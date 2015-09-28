@@ -1,0 +1,14 @@
+conn:and conn_POS:CC prev1:it prev1_POS:PRP with_prev1_full:it_and with_prev1_POS_full:PRP_CC prev2:Open prev2_POS:VB with_prev2_full:Open_and with_prev2_POS_full:VB_CC SS
+conn:but conn_POS:CC sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:No prev2_POS:UH with_prev2_full:No_but with_prev2_POS_full:UH_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_and with_prev2_POS_full:NNS_CC SS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:organized prev2_POS:VBN with_prev2_full:organized_but with_prev2_POS_full:VBN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:too prev2_POS:RB with_prev2_full:too_but with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:action prev2_POS:NN with_prev2_full:action_but with_prev2_POS_full:NN_CC SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:letter prev2_POS:NN with_prev2_full:letter_in_fact with_prev2_POS_full:NN_IN_NN PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:Meanwhile prev2_POS:RB with_prev2_full:Meanwhile_as with_prev2_POS_full:RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:viewings prev2_POS:NNS with_prev2_full:viewings_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:says prev2_POS:VBZ with_prev2_full:says_and with_prev2_POS_full:VBZ_CC SS

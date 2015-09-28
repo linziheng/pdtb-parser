@@ -1,0 +1,11 @@
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:comes_as Synchrony
+conn_lc:only_three_years_after conn:only_three_years_after conn_POS:RB_CD_NNS_IN with_prev_full:breaks_only_three_years_after Asynchronous
+conn_lc:until conn:until conn_POS:IN with_prev_full:taxes_until Asynchronous
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:although conn:although conn_POS:IN with_prev_full:year_although Concession
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:While conn_POS:IN with_prev_full:``_while Concession

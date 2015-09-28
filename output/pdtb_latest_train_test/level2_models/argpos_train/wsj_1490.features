@@ -1,0 +1,18 @@
+conn:if conn_POS:IN prev1:losses prev1_POS:NNS with_prev1_full:losses_if with_prev1_POS_full:NNS_IN prev2:paper prev2_POS:NN with_prev2_full:paper_if with_prev2_POS_full:NN_IN SS
+conn:In_the_meantime conn_POS:IN_DT_NN sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:So conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:even_if conn_POS:RB_IN prev1:-- prev1_POS:: with_prev1_full:--_even_if with_prev1_POS_full::_RB_IN prev2:level prev2_POS:NN with_prev2_full:level_even_if with_prev2_POS_full:NN_RB_IN SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:months prev2_POS:NNS with_prev2_full:months_even_though with_prev2_POS_full:NNS_RB_IN SS
+conn:also conn_POS:RB prev1:they prev1_POS:PRP with_prev1_full:they_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:work prev2_POS:VB with_prev2_full:work_because with_prev2_POS_full:VB_IN SS
+conn:before conn_POS:IN prev1:money prev1_POS:NN with_prev1_full:money_before with_prev1_POS_full:NN_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_before with_prev2_POS_full:PRP$_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Banks prev1_POS:NNS with_prev1_full:Banks_also with_prev1_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:higher prev1_POS:JJR with_prev1_full:higher_before with_prev1_POS_full:JJR_IN prev2:been prev2_POS:VBN with_prev2_full:been_before with_prev2_POS_full:VBN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_before with_prev1_POS_full:VBD_IN prev2:estimates prev2_POS:NNS with_prev2_full:estimates_before with_prev2_POS_full:NNS_IN SS
+conn:until conn_POS:IN prev1:mess prev1_POS:NN with_prev1_full:mess_until with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_until with_prev2_POS_full:DT_IN SS
+conn:In_the_meantime conn_POS:IN_DT_NN sent_pos:0 PS

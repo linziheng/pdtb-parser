@@ -1,0 +1,6 @@
+conn:when conn_POS:WRB prev1:lines prev1_POS:NNS with_prev1_full:lines_when with_prev1_POS_full:NNS_WRB prev2:product prev2_POS:NN with_prev2_full:product_when with_prev2_POS_full:NN_WRB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:DAF prev2_POS:NNP with_prev2_full:DAF_since with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:annually prev2_POS:RB with_prev2_full:annually_and with_prev2_POS_full:RB_CC SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:subsidiary prev2_POS:NN with_prev2_full:subsidiary_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:U.K. prev2_POS:NNP with_prev2_full:U.K._and with_prev2_POS_full:NNP_CC SS

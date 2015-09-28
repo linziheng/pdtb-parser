@@ -1,0 +1,12 @@
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:muse prev2_POS:NN with_prev2_full:muse_though with_prev2_POS_full:NN_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:down prev2_POS:RP with_prev2_full:down_and with_prev2_POS_full:RP_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:Ohio prev2_POS:NNP with_prev2_full:Ohio_before with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:carpets prev2_POS:NNS with_prev2_full:carpets_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Stuart prev2_POS:NNP with_prev2_full:Stuart_however with_prev2_POS_full:NNP_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:pollution prev2_POS:NN with_prev2_full:pollution_also with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:it prev2_POS:PRP with_prev2_full:it_but with_prev2_POS_full:PRP_CC SS

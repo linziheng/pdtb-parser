@@ -1,0 +1,16 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:subsidiaries prev2_POS:NNS with_prev2_full:subsidiaries_but with_prev2_POS_full:NNS_CC SS
+conn:as conn_POS:IN prev1:clients prev1_POS:NNS with_prev1_full:clients_as with_prev1_POS_full:NNS_IN prev2:Japanese prev2_POS:JJ with_prev2_full:Japanese_as with_prev2_POS_full:JJ_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:billings prev2_POS:NNS with_prev2_full:billings_but with_prev2_POS_full:NNS_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:billion prev2_POS:CD with_prev2_full:billion_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:markets prev1_POS:NNS with_prev1_full:markets_when with_prev1_POS_full:NNS_WRB prev2:foreign prev2_POS:JJ with_prev2_full:foreign_when with_prev2_POS_full:JJ_WRB SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:abroad prev1_POS:RB with_prev1_full:abroad_because with_prev1_POS_full:RB_IN prev2:expanding prev2_POS:VBG with_prev2_full:expanding_because with_prev2_POS_full:VBG_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:clients prev2_POS:NNS with_prev2_full:clients_also with_prev2_POS_full:NNS_RB SS
+conn:But conn_POS:CC sent_pos:0 PS

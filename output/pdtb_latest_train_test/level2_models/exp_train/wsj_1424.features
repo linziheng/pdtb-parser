@@ -1,0 +1,14 @@
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN Synchrony
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:,_thereby Cause
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:,_therefore Cause
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:or conn:or conn_POS:CC with_prev_full:somalia_or Alternative
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

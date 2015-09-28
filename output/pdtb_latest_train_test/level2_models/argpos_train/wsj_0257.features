@@ -1,0 +1,17 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Stoll prev2_POS:NNP with_prev2_full:Stoll_but with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:files prev2_POS:NNS with_prev2_full:files_but with_prev2_POS_full:NNS_CC SS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:and conn_POS:CC prev1:low prev1_POS:RB with_prev1_full:low_and with_prev1_POS_full:RB_CC prev2:ran prev2_POS:VBD with_prev2_full:ran_and with_prev2_POS_full:VBD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:so_that conn_POS:IN_IN prev1:on prev1_POS:RB with_prev1_full:on_so_that with_prev1_POS_full:RB_IN_IN prev2:hands prev2_POS:NNS with_prev2_full:hands_so_that with_prev2_POS_full:NNS_IN_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:him prev1_POS:PRP with_prev1_full:him_when with_prev1_POS_full:PRP_WRB prev2:alert prev2_POS:VB with_prev2_full:alert_when with_prev2_POS_full:VB_WRB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:if conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Sometimes prev2_POS:RB with_prev2_full:Sometimes_if with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:interest prev2_POS:NN with_prev2_full:interest_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_because with_prev1_POS_full:''_IN prev2:to prev2_POS:TO with_prev2_full:to_because with_prev2_POS_full:TO_IN SS
+conn:ultimately conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_ultimately with_prev1_POS_full:,_RB prev2:hunt prev2_POS:NN with_prev2_full:hunt_ultimately with_prev2_POS_full:NN_RB SS
+conn:then conn_POS:RB prev1:Germans prev1_POS:NNPS with_prev1_full:Germans_then with_prev1_POS_full:NNPS_RB prev2:West prev2_POS:NNPS with_prev2_full:West_then with_prev2_POS_full:NNPS_RB PS
+conn:finally conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_finally with_prev1_POS_full:CC_RB prev2:over prev2_POS:RB with_prev2_full:over_finally with_prev2_POS_full:RB_RB SS

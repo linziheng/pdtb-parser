@@ -1,0 +1,16 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:possibility_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:failed_and Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:lawsuits_while Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:quickly_after Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:them_after Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:government_after Temporal

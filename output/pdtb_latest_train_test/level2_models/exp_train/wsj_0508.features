@@ -1,0 +1,5 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:win_if Condition
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Restatement
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:secretary_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

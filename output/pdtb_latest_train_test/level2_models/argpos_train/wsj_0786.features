@@ -1,0 +1,8 @@
+conn:also conn_POS:RB sent_pos:2 prev1:price prev1_POS:NN with_prev1_full:price_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:offers prev2_POS:NNS with_prev2_full:offers_but with_prev2_POS_full:NNS_CC SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Then prev2_POS:RB with_prev2_full:Then_after with_prev2_POS_full:RB_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:offer prev2_POS:NN with_prev2_full:offer_meanwhile with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:materialized prev1_POS:VBD with_prev1_full:materialized_and with_prev1_POS_full:VBD_CC prev2:never prev2_POS:RB with_prev2_full:never_and with_prev2_POS_full:RB_CC SS

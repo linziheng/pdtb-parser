@@ -1,0 +1,42 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:only_after conn:only_after conn_POS:RB_RB with_prev_full:malignant_only_after Temporal
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:cancer_because Contingency
+conn_lc:even_before conn:even_before conn_POS:RB_RB with_prev_full:knew_even_before Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tumor_when Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:--_after Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fate_when Temporal
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:,_therefore Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:developed_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:next conn:next conn_POS:JJ with_prev_full:vogelstein_next Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:as_though conn:as_though conn_POS:IN_IN with_prev_full:--_as_though Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:were_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:there_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison

@@ -1,0 +1,8 @@
+conn:After conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:House prev2_POS:NNP with_prev2_full:House_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:as conn_POS:IN prev1:Hugo prev1_POS:NNP with_prev1_full:Hugo_as with_prev1_POS_full:NNP_IN prev2:Hurricane prev2_POS:NNP with_prev2_full:Hurricane_as with_prev2_POS_full:NNP_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Arafat prev2_POS:NNP with_prev2_full:Arafat_but with_prev2_POS_full:NNP_CC SS
+conn:once conn_POS:IN prev1:Europe prev1_POS:NNP with_prev1_full:Europe_once with_prev1_POS_full:NNP_IN prev2:Western prev2_POS:NNP with_prev2_full:Western_once with_prev2_POS_full:NNP_IN SS

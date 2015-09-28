@@ -1,0 +1,3 @@
+conn:So conn_POS:IN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:listened prev1_POS:VBD with_prev1_full:listened_when with_prev1_POS_full:VBD_WRB prev2:pits prev2_POS:NNS with_prev2_full:pits_when with_prev2_POS_full:NNS_WRB SS
+conn:and conn_POS:CC prev1:50 prev1_POS:CD with_prev1_full:50_and with_prev1_POS_full:CD_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS

@@ -1,0 +1,6 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause

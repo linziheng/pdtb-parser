@@ -1,0 +1,8 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:banned_if Condition
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:food_if Condition
+conn_lc:once conn:once conn_POS:IN with_prev_full:pesticide_once Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:standard_if Condition

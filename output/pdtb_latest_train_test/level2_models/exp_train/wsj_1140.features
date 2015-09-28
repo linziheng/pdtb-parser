@@ -1,0 +1,8 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and List
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:later conn:later conn_POS:RB with_prev_full:replaced_later Asynchronous
+conn_lc:later conn:later conn_POS:RB with_prev_full:bought_later Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:semiconductors_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation

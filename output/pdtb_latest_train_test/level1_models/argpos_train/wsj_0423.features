@@ -1,0 +1,18 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:were prev1_POS:VBD with_prev1_full:were_when with_prev1_POS_full:VBD_WRB prev2:they prev2_POS:PRP with_prev2_full:they_when with_prev2_POS_full:PRP_WRB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:himself prev2_POS:PRP with_prev2_full:himself_however with_prev2_POS_full:PRP_RB PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:leap prev1_POS:VB with_prev1_full:leap_if with_prev1_POS_full:VB_IN prev2:must prev2_POS:MD with_prev2_full:must_if with_prev2_POS_full:MD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:nor conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_nor with_prev1_POS_full:,_CC prev2:soap prev2_POS:NN with_prev2_full:soap_nor with_prev2_POS_full:NN_CC SS
+conn:On_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:control prev2_POS:NN with_prev2_full:control_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:this prev2_POS:DT with_prev2_full:this_and with_prev2_POS_full:DT_CC SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:In_short conn_POS:IN_JJ sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:fail prev2_POS:VB with_prev2_full:fail_and with_prev2_POS_full:VB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Mitchell prev2_POS:NNP with_prev2_full:Mitchell_but with_prev2_POS_full:NNP_CC SS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS

@@ -1,0 +1,15 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:disappointed_if Contingency
+conn_lc:besides conn:Besides conn_POS:IN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:advances_since Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:interest_later Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:ever_since conn:ever_since conn_POS:RB_IN with_prev_full:wayside_ever_since Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:bid_later Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:jaguar_until Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:otherwise conn:Otherwise conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

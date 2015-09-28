@@ -1,0 +1,29 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:now prev1_POS:RB with_prev1_full:now_and with_prev1_POS_full:RB_CC prev2:theme prev2_POS:NN with_prev2_full:theme_and with_prev2_POS_full:NN_CC SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:companies prev2_POS:NNS with_prev2_full:companies_though with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB prev1:they prev1_POS:PRP with_prev1_full:they_also with_prev1_POS_full:PRP_RB prev2:though prev2_POS:IN with_prev2_full:though_also with_prev2_POS_full:IN_RB SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:distinction prev1_POS:NN with_prev1_full:distinction_because with_prev1_POS_full:NN_IN prev2:important prev2_POS:JJ with_prev2_full:important_because with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:by_comparison conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_by_comparison with_prev1_POS_full:,_IN_NN prev2:earnings prev2_POS:NNS with_prev2_full:earnings_by_comparison with_prev2_POS_full:NNS_IN_NN PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:so conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_so with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_so with_prev2_POS_full:,_RB SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:24 prev2_POS:CD with_prev2_full:24_and with_prev2_POS_full:CD_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:stocks prev1_POS:NNS with_prev1_full:stocks_because with_prev1_POS_full:NNS_IN prev2:growth prev2_POS:NN with_prev2_full:growth_because with_prev2_POS_full:NN_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Quist prev2_POS:NNP with_prev2_full:Quist_also with_prev2_POS_full:NNP_RB PS
+conn:so conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_CC prev2:billion prev2_POS:CD with_prev2_full:billion_so with_prev2_POS_full:CD_CC SS
+conn:after conn_POS:IN prev1:106 prev1_POS:CD with_prev1_full:106_after with_prev1_POS_full:CD_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:after conn_POS:IN prev1:5\/8 prev1_POS:CD with_prev1_full:5\/8_after with_prev1_POS_full:CD_IN prev2:1 prev2_POS:CD with_prev2_full:1_after with_prev2_POS_full:CD_IN SS
+conn:after conn_POS:IN prev1:3\/4 prev1_POS:CD with_prev1_full:3\/4_after with_prev1_POS_full:CD_IN prev2:47 prev2_POS:CD with_prev2_full:47_after with_prev2_POS_full:CD_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Popular prev2_POS:NNP with_prev2_full:Popular_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:after conn_POS:IN prev1:1\/2 prev1_POS:CD with_prev1_full:1\/2_after with_prev1_POS_full:CD_IN prev2:1 prev2_POS:CD with_prev2_full:1_after with_prev2_POS_full:CD_IN SS
+conn:after conn_POS:IN prev1:10 prev1_POS:CD with_prev1_full:10_after with_prev1_POS_full:CD_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:5\/8 prev1_POS:CD with_prev1_full:5\/8_and with_prev1_POS_full:CD_CC prev2:110 prev2_POS:CD with_prev2_full:110_and with_prev2_POS_full:CD_CC SS
+conn:earlier conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_earlier with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_earlier with_prev2_POS_full:,_RB SS

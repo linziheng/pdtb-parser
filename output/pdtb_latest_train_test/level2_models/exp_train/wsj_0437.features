@@ -1,0 +1,20 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:that_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:operating_and Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:after conn:after conn_POS:RB with_prev_full:strike_after Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:development_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:slightly_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:later conn:later conn_POS:RB with_prev_full:were_later Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:quiet_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:profit-taking_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction

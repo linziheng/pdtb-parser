@@ -1,0 +1,19 @@
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:lbo_because Contingency
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:down_if Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:month_after Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:more_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:back_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:non-deductible_if Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Expansion
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:deduction_until Temporal
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Contingency

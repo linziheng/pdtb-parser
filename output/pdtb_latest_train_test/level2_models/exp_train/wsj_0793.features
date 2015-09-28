@@ -1,0 +1,5 @@
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:approved_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:agencies_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:public_and Conjunction

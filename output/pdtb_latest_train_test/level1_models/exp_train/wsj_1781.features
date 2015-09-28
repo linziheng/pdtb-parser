@@ -1,0 +1,23 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:gains_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:changed_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:shares_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:673_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:673_as Contingency
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:sidelines_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:sidelines_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:likely_unless Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:place_before Temporal

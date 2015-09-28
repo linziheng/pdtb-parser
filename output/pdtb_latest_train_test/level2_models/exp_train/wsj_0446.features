@@ -1,0 +1,18 @@
+conn_lc:not_only_because conn:not_only_because conn_POS:RB_RB_IN with_prev_full:is_not_only_because Cause
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:about_a_week_after conn:about_a_week_after conn_POS:RB_DT_NN_RB with_prev_full:taken_about_a_week_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:months_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:occurs_even_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:furthermore conn:Furthermore conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:know_until Asynchronous

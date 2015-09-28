@@ -1,0 +1,34 @@
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:result prev2_POS:NN with_prev2_full:result_if with_prev2_POS_full:NN_IN SS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:also conn_POS:RB prev1:IBM prev1_POS:NNP with_prev1_full:IBM_also with_prev1_POS_full:NNP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:need prev2_POS:VBP with_prev2_full:need_and with_prev2_POS_full:VBP_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:added prev2_POS:VBD with_prev2_full:added_though with_prev2_POS_full:VBD_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:announcements prev1_POS:NNS with_prev1_full:announcements_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:Co. prev1_POS:NNP with_prev1_full:Co._also with_prev1_POS_full:NNP_RB prev2:Hewlett-Packard prev2_POS:NNP with_prev2_full:Hewlett-Packard_also with_prev2_POS_full:NNP_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:Hewlett-Packard prev2_POS:NNP with_prev2_full:Hewlett-Packard_while with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:as conn_POS:IN prev1:equipment prev1_POS:NN with_prev1_full:equipment_as with_prev1_POS_full:NN_IN prev2:of prev2_POS:IN with_prev2_full:of_as with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:merge prev2_POS:VBP with_prev2_full:merge_and with_prev2_POS_full:VBP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:comeback prev1_POS:NN with_prev1_full:comeback_after with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_after with_prev2_POS_full:DT_IN SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:shoulder prev2_POS:NN with_prev2_full:shoulder_for_instance with_prev2_POS_full:NN_IN_NN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:chips prev2_POS:NNS with_prev2_full:chips_for_instance with_prev2_POS_full:NNS_IN_NN PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:expensive prev2_POS:JJ with_prev2_full:expensive_because with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:while prev2_POS:NN with_prev2_full:while_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:operator prev1_POS:NN with_prev1_full:operator_as_soon_as with_prev1_POS_full:NN_RB_RB_IN prev2:an prev2_POS:DT with_prev2_full:an_as_soon_as with_prev2_POS_full:DT_RB_RB_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:They prev2_POS:PRP with_prev2_full:They_also with_prev2_POS_full:PRP_RB PS
+conn:just_until conn_POS:RB_IN prev1:run prev1_POS:VB with_prev1_full:run_just_until with_prev1_POS_full:VB_RB_IN prev2:machine prev2_POS:NN with_prev2_full:machine_just_until with_prev2_POS_full:NN_RB_IN SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:daily prev2_POS:RB with_prev2_full:daily_for_instance with_prev2_POS_full:RB_IN_NN PS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:equipment prev2_POS:NN with_prev2_full:equipment_so with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Salespeople prev1_POS:NNS with_prev1_full:Salespeople_also with_prev1_POS_full:NNS_RB PS

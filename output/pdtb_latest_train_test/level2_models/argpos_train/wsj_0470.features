@@ -1,0 +1,12 @@
+conn:in_turn conn_POS:IN_NN prev1:who prev1_POS:WP with_prev1_full:who_in_turn with_prev1_POS_full:WP_IN_NN prev2:, prev2_POS:, with_prev2_full:,_in_turn with_prev2_POS_full:,_IN_NN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:word prev1_POS:NN with_prev1_full:word_when with_prev1_POS_full:NN_WRB prev2:their prev2_POS:PRP$ with_prev2_full:their_when with_prev2_POS_full:PRP$_WRB SS
+conn:because conn_POS:IN prev1:contract prev1_POS:NN with_prev1_full:contract_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:once conn_POS:IN prev1:relevant prev1_POS:JJ with_prev1_full:relevant_once with_prev1_POS_full:JJ_IN prev2:n't prev2_POS:RB with_prev2_full:n't_once with_prev2_POS_full:RB_IN SS
+conn:but conn_POS:CC prev1:contracts prev1_POS:NNS with_prev1_full:contracts_but with_prev1_POS_full:NNS_CC prev2:the prev2_POS:DT with_prev2_full:the_but with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:executives prev1_POS:NNS with_prev1_full:executives_also with_prev1_POS_full:NNS_RB prev2:Warner prev2_POS:NNP with_prev2_full:Warner_also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:in_fact conn_POS:IN_NN prev1:did prev1_POS:VBD with_prev1_full:did_in_fact with_prev1_POS_full:VBD_IN_NN prev2:agreement prev2_POS:NN with_prev2_full:agreement_in_fact with_prev2_POS_full:NN_IN_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:exist prev2_POS:VB with_prev2_full:exist_and with_prev2_POS_full:VB_CC SS
+conn:while conn_POS:IN prev1:Columbia prev1_POS:NNP with_prev1_full:Columbia_while with_prev1_POS_full:NNP_IN prev2:run prev2_POS:VBN with_prev2_full:run_while with_prev2_POS_full:VBN_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Inc. prev2_POS:NNP with_prev2_full:Inc._also with_prev2_POS_full:NNP_RB PS

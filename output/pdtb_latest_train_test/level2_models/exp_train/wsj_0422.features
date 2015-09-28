@@ -1,0 +1,9 @@
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:back_because Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if_if_that_follows_through_next_month_,_then conn:If_If_that_follows_through_next_month_,_then conn_POS:IN_IN_DT_VBZ_RP_JJ_NN_,_RB with_prev_full:``_if_if_that_follows_through_next_month_,_then Condition
+conn_lc:but conn:But conn_POS:CC Contrast

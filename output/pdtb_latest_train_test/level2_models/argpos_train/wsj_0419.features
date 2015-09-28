@@ -1,0 +1,4 @@
+conn:largely_because conn_POS:RB_IN prev1:change prev1_POS:NN with_prev1_full:change_largely_because with_prev1_POS_full:NN_RB_IN prev2:the prev2_POS:DT with_prev2_full:the_largely_because with_prev2_POS_full:DT_RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:NRM prev1_POS:NNP with_prev1_full:NRM_also with_prev1_POS_full:NNP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS

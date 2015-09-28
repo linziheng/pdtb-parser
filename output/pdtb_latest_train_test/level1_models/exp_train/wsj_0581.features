@@ -1,0 +1,3 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:dividend_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

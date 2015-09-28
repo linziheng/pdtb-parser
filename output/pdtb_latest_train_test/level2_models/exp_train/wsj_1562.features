@@ -1,0 +1,47 @@
+conn_lc:once conn:ONCE conn_POS:RB Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:burned_if Condition
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Concession
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:or conn:or conn_POS:CC with_prev_full:''_or Alternative
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:used_when Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:restriction_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:unless conn:Unless conn_POS:IN Alternative
+conn_lc:because conn:because conn_POS:IN with_prev_full:filled_because Cause
+conn_lc:once conn:once conn_POS:IN with_prev_full:investment_once Asynchronous
+conn_lc:once conn:once conn_POS:IN with_prev_full:investment_once Cause
+conn_lc:once conn:Once conn_POS:RB Asynchronous
+conn_lc:once conn:Once conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:orders_because Cause
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Conjunction
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:75_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:orders_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:price_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:price_when Asynchronous
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:order_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:orders_if Condition
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:as_soon_as conn:As_soon_as conn_POS:RB_RB_IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:exclusively_when Condition
+conn_lc:if_if_they_do_n't_fill_it_immediately_,_then conn:If_If_they_do_n't_fill_it_immediately_,_then conn_POS:IN_IN_PRP_VBP_RB_VB_PRP_RB_,_RB with_prev_full:``_if_if_they_do_n't_fill_it_immediately_,_then Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:selling_after Asynchronous

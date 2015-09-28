@@ -1,0 +1,11 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Columbia prev1_POS:NNP with_prev1_full:Columbia_also with_prev1_POS_full:NNP_RB PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:prices prev2_POS:NNS with_prev2_full:prices_because with_prev2_POS_full:NNS_IN SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:results prev1_POS:NNS with_prev1_full:results_also with_prev1_POS_full:NNS_RB prev2:quarterly prev2_POS:JJ with_prev2_full:quarterly_also with_prev2_POS_full:JJ_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:10 prev2_POS:CD with_prev2_full:10_as with_prev2_POS_full:CD_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:bonds prev2_POS:NNS with_prev2_full:bonds_because with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:officials prev1_POS:NNS with_prev1_full:officials_also with_prev1_POS_full:NNS_RB prev2:Columbia prev2_POS:NNP with_prev2_full:Columbia_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:Columbia prev1_POS:NNP with_prev1_full:Columbia_also with_prev1_POS_full:NNP_RB PS

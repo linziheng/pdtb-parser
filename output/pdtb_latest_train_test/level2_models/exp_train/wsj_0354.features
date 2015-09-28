@@ -1,0 +1,7 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:adjustments_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:adjustments_and Cause
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:that_unless Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:hurt_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:hurt_and Cause
+conn_lc:until conn:Until conn_POS:IN Asynchronous
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession

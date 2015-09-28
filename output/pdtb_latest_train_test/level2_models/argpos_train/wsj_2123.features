@@ -1,0 +1,5 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:economy prev1_POS:NN with_prev1_full:economy_and with_prev1_POS_full:NN_CC prev2:slowing prev2_POS:VBG with_prev2_full:slowing_and with_prev2_POS_full:VBG_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:pace prev1_POS:NN with_prev1_full:pace_and with_prev1_POS_full:NN_CC prev2:'' prev2_POS:'' with_prev2_full:''_and with_prev2_POS_full:''_CC SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS

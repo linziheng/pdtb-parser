@@ -1,0 +1,27 @@
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:increasing_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:increasing_as Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Concession
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Contrast
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Concession
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:alarmed_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:alarmed_when Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:home_instead Alternative
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Concession
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:once conn:once conn_POS:IN with_prev_full:;_once Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:help_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:if conn:if conn_POS:IN with_prev_full:others_if Condition

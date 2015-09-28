@@ -5,13 +5,13 @@
 	</Properties>
 	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT">
-			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} %c{1.} %-5level [%t:%L] - %msg%n" />
 		</Console>
 		<RollingFile name="LogFile" fileName="${log-path}/out.log"
 			filePattern="${log-path}/out-%d{yyyy-MM-dd}-%i.log" immediateFlush="false"
 			append="true">
 			<PatternLayout
-				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+				pattern="%d{HH:mm:ss.SSS} %c{1.} %-5level [%t:%L] - %msg%n" />
 			<Policies>
 				<TimeBasedTriggeringPolicy />
 				<SizeBasedTriggeringPolicy size="10 MB" />

@@ -1,0 +1,19 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:around prev1_POS:RP with_prev1_full:around_if with_prev1_POS_full:RP_IN prev2:stick prev2_POS:VB with_prev2_full:stick_if with_prev2_POS_full:VB_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:Antar prev2_POS:NNP with_prev2_full:Antar_if with_prev2_POS_full:NNP_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:representation prev2_POS:NN with_prev2_full:representation_because with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:seizure prev1_POS:NN with_prev1_full:seizure_also with_prev1_POS_full:NN_RB prev2:A prev2_POS:DT with_prev2_full:A_also with_prev2_POS_full:DT_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:defendants prev2_POS:NNS with_prev2_full:defendants_but with_prev2_POS_full:NNS_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:people prev2_POS:NNS with_prev2_full:people_because with_prev2_POS_full:NNS_IN SS
+conn:after conn_POS:IN prev1:week prev1_POS:NN with_prev1_full:week_after with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_after with_prev2_POS_full:DT_IN SS
+conn:Therefore conn_POS:RB sent_pos:0 PS
+conn:even_after conn_POS:RB_IN prev1:lawyers prev1_POS:NNS with_prev1_full:lawyers_even_after with_prev1_POS_full:NNS_RB_IN prev2:the prev2_POS:DT with_prev2_full:the_even_after with_prev2_POS_full:DT_RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:fees prev2_POS:NNS with_prev2_full:fees_and with_prev2_POS_full:NNS_CC SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:it prev2_POS:PRP with_prev2_full:it_although with_prev2_POS_full:PRP_IN SS
+conn:before conn_POS:IN prev1:profits prev1_POS:NNS with_prev1_full:profits_before with_prev1_POS_full:NNS_IN prev2:illegal prev2_POS:JJ with_prev2_full:illegal_before with_prev2_POS_full:JJ_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:trial prev1_POS:NN with_prev1_full:trial_if with_prev1_POS_full:NN_IN prev2:fair prev2_POS:JJ with_prev2_full:fair_if with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:worry prev2_POS:VBP with_prev2_full:worry_if with_prev2_POS_full:VBP_IN SS
+conn:unless conn_POS:IN prev1:cases prev1_POS:NNS with_prev1_full:cases_unless with_prev1_POS_full:NNS_IN prev2:criminal prev2_POS:JJ with_prev2_full:criminal_unless with_prev2_POS_full:JJ_IN SS

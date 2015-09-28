@@ -1,0 +1,31 @@
+conn:because conn_POS:IN prev1:priorities prev1_POS:NNS with_prev1_full:priorities_because with_prev1_POS_full:NNS_IN prev2:determine prev2_POS:VB with_prev2_full:determine_because with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:strategy prev1_POS:NN with_prev1_full:strategy_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:strategy prev2_POS:NN with_prev2_full:strategy_then with_prev2_POS_full:NN_RB SS
+conn:until conn_POS:IN prev1:happen prev1_POS:VB with_prev1_full:happen_until with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_until with_prev2_POS_full:RB_IN SS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:strategy prev2_POS:NN with_prev2_full:strategy_before with_prev2_POS_full:NN_IN SS
+conn:finally conn_POS:RB prev1:before prev1_POS:IN with_prev1_full:before_finally with_prev1_POS_full:IN_RB prev2:, prev2_POS:, with_prev2_full:,_finally with_prev2_POS_full:,_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:paper prev2_POS:NN with_prev2_full:paper_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:executed prev1_POS:VBN with_prev1_full:executed_because with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_because with_prev2_POS_full:VB_IN SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Strategy prev2_POS:NN with_prev2_full:Strategy_however with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:as_a_result conn_POS:IN_DT_NN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_as_a_result with_prev1_POS_full:CC_IN_DT_NN PS
+conn:then conn_POS:RB sent_pos:2 prev1:would prev1_POS:MD with_prev1_full:would_then with_prev1_POS_full:MD_RB prev2:They prev2_POS:PRP with_prev2_full:They_then with_prev2_POS_full:PRP_RB PS
+conn:as conn_POS:IN prev1:cuts prev1_POS:NNS with_prev1_full:cuts_as with_prev1_POS_full:NNS_IN prev2:program prev2_POS:NN with_prev2_full:program_as with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:They prev2_POS:PRP with_prev2_full:They_also with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB prev1:plan prev1_POS:NN with_prev1_full:plan_also with_prev1_POS_full:NN_RB prev2:1990 prev2_POS:CD with_prev2_full:1990_also with_prev2_POS_full:CD_RB PS
+conn:if conn_POS:IN prev1:happens prev1_POS:VBZ with_prev1_full:happens_if with_prev1_POS_full:VBZ_IN prev2:What prev2_POS:WP with_prev2_full:What_if with_prev2_POS_full:WP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1985 prev2_POS:CD with_prev2_full:1985_and with_prev2_POS_full:CD_CC SS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:If prev2_POS:IN with_prev2_full:If_for_example with_prev2_POS_full:IN_IN_NN PS
+conn:as conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_as with_prev1_POS_full::_IN prev2:divisions prev2_POS:NNS with_prev2_full:divisions_as with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:therefore conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_therefore with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_therefore with_prev2_POS_full:,_RB SS
+conn:because conn_POS:IN prev1:security prev1_POS:NN with_prev1_full:security_because with_prev1_POS_full:NN_IN prev2:national prev2_POS:JJ with_prev2_full:national_because with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Congress prev2_POS:NNP with_prev2_full:Congress_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:irresponsibly prev1_POS:RB with_prev1_full:irresponsibly_because with_prev1_POS_full:RB_IN prev2:act prev2_POS:VB with_prev2_full:act_because with_prev2_POS_full:VB_IN SS
+conn:in_other_words conn_POS:IN_JJ_NNS prev1:; prev1_POS:: with_prev1_full:;_in_other_words with_prev1_POS_full::_IN_JJ_NNS prev2:interest prev2_POS:NN with_prev2_full:interest_in_other_words with_prev2_POS_full:NN_IN_JJ_NNS SS
+conn:because conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_because with_prev1_POS_full::_IN prev2:Congress prev2_POS:NNP with_prev2_full:Congress_because with_prev2_POS_full:NNP_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:before conn_POS:IN prev1:imply prev1_POS:VBP with_prev1_full:imply_before with_prev1_POS_full:VBP_IN prev2:they prev2_POS:PRP with_prev2_full:they_before with_prev2_POS_full:PRP_IN SS

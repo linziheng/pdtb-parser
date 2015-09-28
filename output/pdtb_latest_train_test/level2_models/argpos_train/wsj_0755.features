@@ -1,0 +1,8 @@
+conn:So conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:Venezuela prev2_POS:NNP with_prev2_full:Venezuela_also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:trends prev1_POS:NNS with_prev1_full:trends_because with_prev1_POS_full:NNS_IN prev2:environmental prev2_POS:JJ with_prev2_full:environmental_because with_prev2_POS_full:JJ_IN SS
+conn:as conn_POS:IN prev1:coming prev1_POS:VBG with_prev1_full:coming_as with_prev1_POS_full:VBG_IN prev2:'s prev2_POS:VBZ with_prev2_full:'s_as with_prev2_POS_full:VBZ_IN SS
+conn:Similarly conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:longer prev2_POS:RBR with_prev2_full:longer_but with_prev2_POS_full:RBR_CC SS

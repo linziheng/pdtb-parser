@@ -1,0 +1,28 @@
+conn:and conn_POS:CC prev1:days prev1_POS:NNS with_prev1_full:days_and with_prev1_POS_full:NNS_CC prev2:these prev2_POS:DT with_prev2_full:these_and with_prev2_POS_full:DT_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As_if conn_POS:IN_IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:He prev2_POS:PRP with_prev2_full:He_also with_prev2_POS_full:PRP_RB PS
+conn:When conn_POS:WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Washington prev2_POS:NNP with_prev2_full:Washington_but with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:meager prev1_POS:JJ with_prev1_full:meager_and with_prev1_POS_full:JJ_CC prev2:been prev2_POS:VBN with_prev2_full:been_and with_prev2_POS_full:VBN_CC SS
+conn:almost_immediately_after conn_POS:RB_RB_IN prev1:resigned prev1_POS:VBD with_prev1_full:resigned_almost_immediately_after with_prev1_POS_full:VBD_RB_RB_IN prev2:he prev2_POS:PRP with_prev2_full:he_almost_immediately_after with_prev2_POS_full:PRP_RB_RB_IN SS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:investment prev2_POS:NN with_prev2_full:investment_before with_prev2_POS_full:NN_IN SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:confrontation prev2_POS:NN with_prev2_full:confrontation_even_though with_prev2_POS_full:NN_RB_IN SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:-LRB- prev2_POS:-LRB- with_prev2_full:-LRB-_then with_prev2_POS_full:-LRB-_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:survived prev2_POS:VBD with_prev2_full:survived_but with_prev2_POS_full:VBD_CC SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:Hollywood prev2_POS:NNP with_prev2_full:Hollywood_although with_prev2_POS_full:NNP_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:silly prev2_POS:JJ with_prev2_full:silly_and with_prev2_POS_full:JJ_CC SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:1980 prev1_POS:CD with_prev1_full:1980_after with_prev1_POS_full:CD_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:firm prev2_POS:NN with_prev2_full:firm_but with_prev2_POS_full:NN_CC SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:home prev1_POS:NN with_prev1_full:home_after with_prev1_POS_full:NN_IN prev2:Deaver prev2_POS:NNP with_prev2_full:Deaver_after with_prev2_POS_full:NNP_IN SS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN SS

@@ -1,0 +1,10 @@
+conn:when conn_POS:WRB prev1:maker prev1_POS:NN with_prev1_full:maker_when with_prev1_POS_full:NN_WRB prev2:auto prev2_POS:NN with_prev2_full:auto_when with_prev2_POS_full:NN_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:me prev1_POS:PRP with_prev1_full:me_if with_prev1_POS_full:PRP_IN prev2:surprise prev2_POS:VB with_prev2_full:surprise_if with_prev2_POS_full:VB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:officials prev2_POS:NNS with_prev2_full:officials_but with_prev2_POS_full:NNS_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:Ford prev1_POS:NNP with_prev1_full:Ford_because with_prev1_POS_full:NNP_IN prev2:over prev2_POS:IN with_prev2_full:over_because with_prev2_POS_full:IN_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:models prev2_POS:NNS with_prev2_full:models_but with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:officials prev1_POS:NNS with_prev1_full:officials_also with_prev1_POS_full:NNS_RB prev2:GM prev2_POS:NNP with_prev2_full:GM_also with_prev2_POS_full:NNP_RB PS

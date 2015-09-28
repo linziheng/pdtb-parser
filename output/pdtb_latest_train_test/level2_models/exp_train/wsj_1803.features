@@ -1,0 +1,26 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:open_and Contrast
+conn_lc:although conn:although conn_POS:IN with_prev_full:that_although Concession
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:night_while Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:international_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:mainly_because conn:mainly_because conn_POS:RB_IN with_prev_full:--_mainly_because Cause
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:caused_when Asynchronous
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:;_in_fact Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:city_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

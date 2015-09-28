@@ -1,0 +1,13 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:exposure_if Condition
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:but_even_if Condition
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:but_even_if Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

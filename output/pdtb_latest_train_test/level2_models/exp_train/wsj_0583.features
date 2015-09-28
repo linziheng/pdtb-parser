@@ -1,0 +1,20 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:--_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:tomorrow_and Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:usually_when Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:so conn:so conn_POS:IN with_prev_full:needs_so Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Contrast

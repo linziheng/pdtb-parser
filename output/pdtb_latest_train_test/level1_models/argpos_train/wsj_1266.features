@@ -1,0 +1,5 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:followed prev1_POS:VBD with_prev1_full:followed_and with_prev1_POS_full:VBD_CC prev2:withdrawals prev2_POS:NNS with_prev2_full:withdrawals_and with_prev2_POS_full:NNS_CC SS
+conn:after conn_POS:IN prev1:prison prev1_POS:NN with_prev1_full:prison_after with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:reportedly_after conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_reportedly_after with_prev1_POS_full:,_RB_IN prev2:65 prev2_POS:CD with_prev2_full:65_reportedly_after with_prev2_POS_full:CD_RB_IN SS
+conn:four_days_after conn_POS:CD_NNS_IN sent_pos:2 prev1:happened prev1_POS:VBD with_prev1_full:happened_four_days_after with_prev1_POS_full:VBD_CD_NNS_IN prev2:It prev2_POS:PRP with_prev2_full:It_four_days_after with_prev2_POS_full:PRP_CD_NNS_IN SS

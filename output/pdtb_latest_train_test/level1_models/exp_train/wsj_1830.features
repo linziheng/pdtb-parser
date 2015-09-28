@@ -1,0 +1,26 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:zip_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Expansion
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:salmonella_if Contingency
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:problems_as_long_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:producers_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:problem_as_long_as Contingency
+conn_lc:so conn:So conn_POS:CC Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:even_then conn:Even_then conn_POS:RB_RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

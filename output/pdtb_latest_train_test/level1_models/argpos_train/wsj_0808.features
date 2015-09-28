@@ -1,0 +1,4 @@
+conn:Ever_since conn_POS:RB_IN sent_pos:0 SS
+conn:then conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_then with_prev1_POS_full:VBZ_RB prev2:filing prev2_POS:NN with_prev2_full:filing_then with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:reviewed prev1_POS:VBN with_prev1_full:reviewed_and with_prev1_POS_full:VBN_CC prev2:then prev2_POS:RB with_prev2_full:then_and with_prev2_POS_full:RB_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS

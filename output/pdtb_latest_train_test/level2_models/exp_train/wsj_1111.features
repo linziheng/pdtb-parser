@@ -1,0 +1,7 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition

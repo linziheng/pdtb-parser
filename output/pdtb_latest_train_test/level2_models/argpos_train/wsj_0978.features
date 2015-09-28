@@ -1,0 +1,22 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:move prev2_POS:NN with_prev2_full:move_but with_prev2_POS_full:NN_CC SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:shift prev2_POS:NN with_prev2_full:shift_although with_prev2_POS_full:NN_IN SS
+conn:then conn_POS:RB prev1:said prev1_POS:VBD with_prev1_full:said_then with_prev1_POS_full:VBD_RB prev2:was prev2_POS:VBD with_prev2_full:was_then with_prev2_POS_full:VBD_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:instead conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_instead with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_instead with_prev2_POS_full:,_RB SS
+conn:if conn_POS:IN prev1:risk prev1_POS:NN with_prev1_full:risk_if with_prev1_POS_full:NN_IN prev2:at prev2_POS:IN with_prev2_full:at_if with_prev2_POS_full:IN_IN SS
+conn:when conn_POS:WRB prev1:came prev1_POS:VBD with_prev1_full:came_when with_prev1_POS_full:VBD_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:higher prev2_POS:JJR with_prev2_full:higher_while with_prev2_POS_full:JJR_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:results prev2_POS:NNS with_prev2_full:results_while with_prev2_POS_full:NNS_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_when with_prev2_POS_full:NN_WRB SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:prices prev2_POS:NNS with_prev2_full:prices_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:explaining prev2_POS:VBG with_prev2_full:explaining_if with_prev2_POS_full:VBG_IN SS
+conn:if conn_POS:IN prev1:buy prev1_POS:VB with_prev1_full:buy_if with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_if with_prev2_POS_full:TO_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:Terrizzi prev2_POS:NNP with_prev2_full:Terrizzi_so with_prev2_POS_full:NNP_IN SS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:T-bills prev2_POS:NNS with_prev2_full:T-bills_even_if with_prev2_POS_full:NNS_RB_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:portfolio prev2_POS:NN with_prev2_full:portfolio_as with_prev2_POS_full:NN_IN SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:models prev2_POS:NNS with_prev2_full:models_so with_prev2_POS_full:NNS_IN SS
+conn:while conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_while with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_while with_prev2_POS_full:DT_IN SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ones prev2_POS:NNS with_prev2_full:ones_and with_prev2_POS_full:NNS_CC SS

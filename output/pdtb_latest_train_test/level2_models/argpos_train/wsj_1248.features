@@ -1,0 +1,13 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Friday prev2_POS:NNP with_prev2_full:Friday_after with_prev2_POS_full:NNP_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bonds prev2_POS:NNS with_prev2_full:bonds_but with_prev2_POS_full:NNS_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:up prev2_POS:IN with_prev2_full:up_but with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:issue prev1_POS:NN with_prev1_full:issue_also with_prev1_POS_full:NN_RB prev2:rights prev2_POS:NNS with_prev2_full:rights_also with_prev2_POS_full:NNS_RB PS
+conn:after conn_POS:IN prev1:seen prev1_POS:VBN with_prev1_full:seen_after with_prev1_POS_full:VBN_IN prev2:level prev2_POS:NN with_prev2_full:level_after with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_because with_prev1_POS_full:CC_IN SS
+conn:after conn_POS:IN prev1:underwriters prev1_POS:NNS with_prev1_full:underwriters_after with_prev1_POS_full:NNS_IN prev2:with prev2_POS:IN with_prev2_full:with_after with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

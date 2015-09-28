@@ -1,0 +1,4 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Par prev1_POS:NNP with_prev1_full:Par_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Patel prev1_POS:NNP with_prev1_full:Patel_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS

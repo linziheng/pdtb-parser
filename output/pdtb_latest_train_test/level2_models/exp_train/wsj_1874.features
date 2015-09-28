@@ -1,0 +1,34 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:rose_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:rose_instead Alternative
+conn_lc:if_if_the_stock_market_tremors_are_behind_us_,_then conn:If_If_the_stock_market_tremors_are_behind_us_,_then conn_POS:IN_IN_DT_NN_NN_NNS_VBP_IN_PRP_,_RB with_prev_full:``_if_if_the_stock_market_tremors_are_behind_us_,_then Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:fell_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:debt_as Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:bonds_because Cause
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:change_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:treasurys_as Cause
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:and_because Cause
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:lower_as Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:out_and Conjunction
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:sidelines_as Synchrony

@@ -1,0 +1,36 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:further_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:further_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:channel_also Conjunction
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:began_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:began_when Cause
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:lower_now_that Asynchronous
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:lower_now_that Cause
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:bearish_now_that Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:opening_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Asynchronous
+conn_lc:as conn:as conn_POS:RB with_prev_full:up_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:selling_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:came_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:came_when Cause
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:worse_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:traders_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:yesterday_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:proof_before Asynchronous
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:mixed_as Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:weekend_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:york_as Synchrony

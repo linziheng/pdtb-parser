@@ -1,0 +1,13 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:buffetting_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:,_even_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:plummeted_after Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:time_before Asynchronous
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:until conn:until conn_POS:IN with_prev_full:stop_until Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:or_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast

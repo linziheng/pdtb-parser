@@ -1,0 +1,3 @@
+conn:ultimately conn_POS:RB sent_pos:1 prev1:Sperry prev1_POS:NNP with_prev1_full:Sperry_ultimately with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:prosecutors prev1_POS:NNS with_prev1_full:prosecutors_also with_prev1_POS_full:NNS_RB prev2:by prev2_POS:IN with_prev2_full:by_also with_prev2_POS_full:IN_RB PS
+conn:because conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_because with_prev1_POS_full:``_IN prev2:officials prev2_POS:NNS with_prev2_full:officials_because with_prev2_POS_full:NNS_IN SS

@@ -1,0 +1,13 @@
+conn:Nor conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:closed prev1_POS:VBD with_prev1_full:closed_when with_prev1_POS_full:VBD_WRB prev2:business prev2_POS:NN with_prev2_full:business_when with_prev2_POS_full:NN_WRB SS
+conn:as conn_POS:IN prev1:hand prev1_POS:NN with_prev1_full:hand_as with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_as with_prev2_POS_full:DT_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:personnel prev1_POS:NNS with_prev1_full:personnel_and with_prev1_POS_full:NNS_CC prev2:recruiting prev2_POS:VBG with_prev2_full:recruiting_and with_prev2_POS_full:VBG_CC SS
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:crime prev2_POS:NN with_prev2_full:crime_also with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:jobs prev2_POS:NNS with_prev2_full:jobs_if with_prev2_POS_full:NNS_IN SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:1984 prev2_POS:CD with_prev2_full:1984_in_fact with_prev2_POS_full:CD_IN_NN PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:businesses prev2_POS:NNS with_prev2_full:businesses_however with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:sense prev1_POS:NN with_prev1_full:sense_because with_prev1_POS_full:NN_IN prev2:makes prev2_POS:VBZ with_prev2_full:makes_because with_prev2_POS_full:VBZ_IN SS
+conn:While conn_POS:IN sent_pos:0 SS

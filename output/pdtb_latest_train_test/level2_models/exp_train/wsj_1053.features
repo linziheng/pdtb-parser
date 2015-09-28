@@ -1,0 +1,10 @@
+conn_lc:years_before conn:years_before conn_POS:NNS_IN with_prev_full:politics_years_before Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fashion_when Synchrony
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:foot_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:if_indeed Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast

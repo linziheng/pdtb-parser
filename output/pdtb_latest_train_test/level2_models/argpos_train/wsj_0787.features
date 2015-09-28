@@ -1,0 +1,11 @@
+conn:if conn_POS:IN prev1:markets prev1_POS:NNS with_prev1_full:markets_if with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:levels prev1_POS:NNS with_prev1_full:levels_and with_prev1_POS_full:NNS_CC prev2:these prev2_POS:DT with_prev2_full:these_and with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:Brady prev1_POS:NNP with_prev1_full:Brady_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:while conn_POS:IN prev1:-LRB- prev1_POS:-LRB- with_prev1_full:-LRB-_while with_prev1_POS_full:-LRB-_IN prev2:, prev2_POS:, with_prev2_full:,_while with_prev2_POS_full:,_IN SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:Brady prev1_POS:NNP with_prev1_full:Brady_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:bill prev1_POS:NN with_prev1_full:bill_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

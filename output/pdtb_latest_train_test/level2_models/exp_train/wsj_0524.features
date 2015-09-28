@@ -1,0 +1,30 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:spotty_even_though Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:shaky_now_that Synchrony
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:shaky_now_that Cause
+conn_lc:since conn:since conn_POS:IN with_prev_full:growing_since Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:until conn:until conn_POS:IN with_prev_full:arrive_until Condition
+conn_lc:until conn:until conn_POS:IN with_prev_full:arrive_until Asynchronous
+conn_lc:since conn:Since conn_POS:IN Asynchronous
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:conservative_when Synchrony
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:justified_unless Alternative
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:conversely conn:Conversely conn_POS:RB Contrast
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:once conn:Once conn_POS:IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:since conn:since conn_POS:IN with_prev_full:poverty_since Asynchronous
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:that_also Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:that_also Conjunction

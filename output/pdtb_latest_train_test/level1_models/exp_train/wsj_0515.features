@@ -1,0 +1,20 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:is_because Contingency
+conn_lc:ever_since conn:Ever_since conn_POS:RB_IN Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:doctors_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:fibers_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:time_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Temporal
+conn_lc:and conn:And conn_POS:CC Contingency

@@ -1,0 +1,14 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Conjunction
+conn_lc:later conn:later conn_POS:RB with_prev_full:york_later Asynchronous
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:parent_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

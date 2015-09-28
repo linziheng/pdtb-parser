@@ -30,6 +30,7 @@ import org.apache.logging.log4j.Logger;
 
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
@@ -58,6 +59,9 @@ public abstract class Component {
 
 	public abstract List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException;
 
+	public abstract List<String[]> generateFeatures(Type corpus, File article, FeatureType featureType)
+			throws IOException;
+
 	public abstract File parseAnyText(File modelFile, File inputFile) throws IOException;
 
 	public File parseAnyText(File inputFile) throws IOException {
@@ -78,7 +82,15 @@ public abstract class Component {
 		return outFile;
 	}
 
+	public File test(FeatureType featureType) throws IOException {
+		return test(modelFile, featureType);
+	}
+
 	private File printFeaturesToFile(FeatureType featureType) throws IOException {
+		return printFeaturesToFile(Type.PDTB, featureType);
+	}
+
+	private File printFeaturesToFile(Type corpus, FeatureType featureType) throws IOException {
 
 		String name = this.name + featureType.toString();
 
@@ -105,7 +117,7 @@ public abstract class Component {
 				File auxFile = new File(articleName + ".aux");
 				PrintWriter auxFileWriter = new PrintWriter(auxFile);
 
-				List<String[]> features = generateFeatures(file, featureType);
+				List<String[]> features = generateFeatures(corpus, file, featureType);
 				for (String[] feature : features) {
 					featureFile.println(feature[0]);
 					articleFeatures.println(feature[0]);
@@ -165,10 +177,6 @@ public abstract class Component {
 			}
 			pipeWriter.close();
 		}
-	}
-
-	public File test(FeatureType featureType) throws IOException {
-		return test(modelFile, featureType);
 	}
 
 	public File getModelFile() {

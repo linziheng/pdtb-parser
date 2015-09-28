@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:companies_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:integrated_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:estimate_but Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction

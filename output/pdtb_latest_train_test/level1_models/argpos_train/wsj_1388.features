@@ -1,0 +1,29 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:night prev2_POS:NN with_prev2_full:night_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:once conn_POS:IN sent_pos:2 prev1:But prev1_POS:CC with_prev1_full:But_once with_prev1_POS_full:CC_IN prev2:`` prev2_POS:`` with_prev2_full:``_once with_prev2_POS_full:``_IN SS
+conn:Afterwards conn_POS:RB sent_pos:0 PS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:orchestras prev1_POS:NNS with_prev1_full:orchestras_while with_prev1_POS_full:NNS_IN prev2:major prev2_POS:JJ with_prev2_full:major_while with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:until conn_POS:IN prev1:count prev1_POS:VB with_prev1_full:count_until with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_until with_prev2_POS_full:TO_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:after conn_POS:IN prev1:place prev1_POS:NN with_prev1_full:place_after with_prev1_POS_full:NN_IN prev2:took prev2_POS:VBD with_prev2_full:took_after with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_and with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:because conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_because with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:when conn_POS:WRB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:Now prev2_POS:RB with_prev2_full:Now_when with_prev2_POS_full:RB_WRB SS
+conn:also conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:much prev2_POS:JJ with_prev2_full:much_but with_prev2_POS_full:JJ_CC SS
+conn:because conn_POS:IN prev1:important prev1_POS:JJ with_prev1_full:important_because with_prev1_POS_full:JJ_IN prev2:was prev2_POS:VBD with_prev2_full:was_because with_prev2_POS_full:VBD_IN SS
+conn:if conn_POS:IN prev1:me prev1_POS:PRP with_prev1_full:me_if with_prev1_POS_full:PRP_IN prev2:kill prev2_POS:VB with_prev2_full:kill_if with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:score prev2_POS:NN with_prev2_full:score_and with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_So with_prev1_POS_full:``_IN PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:By_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Even_when conn_POS:RB_WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Even_when with_prev1_POS_full:``_RB_WRB SS
+conn:If..then conn_POS:IN_RB SS

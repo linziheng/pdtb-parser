@@ -1,0 +1,2 @@
+conn:also conn_POS:RB prev1:thrift prev1_POS:NN with_prev1_full:thrift_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:loans prev2_POS:NNS with_prev2_full:loans_while with_prev2_POS_full:NNS_IN SS

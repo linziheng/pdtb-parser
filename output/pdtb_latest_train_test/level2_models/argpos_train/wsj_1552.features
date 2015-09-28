@@ -1,0 +1,6 @@
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:31 prev2_POS:CD with_prev2_full:31_and with_prev2_POS_full:CD_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:division prev1_POS:NN with_prev1_full:division_also with_prev1_POS_full:NN_RB prev2:defense-electronics prev2_POS:JJ with_prev2_full:defense-electronics_also with_prev2_POS_full:JJ_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_and with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:Further conn_POS:RB sent_pos:0 PS

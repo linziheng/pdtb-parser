@@ -1,0 +1,18 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:RB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_after with_prev1_POS_full:CC_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:even_though conn_POS:RB_IN prev1:doing prev1_POS:VBG with_prev1_full:doing_even_though with_prev1_POS_full:VBG_RB_IN prev2:been prev2_POS:VBN with_prev2_full:been_even_though with_prev2_POS_full:VBN_RB_IN SS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:ago prev2_POS:RB with_prev2_full:ago_but with_prev2_POS_full:RB_CC SS
+conn:before conn_POS:IN prev1:July prev1_POS:NNP with_prev1_full:July_before with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_before with_prev2_POS_full:IN_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:tone prev1_POS:NN with_prev1_full:tone_after with_prev1_POS_full:NN_IN prev2:dial prev2_POS:NN with_prev2_full:dial_after with_prev2_POS_full:NN_IN SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:before conn_POS:IN prev1:signal prev1_POS:NN with_prev1_full:signal_before with_prev1_POS_full:NN_IN prev2:busy prev2_POS:JJ with_prev2_full:busy_before with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Officials prev1_POS:NNS with_prev1_full:Officials_also with_prev1_POS_full:NNS_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Analysts prev1_POS:NNS with_prev1_full:Analysts_also with_prev1_POS_full:NNS_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:say prev2_POS:VBP with_prev2_full:say_however with_prev2_POS_full:VBP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:rhetoric prev2_POS:NN with_prev2_full:rhetoric_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS

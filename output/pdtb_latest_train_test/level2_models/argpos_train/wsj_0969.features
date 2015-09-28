@@ -1,0 +1,2 @@
+conn:after conn_POS:IN prev1:April prev1_POS:NNP with_prev1_full:April_after with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:set prev2_POS:VBN with_prev2_full:set_but with_prev2_POS_full:VBN_CC SS

@@ -1,0 +1,21 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:struggling_as Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:unsuccessful_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:policy_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:ad_also Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:avoided_since Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:shoppers_because Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion

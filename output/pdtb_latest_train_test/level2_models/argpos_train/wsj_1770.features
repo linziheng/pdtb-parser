@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:ventures prev2_POS:NNS with_prev2_full:ventures_but with_prev2_POS_full:NNS_CC SS
+conn:because conn_POS:IN prev1:resignation prev1_POS:NN with_prev1_full:resignation_because with_prev1_POS_full:NN_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_because with_prev2_POS_full:PRP$_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Group prev2_POS:NNP with_prev2_full:Group_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:Holding prev1_POS:NNP with_prev1_full:Holding_and with_prev1_POS_full:NNP_CC prev2:Capital prev2_POS:NNP with_prev2_full:Capital_and with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:management prev2_POS:NN with_prev2_full:management_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS

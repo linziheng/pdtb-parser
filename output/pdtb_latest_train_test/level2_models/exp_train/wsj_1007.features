@@ -1,0 +1,8 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:trade_as Synchrony
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:,_before Asynchronous
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Concession

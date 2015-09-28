@@ -1,0 +1,7 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:quake prev2_POS:NN with_prev2_full:quake_while with_prev2_POS_full:NN_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:campaigns prev2_POS:NNS with_prev2_full:campaigns_and with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:instead conn_POS:RB sent_pos:-2 prev1:Francisco prev1_POS:NNP with_prev1_full:Francisco_instead with_prev1_POS_full:NNP_RB prev2:San prev2_POS:NNP with_prev2_full:San_instead with_prev2_POS_full:NNP_RB SS

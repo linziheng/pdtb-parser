@@ -1,0 +1,11 @@
+conn_lc:two_weeks_after conn:Two_weeks_after conn_POS:CD_NNS_IN Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:lawson_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:lawson_also Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Cause
+conn_lc:after conn:after conn_POS:IN with_prev_full:''_after Asynchronous
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:specifically conn:Specifically conn_POS:RB Restatement
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

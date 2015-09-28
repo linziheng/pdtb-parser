@@ -1,0 +1,3 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:MBB prev2_POS:NNP with_prev2_full:MBB_but with_prev2_POS_full:NNP_CC SS
+conn:after conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_after with_prev1_POS_full:NN_IN prev2:30 prev2_POS:CD with_prev2_full:30_after with_prev2_POS_full:CD_IN SS

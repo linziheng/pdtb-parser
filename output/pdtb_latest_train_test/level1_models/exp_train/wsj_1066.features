@@ -1,0 +1,6 @@
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:transaction_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:medical_after Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion

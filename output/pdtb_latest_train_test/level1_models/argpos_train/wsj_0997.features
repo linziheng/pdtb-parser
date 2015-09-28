@@ -1,0 +1,8 @@
+conn:also conn_POS:RB sent_pos:1 prev1:KKR prev1_POS:NNP with_prev1_full:KKR_also with_prev1_POS_full:NNP_RB PS
+conn:once conn_POS:IN prev1:board prev1_POS:NN with_prev1_full:board_once with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_once with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:TV prev2_POS:NNP with_prev2_full:TV_thus with_prev2_POS_full:NNP_RB SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:bondholders prev2_POS:NNS with_prev2_full:bondholders_while with_prev2_POS_full:NNS_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Yet conn_POS:RB sent_pos:0 PS

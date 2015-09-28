@@ -1,0 +1,7 @@
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:workers_unless Alternative
+conn_lc:also conn:also conn_POS:RB with_prev_full:government_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:indeed conn:Indeed conn_POS:RB Pragmatic_cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:charter_after Asynchronous

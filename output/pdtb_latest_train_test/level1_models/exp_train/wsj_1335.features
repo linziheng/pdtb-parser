@@ -1,0 +1,12 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:yet conn:Yet conn_POS:CC with_prev_full:``_yet Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:dashed_and Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison

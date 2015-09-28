@@ -1,0 +1,29 @@
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:indexing_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:options_also Expansion
+conn_lc:after conn:After conn_POS:IN with_prev_full:-lrb-_after Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:toaster_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:toaster_when Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:futures_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:carder_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:co._also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if_if_the_futures_markets_have_a_problem_,_then conn:If_If_the_futures_markets_have_a_problem_,_then conn_POS:IN_IN_DT_NNS_NNS_VBP_DT_NN_,_RB with_prev_full:``_if_if_the_futures_markets_have_a_problem_,_then Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:declines_while Temporal
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:hurt_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:hurt_when Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion

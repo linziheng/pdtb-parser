@@ -1,0 +1,11 @@
+conn:only_after conn_POS:RB_IN prev1:considered prev1_POS:VBN with_prev1_full:considered_only_after with_prev1_POS_full:VBN_RB_IN prev2:be prev2_POS:VB with_prev2_full:be_only_after with_prev2_POS_full:VB_RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Taiwan prev2_POS:NNP with_prev2_full:Taiwan_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:Sutcliffe prev1_POS:NNP with_prev1_full:Sutcliffe_when with_prev1_POS_full:NNP_WRB prev2:Mrs. prev2_POS:NNP with_prev2_full:Mrs._when with_prev2_POS_full:NNP_WRB SS
+conn:because conn_POS:IN prev1:closure prev1_POS:NN with_prev1_full:closure_because with_prev1_POS_full:NN_IN prev2:with prev2_POS:IN with_prev2_full:with_because with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:but prev2_POS:CC with_prev2_full:but_also with_prev2_POS_full:CC_RB SS
+conn:and conn_POS:CC prev1:venture prev1_POS:NN with_prev1_full:venture_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:if conn_POS:IN prev1:sharply prev1_POS:RB with_prev1_full:sharply_if with_prev1_POS_full:RB_IN prev2:fall prev2_POS:VB with_prev2_full:fall_if with_prev2_POS_full:VB_IN SS
+conn:if conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_if with_prev1_POS_full:NN_IN prev2:0.8 prev2_POS:CD with_prev2_full:0.8_if with_prev2_POS_full:CD_IN SS
+conn:unless conn_POS:IN prev1:2010 prev1_POS:CD with_prev1_full:2010_unless with_prev1_POS_full:CD_IN prev2:by prev2_POS:IN with_prev2_full:by_unless with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

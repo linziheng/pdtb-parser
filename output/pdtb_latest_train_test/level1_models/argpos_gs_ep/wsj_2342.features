@@ -1,0 +1,4 @@
+conn:because conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_because with_prev1_POS_full:NN_IN prev2:23 prev2_POS:CD with_prev2_full:23_because with_prev2_POS_full:CD_IN SS
+conn:While conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_While with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:soft prev2_POS:JJ with_prev2_full:soft_and with_prev2_POS_full:JJ_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:sales prev2_POS:NNS with_prev2_full:sales_and with_prev2_POS_full:NNS_CC SS

@@ -1,0 +1,13 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:unit_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:pound_also Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:credibility_and Expansion
+conn_lc:in_the_meantime conn:in_the_meantime conn_POS:IN_DT_NN with_prev_full:,_in_the_meantime Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:unless conn:Unless conn_POS:IN Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:slide_and Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal

@@ -1,0 +1,4 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:outlays_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:outlays_while Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:If conn_POS:IN Contingency

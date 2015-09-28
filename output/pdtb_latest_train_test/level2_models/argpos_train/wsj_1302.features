@@ -1,0 +1,33 @@
+conn:when conn_POS:WRB prev1:profits prev1_POS:NNS with_prev1_full:profits_when with_prev1_POS_full:NNS_WRB prev2:huge prev2_POS:JJ with_prev2_full:huge_when with_prev2_POS_full:JJ_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:claims prev2_POS:VBZ with_prev2_full:claims_but with_prev2_POS_full:VBZ_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Sea prev2_POS:NNP with_prev2_full:Sea_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:got prev2_POS:VBD with_prev2_full:got_and with_prev2_POS_full:VBD_CC SS
+conn:even_then conn_POS:RB_RB prev1:and prev1_POS:CC with_prev1_full:and_even_then with_prev1_POS_full:CC_RB_RB prev2:-- prev2_POS:: with_prev2_full:--_even_then with_prev2_POS_full::_RB_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:considerable prev2_POS:JJ with_prev2_full:considerable_and with_prev2_POS_full:JJ_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:built prev1_POS:VBN with_prev1_full:built_and with_prev1_POS_full:VBN_CC prev2:be prev2_POS:VB with_prev2_full:be_and with_prev2_POS_full:VB_CC SS
+conn:if conn_POS:IN prev1:smaller prev1_POS:JJR with_prev1_full:smaller_if with_prev1_POS_full:JJR_IN prev2:even prev2_POS:RB with_prev2_full:even_if with_prev2_POS_full:RB_IN SS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:ago prev2_POS:RB with_prev2_full:ago_for_instance with_prev2_POS_full:RB_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:suffered prev1_POS:VBN with_prev1_full:suffered_because with_prev1_POS_full:VBN_IN prev2:has prev2_POS:VBZ with_prev2_full:has_because with_prev2_POS_full:VBZ_IN SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:time prev2_POS:NN with_prev2_full:time_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:people prev1_POS:NNS with_prev1_full:people_then with_prev1_POS_full:NNS_RB prev2:other prev2_POS:JJ with_prev2_full:other_then with_prev2_POS_full:JJ_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:underwriters prev1_POS:NNS with_prev1_full:underwriters_also with_prev1_POS_full:NNS_RB prev2:maintain prev2_POS:VBP with_prev2_full:maintain_also with_prev2_POS_full:VBP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_before with_prev1_POS_full:NNS_IN prev2:be prev2_POS:VB with_prev2_full:be_before with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:1989 prev2_POS:CD with_prev2_full:1989_though with_prev2_POS_full:CD_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:NNP sent_pos:0 SS
+conn:also conn_POS:RB prev1:bureaucracy prev1_POS:NN with_prev1_full:bureaucracy_also with_prev1_POS_full:NN_RB prev2:overblown prev2_POS:JJ with_prev2_full:overblown_also with_prev2_POS_full:JJ_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:public prev2_POS:NN with_prev2_full:public_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:administrators prev1_POS:NNS with_prev1_full:administrators_before with_prev1_POS_full:NNS_IN prev2:and prev2_POS:CC with_prev2_full:and_before with_prev2_POS_full:CC_IN SS
+conn:though conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:fronts prev2_POS:NNS with_prev2_full:fronts_though with_prev2_POS_full:NNS_RB PS

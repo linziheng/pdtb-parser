@@ -1,0 +1,21 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:especially_when conn:especially_when conn_POS:RB_WRB with_prev_full:--_especially_when Restatement
+conn_lc:especially_when conn:especially_when conn_POS:RB_WRB with_prev_full:--_especially_when Synchrony
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:learned_while Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:specialized_also Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:RB with_prev_full:intensifying_as Synchrony
+conn_lc:as conn:as conn_POS:RB with_prev_full:intensifying_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:trek_previously Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:since conn:since conn_POS:IN with_prev_full:tripled_since Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast

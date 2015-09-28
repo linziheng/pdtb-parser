@@ -1,0 +1,16 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:trouble_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:program_while Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:%_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:overcapacity_because Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:it_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:down_and Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

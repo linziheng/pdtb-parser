@@ -1,0 +1,31 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:noticed_because Cause
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:metals_because Cause
+conn_lc:after conn:after conn_POS:IN with_prev_full:gold_after Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:money_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:recently_so Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:gold_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:lower_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:lower_and Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:gold_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:because_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:possible_before Asynchronous
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:activity_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:activity_as Cause
+conn_lc:since conn:Since conn_POS:IN Asynchronous
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:rise_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:rise_as Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:rebounded_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:rebounded_as Cause
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Asynchronous
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:sales_because Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:slightly_while Contrast

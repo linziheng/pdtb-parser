@@ -1,0 +1,35 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:getting_when Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:once conn:once conn_POS:RB with_prev_full:,_once Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:mill_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:once conn:Once conn_POS:RB Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Temporal
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

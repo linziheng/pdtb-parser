@@ -1,0 +1,36 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:further_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:further_as Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:channel_also Expansion
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:began_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:began_when Contingency
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:lower_now_that Temporal
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:lower_now_that Contingency
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:bearish_now_that Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:opening_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Temporal
+conn_lc:as conn:as conn_POS:RB with_prev_full:up_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:selling_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:came_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:came_when Contingency
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:worse_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:traders_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:yesterday_because Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:proof_before Temporal
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:mixed_as Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:weekend_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:york_as Temporal

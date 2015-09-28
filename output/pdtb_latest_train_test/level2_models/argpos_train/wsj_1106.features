@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:levels prev2_POS:NNS with_prev2_full:levels_and with_prev2_POS_full:NNS_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:imports prev2_POS:NNS with_prev2_full:imports_however with_prev2_POS_full:NNS_RB PS

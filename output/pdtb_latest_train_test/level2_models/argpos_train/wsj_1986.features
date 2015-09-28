@@ -1,0 +1,31 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:landing prev2_POS:NN with_prev2_full:landing_and with_prev2_POS_full:NN_CC SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:Bros. prev1_POS:NNP with_prev1_full:Bros._when with_prev1_POS_full:NNP_WRB prev2:Salomon prev2_POS:NNP with_prev2_full:Salomon_when with_prev2_POS_full:NNP_WRB SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:bland prev2_POS:JJ with_prev2_full:bland_though with_prev2_POS_full:JJ_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:years prev1_POS:NNS with_prev1_full:years_and with_prev1_POS_full:NNS_CC prev2:70 prev2_POS:CD with_prev2_full:70_and with_prev2_POS_full:CD_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:million prev2_POS:CD with_prev2_full:million_while with_prev2_POS_full:CD_IN SS
+conn:later conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_later with_prev1_POS_full:PRP_RB prev2:'' prev2_POS:'' with_prev2_full:''_later with_prev2_POS_full:''_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:book prev1_POS:NN with_prev1_full:book_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:When conn_POS:WRB prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB prev2:: prev2_POS:: with_prev2_full::_When with_prev2_POS_full::_WRB SS
+conn:and conn_POS:CC prev1:reddened prev1_POS:VB with_prev1_full:reddened_and with_prev1_POS_full:VB_CC prev2:face prev2_POS:NN with_prev2_full:face_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:So prev2_POS:RB with_prev2_full:So_as with_prev2_POS_full:RB_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:right prev2_POS:NN with_prev2_full:right_however with_prev2_POS_full:NN_RB PS
+conn:when conn_POS:WRB prev1:much prev1_POS:RB with_prev1_full:much_when with_prev1_POS_full:RB_WRB prev2:too prev2_POS:RB with_prev2_full:too_when with_prev2_POS_full:RB_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:over prev1_POS:RP with_prev1_full:over_when with_prev1_POS_full:RP_WRB prev2:takes prev2_POS:VBZ with_prev2_full:takes_when with_prev2_POS_full:VBZ_WRB SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:raiders prev2_POS:NNS with_prev2_full:raiders_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:If..then conn_POS:IN_RB SS
+conn:previously conn_POS:RB prev1:had prev1_POS:VBD with_prev1_full:had_previously with_prev1_POS_full:VBD_RB prev2:cell prev2_POS:NN with_prev2_full:cell_previously with_prev2_POS_full:NN_RB SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:in prev2_POS:RB with_prev2_full:in_and with_prev2_POS_full:RB_CC SS
+conn:in_turn conn_POS:IN_NN prev1:displaced prev1_POS:VBN with_prev1_full:displaced_in_turn with_prev1_POS_full:VBN_IN_NN prev2:be prev2_POS:VB with_prev2_full:be_in_turn with_prev2_POS_full:VB_IN_NN SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:Street prev2_POS:NNP with_prev2_full:Street_when with_prev2_POS_full:NNP_WRB SS

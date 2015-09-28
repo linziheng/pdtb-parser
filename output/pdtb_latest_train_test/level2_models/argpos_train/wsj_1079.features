@@ -1,0 +1,5 @@
+conn:also conn_POS:RB sent_pos:1 prev1:ITT prev1_POS:NNP with_prev1_full:ITT_also with_prev1_POS_full:NNP_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:insurance prev2_POS:NN with_prev2_full:insurance_however with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:offset prev2_POS:VBN with_prev2_full:offset_however with_prev2_POS_full:VBN_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:ITT prev1_POS:NNP with_prev1_full:ITT_also with_prev1_POS_full:NNP_RB PS

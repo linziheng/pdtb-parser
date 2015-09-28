@@ -1,0 +1,25 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:trimmed_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:goals_when Temporal
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:ideas_while Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:investors_also Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:will_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:will_then Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:backfire_unless Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:broadly_when Temporal
+conn_lc:or conn:Or conn_POS:CC Expansion

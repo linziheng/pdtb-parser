@@ -1,0 +1,32 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:exchange_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:ultimately conn:Ultimately conn_POS:RB Expansion
+conn_lc:ultimately conn:Ultimately conn_POS:RB Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:especially_as conn:especially_as conn_POS:RB_IN with_prev_full:,_especially_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:only_as_long_as conn:only_as_long_as conn_POS:RB_RB_RB_IN with_prev_full:but_only_as_long_as Temporal
+conn_lc:only_as_long_as conn:only_as_long_as conn_POS:RB_RB_RB_IN with_prev_full:but_only_as_long_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:think_if Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

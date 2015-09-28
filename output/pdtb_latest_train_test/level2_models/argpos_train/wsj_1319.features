@@ -1,0 +1,21 @@
+conn:once conn_POS:RB prev1:that prev1_POS:IN with_prev1_full:that_once with_prev1_POS_full:IN_RB prev2:said prev2_POS:VBD with_prev2_full:said_once with_prev2_POS_full:VBD_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:bank prev2_POS:NN with_prev2_full:bank_and with_prev2_POS_full:NN_CC SS
+conn:until conn_POS:IN prev1:comment prev1_POS:NN with_prev1_full:comment_until with_prev1_POS_full:NN_IN prev2:any prev2_POS:DT with_prev2_full:any_until with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:as conn_POS:IN prev1:up prev1_POS:RP with_prev1_full:up_as with_prev1_POS_full:RP_IN prev2:keep prev2_POS:VB with_prev2_full:keep_as with_prev2_POS_full:VB_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:instead conn_POS:RB prev1:groups prev1_POS:NNS with_prev1_full:groups_instead with_prev1_POS_full:NNS_RB prev2:two prev2_POS:CD with_prev2_full:two_instead with_prev2_POS_full:CD_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Alternatively conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:francs prev2_POS:NNS with_prev2_full:francs_and with_prev2_POS_full:NNS_CC SS
+conn:once conn_POS:IN prev1:bid prev1_POS:NN with_prev1_full:bid_once with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_once with_prev2_POS_full:PRP$_IN SS
+conn:only_after conn_POS:RB_IN prev1:bidding prev1_POS:VBG with_prev1_full:bidding_only_after with_prev1_POS_full:VBG_RB_IN prev2:, prev2_POS:, with_prev2_full:,_only_after with_prev2_POS_full:,_RB_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:takeover prev2_POS:NN with_prev2_full:takeover_however with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:however prev2_POS:RB with_prev2_full:however_and with_prev2_POS_full:RB_CC SS

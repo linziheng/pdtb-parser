@@ -1,0 +1,4 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:quarter prev2_POS:NN with_prev2_full:quarter_while with_prev2_POS_full:NN_IN SS
+conn:Overall conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:million prev1_POS:CD with_prev1_full:million_and with_prev1_POS_full:CD_CC prev2:807 prev2_POS:CD with_prev2_full:807_and with_prev2_POS_full:CD_CC SS

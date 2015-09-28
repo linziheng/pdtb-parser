@@ -1,0 +1,20 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:dictators_if Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:known_since Temporal
+conn_lc:since conn:since conn_POS:IN with_prev_full:known_since Contingency
+conn_lc:apparently_because conn:apparently_because conn_POS:RB_IN with_prev_full:,_apparently_because Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:public_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:required_even_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:,_partly_because Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison

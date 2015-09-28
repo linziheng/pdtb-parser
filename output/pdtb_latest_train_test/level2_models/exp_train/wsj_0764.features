@@ -1,0 +1,22 @@
+conn_lc:because conn:because conn_POS:RB with_prev_full:,_because Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:done_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:done_and Cause
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:government_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Pragmatic_condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also List
+conn_lc:and conn:and conn_POS:CC with_prev_full:accomplished_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Concession
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Conjunction
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause

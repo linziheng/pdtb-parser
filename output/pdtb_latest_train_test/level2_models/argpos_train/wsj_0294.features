@@ -1,0 +1,5 @@
+conn:if conn_POS:IN prev1:which prev1_POS:WDT with_prev1_full:which_if with_prev1_POS_full:WDT_IN prev2:, prev2_POS:, with_prev2_full:,_if with_prev2_POS_full:,_IN SS
+conn:when conn_POS:WRB prev1:apart prev1_POS:RB with_prev1_full:apart_when with_prev1_POS_full:RB_WRB prev2:fell prev2_POS:VBD with_prev2_full:fell_when with_prev2_POS_full:VBD_WRB SS
+conn:as_long_as conn_POS:RB_RB_IN prev1:cut prev1_POS:NN with_prev1_full:cut_as_long_as with_prev1_POS_full:NN_RB_RB_IN prev2:pay prev2_POS:NN with_prev2_full:pay_as_long_as with_prev2_POS_full:NN_RB_RB_IN SS
+conn:Shortly_after conn_POS:RB_IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:claim prev2_POS:NN with_prev2_full:claim_but with_prev2_POS_full:NN_CC SS

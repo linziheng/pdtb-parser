@@ -1,0 +1,45 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:land_as Temporal
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:born_as_a_result Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:until conn:Until conn_POS:IN Temporal
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:prices_instead Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:shown_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:smiles_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Contingency
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:says_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:materials_also Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Temporal
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:next conn:next conn_POS:RB with_prev_full:come_next Temporal
+conn_lc:next conn:next conn_POS:RB with_prev_full:come_next Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Expansion

@@ -1,0 +1,4 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:occurred prev1_POS:VBN with_prev1_full:occurred_after with_prev1_POS_full:VBN_IN prev2:have prev2_POS:VB with_prev2_full:have_after with_prev2_POS_full:VB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS

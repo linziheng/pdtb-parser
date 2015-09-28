@@ -1,0 +1,5 @@
+conn:if conn_POS:IN prev1:win prev1_POS:VB with_prev1_full:win_if with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_if with_prev2_POS_full:TO_IN SS
+conn:in_turn conn_POS:IN_NN prev1:which prev1_POS:WDT with_prev1_full:which_in_turn with_prev1_POS_full:WDT_IN_NN prev2:, prev2_POS:, with_prev2_full:,_in_turn with_prev2_POS_full:,_IN_NN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:security prev2_POS:NN with_prev2_full:security_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:secretary prev1_POS:NN with_prev1_full:secretary_because with_prev1_POS_full:NN_IN prev2:Navy prev2_POS:NNP with_prev2_full:Navy_because with_prev2_POS_full:NNP_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:demise prev2_POS:NN with_prev2_full:demise_but with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:known prev2_POS:VBN with_prev2_full:known_but with_prev2_POS_full:VBN_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:quarter prev2_POS:NN with_prev2_full:quarter_while with_prev2_POS_full:NN_IN SS
+conn:before conn_POS:IN prev1:report prev1_POS:NN with_prev1_full:report_before with_prev1_POS_full:NN_IN prev2:earnings prev2_POS:NNS with_prev2_full:earnings_before with_prev2_POS_full:NNS_IN SS
+conn:while conn_POS:IN prev1:packages prev1_POS:NNS with_prev1_full:packages_while with_prev1_POS_full:NNS_IN prev2:severance prev2_POS:NN with_prev2_full:severance_while with_prev2_POS_full:NN_IN SS

@@ -1,0 +1,2 @@
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:triggered prev1_POS:VBN with_prev1_full:triggered_if with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS

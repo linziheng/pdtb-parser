@@ -1,0 +1,13 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:work prev2_POS:VB with_prev2_full:work_and with_prev2_POS_full:VB_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:it prev1_POS:PRP with_prev1_full:it_because with_prev1_POS_full:PRP_IN prev2:cool prev2_POS:VB with_prev2_full:cool_because with_prev2_POS_full:VB_IN SS
+conn:so conn_POS:RB prev1:' prev1_POS:'' with_prev1_full:'_so with_prev1_POS_full:''_RB prev2:, prev2_POS:, with_prev2_full:,_so with_prev2_POS_full:,_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:Kemper prev1_POS:NNP with_prev1_full:Kemper_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:Board prev1_POS:NNP with_prev1_full:Board_also with_prev1_POS_full:NNP_RB prev2:Big prev2_POS:NNP with_prev2_full:Big_also with_prev2_POS_full:NNP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:-RCB- prev2_POS:-RRB- with_prev2_full:-RCB-_but with_prev2_POS_full:-RRB-_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:him prev2_POS:PRP with_prev2_full:him_but with_prev2_POS_full:PRP_CC SS
+conn:when conn_POS:WRB prev1:arbitrage prev1_POS:NN with_prev1_full:arbitrage_when with_prev1_POS_full:NN_WRB prev2:index prev2_POS:NN with_prev2_full:index_when with_prev2_POS_full:NN_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:stress prev2_POS:NN with_prev2_full:stress_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if..then conn_POS:IN_RB SS

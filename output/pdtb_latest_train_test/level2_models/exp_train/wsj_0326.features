@@ -1,0 +1,13 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:but_even_before Asynchronous
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:outraged_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:freedom_and Conjunction
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:and_in_fact Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:indeed conn:Indeed conn_POS:RB with_prev_full:-lrb-_indeed Conjunction

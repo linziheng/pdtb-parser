@@ -1,0 +1,6 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:PWA prev1_POS:NNP with_prev1_full:PWA_also with_prev1_POS_full:NNP_RB prev2:that prev2_POS:IN with_prev2_full:that_also with_prev2_POS_full:IN_RB PS
+conn:partly_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_partly_because with_prev1_POS_full:,_RB_IN prev2:strong prev2_POS:JJ with_prev2_full:strong_partly_because with_prev2_POS_full:JJ_RB_IN SS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:overhaul prev2_POS:NN with_prev2_full:overhaul_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS

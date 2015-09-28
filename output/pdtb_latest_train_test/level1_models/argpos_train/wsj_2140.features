@@ -1,0 +1,12 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_but with_prev2_POS_full:NN_CC SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:otherwise conn_POS:RB prev1:; prev1_POS:: with_prev1_full:;_otherwise with_prev1_POS_full::_RB prev2:blessing prev2_POS:NN with_prev2_full:blessing_otherwise with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:back prev1_POS:RB with_prev1_full:back_and with_prev1_POS_full:RB_CC prev2:bounce prev2_POS:VB with_prev2_full:bounce_and with_prev2_POS_full:VB_CC SS
+conn:By_then conn_POS:IN_RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:then prev2_POS:RB with_prev2_full:then_also with_prev2_POS_full:RB_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:threat prev2_POS:NN with_prev2_full:threat_but with_prev2_POS_full:NN_CC SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:share prev2_POS:NN with_prev2_full:share_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:reportedly prev1_POS:RB with_prev1_full:reportedly_also with_prev1_POS_full:RB_RB prev2:is prev2_POS:VBZ with_prev2_full:is_also with_prev2_POS_full:VBZ_RB PS

@@ -1,0 +1,17 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pizza_when Synchrony
+conn_lc:until conn:until conn_POS:IN with_prev_full:yelling_until Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:longer_before Asynchronous
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:afterward conn:afterward conn_POS:RB with_prev_full:market_afterward Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:so conn:so conn_POS:IN with_prev_full:time_so Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:''_as Synchrony

@@ -1,0 +1,45 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:so conn:so conn_POS:CC with_prev_full:;_so Cause
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:31_even_though Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:u.s._even_though Concession
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:although conn:although conn_POS:IN with_prev_full:but_although Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:largely_because conn:largely_because conn_POS:RB_IN with_prev_full:year_largely_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction
+conn_lc:once conn:Once conn_POS:RB Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Conjunction
+conn_lc:besides conn:Besides conn_POS:IN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:so conn:so conn_POS:CC with_prev_full:;_so Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:exports_when Synchrony
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

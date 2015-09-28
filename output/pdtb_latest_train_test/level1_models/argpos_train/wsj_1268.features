@@ -1,0 +1,4 @@
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:Graphics prev2_POS:NNP with_prev2_full:Graphics_on_the_other_hand with_prev2_POS_full:NNP_IN_DT_JJ_NN PS
+conn:Though conn_POS:NNP sent_pos:0 SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Graphics prev1_POS:NNP with_prev1_full:Graphics_also with_prev1_POS_full:NNP_RB prev2:Silicon prev2_POS:NNP with_prev2_full:Silicon_also with_prev2_POS_full:NNP_RB PS

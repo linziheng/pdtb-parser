@@ -1,0 +1,8 @@
+conn:then conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_then with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:potential prev1_POS:NN with_prev1_full:potential_and with_prev1_POS_full:NN_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:Nonetheless conn_POS:RB sent_pos:0 PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Cohen prev2_POS:NNP with_prev2_full:Cohen_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:technique prev2_POS:NN with_prev2_full:technique_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:-- prev2_POS:: with_prev2_full:--_then with_prev2_POS_full::_RB SS
+conn:in_turn conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_turn with_prev1_POS_full:,_IN_NN prev2:judgment prev2_POS:NN with_prev2_full:judgment_in_turn with_prev2_POS_full:NN_IN_NN PS

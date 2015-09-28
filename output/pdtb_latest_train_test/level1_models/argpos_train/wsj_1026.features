@@ -1,0 +1,26 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:now_that conn_POS:RB_IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_now_that with_prev1_POS_full:CC_RB_IN SS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS
+conn:as_long_as conn_POS:RB_RB_IN prev1:concern prev1_POS:NN with_prev1_full:concern_as_long_as with_prev1_POS_full:NN_RB_RB_IN prev2:much prev2_POS:JJ with_prev2_full:much_as_long_as with_prev2_POS_full:JJ_RB_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:weakest prev1_POS:JJS with_prev1_full:weakest_and with_prev1_POS_full:JJS_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:harvest prev1_POS:NN with_prev1_full:harvest_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:fell prev2_POS:VBD with_prev2_full:fell_however with_prev2_POS_full:VBD_RB PS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:countries prev2_POS:NNS with_prev2_full:countries_also with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:gulf prev1_POS:NN with_prev1_full:gulf_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:modestly prev2_POS:RB with_prev2_full:modestly_but with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:cent prev2_POS:NN with_prev2_full:cent_but with_prev2_POS_full:NN_CC SS
+conn:earlier conn_POS:RBR prev1:contracts prev1_POS:NNS with_prev1_full:contracts_earlier with_prev1_POS_full:NNS_RBR prev2:sold prev2_POS:VBN with_prev2_full:sold_earlier with_prev2_POS_full:VBN_RBR SS
+conn:also conn_POS:RB sent_pos:2 prev1:traders prev1_POS:NNS with_prev1_full:traders_also with_prev1_POS_full:NNS_RB prev2:Floor prev2_POS:NN with_prev2_full:Floor_also with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB SS
+conn:when conn_POS:WRB prev1:it prev1_POS:PRP with_prev1_full:it_when with_prev1_POS_full:PRP_WRB prev2:selling prev2_POS:VBG with_prev2_full:selling_when with_prev2_POS_full:VBG_WRB SS
+conn:if conn_POS:IN prev1:standpoint prev1_POS:NN with_prev1_full:standpoint_if with_prev1_POS_full:NN_IN prev2:technical prev2_POS:JJ with_prev2_full:technical_if with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:even_though conn_POS:RB_IN prev1:that prev1_POS:IN with_prev1_full:that_even_though with_prev1_POS_full:IN_RB_IN prev2:thinks prev2_POS:VBZ with_prev2_full:thinks_even_though with_prev2_POS_full:VBZ_RB_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:cocoa prev2_POS:NN with_prev2_full:cocoa_if with_prev2_POS_full:NN_IN SS

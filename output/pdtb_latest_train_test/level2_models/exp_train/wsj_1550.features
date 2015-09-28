@@ -1,0 +1,30 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:experiments_also Conjunction
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:labs_also Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:confirmed_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:confirmed_when Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:then conn:then conn_POS:RB with_prev_full:he_then Asynchronous
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:hours_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:water_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:water_and Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:before conn:before conn_POS:RB with_prev_full:hours_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:after conn:after conn_POS:RB with_prev_full:,_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:watt_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:later conn:later conn_POS:RB with_prev_full:but_later Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:it_until Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:neutrons_but Contrast
+conn_lc:so conn:so conn_POS:IN with_prev_full:water_so Cause

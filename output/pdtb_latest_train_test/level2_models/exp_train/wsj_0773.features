@@ -1,0 +1,19 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:pride_as Cause
+conn_lc:long_after conn:long_after conn_POS:RB_IN with_prev_full:profitable_long_after Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:however conn:However conn_POS:RB Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:losses_because Cause
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Asynchronous
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:thwarted_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:thwarted_when Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:recently_as Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:exposure_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:exposure_as Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:weeks_before Asynchronous
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:unlikely_unless Alternative

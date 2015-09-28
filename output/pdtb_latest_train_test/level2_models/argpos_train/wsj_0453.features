@@ -1,0 +1,24 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:moment prev2_POS:NN with_prev2_full:moment_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:; prev1_POS:: with_prev1_full:;_if with_prev1_POS_full::_IN prev2:backfire prev2_POS:VB with_prev2_full:backfire_if with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:money prev2_POS:NN with_prev2_full:money_and with_prev2_POS_full:NN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:advertising prev2_POS:NN with_prev2_full:advertising_and with_prev2_POS_full:NN_CC SS
+conn:if..then conn_POS:IN_IN SS
+conn:if..then conn_POS:IN_IN SS
+conn:because conn_POS:IN prev1:backfire prev1_POS:VB with_prev1_full:backfire_because with_prev1_POS_full:VB_IN prev2:can prev2_POS:MD with_prev2_full:can_because with_prev2_POS_full:MD_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:tasteless prev2_POS:JJ with_prev2_full:tasteless_and with_prev2_POS_full:JJ_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:idea prev2_POS:NN with_prev2_full:idea_however with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Series prev2_POS:NNP with_prev2_full:Series_also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:In_the_meanwhile conn_POS:IN_DT_NN prev1:`` prev1_POS:`` with_prev1_full:``_In_the_meanwhile with_prev1_POS_full:``_IN_DT_NN prev2:: prev2_POS:: with_prev2_full::_In_the_meanwhile with_prev2_POS_full::_IN_DT_NN PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:ads prev2_POS:NNS with_prev2_full:ads_but with_prev2_POS_full:NNS_CC SS
+conn:since conn_POS:IN prev1:million prev1_POS:CD with_prev1_full:million_since with_prev1_POS_full:CD_IN prev2:46.6 prev2_POS:CD with_prev2_full:46.6_since with_prev2_POS_full:CD_IN SS
+conn:previously conn_POS:RB prev1:had prev1_POS:VBD with_prev1_full:had_previously with_prev1_POS_full:VBD_RB prev2:account prev2_POS:NN with_prev2_full:account_previously with_prev2_POS_full:NN_RB PS

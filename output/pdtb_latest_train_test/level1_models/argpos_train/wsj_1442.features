@@ -1,0 +1,20 @@
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:us prev2_POS:PRP with_prev2_full:us_but with_prev2_POS_full:PRP_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:available prev2_POS:JJ with_prev2_full:available_though with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:estate prev2_POS:NN with_prev2_full:estate_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:property prev2_POS:NN with_prev2_full:property_if with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:acre prev1_POS:NN with_prev1_full:acre_and with_prev1_POS_full:NN_CC prev2:an prev2_POS:DT with_prev2_full:an_and with_prev2_POS_full:DT_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:say prev2_POS:VB with_prev2_full:say_but with_prev2_POS_full:VB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1985 prev2_POS:CD with_prev2_full:1985_and with_prev2_POS_full:CD_CC SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:state prev1_POS:NN with_prev1_full:state_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:before conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_before with_prev1_POS_full:NN_IN prev2:20 prev2_POS:CD with_prev2_full:20_before with_prev2_POS_full:CD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:performance prev2_POS:NN with_prev2_full:performance_but with_prev2_POS_full:NN_CC SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:S&P prev1_POS:NNP with_prev1_full:S&P_also with_prev1_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS

@@ -1,0 +1,13 @@
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:courts_unless Alternative
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:,_as_soon_as Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:views_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN Condition
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN Synchrony

@@ -1,0 +1,22 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:good_as Synchrony
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:besides conn:Besides conn_POS:IN Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:or conn:or conn_POS:CC with_prev_full:'_or Alternative
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:1985_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:performed_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:peanuts_if Condition
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:besides conn:besides conn_POS:IN with_prev_full:,_besides Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:scientists_also Conjunction
+conn_lc:when conn:When conn_POS:WRB Condition

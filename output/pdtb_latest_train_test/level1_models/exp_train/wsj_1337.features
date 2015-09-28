@@ -1,0 +1,22 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:stocks_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:gains_also Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:pence_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:dealings_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:1523.22_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:take_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

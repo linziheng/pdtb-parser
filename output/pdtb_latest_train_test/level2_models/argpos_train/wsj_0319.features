@@ -1,0 +1,6 @@
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:pace prev2_POS:NN with_prev2_full:pace_as with_prev2_POS_full:NN_IN SS
+conn:as conn_POS:IN prev1:ago prev1_POS:RB with_prev1_full:ago_as with_prev1_POS_full:RB_IN prev2:years prev2_POS:NNS with_prev2_full:years_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:reaction prev1_POS:NN with_prev1_full:reaction_and with_prev1_POS_full:NN_CC prev2:delayed prev2_POS:VBN with_prev2_full:delayed_and with_prev2_POS_full:VBN_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_while with_prev2_POS_full:NN_IN SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS

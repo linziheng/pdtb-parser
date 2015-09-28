@@ -1,0 +1,5 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:circulation prev1_POS:NN with_prev1_full:circulation_and with_prev1_POS_full:NN_CC prev2:more prev2_POS:JJR with_prev2_full:more_and with_prev2_POS_full:JJR_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:comment prev2_POS:NN with_prev2_full:comment_but with_prev2_POS_full:NN_CC SS
+conn:while conn_POS:IN prev1:operations prev1_POS:NNS with_prev1_full:operations_while with_prev1_POS_full:NNS_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_while with_prev2_POS_full:PRP$_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:sales prev2_POS:NNS with_prev2_full:sales_while with_prev2_POS_full:NNS_IN SS

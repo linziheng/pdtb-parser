@@ -1,0 +1,11 @@
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:considered_only_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sutcliffe_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:closure_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:venture_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:sharply_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:%_if Condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:2010_unless Alternative
+conn_lc:but conn:But conn_POS:CC Contrast

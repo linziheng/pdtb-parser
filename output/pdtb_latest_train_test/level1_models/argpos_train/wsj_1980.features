@@ -1,0 +1,6 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:director prev2_POS:NN with_prev2_full:director_while with_prev2_POS_full:NN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:firm prev2_POS:NN with_prev2_full:firm_also with_prev2_POS_full:NN_RB PS
+conn:in_turn conn_POS:IN_NN prev1:which prev1_POS:WDT with_prev1_full:which_in_turn with_prev1_POS_full:WDT_IN_NN prev2:, prev2_POS:, with_prev2_full:,_in_turn with_prev2_POS_full:,_IN_NN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Recognition prev1_POS:NNP with_prev1_full:Recognition_also with_prev1_POS_full:NNP_RB PS

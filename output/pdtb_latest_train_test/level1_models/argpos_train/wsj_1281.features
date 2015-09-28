@@ -1,0 +1,8 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:well prev2_POS:RB with_prev2_full:well_but with_prev2_POS_full:RB_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:delivered prev2_POS:VBN with_prev2_full:delivered_however with_prev2_POS_full:VBN_RB PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:ship prev1_POS:NN with_prev1_full:ship_as with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_as with_prev2_POS_full:DT_IN SS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Carnival prev2_POS:NNP with_prev2_full:Carnival_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:if conn_POS:IN prev1:ship prev1_POS:NN with_prev1_full:ship_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:after conn_POS:IN prev1:yesterday prev1_POS:NN with_prev1_full:yesterday_after with_prev1_POS_full:NN_IN prev2:bankruptcy prev2_POS:NN with_prev2_full:bankruptcy_after with_prev2_POS_full:NN_IN SS

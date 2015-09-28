@@ -1,0 +1,26 @@
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:though conn:Though conn_POS:NNP Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Contingency
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Temporal
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Comparison
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Temporal
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:industry_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:industry_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rate_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rate_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:and_now_that Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Contingency
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:then conn:Then conn_POS:RB Contingency

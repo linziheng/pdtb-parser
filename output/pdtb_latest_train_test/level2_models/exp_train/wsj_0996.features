@@ -1,0 +1,22 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:,_before Asynchronous
+conn_lc:if conn:If conn_POS:IN with_prev_full:;_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:likewise conn:likewise conn_POS:RB with_prev_full:shall_likewise Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Condition
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:again_when Synchrony
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:,_thereby Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:blinked_before Asynchronous
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:after conn:After conn_POS:IN Cause
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:if conn:If conn_POS:IN Pragmatic_condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:bush_now_that Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:if_only conn:if_only conn_POS:IN_RB with_prev_full:,_if_only Pragmatic_contrast

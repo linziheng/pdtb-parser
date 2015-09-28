@@ -1,0 +1,10 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:quarter_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:profits_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:declined_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:amoco_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:billion_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency

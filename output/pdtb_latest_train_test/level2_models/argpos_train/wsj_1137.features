@@ -1,0 +1,12 @@
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:unless conn_POS:IN prev1:courts prev1_POS:NNS with_prev1_full:courts_unless with_prev1_POS_full:NNS_IN prev2:federal prev2_POS:JJ with_prev2_full:federal_unless with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:person prev2_POS:NN with_prev2_full:person_and with_prev2_POS_full:NN_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:, prev1_POS:, with_prev1_full:,_as_soon_as with_prev1_POS_full:,_RB_RB_IN prev2:1991 prev2_POS:CD with_prev2_full:1991_as_soon_as with_prev2_POS_full:CD_RB_RB_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:represented prev2_POS:VBN with_prev2_full:represented_because with_prev2_POS_full:VBN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:minority prev2_POS:NN with_prev2_full:minority_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:views prev1_POS:NNS with_prev1_full:views_because with_prev1_POS_full:NNS_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_because with_prev2_POS_full:PRP$_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:Madison prev2_POS:NNP with_prev2_full:Madison_because with_prev2_POS_full:NNP_IN SS
+conn:As_long_as conn_POS:RB_RB_IN sent_pos:0 SS

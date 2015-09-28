@@ -1,0 +1,22 @@
+conn_lc:once conn:once conn_POS:RB with_prev_full:that_once Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:comment_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:up_as Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:groups_instead Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:alternatively conn:Alternatively conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:once conn:once conn_POS:IN with_prev_full:bid_once Temporal
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:bidding_only_after Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

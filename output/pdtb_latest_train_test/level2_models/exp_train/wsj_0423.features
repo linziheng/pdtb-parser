@@ -1,0 +1,19 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:were_when Synchrony
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:leap_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:yet conn:Yet conn_POS:RB Concession
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Cause
+conn_lc:in_short conn:In_short conn_POS:IN_JJ Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Concession

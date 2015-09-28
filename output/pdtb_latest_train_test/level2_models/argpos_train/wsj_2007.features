@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:22 prev2_POS:CD with_prev2_full:22_and with_prev2_POS_full:CD_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:competition prev2_POS:NN with_prev2_full:competition_however with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:sales prev1_POS:NNS with_prev1_full:sales_also with_prev1_POS_full:NNS_RB prev2:products prev2_POS:NNS with_prev2_full:products_also with_prev2_POS_full:NNS_RB PS

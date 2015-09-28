@@ -1,0 +1,24 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:together prev2_POS:RB with_prev2_full:together_and with_prev2_POS_full:RB_CC SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:fact prev2_POS:NN with_prev2_full:fact_when with_prev2_POS_full:NN_WRB SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:who prev2_POS:WP with_prev2_full:who_while with_prev2_POS_full:WP_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:decades prev2_POS:NNS with_prev2_full:decades_because with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:attacker prev2_POS:NN with_prev2_full:attacker_and with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:Kate prev1_POS:NNP with_prev1_full:Kate_when with_prev1_POS_full:NNP_WRB prev2:at prev2_POS:IN with_prev2_full:at_when with_prev2_POS_full:IN_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:fear prev2_POS:NN with_prev2_full:fear_but with_prev2_POS_full:NN_CC SS
+conn:if..then conn_POS:IN_RB SS
+conn:when conn_POS:WRB prev1:sister prev1_POS:NN with_prev1_full:sister_when with_prev1_POS_full:NN_WRB prev2:his prev2_POS:PRP$ with_prev2_full:his_when with_prev2_POS_full:PRP$_WRB SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:burns prev2_POS:NNS with_prev2_full:burns_while with_prev2_POS_full:NNS_IN SS
+conn:while conn_POS:IN prev1:her prev1_POS:PRP with_prev1_full:her_while with_prev1_POS_full:PRP_IN prev2:on prev2_POS:IN with_prev2_full:on_while with_prev2_POS_full:IN_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:attacked prev2_POS:VBN with_prev2_full:attacked_but with_prev2_POS_full:VBN_CC SS
+conn:by_contrast conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_by_contrast with_prev1_POS_full:,_IN_NN prev2:film prev2_POS:NN with_prev2_full:film_by_contrast with_prev2_POS_full:NN_IN_NN PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:victim prev2_POS:NN with_prev2_full:victim_as with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:city prev2_POS:NN with_prev2_full:city_and with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:and prev2_POS:CC with_prev2_full:and_after with_prev2_POS_full:CC_IN SS

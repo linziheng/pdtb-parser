@@ -1,0 +1,24 @@
+conn:when conn_POS:WRB prev1:occurs prev1_POS:VBZ with_prev1_full:occurs_when with_prev1_POS_full:VBZ_WRB prev2:controls prev2_POS:NNS with_prev2_full:controls_when with_prev2_POS_full:NNS_WRB SS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:indeed conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_indeed with_prev1_POS_full:MD_RB prev2:necessities prev2_POS:NNS with_prev2_full:necessities_indeed with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:not_because conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_not_because with_prev1_POS_full:CC_RB_IN PS
+conn:Rather conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:RB prev1:diminish prev1_POS:VB with_prev1_full:diminish_because with_prev1_POS_full:VB_RB prev2:would prev2_POS:MD with_prev2_full:would_because with_prev2_POS_full:MD_RB SS
+conn:because conn_POS:IN prev1:prices prev1_POS:NNS with_prev1_full:prices_because with_prev1_POS_full:NNS_IN prev2:fair prev2_POS:JJ with_prev2_full:fair_because with_prev2_POS_full:JJ_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:situation prev2_POS:NN with_prev2_full:situation_if with_prev2_POS_full:NN_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Laband prev2_POS:NNP with_prev2_full:Laband_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:loot prev2_POS:VB with_prev2_full:loot_since with_prev2_POS_full:VB_IN SS
+conn:and conn_POS:CC prev1:disaster prev1_POS:NN with_prev1_full:disaster_and with_prev1_POS_full:NN_CC prev2:a prev2_POS:DT with_prev2_full:a_and with_prev2_POS_full:DT_CC SS
+conn:because conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_because with_prev1_POS_full:''_IN prev2:Charleston prev2_POS:NNP with_prev2_full:Charleston_because with_prev2_POS_full:NNP_IN SS
+conn:when conn_POS:WRB prev1:face prev1_POS:VBP with_prev1_full:face_when with_prev1_POS_full:VBP_WRB prev2:we prev2_POS:PRP with_prev2_full:we_when with_prev2_POS_full:PRP_WRB SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:victims prev1_POS:NNS with_prev1_full:victims_because with_prev1_POS_full:NNS_IN prev2:'s prev2_POS:POS with_prev2_full:'s_because with_prev2_POS_full:POS_IN SS
+conn:also conn_POS:RB prev1:should prev1_POS:MD with_prev1_full:should_also with_prev1_POS_full:MD_RB prev2:they prev2_POS:PRP with_prev2_full:they_also with_prev2_POS_full:PRP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:beware prev2_POS:VB with_prev2_full:beware_since with_prev2_POS_full:VB_IN SS
+conn:when conn_POS:WRB prev1:remembered prev1_POS:VBN with_prev1_full:remembered_when with_prev1_POS_full:VBN_WRB prev2:be prev2_POS:VB with_prev2_full:be_when with_prev2_POS_full:VB_WRB SS

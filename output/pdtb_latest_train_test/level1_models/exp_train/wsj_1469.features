@@ -1,0 +1,27 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:pinch_when Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:traders_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:even_when conn:Even_when conn_POS:RB_WRB Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:tight_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:loans_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:period_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:period_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:shortages_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

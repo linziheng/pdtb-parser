@@ -1,0 +1,16 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:Phillips prev1_POS:NNP with_prev1_full:Phillips_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:operation prev1_POS:NN with_prev1_full:operation_and with_prev1_POS_full:NN_CC prev2:York prev2_POS:NNP with_prev2_full:York_and with_prev2_POS_full:NNP_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_while with_prev1_POS_full:CC_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:continuity prev2_POS:NN with_prev2_full:continuity_although with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:... prev1_POS:: with_prev1_full:..._and with_prev1_POS_full::_CC prev2:top prev2_POS:NN with_prev2_full:top_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:substance prev2_POS:NN with_prev2_full:substance_if with_prev2_POS_full:NN_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:by_contrast conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_by_contrast with_prev1_POS_full:,_IN_NN prev2:Roman prev2_POS:NNP with_prev2_full:Roman_by_contrast with_prev2_POS_full:NNP_IN_NN PS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:all prev2_POS:DT with_prev2_full:all_although with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:while conn_POS:IN prev1:acquisitions prev1_POS:NNS with_prev1_full:acquisitions_while with_prev1_POS_full:NNS_IN prev2:and prev2_POS:CC with_prev2_full:and_while with_prev2_POS_full:CC_IN SS

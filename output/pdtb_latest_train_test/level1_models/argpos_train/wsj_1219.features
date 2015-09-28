@@ -1,0 +1,2 @@
+conn:when conn_POS:WRB prev1:incurred prev1_POS:VBN with_prev1_full:incurred_when with_prev1_POS_full:VBN_WRB prev2:costs prev2_POS:NNS with_prev2_full:costs_when with_prev2_POS_full:NNS_WRB SS
+conn:also conn_POS:RB sent_pos:2 prev1:department prev1_POS:NN with_prev1_full:department_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

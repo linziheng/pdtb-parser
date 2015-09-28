@@ -1,0 +1,18 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:come prev1_POS:VBP with_prev1_full:come_as with_prev1_POS_full:VBP_IN prev2:offers prev2_POS:NNS with_prev2_full:offers_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:block prev2_POS:NN with_prev2_full:block_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:company prev2_POS:NN with_prev2_full:company_and with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:buy-out prev1_POS:NN with_prev1_full:buy-out_if with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_if with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Campbell-Mithun-Esty prev2_POS:NNP with_prev2_full:Campbell-Mithun-Esty_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:While conn_POS:IN sent_pos:1 prev1:-LRB- prev1_POS:-LRB- with_prev1_full:-LRB-_While with_prev1_POS_full:-LRB-_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Campbell-Mithun prev1_POS:NNP with_prev1_full:Campbell-Mithun_also with_prev1_POS_full:NNP_RB PS
+conn:meanwhile conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Rowland prev2_POS:NNP with_prev2_full:Rowland_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:account prev1_POS:NN with_prev1_full:account_and with_prev1_POS_full:NN_CC prev2:Mercedes prev2_POS:NNP with_prev2_full:Mercedes_and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:memo prev1_POS:NN with_prev1_full:memo_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:until conn_POS:IN prev1:work prev1_POS:NN with_prev1_full:work_until with_prev1_POS_full:NN_IN prev2:continue prev2_POS:VB with_prev2_full:continue_until with_prev2_POS_full:VB_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:agency prev2_POS:NN with_prev2_full:agency_but with_prev2_POS_full:NN_CC SS

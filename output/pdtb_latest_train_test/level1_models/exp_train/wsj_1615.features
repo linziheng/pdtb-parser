@@ -1,0 +1,37 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:unless conn:Unless conn_POS:IN Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:..._and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:widens_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:widens_when Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:by_comparison conn:by_comparison conn_POS:IN_NN with_prev_full:,_by_comparison Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:1960s_yet Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:minutes_after conn:minutes_after conn_POS:NNS_IN with_prev_full:yet_minutes_after Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:as_if conn:as_if conn_POS:IN_IN with_prev_full:penalty_as_if Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:and_instead Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:still conn:still conn_POS:RB with_prev_full:i_still Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

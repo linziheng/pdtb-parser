@@ -1,0 +1,9 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:spain_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:forbearance_when Synchrony
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:regrets_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:'_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Pragmatic_condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:times_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:matter_if Condition

@@ -1,0 +1,14 @@
+597..599|Temporal
+845..852|Comparison
+1324..1329|Temporal
+1881..1883|Contingency
+2271..2279|Comparison
+3088..3095|Comparison
+3184..3193|Contingency
+3834..3845|Expansion
+4011..4015|Expansion
+4171..4176|Comparison
+4248..4252|Temporal
+4377..4386|Contingency
+4641..4645|Expansion
+4736..4739|Comparison

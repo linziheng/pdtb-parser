@@ -1,0 +1,18 @@
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:data_even_when Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:disappear_if Contingency
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:away_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:Once conn_POS:IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:make_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:memory_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:industry_when Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:texas_after Temporal

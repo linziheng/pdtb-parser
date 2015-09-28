@@ -1,0 +1,6 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Condition
+conn_lc:since conn:since conn_POS:IN with_prev_full:three_since Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:except_when conn:except_when conn_POS:IN_WRB with_prev_full:dealer_except_when Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:buy_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:buy_and Cause

@@ -1,0 +1,7 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:lower_as Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:higher_before Temporal
+conn_lc:if conn:If conn_POS:IN Contingency

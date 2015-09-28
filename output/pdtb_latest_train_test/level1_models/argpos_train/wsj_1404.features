@@ -1,0 +1,7 @@
+conn:if conn_POS:IN prev1:knight prev1_POS:NN with_prev1_full:knight_if with_prev1_POS_full:NN_IN prev2:white prev2_POS:JJ with_prev2_full:white_if with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB prev1:Lippens prev1_POS:NNP with_prev1_full:Lippens_also with_prev1_POS_full:NNP_RB prev2:Maurice prev2_POS:NNP with_prev2_full:Maurice_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:AG prev1_POS:NNP with_prev1_full:AG_and with_prev1_POS_full:NNP_CC prev2:of prev2_POS:IN with_prev2_full:of_and with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:rescue prev1_POS:NN with_prev1_full:rescue_also with_prev1_POS_full:NN_RB prev2:a prev2_POS:DT with_prev2_full:a_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS

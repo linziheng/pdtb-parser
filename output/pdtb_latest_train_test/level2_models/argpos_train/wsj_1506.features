@@ -1,0 +1,18 @@
+conn:if conn_POS:IN prev1:dictators prev1_POS:NNS with_prev1_full:dictators_if with_prev1_POS_full:NNS_IN prev2:foreign prev2_POS:JJ with_prev2_full:foreign_if with_prev2_POS_full:JJ_IN SS
+conn:since conn_POS:IN prev1:known prev1_POS:VBN with_prev1_full:known_since with_prev1_POS_full:VBN_IN prev2:become prev2_POS:VBN with_prev2_full:become_since with_prev2_POS_full:VBN_IN SS
+conn:apparently_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_apparently_because with_prev1_POS_full:,_RB_IN prev2:said prev2_POS:VBD with_prev2_full:said_apparently_because with_prev2_POS_full:VBD_RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:pretext prev2_POS:NN with_prev2_full:pretext_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:public prev1_POS:JJ with_prev1_full:public_because with_prev1_POS_full:JJ_IN prev2:documents prev2_POS:NNS with_prev2_full:documents_because with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:required prev1_POS:VBN with_prev1_full:required_even_if with_prev1_POS_full:VBN_RB_IN prev2:was prev2_POS:VBD with_prev2_full:was_even_if with_prev2_POS_full:VBD_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:partly_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_partly_because with_prev1_POS_full:,_RB_IN prev2:recalled prev2_POS:VBD with_prev2_full:recalled_partly_because with_prev2_POS_full:VBD_RB_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:guideline prev2_POS:NN with_prev2_full:guideline_however with_prev2_POS_full:NN_RB PS

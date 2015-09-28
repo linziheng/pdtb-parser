@@ -1,0 +1,26 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:possible_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:mushroomed_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:--_even_though Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:persist_even_though Comparison
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:brakes_even_if Contingency
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:brakes_even_if Comparison
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:even_if conn:Even_if conn_POS:RB_IN with_prev_full:``_even_if Contingency

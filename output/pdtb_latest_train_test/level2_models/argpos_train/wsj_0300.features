@@ -1,0 +1,14 @@
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:Ruffo prev1_POS:NNP with_prev1_full:Ruffo_when with_prev1_POS_full:NNP_WRB prev2:Ernesto prev2_POS:NNP with_prev2_full:Ernesto_when with_prev2_POS_full:NNP_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:gate prev2_POS:NN with_prev2_full:gate_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_then with_prev1_POS_full:MD_RB prev2:Japanese prev2_POS:NNPS with_prev2_full:Japanese_then with_prev2_POS_full:NNPS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:instead conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_instead with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_instead with_prev2_POS_full:,_RB SS
+conn:so conn_POS:IN prev1:Mexican prev1_POS:NNP with_prev1_full:Mexican_so with_prev1_POS_full:NNP_IN prev2:naturalized prev2_POS:JJ with_prev2_full:naturalized_so with_prev2_POS_full:JJ_IN SS
+conn:if conn_POS:IN prev1:Baja prev1_POS:NNP with_prev1_full:Baja_if with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

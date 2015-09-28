@@ -1,0 +1,10 @@
+conn:if conn_POS:IN prev1:forfeitures prev1_POS:NNS with_prev1_full:forfeitures_if with_prev1_POS_full:NNS_IN prev2:seek prev2_POS:VB with_prev2_full:seek_if with_prev2_POS_full:VB_IN SS
+conn:when conn_POS:WRB prev1:trial prev1_POS:NN with_prev1_full:trial_when with_prev1_POS_full:NN_WRB prev2:before prev2_POS:IN with_prev2_full:before_when with_prev2_POS_full:IN_WRB SS
+conn:after conn_POS:IN prev1:funds prev1_POS:NNS with_prev1_full:funds_after with_prev1_POS_full:NNS_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_after with_prev2_POS_full:PRP$_IN SS
+conn:therefore conn_POS:RB sent_pos:1 prev1:Drexel prev1_POS:NNP with_prev1_full:Drexel_therefore with_prev1_POS_full:NNP_RB PS
+conn:instead conn_POS:RB prev1:agreed prev1_POS:VBD with_prev1_full:agreed_instead with_prev1_POS_full:VBD_RB prev2:therefore prev2_POS:RB with_prev2_full:therefore_instead with_prev2_POS_full:RB_RB PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:only_if conn_POS:RB_IN prev1:effective prev1_POS:JJ with_prev1_full:effective_only_if with_prev1_POS_full:JJ_RB_IN prev2:are prev2_POS:VBP with_prev2_full:are_only_if with_prev2_POS_full:VBP_RB_IN SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:yet conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_yet with_prev1_POS_full:CC_RB prev2:'' prev2_POS:'' with_prev2_full:''_yet with_prev2_POS_full:''_RB SS

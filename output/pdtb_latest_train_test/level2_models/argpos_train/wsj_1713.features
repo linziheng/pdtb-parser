@@ -1,0 +1,4 @@
+conn:although conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_although with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_although with_prev2_POS_full:VBD_IN SS
+conn:because conn_POS:IN prev1:it prev1_POS:PRP with_prev1_full:it_because with_prev1_POS_full:PRP_IN prev2:pay prev2_POS:VB with_prev2_full:pay_because with_prev2_POS_full:VB_IN SS
+conn:later conn_POS:RB prev1:payment prev1_POS:NN with_prev1_full:payment_later with_prev1_POS_full:NN_RB prev2:dividend prev2_POS:NN with_prev2_full:dividend_later with_prev2_POS_full:NN_RB SS
+conn:if conn_POS:IN sent_pos:-3 prev1:later prev1_POS:RB with_prev1_full:later_if with_prev1_POS_full:RB_IN prev2:payment prev2_POS:NN with_prev2_full:payment_if with_prev2_POS_full:NN_IN SS

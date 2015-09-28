@@ -1,0 +1,19 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:slip_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:slip_as Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:white_also Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:once conn_POS:RB with_prev_full:,_once Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rises_when Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:marks_as Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

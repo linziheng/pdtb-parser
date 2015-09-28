@@ -1,0 +1,34 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:priorities_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:strategy_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:happen_until Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:,_before Temporal
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:before_finally Temporal
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:before_finally Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:executed_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:and_as_a_result Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:cuts_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:plan_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:happens_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:finally conn:Finally conn_POS:RB Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:--_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:security_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:irresponsibly_because Contingency
+conn_lc:in_other_words conn:in_other_words conn_POS:IN_JJ_NNS with_prev_full:;_in_other_words Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:--_because Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:imply_before Temporal

@@ -1,0 +1,7 @@
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:officer prev2_POS:NN with_prev2_full:officer_also with_prev2_POS_full:NN_RB PS
+conn:while conn_POS:IN prev1:margins prev1_POS:NNS with_prev1_full:margins_while with_prev1_POS_full:NNS_IN prev2:operating prev2_POS:VBG with_prev2_full:operating_while with_prev2_POS_full:VBG_IN SS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:Westinghouse prev1_POS:NNP with_prev1_full:Westinghouse_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Westinghouse prev1_POS:NNP with_prev1_full:Westinghouse_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:officials prev1_POS:NNS with_prev1_full:officials_also with_prev1_POS_full:NNS_RB prev2:Company prev2_POS:NN with_prev2_full:Company_also with_prev2_POS_full:NN_RB PS

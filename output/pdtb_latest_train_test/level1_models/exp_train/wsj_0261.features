@@ -1,0 +1,9 @@
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:restaurant_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:purse_when Temporal
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:meal_since Temporal
+conn_lc:and conn:And conn_POS:CC Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:proportions_when Temporal

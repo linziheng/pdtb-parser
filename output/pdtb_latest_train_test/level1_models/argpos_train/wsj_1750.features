@@ -1,0 +1,6 @@
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:it prev2_POS:PRP with_prev2_full:it_if with_prev2_POS_full:PRP_IN SS
+conn:also conn_POS:RB prev1:group prev1_POS:NN with_prev1_full:group_also with_prev1_POS_full:NN_RB prev2:bank prev2_POS:NN with_prev2_full:bank_also with_prev2_POS_full:NN_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:Co. prev1_POS:NNP with_prev1_full:Co._also with_prev1_POS_full:NNP_RB prev2:Trust prev2_POS:NNP with_prev2_full:Trust_also with_prev2_POS_full:NNP_RB PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:bind prev1_POS:NN with_prev1_full:bind_because with_prev1_POS_full:NN_IN prev2:liquidity prev2_POS:NN with_prev2_full:liquidity_because with_prev2_POS_full:NN_IN SS

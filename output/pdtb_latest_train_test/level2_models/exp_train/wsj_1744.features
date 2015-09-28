@@ -1,0 +1,16 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:hoped_when Synchrony
+conn_lc:even_when conn:Even_when conn_POS:RB_WRB Synchrony
+conn_lc:even_when conn:Even_when conn_POS:RB_WRB Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:output_because Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction

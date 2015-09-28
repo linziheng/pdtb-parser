@@ -1,0 +1,19 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:footing_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:halt_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:fled_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:but_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rcb-_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:1\/4_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:standard_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:rise_later Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion

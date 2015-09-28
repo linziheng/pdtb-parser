@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:money prev2_POS:NN with_prev2_full:money_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:lawsuit prev1_POS:NN with_prev1_full:lawsuit_also with_prev1_POS_full:NN_RB prev2:Steel prev2_POS:NNP with_prev2_full:Steel_also with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:September prev1_POS:NNP with_prev1_full:September_and with_prev1_POS_full:NNP_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS
+conn:if conn_POS:IN prev1:subsidiary prev1_POS:NN with_prev1_full:subsidiary_if with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_if with_prev2_POS_full:PRP$_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:lawsuits prev1_POS:NNS with_prev1_full:lawsuits_while with_prev1_POS_full:NNS_IN prev2:creditor prev2_POS:NN with_prev2_full:creditor_while with_prev2_POS_full:NN_IN SS

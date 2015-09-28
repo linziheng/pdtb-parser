@@ -1,0 +1,5 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:said_unless Expansion
+conn_lc:if conn:If conn_POS:IN Contingency

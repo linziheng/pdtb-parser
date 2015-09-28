@@ -1,0 +1,6 @@
+conn:if conn_POS:IN prev1:increased prev1_POS:VBN with_prev1_full:increased_if with_prev1_POS_full:VBN_IN prev2:have prev2_POS:VB with_prev2_full:have_if with_prev2_POS_full:VB_IN SS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:shares prev2_POS:NNS with_prev2_full:shares_thus with_prev2_POS_full:NNS_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:businesses prev2_POS:NNS with_prev2_full:businesses_but with_prev2_POS_full:NNS_CC SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:Tandy prev1_POS:NNP with_prev1_full:Tandy_also with_prev1_POS_full:NNP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS

@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:then conn:Then conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Conjunction
+conn_lc:yet conn:Yet conn_POS:CC Contrast
+conn_lc:although conn:although conn_POS:IN with_prev_full:yet_although Concession
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:so_when Synchrony
+conn_lc:while conn:while conn_POS:NN with_prev_full:own_while Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:costs_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:competitor_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:wathen_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:``_and Conjunction
+conn_lc:even_after conn:Even_after conn_POS:RB_IN Asynchronous
+conn_lc:next conn:Next conn_POS:RB Asynchronous
+conn_lc:and conn:And conn_POS:CC Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:service_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:service_and Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:refinance_if Condition
+conn_lc:still conn:still conn_POS:RB with_prev_full:and_still Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rcb-_and Conjunction
+conn_lc:as conn:As conn_POS:IN with_prev_full:``_as Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:two_and Conjunction

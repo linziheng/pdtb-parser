@@ -1,0 +1,21 @@
+conn_lc:before conn:before conn_POS:RB with_prev_full:someone_before Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:was_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:a_day_after conn:a_day_after conn_POS:DT_NN_RB with_prev_full:,_a_day_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:but_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:later conn:later conn_POS:RB with_prev_full:was_later Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:either_either_he_was_n't_being_real_in_the_past_,_or conn:Either_Either_he_was_n't_being_real_in_the_past_,_or conn_POS:CC_CC_PRP_VBD_RB_VBG_JJ_IN_DT_NN_,_CC with_prev_full:``_either_either_he_was_n't_being_real_in_the_past_,_or Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:``_because Contingency
+conn_lc:just_because conn:just_because conn_POS:RB_IN with_prev_full:that_just_because Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison

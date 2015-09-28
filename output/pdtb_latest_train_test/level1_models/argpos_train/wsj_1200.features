@@ -1,0 +1,3 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:grow prev2_POS:VB with_prev2_full:grow_but with_prev2_POS_full:VB_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:production prev1_POS:NN with_prev1_full:production_also with_prev1_POS_full:NN_RB prev2:Bus prev2_POS:NN with_prev2_full:Bus_also with_prev2_POS_full:NN_RB PS

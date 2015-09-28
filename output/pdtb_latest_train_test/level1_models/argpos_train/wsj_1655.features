@@ -1,0 +1,9 @@
+conn:when conn_POS:WRB prev1:Spain prev1_POS:NNP with_prev1_full:Spain_when with_prev1_POS_full:NNP_WRB prev2:left prev2_POS:VBD with_prev2_full:left_when with_prev2_POS_full:VBD_WRB SS
+conn:when conn_POS:WRB prev1:forbearance prev1_POS:NN with_prev1_full:forbearance_when with_prev1_POS_full:NN_WRB prev2:some prev2_POS:DT with_prev2_full:some_when with_prev2_POS_full:DT_WRB SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:regrets prev1_POS:NNS with_prev1_full:regrets_as with_prev1_POS_full:NNS_IN prev2:no prev2_POS:DT with_prev2_full:no_as with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:' prev1_POS:'' with_prev1_full:'_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:water prev2_POS:NN with_prev2_full:water_if with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:times prev1_POS:NNS with_prev1_full:times_and with_prev1_POS_full:NNS_CC prev2:several prev2_POS:JJ with_prev2_full:several_and with_prev2_POS_full:JJ_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:in prev2_POS:RP with_prev2_full:in_but with_prev2_POS_full:RP_CC SS
+conn:if conn_POS:IN prev1:matter prev1_POS:VB with_prev1_full:matter_if with_prev1_POS_full:VB_IN prev2:not prev2_POS:RB with_prev2_full:not_if with_prev2_POS_full:RB_IN SS

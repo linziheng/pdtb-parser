@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:eight_months_after conn:Eight_months_after conn_POS:CD_NNS_IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:--_while Comparison
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Temporal
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:but_as_soon_as Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Contingency
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:personnel_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:before conn:Before conn_POS:IN Temporal
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:afghanistan_even_as Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:months_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Comparison
+conn_lc:or conn:or conn_POS:CC with_prev_full:sent_or Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion

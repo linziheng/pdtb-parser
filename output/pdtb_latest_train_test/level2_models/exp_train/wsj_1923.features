@@ -1,0 +1,4 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction

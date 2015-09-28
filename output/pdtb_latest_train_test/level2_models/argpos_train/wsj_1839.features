@@ -1,0 +1,10 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:On_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:0 PS
+conn:if..then conn_POS:IN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:be prev2_POS:VB with_prev2_full:be_and with_prev2_POS_full:VB_CC SS

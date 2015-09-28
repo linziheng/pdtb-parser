@@ -1,0 +1,19 @@
+conn:after conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_after with_prev1_POS_full::_IN prev2:employment prev2_POS:NN with_prev2_full:employment_after with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:director prev2_POS:NN with_prev2_full:director_also with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:firms prev2_POS:NNS with_prev2_full:firms_though with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:guidelines prev2_POS:NNS with_prev2_full:guidelines_but with_prev2_POS_full:NNS_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:when conn_POS:WRB prev1:U.S. prev1_POS:NNP with_prev1_full:U.S._when with_prev1_POS_full:NNP_WRB prev2:in prev2_POS:IN with_prev2_full:in_when with_prev2_POS_full:IN_WRB SS
+conn:when conn_POS:WRB prev1:share prev1_POS:NN with_prev1_full:share_when with_prev1_POS_full:NN_WRB prev2:market prev2_POS:NN with_prev2_full:market_when with_prev2_POS_full:NN_WRB SS
+conn:by_contrast conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_by_contrast with_prev1_POS_full:,_IN_NN prev2:Japan prev2_POS:NNP with_prev2_full:Japan_by_contrast with_prev2_POS_full:NNP_IN_NN PS
+conn:also conn_POS:RB sent_pos:2 prev1:Japanese prev1_POS:NNP with_prev1_full:Japanese_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:day prev1_POS:NN with_prev1_full:day_since with_prev1_POS_full:NN_IN prev2:single prev2_POS:JJ with_prev2_full:single_since with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:summer prev1_POS:NN with_prev1_full:summer_and with_prev1_POS_full:NN_CC prev2:last prev2_POS:JJ with_prev2_full:last_and with_prev2_POS_full:JJ_CC SS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:problem prev2_POS:NN with_prev2_full:problem_though with_prev2_POS_full:NN_RB PS
+conn:even_after conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_after with_prev1_POS_full:,_RB_IN prev2:recruiting prev2_POS:VBG with_prev2_full:recruiting_even_after with_prev2_POS_full:VBG_RB_IN SS
+conn:while conn_POS:IN prev1:virus prev1_POS:NN with_prev1_full:virus_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS
+conn:And conn_POS:CC sent_pos:0 PS

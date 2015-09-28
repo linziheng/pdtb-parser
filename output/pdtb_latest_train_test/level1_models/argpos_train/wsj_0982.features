@@ -1,0 +1,7 @@
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:reinvested prev1_POS:VBN with_prev1_full:reinvested_and with_prev1_POS_full:VBN_CC prev2:are prev2_POS:VBP with_prev2_full:are_and with_prev2_POS_full:VBP_CC SS
+conn:still conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_still with_prev1_POS_full:MD_RB prev2:investors prev2_POS:NNS with_prev2_full:investors_still with_prev2_POS_full:NNS_RB PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:auction prev2_POS:NN with_prev2_full:auction_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:investments prev2_POS:NNS with_prev2_full:investments_so with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:rates prev1_POS:NNS with_prev1_full:rates_and with_prev1_POS_full:NNS_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS

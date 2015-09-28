@@ -1,0 +1,15 @@
+conn:before conn_POS:IN prev1:financing prev1_POS:NN with_prev1_full:financing_before with_prev1_POS_full:NN_IN prev2:negotiating prev2_POS:VBG with_prev2_full:negotiating_before with_prev2_POS_full:VBG_IN SS
+conn:and conn_POS:CC prev1:bid prev1_POS:NN with_prev1_full:bid_and with_prev1_POS_full:NN_CC prev2:a prev2_POS:DT with_prev2_full:a_and with_prev2_POS_full:DT_CC SS
+conn:until conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_until with_prev1_POS_full:IN_IN prev2:and prev2_POS:CC with_prev2_full:and_until with_prev2_POS_full:CC_IN SS
+conn:if conn_POS:IN prev1:said prev1_POS:VBD with_prev1_full:said_if with_prev1_POS_full:VBD_IN prev2:directors prev2_POS:NNS with_prev2_full:directors_if with_prev2_POS_full:NNS_IN SS
+conn:unless conn_POS:IN prev1:Drabinsky prev1_POS:NNP with_prev1_full:Drabinsky_unless with_prev1_POS_full:NNP_IN prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._unless with_prev2_POS_full:NNP_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:shares prev2_POS:NNS with_prev2_full:shares_while with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:cash prev2_POS:NN with_prev2_full:cash_and with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:glad prev2_POS:JJ with_prev2_full:glad_but with_prev2_POS_full:JJ_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:million prev2_POS:CD with_prev2_full:million_then with_prev2_POS_full:CD_RB SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Calif. prev2_POS:NNP with_prev2_full:Calif._if with_prev2_POS_full:NNP_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:said prev1_POS:VBD with_prev1_full:said_if with_prev1_POS_full:VBD_IN prev2:directors prev2_POS:NNS with_prev2_full:directors_if with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:financing prev1_POS:NN with_prev1_full:financing_and with_prev1_POS_full:NN_CC prev2:arranging prev2_POS:VBG with_prev2_full:arranging_and with_prev2_POS_full:VBG_CC SS
+conn:before conn_POS:IN prev1:offer prev1_POS:NN with_prev1_full:offer_before with_prev1_POS_full:NN_IN prev2:solid prev2_POS:JJ with_prev2_full:solid_before with_prev2_POS_full:JJ_IN SS

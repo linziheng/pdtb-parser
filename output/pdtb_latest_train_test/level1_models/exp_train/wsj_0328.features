@@ -1,0 +1,30 @@
+conn_lc:separately conn:separately conn_POS:RB with_prev_full:which_separately Temporal
+conn_lc:separately conn:separately conn_POS:RB with_prev_full:which_separately Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:questions_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:programs_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Comparison
+conn_lc:separately conn:Separately conn_POS:NNP Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:,_yet Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:``_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:came_as Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:night_after Temporal

@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:companies_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:integrated_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:estimate_but Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion

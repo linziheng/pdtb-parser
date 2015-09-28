@@ -1,0 +1,14 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:house_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:soon_after conn:soon_after conn_POS:RB_RB with_prev_full:,_soon_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

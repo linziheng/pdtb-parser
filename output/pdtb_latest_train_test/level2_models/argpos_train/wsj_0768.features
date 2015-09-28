@@ -1,0 +1,10 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:So conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB prev1:-- prev1_POS:: with_prev1_full:--_then with_prev1_POS_full::_RB prev2:following prev2_POS:VBG with_prev2_full:following_then with_prev2_POS_full:VBG_RB SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_as with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:prices prev1_POS:NNS with_prev1_full:prices_if with_prev1_POS_full:NNS_IN prev2:lower prev2_POS:JJR with_prev2_full:lower_if with_prev2_POS_full:JJR_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_then with_prev1_POS_full:CC_RB PS

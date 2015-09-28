@@ -1,0 +1,12 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:amazement_as Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:enter_unless Expansion
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:status_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:later conn:later conn_POS:RB with_prev_full:back_later Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:marina_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:animals_also Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

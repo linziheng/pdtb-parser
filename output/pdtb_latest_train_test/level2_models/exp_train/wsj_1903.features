@@ -1,0 +1,21 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:though conn:Though conn_POS:NNP Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:mark_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:redesigned_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:soon_after conn:soon_after conn_POS:RB_IN with_prev_full:time_soon_after Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:forces_when Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_the_end conn:in_the_end conn_POS:IN_DT_NN with_prev_full:and_in_the_end Cause
+conn_lc:right_after conn:right_after conn_POS:RB_IN with_prev_full:changed_right_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:money_and Conjunction
+conn_lc:besides conn:Besides conn_POS:RB with_prev_full:``_besides Conjunction

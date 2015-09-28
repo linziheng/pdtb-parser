@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:%_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:slowing_while Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:fell_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:unchanged_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:unchanged_while Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:higher_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:higher_while Comparison
+conn_lc:just_days_before conn:just_days_before conn_POS:RB_NNS_IN with_prev_full:,_just_days_before Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:bullish_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:billion_if Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:think_as Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:rates_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:million_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:however conn:However conn_POS:RB with_prev_full:``_however Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:deteriorated_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:deteriorated_and Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:investors_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:oversold_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:oversold_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:lists_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:changed_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:changed_as Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Comparison

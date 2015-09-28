@@ -1,0 +1,4 @@
+conn:if conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_if with_prev1_POS_full::_IN prev2:so prev2_POS:RB with_prev2_full:so_if with_prev2_POS_full:RB_IN SS
+conn:when conn_POS:WRB prev1:invective prev1_POS:NN with_prev1_full:invective_when with_prev1_POS_full:NN_WRB prev2:no prev2_POS:DT with_prev2_full:no_when with_prev2_POS_full:DT_WRB SS
+conn:while conn_POS:IN prev1:car prev1_POS:NN with_prev1_full:car_while with_prev1_POS_full:NN_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_while with_prev2_POS_full:PRP$_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS

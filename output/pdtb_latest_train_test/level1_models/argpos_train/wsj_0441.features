@@ -1,0 +1,6 @@
+conn:also conn_POS:RB sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_also with_prev1_POS_full:VBZ_RB prev2:Moody prev2_POS:NNP with_prev2_full:Moody_also with_prev2_POS_full:NNP_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:as conn_POS:RB prev1:month prev1_POS:NN with_prev1_full:month_as with_prev1_POS_full:NN_RB prev2:last prev2_POS:JJ with_prev2_full:last_as with_prev2_POS_full:JJ_RB SS
+conn:and conn_POS:CC prev1:squeeze prev1_POS:NN with_prev1_full:squeeze_and with_prev1_POS_full:NN_CC prev2:cash prev2_POS:NN with_prev2_full:cash_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:unraveled prev1_POS:VBD with_prev1_full:unraveled_as with_prev1_POS_full:VBD_IN prev2:, prev2_POS:, with_prev2_full:,_as with_prev2_POS_full:,_IN SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:banking prev2_POS:NN with_prev2_full:banking_and with_prev2_POS_full:NN_CC SS

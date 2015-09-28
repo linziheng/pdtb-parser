@@ -1,0 +1,10 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:sessions prev2_POS:NNS with_prev2_full:sessions_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:points prev1_POS:NNS with_prev1_full:points_and with_prev1_POS_full:NNS_CC prev2:80 prev2_POS:CD with_prev2_full:80_and with_prev2_POS_full:CD_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:prices prev2_POS:NNS with_prev2_full:prices_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:news prev1_POS:NN with_prev1_full:news_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:London prev2_POS:NNP with_prev2_full:London_but with_prev2_POS_full:NNP_CC SS

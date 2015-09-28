@@ -1,0 +1,13 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:upset_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:treatment_while Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:trade-offs_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:trade-offs_and Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:afl-cio_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction

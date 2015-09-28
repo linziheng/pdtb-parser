@@ -1,0 +1,4 @@
+conn:However conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_While with_prev1_POS_full:``_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:sector prev2_POS:NN with_prev2_full:sector_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_also with_prev1_POS_full:MD_RB prev2:we prev2_POS:PRP with_prev2_full:we_also with_prev2_POS_full:PRP_RB SS

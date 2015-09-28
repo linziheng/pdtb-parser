@@ -1,0 +1,23 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:unfair_otherwise Exception
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:field_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:henderson_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:games_and Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:pennant_before Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:craig_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:rally_while Synchrony
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Condition
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession

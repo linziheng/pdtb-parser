@@ -1,0 +1,5 @@
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:occurred_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:occurred_after Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison

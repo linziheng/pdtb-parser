@@ -1,0 +1,25 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_after with_prev1_POS_full:NN_IN prev2:51.6 prev2_POS:CD with_prev2_full:51.6_after with_prev2_POS_full:CD_IN SS
+conn:while conn_POS:IN prev1:slowing prev1_POS:VBG with_prev1_full:slowing_while with_prev1_POS_full:VBG_IN prev2:is prev2_POS:VBZ with_prev2_full:is_while with_prev2_POS_full:VBZ_IN SS
+conn:after conn_POS:IN prev1:fell prev1_POS:VBD with_prev1_full:fell_after with_prev1_POS_full:VBD_IN prev2:prices prev2_POS:NNS with_prev2_full:prices_after with_prev2_POS_full:NNS_IN SS
+conn:while conn_POS:IN prev1:unchanged prev1_POS:JJ with_prev1_full:unchanged_while with_prev1_POS_full:JJ_IN prev2:ended prev2_POS:VBD with_prev2_full:ended_while with_prev2_POS_full:VBD_IN SS
+conn:while conn_POS:IN prev1:higher prev1_POS:JJR with_prev1_full:higher_while with_prev1_POS_full:JJR_IN prev2:point prev2_POS:NN with_prev2_full:point_while with_prev2_POS_full:NN_IN SS
+conn:just_days_before conn_POS:RB_NNS_IN prev1:, prev1_POS:, with_prev1_full:,_just_days_before with_prev1_POS_full:,_RB_NNS_IN prev2:1979 prev2_POS:CD with_prev2_full:1979_just_days_before with_prev2_POS_full:CD_RB_NNS_IN SS
+conn:if conn_POS:IN prev1:bullish prev1_POS:JJ with_prev1_full:bullish_if with_prev1_POS_full:JJ_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS
+conn:if conn_POS:IN prev1:billion prev1_POS:CD with_prev1_full:billion_if with_prev1_POS_full:CD_IN prev2:1 prev2_POS:CD with_prev2_full:1_if with_prev2_POS_full:CD_IN SS
+conn:as conn_POS:IN prev1:think prev1_POS:VBP with_prev1_full:think_as with_prev1_POS_full:VBP_IN prev2:I prev2_POS:PRP with_prev2_full:I_as with_prev2_POS_full:PRP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:rates prev1_POS:NNS with_prev1_full:rates_also with_prev1_POS_full:NNS_RB prev2:Short-term prev2_POS:JJ with_prev2_full:Short-term_also with_prev2_POS_full:JJ_RB PS
+conn:after conn_POS:IN prev1:million prev1_POS:CD with_prev1_full:million_after with_prev1_POS_full:CD_IN prev2:350 prev2_POS:CD with_prev2_full:350_after with_prev2_POS_full:CD_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:offerings prev2_POS:NNS with_prev2_full:offerings_and with_prev2_POS_full:NNS_CC SS
+conn:However conn_POS:RB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_However with_prev1_POS_full:``_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:October prev2_POS:NNP with_prev2_full:October_however with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:deteriorated prev1_POS:VBN with_prev1_full:deteriorated_and with_prev1_POS_full:VBN_CC prev2:had prev2_POS:VBD with_prev2_full:had_and with_prev2_POS_full:VBD_CC SS
+conn:also conn_POS:RB prev1:investors prev1_POS:NNS with_prev1_full:investors_also with_prev1_POS_full:NNS_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:and conn_POS:CC prev1:oversold prev1_POS:VBN with_prev1_full:oversold_and with_prev1_POS_full:VBN_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS
+conn:and conn_POS:CC prev1:lists prev1_POS:NNS with_prev1_full:lists_and with_prev1_POS_full:NNS_CC prev2:-RCB- prev2_POS:-RRB- with_prev2_full:-RCB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:fall prev2_POS:NN with_prev2_full:fall_but with_prev2_POS_full:NN_CC SS
+conn:while conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_while with_prev1_POS_full:NN_IN prev2:7.09 prev2_POS:CD with_prev2_full:7.09_while with_prev2_POS_full:CD_IN SS
+conn:as conn_POS:IN prev1:changed prev1_POS:VBN with_prev1_full:changed_as with_prev1_POS_full:VBN_IN prev2:little prev2_POS:RB with_prev2_full:little_as with_prev2_POS_full:RB_IN SS
+conn:while conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_while with_prev1_POS_full:NN_IN prev2:10.14 prev2_POS:CD with_prev2_full:10.14_while with_prev2_POS_full:CD_IN SS

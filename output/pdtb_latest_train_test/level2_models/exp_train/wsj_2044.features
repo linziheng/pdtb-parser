@@ -1,0 +1,30 @@
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:came_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:would_otherwise Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:senate_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:senate_after Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:bush_also Conjunction

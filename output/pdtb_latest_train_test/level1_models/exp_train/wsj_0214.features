@@ -1,0 +1,27 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:now_that conn:Now_that conn_POS:RB_IN Contingency
+conn_lc:until conn:Until conn_POS:IN Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:january_while Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:32_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:play_if Contingency
+conn_lc:before_and_after conn:before_and_after conn_POS:IN_CC_IN with_prev_full:pickup_before_and_after Temporal
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:attack_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:brow_as Temporal
+conn_lc:nonetheless conn:Nonetheless conn_POS:RB Comparison
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

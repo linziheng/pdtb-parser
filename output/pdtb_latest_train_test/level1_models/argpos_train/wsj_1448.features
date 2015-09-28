@@ -1,0 +1,9 @@
+conn:as conn_POS:IN prev1:today prev1_POS:NN with_prev1_full:today_as with_prev1_POS_full:NN_IN prev2:gridlock prev2_POS:NN with_prev2_full:gridlock_as with_prev2_POS_full:NN_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Until conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:aid prev2_POS:NN with_prev2_full:aid_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:legislature prev2_POS:NN with_prev2_full:legislature_also with_prev2_POS_full:NN_RB SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:unless conn_POS:IN prev1:taxes prev1_POS:NNS with_prev1_full:taxes_unless with_prev1_POS_full:NNS_IN prev2:such prev2_POS:JJ with_prev2_full:such_unless with_prev2_POS_full:JJ_IN SS

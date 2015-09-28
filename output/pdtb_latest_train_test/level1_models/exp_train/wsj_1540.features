@@ -1,0 +1,5 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:alliance_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:now_if Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:come_as Temporal

@@ -1,0 +1,7 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:medical_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:medical_after Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:ima_also Conjunction
+conn_lc:earlier conn:Earlier conn_POS:RB Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:identify_but Contrast
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

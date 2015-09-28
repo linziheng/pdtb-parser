@@ -1,0 +1,17 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:now_that conn:Now_that conn_POS:RB_IN Asynchronous
+conn_lc:now_that conn:Now_that conn_POS:RB_IN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:malnourishment_while Synchrony
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony

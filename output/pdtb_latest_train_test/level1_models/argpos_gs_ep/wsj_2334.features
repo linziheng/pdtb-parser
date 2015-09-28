@@ -1,0 +1,2 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Commission prev2_POS:NNP with_prev2_full:Commission_but with_prev2_POS_full:NNP_CC SS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:results prev1_POS:NNS with_prev1_full:results_as_soon_as with_prev1_POS_full:NNS_RB_RB_IN prev2:financial prev2_POS:JJ with_prev2_full:financial_as_soon_as with_prev2_POS_full:JJ_RB_RB_IN SS

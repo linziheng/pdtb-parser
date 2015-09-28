@@ -1,0 +1,16 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:did_when Temporal
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion

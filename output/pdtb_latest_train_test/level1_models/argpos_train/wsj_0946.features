@@ -1,0 +1,16 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:100 prev2_POS:CD with_prev2_full:100_and with_prev2_POS_full:CD_CC SS
+conn:because conn_POS:IN prev1:appeal prev1_POS:NN with_prev1_full:appeal_because with_prev1_POS_full:NN_IN prev2:on prev2_POS:IN with_prev2_full:on_because with_prev2_POS_full:IN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_although with_prev1_POS_full:CC_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:believe prev2_POS:VB with_prev2_full:believe_if with_prev2_POS_full:VB_IN SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:reasons prev2_POS:NNS with_prev2_full:reasons_and with_prev2_POS_full:NNS_CC SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:speed prev2_POS:NN with_prev2_full:speed_before with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:course prev2_POS:NN with_prev2_full:course_and with_prev2_POS_full:NN_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:indeed prev2_POS:RB with_prev2_full:indeed_while with_prev2_POS_full:RB_IN SS
+conn:thus conn_POS:RB prev1:case prev1_POS:NN with_prev1_full:case_thus with_prev1_POS_full:NN_RB prev2:Morgan prev2_POS:NNP with_prev2_full:Morgan_thus with_prev2_POS_full:NNP_RB PS

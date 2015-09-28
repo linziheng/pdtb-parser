@@ -1,0 +1,33 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:employees_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:employees_while Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:week_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:week_after Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:loans_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:and_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:and_after Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:momentum_even_though Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:after conn:After conn_POS:IN Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:could_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:dividend_yet Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:company_because Contingency
+conn_lc:particularly_since conn:particularly_since conn_POS:RB_IN with_prev_full:,_particularly_since Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:credibility_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:group_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:has_also Expansion
+conn_lc:however conn:However conn_POS:RB Comparison

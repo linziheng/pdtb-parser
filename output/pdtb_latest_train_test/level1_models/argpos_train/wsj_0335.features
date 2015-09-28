@@ -1,0 +1,15 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Association prev2_POS:NNP with_prev2_full:Association_and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB prev1:official prev1_POS:NN with_prev1_full:official_also with_prev1_POS_full:NN_RB prev2:California prev2_POS:NNP with_prev2_full:California_also with_prev2_POS_full:NNP_RB PS
+conn:in_the_3_1\/2_years_before conn_POS:IN_DT_CD_CD_NNS_IN prev1:sales prev1_POS:NNS with_prev1_full:sales_in_the_3_1\/2_years_before with_prev1_POS_full:NNS_IN_DT_CD_CD_NNS_IN prev2:securities prev2_POS:NNS with_prev2_full:securities_in_the_3_1\/2_years_before with_prev2_POS_full:NNS_IN_DT_CD_CD_NNS_IN SS
+conn:although conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_although with_prev1_POS_full:''_IN prev2:, prev2_POS:, with_prev2_full:,_although with_prev2_POS_full:,_IN SS
+conn:also conn_POS:RB prev1:he prev1_POS:PRP with_prev1_full:he_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS
+conn:also conn_POS:RB prev1:examiner prev1_POS:NN with_prev1_full:examiner_also with_prev1_POS_full:NN_RB prev2:state prev2_POS:NN with_prev2_full:state_also with_prev2_POS_full:NN_RB PS
+conn:Later_on conn_POS:RB_RB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Later_on with_prev1_POS_full:``_RB_RB PS
+conn:and conn_POS:CC prev1:up prev1_POS:RP with_prev1_full:up_and with_prev1_POS_full:RP_CC prev2:file prev2_POS:NN with_prev2_full:file_and with_prev2_POS_full:NN_CC SS
+conn:a_day_after conn_POS:DT_NN_IN prev1:, prev1_POS:, with_prev1_full:,_a_day_after with_prev1_POS_full:,_DT_NN_IN prev2:April prev2_POS:NNP with_prev2_full:April_a_day_after with_prev2_POS_full:NNP_DT_NN_IN SS
+conn:later conn_POS:RB sent_pos:2 prev1:government prev1_POS:NN with_prev1_full:government_later with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_later with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:long prev2_POS:RB with_prev2_full:long_however with_prev2_POS_full:RB_RB PS
+conn:two_years_before conn_POS:CD_NNS_IN prev1:receivership prev1_POS:NN with_prev1_full:receivership_two_years_before with_prev1_POS_full:NN_CD_NNS_IN prev2:into prev2_POS:IN with_prev2_full:into_two_years_before with_prev2_POS_full:IN_CD_NNS_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:a_day_or_two_before conn_POS:DT_NN_CC_CD_IN prev1:that prev1_POS:IN with_prev1_full:that_a_day_or_two_before with_prev1_POS_full:IN_DT_NN_CC_CD_IN prev2:said prev2_POS:VBD with_prev2_full:said_a_day_or_two_before with_prev2_POS_full:VBD_DT_NN_CC_CD_IN SS
+conn:simply_because conn_POS:RB_IN prev1:it prev1_POS:PRP with_prev1_full:it_simply_because with_prev1_POS_full:PRP_RB_IN prev2:shredded prev2_POS:VBD with_prev2_full:shredded_simply_because with_prev2_POS_full:VBD_RB_IN SS

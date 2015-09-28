@@ -1,0 +1,8 @@
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:so conn_POS:RB prev1:commentary prev1_POS:NN with_prev1_full:commentary_so with_prev1_POS_full:NN_RB prev2:market prev2_POS:NN with_prev2_full:market_so with_prev2_POS_full:NN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:commentary prev2_POS:NN with_prev2_full:commentary_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:pulled prev1_POS:VBN with_prev1_full:pulled_because with_prev1_POS_full:VBN_IN prev2:n't prev2_POS:RB with_prev2_full:n't_because with_prev2_POS_full:RB_IN SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:cautious prev2_POS:JJ with_prev2_full:cautious_and with_prev2_POS_full:JJ_CC SS
+conn:And conn_POS:CC sent_pos:0 PS

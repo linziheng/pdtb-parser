@@ -1,0 +1,7 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:caution_when Condition
+conn_lc:when conn:When conn_POS:WRB with_prev_full:caution_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:''_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:currency_before Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:weeks_before Asynchronous
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Synchrony

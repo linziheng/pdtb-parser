@@ -1,0 +1,42 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Asynchronous
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:only_after conn:only_after conn_POS:RB_RB with_prev_full:malignant_only_after Asynchronous
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:cancer_because Cause
+conn_lc:even_before conn:even_before conn_POS:RB_RB with_prev_full:knew_even_before Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tumor_when Synchrony
+conn_lc:after conn:after conn_POS:IN with_prev_full:--_after Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:fate_when Synchrony
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:,_therefore Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:developed_when Synchrony
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:next conn:next conn_POS:JJ with_prev_full:vogelstein_next Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:as_though conn:as_though conn_POS:IN_IN with_prev_full:--_as_though Restatement
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:then conn:then conn_POS:RB with_prev_full:were_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Asynchronous
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:there_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Conjunction
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast

@@ -1,0 +1,10 @@
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:plan_indeed Restatement
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:plan_thus Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:plan_thus Cause
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:decline_as_a_result Cause

@@ -1,0 +1,26 @@
+conn_lc:after conn:After conn_POS:RB Asynchronous
+conn_lc:so conn:so conn_POS:IN with_prev_full:villages_so Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:time_when Synchrony
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:daring_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:snowsuit_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:smiling_as Synchrony
+conn_lc:if conn:if conn_POS:IN with_prev_full:okay_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:think_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:resorts_also Conjunction
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:skiing_while Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:besides conn:besides conn_POS:IN with_prev_full:do_besides Alternative
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:people_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:day_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_if conn:Even_if conn_POS:RB_IN with_prev_full:``_even_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:overcrowded_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous

@@ -1,0 +1,11 @@
+conn:when conn_POS:WRB prev1:face prev1_POS:VBP with_prev1_full:face_when with_prev1_POS_full:VBP_WRB prev2:manufacturers prev2_POS:NNS with_prev2_full:manufacturers_when with_prev2_POS_full:NNS_WRB SS
+conn:ultimately conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_ultimately with_prev1_POS_full:,_RB prev2:aim prev2_POS:NN with_prev2_full:aim_ultimately with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:today prev2_POS:NN with_prev2_full:today_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:dominated prev1_POS:VBN with_prev1_full:dominated_and with_prev1_POS_full:VBN_CC prev2:long prev2_POS:RB with_prev2_full:long_and with_prev2_POS_full:RB_CC SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:place prev2_POS:NN with_prev2_full:place_even_though with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:push prev2_POS:NN with_prev2_full:push_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:staff prev1_POS:NN with_prev1_full:staff_also with_prev1_POS_full:NN_RB prev2:manufacturing prev2_POS:VBG with_prev2_full:manufacturing_also with_prev2_POS_full:VBG_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:manufacturing prev2_POS:NN with_prev2_full:manufacturing_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:problem prev2_POS:NN with_prev2_full:problem_but with_prev2_POS_full:NN_CC SS

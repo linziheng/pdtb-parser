@@ -1,0 +1,12 @@
+conn:also conn_POS:RB prev1:outlook prev1_POS:NN with_prev1_full:outlook_also with_prev1_POS_full:NN_RB prev2:stock prev2_POS:NN with_prev2_full:stock_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:of prev2_POS:IN with_prev2_full:of_also with_prev2_POS_full:IN_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:said prev2_POS:VBD with_prev2_full:said_as with_prev2_POS_full:VBD_IN SS
+conn:after conn_POS:IN prev1:1\/2 prev1_POS:CD with_prev1_full:1\/2_after with_prev1_POS_full:CD_IN prev2:42 prev2_POS:CD with_prev2_full:42_after with_prev2_POS_full:CD_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:say prev2_POS:VBP with_prev2_full:say_because with_prev2_POS_full:VBP_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_while with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:managers prev1_POS:NNS with_prev1_full:managers_also with_prev1_POS_full:NNS_RB prev2:money prev2_POS:NN with_prev2_full:money_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:93,000 prev2_POS:CD with_prev2_full:93,000_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:shares prev2_POS:NNS with_prev2_full:shares_and with_prev2_POS_full:NNS_CC SS

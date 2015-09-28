@@ -1,0 +1,46 @@
+conn:therefore conn_POS:RB prev1:not prev1_POS:RB with_prev1_full:not_therefore with_prev1_POS_full:RB_RB prev2:may prev2_POS:MD with_prev2_full:may_therefore with_prev2_POS_full:MD_RB NA
+conn:and conn_POS:CC prev1:tumours prev1_POS:NNS with_prev1_full:tumours_and with_prev1_POS_full:NNS_CC prev2:haematopoietic prev2_POS:JJ with_prev2_full:haematopoietic_and with_prev2_POS_full:JJ_CC NA
+conn:Thus conn_POS:RB sent_pos:0 NA
+conn:also conn_POS:RB sent_pos:2 prev1:tumours prev1_POS:NNS with_prev1_full:tumours_also with_prev1_POS_full:NNS_RB prev2:Epithelial prev2_POS:JJ with_prev2_full:Epithelial_also with_prev2_POS_full:JJ_RB NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:translocations prev2_POS:NNS with_prev2_full:translocations_but with_prev2_POS_full:NNS_CC NA
+conn:while conn_POS:IN prev1:but prev1_POS:CC with_prev1_full:but_while with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_while with_prev2_POS_full:,_IN NA
+conn:when conn_POS:WRB prev1:occurs prev1_POS:VBZ with_prev1_full:occurs_when with_prev1_POS_full:VBZ_WRB prev2:fusion prev2_POS:NN with_prev2_full:fusion_when with_prev2_POS_full:NN_WRB NA
+conn:in_turn conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_turn with_prev1_POS_full:,_IN_NN prev2:and prev2_POS:CC with_prev2_full:and_in_turn with_prev2_POS_full:CC_IN_NN NA
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:proteins prev2_POS:NNS with_prev2_full:proteins_for_instance with_prev2_POS_full:NNS_IN_NN NA
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:progenitors prev2_POS:NNS with_prev2_full:progenitors_whereas with_prev2_POS_full:NNS_IN NA
+conn:While conn_POS:IN sent_pos:0 NA
+conn:Thus conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ETV1 prev2_POS:NNP with_prev2_full:ETV1_and with_prev2_POS_full:NNP_CC NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:gene prev2_POS:NN with_prev2_full:gene_but with_prev2_POS_full:NN_CC NA
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:also conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_also with_prev1_POS_full:MD_RB prev2:gene prev2_POS:NN with_prev2_full:gene_also with_prev2_POS_full:NN_RB NA
+conn:Thus conn_POS:RB sent_pos:0 NA
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:cancer prev2_POS:NN with_prev2_full:cancer_because with_prev2_POS_full:NN_IN NA
+conn:therefore conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_therefore with_prev1_POS_full:MD_RB prev2:protein prev2_POS:NN with_prev2_full:protein_therefore with_prev2_POS_full:NN_RB NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:cell prev2_POS:NN with_prev2_full:cell_since with_prev2_POS_full:NN_IN NA
+conn:and conn_POS:CC prev1:progenitors prev1_POS:NNS with_prev1_full:progenitors_and with_prev1_POS_full:NNS_CC prev2:mesenchymal prev2_POS:JJ with_prev2_full:mesenchymal_and with_prev2_POS_full:JJ_CC NA
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_also with_prev2_POS_full:-RRB-_RB NA
+conn:when conn_POS:WRB prev1:model prev1_POS:NN with_prev1_full:model_when with_prev1_POS_full:NN_WRB prev2:invertor prev2_POS:NN with_prev2_full:invertor_when with_prev2_POS_full:NN_WRB NA
+conn:While conn_POS:IN sent_pos:0 NA
+conn:Furthermore conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:blastocysts prev2_POS:NNS with_prev2_full:blastocysts_and with_prev2_POS_full:NNS_CC NA
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:inversion prev2_POS:NN with_prev2_full:inversion_thus with_prev2_POS_full:NN_RB NA
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:d prev2_POS:NNS with_prev2_full:d_whereas with_prev2_POS_full:NNS_IN NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:lymphadenopathy prev2_POS:NN with_prev2_full:lymphadenopathy_and with_prev2_POS_full:NN_CC NA
+conn:Similarly conn_POS:RB sent_pos:0 NA
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:mice prev2_POS:NNS with_prev2_full:mice_as with_prev2_POS_full:NNS_IN NA
+conn:In_addition conn_POS:IN_NN sent_pos:0 NA
+conn:and conn_POS:CC prev1:hybridisation prev1_POS:NN with_prev1_full:hybridisation_and with_prev1_POS_full:NN_CC prev2:filter prev2_POS:NN with_prev2_full:filter_and with_prev2_POS_full:NN_CC NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:-RSB- prev1_POS:NNS with_prev1_full:-RSB-_and with_prev1_POS_full:NNS_CC prev2:38 prev2_POS:CD with_prev2_full:38_and with_prev2_POS_full:CD_CC NA
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:-RSB- prev2_POS:NNS with_prev2_full:-RSB-_thus with_prev2_POS_full:NNS_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:markers prev2_POS:NNS with_prev2_full:markers_and with_prev2_POS_full:NNS_CC NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:cells prev2_POS:NNS with_prev2_full:cells_but with_prev2_POS_full:NNS_CC NA
+conn:Therefore conn_POS:RB sent_pos:0 NA
+conn:While conn_POS:IN sent_pos:0 NA
+conn:if conn_POS:IN prev1:; prev1_POS:: with_prev1_full:;_if with_prev1_POS_full::_IN prev2:gene prev2_POS:NN with_prev2_full:gene_if with_prev2_POS_full:NN_IN NA

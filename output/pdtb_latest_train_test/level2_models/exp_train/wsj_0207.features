@@ -1,0 +1,24 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:creative_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:though conn:though conn_POS:IN with_prev_full:-lrb-_though Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:two_then Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:''_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:because conn:because conn_POS:IN with_prev_full:it_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:them_only_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast

@@ -1,0 +1,8 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:must_also Expansion
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:billion_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Expansion

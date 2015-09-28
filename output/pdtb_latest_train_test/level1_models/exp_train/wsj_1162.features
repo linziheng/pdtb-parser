@@ -1,0 +1,16 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:just_as_soon_as conn:just_as_soon_as conn_POS:RB_RB_RB_IN with_prev_full:--_just_as_soon_as Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:report_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:road_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:liability_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Comparison

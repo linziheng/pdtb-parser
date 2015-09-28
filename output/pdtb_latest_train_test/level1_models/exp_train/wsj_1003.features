@@ -1,0 +1,13 @@
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:weak_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:inventory_when Temporal
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:however conn:However conn_POS:RB Comparison

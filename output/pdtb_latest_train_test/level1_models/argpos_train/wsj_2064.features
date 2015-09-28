@@ -1,0 +1,9 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:planning prev1_POS:NN with_prev1_full:planning_while with_prev1_POS_full:NN_IN prev2:central prev2_POS:JJ with_prev2_full:central_while with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:campaigns prev2_POS:NNS with_prev2_full:campaigns_and with_prev2_POS_full:NNS_CC SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:On_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:further prev2_POS:RB with_prev2_full:further_as with_prev2_POS_full:RB_IN SS
+conn:If..then conn_POS:IN_RB SS

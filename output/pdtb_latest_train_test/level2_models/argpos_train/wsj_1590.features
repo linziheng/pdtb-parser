@@ -1,0 +1,10 @@
+conn:Two_weeks_after conn_POS:CD_NNS_IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:Lawson prev1_POS:NNP with_prev1_full:Lawson_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:Lawson prev1_POS:NNP with_prev1_full:Lawson_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:'' prev1_POS:'' with_prev1_full:''_when with_prev1_POS_full:''_WRB prev2:appreciated prev2_POS:VBN with_prev2_full:appreciated_when with_prev2_POS_full:VBN_WRB SS
+conn:after conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_after with_prev1_POS_full:''_IN prev2:steadied prev2_POS:VBN with_prev2_full:steadied_after with_prev2_POS_full:VBN_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Specifically conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:System prev2_POS:NNP with_prev2_full:System_but with_prev2_POS_full:NNP_CC SS

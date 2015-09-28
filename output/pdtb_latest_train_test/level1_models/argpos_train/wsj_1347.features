@@ -1,0 +1,6 @@
+conn:largely_because conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_largely_because with_prev1_POS_full:,_RB_IN prev2:claims prev2_POS:NNS with_prev2_full:claims_largely_because with_prev2_POS_full:NNS_RB_IN SS
+conn:if conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Litigation prev2_POS:NN with_prev2_full:Litigation_if with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:dumped prev1_POS:VBN with_prev1_full:dumped_when with_prev1_POS_full:VBN_WRB prev2:oil prev2_POS:NN with_prev2_full:oil_when with_prev2_POS_full:NN_WRB SS
+conn:and conn_POS:CC prev1:plan prev1_POS:NN with_prev1_full:plan_and with_prev1_POS_full:NN_CC prev2:immediate-response prev2_POS:JJ with_prev2_full:immediate-response_and with_prev2_POS_full:JJ_CC SS
+conn:because conn_POS:IN prev1:relevant prev1_POS:JJ with_prev1_full:relevant_because with_prev1_POS_full:JJ_IN prev2:n't prev2_POS:RB with_prev2_full:n't_because with_prev2_POS_full:RB_IN SS
+conn:when conn_POS:WRB prev1:approved prev1_POS:VBN with_prev1_full:approved_when with_prev1_POS_full:VBN_WRB prev2:was prev2_POS:VBD with_prev2_full:was_when with_prev2_POS_full:VBD_WRB SS

@@ -1,0 +1,18 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:and_indeed Restatement
+conn_lc:rather conn:rather conn_POS:RB with_prev_full:or_rather Alternative
+conn_lc:until conn:until conn_POS:IN with_prev_full:nuance_until Asynchronous
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:operations_only_when Condition
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:place_if Condition
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:know_before Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:--_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:committees_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast

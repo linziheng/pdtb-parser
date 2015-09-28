@@ -1,0 +1,4 @@
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:benefit_if Condition

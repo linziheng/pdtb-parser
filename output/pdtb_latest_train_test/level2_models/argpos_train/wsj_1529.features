@@ -1,0 +1,12 @@
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:true prev2_POS:JJ with_prev2_full:true_for_example with_prev2_POS_full:JJ_IN_NN PS
+conn:when conn_POS:WRB prev1:himself prev1_POS:PRP with_prev1_full:himself_when with_prev1_POS_full:PRP_WRB prev2:contradicts prev2_POS:VBZ with_prev2_full:contradicts_when with_prev2_POS_full:VBZ_WRB SS
+conn:if conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_if with_prev1_POS_full:''_IN prev2:privatized prev2_POS:VBN with_prev2_full:privatized_if with_prev2_POS_full:VBN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:consortium prev2_POS:NN with_prev2_full:consortium_but with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:'' prev1_POS:'' with_prev1_full:''_when with_prev1_POS_full:''_WRB prev2:game prev2_POS:NN with_prev2_full:game_when with_prev2_POS_full:NN_WRB SS
+conn:But conn_POS:CC sent_pos:1 prev1:'' prev1_POS:'' with_prev1_full:''_But with_prev1_POS_full:''_CC PS
+conn:indeed conn_POS:RB prev1:; prev1_POS:: with_prev1_full:;_indeed with_prev1_POS_full::_RB prev2:Mexico prev2_POS:NNP with_prev2_full:Mexico_indeed with_prev2_POS_full:NNP_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:enterprises prev2_POS:NNS with_prev2_full:enterprises_however with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:before conn_POS:RB prev1:industries prev1_POS:NNS with_prev1_full:industries_before with_prev1_POS_full:NNS_RB prev2:key prev2_POS:JJ with_prev2_full:key_before with_prev2_POS_full:JJ_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:line prev2_POS:NN with_prev2_full:line_however with_prev2_POS_full:NN_RB PS

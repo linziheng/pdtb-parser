@@ -1,0 +1,4 @@
+conn_lc:until conn:until conn_POS:IN with_prev_full:assets_until Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:completed_and Expansion
+conn_lc:when conn:When conn_POS:WRB with_prev_full:._when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:._when Contingency

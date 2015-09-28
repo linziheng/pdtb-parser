@@ -1,0 +1,28 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Contrast£
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:same_and Conjunction£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:nevertheless conn:nevertheless conn_POS:RB with_prev_full:it_nevertheless Pragmatic_concession£
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:,_yet Contrast£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast£
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony£Conjunction£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast£
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction£
+conn_lc:also conn:also conn_POS:RB with_prev_full:considerations_also Conjunction£
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation£
+conn_lc:because conn:because conn_POS:IN with_prev_full:portfolio_because Cause£
+conn_lc:while conn:while conn_POS:IN with_prev_full:batteries_while Contrast£
+conn_lc:also conn:also conn_POS:RB with_prev_full:poquet_also Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:also conn:also conn_POS:RB with_prev_full:announcement_also Conjunction£
+conn_lc:because conn:because conn_POS:IN with_prev_full:slip_because Cause£
+conn_lc:whereas conn:whereas conn_POS:IN with_prev_full:,_whereas Contrast£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Synchrony£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation£
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Conjunction£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:by_then conn:by_then conn_POS:IN_RB with_prev_full:but_by_then Asynchronous£

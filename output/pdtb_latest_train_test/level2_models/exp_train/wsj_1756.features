@@ -1,0 +1,6 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:said_then Asynchronous
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:acquisition_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:bid_unless Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

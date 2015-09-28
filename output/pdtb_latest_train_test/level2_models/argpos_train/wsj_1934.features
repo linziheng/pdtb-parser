@@ -1,0 +1,9 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Admistration prev2_POS:NNP with_prev2_full:Admistration_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:it prev2_POS:PRP with_prev2_full:it_because with_prev2_POS_full:PRP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:They prev2_POS:PRP with_prev2_full:They_also with_prev2_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_and with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:drug prev1_POS:NN with_prev1_full:drug_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:funds prev2_POS:NNS with_prev2_full:funds_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:drug prev2_POS:NN with_prev2_full:drug_and with_prev2_POS_full:NN_CC SS

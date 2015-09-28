@@ -1,0 +1,16 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:rep_meanwhile Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:there_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:precipices_while Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:words_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:director_and Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:''_so_that Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:up_while Synchrony

@@ -1,0 +1,3 @@
+conn:until conn_POS:IN prev1:purchases prev1_POS:NNS with_prev1_full:purchases_until with_prev1_POS_full:NNS_IN prev2:equity prev2_POS:NN with_prev2_full:equity_until with_prev2_POS_full:NN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:B.A.T prev1_POS:NNP with_prev1_full:B.A.T_if with_prev1_POS_full:NNP_IN prev2:for prev2_POS:IN with_prev2_full:for_if with_prev2_POS_full:IN_IN SS

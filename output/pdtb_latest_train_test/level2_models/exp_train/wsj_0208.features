@@ -1,0 +1,13 @@
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:ever_since conn:Ever_since conn_POS:RB_IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:agency_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:france_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Synchrony
+conn_lc:just_before conn:just_before conn_POS:RB_IN with_prev_full:set_just_before Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:muddled_only_when Synchrony
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:muddled_only_when Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

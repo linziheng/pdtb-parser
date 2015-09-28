@@ -1,0 +1,8 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:improved_since Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:stock_also Expansion
+conn_lc:at_least_partly_because conn:at_least_partly_because conn_POS:IN_JJS_RB_IN with_prev_full:,_at_least_partly_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:markets_before Temporal

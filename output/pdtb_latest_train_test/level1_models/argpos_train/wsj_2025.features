@@ -1,0 +1,5 @@
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:revamping prev1_POS:VBG with_prev1_full:revamping_and with_prev1_POS_full:VBG_CC prev2:some prev2_POS:DT with_prev2_full:some_and with_prev2_POS_full:DT_CC SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:shows prev2_POS:NNS with_prev2_full:shows_although with_prev2_POS_full:NNS_IN SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:network prev2_POS:NN with_prev2_full:network_so with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:situation prev2_POS:NN with_prev2_full:situation_and with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,18 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Now prev2_POS:RB with_prev2_full:Now_however with_prev2_POS_full:RB_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:however prev2_POS:RB with_prev2_full:however_as with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:said prev2_POS:VBD with_prev2_full:said_when with_prev2_POS_full:VBD_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:it prev2_POS:PRP with_prev2_full:it_but with_prev2_POS_full:PRP_CC SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:month prev2_POS:NN with_prev2_full:month_also with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:in_part_because conn_POS:IN_NN_IN prev1:, prev1_POS:, with_prev1_full:,_in_part_because with_prev1_POS_full:,_IN_NN_IN prev2:role prev2_POS:NN with_prev2_full:role_in_part_because with_prev2_POS_full:NN_IN_NN_IN SS
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:because conn_POS:IN prev1:also prev1_POS:RB with_prev1_full:also_because with_prev1_POS_full:RB_IN prev2:but prev2_POS:CC with_prev2_full:but_because with_prev2_POS_full:CC_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS

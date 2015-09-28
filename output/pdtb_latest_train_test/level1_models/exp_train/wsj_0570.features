@@ -1,0 +1,3 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:offer_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:stock_before Temporal

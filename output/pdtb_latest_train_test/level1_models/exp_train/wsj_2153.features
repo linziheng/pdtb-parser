@@ -1,0 +1,28 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:stuff_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:years_before Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:so conn:so conn_POS:IN with_prev_full:nearby_so Contingency
+conn_lc:especially_when conn:especially_when conn_POS:RB_WRB with_prev_full:,_especially_when Temporal
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:must_also Expansion
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:producers_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:unless conn:Unless conn_POS:IN with_prev_full:``_unless Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion

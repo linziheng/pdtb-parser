@@ -1,0 +1,15 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:resigned_because Cause
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:consequently conn:Consequently conn_POS:RB Cause
+conn_lc:after conn:after conn_POS:IN with_prev_full:that_after Asynchronous
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:,_instead Alternative
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:unless conn:Unless conn_POS:IN Alternative
+conn_lc:before conn:before conn_POS:IN with_prev_full:considering_before Asynchronous

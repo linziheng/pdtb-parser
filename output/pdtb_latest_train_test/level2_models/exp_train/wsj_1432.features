@@ -1,0 +1,26 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:recommendations_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:costs_because Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:there_also Conjunction
+conn_lc:once conn:once conn_POS:RB with_prev_full:that_once Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:cathay_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:there_also Conjunction
+conn_lc:particularly_as conn:particularly_as conn_POS:RB_IN with_prev_full:,_particularly_as Cause
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Pragmatic_contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:cathay_because Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession

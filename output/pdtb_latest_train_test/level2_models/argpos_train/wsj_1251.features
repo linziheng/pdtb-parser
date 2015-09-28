@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:travel prev2_POS:NN with_prev2_full:travel_and with_prev2_POS_full:NN_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_while with_prev2_POS_full:NN_IN SS
+conn:In_contrast conn_POS:IN_NN sent_pos:0 PS

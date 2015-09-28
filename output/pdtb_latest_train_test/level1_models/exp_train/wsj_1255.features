@@ -1,0 +1,3 @@
+conn_lc:until conn:until conn_POS:IN with_prev_full:u.s._until Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:cans_after Temporal
+conn_lc:further conn:further conn_POS:RB with_prev_full:is_further Expansion

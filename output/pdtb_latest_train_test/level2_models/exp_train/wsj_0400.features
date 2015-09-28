@@ -1,0 +1,37 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:energized_as Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:energized_as Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:institutions_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:sentiment_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:due_and Conjunction
+conn_lc:although conn:Although conn_POS:IN Exception
+conn_lc:if conn:if conn_POS:IN with_prev_full:delayed_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:point_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:quickly_before Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:treasury_also Conjunction
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:return_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:RB with_prev_full:tumbled_after Asynchronous
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:notes_also Conjunction
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:investors_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:91-23_as Synchrony
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:erode_as Synchrony

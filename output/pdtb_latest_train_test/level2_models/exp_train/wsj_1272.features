@@ -1,0 +1,31 @@
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:d.t._also Conjunction
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:apparent_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:;_then Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:knight_and Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:resigning_as_soon_as Synchrony
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:later conn:later conn_POS:RB with_prev_full:said_later Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Asynchronous
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:and_instead Alternative
+conn_lc:later conn:later conn_POS:RB with_prev_full:remarked_later Asynchronous
+conn_lc:in_the_end conn:in_the_end conn_POS:IN_DT_NN with_prev_full:,_in_the_end Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement

@@ -1,0 +1,7 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bill prev2_POS:NN with_prev2_full:bill_but with_prev2_POS_full:NN_CC SS
+conn:so_that conn_POS:IN_IN prev1:bill prev1_POS:NN with_prev1_full:bill_so_that with_prev1_POS_full:NN_IN_IN prev2:the prev2_POS:DT with_prev2_full:the_so_that with_prev2_POS_full:DT_IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:now_that conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_now_that with_prev1_POS_full:CC_RB_IN SS
+conn:If..then conn_POS:IN_RB SS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:Hill prev2_POS:NNP with_prev2_full:Hill_though with_prev2_POS_full:NNP_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS

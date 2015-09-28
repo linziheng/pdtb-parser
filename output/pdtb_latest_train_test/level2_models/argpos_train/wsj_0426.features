@@ -1,0 +1,25 @@
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:crimes prev2_POS:NNS with_prev2_full:crimes_so with_prev2_POS_full:NNS_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Republicans prev2_POS:NNP with_prev2_full:Republicans_after with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:laws prev2_POS:NNS with_prev2_full:laws_if with_prev2_POS_full:NNS_IN SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:before conn_POS:IN prev1:factors prev1_POS:NNS with_prev1_full:factors_before with_prev1_POS_full:NNS_IN prev2:'' prev2_POS:'' with_prev2_full:''_before with_prev2_POS_full:''_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:bill prev2_POS:NN with_prev2_full:bill_also with_prev2_POS_full:NN_RB PS
+conn:Separately conn_POS:RB sent_pos:1 prev1:-LRB- prev1_POS:-LRB- with_prev1_full:-LRB-_Separately with_prev1_POS_full:-LRB-_RB PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:justice prev2_POS:NN with_prev2_full:justice_for_instance with_prev2_POS_full:NN_IN_NN SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:sentences prev1_POS:NNS with_prev1_full:sentences_if with_prev1_POS_full:NNS_IN prev2:death prev2_POS:NN with_prev2_full:death_if with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bill prev2_POS:NN with_prev2_full:bill_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:sentences prev2_POS:NNS with_prev2_full:sentences_though with_prev2_POS_full:NNS_IN SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:legislation prev2_POS:NN with_prev2_full:legislation_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:in_turn conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_turn with_prev1_POS_full:,_IN_NN prev2:that prev2_POS:DT with_prev2_full:that_in_turn with_prev2_POS_full:DT_IN_NN PS

@@ -1,0 +1,51 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:came_as Temporal
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:job_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:office_while Temporal
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:particularly_since conn:particularly_since conn_POS:RB_IN with_prev_full:,_particularly_since Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:before conn:before conn_POS:RB with_prev_full:twice_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:''_after Temporal
+conn_lc:shortly_after conn:shortly_after conn_POS:RB_IN with_prev_full:,_shortly_after Temporal
+conn_lc:if_only conn:If_only conn_POS:IN_RB with_prev_full:``_if_only Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:judge_when Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:,_until Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:him_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:later conn:later conn_POS:RBR with_prev_full:saying_later Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:lip_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:lip_when Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:coffin_until Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:hours_after Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:remaining_until Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:ebensburg_when Temporal
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:until conn:Until conn_POS:IN with_prev_full:``_until Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:photograph_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:later conn:Later conn_POS:RBR Temporal
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:perhaps_if Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:repair_before Temporal
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

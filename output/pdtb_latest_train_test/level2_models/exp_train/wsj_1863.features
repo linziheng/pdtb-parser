@@ -1,0 +1,18 @@
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:trading_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:trading_also Conjunction
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:about_three_weeks_after conn:about_three_weeks_after conn_POS:IN_CD_NNS_IN with_prev_full:out_about_three_weeks_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:besides conn:Besides conn_POS:IN Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:market_when Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:shortly_thereafter conn:shortly_thereafter conn_POS:RB_RB with_prev_full:ended_shortly_thereafter Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:monday_as Cause

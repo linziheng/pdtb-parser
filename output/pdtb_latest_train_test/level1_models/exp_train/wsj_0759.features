@@ -1,0 +1,6 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:circulation_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:operations_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:operations_while Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal

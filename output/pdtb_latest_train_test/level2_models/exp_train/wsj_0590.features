@@ -1,0 +1,20 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:other_when Synchrony
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:as_well conn:as_well conn_POS:RB_RB with_prev_full:pledged_as_well Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:bush_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:president_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:bill_if Condition
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:still conn:still conn_POS:RB with_prev_full:there_still Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:holds_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:scrapped_before Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast

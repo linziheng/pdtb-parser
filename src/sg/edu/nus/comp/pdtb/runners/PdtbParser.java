@@ -17,29 +17,23 @@ package sg.edu.nus.comp.pdtb.runners;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import sg.edu.nus.comp.pdtb.parser.ArgExtComp;
 import sg.edu.nus.comp.pdtb.parser.ArgPosComp;
 import sg.edu.nus.comp.pdtb.parser.Component;
 import sg.edu.nus.comp.pdtb.parser.ConnComp;
 import sg.edu.nus.comp.pdtb.parser.ExplicitComp;
 import sg.edu.nus.comp.pdtb.parser.NonExplicitComp;
-import sg.edu.nus.comp.pdtb.util.Settings;
+import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Util;
-import edu.stanford.nlp.ling.HasWord;
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.DocumentPreprocessor;
-import edu.stanford.nlp.trees.Tree;
-import edu.stanford.nlp.trees.TreePrint;
 
 public class PdtbParser {
 	private static Logger log = LogManager.getLogger(PdtbParser.class.toString());
@@ -150,36 +144,9 @@ public class PdtbParser {
 
 	private static void prepareAuxData(File testFile) throws IOException {
 
-		File[] trees = prepareParseAndDependecyTrees(testFile);
+		File[][] trees = Corpus.prepareParseAndDependecyTrees(new File[] { testFile });
 
-		SpanTreeExtractor.anyTextToSpanGen(trees[0], testFile);
-	}
-
-	private static File[] prepareParseAndDependecyTrees(File inputFile) throws FileNotFoundException {
-		log.info("Generating parse and dependecy trees with Stanford parser...");
-		String outDir = Settings.TMP_PATH + inputFile.getName();
-		LexicalizedParser lp = LexicalizedParser.loadModel("external/lib/englishPCFG.ser.gz");
-		File parseTree = new File(outDir + ".ptree");
-		File dependTree = new File(outDir + ".dtree");
-		PrintWriter parse = new PrintWriter(parseTree);
-		TreePrint tp = new TreePrint("penn");
-		PrintWriter depend = new PrintWriter(dependTree);
-		TreePrint td = new TreePrint("typedDependencies");
-
-		DocumentPreprocessor sentence = new DocumentPreprocessor(inputFile.toString());
-		for (List<HasWord> sent : sentence) {
-			Tree tree = lp.apply(sent);
-
-			tp.printTree(tree, parse);
-			parse.flush();
-
-			td.printTree(tree, depend);
-			depend.flush();
-		}
-		parse.close();
-		depend.close();
-		log.info("Tree generation done.");
-		return new File[] { parseTree, dependTree };
+		SpanTreeExtractor.anyTextToSpanGen(trees[0][0], testFile);
 	}
 
 }

@@ -1,0 +1,17 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If..then conn_POS:IN_RB SS
+conn:before conn_POS:IN prev1:eons prev1_POS:NNS with_prev1_full:eons_before with_prev1_POS_full:NNS_IN prev2:of prev2_POS:IN with_prev2_full:of_before with_prev2_POS_full:IN_IN SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:Accordingly conn_POS:RB sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:up prev2_POS:RP with_prev2_full:up_though with_prev2_POS_full:RP_RB PS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:though prev2_POS:RB with_prev2_full:though_when with_prev2_POS_full:RB_WRB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:them prev2_POS:PRP with_prev2_full:them_however with_prev2_POS_full:PRP_RB PS
+conn:Consequently conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:dinosaurs prev1_POS:NNS with_prev1_full:dinosaurs_because with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Back_when conn_POS:RB_WRB sent_pos:0 SS
+conn:by_contrast conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_by_contrast with_prev1_POS_full:,_IN_NN prev2:I prev2_POS:PRP with_prev2_full:I_by_contrast with_prev2_POS_full:PRP_IN_NN PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:feeling prev2_POS:NN with_prev2_full:feeling_if with_prev2_POS_full:NN_IN SS
+conn:instead conn_POS:RB prev1:survived prev1_POS:VBN with_prev1_full:survived_instead with_prev1_POS_full:VBN_RB prev2:had prev2_POS:VBD with_prev2_full:had_instead with_prev2_POS_full:VBD_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_even_if with_prev1_POS_full:CC_RB_IN SS

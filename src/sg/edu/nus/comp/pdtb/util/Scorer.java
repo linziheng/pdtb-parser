@@ -24,297 +24,239 @@ import java.io.InputStreamReader;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 
 /**
- * Methods for reproducing Lin et al., JNLE 2014 paper results without using the PDTB corpus.
- * 
  * @author ilija.ilievski@u.nus.edu
- *
  */
 public class Scorer {
 
-  public static class Result {
-    public double prec;
-    public double recall;
-    public double f1;
-    public double acc;
+	public int gsExplicit;
+	public int prdExplicit;
 
-    Result(double p, double r, double f1, double acc) {
-      prec = p;
-      recall = r;
-      this.f1 = f1;
-      this.acc = acc;
-    }
+	public int prdImplicit;
+	public int gsImplicit;
 
-    public String print(double num) {
-      return String.format("%.2f", num);
-    }
+	public Result conn(File gsFile, File pdFile) throws IOException {
 
-    public String printAll() {
-      return "Prec\tRecall\tF1\n" + print(prec) + " " + print(recall) + " " + print(f1);
-    }
-  }
+		int[] counts = countConn(gsFile, pdFile);
 
-  public static Result conn(File gsFile, File pdFile) throws IOException {
+		int tp = counts[0], fn = counts[1], fp = counts[2], tn = counts[3];
 
-    int[] counts = countConn(gsFile, pdFile);
+		fn = gsExplicit - tp;
 
-    int tp = counts[0], fn = counts[1], fp = counts[2], tn = counts[3];
+		double p = (tp + fp) == 0 ? 0 : tp * 100.0 / (tp + fp);
+		double r = (tp + fn) == 0 ? 0 : tp * 100.0 / (tp + fn);
+		double f1 = (p + r) == 0 ? 0 : 2 * p * r / (p + r);
+		double acc = (tp + tn) * 100.0 / (tp + fp + fn + tn);
 
-    double p = (tp + fp) == 0 ? 0 : tp * 100.0 / (tp + fp);
-    double r = (tp + fn) == 0 ? 0 : tp * 100.0 / (tp + fn);
-    double f1 = (p + r) == 0 ? 0 : 2 * p * r / (p + r);
-    double acc = (tp + tn) * 100.0 / (tp + fp + fn + tn);
+		Result result = new Result(p, r, f1, acc);
+		result.tp = tp;
+		result.fp = fp;
+		result.fn = fn;
+		result.tn = tn;
+		return result;
+	}
 
-    return new Result(p, r, f1, acc);
-  }
+	public Result argPos(File gsFile, File pdFile, FeatureType featureType) throws IOException {
 
-  public static Result argPos(File gsFile, File pdFile, FeatureType featureType) throws IOException {
+		int correct = countMatches(gsFile, pdFile);
+		return Result.calcResults(gsExplicit, prdExplicit, correct);
+	}
 
-    int correct = countMatches(gsFile, pdFile);
+	public Result argPosBio(File gsFile, File pdFile, FeatureType featureType) throws IOException {
+		int correct = countMatches(gsFile, pdFile);
 
-    double gsTotal = 923;
-    double prdTotal = 923;
-    if (featureType == FeatureType.ErrorPropagation) {
-      prdTotal = 918;
-    }
-    if (featureType == FeatureType.Auto) {
-      prdTotal = 912;
-    }
+		return Result.calcResults(gsExplicit, prdExplicit, correct);
+	}
 
-    return calcResults(gsTotal, prdTotal, correct);
-  }
+	public Result exp(File gsFile, File pdFile, FeatureType featureType) throws IOException {
 
-  public static Result exp(File gsFile, File pdFile, FeatureType featureType) throws IOException {
+		int correct = countSenseTypes(gsFile, pdFile);
 
-    int correct = countSenseTypes(gsFile, pdFile);
+		Result score = Result.calcResults(gsExplicit, prdExplicit, correct);
+		return score;
+	}
 
-    double gsTotal = 922;
-    double prdTotal = 922;
+	public Result nonExp(File gsFile, File pdFile, FeatureType featureType) throws IOException {
 
-    if (featureType == FeatureType.ErrorPropagation) {
-      prdTotal = 917;
-    }
-    if (featureType == FeatureType.Auto) {
-      prdTotal = 911;
-    }
+		int correct = countSenseTypes(gsFile, pdFile);
+		Result score = Result.calcResults(gsImplicit, prdImplicit, correct);
+		return score;
+	}
 
-    Result score = calcResults(gsTotal, prdTotal, correct);
-    return score;
-  }
+	private int countSenseTypes(File expFile, File prdFile) throws IOException {
+		int c = 0;
+		int t = 0;
+		
+		try (BufferedReader reader = new BufferedReader(
+				new InputStreamReader(new FileInputStream(expFile), Util.ENCODING))) {
+			try (BufferedReader read = new BufferedReader(
+					new InputStreamReader(new FileInputStream(prdFile), Util.ENCODING))) {
+				String eTmp;
+				String pTmp;
+				while ((eTmp = reader.readLine()) != null) {
+					pTmp = read.readLine();
+					String[] exp = eTmp.split("\\s+");
+					String[] prd = pTmp.split("\\s+");
+					String[] tmp = exp[exp.length - 1].split("£");
 
-  public static Result nonExp(File gsFile, File pdFile, FeatureType featureType) throws IOException {
+					if (tmp[0].equals(prd[prd.length - 1]) || (tmp.length > 1 && tmp[1].equals(prd[prd.length - 1]))) {
+						++c;
+					}
+					++t;
+				}
+			}
+		}
+		prdImplicit = t;
 
-    int correct = countSenseTypes(gsFile, pdFile);
+		return c;
+	}
 
-    double gsTotal = 1017;
-    double prdTotal = 1017;
+	private int countMatches(File gsFile, File pdFile) throws IOException {
+		int c = 0;
+		try (BufferedReader eR = new BufferedReader(
+				new InputStreamReader(new FileInputStream(gsFile), Util.ENCODING))) {
+			try (BufferedReader pR = new BufferedReader(
+					new InputStreamReader(new FileInputStream(pdFile), Util.ENCODING))) {
+				String eTmp;
+				String pTmp;
+				while ((pTmp = pR.readLine()) != null) {
+					eTmp = eR.readLine();
 
-    if (featureType == FeatureType.ErrorPropagation) {
-      prdTotal = 1093;
-    }
-    if (featureType == FeatureType.Auto) {
-      prdTotal = 1096;
-    }
+					String[] exp = eTmp.split("\\s+");
+					String[] prd = pTmp.split("\\s+");
+					if (exp[exp.length - 1].equals(prd[prd.length - 1])) {
+						++c;
+					}
+				}
+			}
+		}
+		return c;
+	}
 
-    Result score = calcResults(gsTotal, prdTotal, correct);
-    return score;
-  }
+	private int[] countConn(File gsFile, File pdFile) throws IOException {
+		int tp = 0, fn = 0, fp = 0, tn = 0;
 
-  private static int countSenseTypes(File expFile, File prdFile) throws IOException {
-    int c = 0;
-    try (BufferedReader reader =
-        new BufferedReader(new InputStreamReader(new FileInputStream(expFile), Util.ENCODING))) {
-      try (BufferedReader read =
-          new BufferedReader(new InputStreamReader(new FileInputStream(prdFile), Util.ENCODING))) {
-        String eTmp;
-        String pTmp;
-        while ((eTmp = reader.readLine()) != null) {
-          pTmp = read.readLine();
-          String[] exp = eTmp.split("\\s+");
-          String[] prd = pTmp.split("\\s+");
-          String[] tmp = exp[exp.length - 1].split("£");
+		try (BufferedReader gsRead = new BufferedReader(
+				new InputStreamReader(new FileInputStream(gsFile), Util.ENCODING))) {
+			try (BufferedReader pdRead = new BufferedReader(
+					new InputStreamReader(new FileInputStream(pdFile), Util.ENCODING))) {
+				String expected;
+				while ((expected = gsRead.readLine()) != null) {
+					String predicted = pdRead.readLine();
+					expected = " " + expected;
+					int expConn = Integer.parseInt(expected.substring(expected.lastIndexOf(' ')).trim());
+					int prdConn = Integer.parseInt(predicted.substring(predicted.lastIndexOf(' ')).trim());
 
-          if (tmp[0].equals(prd[prd.length - 1])
-              || (tmp.length > 1 && tmp[1].equals(prd[prd.length - 1]))) {
-            ++c;
-          }
-        }
-      }
-    }
+					if (prdConn == 1 && expConn == 1) {
+						++tp;
+					} else if (prdConn == 0 && expConn == 1) {
+						++fn;
+					} else if (prdConn == 1 && expConn == 0) {
+						++fp;
+					} else if (prdConn == 0 && expConn == 0) {
+						++tn;
+					}
+				}
+			}
+		}
 
-    return c;
-  }
+		return new int[] { tp, fn, fp, tn };
+	}
 
-  private static int countMatches(File gsFile, File pdFile) throws IOException {
-    int c = 0;
-    try (BufferedReader eR =
-        new BufferedReader(new InputStreamReader(new FileInputStream(gsFile), Util.ENCODING))) {
-      try (BufferedReader pR =
-          new BufferedReader(new InputStreamReader(new FileInputStream(pdFile), Util.ENCODING))) {
-        String eTmp;
-        String pTmp;
-        while ((pTmp = pR.readLine()) != null) {
-          eTmp = eR.readLine();
+	public Result[] argExtExact(File resultPipeFile, FeatureType featureType) throws IOException {
+		int arg1Correct = 0;
+		int arg2Correct = 0;
+		int bothCorrect = 0;
+		try (BufferedReader reader = new BufferedReader(
+				new InputStreamReader(new FileInputStream(resultPipeFile), Util.ENCODING))) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				String[] args = line.split("\\|", -1);
+				boolean arg1Match = args[4].equals(args[6]) || exactMatch(args[0], args[2]);
+				boolean arg2Match = args[5].equals(args[7]) || exactMatch(args[1], args[3]);
+				if (arg1Match) {
+					++arg1Correct;
+				}
+				if (arg2Match) {
+					++arg2Correct;
+				}
+				if (arg1Match && arg2Match) {
+					++bothCorrect;
+				}
+			}
+		}
 
-          String[] exp = eTmp.split("\\s+");
-          String[] prd = pTmp.split("\\s+");
-          if (exp[exp.length - 1].equals(prd[prd.length - 1])) {
-            ++c;
-          }
-        }
-      }
-    }
-    return c;
-  }
+		return new Result[] { Result.calcResults(gsExplicit, prdExplicit, arg1Correct),
+				Result.calcResults(gsExplicit, prdExplicit, arg2Correct),
+				Result.calcResults(gsExplicit, prdExplicit, bothCorrect) };
+	}
 
-  private static int[] countConn(File gsFile, File pdFile) throws IOException {
-    int tp = 0, fn = 0, fp = 0, tn = 0;
+	private boolean exactMatch(String expected, String predicted) {
 
-    try (BufferedReader gsRead =
-        new BufferedReader(new InputStreamReader(new FileInputStream(gsFile), Util.ENCODING))) {
-      try (BufferedReader pdRead =
-          new BufferedReader(new InputStreamReader(new FileInputStream(pdFile), Util.ENCODING))) {
-        String expected;
-        while ((expected = gsRead.readLine()) != null) {
-          String predicted = pdRead.readLine();
-          expected = " " + expected;
-          int expConn = Integer.parseInt(expected.substring(expected.lastIndexOf(' ')).trim());
-          int prdConn = Integer.parseInt(predicted.substring(predicted.lastIndexOf(' ')).trim());
+		expected = regexSafe(expected);
+		predicted = regexSafe(predicted);
+		String eStriped = expected.replaceAll(predicted, "").trim();
+		String pStriped = predicted.replaceAll(expected, "").trim();
+		String[] eParts = eStriped.split("\\b");
+		String[] pParts = pStriped.split("\\b");
+		if (((eParts.length == 1) && !eStriped.equals(expected.trim()))
+				|| ((pParts.length == 1) && !pStriped.equals(predicted.trim()))) {
+			return true;
+		}
+		return false;
+	}
 
-          if (prdConn == 1 && expConn == 1) {
-            ++tp;
-          } else if (prdConn == 0 && expConn == 1) {
-            ++fn;
-          } else if (prdConn == 1 && expConn == 0) {
-            ++fp;
-          } else if (prdConn == 0 && expConn == 0) {
-            ++tn;
-          }
-        }
-      }
-    }
+	public boolean partMatch(String expected, String predicted) {
 
-    return new int[] {tp, fn, fp, tn};
-  }
+		expected = regexSafe(expected);
+		predicted = regexSafe(predicted);
+		String[] eParts = expected.split("\\b");
+		String[] pParts = predicted.split("\\b");
 
-  private static Result calcResults(double gsTotal, double prdTotal, int correct) {
+		for (String eWord : eParts) {
+			for (String pWord : pParts) {
+				if (eWord.equals(pWord)) {
+					return eWord.length() > 0;
+				}
+			}
+		}
 
-    double p = prdTotal == 0 ? 0 : (1.0 * correct / prdTotal) * 100;
-    double r = gsTotal == 0 ? 0 : (1.0 * correct / gsTotal) * 100;
-    double f1 = (2 * p * r) / (r + p);
+		return false;
+	}
 
-    return new Result(p, r, f1, -1);
-  }
+	private static String regexSafe(String string) {
+		return string.replaceAll("\\{|\\}|\\[|\\]|\\(|\\)|\\&", "").trim();
+	}
 
-  public static Result[] argExtExact(File resultPipeFile, FeatureType featureType)
-      throws IOException {
-    int arg1Correct = 0;
-    int arg2Correct = 0;
-    int bothCorrect = 0;
-    try (BufferedReader reader =
-        new BufferedReader(
-            new InputStreamReader(new FileInputStream(resultPipeFile), Util.ENCODING))) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        String[] args = line.split("\\|", -1);
-        boolean arg1Match = args[4].equals(args[6]) || exactMatch(args[0], args[2]);
-        boolean arg2Match = args[5].equals(args[7]) || exactMatch(args[1], args[3]);
-        if (arg1Match) {
-          ++arg1Correct;
-        }
-        if (arg2Match) {
-          ++arg2Correct;
-        }
-        if (arg1Match && arg2Match) {
-          ++bothCorrect;
-        }
-      }
-    }
+	public Result[] argExtPartial(File resultPipeFile, FeatureType featureType) throws IOException {
+		int arg1Correct = 0;
+		int arg2Correct = 0;
+		int bothCorrect = 0;
+		try (BufferedReader reader = new BufferedReader(
+				new InputStreamReader(new FileInputStream(resultPipeFile), Util.ENCODING))) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				String[] args = line.split("\\|", -1);
+				boolean arg1Match = args[4].equals(args[6]) || partMatch(args[0], args[2]);
+				boolean arg2Match = args[5].equals(args[7]) || partMatch(args[1], args[3]);
+				if (arg1Match) {
+					++arg1Correct;
+				}
+				if (arg2Match) {
+					++arg2Correct;
+				}
+				if (arg1Match && arg2Match) {
+					++bothCorrect;
+				}
+			}
+		}
 
-    double gsTotal = 923;
-    double prdTotal = 923;
-    if (featureType == FeatureType.ErrorPropagation) {
-      prdTotal = 918;
-    }
-    if (featureType == FeatureType.Auto) {
-      prdTotal = 912;
-    }
+		return new Result[] { Result.calcResults(gsExplicit, prdExplicit, arg1Correct),
+				Result.calcResults(gsExplicit, prdExplicit, arg2Correct),
+				Result.calcResults(gsExplicit, prdExplicit, bothCorrect) };
+	}
 
-    return new Result[] {calcResults(gsTotal, prdTotal, arg1Correct),
-        calcResults(gsTotal, prdTotal, arg2Correct), calcResults(gsTotal, prdTotal, bothCorrect)};
-  }
+	public Result connBio(File gsFile, File connResult) throws IOException {
+		return conn(gsFile, connResult);
+	}
 
-  private static boolean exactMatch(String expected, String predicted) {
-
-    expected = regexSafe(expected);
-    predicted = regexSafe(predicted);
-    String eStriped = expected.replaceAll(predicted, "").trim();
-    String pStriped = predicted.replaceAll(expected, "").trim();
-    String[] eParts = eStriped.split("\\b");
-    String[] pParts = pStriped.split("\\b");
-    if (((eParts.length == 1) && !eStriped.equals(expected.trim()))
-        || ((pParts.length == 1) && !pStriped.equals(predicted.trim()))) {
-      return true;
-    }
-    return false;
-  }
-
-  public static boolean partMatch(String expected, String predicted) {
-
-    expected = regexSafe(expected);
-    predicted = regexSafe(predicted);
-    String[] eParts = expected.split("\\b");
-    String[] pParts = predicted.split("\\b");
-
-    for (String eWord : eParts) {
-      for (String pWord : pParts) {
-        if (eWord.equals(pWord)) {
-          return eWord.length() > 0;
-        }
-      }
-    }
-
-    return false;
-  }
-
-  private static String regexSafe(String string) {
-    return string.replaceAll("\\{|\\}|\\[|\\]|\\(|\\)|\\&", "").trim();
-  }
-
-  public static Result[] argExtPartial(File resultPipeFile, FeatureType featureType)
-      throws IOException {
-    int arg1Correct = 0;
-    int arg2Correct = 0;
-    int bothCorrect = 0;
-    try (BufferedReader reader =
-        new BufferedReader(
-            new InputStreamReader(new FileInputStream(resultPipeFile), Util.ENCODING))) {
-      String line;
-      while ((line = reader.readLine()) != null) {
-        String[] args = line.split("\\|", -1);
-        boolean arg1Match = args[4].equals(args[6]) || partMatch(args[0], args[2]);
-        boolean arg2Match = args[5].equals(args[7]) || partMatch(args[1], args[3]);
-        if (arg1Match) {
-          ++arg1Correct;
-        }
-        if (arg2Match) {
-          ++arg2Correct;
-        }
-        if (arg1Match && arg2Match) {
-          ++bothCorrect;
-        }
-      }
-    }
-
-    double gsTotal = 923;
-    double prdTotal = 923;
-    if (featureType == FeatureType.ErrorPropagation) {
-      prdTotal = 918;
-    }
-    if (featureType == FeatureType.Auto) {
-      prdTotal = 912;
-    }
-
-    return new Result[] {calcResults(gsTotal, prdTotal, arg1Correct),
-        calcResults(gsTotal, prdTotal, arg2Correct), calcResults(gsTotal, prdTotal, bothCorrect)};
-  }
 }

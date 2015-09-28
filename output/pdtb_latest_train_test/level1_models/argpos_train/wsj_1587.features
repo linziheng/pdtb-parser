@@ -1,0 +1,7 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:hepatitis prev2_POS:NN with_prev2_full:hepatitis_and with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:afternoon prev1_POS:NN with_prev1_full:afternoon_after with_prev1_POS_full:NN_IN prev2:Tuesday prev2_POS:NNP with_prev2_full:Tuesday_after with_prev2_POS_full:NNP_IN SS
+conn:because conn_POS:IN prev1:relieved prev1_POS:JJ with_prev1_full:relieved_because with_prev1_POS_full:JJ_IN prev2:'re prev2_POS:VBP with_prev2_full:'re_because with_prev2_POS_full:VBP_IN SS
+conn:though conn_POS:IN prev1:sword prev1_POS:NN with_prev1_full:sword_though with_prev1_POS_full:NN_IN prev2:double-edged prev2_POS:JJ with_prev2_full:double-edged_though with_prev2_POS_full:JJ_IN PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:though prev2_POS:IN with_prev2_full:though_because with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_and with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS

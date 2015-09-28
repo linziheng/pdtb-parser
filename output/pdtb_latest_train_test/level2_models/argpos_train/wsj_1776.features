@@ -1,0 +1,4 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:million prev2_POS:CD with_prev2_full:million_but with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:plan prev1_POS:NN with_prev1_full:plan_before with_prev1_POS_full:NN_IN prev2:detailed prev2_POS:VBN with_prev2_full:detailed_before with_prev2_POS_full:VBN_IN SS
+conn:also conn_POS:RB prev1:equipment prev1_POS:NN with_prev1_full:equipment_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS

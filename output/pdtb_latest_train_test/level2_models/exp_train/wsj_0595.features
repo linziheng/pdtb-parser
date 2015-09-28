@@ -1,0 +1,19 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:benefit_when Condition
+conn_lc:when conn:WHEN conn_POS:WRB Condition
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:keep_if Condition
+conn_lc:before conn:before conn_POS:IN with_prev_full:poverty_before Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:before conn:before conn_POS:IN with_prev_full:stay_before Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:medicaid_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:adults_indeed Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation

@@ -1,0 +1,15 @@
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:,_just_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Conjunction
+conn_lc:also conn:Also conn_POS:RB List
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:,_thus Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:trading_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:officials_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:makers_because Cause
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition

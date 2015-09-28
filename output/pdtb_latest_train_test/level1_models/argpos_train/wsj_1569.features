@@ -1,0 +1,47 @@
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:True prev2_POS:JJ with_prev2_full:True_when with_prev2_POS_full:JJ_WRB SS
+conn:if conn_POS:IN prev1:risks prev1_POS:NNS with_prev1_full:risks_if with_prev1_POS_full:NNS_IN prev2:some prev2_POS:DT with_prev2_full:some_if with_prev2_POS_full:DT_IN SS
+conn:In_short conn_POS:IN_JJ sent_pos:0 PS
+conn:and conn_POS:CC prev1:passbook prev1_POS:NN with_prev1_full:passbook_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:In_other_words conn_POS:IN_JJ_NNS sent_pos:0 PS
+conn:unless conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_unless with_prev1_POS_full:,_IN prev2:is prev2_POS:VBZ with_prev2_full:is_unless with_prev2_POS_full:VBZ_IN SS
+conn:when conn_POS:WRB prev1:grow prev1_POS:VB with_prev1_full:grow_when with_prev1_POS_full:VB_WRB prev2:n't prev2_POS:RB with_prev2_full:n't_when with_prev2_POS_full:RB_WRB SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:you prev1_POS:PRP with_prev1_full:you_if with_prev1_POS_full:PRP_IN prev2:for prev2_POS:IN with_prev2_full:for_if with_prev2_POS_full:IN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_then with_prev1_POS_full:CC_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:free prev2_POS:JJ with_prev2_full:free_but with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:Stanford prev1_POS:NNP with_prev1_full:Stanford_when with_prev1_POS_full:NNP_WRB prev2:for prev2_POS:IN with_prev2_full:for_when with_prev2_POS_full:IN_WRB SS
+conn:if conn_POS:IN prev1:month prev1_POS:NN with_prev1_full:month_if with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_if with_prev2_POS_full:DT_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:amount prev1_POS:NN with_prev1_full:amount_if with_prev1_POS_full:NN_IN prev2:monthly prev2_POS:JJ with_prev2_full:monthly_if with_prev2_POS_full:JJ_IN SS
+conn:if conn_POS:IN prev1:monthly prev1_POS:JJ with_prev1_full:monthly_if with_prev1_POS_full:JJ_IN prev2:450 prev2_POS:CD with_prev2_full:450_if with_prev2_POS_full:CD_IN SS
+conn:when conn_POS:WRB prev1:begins prev1_POS:VBZ with_prev1_full:begins_when with_prev1_POS_full:VBZ_WRB prev2:plan prev2_POS:NN with_prev2_full:plan_when with_prev2_POS_full:NN_WRB SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:there prev2_POS:EX with_prev2_full:there_also with_prev2_POS_full:EX_RB PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_if with_prev1_POS_full:''_IN prev2:thing prev2_POS:NN with_prev2_full:thing_if with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:income prev1_POS:NN with_prev1_full:income_when with_prev1_POS_full:NN_WRB prev2:current prev2_POS:JJ with_prev2_full:current_when with_prev2_POS_full:JJ_WRB SS
+conn:because conn_POS:IN prev1:funds prev1_POS:NNS with_prev1_full:funds_because with_prev1_POS_full:NNS_IN prev2:mutual prev2_POS:JJ with_prev2_full:mutual_because with_prev2_POS_full:JJ_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:anxiety prev2_POS:NN with_prev2_full:anxiety_however with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:so_that conn_POS:RB_IN prev1:things prev1_POS:NNS with_prev1_full:things_so_that with_prev1_POS_full:NNS_RB_IN prev2:time prev2_POS:VB with_prev2_full:time_so_that with_prev2_POS_full:VB_RB_IN SS
+conn:just_when conn_POS:RB_WRB prev1:off prev1_POS:RP with_prev1_full:off_just_when with_prev1_POS_full:RP_RB_WRB prev2:pay prev2_POS:VBP with_prev2_full:pay_just_when with_prev2_POS_full:VBP_RB_WRB SS
+conn:also conn_POS:RB sent_pos:-3 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:effect prev2_POS:NN with_prev2_full:effect_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:bonds prev1_POS:NNS with_prev1_full:bonds_when with_prev1_POS_full:NNS_WRB prev2:other prev2_POS:JJ with_prev2_full:other_when with_prev2_POS_full:JJ_WRB SS
+conn:if conn_POS:IN prev1:matter prev1_POS:VB with_prev1_full:matter_if with_prev1_POS_full:VB_IN prev2:n't prev2_POS:RB with_prev2_full:n't_if with_prev2_POS_full:RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:maturity prev2_POS:NN with_prev2_full:maturity_but with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:but prev1_POS:CC with_prev1_full:but_if with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_if with_prev2_POS_full:,_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:bonds prev2_POS:NNS with_prev2_full:bonds_however with_prev2_POS_full:NNS_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:institutions prev2_POS:NNS with_prev2_full:institutions_however with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:however prev2_POS:RB with_prev2_full:however_and with_prev2_POS_full:RB_CC SS
+conn:if conn_POS:IN prev1:interest prev1_POS:NN with_prev1_full:interest_if with_prev1_POS_full:NN_IN prev2:much prev2_POS:JJ with_prev2_full:much_if with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:record prev2_POS:NN with_prev2_full:record_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:happens prev1_POS:VBZ with_prev1_full:happens_if with_prev1_POS_full:VBZ_IN prev2:What prev2_POS:WP with_prev2_full:What_if with_prev2_POS_full:WP_IN SS
+conn:If conn_POS:IN sent_pos:0 SS

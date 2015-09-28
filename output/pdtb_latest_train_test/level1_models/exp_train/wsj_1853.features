@@ -1,0 +1,16 @@
+conn_lc:even_as conn:Even_as conn_POS:RB_IN Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:came_after Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:that_although Comparison
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:finally conn:Finally conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:revenue_when Temporal
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:convincing_before Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison

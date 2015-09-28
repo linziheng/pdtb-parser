@@ -1,0 +1,34 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:arouse_and Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:apparent_when Temporal
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:;_nor Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:before conn:Before conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:liberal_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:others_only_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:evident_when Temporal
+conn_lc:neither_neither_rejected_a_socialist_planned_economy_nor conn:neither_neither_rejected_a_socialist_planned_economy_nor conn_POS:RB_RB_VBD_DT_JJ_JJ_NN_CC with_prev_full:he_neither_neither_rejected_a_socialist_planned_economy_nor Expansion
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:or conn:or conn_POS:CC with_prev_full:closed_or Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:before conn:before conn_POS:RB with_prev_full:laid_before Temporal
+conn_lc:if conn:If conn_POS:IN Contingency

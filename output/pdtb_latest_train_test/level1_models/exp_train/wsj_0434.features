@@ -1,0 +1,4 @@
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:benefit_if Contingency

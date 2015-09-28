@@ -1,0 +1,16 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:say prev2_POS:VBP with_prev2_full:say_but with_prev2_POS_full:VBP_CC SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:producers prev2_POS:NNS with_prev2_full:producers_in_fact with_prev2_POS_full:NNS_IN_NN PS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:sales prev1_POS:NNS with_prev1_full:sales_also with_prev1_POS_full:NNS_RB prev2:truck prev2_POS:NN with_prev2_full:truck_also with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:spending prev1_POS:VBG with_prev1_full:spending_if with_prev1_POS_full:VBG_IN prev2:about prev2_POS:IN with_prev2_full:about_if with_prev2_POS_full:IN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:hopeful prev2_POS:JJ with_prev2_full:hopeful_however with_prev2_POS_full:JJ_RB PS
+conn:as conn_POS:IN prev1:countries prev1_POS:NNS with_prev1_full:countries_as with_prev1_POS_full:NNS_IN prev2:European prev2_POS:JJ with_prev2_full:European_as with_prev2_POS_full:JJ_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:go prev2_POS:VB with_prev2_full:go_and with_prev2_POS_full:VB_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:machines prev2_POS:NNS with_prev2_full:machines_and with_prev2_POS_full:NNS_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_as with_prev2_POS_full:NN_IN SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:earlier prev2_POS:RBR with_prev2_full:earlier_even_though with_prev2_POS_full:RBR_RB_IN SS

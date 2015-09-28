@@ -1,0 +1,17 @@
+conn_lc:mainly_because conn:mainly_because conn_POS:RB_IN with_prev_full:--_mainly_because Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:mature_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:except conn:except conn_POS:IN with_prev_full:--_except Exception
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Contrast
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Conjunction

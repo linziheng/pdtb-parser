@@ -1,0 +1,30 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:before conn:Before conn_POS:IN Temporal
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:sports_also Expansion
+conn_lc:after conn:After conn_POS:IN with_prev_full::_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:one_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:And conn_POS:CC with_prev_full:``_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:advertisers_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:may_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

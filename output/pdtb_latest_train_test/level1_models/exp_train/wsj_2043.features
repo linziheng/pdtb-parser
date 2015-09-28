@@ -1,0 +1,37 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:higher_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:higher_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:tumbled_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:bonds_also Expansion
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:rates_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:fed_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:securities_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:unchanged_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:pricing_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:bonds_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:sale_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:hiatus_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:hiatus_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:offered_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:remics_when Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:gains_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison

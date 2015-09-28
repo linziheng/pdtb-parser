@@ -1,0 +1,6 @@
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:remember_when Temporal

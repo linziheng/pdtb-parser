@@ -1,0 +1,10 @@
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:in_other_words conn_POS:IN_JJ_NNS prev1:, prev1_POS:, with_prev1_full:,_in_other_words with_prev1_POS_full:,_IN_JJ_NNS prev2:Bulgaria prev2_POS:NNP with_prev2_full:Bulgaria_in_other_words with_prev2_POS_full:NNP_IN_JJ_NNS PS
+conn:As_if conn_POS:IN_IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:suffering prev2_POS:NN with_prev2_full:suffering_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:resolution prev1_POS:NN with_prev1_full:resolution_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:when conn_POS:WRB prev1:surfaced prev1_POS:VBD with_prev1_full:surfaced_when with_prev1_POS_full:VBD_WRB prev2:that prev2_POS:WDT with_prev2_full:that_when with_prev2_POS_full:WDT_WRB SS
+conn:when conn_POS:WRB sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_when with_prev1_POS_full:VBZ_WRB prev2:It prev2_POS:PRP with_prev2_full:It_when with_prev2_POS_full:PRP_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:months prev2_POS:NNS with_prev2_full:months_and with_prev2_POS_full:NNS_CC SS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:ignoring prev2_POS:VBG with_prev2_full:ignoring_while with_prev2_POS_full:VBG_IN SS

@@ -1,0 +1,7 @@
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:so_later Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:azoff_also Expansion

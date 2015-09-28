@@ -1,0 +1,5 @@
+conn:as conn_POS:IN sent_pos:2 prev1:morning prev1_POS:NN with_prev1_full:morning_as with_prev1_POS_full:NN_IN prev2:This prev2_POS:DT with_prev2_full:This_as with_prev2_POS_full:DT_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:home prev2_POS:NN with_prev2_full:home_when with_prev2_POS_full:NN_WRB SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:Yet prev1_POS:RB with_prev1_full:Yet_when with_prev1_POS_full:RB_WRB SS
+conn:So conn_POS:RB sent_pos:0 PS

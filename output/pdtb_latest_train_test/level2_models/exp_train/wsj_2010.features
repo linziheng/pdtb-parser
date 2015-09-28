@@ -1,0 +1,4 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:--_if Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:invective_when Condition
+conn_lc:while conn:while conn_POS:IN with_prev_full:car_while Synchrony
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Conjunction

@@ -1,0 +1,7 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:burned_when Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:books_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Expansion

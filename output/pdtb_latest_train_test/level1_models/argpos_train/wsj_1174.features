@@ -1,0 +1,16 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:far prev2_POS:RB with_prev2_full:far_also with_prev2_POS_full:RB_RB PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:a_week_before conn_POS:DT_NN_IN prev1:stocks prev1_POS:NNS with_prev1_full:stocks_a_week_before with_prev1_POS_full:NNS_DT_NN_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_a_week_before with_prev2_POS_full:PRP$_DT_NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:13 prev2_POS:CD with_prev2_full:13_and with_prev2_POS_full:CD_CC SS
+conn:if conn_POS:IN prev1:be prev1_POS:VB with_prev1_full:be_if with_prev1_POS_full:VB_IN prev2:would prev2_POS:MD with_prev2_full:would_if with_prev2_POS_full:MD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Even_while conn_POS:RB_IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:cold prev2_POS:NN with_prev2_full:cold_while with_prev2_POS_full:NN_IN SS
+conn:sometimes_after conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_sometimes_after with_prev1_POS_full:,_RB_IN prev2:investors prev2_POS:NNS with_prev2_full:investors_sometimes_after with_prev2_POS_full:NNS_RB_IN SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

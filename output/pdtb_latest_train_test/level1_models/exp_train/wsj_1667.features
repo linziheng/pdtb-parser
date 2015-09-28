@@ -1,0 +1,11 @@
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:rubble_while Temporal
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Contingency
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:employees_also Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

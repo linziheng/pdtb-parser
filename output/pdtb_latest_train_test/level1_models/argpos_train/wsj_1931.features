@@ -1,0 +1,7 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:trade prev2_POS:NN with_prev2_full:trade_but with_prev2_POS_full:NN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:did prev2_POS:VBD with_prev2_full:did_in_fact with_prev2_POS_full:VBD_IN_NN PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:lower prev1_POS:RBR with_prev1_full:lower_as with_prev1_POS_full:RBR_IN prev2:edged prev2_POS:VBD with_prev2_full:edged_as with_prev2_POS_full:VBD_IN SS
+conn:before conn_POS:IN prev1:higher prev1_POS:RBR with_prev1_full:higher_before with_prev1_POS_full:RBR_IN prev2:dollar prev2_POS:NN with_prev2_full:dollar_before with_prev2_POS_full:NN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS

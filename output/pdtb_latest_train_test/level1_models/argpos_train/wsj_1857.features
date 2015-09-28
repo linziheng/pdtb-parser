@@ -1,0 +1,15 @@
+conn:after conn_POS:IN prev1:faced prev1_POS:VBN with_prev1_full:faced_after with_prev1_POS_full:VBN_IN prev2:insurers prev2_POS:NNS with_prev2_full:insurers_after with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:Sacramento prev2_POS:NNP with_prev2_full:Sacramento_then with_prev2_POS_full:NNP_RB SS
+conn:also conn_POS:RB prev1:-- prev1_POS:: with_prev1_full:--_also with_prev1_POS_full::_RB prev2:area prev2_POS:NN with_prev2_full:area_also with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:million prev2_POS:CD with_prev2_full:million_but with_prev2_POS_full:CD_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:either prev2_POS:RB with_prev2_full:either_so with_prev2_POS_full:RB_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:revenue prev1_POS:NN with_prev1_full:revenue_if with_prev1_POS_full:NN_IN prev2:lost prev2_POS:VBN with_prev2_full:lost_if with_prev2_POS_full:VBN_IN SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:later conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_later with_prev1_POS_full:MD_RB prev2:that prev2_POS:WDT with_prev2_full:that_later with_prev2_POS_full:WDT_RB SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:Although conn_POS:IN sent_pos:0 SS

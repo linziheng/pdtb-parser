@@ -1,0 +1,10 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:forfeitures_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trial_when Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:funds_after Temporal
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:drexel_therefore Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:agreed_instead Expansion
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:effective_only_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:yet conn:yet conn_POS:RB with_prev_full:and_yet Comparison

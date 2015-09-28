@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:bid_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:contract_because Cause
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:so conn:so conn_POS:RB with_prev_full:measures_so Cause
+conn_lc:specifically conn:Specifically conn_POS:RB Restatement
+conn_lc:so conn:so conn_POS:IN with_prev_full:system_so Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast

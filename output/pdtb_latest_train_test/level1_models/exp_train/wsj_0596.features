@@ -1,0 +1,11 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:so conn:so conn_POS:IN with_prev_full:committee_so Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:he_later Temporal
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:who_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion

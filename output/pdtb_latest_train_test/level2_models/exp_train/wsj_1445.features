@@ -1,0 +1,9 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:sony_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:power_and Conjunction
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Asynchronous
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:conner_also Conjunction

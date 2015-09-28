@@ -1,0 +1,25 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:unless conn:Unless conn_POS:IN Alternative
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:slowdown_also Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:lining_because Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:rather conn:Rather conn_POS:RB Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:disfavor_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:disfavor_as Cause
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Condition
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:come_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:times_since Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:shopkeepers_so_that Cause
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:will_otherwise Alternative

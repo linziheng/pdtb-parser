@@ -1,0 +1,32 @@
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:corp._even_before Asynchronous
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:acted_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:reopened_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:76.50_as Cause
+conn_lc:even_before conn:even_before conn_POS:RB_IN with_prev_full:stalling_even_before Asynchronous
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:trump_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:bid_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:had_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:market_before Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:sell_before Asynchronous
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:point_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:unraveled_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:restructuring_because Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:bidders_because Cause
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause

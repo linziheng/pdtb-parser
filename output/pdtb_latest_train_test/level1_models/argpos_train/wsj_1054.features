@@ -1,0 +1,2 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:hotel prev2_POS:NN with_prev2_full:hotel_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_as with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_as with_prev2_POS_full:,_IN SS

@@ -1,0 +1,9 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:and_instead Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:appear_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:johnson_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:nonetheless conn:nonetheless conn_POS:RB with_prev_full:but_nonetheless Comparison

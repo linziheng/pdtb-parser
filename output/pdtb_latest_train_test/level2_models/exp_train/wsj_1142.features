@@ -1,0 +1,23 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:done_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:dapuzzo_also Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:assume_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:assume_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trading_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sellers_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:stocks_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:out_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:stock_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

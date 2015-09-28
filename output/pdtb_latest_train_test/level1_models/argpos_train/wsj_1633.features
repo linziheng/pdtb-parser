@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:stake prev2_POS:NN with_prev2_full:stake_and with_prev2_POS_full:NN_CC SS
+conn:Separately conn_POS:NNP sent_pos:0 PS
+conn:in_part_because conn_POS:IN_NN_IN prev1:income prev1_POS:NN with_prev1_full:income_in_part_because with_prev1_POS_full:NN_IN_NN_IN prev2:net prev2_POS:JJ with_prev2_full:net_in_part_because with_prev2_POS_full:JJ_IN_NN_IN SS

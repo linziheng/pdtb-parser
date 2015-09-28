@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_but with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:while conn_POS:IN prev1:creditors prev1_POS:NNS with_prev1_full:creditors_while with_prev1_POS_full:NNS_IN prev2:from prev2_POS:IN with_prev2_full:from_while with_prev2_POS_full:IN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:out prev2_POS:RB with_prev2_full:out_but with_prev2_POS_full:RB_CC SS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:10 prev2_POS:CD with_prev2_full:10_and with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:station prev1_POS:NN with_prev1_full:station_before with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_before with_prev2_POS_full:DT_IN SS
+conn:afterward conn_POS:RB prev1:one prev1_POS:NN with_prev1_full:one_afterward with_prev1_POS_full:NN_RB prev2:buy prev2_POS:VB with_prev2_full:buy_afterward with_prev2_POS_full:VB_RB SS

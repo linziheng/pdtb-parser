@@ -1,0 +1,16 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:wage prev2_POS:NN with_prev2_full:wage_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_but with_prev1_POS_full::_CC prev2:1992 prev2_POS:CD with_prev2_full:1992_but with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:vetoed prev2_POS:VBD with_prev2_full:vetoed_and with_prev2_POS_full:VBD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:time prev1_POS:NN with_prev1_full:time_before with_prev1_POS_full:NN_IN prev2:of prev2_POS:IN with_prev2_full:of_before with_prev2_POS_full:IN_IN SS
+conn:Consequently conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:costs prev1_POS:NNS with_prev1_full:costs_as with_prev1_POS_full:NNS_IN prev2:some prev2_POS:DT with_prev2_full:some_as with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:until conn_POS:IN prev1:one prev1_POS:CD with_prev1_full:one_until with_prev1_POS_full:CD_IN prev2:new prev2_POS:JJ with_prev2_full:new_until with_prev2_POS_full:JJ_IN SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:law prev2_POS:NN with_prev2_full:law_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:liability prev1_POS:NN with_prev1_full:liability_if with_prev1_POS_full:NN_IN prev2:of prev2_POS:IN with_prev2_full:of_if with_prev2_POS_full:IN_IN SS

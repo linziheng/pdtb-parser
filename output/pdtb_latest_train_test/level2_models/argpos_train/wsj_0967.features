@@ -1,0 +1,4 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:partly_because conn_POS:RB_IN prev1:Massachusetts prev1_POS:NNP with_prev1_full:Massachusetts_partly_because with_prev1_POS_full:NNP_RB_IN prev2:to prev2_POS:TO with_prev2_full:to_partly_because with_prev2_POS_full:TO_RB_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Mercedes-Benz prev1_POS:NNP with_prev1_full:Mercedes-Benz_also with_prev1_POS_full:NNP_RB PS
+conn:if conn_POS:IN prev1:state prev1_POS:NN with_prev1_full:state_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS

@@ -1,0 +1,21 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:children_also Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:finally conn:Finally conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:vogue_and List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:fanny_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:fanny_and Cause
+conn_lc:thereby conn:thereby conn_POS:RB with_prev_full:and_thereby Cause
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:old_when Synchrony
+conn_lc:two_days_after conn:two_days_after conn_POS:CD_NNS_IN with_prev_full:,_two_days_after Asynchronous
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

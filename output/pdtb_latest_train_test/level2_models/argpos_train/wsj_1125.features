@@ -1,0 +1,11 @@
+conn:also conn_POS:RB sent_pos:2 prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:Developers prev2_POS:NNS with_prev2_full:Developers_also with_prev2_POS_full:NNS_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:as_long_as conn_POS:RB_RB_IN prev1:pasture prev1_POS:NN with_prev1_full:pasture_as_long_as with_prev1_POS_full:NN_RB_RB_IN prev2:'s prev2_POS:POS with_prev2_full:'s_as_long_as with_prev2_POS_full:POS_RB_RB_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:Developers prev2_POS:NNP with_prev2_full:Developers_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:firms prev2_POS:NNS with_prev2_full:firms_also with_prev2_POS_full:NNS_RB PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:hall prev2_POS:NN with_prev2_full:hall_then with_prev2_POS_full:NN_RB SS
+conn:when conn_POS:WRB prev1:market prev1_POS:NN with_prev1_full:market_when with_prev1_POS_full:NN_WRB prev2:overbuilt prev2_POS:JJ with_prev2_full:overbuilt_when with_prev2_POS_full:JJ_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:say prev2_POS:VBP with_prev2_full:say_when with_prev2_POS_full:VBP_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS

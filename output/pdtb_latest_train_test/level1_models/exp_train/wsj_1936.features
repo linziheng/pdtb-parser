@@ -1,0 +1,20 @@
+conn_lc:though conn:Though conn_POS:NNP Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:sort_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:otherwise conn:Otherwise conn_POS:RB Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:theater_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:if conn:If conn_POS:IN Comparison
+conn_lc:if_if_this_version_,_with_its_references_to_steven_spielberg_,_spago_and_``_thirtysomething_''_attracts_younger_audiences_who_might_stay_away_from_the_classical_version_,_then conn:If_If_this_version_,_with_its_references_to_Steven_Spielberg_,_Spago_and_``_thirtysomething_''_attracts_younger_audiences_who_might_stay_away_from_the_classical_version_,_then conn_POS:IN_IN_DT_NN_,_IN_PRP$_NNS_TO_NNP_NNP_,_NNP_CC_``_NN_''_VBZ_JJR_NNS_WP_MD_VB_RB_IN_DT_JJ_NN_,_RB Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:laugh_before Temporal
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:800,000_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:building_if Contingency

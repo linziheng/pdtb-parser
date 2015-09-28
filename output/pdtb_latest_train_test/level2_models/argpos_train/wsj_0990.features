@@ -1,0 +1,20 @@
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:dead prev2_POS:JJ with_prev2_full:dead_then with_prev2_POS_full:JJ_RB SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:legislation prev1_POS:NN with_prev1_full:legislation_and with_prev1_POS_full:NN_CC prev2:future prev2_POS:JJ with_prev2_full:future_and with_prev2_POS_full:JJ_CC SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:unless conn_POS:IN prev1:else prev1_POS:RB with_prev1_full:else_unless with_prev1_POS_full:RB_IN prev2:anything prev2_POS:NN with_prev2_full:anything_unless with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:proposal prev1_POS:NN with_prev1_full:proposal_because with_prev1_POS_full:NN_IN prev2:gains prev2_POS:NNS with_prev2_full:gains_because with_prev2_POS_full:NNS_IN SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:officials prev1_POS:NNS with_prev1_full:officials_also with_prev1_POS_full:NNS_RB prev2:administration prev2_POS:NN with_prev2_full:administration_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:institute prev2_POS:NN with_prev2_full:institute_then with_prev2_POS_full:NN_RB SS
+conn:if conn_POS:IN prev1:vengeance prev1_POS:NN with_prev1_full:vengeance_if with_prev1_POS_full:NN_IN prev2:threatening prev2_POS:JJ with_prev2_full:threatening_if with_prev2_POS_full:JJ_IN SS
+conn:if conn_POS:IN prev1:Italians prev1_POS:NNPS with_prev1_full:Italians_if with_prev1_POS_full:NNPS_IN prev2:on prev2_POS:IN with_prev2_full:on_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:after conn_POS:IN prev1:mushrooms prev1_POS:NNS with_prev1_full:mushrooms_after with_prev1_POS_full:NNS_IN prev2:French prev2_POS:NNP with_prev2_full:French_after with_prev2_POS_full:NNP_IN SS

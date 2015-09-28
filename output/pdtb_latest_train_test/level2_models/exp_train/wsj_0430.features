@@ -1,0 +1,8 @@
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:so conn:so conn_POS:IN with_prev_full:robes_so Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:shook_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:judge_as Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition

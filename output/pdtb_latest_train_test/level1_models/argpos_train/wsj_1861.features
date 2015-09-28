@@ -1,0 +1,9 @@
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:net prev1_POS:NN with_prev1_full:net_while with_prev1_POS_full:NN_IN prev2:third-quarter prev2_POS:JJ with_prev2_full:third-quarter_while with_prev2_POS_full:JJ_IN SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_after with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:10.3 prev2_POS:CD with_prev2_full:10.3_and with_prev2_POS_full:CD_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:3.5 prev2_POS:CD with_prev2_full:3.5_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:4 prev2_POS:CD with_prev2_full:4_and with_prev2_POS_full:CD_CC SS

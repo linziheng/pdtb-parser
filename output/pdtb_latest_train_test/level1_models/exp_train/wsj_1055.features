@@ -1,0 +1,15 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:advanced_and Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:7\/8_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:jaguar_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:earnings_also Expansion

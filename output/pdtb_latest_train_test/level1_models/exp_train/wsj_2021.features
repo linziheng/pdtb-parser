@@ -1,0 +1,14 @@
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:shortly_thereafter conn:Shortly_thereafter conn_POS:RB_RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:use_because Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:-lrb-_even_though Comparison
+conn_lc:nor conn:Nor conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:underreacting_when Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:effectively_unless Expansion

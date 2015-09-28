@@ -1,0 +1,6 @@
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:offer prev1_POS:NN with_prev1_full:offer_and with_prev1_POS_full:NN_CC prev2:its prev2_POS:PRP$ with_prev2_full:its_and with_prev2_POS_full:PRP$_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS

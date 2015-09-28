@@ -1,0 +1,7 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:building_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction

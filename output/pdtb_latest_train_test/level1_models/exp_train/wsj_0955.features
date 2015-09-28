@@ -1,0 +1,21 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:soon_after conn:soon_after conn_POS:RB_IN with_prev_full:markets_soon_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:is_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:over_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:over_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:by_then conn:by_then conn_POS:IN_RB with_prev_full:which_by_then Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:breeden_also Expansion
+conn_lc:mainly_because conn:mainly_because conn_POS:RB_IN with_prev_full:,_mainly_because Contingency

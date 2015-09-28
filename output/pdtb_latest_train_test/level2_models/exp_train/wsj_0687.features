@@ -1,0 +1,26 @@
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:though conn:Though conn_POS:NNP Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Cause
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Synchrony
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Contrast
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:And conn_POS:CC Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:yet conn:Yet conn_POS:CC Concession
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:industry_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:industry_when Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rate_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:rate_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:company_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:and_now_that Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Pragmatic_concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Condition
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:then conn:Then conn_POS:RB Cause

@@ -1,0 +1,39 @@
+conn:when conn_POS:WRB prev1:Minnesota prev1_POS:NNP with_prev1_full:Minnesota_when with_prev1_POS_full:NNP_WRB prev2:over prev2_POS:IN with_prev2_full:over_when with_prev2_POS_full:IN_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:adversary prev2_POS:NN with_prev2_full:adversary_and with_prev2_POS_full:NN_CC SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_though with_prev1_POS_full:CC_IN SS
+conn:while conn_POS:IN prev1:times prev1_POS:NNS with_prev1_full:times_while with_prev1_POS_full:NNS_IN prev2:slack prev2_POS:JJ with_prev2_full:slack_while with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:freedom prev2_POS:NN with_prev2_full:freedom_also with_prev2_POS_full:NN_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:practices prev2_POS:NNS with_prev2_full:practices_but with_prev2_POS_full:NNS_CC SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:when conn_POS:WRB prev1:delivery prev1_POS:NN with_prev1_full:delivery_when with_prev1_POS_full:NN_WRB prev2:ensure prev2_POS:VB with_prev2_full:ensure_when with_prev2_POS_full:VB_WRB SS
+conn:as conn_POS:IN prev1:suffered prev1_POS:VBD with_prev1_full:suffered_as with_prev1_POS_full:VBD_IN prev2:business prev2_POS:NN with_prev2_full:business_as with_prev2_POS_full:NN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:price prev2_POS:NN with_prev2_full:price_however with_prev2_POS_full:NN_RB PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:unionized prev2_POS:VBD with_prev2_full:unionized_while with_prev2_POS_full:VBD_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:then conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_then with_prev1_POS_full:PRP_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:approach prev2_POS:NN with_prev2_full:approach_however with_prev2_POS_full:NN_RB PS
+conn:moreover conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_moreover with_prev1_POS_full:,_RB prev2:merger prev2_POS:NN with_prev2_full:merger_moreover with_prev2_POS_full:NN_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:deal prev1_POS:NN with_prev1_full:deal_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:lists prev2_POS:NNS with_prev2_full:lists_and with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:issue prev2_POS:NN with_prev2_full:issue_also with_prev2_POS_full:NN_RB PS
+conn:because conn_POS:IN prev1:us prev1_POS:PRP with_prev1_full:us_because with_prev1_POS_full:PRP_IN prev2:mistreat prev2_POS:VB with_prev2_full:mistreat_because with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_though with_prev1_POS_full:CC_IN SS
+conn:while conn_POS:IN prev1:pilots prev1_POS:NNS with_prev1_full:pilots_while with_prev1_POS_full:NNS_IN prev2:senior prev2_POS:JJ with_prev2_full:senior_while with_prev2_POS_full:JJ_IN SS
+conn:And conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,12 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:revolt prev1_POS:NN with_prev1_full:revolt_if with_prev1_POS_full:NN_IN prev2:popular prev2_POS:JJ with_prev2_full:popular_if with_prev2_POS_full:JJ_IN SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:before conn_POS:IN prev1:years prev1_POS:NNS with_prev1_full:years_before with_prev1_POS_full:NNS_IN prev2:five prev2_POS:CD with_prev2_full:five_before with_prev2_POS_full:CD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:companies prev2_POS:NNS with_prev2_full:companies_and with_prev2_POS_full:NNS_CC SS
+conn:as_a_result conn_POS:IN_DT_NN prev1:, prev1_POS:, with_prev1_full:,_as_a_result with_prev1_POS_full:,_IN_DT_NN prev2:Finance prev2_POS:NNP with_prev2_full:Finance_as_a_result with_prev2_POS_full:NNP_IN_DT_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:that prev1_POS:IN with_prev1_full:that_even_if with_prev1_POS_full:IN_RB_IN prev2:acknowledges prev2_POS:VBZ with_prev2_full:acknowledges_even_if with_prev2_POS_full:VBZ_RB_IN SS

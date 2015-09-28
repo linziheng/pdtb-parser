@@ -1,0 +1,5 @@
+conn:and conn_POS:CC prev1:adjustments prev1_POS:NNS with_prev1_full:adjustments_and with_prev1_POS_full:NNS_CC prev2:accounting prev2_POS:NN with_prev2_full:accounting_and with_prev2_POS_full:NN_CC SS
+conn:unless conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_unless with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_unless with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:hurt prev1_POS:VBN with_prev1_full:hurt_and with_prev1_POS_full:VBN_CC prev2:be prev2_POS:VB with_prev2_full:be_and with_prev2_POS_full:VB_CC SS
+conn:Until conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:months prev2_POS:NNS with_prev2_full:months_however with_prev2_POS_full:NNS_RB PS

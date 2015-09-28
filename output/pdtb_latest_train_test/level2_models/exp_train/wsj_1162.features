@@ -1,0 +1,16 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:yet conn:Yet conn_POS:CC Contrast
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:just_as_soon_as conn:just_as_soon_as conn_POS:RB_RB_RB_IN with_prev_full:--_just_as_soon_as Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:would_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:report_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:road_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:liability_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Contrast

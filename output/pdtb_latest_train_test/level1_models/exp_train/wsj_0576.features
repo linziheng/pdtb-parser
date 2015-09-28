@@ -1,0 +1,18 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:problems_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:;_when Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:decades_before Temporal
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:necessity_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:necessity_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:flown_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:changed_and Expansion
+conn_lc:just_because conn:just_because conn_POS:RB_IN with_prev_full:consumption_just_because Contingency

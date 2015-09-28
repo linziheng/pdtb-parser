@@ -1,0 +1,14 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:exchange_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:exchange_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:through_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:through_when Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:still conn:still conn_POS:RB with_prev_full:but_still Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:board_if Contingency
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:plan_because Contingency

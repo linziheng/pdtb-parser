@@ -1,0 +1,19 @@
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Berbera prev2_POS:NNP with_prev2_full:Berbera_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:significance prev2_POS:NN with_prev2_full:significance_however with_prev2_POS_full:NN_RB PS
+conn:As_long_as conn_POS:RB_RB_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:thereby conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thereby with_prev1_POS_full:,_RB prev2:town prev2_POS:NN with_prev2_full:town_thereby with_prev2_POS_full:NN_RB SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:therefore conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_therefore with_prev1_POS_full:,_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._therefore with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:Barre prev2_POS:NNP with_prev2_full:Barre_when with_prev2_POS_full:NNP_WRB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:care prev2_POS:NN with_prev2_full:care_however with_prev2_POS_full:NN_RB PS
+conn:or conn_POS:CC prev1:Somalia prev1_POS:NNP with_prev1_full:Somalia_or with_prev1_POS_full:NNP_CC prev2:in prev2_POS:IN with_prev2_full:in_or with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:Ethiopia prev2_POS:NNP with_prev2_full:Ethiopia_while with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Barre prev2_POS:NNP with_prev2_full:Barre_and with_prev2_POS_full:NNP_CC SS

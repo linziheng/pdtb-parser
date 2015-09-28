@@ -1,0 +1,6 @@
+conn_lc:a_day_after conn:a_day_after conn_POS:DT_NN_IN with_prev_full:came_a_day_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:quarter_while Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:september_after Temporal

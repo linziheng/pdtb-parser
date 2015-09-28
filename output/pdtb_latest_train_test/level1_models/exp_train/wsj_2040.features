@@ -1,0 +1,15 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:bank_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:plate_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:quarter_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:overall conn:Overall conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:``_because Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison

@@ -1,0 +1,6 @@
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:officer prev2_POS:NN with_prev2_full:officer_also with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:transaction prev1_POS:NN with_prev1_full:transaction_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:Medical prev1_POS:NNP with_prev1_full:Medical_after with_prev1_POS_full:NNP_IN prev2:National prev2_POS:NNP with_prev2_full:National_after with_prev2_POS_full:NNP_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS

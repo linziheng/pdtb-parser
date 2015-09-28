@@ -1,0 +1,7 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:adjustments_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:adjustments_and Contingency
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:that_unless Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:hurt_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:hurt_and Contingency
+conn_lc:until conn:Until conn_POS:IN Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison

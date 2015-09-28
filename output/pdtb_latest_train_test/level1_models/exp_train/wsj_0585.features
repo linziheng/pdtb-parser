@@ -1,0 +1,33 @@
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:trading_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trading_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:market_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:liquidity_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:concerned_until Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:market_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:investors_when Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:quotes_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sellers_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:risk_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stocks_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:in_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:positions_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:losses_when Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:money_when Contingency
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:recover_as Temporal
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:39_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:39_after Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:20_after Temporal

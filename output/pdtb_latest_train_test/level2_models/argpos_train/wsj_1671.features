@@ -1,0 +1,20 @@
+conn:Now_that conn_POS:RB_IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:fair prev1_POS:JJ with_prev1_full:fair_because with_prev1_POS_full:JJ_IN prev2:only prev2_POS:RB with_prev2_full:only_because with_prev2_POS_full:RB_IN SS
+conn:even_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_as with_prev1_POS_full:,_RB_IN prev2:position prev2_POS:NN with_prev2_full:position_even_as with_prev2_POS_full:NN_RB_IN SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Friday prev2_POS:NNP with_prev2_full:Friday_after with_prev2_POS_full:NNP_IN SS
+conn:later conn_POS:RBR prev1:but prev1_POS:CC with_prev1_full:but_later with_prev1_POS_full:CC_RBR prev2:, prev2_POS:, with_prev2_full:,_later with_prev2_POS_full:,_RBR SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Monday prev2_POS:NNP with_prev2_full:Monday_and with_prev2_POS_full:NNP_CC SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:all prev2_POS:DT with_prev2_full:all_though with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:committee prev2_POS:NN with_prev2_full:committee_but with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:trouble prev1_POS:NN with_prev1_full:trouble_if with_prev1_POS_full:NN_IN prev2:avoided prev2_POS:VBN with_prev2_full:avoided_if with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:principle prev2_POS:NN with_prev2_full:principle_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:Services prev1_POS:NNP with_prev1_full:Services_after with_prev1_POS_full:NNP_IN prev2:Human prev2_POS:NNP with_prev2_full:Human_after with_prev2_POS_full:NNP_IN SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:post prev2_POS:NN with_prev2_full:post_after with_prev2_POS_full:NN_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:matter prev2_POS:NN with_prev2_full:matter_though with_prev2_POS_full:NN_IN SS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:debate prev2_POS:NN with_prev2_full:debate_so with_prev2_POS_full:NN_IN SS

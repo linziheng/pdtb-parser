@@ -1,0 +1,17 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:losses_if Condition
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Cause
+conn_lc:so conn:So conn_POS:CC Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Concession
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:--_even_if Concession
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:money_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:banks_also Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:before conn:before conn_POS:IN with_prev_full:higher_before Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:came_before Asynchronous
+conn_lc:until conn:until conn_POS:IN with_prev_full:mess_until Asynchronous
+conn_lc:in_the_meantime conn:In_the_meantime conn_POS:IN_DT_NN Synchrony

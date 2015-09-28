@@ -1,0 +1,16 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:bikers_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:bikes_unless Alternative
+conn_lc:yet conn:yet conn_POS:RB with_prev_full:,_yet Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:furor_when Synchrony
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:them_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:fame_and List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

@@ -1,0 +1,31 @@
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:'s prev1_POS:VBZ with_prev1_full:'s_also with_prev1_POS_full:VBZ_RB prev2:he prev2_POS:PRP with_prev2_full:he_also with_prev2_POS_full:PRP_RB SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:while conn_POS:IN prev1:Voice prev1_POS:NNP with_prev1_full:Voice_while with_prev1_POS_full:NNP_IN prev2:Village prev2_POS:NNP with_prev2_full:Village_while with_prev2_POS_full:NNP_IN SS
+conn:after conn_POS:IN prev1:Newsweek prev1_POS:NNP with_prev1_full:Newsweek_after with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_after with_prev2_POS_full:IN_IN SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:blacks prev2_POS:NNS with_prev2_full:blacks_so with_prev2_POS_full:NNS_IN SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:discrimination prev2_POS:NN with_prev2_full:discrimination_so with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:'' prev2_POS:'' with_prev2_full:''_and with_prev2_POS_full:''_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:would prev2_POS:MD with_prev2_full:would_because with_prev2_POS_full:MD_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:underdog prev2_POS:NN with_prev2_full:underdog_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 PS
+conn:if conn_POS:IN prev1:intensity prev1_POS:NN with_prev1_full:intensity_if with_prev1_POS_full:NN_IN prev2:such prev2_POS:JJ with_prev2_full:such_if with_prev2_POS_full:JJ_IN SS
+conn:if..then conn_POS:IN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC SS
+conn:if..then conn_POS:IN_RB SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:sitcom prev2_POS:NN with_prev2_full:sitcom_because with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:over prev2_POS:RP with_prev2_full:over_but with_prev2_POS_full:RP_CC SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:not_because conn_POS:RB_IN prev1:Jackie prev1_POS:NNP with_prev1_full:Jackie_not_because with_prev1_POS_full:NNP_RB_IN prev2:dislikes prev2_POS:VBZ with_prev2_full:dislikes_not_because with_prev2_POS_full:VBZ_RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:businessman prev2_POS:NN with_prev2_full:businessman_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:but prev1_POS:CC with_prev1_full:but_because with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:spark prev1_POS:NN with_prev1_full:spark_because with_prev1_POS_full:NN_IN prev2:lack prev2_POS:VBP with_prev2_full:lack_because with_prev2_POS_full:VBP_IN SS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:up prev2_POS:RP with_prev2_full:up_before with_prev2_POS_full:RP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

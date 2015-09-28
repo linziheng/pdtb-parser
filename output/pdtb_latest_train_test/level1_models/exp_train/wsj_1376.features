@@ -1,0 +1,51 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:droppable_and Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:so_as Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:floor_and Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:room_and Expansion
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:And conn_POS:CC Contingency
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:,_even_if Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:--_although Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:drop_before Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:of_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:rep_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:torch_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:and_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:cleveland_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:million_because Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:caught_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:caught_and Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:'_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Contingency
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:mean_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency

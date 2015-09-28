@@ -1,0 +1,4 @@
+conn_lc:still conn:still conn_POS:RB with_prev_full:rules_still Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:rules_unless Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

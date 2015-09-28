@@ -1,0 +1,7 @@
+conn:and conn_POS:CC prev1:P prev1_POS:NN with_prev1_full:P_and with_prev1_POS_full:NN_CC prev2:with prev2_POS:IN with_prev2_full:with_and with_prev2_POS_full:IN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Besides conn_POS:IN sent_pos:0 PS
+conn:and conn_POS:CC prev1:night prev1_POS:NN with_prev1_full:night_and with_prev1_POS_full:NN_CC prev2:a prev2_POS:DT with_prev2_full:a_and with_prev2_POS_full:DT_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:officials prev2_POS:NNS with_prev2_full:officials_although with_prev2_POS_full:NNS_IN SS

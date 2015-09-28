@@ -1,0 +1,9 @@
+conn_lc:until conn:until conn_POS:IN with_prev_full:plan_until Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Contrast
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:until conn:Until conn_POS:IN Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:plus conn:Plus conn_POS:CC Conjunction

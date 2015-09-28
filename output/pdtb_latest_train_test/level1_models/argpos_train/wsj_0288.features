@@ -1,0 +1,18 @@
+conn:so_that conn_POS:IN_IN prev1:summit prev1_POS:NN with_prev1_full:summit_so_that with_prev1_POS_full:NN_IN_IN prev2:a prev2_POS:DT with_prev2_full:a_so_that with_prev2_POS_full:DT_IN_IN SS
+conn:Rather conn_POS:RB sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:criticism prev2_POS:NN with_prev2_full:criticism_though with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:As conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_As with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_As with_prev2_POS_full:,_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:perestroika prev1_POS:FW with_prev1_full:perestroika_and with_prev1_POS_full:FW_CC prev2:of prev2_POS:IN with_prev2_full:of_and with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_as with_prev1_POS_full:IN_IN prev2:argue prev2_POS:VBP with_prev2_full:argue_as with_prev2_POS_full:VBP_IN SS
+conn:because conn_POS:IN prev1:alliance prev1_POS:NN with_prev1_full:alliance_because with_prev1_POS_full:NN_IN prev2:Western prev2_POS:JJ with_prev2_full:Western_because with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:aides prev2_POS:NNS with_prev2_full:aides_and with_prev2_POS_full:NNS_CC SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS

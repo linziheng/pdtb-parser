@@ -1,0 +1,7 @@
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:shipped prev2_POS:VBN with_prev2_full:shipped_meanwhile with_prev2_POS_full:VBN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:problems prev1_POS:NNS with_prev1_full:problems_also with_prev1_POS_full:NNS_RB prev2:These prev2_POS:DT with_prev2_full:These_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:firm prev2_POS:NN with_prev2_full:firm_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:Sun prev1_POS:NNP with_prev1_full:Sun_also with_prev1_POS_full:NNP_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:Sun prev1_POS:NNP with_prev1_full:Sun_also with_prev1_POS_full:NNP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB PS

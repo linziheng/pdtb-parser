@@ -1,0 +1,19 @@
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:were_when Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:leap_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Expansion
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Contingency
+conn_lc:in_short conn:In_short conn_POS:IN_JJ Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Comparison

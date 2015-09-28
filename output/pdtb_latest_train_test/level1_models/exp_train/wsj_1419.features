@@ -1,0 +1,13 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:entertainment_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:protection_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:australia_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:payment_but Comparison
+conn_lc:however conn:However conn_POS:WRB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:mgm\/ua_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:resigned_because Contingency
+conn_lc:however conn:However conn_POS:RB Comparison

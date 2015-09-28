@@ -1,0 +1,23 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:so conn:so conn_POS:RB with_prev_full:and_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:period_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:emergency_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_the_meantime conn:in_the_meantime conn_POS:IN_DT_NN with_prev_full:increase_in_the_meantime Asynchronous
+conn_lc:in_the_meantime conn:in_the_meantime conn_POS:IN_DT_NN with_prev_full:increase_in_the_meantime Conjunction
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:defective_and Conjunction

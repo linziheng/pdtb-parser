@@ -1,0 +1,14 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:came_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:until conn:until conn_POS:IN with_prev_full:million_until Asynchronous
+conn_lc:as_much_as conn:As_much_as conn_POS:RB_RB_IN Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:board_until Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:cuts_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:grants_but Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

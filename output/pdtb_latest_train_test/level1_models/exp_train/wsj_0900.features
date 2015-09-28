@@ -1,0 +1,6 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:industry_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:europe_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:combination_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:companies_and Expansion

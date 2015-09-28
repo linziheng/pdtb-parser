@@ -1,0 +1,19 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:only_after conn:only_after conn_POS:RB_IN with_prev_full:but_only_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:months_after conn:Months_after conn_POS:NNS_IN Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:has_thus Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:Then conn_POS:RB Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:happy_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison

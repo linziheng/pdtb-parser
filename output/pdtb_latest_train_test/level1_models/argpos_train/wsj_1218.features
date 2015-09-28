@@ -1,0 +1,19 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:later prev2_POS:RB with_prev2_full:later_before with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:out prev2_POS:IN with_prev2_full:out_and with_prev2_POS_full:IN_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:implantation prev1_POS:NN with_prev1_full:implantation_and with_prev1_POS_full:NN_CC prev2:for prev2_POS:IN with_prev2_full:for_and with_prev2_POS_full:IN_CC SS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:returned prev1_POS:VBN with_prev1_full:returned_if with_prev1_POS_full:VBN_IN prev2:and prev2_POS:CC with_prev2_full:and_if with_prev2_POS_full:CC_IN SS
+conn:if conn_POS:IN sent_pos:-3 prev1:discarded prev1_POS:VBN with_prev1_full:discarded_if with_prev1_POS_full:VBN_IN prev2:or prev2_POS:CC with_prev2_full:or_if with_prev2_POS_full:CC_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:out prev2_POS:IN with_prev2_full:out_and with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:system prev1_POS:NN with_prev1_full:system_also with_prev1_POS_full:NN_RB prev2:yeast prev2_POS:NN with_prev2_full:yeast_also with_prev2_POS_full:NN_RB PS
+conn:when conn_POS:WRB prev1:signals prev1_POS:NNS with_prev1_full:signals_when with_prev1_POS_full:NNS_WRB prev2:detectable prev2_POS:JJ with_prev2_full:detectable_when with_prev2_POS_full:JJ_WRB SS
+conn:as conn_POS:IN prev1:off prev1_POS:RP with_prev1_full:off_as with_prev1_POS_full:RP_IN prev2:and prev2_POS:CC with_prev2_full:and_as with_prev2_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:dancers prev1_POS:NNS with_prev1_full:dancers_when with_prev1_POS_full:NNS_WRB prev2:disco prev2_POS:NN with_prev2_full:disco_when with_prev2_POS_full:NN_WRB SS
+conn:as conn_POS:IN prev1:wall prev1_POS:NN with_prev1_full:wall_as with_prev1_POS_full:NN_IN prev2:artery prev2_POS:NN with_prev2_full:artery_as with_prev2_POS_full:NN_IN SS

@@ -1,0 +1,9 @@
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:while conn:while conn_POS:IN with_prev_full:net_while Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Conjunction

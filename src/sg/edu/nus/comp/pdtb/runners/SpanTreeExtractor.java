@@ -46,7 +46,6 @@ public class SpanTreeExtractor {
 
 		expSpansGen(Settings.PTB_TREE_PATH, Settings.PDTB_PATH);
 		textToSpanGen(Settings.PTB_TREE_PATH, Settings.PTB_RAW_PATH);
-//		textToSpanGenAuto(Settings.PTB_AUTO_TREE_PATH, Settings.PTB_RAW_PATH);
 	}
 
 	public static void textToSpanSharedTask(String treePath) throws IOException {
@@ -132,7 +131,7 @@ public class SpanTreeExtractor {
 		log.info("Generating the spans of each node in the parse trees.");
 
 		String orgText = Util.readFile(inputFile);
-		orgText = orgText.replaceAll("`", "'");
+		orgText = orgText.replaceAll("`", "'").replaceAll("“", "\"");
 		PrintWriter pw = new PrintWriter(treeFile + ".csv");
 		TreeFactory tf = new LabeledScoredTreeFactory();
 		Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(treeFile), Util.ENCODING));
@@ -229,6 +228,40 @@ public class SpanTreeExtractor {
 				}
 				pw.close();
 			}
+		}
+
+		log.info("Done.");
+	}
+
+	public static void expBioSpansGen() throws IOException {
+
+		log.info("Generating the .hw aux files that contain the explicit spans.");
+
+		File[] pipes = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith("txt");
+			}
+		});
+		for (File pipe : pipes) {
+			log.trace("Procesing file: " + pipe.getName());
+
+			String fileName = pipe.getName();
+			String articleText = Util.readFile(Settings.BIO_DRB_RAW_PATH + pipe.getName());
+			PrintWriter pw = new PrintWriter(Settings.BIO_DRB_TREE_PATH + fileName + ".hw");
+			try (BufferedReader reader = new BufferedReader(
+					new InputStreamReader(new FileInputStream(Settings.BIO_DRB_ANN_PATH + fileName), Util.ENCODING))) {
+				String line;
+				while ((line = reader.readLine()) != null) {
+					String[] columns = line.split("\\|", -1);
+					if (columns[0].equalsIgnoreCase("Explicit")) {
+						String span = columns[1];
+						String rawText = Corpus.spanToText(span, articleText);
+						pw.println(span + "," + rawText + "," + rawText.toLowerCase());
+					}
+				}
+			}
+			pw.close();
 		}
 
 		log.info("Done.");

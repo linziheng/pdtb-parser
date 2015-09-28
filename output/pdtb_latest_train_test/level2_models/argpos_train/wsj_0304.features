@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:recently prev2_POS:RB with_prev2_full:recently_but with_prev2_POS_full:RB_CC SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:material prev2_POS:JJ with_prev2_full:material_and with_prev2_POS_full:JJ_CC SS
+conn:as_a_result conn_POS:IN_DT_NN sent_pos:-2 prev1:made prev1_POS:VBN with_prev1_full:made_as_a_result with_prev1_POS_full:VBN_IN_DT_NN prev2:were prev2_POS:VBD with_prev2_full:were_as_a_result with_prev2_POS_full:VBD_IN_DT_NN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:monitoring prev1_POS:NN with_prev1_full:monitoring_because with_prev1_POS_full:NN_IN prev2:close prev2_POS:JJ with_prev2_full:close_because with_prev2_POS_full:JJ_IN SS

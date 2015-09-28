@@ -1,0 +1,12 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:touches prev2_POS:NNS with_prev2_full:touches_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Afterward conn_POS:RB sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:reduction prev1_POS:NN with_prev1_full:reduction_and with_prev1_POS_full:NN_CC prev2:tax prev2_POS:NN with_prev2_full:tax_and with_prev2_POS_full:NN_CC SS
+conn:ultimately conn_POS:RB prev1:that prev1_POS:IN with_prev1_full:that_ultimately with_prev1_POS_full:IN_RB prev2:and prev2_POS:CC with_prev2_full:and_ultimately with_prev2_POS_full:CC_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:'s prev2_POS:POS with_prev2_full:'s_and with_prev2_POS_full:POS_CC SS
+conn:when conn_POS:WRB prev1:it prev1_POS:PRP with_prev1_full:it_when with_prev1_POS_full:PRP_WRB prev2:improve prev2_POS:VB with_prev2_full:improve_when with_prev2_POS_full:VB_WRB SS
+conn:until conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_until with_prev1_POS_full:,_IN prev2:held prev2_POS:VBN with_prev2_full:held_until with_prev2_POS_full:VBN_IN SS
+conn:As_an_alternative conn_POS:IN_DT_NN sent_pos:0 PS
+conn:also conn_POS:RB prev1:plan prev1_POS:NN with_prev1_full:plan_also with_prev1_POS_full:NN_RB prev2:Packwood prev2_POS:NNP with_prev2_full:Packwood_also with_prev2_POS_full:NNP_RB PS

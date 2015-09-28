@@ -1,0 +1,6 @@
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:england_if Contingency

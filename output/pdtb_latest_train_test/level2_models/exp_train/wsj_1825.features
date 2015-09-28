@@ -1,0 +1,16 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:winter_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:IF conn_POS:IN Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:proliferate_as Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:and_while Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:christmas_if Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:is_because Cause

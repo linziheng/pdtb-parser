@@ -1,0 +1,34 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:offerings_if Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:might_later Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:troubled_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:years_before Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:tailspin_as Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:disappeared_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:have_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:bonds_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:bonds_as Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:reduced_because Contingency
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN with_prev_full:``_in_fact Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:as_if conn:as_if conn_POS:IN_IN with_prev_full:issues_as_if Comparison
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:increase_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:street_when Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison

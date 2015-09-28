@@ -1,0 +1,25 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_if with_prev1_POS_full:``_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:law prev1_POS:NN with_prev1_full:law_and with_prev1_POS_full:NN_CC prev2:into prev2_POS:IN with_prev2_full:into_and with_prev2_POS_full:IN_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:law prev2_POS:NN with_prev2_full:law_then with_prev2_POS_full:NN_RB SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Consider prev2_POS:VB with_prev2_full:Consider_for_instance with_prev2_POS_full:VB_IN_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:day prev2_POS:NN with_prev2_full:day_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:range prev2_POS:NN with_prev2_full:range_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:annually prev2_POS:RB with_prev2_full:annually_but with_prev2_POS_full:RB_CC SS
+conn:also conn_POS:RB prev1:bill prev1_POS:NN with_prev1_full:bill_also with_prev1_POS_full:NN_RB prev2:House prev2_POS:NNP with_prev2_full:House_also with_prev2_POS_full:NNP_RB PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:So conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:bill prev1_POS:NN with_prev1_full:bill_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:as_if conn_POS:IN_IN prev1:, prev1_POS:, with_prev1_full:,_as_if with_prev1_POS_full:,_IN_IN prev2:nationwide prev2_POS:RB with_prev2_full:nationwide_as_if with_prev2_POS_full:RB_IN_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:cost prev2_POS:VB with_prev2_full:cost_because with_prev2_POS_full:VB_IN SS
+conn:as conn_POS:IN prev1:bill prev1_POS:NN with_prev1_full:bill_as with_prev1_POS_full:NN_IN prev2:real prev2_POS:JJ with_prev2_full:real_as with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB prev1:Bush prev1_POS:NNP with_prev1_full:Bush_also with_prev1_POS_full:NNP_RB prev2:George prev2_POS:NNP with_prev2_full:George_also with_prev2_POS_full:NNP_RB PS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:declared prev1_POS:VBD with_prev1_full:declared_when with_prev1_POS_full:VBD_WRB prev2:president prev2_POS:NN with_prev2_full:president_when with_prev2_POS_full:NN_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:up prev2_POS:RB with_prev2_full:up_and with_prev2_POS_full:RB_CC SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:now prev2_POS:RB with_prev2_full:now_though with_prev2_POS_full:RB_IN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS

@@ -1,0 +1,20 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Stocks prev1_POS:NNS with_prev1_full:Stocks_also with_prev1_POS_full:NNS_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:London prev2_POS:NNP with_prev2_full:London_while with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:936 prev2_POS:CD with_prev2_full:936_and with_prev2_POS_full:CD_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:nervous prev2_POS:JJ with_prev2_full:nervous_but with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB prev1:gains prev1_POS:NNS with_prev1_full:gains_also with_prev1_POS_full:NNS_RB prev2:modest prev2_POS:JJ with_prev2_full:modest_also with_prev2_POS_full:JJ_RB SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Dealers prev2_POS:NNS with_prev2_full:Dealers_however with_prev2_POS_full:NNS_RB PS
+conn:after conn_POS:IN prev1:pence prev1_POS:NNS with_prev1_full:pence_after with_prev1_POS_full:NNS_IN prev2:614 prev2_POS:CD with_prev2_full:614_after with_prev2_POS_full:CD_IN SS
+conn:after conn_POS:IN prev1:dealings prev1_POS:NNS with_prev1_full:dealings_after with_prev1_POS_full:NNS_IN prev2:quiet prev2_POS:JJ with_prev2_full:quiet_after with_prev2_POS_full:JJ_IN SS
+conn:after conn_POS:IN prev1:1523.22 prev1_POS:CD with_prev1_full:1523.22_after with_prev1_POS_full:CD_IN prev2:at prev2_POS:IN with_prev2_full:at_after with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:pressure prev2_POS:NN with_prev2_full:pressure_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:plunge prev2_POS:NN with_prev2_full:plunge_and with_prev2_POS_full:NN_CC SS
+conn:until conn_POS:IN prev1:take prev1_POS:VB with_prev1_full:take_until with_prev1_POS_full:VB_IN prev2:will prev2_POS:MD with_prev2_full:will_until with_prev2_POS_full:MD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:peaked prev2_POS:VBN with_prev2_full:peaked_as with_prev2_POS_full:VBN_IN SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:mixed prev2_POS:JJ with_prev2_full:mixed_as with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:554 prev2_POS:CD with_prev2_full:554_and with_prev2_POS_full:CD_CC SS

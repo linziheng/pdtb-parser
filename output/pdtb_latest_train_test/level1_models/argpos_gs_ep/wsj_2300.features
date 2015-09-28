@@ -1,0 +1,43 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS
+conn:as conn_POS:IN prev1:Friday prev1_POS:NNP with_prev1_full:Friday_as with_prev1_POS_full:NNP_IN prev2:apart prev2_POS:RB with_prev2_full:apart_as with_prev2_POS_full:RB_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:because conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_because with_prev1_POS_full::_IN prev2:day prev2_POS:NN with_prev2_full:day_because with_prev2_POS_full:NN_IN SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:terms prev2_POS:NNS with_prev2_full:terms_however with_prev2_POS_full:NNS_RB PS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:`` prev1_POS:`` with_prev1_full:``_as_soon_as with_prev1_POS_full:``_RB_RB_IN prev2:, prev2_POS:, with_prev2_full:,_as_soon_as with_prev2_POS_full:,_RB_RB_IN SS
+conn:when conn_POS:WRB prev1:heads prev1_POS:NNS with_prev1_full:heads_when with_prev1_POS_full:NNS_WRB prev2:their prev2_POS:PRP$ with_prev2_full:their_when with_prev2_POS_full:PRP$_WRB SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:takeovers prev2_POS:NNS with_prev2_full:takeovers_after with_prev2_POS_full:NNS_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_but with_prev1_POS_full::_CC prev2:stock prev2_POS:NN with_prev2_full:stock_but with_prev2_POS_full:NN_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:3\/8 prev2_POS:CD with_prev2_full:3\/8_while with_prev2_POS_full:CD_IN SS
+conn:when conn_POS:WRB prev1:computer prev1_POS:NN with_prev1_full:computer_when with_prev1_POS_full:NN_WRB prev2:by prev2_POS:IN with_prev2_full:by_when with_prev2_POS_full:IN_WRB SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:investors prev2_POS:NNS with_prev2_full:investors_on_the_other_hand with_prev2_POS_full:NNS_IN_DT_JJ_NN PS
+conn:as conn_POS:IN prev1:hold prev1_POS:NN with_prev1_full:hold_as with_prev1_POS_full:NN_IN prev2:took prev2_POS:VBD with_prev2_full:took_as with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Board prev2_POS:NNP with_prev2_full:Board_and with_prev2_POS_full:NNP_CC SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:up prev2_POS:RP with_prev2_full:up_while with_prev2_POS_full:RP_IN SS
+conn:as conn_POS:IN prev1:Bangkok prev1_POS:NNP with_prev1_full:Bangkok_as with_prev1_POS_full:NNP_IN prev2:to prev2_POS:TO with_prev2_full:to_as with_prev2_POS_full:TO_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:trading prev2_POS:VBG with_prev2_full:trading_and with_prev2_POS_full:VBG_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:down prev2_POS:RB with_prev2_full:down_and with_prev2_POS_full:RB_CC SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:1987 prev2_POS:CD with_prev2_full:1987_and with_prev2_POS_full:CD_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_because with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:futures prev1_POS:NNS with_prev1_full:futures_when with_prev1_POS_full:NNS_WRB prev2:buying prev2_POS:VBG with_prev2_full:buying_when with_prev2_POS_full:VBG_WRB SS
+conn:simultaneously conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_simultaneously with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_simultaneously with_prev2_POS_full:,_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

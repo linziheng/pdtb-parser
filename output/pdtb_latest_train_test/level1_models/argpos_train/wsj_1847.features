@@ -1,0 +1,14 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:worthy prev2_POS:JJ with_prev2_full:worthy_but with_prev2_POS_full:JJ_CC SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:appalled prev2_POS:VBN with_prev2_full:appalled_for_instance with_prev2_POS_full:VBN_IN_NN PS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:pork prev2_POS:NN with_prev2_full:pork_and with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_so with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_so with_prev2_POS_full:,_IN SS
+conn:so conn_POS:IN prev1:grant prev1_POS:NN with_prev1_full:grant_so with_prev1_POS_full:NN_IN prev2:million prev2_POS:CD with_prev2_full:million_so with_prev2_POS_full:CD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:qualify prev2_POS:VB with_prev2_full:qualify_and with_prev2_POS_full:VB_CC SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:implication prev2_POS:NN with_prev2_full:implication_if with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:HUD prev1_POS:NNP with_prev1_full:HUD_and with_prev1_POS_full:NNP_CC prev2:with prev2_POS:IN with_prev2_full:with_and with_prev2_POS_full:IN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:poor prev2_POS:JJ with_prev2_full:poor_and with_prev2_POS_full:JJ_CC SS
+conn:unless conn_POS:IN prev1:restored prev1_POS:VBN with_prev1_full:restored_unless with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_unless with_prev2_POS_full:VB_IN SS

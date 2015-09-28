@@ -1,0 +1,6 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:minutes_as Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:up_if Contingency
+conn_lc:a_full_five_minutes_before conn:a_full_five_minutes_before conn_POS:DT_JJ_CD_NNS_IN with_prev_full:offers_a_full_five_minutes_before Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Expansion

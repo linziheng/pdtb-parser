@@ -1,0 +1,8 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:slightly_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:earnings_after Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:gloom_when Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:while conn:While conn_POS:IN Comparison

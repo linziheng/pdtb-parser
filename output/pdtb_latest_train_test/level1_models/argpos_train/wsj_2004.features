@@ -1,0 +1,8 @@
+conn:and conn_POS:CC prev1:fired prev1_POS:VBD with_prev1_full:fired_and with_prev1_POS_full:VBD_CC prev2:Wolf prev2_POS:NNP with_prev2_full:Wolf_and with_prev2_POS_full:NNP_CC SS
+conn:as conn_POS:IN prev1:plummet prev1_POS:VB with_prev1_full:plummet_as with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_as with_prev2_POS_full:TO_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:million prev2_POS:CD with_prev2_full:million_and with_prev2_POS_full:CD_CC SS
+conn:when conn_POS:WRB prev1:bonus prev1_POS:NN with_prev1_full:bonus_when with_prev1_POS_full:NN_WRB prev2:million prev2_POS:CD with_prev2_full:million_when with_prev2_POS_full:CD_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Airlines prev2_POS:NNPS with_prev2_full:Airlines_and with_prev2_POS_full:NNPS_CC SS
+conn:so conn_POS:IN prev1:concessions prev1_POS:NNS with_prev1_full:concessions_so with_prev1_POS_full:NNS_IN prev2:pay prev2_POS:NN with_prev2_full:pay_so with_prev2_POS_full:NN_IN SS

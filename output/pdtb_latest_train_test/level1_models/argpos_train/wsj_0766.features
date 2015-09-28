@@ -1,0 +1,36 @@
+conn:when conn_POS:WRB prev1:exposed prev1_POS:VBN with_prev1_full:exposed_when with_prev1_POS_full:VBN_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:as conn_POS:IN prev1:sweatshirt prev1_POS:NN with_prev1_full:sweatshirt_as with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_as with_prev2_POS_full:DT_IN SS
+conn:so conn_POS:IN prev1:money prev1_POS:NN with_prev1_full:money_so with_prev1_POS_full:NN_IN prev2:out prev2_POS:RP with_prev2_full:out_so with_prev2_POS_full:RP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:through prev2_POS:IN with_prev2_full:through_but with_prev2_POS_full:IN_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:hit prev1_POS:VBD with_prev1_full:hit_when with_prev1_POS_full:VBD_WRB prev2:earthquake prev2_POS:NN with_prev2_full:earthquake_when with_prev2_POS_full:NN_WRB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:even_before conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_before with_prev1_POS_full:,_RB_IN prev2:bucks prev2_POS:NNS with_prev2_full:bucks_even_before with_prev2_POS_full:NNS_RB_IN SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:damaged prev1_POS:VBN with_prev1_full:damaged_when with_prev1_POS_full:VBN_WRB prev2:badly prev2_POS:RB with_prev2_full:badly_when with_prev2_POS_full:RB_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:must prev1_POS:MD with_prev1_full:must_also with_prev1_POS_full:MD_RB prev2:they prev2_POS:PRP with_prev2_full:they_also with_prev2_POS_full:PRP_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:foundation prev2_POS:NN with_prev2_full:foundation_then with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB PS
+conn:while conn_POS:IN prev1:rent prev1_POS:VB with_prev1_full:rent_while with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_while with_prev2_POS_full:TO_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Aetna prev2_POS:NNP with_prev2_full:Aetna_if with_prev2_POS_full:NNP_IN SS
+conn:as conn_POS:IN prev1:stories prev1_POS:NNS with_prev1_full:stories_as with_prev1_POS_full:NNS_IN prev2:three prev2_POS:CD with_prev2_full:three_as with_prev2_POS_full:CD_IN SS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:house prev1_POS:NN with_prev1_full:house_after with_prev1_POS_full:NN_IN prev2:Hammack prev2_POS:NNP with_prev2_full:Hammack_after with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:earthquake prev2_POS:NN with_prev2_full:earthquake_and with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:day prev2_POS:NN with_prev2_full:day_as with_prev2_POS_full:NN_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:And conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_And with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:value prev2_POS:NN with_prev2_full:value_and with_prev2_POS_full:NN_CC SS
+conn:only_when conn_POS:RB_WRB prev1:pays prev1_POS:VBZ with_prev1_full:pays_only_when with_prev1_POS_full:VBZ_RB_WRB prev2:generally prev2_POS:RB with_prev2_full:generally_only_when with_prev2_POS_full:RB_RB_WRB SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:floor prev2_POS:NN with_prev2_full:floor_but with_prev2_POS_full:NN_CC SS
+conn:finally conn_POS:RB prev1:Johnson prev1_POS:NNP with_prev1_full:Johnson_finally with_prev1_POS_full:NNP_RB prev2:Ms. prev2_POS:NNP with_prev2_full:Ms._finally with_prev2_POS_full:NNP_RB PS
+conn:when conn_POS:WRB prev1:water prev1_POS:NN with_prev1_full:water_when with_prev1_POS_full:NN_WRB prev2:this prev2_POS:DT with_prev2_full:this_when with_prev2_POS_full:DT_WRB SS
+conn:since conn_POS:IN prev1:music prev1_POS:NN with_prev1_full:music_since with_prev1_POS_full:NN_IN prev2:any prev2_POS:DT with_prev2_full:any_since with_prev2_POS_full:DT_IN SS

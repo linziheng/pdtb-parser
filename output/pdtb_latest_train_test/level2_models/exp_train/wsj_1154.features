@@ -1,0 +1,36 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and List
+conn_lc:just_when conn:Just_when conn_POS:RB_WRB Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:hideaway_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:her_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:deliriously_when Synchrony
+conn_lc:then conn:then conn_POS:RB with_prev_full:when_then Asynchronous
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:music_while Synchrony
+conn_lc:once conn:Once conn_POS:RB Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:season_after Asynchronous
+conn_lc:once conn:once conn_POS:IN with_prev_full:subscribers_once Asynchronous
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:after conn:after conn_POS:IN with_prev_full:archive_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:archive_after Cause
+conn_lc:since conn:since conn_POS:IN with_prev_full:impressive_since Cause
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:by_comparison conn:By_comparison conn_POS:IN_NN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:..._and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:securities_when Synchrony
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:kaifu_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:since conn:Since conn_POS:IN Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:either_because Cause
+conn_lc:or conn:or conn_POS:CC with_prev_full:expired_or Alternative
+conn_lc:because conn:because conn_POS:IN with_prev_full:or_because Cause

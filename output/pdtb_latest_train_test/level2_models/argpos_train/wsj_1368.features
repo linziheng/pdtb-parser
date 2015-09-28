@@ -1,0 +1,12 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_while with_prev1_POS_full:CC_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:even_when conn_POS:RB_WRB prev1:that prev1_POS:IN with_prev1_full:that_even_when with_prev1_POS_full:IN_RB_WRB prev2:finding prev2_POS:VBG with_prev2_full:finding_even_when with_prev2_POS_full:VBG_RB_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:environmentalists prev2_POS:NNS with_prev2_full:environmentalists_and with_prev2_POS_full:NNS_CC SS
+conn:afterwards conn_POS:RB prev1:executives prev1_POS:NNS with_prev1_full:executives_afterwards with_prev1_POS_full:NNS_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._afterwards with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB prev1:Gorbachev prev1_POS:NNP with_prev1_full:Gorbachev_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:-2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:up prev2_POS:RP with_prev2_full:up_however with_prev2_POS_full:RP_RB PS

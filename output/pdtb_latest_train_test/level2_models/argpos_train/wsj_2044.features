@@ -1,0 +1,28 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:plan prev2_POS:NN with_prev2_full:plan_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:program prev2_POS:NN with_prev2_full:program_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:elsewhere prev2_POS:RB with_prev2_full:elsewhere_and with_prev2_POS_full:RB_CC SS
+conn:as conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_as with_prev1_POS_full:VBD_IN prev2:action prev2_POS:NN with_prev2_full:action_as with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Democracy prev2_POS:NNP with_prev2_full:Democracy_but with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:debate prev2_POS:NN with_prev2_full:debate_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:doubt prev2_POS:NN with_prev2_full:doubt_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:monitoring prev2_POS:NN with_prev2_full:monitoring_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:standing prev2_POS:NN with_prev2_full:standing_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:otherwise conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_otherwise with_prev1_POS_full:MD_RB prev2:that prev2_POS:WDT with_prev2_full:that_otherwise with_prev2_POS_full:WDT_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1991 prev2_POS:CD with_prev2_full:1991_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Administration prev2_POS:NNP with_prev2_full:Administration_and with_prev2_POS_full:NNP_CC SS
+conn:Similarly conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_while with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Foundation prev2_POS:NNP with_prev2_full:Foundation_and with_prev2_POS_full:NNP_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:million prev2_POS:CD with_prev2_full:million_and with_prev2_POS_full:CD_CC SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:week prev2_POS:NN with_prev2_full:week_as with_prev2_POS_full:NN_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:Senate prev1_POS:NNP with_prev1_full:Senate_after with_prev1_POS_full:NNP_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:debate prev2_POS:NN with_prev2_full:debate_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:Bush prev1_POS:NNP with_prev1_full:Bush_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB SS

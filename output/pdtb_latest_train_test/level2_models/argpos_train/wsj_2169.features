@@ -1,0 +1,19 @@
+conn:as conn_POS:IN prev1:footing prev1_POS:NN with_prev1_full:footing_as with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_as with_prev2_POS_full:PRP$_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:halt prev1_POS:NN with_prev1_full:halt_as with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_as with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:fled prev1_POS:VBD with_prev1_full:fled_and with_prev1_POS_full:VBD_CC prev2:buyers prev2_POS:NNS with_prev2_full:buyers_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Friday prev2_POS:NNP with_prev2_full:Friday_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_before with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:-RCB- prev1_POS:-RRB- with_prev1_full:-RCB-_and with_prev1_POS_full:-RRB-_CC prev2:bonds prev2_POS:NNS with_prev2_full:bonds_and with_prev2_POS_full:NNS_CC SS
+conn:before conn_POS:IN prev1:1\/4 prev1_POS:CD with_prev1_full:1\/4_before with_prev1_POS_full:CD_IN prev2:96 prev2_POS:CD with_prev2_full:96_before with_prev2_POS_full:CD_IN SS
+conn:also conn_POS:RB prev1:Standard prev1_POS:NNP with_prev1_full:Standard_also with_prev1_POS_full:NNP_RB prev2:American prev2_POS:NNP with_prev2_full:American_also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:later conn_POS:RB prev1:rise prev1_POS:VBP with_prev1_full:rise_later with_prev1_POS_full:VBP_RB prev2:and prev2_POS:CC with_prev2_full:and_later with_prev2_POS_full:CC_RB SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_because with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS
+conn:In_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Friday prev2_POS:NNP with_prev2_full:Friday_and with_prev2_POS_full:NNP_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS

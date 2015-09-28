@@ -1,0 +1,3 @@
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:petitions prev2_POS:NNS with_prev2_full:petitions_however with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:delay prev1_POS:NN with_prev1_full:delay_but with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_but with_prev2_POS_full:DT_CC SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:National prev2_POS:NNP with_prev2_full:National_if with_prev2_POS_full:NNP_IN SS

@@ -1,0 +1,13 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:it_because Cause
+conn_lc:so conn:so conn_POS:RB with_prev_full:'_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:kemper_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:board_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:arbitrage_when Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if_if_this_prompts_others_to_consider_the_same_thing_,_then conn:if_if_this_prompts_others_to_consider_the_same_thing_,_then conn_POS:IN_IN_DT_VBZ_NNS_TO_VB_DT_JJ_NN_,_RB with_prev_full:but_if_if_this_prompts_others_to_consider_the_same_thing_,_then Condition

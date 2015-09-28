@@ -1,0 +1,6 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:followed_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:prison_after Temporal
+conn_lc:reportedly_after conn:reportedly_after conn_POS:RB_IN with_prev_full:,_reportedly_after Temporal
+conn_lc:reportedly_after conn:reportedly_after conn_POS:RB_IN with_prev_full:,_reportedly_after Contingency
+conn_lc:four_days_after conn:four_days_after conn_POS:CD_NNS_IN with_prev_full:happened_four_days_after Temporal

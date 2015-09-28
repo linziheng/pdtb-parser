@@ -1,0 +1,7 @@
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:old prev2_POS:JJ with_prev2_full:old_also with_prev2_POS_full:JJ_RB PS
+conn:until conn_POS:IN prev1:operations prev1_POS:NNS with_prev1_full:operations_until with_prev1_POS_full:NNS_IN prev2:'s prev2_POS:POS with_prev2_full:'s_until with_prev2_POS_full:POS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comment prev2_POS:VB with_prev2_full:comment_and with_prev2_POS_full:VB_CC SS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:TVS prev1_POS:NNP with_prev1_full:TVS_also with_prev1_POS_full:NNP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:later conn_POS:RB sent_pos:2 prev1:Tinker prev1_POS:NNP with_prev1_full:Tinker_later with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._later with_prev2_POS_full:NNP_RB PS

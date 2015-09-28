@@ -1,0 +1,8 @@
+conn_lc:nor conn:Nor conn_POS:CC Alternative
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:countries_also Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:poland_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:officials_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession

@@ -1,0 +1,19 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:dictators_if Condition
+conn_lc:since conn:since conn_POS:IN with_prev_full:known_since Asynchronous
+conn_lc:since conn:since conn_POS:IN with_prev_full:known_since Cause
+conn_lc:apparently_because conn:apparently_because conn_POS:RB_IN with_prev_full:,_apparently_because Cause
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:public_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:required_even_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:,_partly_because Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast

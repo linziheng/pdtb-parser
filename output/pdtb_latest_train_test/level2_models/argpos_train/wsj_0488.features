@@ -1,0 +1,10 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:since conn_POS:IN prev1:leader prev1_POS:NN with_prev1_full:leader_since with_prev1_POS_full:NN_IN prev2:British prev2_POS:JJ with_prev2_full:British_since with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Lawson prev2_POS:NNP with_prev2_full:Lawson_also with_prev2_POS_full:NNP_RB PS
+conn:if conn_POS:IN prev1:pound prev1_POS:NN with_prev1_full:pound_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:trader prev2_POS:NN with_prev2_full:trader_however with_prev2_POS_full:NN_RB PS
+conn:while conn_POS:IN prev1:doomsayers prev1_POS:NNS with_prev1_full:doomsayers_while with_prev1_POS_full:NNS_IN prev2:sterling prev2_POS:JJ with_prev2_full:sterling_while with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bad prev2_POS:JJ with_prev2_full:bad_but with_prev2_POS_full:JJ_CC SS
+conn:before conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_before with_prev1_POS_full:''_IN prev2:overbought prev2_POS:VBN with_prev2_full:overbought_before with_prev2_POS_full:VBN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Dealers prev1_POS:NNS with_prev1_full:Dealers_also with_prev1_POS_full:NNS_RB PS

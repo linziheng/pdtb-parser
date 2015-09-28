@@ -1,0 +1,8 @@
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:summer prev2_POS:NN with_prev2_full:summer_after with_prev2_POS_full:NN_IN SS
+conn:after conn_POS:IN prev1:bit prev1_POS:NN with_prev1_full:bit_after with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_after with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:plateau prev1_POS:NN with_prev1_full:plateau_since with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_since with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bit prev2_POS:NN with_prev2_full:bit_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:rate prev1_POS:NN with_prev1_full:rate_after with_prev1_POS_full:NN_IN prev2:annual prev2_POS:JJ with_prev2_full:annual_after with_prev2_POS_full:JJ_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:numbers prev2_POS:NNS with_prev2_full:numbers_however with_prev2_POS_full:NNS_RB PS
+conn:as conn_POS:IN prev1:significantly prev1_POS:RB with_prev1_full:significantly_as with_prev1_POS_full:RB_IN prev2:revised prev2_POS:VBN with_prev2_full:revised_as with_prev2_POS_full:VBN_IN SS

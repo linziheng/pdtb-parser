@@ -1,0 +1,16 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:once conn:once conn_POS:IN with_prev_full:that_once Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:;_in_fact Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:decline_when Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:later conn:later conn_POS:RB with_prev_full:back_later Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:system_until Temporal

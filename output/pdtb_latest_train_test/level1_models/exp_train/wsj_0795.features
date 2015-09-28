@@ -1,0 +1,19 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:consequently conn:Consequently conn_POS:RB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:progress_as Temporal
+conn_lc:although conn:although conn_POS:IN with_prev_full:''_although Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:strong_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:analysts_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:economy_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

@@ -1,0 +1,3 @@
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:adjustments prev2_POS:NNS with_prev2_full:adjustments_but with_prev2_POS_full:NNS_CC SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:provides prev2_POS:VBZ with_prev2_full:provides_if with_prev2_POS_full:VBZ_IN SS

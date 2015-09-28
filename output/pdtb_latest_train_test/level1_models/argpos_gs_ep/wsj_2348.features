@@ -1,0 +1,14 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:thrifts prev2_POS:NNS with_prev2_full:thrifts_but with_prev2_POS_full:NNS_CC SS
+conn:since conn_POS:IN prev1:Corp. prev1_POS:NNP with_prev1_full:Corp._since with_prev1_POS_full:NNP_IN prev2:Trust prev2_POS:NNP with_prev2_full:Trust_since with_prev2_POS_full:NNP_IN SS
+conn:later conn_POS:RB sent_pos:-2 prev1:sold prev1_POS:VBN with_prev1_full:sold_later with_prev1_POS_full:VBN_RB prev2:be prev2_POS:VB with_prev2_full:be_later with_prev2_POS_full:VB_RB PS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:four prev2_POS:CD with_prev2_full:four_for_instance with_prev2_POS_full:CD_IN_NN PS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:buyers prev2_POS:NNS with_prev2_full:buyers_also with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:NCNB prev2_POS:NNP with_prev2_full:NCNB_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:deadlines prev2_POS:NNS with_prev2_full:deadlines_but with_prev2_POS_full:NNS_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:NCNB prev1_POS:NNP with_prev1_full:NCNB_also with_prev1_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:NCNB prev2_POS:NNP with_prev2_full:NCNB_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS

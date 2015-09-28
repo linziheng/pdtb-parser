@@ -1,0 +1,26 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:position prev1_POS:NN with_prev1_full:position_as with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_as with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:heat prev2_POS:NN with_prev2_full:heat_and with_prev2_POS_full:NN_CC SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:1988 prev2_POS:CD with_prev2_full:1988_for_example with_prev2_POS_full:CD_IN_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:disseminated prev2_POS:VBN with_prev2_full:disseminated_and with_prev2_POS_full:VBN_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:1989 prev2_POS:CD with_prev2_full:1989_so with_prev2_POS_full:CD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:firm prev1_POS:NN with_prev1_full:firm_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:in_fact conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:Now prev2_POS:RB with_prev2_full:Now_in_fact with_prev2_POS_full:RB_IN_NN PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:plate prev1_POS:NN with_prev1_full:plate_after with_prev1_POS_full:NN_IN prev2:his prev2_POS:PRP$ with_prev2_full:his_after with_prev2_POS_full:PRP$_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:succeed prev2_POS:VB with_prev2_full:succeed_although with_prev2_POS_full:VB_IN SS
+conn:in_contrast conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_contrast with_prev1_POS_full:,_IN_NN prev2:Minneapolis prev2_POS:NNP with_prev2_full:Minneapolis_in_contrast with_prev2_POS_full:NNP_IN_NN PS
+conn:Or conn_POS:CC sent_pos:0 PS
+conn:just_when conn_POS:RB_WRB prev1:forecast prev1_POS:NN with_prev1_full:forecast_just_when with_prev1_POS_full:NN_RB_WRB prev2:your prev2_POS:PRP$ with_prev2_full:your_just_when with_prev2_POS_full:PRP$_RB_WRB SS
+conn:still conn_POS:RB sent_pos:2 prev1:could prev1_POS:MD with_prev1_full:could_still with_prev1_POS_full:MD_RB prev2:We prev2_POS:PRP with_prev2_full:We_still with_prev2_POS_full:PRP_RB PS
+conn:later conn_POS:RB prev1:says prev1_POS:VBZ with_prev1_full:says_later with_prev1_POS_full:VBZ_RB prev2:Straszheim prev2_POS:NNP with_prev2_full:Straszheim_later with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:forecast prev2_POS:NN with_prev2_full:forecast_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:indeed conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_indeed with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_indeed with_prev2_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:forecast prev2_POS:NN with_prev2_full:forecast_and with_prev2_POS_full:NN_CC SS

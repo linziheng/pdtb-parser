@@ -1,0 +1,33 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:%_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:slowing_while Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:fell_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:unchanged_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:unchanged_while List
+conn_lc:while conn:while conn_POS:IN with_prev_full:higher_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:higher_while List
+conn_lc:just_days_before conn:just_days_before conn_POS:RB_NNS_IN with_prev_full:,_just_days_before Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:bullish_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:billion_if Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:think_as Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:rates_also Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:million_after Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while List
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:however conn:However conn_POS:RB with_prev_full:``_however Contrast
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:deteriorated_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:deteriorated_and Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:investors_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:oversold_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:oversold_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:lists_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while List
+conn_lc:as conn:as conn_POS:IN with_prev_full:changed_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:changed_as Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:%_while List

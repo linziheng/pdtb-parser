@@ -1,0 +1,5 @@
+conn:and conn_POS:CC prev1:outstanding prev1_POS:JJ with_prev1_full:outstanding_and with_prev1_POS_full:JJ_CC prev2:shares prev2_POS:NNS with_prev2_full:shares_and with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:and prev2_POS:CC with_prev2_full:and_when with_prev2_POS_full:CC_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS

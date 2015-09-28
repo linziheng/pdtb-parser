@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:15 prev2_POS:CD with_prev2_full:15_but with_prev2_POS_full:CD_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:interest prev2_POS:NN with_prev2_full:interest_while with_prev2_POS_full:NN_IN SS
+conn:before conn_POS:IN prev1:accrued prev1_POS:VBN with_prev1_full:accrued_before with_prev1_POS_full:VBN_IN prev2:interest prev2_POS:NN with_prev2_full:interest_before with_prev2_POS_full:NN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS

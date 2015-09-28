@@ -1,0 +1,5 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:then prev1_POS:RB with_prev1_full:then_and with_prev1_POS_full:RB_CC prev2:it prev2_POS:PRP with_prev2_full:it_and with_prev2_POS_full:PRP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:break prev1_POS:NN with_prev1_full:break_while with_prev1_POS_full:NN_IN prev2:slivered prev2_POS:VBN with_prev2_full:slivered_while with_prev2_POS_full:VBN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:plastic prev2_POS:NN with_prev2_full:plastic_and with_prev2_POS_full:NN_CC SS

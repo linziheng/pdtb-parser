@@ -1,0 +1,7 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:ventures prev2_POS:NNS with_prev2_full:ventures_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:JAL prev1_POS:NNP with_prev1_full:JAL_also with_prev1_POS_full:NNP_RB PS
+conn:so conn_POS:IN prev1:Airways prev1_POS:NNPS with_prev1_full:Airways_so with_prev1_POS_full:NNPS_IN prev2:British prev2_POS:NNP with_prev2_full:British_so with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

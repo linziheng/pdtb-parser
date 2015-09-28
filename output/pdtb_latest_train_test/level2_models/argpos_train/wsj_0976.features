@@ -1,0 +1,6 @@
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:vary prev2_POS:VBP with_prev2_full:vary_so with_prev2_POS_full:VBP_RB SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:watching prev2_POS:VBG with_prev2_full:watching_although with_prev2_POS_full:VBG_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:York prev2_POS:NNP with_prev2_full:York_but with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:portraits prev2_POS:NNS with_prev2_full:portraits_and with_prev2_POS_full:NNS_CC SS
+conn:when conn_POS:WRB prev1:remember prev1_POS:VB with_prev1_full:remember_when with_prev1_POS_full:VB_WRB prev2:'ll prev2_POS:MD with_prev2_full:'ll_when with_prev2_POS_full:MD_WRB SS

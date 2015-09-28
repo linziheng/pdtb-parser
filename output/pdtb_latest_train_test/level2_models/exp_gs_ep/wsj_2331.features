@@ -1,0 +1,16 @@
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:and conn:And conn_POS:CC List£
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Condition£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:otherwise conn:otherwise conn_POS:RB with_prev_full:-lcb-_otherwise Alternative£
+conn_lc:and conn:and conn_POS:CC with_prev_full:saatchi_and Conjunction£
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:financially_so_that Cause£
+conn_lc:as conn:as conn_POS:IN with_prev_full:friday_as Synchrony£
+conn_lc:separately conn:Separately conn_POS:RB Conjunction£
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction£
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause£
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction£
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:was_previously Asynchronous£

@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:income prev2_POS:NN with_prev2_full:income_but with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:charge prev2_POS:NN with_prev2_full:charge_because with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:million prev2_POS:CD with_prev2_full:million_and with_prev2_POS_full:CD_CC SS
+conn:However conn_POS:RB sent_pos:0 PS

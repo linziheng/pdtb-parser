@@ -1,0 +1,10 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Pragmatic_condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:students_also Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:training_before Asynchronous
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:so conn:so conn_POS:IN with_prev_full:lower_so Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

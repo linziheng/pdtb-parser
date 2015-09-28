@@ -1,0 +1,28 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:,_before Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:''_thus Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:similarly conn:similarly conn_POS:RB with_prev_full:has_similarly Conjunction
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:also conn:also conn_POS:RB with_prev_full:which_also Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Concession
+conn_lc:particularly_if conn:particularly_if conn_POS:RB_IN with_prev_full:,_particularly_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:parents_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:though conn:Though conn_POS:IN Concession
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:once conn:Once conn_POS:IN with_prev_full:``_once Condition
+conn_lc:once conn:Once conn_POS:IN with_prev_full:``_once Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction

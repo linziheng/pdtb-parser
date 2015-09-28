@@ -1,0 +1,21 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:relief prev2_POS:NN with_prev2_full:relief_but with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_so with_prev1_POS_full:CC_RB prev2:money prev2_POS:NN with_prev2_full:money_so with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:governor prev2_POS:NN with_prev2_full:governor_also with_prev2_POS_full:NN_RB PS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Brown prev2_POS:NNP with_prev2_full:Brown_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:feasible prev2_POS:JJ with_prev2_full:feasible_and with_prev2_POS_full:JJ_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:increase prev2_POS:NN with_prev2_full:increase_however with_prev2_POS_full:NN_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_then with_prev1_POS_full:CC_RB PS
+conn:after conn_POS:IN prev1:period prev1_POS:NN with_prev1_full:period_after with_prev1_POS_full:NN_IN prev2:three-year prev2_POS:JJ with_prev2_full:three-year_after with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:emergency prev1_POS:NN with_prev1_full:emergency_and with_prev1_POS_full:NN_CC prev2:an prev2_POS:DT with_prev2_full:an_and with_prev2_POS_full:DT_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:state prev2_POS:NN with_prev2_full:state_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:in_the_meantime conn_POS:IN_DT_NN prev1:increase prev1_POS:NN with_prev1_full:increase_in_the_meantime with_prev1_POS_full:NN_IN_DT_NN prev2:tax prev2_POS:NN with_prev2_full:tax_in_the_meantime with_prev2_POS_full:NN_IN_DT_NN PS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:defective prev1_POS:JJ with_prev1_full:defective_and with_prev1_POS_full:JJ_CC prev2:was prev2_POS:VBD with_prev2_full:was_and with_prev2_POS_full:VBD_CC SS

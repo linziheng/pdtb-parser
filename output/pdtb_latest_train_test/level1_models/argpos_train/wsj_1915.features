@@ -1,0 +1,33 @@
+conn:because conn_POS:IN prev1:slow prev1_POS:JJ with_prev1_full:slow_because with_prev1_POS_full:JJ_IN prev2:was prev2_POS:VBD with_prev2_full:was_because with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_and with_prev2_POS_full:NN_CC SS
+conn:as_long_as conn_POS:RB_RB_IN prev1:anticipated prev1_POS:VBN with_prev1_full:anticipated_as_long_as with_prev1_POS_full:VBN_RB_RB_IN prev2:was prev2_POS:VBD with_prev2_full:was_as_long_as with_prev2_POS_full:VBD_RB_RB_IN SS
+conn:and conn_POS:CC prev1:yesterday prev1_POS:NN with_prev1_full:yesterday_and with_prev1_POS_full:NN_CC prev2:closed prev2_POS:JJ with_prev2_full:closed_and with_prev2_POS_full:JJ_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:service prev2_POS:NN with_prev2_full:service_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:closed prev1_POS:JJ with_prev1_full:closed_and with_prev1_POS_full:JJ_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:city prev2_POS:NN with_prev2_full:city_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Philadelphia prev2_POS:NNP with_prev2_full:Philadelphia_and with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:hurt prev2_POS:VBN with_prev2_full:hurt_but with_prev2_POS_full:VBN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:headquarters prev2_POS:NNS with_prev2_full:headquarters_but with_prev2_POS_full:NNS_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:Ky. prev2_POS:NNP with_prev2_full:Ky._but with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:operation prev1_POS:NN with_prev1_full:operation_and with_prev1_POS_full:NN_CC prev2:full prev2_POS:JJ with_prev2_full:full_and with_prev2_POS_full:JJ_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_but with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:operating prev2_POS:VBG with_prev2_full:operating_so with_prev2_POS_full:VBG_IN SS
+conn:and conn_POS:CC prev1:damage prev1_POS:NN with_prev1_full:damage_and with_prev1_POS_full:NN_CC prev2:lesser prev2_POS:JJR with_prev2_full:lesser_and with_prev2_POS_full:JJR_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:water prev2_POS:NN with_prev2_full:water_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:headquarters prev1_POS:NN with_prev1_full:headquarters_but with_prev1_POS_full:NN_CC prev2:its prev2_POS:PRP$ with_prev2_full:its_but with_prev2_POS_full:PRP$_CC SS
+conn:and conn_POS:CC prev1:damage prev1_POS:NN with_prev1_full:damage_and with_prev1_POS_full:NN_CC prev2:some prev2_POS:DT with_prev2_full:some_and with_prev2_POS_full:DT_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:building prev1_POS:NN with_prev1_full:building_and with_prev1_POS_full:NN_CC prev2:headquarters prev2_POS:NN with_prev2_full:headquarters_and with_prev2_POS_full:NN_CC SS
+conn:at_least_until conn_POS:IN_JJS_IN prev1:continue prev1_POS:VB with_prev1_full:continue_at_least_until with_prev1_POS_full:VB_IN_JJS_IN prev2:will prev2_POS:MD with_prev2_full:will_at_least_until with_prev2_POS_full:MD_IN_JJS_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Altos prev2_POS:NNP with_prev2_full:Altos_and with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:damage prev1_POS:NN with_prev1_full:damage_and with_prev1_POS_full:NN_CC prev2:minor prev2_POS:JJ with_prev2_full:minor_and with_prev2_POS_full:JJ_CC SS
+conn:while conn_POS:IN prev1:area prev1_POS:NN with_prev1_full:area_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:damage prev1_POS:NN with_prev1_full:damage_but with_prev1_POS_full:NN_CC prev2:minor prev2_POS:JJ with_prev2_full:minor_but with_prev2_POS_full:JJ_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:buildings prev2_POS:NNS with_prev2_full:buildings_but with_prev2_POS_full:NNS_CC SS
+conn:until conn_POS:IN prev1:electricity prev1_POS:NN with_prev1_full:electricity_until with_prev1_POS_full:NN_IN prev2:reconnect prev2_POS:VB with_prev2_full:reconnect_until with_prev2_POS_full:VB_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:not prev2_POS:RB with_prev2_full:not_however with_prev2_POS_full:RB_RB PS
+conn:until conn_POS:IN prev1:service prev1_POS:NN with_prev1_full:service_until with_prev1_POS_full:NN_IN prev2:24-hour prev2_POS:JJ with_prev2_full:24-hour_until with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:yesterday prev2_POS:NN with_prev2_full:yesterday_but with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:damage prev1_POS:NN with_prev1_full:damage_and with_prev1_POS_full:NN_CC prev2:minor prev2_POS:JJ with_prev2_full:minor_and with_prev2_POS_full:JJ_CC SS

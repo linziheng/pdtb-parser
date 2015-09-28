@@ -1,0 +1,10 @@
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:differ_as Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:warming_because Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:up_because Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession

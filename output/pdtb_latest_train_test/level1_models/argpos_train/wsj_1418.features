@@ -1,0 +1,11 @@
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:weakening prev2_POS:VBG with_prev2_full:weakening_as with_prev2_POS_full:VBG_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:falling prev1_POS:VBG with_prev1_full:falling_while with_prev1_POS_full:VBG_IN prev2:are prev2_POS:VBP with_prev2_full:are_while with_prev2_POS_full:VBP_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:1990 prev2_POS:CD with_prev2_full:1990_although with_prev2_POS_full:CD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:news prev2_POS:NN with_prev2_full:news_but with_prev2_POS_full:NN_CC SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:2018 prev2_POS:CD with_prev2_full:2018_for_example with_prev2_POS_full:CD_IN_NN PS
+conn:As conn_POS:IN sent_pos:0 SS

@@ -1,0 +1,16 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Friedman prev2_POS:NNP with_prev2_full:Friedman_however with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_even_if with_prev1_POS_full:CC_RB_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:surrender prev2_POS:VB with_prev2_full:surrender_and with_prev2_POS_full:VB_CC SS
+conn:also conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_also with_prev1_POS_full:MD_RB prev2:border prev2_POS:NN with_prev2_full:border_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:ironic prev1_POS:JJ with_prev1_full:ironic_if with_prev1_POS_full:JJ_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS

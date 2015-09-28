@@ -1,0 +1,2 @@
+conn:and conn_POS:CC prev1:PLC prev1_POS:NNP with_prev1_full:PLC_and with_prev1_POS_full:NNP_CC prev2:Group prev2_POS:NNP with_prev2_full:Group_and with_prev2_POS_full:NNP_CC SS
+conn:and conn_POS:CC prev1:SHV prev1_POS:NNP with_prev1_full:SHV_and with_prev1_POS_full:NNP_CC prev2:with prev2_POS:IN with_prev2_full:with_and with_prev2_POS_full:IN_CC SS

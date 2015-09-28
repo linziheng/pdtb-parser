@@ -1,0 +1,21 @@
+conn_lc:rather conn:Rather conn_POS:RB Alternative
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:entirety_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:veto_because Cause
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:funds_unless Alternative
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:because conn:because conn_POS:IN with_prev_full:veto_because Cause
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:later conn:later conn_POS:RB with_prev_full:veto_later Asynchronous
+conn_lc:indeed conn:Indeed conn_POS:RB Pragmatic_cause
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:later conn:later conn_POS:RB with_prev_full:it_later Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Asynchronous

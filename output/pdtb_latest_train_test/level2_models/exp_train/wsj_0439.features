@@ -1,0 +1,34 @@
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:arouse_and Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:apparent_when Synchrony
+conn_lc:yet conn:Yet conn_POS:CC Contrast
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:;_nor Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:when conn:when conn_POS:WRB with_prev_full:liberal_when Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:only_if conn:only_if conn_POS:RB_IN with_prev_full:others_only_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Pragmatic_contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Contrast
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:evident_when Synchrony
+conn_lc:neither_neither_rejected_a_socialist_planned_economy_nor conn:neither_neither_rejected_a_socialist_planned_economy_nor conn_POS:RB_RB_VBD_DT_JJ_JJ_NN_CC with_prev_full:he_neither_neither_rejected_a_socialist_planned_economy_nor Conjunction
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:or conn:or conn_POS:CC with_prev_full:closed_or Alternative
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:before conn:before conn_POS:RB with_prev_full:laid_before Asynchronous
+conn_lc:if conn:If conn_POS:IN Condition

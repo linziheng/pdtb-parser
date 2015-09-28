@@ -1,0 +1,28 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:price_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:contracts_and Expansion
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:they_thus Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:once conn:once conn_POS:IN with_prev_full:shares_once Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:were_previously Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:bozell_after Temporal
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:,_previously Temporal

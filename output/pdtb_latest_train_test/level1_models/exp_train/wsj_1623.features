@@ -1,0 +1,53 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:easier_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:delayed_until Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:more_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:they_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonds_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:investors_even_if Contingency
+conn_lc:once conn:Once conn_POS:RB with_prev_full:``_once Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:and_also Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tight_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:an_average_of_six_months_before conn:an_average_of_six_months_before conn_POS:DT_NN_IN_CD_NNS_IN with_prev_full:began_an_average_of_six_months_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:-_and Expansion
+conn_lc:about_six_months_before conn:About_six_months_before conn_POS:RB_CD_NNS_IN Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:length_so_that Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:overall conn:overall conn_POS:RB with_prev_full:but_overall Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:medicine_when Contingency
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:just_when conn:just_when conn_POS:RB_WRB with_prev_full:opportunities_just_when Temporal

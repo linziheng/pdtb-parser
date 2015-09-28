@@ -1,0 +1,3 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS
+conn:later conn_POS:RB prev1:introduced prev1_POS:VBN with_prev1_full:introduced_later with_prev1_POS_full:VBN_RB prev2:be prev2_POS:VB with_prev2_full:be_later with_prev2_POS_full:VB_RB PS
+conn:also conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_also with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS

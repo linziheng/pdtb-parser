@@ -1,0 +1,10 @@
+conn:after conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_after with_prev1_POS_full:NN_IN prev2:this prev2_POS:DT with_prev2_full:this_after with_prev2_POS_full:DT_IN SS
+conn:because conn_POS:IN prev1:restrictions prev1_POS:NNS with_prev1_full:restrictions_because with_prev1_POS_full:NNS_IN prev2:such prev2_POS:JJ with_prev2_full:such_because with_prev2_POS_full:JJ_IN SS
+conn:because conn_POS:IN prev1:markets prev1_POS:NNS with_prev1_full:markets_because with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:even_when conn_POS:RB_WRB prev1:sell prev1_POS:VB with_prev1_full:sell_even_when with_prev1_POS_full:VB_RB_WRB prev2:or prev2_POS:CC with_prev2_full:or_even_when with_prev2_POS_full:CC_RB_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:allowed prev2_POS:VBN with_prev2_full:allowed_but with_prev2_POS_full:VBN_CC SS
+conn:and conn_POS:CC prev1:weeks prev1_POS:NNS with_prev1_full:weeks_and with_prev1_POS_full:NNS_CC prev2:two prev2_POS:CD with_prev2_full:two_and with_prev2_POS_full:CD_CC SS
+conn:before conn_POS:IN prev1:decide prev1_POS:VBP with_prev1_full:decide_before with_prev1_POS_full:VBP_IN prev2:traders prev2_POS:NNS with_prev2_full:traders_before with_prev2_POS_full:NNS_IN SS
+conn:but conn_POS:CC prev1:... prev1_POS:: with_prev1_full:..._but with_prev1_POS_full::_CC prev2:tell prev2_POS:VB with_prev2_full:tell_but with_prev2_POS_full:VB_CC SS
+conn:until conn_POS:IN prev1:plan prev1_POS:NN with_prev1_full:plan_until with_prev1_POS_full:NN_IN prev2:CFTC prev2_POS:NNP with_prev2_full:CFTC_until with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

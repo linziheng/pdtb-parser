@@ -1,0 +1,16 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:resigned_because Contingency
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:as_if conn:as_if conn_POS:IN_IN with_prev_full:policy_as_if Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:consequently conn:Consequently conn_POS:RB Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:that_after Temporal
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:,_instead Expansion
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:unless conn:Unless conn_POS:IN Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:considering_before Temporal

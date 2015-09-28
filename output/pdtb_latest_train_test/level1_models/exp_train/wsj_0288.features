@@ -1,0 +1,18 @@
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:summit_so_that Contingency
+conn_lc:rather conn:Rather conn_POS:RB Expansion
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:As conn_POS:IN with_prev_full:``_as Contingency
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:perestroika_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:that_as Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:alliance_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:while conn:While conn_POS:IN Comparison

@@ -20,6 +20,7 @@ import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -31,7 +32,9 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
+import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
 import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
@@ -121,6 +124,45 @@ public class ConnComp extends Component {
 		return modelFile;
 	}
 
+	public File trainBioDrb() throws IOException {
+		File trainFile = new File(OUT_PATH + NAME + FeatureType.Training);
+		PrintWriter featureFile = new PrintWriter(trainFile);
+		PrintWriter spansFile = new PrintWriter(OUT_PATH + NAME + ".spans" + FeatureType.Training);
+
+		log.info("Training:");
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith("txt");
+			}
+		});
+
+		for (File file : files) {
+			if (TestBioDrb.trainSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+				List<String[]> features = generateFeatures(Corpus.Type.BIO_DRB, file, FeatureType.GoldStandard);
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+
+					String[] tmp = feature[0].split("\\s+");
+					String spanString = feature[1] + " " + feature[2] + " " + feature[3].replace(' ', '_') + " " + file
+							+ " " + tmp[tmp.length - 1];
+
+					spansFile.println(spanString);
+				}
+				featureFile.flush();
+				spansFile.flush();
+			}
+		}
+		featureFile.close();
+		spansFile.close();
+
+		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
+
+		return modelFile;
+	}
+
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
 		String filePath = TMP_PATH + inputFile.getName() + "." + NAME;
@@ -140,6 +182,66 @@ public class ConnComp extends Component {
 		spansFile.close();
 
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(filePath + ".out"));
+
+		return outFile;
+	}
+
+	public File testBioDrb(FeatureType featureType) throws IOException {
+		String name = NAME + featureType.toString();
+		File testFile = new File(OUT_PATH + name);
+		PrintWriter featureFile = new PrintWriter(testFile);
+		PrintWriter spansFile = new PrintWriter(OUT_PATH + name + ".spans");
+		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		new File(dir).mkdirs();
+
+		log.info("Printing " + featureType + " features: ");
+		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
+
+			@Override
+			public boolean accept(File dir, String name) {
+				return name.endsWith("txt");
+			}
+		});
+
+		for (File file : files) {
+			if (TestBioDrb.testSet.contains(file.getName())) {
+				log.trace("Article: " + file.getName());
+
+				String articleName = dir + file.getName();
+
+				File articleTest = new File(articleName + ".features");
+				PrintWriter articleFeatures = new PrintWriter(articleTest);
+
+				File articleSpansFile = new File(articleName + ".spans");
+				PrintWriter articleSpans = new PrintWriter(articleSpansFile);
+
+				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
+				for (String[] feature : features) {
+					featureFile.println(feature[0]);
+					articleFeatures.println(feature[0]);
+
+					String[] tmp = feature[0].split("\\s+");
+					String spanString = feature[1] + " " + feature[2] + " " + feature[3].replace(' ', '_') + " "
+							+ file.getName() + " " + tmp[tmp.length - 1];
+
+					spansFile.println(spanString);
+					articleSpans.println(spanString + " " + feature[4].replace(' ', '_'));
+				}
+				featureFile.flush();
+				spansFile.flush();
+				articleFeatures.close();
+				articleSpans.close();
+
+				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
+				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				new File(pipeDir).mkdirs();
+				makeBioPipeFile(pipeDir, articleOut, articleSpansFile, file.getName());
+			}
+		}
+		featureFile.close();
+		spansFile.close();
+
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
 
 		return outFile;
 	}
@@ -201,6 +303,64 @@ public class ConnComp extends Component {
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
 
 		return outFile;
+	}
+
+	private File makeBioPipeFile(String pipeDir, File articleOut, File articleSpans, String article)
+			throws IOException {
+		File pipeFile = new File(pipeDir + "/" + article + ".pipe");
+
+		PrintWriter pw = new PrintWriter(pipeFile);
+		boolean isEmpty = true;
+		try (BufferedReader out = Util.reader(articleOut)) {
+			try (BufferedReader spans = Util.reader(articleSpans)) {
+
+				// 0[0.0000] 1[1.0000] 1
+				String outLine;
+
+				while ((outLine = out.readLine()) != null) {
+					// span sent_number word article true_label head_word
+					// 39..42 1 But wsj_2300.pipe 1 but
+					String spanLine = spans.readLine();
+					if (outLine.endsWith("1")) {
+						isEmpty = false;
+						String[] cols = spanLine.split("\\s+");
+						// bio pipe has 27 columns
+						// Explicit|461..470|Wr|Comm|Null|Null|||Temporal.Succession||||||431..460|Inh|Null|Null|Null||471..486|Inh|Null|Null|Null||
+						/**
+						 * <pre>
+						 * Column definitions:
+						 *	 0 - Relation type (Explicit, Implicit, AltLex, NoRel)
+						 *	 1 - (Sets of) Text span for connective (when explicit) (eg. 472..474)
+						 *	 7 - Connective string “inserted” for Implicit relation
+						 *	 8 - Sense1 of Explicit Connective (or Implicit Connective)
+						 *	 9 - Sense2 of Explicit Connective (or Implicit Connective)
+						 *	14 - (Sets of) Text span for Arg1
+						 *	20 - (Sets of) Text span for Arg2
+						 * </pre>
+						 */
+						StringBuilder pipeLine = new StringBuilder();
+						pipeLine.append("Explicit");
+						pipeLine.append('|');
+						pipeLine.append(cols[0]);
+						pipeLine.append('|');
+
+						for (int i = 3; i < 27; ++i) {
+							pipeLine.append('|');
+						}
+
+						pw.println(pipeLine.toString().trim());
+					}
+					pw.flush();
+				}
+			}
+		}
+		pw.close();
+
+		if (isEmpty) {
+			pipeFile.delete();
+		}
+
+		return pipeFile;
 	}
 
 	private File makePipeFile(String pipeDir, File articleOut, File articleSpans, String article) throws IOException {
@@ -270,12 +430,29 @@ public class ConnComp extends Component {
 
 	@Override
 	public List<String[]> generateFeatures(File article, FeatureType featureType) throws IOException {
+		return generateFeatures(Corpus.Type.PDTB, article, featureType);
+	}
 
-		List<Tree> trees = Corpus.getTrees(article, featureType);
-		Map<String, String> spanMap = Corpus.getSpanMap(article, featureType);
+	public List<String[]> generateFeatures(Corpus.Type corpus, File article, FeatureType featureType)
+			throws IOException {
 
-		Set<String> explicitSpans = featureType == FeatureType.AnyText ? null
-				: Corpus.getExplicitSpansAsSet(article, featureType);
+		List<Tree> trees = null;
+		Map<String, String> spanMap = null;
+		Set<String> explicitSpans = null;
+		if (corpus.equals(Corpus.Type.PDTB)) {
+			trees = Corpus.getTrees(article, featureType);
+			spanMap = Corpus.getSpanMap(article, featureType);
+			explicitSpans = featureType == FeatureType.AnyText ? null
+					: Corpus.getExplicitSpansAsSet(article, featureType);
+
+		} else if (corpus.equals(Corpus.Type.BIO_DRB)) {
+			trees = Corpus.getBioTrees(article, featureType);
+			spanMap = Corpus.getBioSpanMap(article, featureType);
+			explicitSpans = featureType == FeatureType.AnyText ? null
+					: Corpus.getBioExplicitSpansAsSet(article, featureType);
+		} else {
+			log.error("Unimplemented corpus type: " + corpus);
+		}
 
 		List<String[]> features = new ArrayList<>();
 
@@ -309,8 +486,10 @@ public class ConnComp extends Component {
 								orgWord.append(leaves.get(k).value().trim());
 
 								done.add(j);
-								if (!(article.getName().equals("wsj_2369.pipe") && j == 4 && k == 29 && i == 24)) {
-									done.add(k);
+								if (corpus.equals(Corpus.Type.PDTB)) {
+									if (!(article.getName().equals("wsj_2369.pipe") && j == 4 && k == 29 && i == 24)) {
+										done.add(k);
+									}
 								}
 
 								String key0 = i + ":" + nodes.get(0).tree.nodeNumber(root);
@@ -655,6 +834,10 @@ public class ConnComp extends Component {
 	}
 
 	public static String findCategory(String connStr) {
+		return findCategory(connStr, Type.PDTB);
+	}
+
+	public static String findCategory(String connStr, Type corpus) {
 		if (connStr == null) {
 			return null;
 		}
@@ -669,6 +852,26 @@ public class ConnComp extends Component {
 		for (String can : Subordinator) {
 			if (key.equals(can)) {
 				return value;
+			}
+		}
+
+		if (corpus.equals(Type.BIO_DRB)) {
+			String[] sub = { "by", "mainly by", "to", "followed by", "due to", "only when" };
+			value = "Subordinator";
+
+			for (String can : sub) {
+				if (key.equals(can)) {
+					return value;
+				}
+			}
+
+			sub = new String[] { "not only but also" };
+			value = "Coordinator";
+
+			for (String can : sub) {
+				if (key.equals(can)) {
+					return value;
+				}
 			}
 		}
 
@@ -687,7 +890,7 @@ public class ConnComp extends Component {
 			}
 		}
 
-		return null;
+		return "null";
 	}
 
 }

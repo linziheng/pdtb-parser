@@ -1,0 +1,6 @@
+conn:as conn_POS:IN prev1:wildly prev1_POS:RB with_prev1_full:wildly_as with_prev1_POS_full:RB_IN prev2:SWUNG prev2_POS:VBD with_prev2_full:SWUNG_as with_prev2_POS_full:VBD_IN SS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:stocks prev2_POS:NNS with_prev2_full:stocks_then with_prev2_POS_full:NNS_RB SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:170 prev2_POS:CD with_prev2_full:170_after with_prev2_POS_full:CD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:GM prev2_POS:NNP with_prev2_full:GM_but with_prev2_POS_full:NNP_CC SS
+conn:as conn_POS:IN prev1:mid-October prev1_POS:JJ with_prev1_full:mid-October_as with_prev1_POS_full:JJ_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:as conn_POS:IN prev1:profit prev1_POS:NN with_prev1_full:profit_as with_prev1_POS_full:NN_IN prev2:third-quarter prev2_POS:JJ with_prev2_full:third-quarter_as with_prev2_POS_full:JJ_IN SS

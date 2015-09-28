@@ -1,0 +1,2 @@
+conn:also conn_POS:RB prev1:S.A. prev1_POS:NNP with_prev1_full:S.A._also with_prev1_POS_full:NNP_RB prev2:Framatome prev2_POS:NNP with_prev2_full:Framatome_also with_prev2_POS_full:NNP_RB PS
+conn:as_soon_as conn_POS:RB_RB_IN prev1:stock prev1_POS:NN with_prev1_full:stock_as_soon_as with_prev1_POS_full:NN_RB_RB_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_as_soon_as with_prev2_POS_full:PRP$_RB_RB_IN SS

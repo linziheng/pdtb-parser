@@ -1,0 +1,17 @@
+conn_lc:unless conn:Unless conn_POS:IN Alternative
+conn_lc:later conn:later conn_POS:RB with_prev_full:and_later Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:yet conn:Yet conn_POS:RB Concession
+conn_lc:so conn:so conn_POS:RB with_prev_full:``_so Cause
+conn_lc:although conn:Although conn_POS:IN Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:europe_as Synchrony
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:surprising_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:because conn:because conn_POS:RB with_prev_full:office_because Cause
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:acquisitions_as Synchrony
+conn_lc:especially_if conn:especially_if conn_POS:RB_IN with_prev_full:``_especially_if Condition

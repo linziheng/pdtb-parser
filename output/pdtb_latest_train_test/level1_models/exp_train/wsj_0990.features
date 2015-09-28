@@ -1,0 +1,21 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:legislation_and Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:else_unless Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:proposal_because Contingency
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:officials_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:vengeance_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:italians_if Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:mushrooms_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:mushrooms_after Contingency

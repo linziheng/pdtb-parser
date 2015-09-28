@@ -1,0 +1,21 @@
+conn:since_before conn_POS:IN_RB prev1:seen prev1_POS:VBN with_prev1_full:seen_since_before with_prev1_POS_full:VBN_IN_RB prev2:had prev2_POS:VBD with_prev2_full:had_since_before with_prev2_POS_full:VBD_IN_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:prices prev1_POS:NNS with_prev1_full:prices_also with_prev1_POS_full:NNS_RB prev2:Bond prev2_POS:NN with_prev2_full:Bond_also with_prev2_POS_full:NN_RB PS
+conn:as conn_POS:IN prev1:jumped prev1_POS:VBD with_prev1_full:jumped_as with_prev1_POS_full:VBD_IN prev2:also prev2_POS:RB with_prev2_full:also_as with_prev2_POS_full:RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:months prev2_POS:NNS with_prev2_full:months_and with_prev2_POS_full:NNS_CC SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_but with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:capacity prev2_POS:NN with_prev2_full:capacity_so with_prev2_POS_full:NN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:days prev2_POS:NNS with_prev2_full:days_however with_prev2_POS_full:NNS_RB PS
+conn:because conn_POS:IN prev1:much prev1_POS:RB with_prev1_full:much_because with_prev1_POS_full:RB_IN prev2:too prev2_POS:RB with_prev2_full:too_because with_prev2_POS_full:RB_IN SS
+conn:still conn_POS:RB prev1:prices prev1_POS:NNS with_prev1_full:prices_still with_prev1_POS_full:NNS_RB prev2:consumer prev2_POS:NN with_prev2_full:consumer_still with_prev2_POS_full:NN_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:% prev2_POS:NN with_prev2_full:%_but with_prev2_POS_full:NN_CC SS
+conn:as conn_POS:IN prev1:% prev1_POS:NN with_prev1_full:%_as with_prev1_POS_full:NN_IN prev2:0.4 prev2_POS:CD with_prev2_full:0.4_as with_prev2_POS_full:CD_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:September prev2_POS:NNP with_prev2_full:September_after with_prev2_POS_full:NNP_IN SS

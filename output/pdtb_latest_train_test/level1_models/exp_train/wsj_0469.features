@@ -1,0 +1,20 @@
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:system_because Contingency
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:until conn:until conn_POS:IN with_prev_full:terms_until Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:forces_after Temporal
+conn_lc:once conn:once conn_POS:RB with_prev_full:increase_once Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:dissolved_and Expansion
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:year_partly_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:left_and Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:hired_since Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:year_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:charge_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Temporal

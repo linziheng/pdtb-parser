@@ -1,0 +1,13 @@
+conn:also conn_POS:RB sent_pos:2 prev1:could prev1_POS:MD with_prev1_full:could_also with_prev1_POS_full:MD_RB prev2:Employers prev2_POS:NNS with_prev2_full:Employers_also with_prev2_POS_full:NNS_RB PS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_then with_prev2_POS_full:,_RB SS
+conn:if conn_POS:IN prev1:days prev1_POS:NNS with_prev1_full:days_if with_prev1_POS_full:NNS_IN prev2:90 prev2_POS:CD with_prev2_full:90_if with_prev2_POS_full:CD_IN SS
+conn:although conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_although with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_although with_prev2_POS_full:VBD_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:earlier prev2_POS:RB with_prev2_full:earlier_while with_prev2_POS_full:RB_IN SS
+conn:unless conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_unless with_prev1_POS_full:,_IN prev2:shorter prev2_POS:JJR with_prev2_full:shorter_unless with_prev2_POS_full:JJR_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:wage prev2_POS:NN with_prev2_full:wage_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:compromise prev2_POS:NN with_prev2_full:compromise_and with_prev2_POS_full:NN_CC SS
+conn:if conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_if with_prev1_POS_full:``_IN prev2:better prev2_POS:RBR with_prev2_full:better_if with_prev2_POS_full:RBR_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:increase prev2_POS:NN with_prev2_full:increase_but with_prev2_POS_full:NN_CC SS
+conn:previously conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_previously with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_previously with_prev2_POS_full:,_RB SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:safeguards prev2_POS:NNS with_prev2_full:safeguards_so with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:exploited prev1_POS:VBN with_prev1_full:exploited_and with_prev1_POS_full:VBN_CC prev2:not prev2_POS:RB with_prev2_full:not_and with_prev2_POS_full:RB_CC SS

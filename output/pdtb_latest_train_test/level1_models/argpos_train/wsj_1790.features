@@ -1,0 +1,20 @@
+conn:as conn_POS:IN prev1:counseling prev1_POS:NN with_prev1_full:counseling_as with_prev1_POS_full:NN_IN prev2:seeking prev2_POS:VBG with_prev2_full:seeking_as with_prev2_POS_full:VBG_IN SS
+conn:especially_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_especially_if with_prev1_POS_full:,_RB_IN prev2:referrals prev2_POS:NNS with_prev2_full:referrals_especially_if with_prev2_POS_full:NNS_RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:career prev1_POS:NN with_prev1_full:career_when with_prev1_POS_full:NN_WRB prev2:his prev2_POS:PRP$ with_prev2_full:his_when with_prev2_POS_full:PRP$_WRB SS
+conn:also conn_POS:RB prev1:couples prev1_POS:NNS with_prev1_full:couples_also with_prev1_POS_full:NNS_RB prev2:dual-career prev2_POS:JJ with_prev2_full:dual-career_also with_prev2_POS_full:JJ_RB PS
+conn:if conn_POS:IN prev1:erode prev1_POS:VB with_prev1_full:erode_if with_prev1_POS_full:VB_IN prev2:will prev2_POS:MD with_prev2_full:will_if with_prev2_POS_full:MD_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:morale prev2_POS:NN with_prev2_full:morale_while with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:Association prev1_POS:NNP with_prev1_full:Association_also with_prev1_POS_full:NNP_RB prev2:Relations prev2_POS:NNPS with_prev2_full:Relations_also with_prev2_POS_full:NNPS_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:suggestions prev2_POS:NNS with_prev2_full:suggestions_while with_prev2_POS_full:NNS_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:suggestion prev2_POS:NN with_prev2_full:suggestion_while with_prev2_POS_full:NN_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:program prev1_POS:NN with_prev1_full:program_because with_prev1_POS_full:NN_IN prev2:suggestion prev2_POS:NN with_prev2_full:suggestion_because with_prev2_POS_full:NN_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:as conn_POS:IN prev1:dramatically prev1_POS:RB with_prev1_full:dramatically_as with_prev1_POS_full:RB_IN prev2:climbed prev2_POS:VBD with_prev2_full:climbed_as with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:Dalton prev1_POS:NNP with_prev1_full:Dalton_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

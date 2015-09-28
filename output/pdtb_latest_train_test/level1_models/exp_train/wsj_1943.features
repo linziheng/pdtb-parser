@@ -1,0 +1,4 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:issue_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:years_after Temporal

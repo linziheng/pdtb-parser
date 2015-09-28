@@ -1,0 +1,40 @@
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:when conn:when conn_POS:WRB with_prev_full:supersafe_when Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:steps_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:steps_when Synchrony
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:portfolio_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:return_and Conjunction
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:return_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:range_if Condition
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:if conn:if conn_POS:IN with_prev_full:sense_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:now_because Cause
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:when conn:When conn_POS:WRB Pragmatic_condition
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Concession
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:and conn:And conn_POS:CC Conjunction

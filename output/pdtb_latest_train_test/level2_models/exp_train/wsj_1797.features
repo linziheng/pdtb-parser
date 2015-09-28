@@ -1,0 +1,28 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:shortly_thereafter conn:shortly_thereafter conn_POS:RB_RB with_prev_full:expected_shortly_thereafter Asynchronous
+conn_lc:before conn:before conn_POS:IN with_prev_full:parents_before Asynchronous
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:legislation_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:issue_and Conjunction
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:week_and Conjunction
+conn_lc:except conn:except conn_POS:IN with_prev_full:,_except Exception
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:measure_also Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:her_before Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:veto_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:still conn:still conn_POS:RB with_prev_full:anti-abortionists_still Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:it_if Condition
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:comes_as Synchrony
+conn_lc:if conn:if conn_POS:IN with_prev_full:funding_if Condition

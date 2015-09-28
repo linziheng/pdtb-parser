@@ -1,0 +1,5 @@
+conn:when conn_POS:WRB prev1:'' prev1_POS:'' with_prev1_full:''_when with_prev1_POS_full:''_WRB prev2:no prev2_POS:UH with_prev2_full:no_when with_prev2_POS_full:UH_WRB SS
+conn:since conn_POS:IN prev1:Three prev1_POS:NNP with_prev1_full:Three_since with_prev1_POS_full:NNP_IN prev2:Big prev2_POS:NNP with_prev2_full:Big_since with_prev2_POS_full:NNP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:except_when conn_POS:IN_WRB prev1:dealer prev1_POS:NN with_prev1_full:dealer_except_when with_prev1_POS_full:NN_IN_WRB prev2:the prev2_POS:DT with_prev2_full:the_except_when with_prev2_POS_full:DT_IN_WRB SS
+conn:and conn_POS:CC prev1:buy prev1_POS:VB with_prev1_full:buy_and with_prev1_POS_full:VB_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS

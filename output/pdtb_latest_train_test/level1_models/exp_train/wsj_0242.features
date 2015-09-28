@@ -1,0 +1,16 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:--_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:soil_once Temporal
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:attack_unless Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:but_even_though Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:none_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:planes_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:what_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency

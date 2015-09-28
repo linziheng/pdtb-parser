@@ -1,0 +1,7 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:program_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

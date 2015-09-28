@@ -1,0 +1,17 @@
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_if with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:user prev2_POS:NN with_prev2_full:user_also with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:device prev1_POS:NN with_prev1_full:device_if with_prev1_POS_full:NN_IN prev2:optical prev2_POS:JJ with_prev2_full:optical_if with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:6,495 prev2_POS:CD with_prev2_full:6,495_but with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:technology prev2_POS:NN with_prev2_full:technology_while with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:drives prev2_POS:NNS with_prev2_full:drives_but with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Universities prev2_POS:NNS with_prev2_full:Universities_however with_prev2_POS_full:NNS_RB PS
+conn:before conn_POS:IN prev1:lower prev1_POS:JJR with_prev1_full:lower_before with_prev1_POS_full:JJR_IN prev2:even prev2_POS:RB with_prev2_full:even_before with_prev2_POS_full:RB_IN SS
+conn:also conn_POS:RB prev1:computer prev1_POS:NN with_prev1_full:computer_also with_prev1_POS_full:NN_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:disks prev2_POS:NNS with_prev2_full:disks_but with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB prev1:computer prev1_POS:NN with_prev1_full:computer_also with_prev1_POS_full:NN_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:applications prev2_POS:NNS with_prev2_full:applications_but with_prev2_POS_full:NNS_CC SS

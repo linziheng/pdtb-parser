@@ -1,0 +1,13 @@
+conn_lc:separately conn:Separately conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:numbers_and Conjunction
+conn_lc:for_example conn:For_example conn_POS:IN_NN with_prev_full:``_for_example Instantiation
+conn_lc:also conn:also conn_POS:RB with_prev_full:warner_also Conjunction
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:warner_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:flow_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:system_and Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:and_because Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast

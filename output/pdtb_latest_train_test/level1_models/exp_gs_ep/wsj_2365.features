@@ -1,0 +1,19 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:increase_when Contingency£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:also conn:also conn_POS:RB with_prev_full:corp._also Expansion£
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Comparison£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison£
+conn_lc:while conn:While conn_POS:IN Comparison£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison£
+conn_lc:since conn:since conn_POS:IN with_prev_full:product_since Temporal£
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal£
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Comparison£
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison£
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion£
+conn_lc:and conn:and conn_POS:CC with_prev_full:``_and Expansion£
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:also conn:also conn_POS:RB with_prev_full:companies_also Expansion£

@@ -1,0 +1,3 @@
+conn:because conn_POS:IN prev1:laws prev1_POS:NNS with_prev1_full:laws_because with_prev1_POS_full:NNS_IN prev2:securities prev2_POS:NNS with_prev2_full:securities_because with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:shares prev2_POS:NNS with_prev2_full:shares_also with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:'s prev1_POS:POS with_prev1_full:'s_also with_prev1_POS_full:POS_RB prev2:Rally prev2_POS:NNP with_prev2_full:Rally_also with_prev2_POS_full:NNP_RB PS

@@ -1,0 +1,10 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:fired_and Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:plummet_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:plummet_as Cause
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bonus_when Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:concessions_so Cause

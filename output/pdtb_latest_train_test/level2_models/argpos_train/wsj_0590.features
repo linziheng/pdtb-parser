@@ -1,0 +1,20 @@
+conn:when conn_POS:WRB prev1:other prev1_POS:JJ with_prev1_full:other_when with_prev1_POS_full:JJ_WRB prev2:each prev2_POS:DT with_prev2_full:each_when with_prev2_POS_full:DT_WRB SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:as_well conn_POS:RB_RB prev1:pledged prev1_POS:VBN with_prev1_full:pledged_as_well with_prev1_POS_full:VBN_RB_RB prev2:has prev2_POS:VBZ with_prev2_full:has_as_well with_prev2_POS_full:VBZ_RB_RB PS
+conn:also conn_POS:RB prev1:Bush prev1_POS:NNP with_prev1_full:Bush_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:Noriega prev2_POS:NNP with_prev2_full:Noriega_if with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:president prev1_POS:NN with_prev1_full:president_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:bill prev1_POS:NN with_prev1_full:bill_if with_prev1_POS_full:NN_IN prev2:authorization prev2_POS:NN with_prev2_full:authorization_if with_prev2_POS_full:NN_IN SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:House prev2_POS:NNP with_prev2_full:House_and with_prev2_POS_full:NNP_CC SS
+conn:still conn_POS:RB sent_pos:1 prev1:There prev1_POS:EX with_prev1_full:There_still with_prev1_POS_full:EX_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:out prev2_POS:IN with_prev2_full:out_and with_prev2_POS_full:IN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:holds prev1_POS:VBZ with_prev1_full:holds_and with_prev1_POS_full:VBZ_CC prev2:attitude prev2_POS:NN with_prev2_full:attitude_and with_prev2_POS_full:NN_CC SS
+conn:before conn_POS:IN prev1:scrapped prev1_POS:VBN with_prev1_full:scrapped_before with_prev1_POS_full:VBN_IN prev2:are prev2_POS:VBP with_prev2_full:are_before with_prev2_POS_full:VBP_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:boards prev2_POS:NNS with_prev2_full:boards_while with_prev2_POS_full:NNS_IN SS

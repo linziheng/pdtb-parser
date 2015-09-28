@@ -1,0 +1,33 @@
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:fast prev1_POS:RB with_prev1_full:fast_because with_prev1_POS_full:RB_IN prev2:so prev2_POS:RB with_prev2_full:so_because with_prev2_POS_full:RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Monday prev2_POS:NNP with_prev2_full:Monday_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_when with_prev1_POS_full:CC_WRB SS
+conn:even_when conn_POS:RB_WRB prev1:liquid prev1_POS:JJ with_prev1_full:liquid_even_when with_prev1_POS_full:JJ_RB_WRB prev2:staying prev2_POS:VBG with_prev2_full:staying_even_when with_prev2_POS_full:VBG_RB_WRB SS
+conn:so_that conn_POS:IN_IN prev1:-- prev1_POS:: with_prev1_full:--_so_that with_prev1_POS_full::_IN_IN prev2:'' prev2_POS:'' with_prev2_full:''_so_that with_prev2_POS_full:''_IN_IN SS
+conn:when conn_POS:WRB prev1:cash prev1_POS:NN with_prev1_full:cash_when with_prev1_POS_full:NN_WRB prev2:and prev2_POS:CC with_prev2_full:and_when with_prev2_POS_full:CC_WRB SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:before conn_POS:IN prev1:Monday prev1_POS:NNP with_prev1_full:Monday_before with_prev1_POS_full:NNP_IN prev2:% prev2_POS:NN with_prev2_full:%_before with_prev2_POS_full:NN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:when conn_POS:WRB prev1:futures prev1_POS:NNS with_prev1_full:futures_when with_prev1_POS_full:NNS_WRB prev2:selling prev2_POS:VBG with_prev2_full:selling_when with_prev2_POS_full:VBG_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_also with_prev1_POS_full:MD_RB prev2:liquidity prev2_POS:NN with_prev2_full:liquidity_also with_prev2_POS_full:NN_RB PS
+conn:when conn_POS:WRB prev1:volatility prev1_POS:NN with_prev1_full:volatility_when with_prev1_POS_full:NN_WRB prev2:to prev2_POS:TO with_prev2_full:to_when with_prev2_POS_full:TO_WRB SS
+conn:as conn_POS:IN prev1:contract prev1_POS:NN with_prev1_full:contract_as with_prev1_POS_full:NN_IN prev2:futures prev2_POS:NNS with_prev2_full:futures_as with_prev2_POS_full:NNS_IN SS
+conn:Then conn_POS:RB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Then with_prev1_POS_full:``_RB PS
+conn:also conn_POS:RB prev1:mania prev1_POS:NN with_prev1_full:mania_also with_prev1_POS_full:NN_RB prev2:takeover prev2_POS:NN with_prev2_full:takeover_also with_prev2_POS_full:NN_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:By_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:was prev1_POS:VBD with_prev1_full:was_when with_prev1_POS_full:VBD_WRB prev2:it prev2_POS:PRP with_prev2_full:it_when with_prev2_POS_full:PRP_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:as_long_as conn_POS:RB_RB_IN prev1:continue prev1_POS:VB with_prev1_full:continue_as_long_as with_prev1_POS_full:VB_RB_RB_IN prev2:will prev2_POS:MD with_prev2_full:will_as_long_as with_prev2_POS_full:MD_RB_RB_IN SS

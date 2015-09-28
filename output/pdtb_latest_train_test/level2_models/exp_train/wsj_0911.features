@@ -1,0 +1,14 @@
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:because conn:because conn_POS:IN with_prev_full:-rrb-_because Cause
+conn_lc:similarly conn:Similarly conn_POS:RB Conjunction
+conn_lc:further conn:Further conn_POS:RB Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:--_as Synchrony
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:included_even_when Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:in_short conn:In_short conn_POS:IN_JJ Restatement
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:movie_unless Alternative
+conn_lc:hence conn:Hence conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:errs_when Synchrony

@@ -1,0 +1,3 @@
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:share prev2_POS:NN with_prev2_full:share_when with_prev2_POS_full:NN_WRB SS
+conn:while conn_POS:IN prev1:loan prev1_POS:NN with_prev1_full:loan_while with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_while with_prev2_POS_full:DT_IN SS

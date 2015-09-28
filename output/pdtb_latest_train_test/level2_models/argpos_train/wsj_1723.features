@@ -1,0 +1,23 @@
+conn:as conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_as with_prev1_POS_full:NN_IN prev2:directionless prev2_POS:JJ with_prev2_full:directionless_as with_prev2_POS_full:JJ_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:shares prev1_POS:NNS with_prev1_full:shares_also with_prev1_POS_full:NNS_RB prev2:London prev2_POS:NNP with_prev2_full:London_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Prices prev1_POS:NNS with_prev1_full:Prices_also with_prev1_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:dealers prev2_POS:NNS with_prev2_full:dealers_but with_prev2_POS_full:NNS_CC SS
+conn:after conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_after with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_after with_prev2_POS_full:VBD_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_if with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:strategy prev2_POS:NN with_prev2_full:strategy_as with_prev2_POS_full:NN_IN SS
+conn:as conn_POS:IN prev1:ceaselessly prev1_POS:RB with_prev1_full:ceaselessly_as with_prev1_POS_full:RB_IN prev2:forth prev2_POS:RB with_prev2_full:forth_as with_prev2_POS_full:RB_IN SS
+conn:as conn_POS:IN prev1:yesterday prev1_POS:NN with_prev1_full:yesterday_as with_prev1_POS_full:NN_IN prev2:losers prev2_POS:NNS with_prev2_full:losers_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:4,170 prev2_POS:CD with_prev2_full:4,170_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:2,940 prev2_POS:CD with_prev2_full:2,940_and with_prev2_POS_full:CD_CC SS
+conn:also conn_POS:RB prev1:companies prev1_POS:NNS with_prev1_full:companies_also with_prev1_POS_full:NNS_RB prev2:construction prev2_POS:NN with_prev2_full:construction_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:2,120 prev2_POS:CD with_prev2_full:2,120_and with_prev2_POS_full:CD_CC SS
+conn:after conn_POS:IN prev1:back prev1_POS:RB with_prev1_full:back_after with_prev1_POS_full:RB_IN prev2:fell prev2_POS:VBD with_prev2_full:fell_after with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:723 prev2_POS:CD with_prev2_full:723_and with_prev2_POS_full:CD_CC SS
+conn:as conn_POS:IN prev1:861 prev1_POS:CD with_prev1_full:861_as with_prev1_POS_full:CD_IN prev2:to prev2_POS:TO with_prev2_full:to_as with_prev2_POS_full:TO_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN prev1:industry prev1_POS:NN with_prev1_full:industry_before with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_before with_prev2_POS_full:DT_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:289 prev2_POS:CD with_prev2_full:289_and with_prev2_POS_full:CD_CC SS
+conn:after conn_POS:IN prev1:dealings prev1_POS:NNS with_prev1_full:dealings_after with_prev1_POS_full:NNS_IN prev2:afternoon prev2_POS:NN with_prev2_full:afternoon_after with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Prices prev1_POS:NNS with_prev1_full:Prices_also with_prev1_POS_full:NNS_RB PS

@@ -1,0 +1,24 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:enemies prev2_POS:NNS with_prev2_full:enemies_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:weeks prev2_POS:NNS with_prev2_full:weeks_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:weeks prev2_POS:NNS with_prev2_full:weeks_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:company prev2_POS:NN with_prev2_full:company_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:sides prev2_POS:NNS with_prev2_full:sides_also with_prev2_POS_full:NNS_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:One prev2_POS:CD with_prev2_full:One_for_example with_prev2_POS_full:CD_IN_NN PS
+conn:after conn_POS:IN prev1:Warner prev1_POS:NNP with_prev1_full:Warner_after with_prev1_POS_full:NNP_IN prev2:Time prev2_POS:NNP with_prev2_full:Time_after with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Ross prev1_POS:NNP with_prev1_full:Ross_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:once prev1_POS:RB with_prev1_full:once_since with_prev1_POS_full:RB_IN prev2:than prev2_POS:IN with_prev2_full:than_since with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_although with_prev1_POS_full:CC_IN SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:settlement prev2_POS:NN with_prev2_full:settlement_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:also conn_POS:RB prev1:Peters prev1_POS:NNP with_prev1_full:Peters_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_since with_prev1_POS_full:''_IN prev2:, prev2_POS:, with_prev2_full:,_since with_prev2_POS_full:,_IN SS

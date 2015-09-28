@@ -1,0 +1,14 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:move_also Conjunction
+conn_lc:while conn:While conn_POS:IN Concession
+conn_lc:once conn:once conn_POS:IN with_prev_full:programs_once Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:otherwise conn:Otherwise conn_POS:RB Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:nor conn:nor conn_POS:CC with_prev_full:,_nor Conjunction
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Concession

@@ -1,0 +1,2 @@
+conn:also conn_POS:RB prev1:rate prev1_POS:NN with_prev1_full:rate_also with_prev1_POS_full:NN_RB prev2:unemployment prev2_POS:NN with_prev2_full:unemployment_also with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:figure prev1_POS:NN with_prev1_full:figure_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

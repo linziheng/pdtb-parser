@@ -1,0 +1,3 @@
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:and prev2_POS:CC with_prev2_full:and_also with_prev2_POS_full:CC_RB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:him prev2_POS:PRP with_prev2_full:him_and with_prev2_POS_full:PRP_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:reads prev2_POS:VBZ with_prev2_full:reads_and with_prev2_POS_full:VBZ_CC SS

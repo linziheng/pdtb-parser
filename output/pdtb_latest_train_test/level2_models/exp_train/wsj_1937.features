@@ -1,0 +1,21 @@
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:mixed_as Cause
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:as_well conn:As_well conn_POS:RB_RB Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:future_and Conjunction
+conn_lc:overall conn:Overall conn_POS:JJ Restatement
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:intel_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:were_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:27_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/2_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:yesterday_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:shares_after Asynchronous

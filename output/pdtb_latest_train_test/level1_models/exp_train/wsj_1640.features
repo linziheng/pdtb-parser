@@ -1,0 +1,11 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:it_if Contingency
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:secrets_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:computer_but Comparison
+conn_lc:later conn:later conn_POS:RB with_prev_full:was_later Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency

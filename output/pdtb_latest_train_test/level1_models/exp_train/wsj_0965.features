@@ -1,0 +1,8 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:tuesday_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:tuesday_after Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:sidelines_until Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:nevertheless conn:nevertheless conn_POS:RB with_prev_full:traders_nevertheless Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:action_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

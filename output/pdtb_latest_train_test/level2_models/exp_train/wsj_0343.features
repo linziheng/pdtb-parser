@@ -1,0 +1,6 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Contrast
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Synchrony
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:cut_if Condition

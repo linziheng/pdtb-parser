@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:ago prev2_POS:RB with_prev2_full:ago_but with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:changed prev2_POS:VBN with_prev2_full:changed_but with_prev2_POS_full:VBN_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:environment prev2_POS:NN with_prev2_full:environment_but with_prev2_POS_full:NN_CC SS

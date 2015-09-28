@@ -1,0 +1,80 @@
+conn:previously conn_POS:RB prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_previously with_prev1_POS_full:-RRB-_RB prev2:i prev2_POS:FW with_prev2_full:i_previously with_prev2_POS_full:FW_RB NA
+conn:for_example conn_POS:IN_NN prev1:include prev1_POS:VBP with_prev1_full:include_for_example with_prev1_POS_full:VBP_IN_NN prev2:predictions prev2_POS:NNS with_prev2_full:predictions_for_example with_prev2_POS_full:NNS_IN_NN NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:evaluated prev2_POS:VBN with_prev2_full:evaluated_and with_prev2_POS_full:VBN_CC NA
+conn:Although conn_POS:IN sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RSB- prev2_POS:NNS with_prev2_full:-RSB-_and with_prev2_POS_full:NNS_CC NA
+conn:In_particular conn_POS:IN_JJ sent_pos:0 NA
+conn:For_example conn_POS:IN_NN sent_pos:0 NA
+conn:also conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:pairs prev2_POS:NNS with_prev2_full:pairs_also with_prev2_POS_full:NNS_RB NA
+conn:In_contrast conn_POS:IN_NN sent_pos:0 NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:Further conn_POS:RBR sent_pos:0 NA
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:in prev2_POS:IN with_prev2_full:in_for_example with_prev2_POS_full:IN_IN_NN NA
+conn:Furthermore conn_POS:RB sent_pos:0 NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:Since conn_POS:IN sent_pos:0 NA
+conn:whereas conn_POS:IN prev1:detected prev1_POS:VBN with_prev1_full:detected_whereas with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_whereas with_prev2_POS_full:VB_IN NA
+conn:when conn_POS:WRB prev1:formation prev1_POS:NN with_prev1_full:formation_when with_prev1_POS_full:NN_WRB prev2:complex prev2_POS:JJ with_prev2_full:complex_when with_prev2_POS_full:JJ_WRB NA
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_thus with_prev2_POS_full:,_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:protein prev2_POS:NN with_prev2_full:protein_and with_prev2_POS_full:NN_CC NA
+conn:however conn_POS:RB sent_pos:2 prev1:should prev1_POS:MD with_prev1_full:should_however with_prev1_POS_full:MD_RB prev2:It prev2_POS:PRP with_prev2_full:It_however with_prev2_POS_full:PRP_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:descriptions prev2_POS:NNS with_prev2_full:descriptions_and with_prev2_POS_full:NNS_CC NA
+conn:when conn_POS:WRB prev1:outcome prev1_POS:NN with_prev1_full:outcome_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB NA
+conn:and conn_POS:CC prev1:permuted prev1_POS:VBD with_prev1_full:permuted_and with_prev1_POS_full:VBD_CC prev2:using prev2_POS:VBG with_prev2_full:using_and with_prev2_POS_full:VBG_CC NA
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:permuted prev2_POS:VBD with_prev2_full:permuted_when with_prev2_POS_full:VBD_WRB NA
+conn:Since conn_POS:IN sent_pos:0 NA
+conn:when conn_POS:WRB prev1:over-represented prev1_POS:JJ with_prev1_full:over-represented_when with_prev1_POS_full:JJ_WRB prev2:was prev2_POS:VBD with_prev2_full:was_when with_prev2_POS_full:VBD_WRB NA
+conn:when conn_POS:WRB prev1:obtained prev1_POS:VBN with_prev1_full:obtained_when with_prev1_POS_full:VBN_WRB prev2:are prev2_POS:VBP with_prev2_full:are_when with_prev2_POS_full:VBP_WRB NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:paralogy prev2_POS:NN with_prev2_full:paralogy_since with_prev2_POS_full:NN_IN NA
+conn:therefore conn_POS:RB prev1:we prev1_POS:PRP with_prev1_full:we_therefore with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_therefore with_prev2_POS_full:,_RB NA
+conn:before conn_POS:IN prev1:cluster prev1_POS:NN with_prev1_full:cluster_before with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_before with_prev2_POS_full:DT_IN NA
+conn:when conn_POS:WRB prev1:motifs prev1_POS:NNS with_prev1_full:motifs_when with_prev1_POS_full:NNS_WRB prev2:over-represented prev2_POS:JJ with_prev2_full:over-represented_when with_prev2_POS_full:JJ_WRB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:3 prev2_POS:CD with_prev2_full:3_and with_prev2_POS_full:CD_CC NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:detections prev2_POS:NNS with_prev2_full:detections_and with_prev2_POS_full:NNS_CC NA
+conn:when conn_POS:WRB prev1:bias prev1_POS:NN with_prev1_full:bias_when with_prev1_POS_full:NN_WRB prev2:a prev2_POS:DT with_prev2_full:a_when with_prev2_POS_full:DT_WRB NA
+conn:Moreover conn_POS:RB sent_pos:0 NA
+conn:Whereas conn_POS:IN sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:spermatogenesis prev2_POS:NNS with_prev2_full:spermatogenesis_and with_prev2_POS_full:NNS_CC NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC NA
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:pairs prev2_POS:NNS with_prev2_full:pairs_also with_prev2_POS_full:NNS_RB NA
+conn:Moreover conn_POS:RB sent_pos:0 NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:cross-hybridization prev2_POS:NN with_prev2_full:cross-hybridization_since with_prev2_POS_full:NN_IN NA
+conn:and conn_POS:CC prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_and with_prev1_POS_full:-RRB-_CC prev2:actins prev2_POS:NNS with_prev2_full:actins_and with_prev2_POS_full:NNS_CC NA
+conn:since conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_since with_prev1_POS_full:CC_IN prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_since with_prev2_POS_full:-RRB-_IN NA
+conn:or conn_POS:CC prev1:terms prev1_POS:NNS with_prev1_full:terms_or with_prev1_POS_full:NNS_CC prev2:GO prev2_POS:NNP with_prev2_full:GO_or with_prev2_POS_full:NNP_CC NA
+conn:however conn_POS:RB prev1:not prev1_POS:RB with_prev1_full:not_however with_prev1_POS_full:RB_RB prev2:can prev2_POS:MD with_prev2_full:can_however with_prev2_POS_full:MD_RB NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:cross-hybridization prev2_POS:NN with_prev2_full:cross-hybridization_since with_prev2_POS_full:NN_IN NA
+conn:Similarly conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RSB- prev2_POS:NNS with_prev2_full:-RSB-_and with_prev2_POS_full:NNS_CC NA
+conn:therefore conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_therefore with_prev1_POS_full:VBZ_RB prev2:starts prev2_POS:NNS with_prev2_full:starts_therefore with_prev2_POS_full:NNS_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:-RRB- prev2_POS:-RRB- with_prev2_full:-RRB-_and with_prev2_POS_full:-RRB-_CC NA
+conn:Consequently conn_POS:RB sent_pos:0 NA
+conn:since conn_POS:IN prev1:analysis prev1_POS:NN with_prev1_full:analysis_since with_prev1_POS_full:NN_IN prev2:final prev2_POS:JJ with_prev2_full:final_since with_prev2_POS_full:JJ_IN NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:gene prev2_POS:NN with_prev2_full:gene_since with_prev2_POS_full:NN_IN NA
+conn:However conn_POS:RB sent_pos:0 NA
+conn:if conn_POS:IN prev1:reconsidered prev1_POS:VBN with_prev1_full:reconsidered_if with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:datasets prev2_POS:NNS with_prev2_full:datasets_since with_prev2_POS_full:NNS_IN NA
+conn:Further conn_POS:RB sent_pos:0 NA
+conn:Finally conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:mouse prev1_POS:NN with_prev1_full:mouse_and with_prev1_POS_full:NN_CC prev2:V2 prev2_POS:NNP with_prev2_full:V2_and with_prev2_POS_full:NNP_CC NA
+conn:If conn_POS:IN sent_pos:0 NA
+conn:When conn_POS:WRB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:identified prev2_POS:VBN with_prev2_full:identified_and with_prev2_POS_full:VBN_CC NA
+conn:If conn_POS:IN sent_pos:0 NA
+conn:as conn_POS:IN prev1:mean prev1_POS:VBP with_prev1_full:mean_as with_prev1_POS_full:VBP_IN prev2:cluster prev2_POS:NN with_prev2_full:cluster_as with_prev2_POS_full:NN_IN NA
+conn:as conn_POS:IN sent_pos:2 prev1:represented prev1_POS:VBD with_prev1_full:represented_as with_prev1_POS_full:VBD_IN prev2:Motifs prev2_POS:NNS with_prev2_full:Motifs_as with_prev2_POS_full:NNS_IN NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:test prev2_POS:NN with_prev2_full:test_and with_prev2_POS_full:NN_CC NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:positions prev2_POS:NNS with_prev2_full:positions_and with_prev2_POS_full:NNS_CC NA
+conn:and conn_POS:CC prev1:pseudocounts prev1_POS:JJ with_prev1_full:pseudocounts_and with_prev1_POS_full:JJ_CC prev2:are prev2_POS:VBP with_prev2_full:are_and with_prev2_POS_full:VBP_CC NA
+conn:and conn_POS:CC prev1:mouse prev1_POS:NN with_prev1_full:mouse_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:p-value prev2_POS:NN with_prev2_full:p-value_since with_prev2_POS_full:NN_IN NA
+conn:and conn_POS:CC prev1:labeled prev1_POS:NNP with_prev1_full:labeled_and with_prev1_POS_full:NNP_CC prev2:as prev2_POS:IN with_prev2_full:as_and with_prev2_POS_full:IN_CC NA
+conn:Further conn_POS:RBR sent_pos:0 NA
+conn:When conn_POS:WRB sent_pos:0 NA
+conn:then conn_POS:RB sent_pos:1 prev1:We prev1_POS:PRP with_prev1_full:We_then with_prev1_POS_full:PRP_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:complex prev2_POS:NN with_prev2_full:complex_and with_prev2_POS_full:NN_CC NA
+conn:as conn_POS:IN sent_pos:-3 prev1:antibodies prev1_POS:NNS with_prev1_full:antibodies_as with_prev1_POS_full:NNS_IN prev2:or prev2_POS:CC with_prev2_full:or_as with_prev2_POS_full:CC_IN NA
+conn:Consequently conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:gene prev2_POS:NN with_prev2_full:gene_and with_prev2_POS_full:NN_CC NA
+conn:when conn_POS:WRB prev1:higher prev1_POS:JJR with_prev1_full:higher_when with_prev1_POS_full:JJR_WRB prev2:is prev2_POS:VBZ with_prev2_full:is_when with_prev2_POS_full:VBZ_WRB NA

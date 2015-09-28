@@ -1,0 +1,9 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:plan_also Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:rules_before Temporal
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:products_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:plan_also Expansion

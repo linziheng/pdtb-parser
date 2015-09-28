@@ -1,0 +1,15 @@
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:doubt prev2_POS:VB with_prev2_full:doubt_when with_prev2_POS_full:VB_WRB SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Perhaps_because conn_POS:RB_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:-RRB- prev1_POS:-RRB- with_prev1_full:-RRB-_while with_prev1_POS_full:-RRB-_IN prev2:speech prev2_POS:NN with_prev2_full:speech_while with_prev2_POS_full:NN_IN SS
+conn:still conn_POS:RB sent_pos:2 prev1:nomination prev1_POS:NN with_prev1_full:nomination_still with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_still with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:salvaged prev1_POS:VBN with_prev1_full:salvaged_if with_prev1_POS_full:VBN_IN prev2:been prev2_POS:VBN with_prev2_full:been_if with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Yet conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:upshot prev2_POS:NN with_prev2_full:upshot_however with_prev2_POS_full:NN_RB PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:discover prev2_POS:VB with_prev2_full:discover_also with_prev2_POS_full:VB_RB PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:judicially prev1_POS:RB with_prev1_full:judicially_if with_prev1_POS_full:RB_IN prev2:settled prev2_POS:VBN with_prev2_full:settled_if with_prev2_POS_full:VBN_IN SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:stretched prev2_POS:VBN with_prev2_full:stretched_though with_prev2_POS_full:VBN_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:is prev2_POS:VBZ with_prev2_full:is_if with_prev2_POS_full:VBZ_IN SS

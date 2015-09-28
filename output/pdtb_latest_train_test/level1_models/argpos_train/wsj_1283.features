@@ -1,0 +1,4 @@
+conn:mainly_because conn_POS:RB_IN prev1:expectations prev1_POS:NNS with_prev1_full:expectations_mainly_because with_prev1_POS_full:NNS_RB_IN prev2:analyst prev2_POS:NN with_prev2_full:analyst_mainly_because with_prev2_POS_full:NN_RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:category prev2_POS:NN with_prev2_full:category_but with_prev2_POS_full:NN_CC SS
+conn:until conn_POS:IN prev1:trucks prev1_POS:NNS with_prev1_full:trucks_until with_prev1_POS_full:NNS_IN prev2:new prev2_POS:JJ with_prev2_full:new_until with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_and with_prev2_POS_full:VBD_CC SS

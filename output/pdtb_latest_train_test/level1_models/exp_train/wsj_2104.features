@@ -1,0 +1,23 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_as conn:Even_as conn_POS:RB_IN Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:began_after Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:reports_as Temporal
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:machinists_also Expansion
+conn_lc:just_before conn:just_before conn_POS:RB_IN with_prev_full:,_just_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:relying_instead Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:decline_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:company_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:board_also Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Comparison

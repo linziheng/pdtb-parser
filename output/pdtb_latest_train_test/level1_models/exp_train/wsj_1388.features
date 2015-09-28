@@ -1,0 +1,31 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:but_once Temporal
+conn_lc:afterwards conn:Afterwards conn_POS:RB Temporal
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:orchestras_while Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:count_until Temporal
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:place_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:``_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:``_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:important_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:me_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:and conn:And conn_POS:CC Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:so conn:So conn_POS:IN with_prev_full:``_so Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:since conn:Since conn_POS:IN Temporal
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_when conn:Even_when conn_POS:RB_WRB with_prev_full:``_even_when Temporal
+conn_lc:if_if_i_could_ever_feel_i_'ve_contributed_to_it_in_some_way_,_then conn:If_If_I_could_ever_feel_I_'ve_contributed_to_it_in_some_way_,_then conn_POS:IN_IN_PRP_MD_RB_VB_PRP_VBP_VBN_TO_PRP_IN_DT_NN_,_RB Contingency

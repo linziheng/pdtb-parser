@@ -1,0 +1,12 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:bid prev1_POS:NN with_prev1_full:bid_because with_prev1_POS_full:NN_IN prev2:low prev2_POS:JJ with_prev2_full:low_because with_prev2_POS_full:JJ_IN SS
+conn:because conn_POS:IN prev1:contract prev1_POS:NN with_prev1_full:contract_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:future prev2_POS:NN with_prev2_full:future_so with_prev2_POS_full:NN_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:deal prev2_POS:NN with_prev2_full:deal_but with_prev2_POS_full:NN_CC SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:so conn_POS:RB prev1:measures prev1_POS:NNS with_prev1_full:measures_so with_prev1_POS_full:NNS_RB prev2:take prev2_POS:VB with_prev2_full:take_so with_prev2_POS_full:VB_RB SS
+conn:Specifically conn_POS:RB sent_pos:0 PS
+conn:so conn_POS:IN prev1:system prev1_POS:NN with_prev1_full:system_so with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_so with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:years prev2_POS:NNS with_prev2_full:years_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS

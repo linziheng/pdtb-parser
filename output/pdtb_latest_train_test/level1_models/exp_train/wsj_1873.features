@@ -1,0 +1,4 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:drugs_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:doctors_when Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:prescriptions_and Expansion

@@ -1,0 +1,9 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:revolt_if Condition
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:years_before Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:,_as_a_result Cause
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:that_even_if Condition

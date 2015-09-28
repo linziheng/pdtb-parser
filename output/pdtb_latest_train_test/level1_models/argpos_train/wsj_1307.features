@@ -1,0 +1,19 @@
+conn:if conn_POS:IN prev1:Noriega prev1_POS:NNP with_prev1_full:Noriega_if with_prev1_POS_full:NNP_IN prev2:Manuel prev2_POS:NNP with_prev2_full:Manuel_if with_prev2_POS_full:NNP_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:branch prev1_POS:NN with_prev1_full:branch_while with_prev1_POS_full:NN_IN prev2:executive prev2_POS:JJ with_prev2_full:executive_while with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:when conn_POS:WRB prev1:trigger prev1_POS:NN with_prev1_full:trigger_when with_prev1_POS_full:NN_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB SS
+conn:once conn_POS:IN prev1:hesitation prev1_POS:NN with_prev1_full:hesitation_once with_prev1_POS_full:NN_IN prev2:any prev2_POS:DT with_prev2_full:any_once with_prev2_POS_full:DT_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:intentions prev2_POS:NNS with_prev2_full:intentions_because with_prev2_POS_full:NNS_IN SS
+conn:instead conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_instead with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_instead with_prev2_POS_full:,_RB SS
+conn:In_other_words conn_POS:IN_JJ_NNS sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:anymore prev2_POS:RB with_prev2_full:anymore_and with_prev2_POS_full:RB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:same prev2_POS:JJ with_prev2_full:same_and with_prev2_POS_full:JJ_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:happen prev1_POS:VB with_prev1_full:happen_if with_prev1_POS_full:VB_IN prev2:can prev2_POS:MD with_prev2_full:can_if with_prev2_POS_full:MD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:business prev2_POS:NN with_prev2_full:business_but with_prev2_POS_full:NN_CC SS

@@ -1,0 +1,29 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:bill_if Condition
+conn_lc:except conn:except conn_POS:IN with_prev_full:,_except Alternative
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:finally conn:finally conn_POS:RB with_prev_full:and_finally Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:honesty_if Pragmatic_condition
+conn_lc:yet conn:Yet conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:ever_since conn:ever_since conn_POS:RB_IN with_prev_full:but_ever_since Asynchronous
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:more_unless Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:less_if Condition
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:yet conn:Yet conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Conjunction
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:momentum_as Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Asynchronous
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:later conn:later conn_POS:RB with_prev_full:did_later Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:likewise conn:likewise conn_POS:RB with_prev_full:has_likewise Conjunction

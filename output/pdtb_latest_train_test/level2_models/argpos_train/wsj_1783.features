@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:earlier prev2_POS:RBR with_prev2_full:earlier_but with_prev2_POS_full:RBR_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:September prev1_POS:NNP with_prev1_full:September_as with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:and conn_POS:CC prev1:cautious prev1_POS:JJ with_prev1_full:cautious_and with_prev1_POS_full:JJ_CC prev2:turned prev2_POS:VBD with_prev2_full:turned_and with_prev2_POS_full:VBD_CC SS

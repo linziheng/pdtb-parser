@@ -1,0 +1,37 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:view prev2_POS:NN with_prev2_full:view_and with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:says prev2_POS:VBZ with_prev2_full:says_if with_prev2_POS_full:VBZ_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:before conn_POS:IN prev1:Chicago prev1_POS:NNP with_prev1_full:Chicago_before with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_before with_prev2_POS_full:IN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:for_instance conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_instance with_prev1_POS_full:,_IN_NN prev2:Tuesday prev2_POS:NNP with_prev2_full:Tuesday_for_instance with_prev2_POS_full:NNP_IN_NN PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:exchange prev1_POS:NN with_prev1_full:exchange_and with_prev1_POS_full:NN_CC prev2:futures prev2_POS:NNS with_prev2_full:futures_and with_prev2_POS_full:NNS_CC SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:exchange prev2_POS:NN with_prev2_full:exchange_then with_prev2_POS_full:NN_RB SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:futures prev1_POS:NNS with_prev1_full:futures_when with_prev1_POS_full:NNS_WRB prev2:about prev2_POS:IN with_prev2_full:about_when with_prev2_POS_full:IN_WRB SS
+conn:a_decade_before conn_POS:DT_NN_IN prev1:, prev1_POS:, with_prev1_full:,_a_decade_before with_prev1_POS_full:,_DT_NN_IN prev2:1970s prev2_POS:NNS with_prev2_full:1970s_a_decade_before with_prev2_POS_full:NNS_DT_NN_IN SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:By_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_although with_prev1_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:tools prev1_POS:NNS with_prev1_full:tools_when with_prev1_POS_full:NNS_WRB prev2:hedging prev2_POS:NN with_prev2_full:hedging_when with_prev2_POS_full:NN_WRB SS
+conn:By_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:so_that conn_POS:IN_IN prev1:securities prev1_POS:NNS with_prev1_full:securities_so_that with_prev1_POS_full:NNS_IN_IN prev2:price prev2_POS:VB with_prev2_full:price_so_that with_prev2_POS_full:VB_IN_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:IBM prev2_POS:NNP with_prev2_full:IBM_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:also conn_POS:RB prev1:-- prev1_POS:: with_prev1_full:--_also with_prev1_POS_full::_RB prev2:stocks prev2_POS:NNS with_prev2_full:stocks_also with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:win prev2_POS:VB with_prev2_full:win_because with_prev2_POS_full:VB_IN SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:Futures prev2_POS:NNS with_prev2_full:Futures_on_the_other_hand with_prev2_POS_full:NNS_IN_DT_JJ_NN PS

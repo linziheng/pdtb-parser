@@ -1,0 +1,8 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:uproar_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:uproar_when Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:''_but Contrast
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:``_now_that Asynchronous
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:``_now_that Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:analogy_because Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:waves_when Synchrony
+conn_lc:indeed conn:Indeed conn_POS:RB Restatement

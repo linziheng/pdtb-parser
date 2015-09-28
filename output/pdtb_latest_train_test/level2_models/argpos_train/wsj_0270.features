@@ -1,0 +1,2 @@
+conn:if conn_POS:IN prev1:10 prev1_POS:CD with_prev1_full:10_if with_prev1_POS_full:CD_IN prev2:Nov. prev2_POS:NNP with_prev2_full:Nov._if with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:market prev1_POS:NN with_prev1_full:market_and with_prev1_POS_full:NN_CC prev2:over-the-counter prev2_POS:JJ with_prev2_full:over-the-counter_and with_prev2_POS_full:JJ_CC SS

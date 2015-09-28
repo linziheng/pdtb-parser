@@ -1,0 +1,10 @@
+conn:also conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_also with_prev1_POS_full:VBZ_RB prev2:Pearce prev2_POS:NNP with_prev2_full:Pearce_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:lawyers prev1_POS:NNS with_prev1_full:lawyers_also with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:country prev2_POS:NN with_prev2_full:country_then with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB sent_pos:2 prev1:office prev1_POS:NN with_prev1_full:office_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:after conn_POS:IN prev1:will prev1_POS:NN with_prev1_full:will_after with_prev1_POS_full:NN_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_after with_prev2_POS_full:PRP$_IN SS
+conn:and conn_POS:CC prev1:Reagan prev1_POS:NNP with_prev1_full:Reagan_and with_prev1_POS_full:NNP_CC prev2:President prev2_POS:NNP with_prev2_full:President_and with_prev2_POS_full:NNP_CC SS
+conn:because conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_because with_prev1_POS_full:IN_IN prev2:say prev2_POS:VBP with_prev2_full:say_because with_prev2_POS_full:VBP_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:court prev2_POS:NN with_prev2_full:court_however with_prev2_POS_full:NN_RB PS
+conn:before conn_POS:IN prev1:effectiveness prev1_POS:NN with_prev1_full:effectiveness_before with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_before with_prev2_POS_full:PRP$_IN SS

@@ -1,0 +1,7 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:earnings prev1_POS:NNS with_prev1_full:earnings_as with_prev1_POS_full:NNS_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:Net prev1_POS:NN with_prev1_full:Net_also with_prev1_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:flat prev2_POS:JJ with_prev2_full:flat_and with_prev2_POS_full:JJ_CC SS
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:4 prev2_POS:CD with_prev2_full:4_and with_prev2_POS_full:CD_CC SS
+conn:because conn_POS:IN prev1:results prev1_POS:NNS with_prev1_full:results_because with_prev1_POS_full:NNS_IN prev2:affect prev2_POS:VB with_prev2_full:affect_because with_prev2_POS_full:VB_IN SS
+conn:also conn_POS:RB prev1:aids prev1_POS:NNS with_prev1_full:aids_also with_prev1_POS_full:NNS_RB prev2:diet prev2_POS:NN with_prev2_full:diet_also with_prev2_POS_full:NN_RB PS

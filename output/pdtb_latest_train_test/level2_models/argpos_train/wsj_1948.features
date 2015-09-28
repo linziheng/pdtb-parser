@@ -1,0 +1,10 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:some prev2_POS:DT with_prev2_full:some_but with_prev2_POS_full:DT_CC SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Cos. prev2_POS:NNP with_prev2_full:Cos._for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:12 prev1_POS:CD with_prev1_full:12_because with_prev1_POS_full:CD_IN prev2:of prev2_POS:IN with_prev2_full:of_because with_prev2_POS_full:IN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:nothing prev2_POS:NN with_prev2_full:nothing_and with_prev2_POS_full:NN_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:million prev2_POS:CD with_prev2_full:million_and with_prev2_POS_full:CD_CC SS
+conn:Just_because conn_POS:RB_IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Just_because with_prev1_POS_full:``_RB_IN SS

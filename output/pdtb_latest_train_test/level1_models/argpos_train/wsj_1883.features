@@ -1,0 +1,16 @@
+conn:because conn_POS:IN prev1:30 prev1_POS:CD with_prev1_full:30_because with_prev1_POS_full:CD_IN prev2:Sept. prev2_POS:NNP with_prev2_full:Sept._because with_prev2_POS_full:NNP_IN SS
+conn:and conn_POS:CC prev1:information prev1_POS:NN with_prev1_full:information_and with_prev1_POS_full:NN_CC prev2:preliminary prev2_POS:JJ with_prev2_full:preliminary_and with_prev2_POS_full:JJ_CC SS
+conn:In_fact conn_POS:IN_NN sent_pos:0 PS
+conn:a_few_weeks_after conn_POS:DT_JJ_NNS_IN prev1:expected prev1_POS:VBN with_prev1_full:expected_a_few_weeks_after with_prev1_POS_full:VBN_DT_JJ_NNS_IN prev2:had prev2_POS:VBD with_prev2_full:had_a_few_weeks_after with_prev2_POS_full:VBD_DT_JJ_NNS_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:further prev2_POS:RBR with_prev2_full:further_because with_prev2_POS_full:RBR_IN SS
+conn:after conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_after with_prev1_POS_full:VBD_IN prev2:estimate prev2_POS:NN with_prev2_full:estimate_after with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:products prev1_POS:NNS with_prev1_full:products_and with_prev1_POS_full:NNS_CC prev2:its prev2_POS:PRP$ with_prev2_full:its_and with_prev2_POS_full:PRP$_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:quickly prev2_POS:RB with_prev2_full:quickly_even_if with_prev2_POS_full:RB_RB_IN SS
+conn:In_the_meantime conn_POS:IN_DT_NN sent_pos:0 PS
+conn:yet conn_POS:CC prev1:graphics prev1_POS:NNS with_prev1_full:graphics_yet with_prev1_POS_full:NNS_CC prev2:slick prev2_POS:JJ with_prev2_full:slick_yet with_prev2_POS_full:JJ_CC SS
+conn:because conn_POS:IN prev1:on prev1_POS:RB with_prev1_full:on_because with_prev1_POS_full:RB_IN prev2:catch prev2_POS:VB with_prev2_full:catch_because with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_though conn_POS:RB_IN prev1:sales prev1_POS:NNS with_prev1_full:sales_even_though with_prev1_POS_full:NNS_RB_IN prev2:strong prev2_POS:JJ with_prev2_full:strong_even_though with_prev2_POS_full:JJ_RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:rebound prev2_POS:VB with_prev2_full:rebound_but with_prev2_POS_full:VB_CC SS

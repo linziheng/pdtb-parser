@@ -1,0 +1,23 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_if with_prev1_POS_full:CC_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:years prev2_POS:NNS with_prev2_full:years_though with_prev2_POS_full:NNS_RB PS
+conn:as_if conn_POS:IN_IN prev1:, prev1_POS:, with_prev1_full:,_as_if with_prev1_POS_full:,_IN_IN prev2:grid prev2_POS:NN with_prev2_full:grid_as_if with_prev2_POS_full:NN_IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_because with_prev1_POS_full:``_IN prev2:client prev2_POS:NN with_prev2_full:client_because with_prev2_POS_full:NN_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:Gardens prev2_POS:NNPS with_prev2_full:Gardens_because with_prev2_POS_full:NNPS_IN SS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:feet prev2_POS:NNS with_prev2_full:feet_so with_prev2_POS_full:NNS_RB SS
+conn:Furthermore conn_POS:RB sent_pos:0 PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:space prev2_POS:NN with_prev2_full:space_because with_prev2_POS_full:NN_IN SS
+conn:then conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_then with_prev1_POS_full:PRP_RB PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:reality prev1_POS:NN with_prev1_full:reality_while with_prev1_POS_full:NN_IN prev2:gardening prev2_POS:NN with_prev2_full:gardening_while with_prev2_POS_full:NN_IN SS
+conn:regardless conn_POS:RB sent_pos:-3 prev1:, prev1_POS:, with_prev1_full:,_regardless with_prev1_POS_full:,_RB prev2:grid prev2_POS:NN with_prev2_full:grid_regardless with_prev2_POS_full:NN_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:time prev2_POS:NN with_prev2_full:time_however with_prev2_POS_full:NN_RB PS
+conn:when conn_POS:WRB prev1:mind prev1_POS:NN with_prev1_full:mind_when with_prev1_POS_full:NN_WRB prev2:in prev2_POS:IN with_prev2_full:in_when with_prev2_POS_full:IN_WRB SS
+conn:when conn_POS:WRB prev1:artist prev1_POS:NN with_prev1_full:artist_when with_prev1_POS_full:NN_WRB prev2:decorative prev2_POS:JJ with_prev2_full:decorative_when with_prev2_POS_full:JJ_WRB SS

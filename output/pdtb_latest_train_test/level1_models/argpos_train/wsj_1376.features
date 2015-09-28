@@ -1,0 +1,49 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:droppable prev1_POS:JJ with_prev1_full:droppable_and with_prev1_POS_full:JJ_CC prev2:are prev2_POS:VBP with_prev2_full:are_and with_prev2_POS_full:VBP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_and with_prev1_POS_full::_CC prev2:name-drops prev2_POS:VBZ with_prev2_full:name-drops_and with_prev2_POS_full:VBZ_CC SS
+conn:as conn_POS:IN prev1:so prev1_POS:RB with_prev1_full:so_as with_prev1_POS_full:RB_IN prev2:more prev2_POS:RBR with_prev2_full:more_as with_prev2_POS_full:RBR_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:'s prev2_POS:POS with_prev2_full:'s_when with_prev2_POS_full:POS_WRB SS
+conn:and conn_POS:CC prev1:floor prev1_POS:NN with_prev1_full:floor_and with_prev1_POS_full:NN_CC prev2:second prev2_POS:JJ with_prev2_full:second_and with_prev2_POS_full:JJ_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:important prev2_POS:JJ with_prev2_full:important_so with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:room prev1_POS:NN with_prev1_full:room_and with_prev1_POS_full:NN_CC prev2:ladies prev2_POS:NNS with_prev2_full:ladies_and with_prev2_POS_full:NNS_CC SS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:know prev2_POS:VBP with_prev2_full:know_even_if with_prev2_POS_full:VBP_RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:pathologically prev2_POS:RB with_prev2_full:pathologically_and with_prev2_POS_full:RB_CC SS
+conn:while conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_while with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_while with_prev2_POS_full:,_IN SS
+conn:also conn_POS:RB prev1:'s prev1_POS:VBZ with_prev1_full:'s_also with_prev1_POS_full:VBZ_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:leave prev2_POS:VB with_prev2_full:leave_but with_prev2_POS_full:VB_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_although with_prev1_POS_full::_IN prev2:twice prev2_POS:RB with_prev2_full:twice_although with_prev2_POS_full:RB_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:me prev2_POS:PRP with_prev2_full:me_but with_prev2_POS_full:PRP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:me prev2_POS:PRP with_prev2_full:me_but with_prev2_POS_full:PRP_CC SS
+conn:before conn_POS:IN prev1:drop prev1_POS:VB with_prev1_full:drop_before with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_before with_prev2_POS_full:TO_IN SS
+conn:but conn_POS:CC prev1:of prev1_POS:IN with_prev1_full:of_but with_prev1_POS_full:IN_CC prev2:heard prev2_POS:VBN with_prev2_full:heard_but with_prev2_POS_full:VBN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:rep prev1_POS:NN with_prev1_full:rep_because with_prev1_POS_full:NN_IN prev2:bad prev2_POS:JJ with_prev2_full:bad_because with_prev2_POS_full:JJ_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:fire prev2_POS:NN with_prev2_full:fire_because with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:torch prev1_POS:NN with_prev1_full:torch_and with_prev1_POS_full:NN_CC prev2:acetylene prev2_POS:NN with_prev2_full:acetylene_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_because with_prev1_POS_full:CC_IN prev2:torch prev2_POS:NN with_prev2_full:torch_because with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:Cleveland prev1_POS:NNP with_prev1_full:Cleveland_and with_prev1_POS_full:NNP_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS
+conn:because conn_POS:IN prev1:million prev1_POS:CD with_prev1_full:million_because with_prev1_POS_full:CD_IN prev2:4 prev2_POS:CD with_prev2_full:4_because with_prev2_POS_full:CD_IN SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:bulldozed prev2_POS:VBN with_prev2_full:bulldozed_and with_prev2_POS_full:VBN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:says prev2_POS:VBZ with_prev2_full:says_when with_prev2_POS_full:VBZ_WRB SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:calls prev2_POS:NNS with_prev2_full:calls_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:caught prev1_POS:VBN with_prev1_full:caught_and with_prev1_POS_full:VBN_CC prev2:Get prev2_POS:VB with_prev2_full:Get_and with_prev2_POS_full:VB_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:' prev1_POS:'' with_prev1_full:'_and with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_and with_prev2_POS_full:,_CC SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:circle prev2_POS:NN with_prev2_full:circle_because with_prev2_POS_full:NN_IN SS
+conn:because conn_POS:IN sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:in_fact conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_in_fact with_prev1_POS_full:,_IN_NN prev2:were prev2_POS:VBD with_prev2_full:were_in_fact with_prev2_POS_full:VBD_IN_NN PS
+conn:When conn_POS:WRB sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB SS
+conn:and conn_POS:CC prev1:mean prev1_POS:VBP with_prev1_full:mean_and with_prev1_POS_full:VBP_CC prev2:you prev2_POS:PRP with_prev2_full:you_and with_prev2_POS_full:PRP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:name-dropping prev2_POS:NN with_prev2_full:name-dropping_if with_prev2_POS_full:NN_IN SS

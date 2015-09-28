@@ -1,0 +1,26 @@
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:as conn:as conn_POS:IN with_prev_full:position_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:firm_also Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:plate_after Asynchronous
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Contrast
+conn_lc:in_contrast conn:in_contrast conn_POS:IN_NN with_prev_full:,_in_contrast Contrast
+conn_lc:or conn:Or conn_POS:CC Alternative
+conn_lc:just_when conn:just_when conn_POS:RB_WRB with_prev_full:forecast_just_when Synchrony
+conn_lc:still conn:still conn_POS:RB with_prev_full:could_still Contrast
+conn_lc:later conn:later conn_POS:RB with_prev_full:says_later Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

@@ -1,0 +1,9 @@
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:vaccine prev2_POS:NN with_prev2_full:vaccine_however with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:also conn_POS:RB sent_pos:-3 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:toxin prev2_POS:NN with_prev2_full:toxin_also with_prev2_POS_full:NN_RB PS
+conn:although conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_although with_prev1_POS_full:IN_IN prev2:out prev2_POS:RB with_prev2_full:out_although with_prev2_POS_full:RB_IN SS
+conn:then conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_then with_prev1_POS_full:MD_RB prev2:which prev2_POS:WDT with_prev2_full:which_then with_prev2_POS_full:WDT_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:this prev2_POS:DT with_prev2_full:this_but with_prev2_POS_full:DT_CC SS
+conn:then conn_POS:RB sent_pos:2 prev1:scientists prev1_POS:NNS with_prev1_full:scientists_then with_prev1_POS_full:NNS_RB prev2:The prev2_POS:DT with_prev2_full:The_then with_prev2_POS_full:DT_RB PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

@@ -1,0 +1,16 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:financing_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:bid_and Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:that_until Alternative
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Condition
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:drabinsky_unless Alternative
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:said_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:financing_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:offer_before Asynchronous

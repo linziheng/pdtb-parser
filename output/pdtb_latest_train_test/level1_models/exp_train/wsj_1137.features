@@ -1,0 +1,13 @@
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:courts_unless Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:,_as_soon_as Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:views_because Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN Temporal
+conn_lc:as_long_as conn:As_long_as conn_POS:RB_RB_IN Contingency

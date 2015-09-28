@@ -1,0 +1,8 @@
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Conjunction
+conn_lc:so conn:so conn_POS:RB with_prev_full:commentary_so Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:pulled_because Cause
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction

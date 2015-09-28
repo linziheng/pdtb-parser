@@ -1,0 +1,9 @@
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:or conn:or conn_POS:CC with_prev_full:;_or Alternative
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:basis_as_long_as Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:basis_as_long_as Synchrony
+conn_lc:then conn:then conn_POS:RB with_prev_full:properties_then Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:away_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:away_and Conjunction

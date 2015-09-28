@@ -1,0 +1,10 @@
+conn:before conn_POS:IN prev1:his prev1_POS:PRP with_prev1_full:his_before with_prev1_POS_full:PRP_IN prev2:was prev2_POS:VBD with_prev2_full:was_before with_prev2_POS_full:VBD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:airline prev1_POS:NN with_prev1_full:airline_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:largely_because conn_POS:RB_IN prev1:hired prev1_POS:VBN with_prev1_full:hired_largely_because with_prev1_POS_full:VBN_RB_IN prev2:was prev2_POS:VBD with_prev2_full:was_largely_because with_prev2_POS_full:VBD_RB_IN SS
+conn:while conn_POS:IN prev1:profitability prev1_POS:NN with_prev1_full:profitability_while with_prev1_POS_full:NN_IN prev2:to prev2_POS:TO with_prev2_full:to_while with_prev2_POS_full:TO_IN SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:said prev2_POS:VBD with_prev2_full:said_however with_prev2_POS_full:VBD_RB PS
+conn:previously conn_POS:RB sent_pos:2 prev1:Bakes prev1_POS:NNP with_prev1_full:Bakes_previously with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._previously with_prev2_POS_full:NNP_RB PS

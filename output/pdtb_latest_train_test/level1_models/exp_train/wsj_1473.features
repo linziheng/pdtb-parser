@@ -1,0 +1,14 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:life_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:behind_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:security_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:while conn:While conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:or conn:or conn_POS:CC with_prev_full:--_or Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:satire_also Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full::_if Contingency

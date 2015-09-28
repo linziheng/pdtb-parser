@@ -1,0 +1,6 @@
+conn:when conn_POS:WRB prev1:relationship prev1_POS:NN with_prev1_full:relationship_when with_prev1_POS_full:NN_WRB prev2:their prev2_POS:PRP$ with_prev2_full:their_when with_prev2_POS_full:PRP$_WRB SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:alleged prev2_POS:VBD with_prev2_full:alleged_after with_prev2_POS_full:VBD_IN SS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:suit prev2_POS:NN with_prev2_full:suit_thus with_prev2_POS_full:NN_RB SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:IN prev1:bonds prev1_POS:NNS with_prev1_full:bonds_after with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_after with_prev2_POS_full:DT_IN SS
+conn:However conn_POS:RB sent_pos:0 PS

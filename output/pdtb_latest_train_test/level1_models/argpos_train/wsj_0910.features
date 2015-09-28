@@ -1,0 +1,6 @@
+conn:even_though conn_POS:RB_IN prev1:administration prev1_POS:NN with_prev1_full:administration_even_though with_prev1_POS_full:NN_RB_IN prev2:Bush prev2_POS:NNP with_prev2_full:Bush_even_though with_prev2_POS_full:NNP_RB_IN SS
+conn:Even_though conn_POS:RB_IN sent_pos:0 SS
+conn:also conn_POS:RB prev1:U.S. prev1_POS:NNP with_prev1_full:U.S._also with_prev1_POS_full:NNP_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:U.S. prev1_POS:NNP with_prev1_full:U.S._if with_prev1_POS_full:NNP_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:if conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_if with_prev1_POS_full:''_IN prev2:disappointed prev2_POS:VBN with_prev2_full:disappointed_if with_prev2_POS_full:VBN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:membership prev2_POS:NN with_prev2_full:membership_but with_prev2_POS_full:NN_CC SS

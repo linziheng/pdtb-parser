@@ -1,0 +1,11 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Senate prev2_POS:NNP with_prev2_full:Senate_and with_prev2_POS_full:NNP_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:presidents prev2_POS:NNS with_prev2_full:presidents_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:billion prev2_POS:CD with_prev2_full:billion_and with_prev2_POS_full:CD_CC SS
+conn:specifically conn_POS:RB prev1:Congress prev1_POS:NNP with_prev1_full:Congress_specifically with_prev1_POS_full:NNP_RB prev2:and prev2_POS:CC with_prev2_full:and_specifically with_prev2_POS_full:CC_RB PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:funds prev2_POS:NNS with_prev2_full:funds_also with_prev2_POS_full:NNS_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:smuggling prev2_POS:NN with_prev2_full:smuggling_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:now prev2_POS:RB with_prev2_full:now_but with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bill prev2_POS:NN with_prev2_full:bill_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:grant prev2_POS:NN with_prev2_full:grant_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:use prev2_POS:NN with_prev2_full:use_but with_prev2_POS_full:NN_CC SS

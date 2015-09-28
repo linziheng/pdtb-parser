@@ -1,0 +1,4 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:demand_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:demand_and Cause
+conn_lc:as_a_result conn:as_a_result conn_POS:IN_DT_NN with_prev_full:margins_as_a_result Cause
+conn_lc:but conn:But conn_POS:CC Contrast

@@ -1,0 +1,16 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast
+conn_lc:but conn:But conn_POS:CC Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:but_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Conjunction
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:did_when Synchrony
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Concession
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction

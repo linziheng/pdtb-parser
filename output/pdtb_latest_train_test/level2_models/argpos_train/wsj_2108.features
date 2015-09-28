@@ -1,0 +1,5 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:excessive prev2_POS:JJ with_prev2_full:excessive_but with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:seriously prev1_POS:RB with_prev1_full:seriously_when with_prev1_POS_full:RB_WRB prev2:taken prev2_POS:VBN with_prev2_full:taken_when with_prev2_POS_full:VBN_WRB SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:disservice prev1_POS:NN with_prev1_full:disservice_when with_prev1_POS_full:NN_WRB prev2:great prev2_POS:JJ with_prev2_full:great_when with_prev2_POS_full:JJ_WRB SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:them prev2_POS:PRP with_prev2_full:them_as with_prev2_POS_full:PRP_IN SS

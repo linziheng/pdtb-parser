@@ -1,0 +1,19 @@
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:%_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:particularly_if conn:particularly_if conn_POS:RB_IN with_prev_full:,_particularly_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:--_also Expansion
+conn_lc:until conn:Until conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:Though conn_POS:NNP Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:plans_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:IN with_prev_full:house_before Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:bank_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:bank_also Expansion

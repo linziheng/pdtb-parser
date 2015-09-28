@@ -1,0 +1,10 @@
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:--_although Comparison
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:though conn:though conn_POS:IN with_prev_full:housing_though Comparison
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion

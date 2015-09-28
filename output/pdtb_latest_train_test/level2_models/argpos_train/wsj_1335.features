@@ -1,0 +1,11 @@
+conn:as conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_as with_prev1_POS_full:NN_IN prev2:indecisive prev2_POS:JJ with_prev2_full:indecisive_as with_prev2_POS_full:JJ_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:noted prev2_POS:VBD with_prev2_full:noted_however with_prev2_POS_full:VBD_RB PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:news prev2_POS:NN with_prev2_full:news_if with_prev2_POS_full:NN_IN SS
+conn:Yet conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Yet with_prev1_POS_full:``_CC PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:deflator prev2_POS:NN with_prev2_full:deflator_after with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:note prev2_POS:VBP with_prev2_full:note_when with_prev2_POS_full:VBP_WRB SS
+conn:and conn_POS:CC prev1:dashed prev1_POS:VBN with_prev1_full:dashed_and with_prev1_POS_full:VBN_CC prev2:were prev2_POS:VBD with_prev2_full:were_and with_prev2_POS_full:VBD_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Traders prev2_POS:NNS with_prev2_full:Traders_however with_prev2_POS_full:NNS_RB PS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:out prev2_POS:RP with_prev2_full:out_while with_prev2_POS_full:RP_IN SS

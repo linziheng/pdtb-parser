@@ -1,0 +1,13 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:legislation_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:year_because Contingency
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:rallied_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:rallied_as Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:likely_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:likely_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:fines_after Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:quarter_as Contingency

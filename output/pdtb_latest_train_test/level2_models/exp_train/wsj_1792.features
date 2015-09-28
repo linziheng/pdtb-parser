@@ -1,0 +1,14 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:exchange_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:exchange_as Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:when conn:when conn_POS:WRB with_prev_full:through_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:through_when Cause
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:still conn:still conn_POS:RB with_prev_full:but_still Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:board_if Condition
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:plan_because Cause

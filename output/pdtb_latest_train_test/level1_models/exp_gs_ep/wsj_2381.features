@@ -1,0 +1,24 @@
+conn_lc:and conn:And conn_POS:CC Expansion£
+conn_lc:if conn:if conn_POS:IN with_prev_full:hurry_if Contingency£
+conn_lc:but conn:But conn_POS:CC Comparison£
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:stocks_unless Expansion£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stocks_when Temporal£
+conn_lc:if conn:if conn_POS:IN with_prev_full:rest_if Contingency£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:daunted_when Temporal£
+conn_lc:then conn:Then conn_POS:RB Temporal£
+conn_lc:also conn:also conn_POS:RB with_prev_full:managers_also Expansion£
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rrb-_and Expansion£
+conn_lc:because conn:because conn_POS:IN with_prev_full:again_because Contingency£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stockholdings_when Temporal£Contingency£
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency£
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion£
+conn_lc:so conn:so conn_POS:RB with_prev_full:``_so Contingency£
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison£
+conn_lc:before conn:before conn_POS:IN with_prev_full:happen_before Temporal£
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Contingency£
+conn_lc:and conn:and conn_POS:CC with_prev_full:disappeared_and Expansion£Contingency£
+conn_lc:before conn:before conn_POS:IN with_prev_full:days_before Temporal£
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal£Comparison£
+conn_lc:later conn:later conn_POS:RB with_prev_full:them_later Temporal£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison£

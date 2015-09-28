@@ -1,0 +1,14 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:finally conn:Finally conn_POS:RB Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:though conn:Though conn_POS:NNP Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:exasperation_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:hampered_if Condition
+conn_lc:though conn:Though conn_POS:NNP Contrast
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:once conn:once conn_POS:RB with_prev_full:join_once Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:fell_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:kind_when Condition
+conn_lc:as conn:As conn_POS:IN Synchrony

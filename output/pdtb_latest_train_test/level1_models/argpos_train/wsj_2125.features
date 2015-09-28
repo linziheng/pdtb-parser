@@ -1,0 +1,10 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:LBOs prev2_POS:NNS with_prev2_full:LBOs_but with_prev2_POS_full:NNS_CC SS
+conn:because conn_POS:IN prev1:financing prev1_POS:NN with_prev1_full:financing_because with_prev1_POS_full:NN_IN prev2:provide prev2_POS:VB with_prev2_full:provide_because with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:when conn_POS:WRB sent_pos:2 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB prev2:`` prev2_POS:`` with_prev2_full:``_when with_prev2_POS_full:``_WRB SS
+conn:also conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:economy prev2_POS:NN with_prev2_full:economy_but with_prev2_POS_full:NN_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS

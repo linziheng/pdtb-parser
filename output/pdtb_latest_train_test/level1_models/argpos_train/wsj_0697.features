@@ -1,0 +1,4 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:void prev2_POS:NN with_prev2_full:void_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:May prev2_POS:NNP with_prev2_full:May_but with_prev2_POS_full:NNP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:months prev2_POS:NNS with_prev2_full:months_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:plan prev1_POS:NN with_prev1_full:plan_and with_prev1_POS_full:NN_CC prev2:restructuring prev2_POS:NN with_prev2_full:restructuring_and with_prev2_POS_full:NN_CC SS

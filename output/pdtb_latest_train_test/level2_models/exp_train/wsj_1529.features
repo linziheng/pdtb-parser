@@ -1,0 +1,13 @@
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:when conn:when conn_POS:WRB with_prev_full:himself_when Restatement
+conn_lc:when conn:when conn_POS:WRB with_prev_full:himself_when Synchrony
+conn_lc:if conn:if conn_POS:IN with_prev_full:''_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Synchrony
+conn_lc:but conn:But conn_POS:CC with_prev_full:''_but Concession
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:;_indeed Restatement
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:before conn:before conn_POS:RB with_prev_full:industries_before Asynchronous
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession

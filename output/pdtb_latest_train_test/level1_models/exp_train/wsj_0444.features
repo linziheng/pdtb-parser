@@ -1,0 +1,13 @@
+conn_lc:while conn:while conn_POS:IN with_prev_full:streak_while Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Temporal
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:yesterday_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:yet conn:Yet conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:waned_as Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:on_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:nevertheless conn:nevertheless conn_POS:RB with_prev_full:,_nevertheless Comparison

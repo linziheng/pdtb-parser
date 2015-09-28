@@ -1,0 +1,26 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:zip prev1_POS:NN with_prev1_full:zip_when with_prev1_POS_full:NN_WRB prev2:some prev2_POS:DT with_prev2_full:some_when with_prev2_POS_full:DT_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_when with_prev1_POS_full:CC_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:eggs prev2_POS:NNS with_prev2_full:eggs_and with_prev2_POS_full:NNS_CC SS
+conn:also conn_POS:RB prev1:can prev1_POS:MD with_prev1_full:can_also with_prev1_POS_full:MD_RB prev2:it prev2_POS:PRP with_prev2_full:it_also with_prev2_POS_full:PRP_RB SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:salmonella prev1_POS:NN with_prev1_full:salmonella_if with_prev1_POS_full:NN_IN prev2:spread prev2_POS:VB with_prev2_full:spread_if with_prev2_POS_full:VB_IN SS
+conn:as_long_as conn_POS:RB_RB_IN prev1:problems prev1_POS:NNS with_prev1_full:problems_as_long_as with_prev1_POS_full:NNS_RB_RB_IN prev2:salmonella prev2_POS:NN with_prev2_full:salmonella_as_long_as with_prev2_POS_full:NN_RB_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_and with_prev1_POS_full:''_CC prev2:hazard prev2_POS:NN with_prev2_full:hazard_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:comment prev2_POS:VB with_prev2_full:comment_but with_prev2_POS_full:VB_CC SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:approval prev2_POS:NN with_prev2_full:approval_thus with_prev2_POS_full:NN_RB SS
+conn:also conn_POS:RB prev1:producers prev1_POS:NNS with_prev1_full:producers_also with_prev1_POS_full:NNS_RB prev2:egg prev2_POS:NN with_prev2_full:egg_also with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as_long_as conn_POS:RB_RB_IN prev1:problem prev1_POS:NN with_prev1_full:problem_as_long_as with_prev1_POS_full:NN_RB_RB_IN prev2:health prev2_POS:NN with_prev2_full:health_as_long_as with_prev2_POS_full:NN_RB_RB_IN SS
+conn:So conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:congressman prev2_POS:NN with_prev2_full:congressman_and with_prev2_POS_full:NN_CC SS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:measure prev2_POS:NN with_prev2_full:measure_though with_prev2_POS_full:NN_IN SS
+conn:Even_then conn_POS:RB_RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS

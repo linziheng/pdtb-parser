@@ -1,0 +1,13 @@
+conn:also conn_POS:RB prev1:unit prev1_POS:NN with_prev1_full:unit_also with_prev1_POS_full:NN_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._also with_prev2_POS_full:NNP_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:tumble prev2_POS:NN with_prev2_full:tumble_as with_prev2_POS_full:NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:pound prev1_POS:NN with_prev1_full:pound_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:credibility prev1_POS:NN with_prev1_full:credibility_and with_prev1_POS_full:NN_CC prev2:his prev2_POS:PRP$ with_prev2_full:his_and with_prev2_POS_full:PRP$_CC SS
+conn:in_the_meantime conn_POS:IN_DT_NN prev1:, prev1_POS:, with_prev1_full:,_in_the_meantime with_prev1_POS_full:,_IN_DT_NN prev2:and prev2_POS:CC with_prev2_full:and_in_the_meantime with_prev2_POS_full:CC_IN_DT_NN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:York prev2_POS:NNP with_prev2_full:York_also with_prev2_POS_full:NNP_RB PS
+conn:Unless conn_POS:IN sent_pos:0 SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:move prev2_POS:NN with_prev2_full:move_however with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:slide prev1_POS:NN with_prev1_full:slide_and with_prev1_POS_full:NN_CC prev2:'s prev2_POS:POS with_prev2_full:'s_and with_prev2_POS_full:POS_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS

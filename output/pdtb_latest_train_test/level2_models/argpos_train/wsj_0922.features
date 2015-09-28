@@ -1,0 +1,13 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:bank prev2_POS:NN with_prev2_full:bank_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:Mitterrand prev1_POS:NNP with_prev1_full:Mitterrand_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:capital prev1_POS:NN with_prev1_full:capital_while with_prev1_POS_full:NN_IN prev2:of prev2_POS:IN with_prev2_full:of_while with_prev2_POS_full:IN_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:and conn_POS:CC prev1:collapsing prev1_POS:VBG with_prev1_full:collapsing_and with_prev1_POS_full:VBG_CC prev2:communism prev2_POS:NN with_prev2_full:communism_and with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:reaction prev2_POS:NN with_prev2_full:reaction_so with_prev2_POS_full:NN_IN SS
+conn:even_if conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_if with_prev1_POS_full:,_RB_IN prev2:strong prev2_POS:JJ with_prev2_full:strong_even_if with_prev2_POS_full:JJ_RB_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Once conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_Once with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_Once with_prev2_POS_full::_IN SS

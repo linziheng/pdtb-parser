@@ -1,0 +1,28 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:another prev2_POS:DT with_prev2_full:another_but with_prev2_POS_full:DT_CC SS
+conn:and conn_POS:CC prev1:rule prev1_POS:NN with_prev1_full:rule_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:combination prev1_POS:NN with_prev1_full:combination_also with_prev1_POS_full:NN_RB prev2:a prev2_POS:DT with_prev2_full:a_also with_prev2_POS_full:DT_RB PS
+conn:if conn_POS:IN prev1:Georgia-Pacific prev1_POS:NNP with_prev1_full:Georgia-Pacific_if with_prev1_POS_full:NNP_IN prev2:squeeze prev2_POS:VB with_prev2_full:squeeze_if with_prev2_POS_full:VB_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:Georgia-Pacific prev1_POS:NNP with_prev1_full:Georgia-Pacific_because with_prev1_POS_full:NNP_IN prev2:hurt prev2_POS:VB with_prev2_full:hurt_because with_prev2_POS_full:VB_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:because conn_POS:IN prev1:earnings prev1_POS:NNS with_prev1_full:earnings_because with_prev1_POS_full:NNS_IN prev2:Georgia-Pacific prev2_POS:NNP with_prev2_full:Georgia-Pacific_because with_prev2_POS_full:NNP_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:pulp prev2_POS:NN with_prev2_full:pulp_because with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:organization prev1_POS:NN with_prev1_full:organization_while with_prev1_POS_full:NN_IN prev2:sales prev2_POS:NNS with_prev2_full:sales_while with_prev2_POS_full:NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:clearance prev1_POS:NN with_prev1_full:clearance_also with_prev1_POS_full:NN_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:Nekoosa prev1_POS:NNP with_prev1_full:Nekoosa_also with_prev1_POS_full:NNP_RB PS
+conn:if conn_POS:IN prev1:fee prev1_POS:NN with_prev1_full:fee_if with_prev1_POS_full:NN_IN prev2:million prev2_POS:CD with_prev2_full:million_if with_prev2_POS_full:CD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:it prev2_POS:PRP with_prev2_full:it_but with_prev2_POS_full:PRP_CC SS
+conn:because conn_POS:IN prev1:immediately prev1_POS:RB with_prev1_full:immediately_because with_prev1_POS_full:RB_IN prev2:course prev2_POS:NN with_prev2_full:course_because with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:comment prev2_POS:NN with_prev2_full:comment_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:takeovers prev1_POS:NNS with_prev1_full:takeovers_because with_prev1_POS_full:NNS_IN prev2:of prev2_POS:IN with_prev2_full:of_because with_prev2_POS_full:IN_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Before conn_POS:IN prev1:` prev1_POS:`` with_prev1_full:`_Before with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_Before with_prev2_POS_full:,_IN SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:Since conn_POS:IN sent_pos:0 SS

@@ -1,0 +1,16 @@
+conn:Even_as conn_POS:RB_IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:came prev1_POS:VBD with_prev1_full:came_after with_prev1_POS_full:VBD_IN prev2:announcement prev2_POS:NN with_prev2_full:announcement_after with_prev2_POS_full:NN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 PS
+conn:although conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_although with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_although with_prev2_POS_full:VBD_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:term prev2_POS:NN with_prev2_full:term_however with_prev2_POS_full:NN_RB PS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:fatal prev2_POS:JJ with_prev2_full:fatal_and with_prev2_POS_full:JJ_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:There prev2_POS:EX with_prev2_full:There_also with_prev2_POS_full:EX_RB PS
+conn:when conn_POS:WRB prev1:revenue prev1_POS:NN with_prev1_full:revenue_when with_prev1_POS_full:NN_WRB prev2:and prev2_POS:CC with_prev2_full:and_when with_prev2_POS_full:CC_WRB SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:before conn_POS:IN prev1:convincing prev1_POS:NN with_prev1_full:convincing_before with_prev1_POS_full:NN_IN prev2:some prev2_POS:DT with_prev2_full:some_before with_prev2_POS_full:DT_IN SS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_while with_prev2_POS_full:VBD_IN SS

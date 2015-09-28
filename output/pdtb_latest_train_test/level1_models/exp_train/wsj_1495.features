@@ -1,0 +1,10 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:''_also Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:weeks_while Temporal
+conn_lc:insofar_as conn:Insofar_as conn_POS:RB_IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:or conn:or conn_POS:CC with_prev_full:concern_or Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:when conn:When conn_POS:WRB Temporal

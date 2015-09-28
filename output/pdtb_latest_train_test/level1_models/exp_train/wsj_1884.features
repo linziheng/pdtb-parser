@@ -1,0 +1,33 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:points_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:averages_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:320.54_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:value_since Temporal
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:volatility_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:sessions_as Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:32_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/2_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/4_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:board_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:58_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:3\/4_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:5\/8_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:shares_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:5\/8_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:leaks_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:7\/8_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:1\/4_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:session_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:proposal_and Expansion
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:decline_since Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:friday_and Expansion
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:63_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:company_after Temporal

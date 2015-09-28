@@ -1,0 +1,36 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:''_since Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:schoolteachers_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if_only conn:if_only conn_POS:IN_RB with_prev_full:better_if_only Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:conversely conn:Conversely conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:if_only conn:if_only conn_POS:IN_RB with_prev_full:,_if_only Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:helpful_if Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:thus conn:Thus conn_POS:RB Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:afterward conn:afterward conn_POS:RB with_prev_full:but_afterward Temporal
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:--_though Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:that_as Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:ladder_as Contingency
+conn_lc:though conn:though conn_POS:IN with_prev_full:-lrb-_though Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:--_though Comparison

@@ -1,0 +1,24 @@
+conn_lc:within_minutes_after conn:Within_minutes_after conn_POS:IN_NNS_IN Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:bag_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:or conn:or conn_POS:CC with_prev_full:,_or Alternative
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:reconciliation_unless Alternative
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:bill_unless Alternative
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:crumbling_as Cause
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:more_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:while conn:while conn_POS:IN with_prev_full:street_while Contrast
+conn_lc:yet conn:Yet conn_POS:CC Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction

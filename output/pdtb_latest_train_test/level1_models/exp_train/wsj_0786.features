@@ -1,0 +1,8 @@
+conn_lc:also conn:also conn_POS:RB with_prev_full:price_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:materialized_and Expansion

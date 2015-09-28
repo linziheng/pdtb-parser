@@ -1,0 +1,6 @@
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_even_if with_prev1_POS_full:CC_RB_IN SS
+conn:while conn_POS:IN prev1:hair prev1_POS:NN with_prev1_full:hair_while with_prev1_POS_full:NN_IN prev2:her prev2_POS:PRP$ with_prev2_full:her_while with_prev2_POS_full:PRP$_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:duty prev2_POS:NN with_prev2_full:duty_if with_prev2_POS_full:NN_IN SS

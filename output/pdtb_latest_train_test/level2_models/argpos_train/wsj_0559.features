@@ -1,0 +1,17 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:today prev1_POS:NN with_prev1_full:today_and with_prev1_POS_full:NN_CC prev2:peace prev2_POS:NN with_prev2_full:peace_and with_prev2_POS_full:NN_CC SS
+conn:before conn_POS:IN prev1:prison prev1_POS:NN with_prev1_full:prison_before with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_before with_prev2_POS_full:IN_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:even_though conn_POS:RB_IN prev1:supporters prev1_POS:NNS with_prev1_full:supporters_even_though with_prev1_POS_full:NNS_RB_IN prev2:their prev2_POS:PRP$ with_prev2_full:their_even_though with_prev2_POS_full:PRP$_RB_IN SS
+conn:and conn_POS:CC prev1:crossroads prev1_POS:NNS with_prev1_full:crossroads_and with_prev1_POS_full:NNS_CC prev2:a prev2_POS:DT with_prev2_full:a_and with_prev2_POS_full:DT_CC SS
+conn:if conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_if with_prev1_POS_full:''_IN prev2:country prev2_POS:NN with_prev2_full:country_if with_prev2_POS_full:NN_IN SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:or conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_or with_prev1_POS_full::_CC prev2:stripes prev2_POS:NNS with_prev2_full:stripes_or with_prev2_POS_full:NNS_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:areas prev2_POS:NNS with_prev2_full:areas_but with_prev2_POS_full:NNS_CC SS
+conn:For_instance conn_POS:IN_NN sent_pos:0 PS
+conn:yet conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_yet with_prev1_POS_full:,_RB prev2:conditions prev2_POS:NNS with_prev2_full:conditions_yet with_prev2_POS_full:NNS_RB SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:As conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:emergency prev2_POS:NN with_prev2_full:emergency_and with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:0 SS

@@ -1,0 +1,47 @@
+conn_lc:once conn:ONCE conn_POS:RB Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:burned_if Contingency
+conn_lc:so conn:So conn_POS:RB Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:and_even_when Comparison
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:or conn:or conn_POS:CC with_prev_full:''_or Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:used_when Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:restriction_if Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:unless conn:Unless conn_POS:IN Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:filled_because Contingency
+conn_lc:once conn:once conn_POS:IN with_prev_full:investment_once Temporal
+conn_lc:once conn:once conn_POS:IN with_prev_full:investment_once Contingency
+conn_lc:once conn:Once conn_POS:RB Temporal
+conn_lc:once conn:Once conn_POS:RB Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:orders_because Contingency
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Expansion
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:price_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:75_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:orders_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:price_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:price_when Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:order_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:orders_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:as_soon_as conn:As_soon_as conn_POS:RB_RB_IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:exclusively_when Contingency
+conn_lc:if_if_they_do_n't_fill_it_immediately_,_then conn:If_If_they_do_n't_fill_it_immediately_,_then conn_POS:IN_IN_PRP_VBP_RB_VB_PRP_RB_,_RB with_prev_full:``_if_if_they_do_n't_fill_it_immediately_,_then Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:selling_after Temporal

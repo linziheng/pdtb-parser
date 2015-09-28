@@ -1,0 +1,8 @@
+conn:and conn_POS:CC prev1:% prev1_POS:NN with_prev1_full:%_and with_prev1_POS_full:NN_CC prev2:3 prev2_POS:CD with_prev2_full:3_and with_prev2_POS_full:CD_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:later conn_POS:RB prev1:replaced prev1_POS:VBN with_prev1_full:replaced_later with_prev1_POS_full:VBN_RB prev2:be prev2_POS:VB with_prev2_full:be_later with_prev2_POS_full:VB_RB SS
+conn:later conn_POS:RB prev1:bought prev1_POS:VBN with_prev1_full:bought_later with_prev1_POS_full:VBN_RB prev2:shares prev2_POS:NNS with_prev2_full:shares_later with_prev2_POS_full:NNS_RB SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_while with_prev2_POS_full:NN_IN SS
+conn:and conn_POS:CC prev1:semiconductors prev1_POS:NNS with_prev1_full:semiconductors_and with_prev1_POS_full:NNS_CC prev2:makes prev2_POS:VBZ with_prev2_full:makes_and with_prev2_POS_full:VBZ_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS

@@ -1,0 +1,21 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:because conn:because conn_POS:IN with_prev_full:stumbling_because Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:city_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:territory_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:just_as conn:just_as conn_POS:RB_IN with_prev_full:,_just_as Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:partly_because conn:partly_because conn_POS:RB_IN with_prev_full:primary_partly_because Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:-rrb-_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:campaign_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:until conn:until conn_POS:IN with_prev_full:it_until Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:until_after Asynchronous
+conn_lc:though conn:though conn_POS:RB with_prev_full:far_though Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:deception_and Conjunction

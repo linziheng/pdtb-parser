@@ -1,0 +1,5 @@
+conn:Accordingly conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:CityFed prev2_POS:NNP with_prev2_full:CityFed_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:CityFed prev1_POS:NNP with_prev1_full:CityFed_also with_prev1_POS_full:NNP_RB PS
+conn:as_a_result conn_POS:IN_DT_NN prev1:, prev1_POS:, with_prev1_full:,_as_a_result with_prev1_POS_full:,_IN_DT_NN prev2:and prev2_POS:CC with_prev2_full:and_as_a_result with_prev2_POS_full:CC_IN_DT_NN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:added prev2_POS:VBD with_prev2_full:added_however with_prev2_POS_full:VBD_RB PS

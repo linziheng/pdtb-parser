@@ -1,0 +1,73 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:and_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:sony_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:hollywood_but Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:''_for_instance Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:on_the_other_hand conn:on_the_other_hand conn_POS:IN_DT_JJ_NN with_prev_full:,_on_the_other_hand Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:guy_when Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:and_ultimately Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bristle_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:bristle_when Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:still conn:Still conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:producers_ultimately Temporal
+conn_lc:ultimately conn:ultimately conn_POS:RB with_prev_full:producers_ultimately Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:though conn:though conn_POS:IN with_prev_full:but_though Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:until conn:until conn_POS:IN with_prev_full:threatened_until Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:contract_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:contract_when Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:partner_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:shortly_thereafter conn:shortly_thereafter conn_POS:RB_RB with_prev_full:soured_shortly_thereafter Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:investor_and Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:investor_and Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:sony_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:offer_before Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:back_after Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

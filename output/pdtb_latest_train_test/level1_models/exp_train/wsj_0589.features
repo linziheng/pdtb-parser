@@ -1,0 +1,31 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:then conn:Then conn_POS:RB Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:and_since Contingency
+conn_lc:just_because conn:Just_because conn_POS:RB_IN with_prev_full:``_just_because Contingency
+conn_lc:in_particular conn:in_particular conn_POS:IN_JJ with_prev_full:,_in_particular Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:as conn:As conn_POS:IN Contingency
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Expansion
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:later_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:later_after Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:seasonally_because Contingency
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:weak_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion

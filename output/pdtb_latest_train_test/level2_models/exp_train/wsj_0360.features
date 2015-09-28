@@ -1,0 +1,15 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:unacceptable_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:unacceptable_and Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:is_because Cause
+conn_lc:if conn:If conn_POS:IN Pragmatic_condition
+conn_lc:rather conn:rather conn_POS:RB with_prev_full:is_rather Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:so conn:so conn_POS:IN with_prev_full:science_so Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Cause
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction

@@ -1,0 +1,11 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:monday_as Contingency
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:breaks_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:christmas_if Contingency
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

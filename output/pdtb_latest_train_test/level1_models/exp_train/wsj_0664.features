@@ -1,0 +1,33 @@
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:contract_as_soon_as Temporal
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:he_previously Temporal
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:that_even_if Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:trades_as Temporal
+conn_lc:so_that conn:so_that conn_POS:RB_IN with_prev_full:data_so_that Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:exchanges_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:further_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:week_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:week_and Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:harvest_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:harvest_and Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:will_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:week_as Temporal
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:preferring_instead Expansion
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:delivery_as Temporal

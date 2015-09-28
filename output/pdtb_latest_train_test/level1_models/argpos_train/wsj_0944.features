@@ -1,0 +1,29 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:writings prev2_POS:NNS with_prev2_full:writings_because with_prev2_POS_full:NNS_IN SS
+conn:therefore conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_therefore with_prev1_POS_full:CC_RB prev2:test prev2_POS:NN with_prev2_full:test_therefore with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:restraint prev2_POS:NN with_prev2_full:restraint_thus with_prev2_POS_full:NN_RB SS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_when with_prev1_POS_full:CC_WRB SS
+conn:Yet conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_but with_prev1_POS_full:''_CC prev2:, prev2_POS:, with_prev2_full:,_but with_prev2_POS_full:,_CC SS
+conn:later conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_later with_prev1_POS_full:,_RB prev2:Yorker prev2_POS:NNP with_prev2_full:Yorker_later with_prev2_POS_full:NNP_RB SS
+conn:then conn_POS:RB sent_pos:2 prev1:Masson prev1_POS:NNP with_prev1_full:Masson_then with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._then with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:malice prev1_POS:NN with_prev1_full:malice_and with_prev1_POS_full:NN_CC prev2:prove prev2_POS:VB with_prev2_full:prove_and with_prev2_POS_full:VB_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:tapes prev2_POS:NNS with_prev2_full:tapes_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:when conn_POS:WRB prev1:that prev1_POS:IN with_prev1_full:that_when with_prev1_POS_full:IN_WRB prev2:observed prev2_POS:VBD with_prev2_full:observed_when with_prev2_POS_full:VBD_WRB SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Malcolm prev2_POS:NNP with_prev2_full:Malcolm_for_example with_prev2_POS_full:NNP_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:Freud prev1_POS:NNP with_prev1_full:Freud_and with_prev1_POS_full:NNP_CC prev2:Anna prev2_POS:NNP with_prev2_full:Anna_and with_prev2_POS_full:NNP_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:case prev2_POS:NN with_prev2_full:case_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS

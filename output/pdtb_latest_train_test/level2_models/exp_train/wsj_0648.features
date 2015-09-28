@@ -1,0 +1,15 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Cause
+conn_lc:however conn:However conn_POS:RB Concession
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Asynchronous
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Cause
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:again_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:rates_if Condition
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:reinsurance_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:needed_and Conjunction
+conn_lc:since conn:Since conn_POS:IN Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and List
+conn_lc:after conn:after conn_POS:IN with_prev_full:and_after Asynchronous

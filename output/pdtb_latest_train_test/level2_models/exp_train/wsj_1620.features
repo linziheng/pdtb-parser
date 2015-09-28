@@ -1,0 +1,5 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:outstanding_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction

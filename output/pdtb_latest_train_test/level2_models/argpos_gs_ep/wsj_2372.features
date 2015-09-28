@@ -1,0 +1,20 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_If with_prev2_POS_full:,_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Although conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_Although with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:floor prev2_POS:NN with_prev2_full:floor_so with_prev2_POS_full:NN_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:out prev1_POS:RP with_prev1_full:out_because with_prev1_POS_full:RP_IN prev2:cut prev2_POS:VBN with_prev2_full:cut_because with_prev2_POS_full:VBN_IN SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:areas prev2_POS:NNS with_prev2_full:areas_also with_prev2_POS_full:NNS_RB PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:said prev2_POS:VBD with_prev2_full:said_because with_prev2_POS_full:VBD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Senate prev1_POS:NNP with_prev1_full:Senate_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:since conn_POS:IN prev1:strained prev1_POS:VBN with_prev1_full:strained_since with_prev1_POS_full:VBN_IN prev2:been prev2_POS:VBN with_prev2_full:been_since with_prev2_POS_full:VBN_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:ESOP prev2_POS:NNP with_prev2_full:ESOP_if with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:measure prev1_POS:NN with_prev1_full:measure_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

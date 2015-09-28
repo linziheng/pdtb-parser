@@ -1,0 +1,24 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:stabbed_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Asynchronous
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:robberies_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tickets_when Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:delays_if Condition
+conn_lc:specifically conn:Specifically conn_POS:RB Restatement
+conn_lc:before conn:Before conn_POS:IN Asynchronous
+conn_lc:if_if_they_'re_telling_the_truth_now_,_then conn:If_If_they_'re_telling_the_truth_now_,_then conn_POS:IN_IN_PRP_VBP_VBG_DT_NN_RB_,_RB with_prev_full:``_if_if_they_'re_telling_the_truth_now_,_then Condition
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:before conn:Before conn_POS:IN with_prev_full:lag_before Asynchronous
+conn_lc:if conn:IF conn_POS:IN Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:be_because Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:happens_because Cause
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:;_by_contrast Contrast
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:and conn:and conn_POS:CC with_prev_full:hours_and Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:heroes_if Condition

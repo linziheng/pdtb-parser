@@ -1,0 +1,11 @@
+conn:after conn_POS:IN prev1:filing prev1_POS:NN with_prev1_full:filing_after with_prev1_POS_full:NN_IN prev2:bankruptcy-law prev2_POS:NN with_prev2_full:bankruptcy-law_after with_prev2_POS_full:NN_IN SS
+conn:only_if conn_POS:RB_IN prev1:right prev1_POS:NN with_prev1_full:right_only_if with_prev1_POS_full:NN_RB_IN prev2:that prev2_POS:DT with_prev2_full:that_only_if with_prev2_POS_full:DT_RB_IN SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:weeks prev2_POS:NNS with_prev2_full:weeks_and with_prev2_POS_full:NNS_CC SS
+conn:if conn_POS:IN prev1:subsidiary prev1_POS:NN with_prev1_full:subsidiary_if with_prev1_POS_full:NN_IN prev2:broker-dealer prev2_POS:NN with_prev2_full:broker-dealer_if with_prev2_POS_full:NN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:even_while conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_while with_prev1_POS_full:,_RB_IN prev2:reports prev2_POS:VBZ with_prev2_full:reports_even_while with_prev2_POS_full:VBZ_RB_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:after conn_POS:IN prev1:announcement prev1_POS:NN with_prev1_full:announcement_after with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_after with_prev2_POS_full:PRP$_IN SS

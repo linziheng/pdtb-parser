@@ -1,0 +1,14 @@
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:interest prev2_POS:NN with_prev2_full:interest_since with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:incorrect prev1_POS:JJ with_prev1_full:incorrect_when with_prev1_POS_full:JJ_WRB prev2:is prev2_POS:VBZ with_prev2_full:is_when with_prev2_POS_full:VBZ_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:currency prev2_POS:NN with_prev2_full:currency_but with_prev2_POS_full:NN_CC SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:England prev2_POS:NNP with_prev2_full:England_on_the_other_hand with_prev2_POS_full:NNP_IN_DT_JJ_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:currency prev2_POS:NN with_prev2_full:currency_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:assets prev2_POS:NNS with_prev2_full:assets_and with_prev2_POS_full:NNS_CC SS
+conn:By_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:much_as conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_much_as with_prev1_POS_full:,_RB_IN prev2:chose prev2_POS:VBD with_prev2_full:chose_much_as with_prev2_POS_full:VBD_RB_IN SS
+conn:and conn_POS:CC prev1:devalued prev1_POS:VBN with_prev1_full:devalued_and with_prev1_POS_full:VBN_CC prev2:never prev2_POS:RB with_prev2_full:never_and with_prev2_POS_full:RB_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:suspended prev2_POS:VBN with_prev2_full:suspended_but with_prev2_POS_full:VBN_CC SS
+conn:and conn_POS:CC prev1:frequency prev1_POS:NN with_prev1_full:frequency_and with_prev1_POS_full:NN_CC prev2:increasing prev2_POS:VBG with_prev2_full:increasing_and with_prev2_POS_full:VBG_CC SS
+conn:as conn_POS:IN prev1:mind prev1_POS:NN with_prev1_full:mind_as with_prev1_POS_full:NN_IN prev2:in prev2_POS:IN with_prev2_full:in_as with_prev2_POS_full:IN_IN SS
+conn:Unless conn_POS:IN sent_pos:0 SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:notes prev2_POS:NNS with_prev2_full:notes_however with_prev2_POS_full:NNS_RB PS

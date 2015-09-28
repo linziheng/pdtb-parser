@@ -1,0 +1,6 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:sales prev2_POS:NNS with_prev2_full:sales_and with_prev2_POS_full:NNS_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:sale prev2_POS:NN with_prev2_full:sale_however with_prev2_POS_full:NN_RB PS
+conn:if conn_POS:IN prev1:through prev1_POS:RB with_prev1_full:through_if with_prev1_POS_full:RB_IN prev2:fall prev2_POS:VB with_prev2_full:fall_if with_prev2_POS_full:VB_IN SS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._but with_prev2_POS_full:NNP_CC SS

@@ -1,0 +1,17 @@
+conn:unless conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_unless with_prev1_POS_full:,_IN prev2:says prev2_POS:VBZ with_prev2_full:says_unless with_prev2_POS_full:VBZ_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:month prev2_POS:NN with_prev2_full:month_if with_prev2_POS_full:NN_IN SS
+conn:if conn_POS:IN prev1:healthy prev1_POS:JJ with_prev1_full:healthy_if with_prev1_POS_full:JJ_IN prev2:financially prev2_POS:RB with_prev2_full:financially_if with_prev2_POS_full:RB_IN SS
+conn:only_if conn_POS:RB_IN prev1:avoided prev1_POS:VBN with_prev1_full:avoided_only_if with_prev1_POS_full:VBN_RB_IN prev2:be prev2_POS:VB with_prev2_full:be_only_if with_prev2_POS_full:VB_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:before conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_before with_prev1_POS_full:CC_IN SS
+conn:if conn_POS:IN prev1:crisis prev1_POS:NN with_prev1_full:crisis_if with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_if with_prev2_POS_full:DT_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:months prev2_POS:NNS with_prev2_full:months_and with_prev2_POS_full:NNS_CC SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:as conn_POS:IN prev1:investments prev1_POS:NNS with_prev1_full:investments_as with_prev1_POS_full:NNS_IN prev2:direct prev2_POS:JJ with_prev2_full:direct_as with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_and with_prev2_POS_full:NN_CC SS

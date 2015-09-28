@@ -1,0 +1,19 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:only_after conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_only_after with_prev1_POS_full:CC_RB_IN PS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:Atlantic prev2_POS:NNP with_prev2_full:Atlantic_also with_prev2_POS_full:NNP_RB PS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:Months_after conn_POS:NNS_IN sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:thus conn_POS:RB prev1:has prev1_POS:VBZ with_prev1_full:has_thus with_prev1_POS_full:VBZ_RB prev2:zone prev2_POS:NN with_prev2_full:zone_thus with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:night prev2_POS:NN with_prev2_full:night_and with_prev2_POS_full:NN_CC SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:barrier prev2_POS:NN with_prev2_full:barrier_but with_prev2_POS_full:NN_CC SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:when conn_POS:WRB prev1:happy prev1_POS:JJ with_prev1_full:happy_when with_prev1_POS_full:JJ_WRB prev2:too prev2_POS:RB with_prev2_full:too_when with_prev2_POS_full:RB_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS

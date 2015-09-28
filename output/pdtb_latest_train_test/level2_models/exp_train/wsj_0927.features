@@ -1,0 +1,15 @@
+conn_lc:soon_after conn:soon_after conn_POS:RB_IN with_prev_full:,_soon_after Asynchronous
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:previously conn:Previously conn_POS:RB Asynchronous
+conn_lc:previously conn:Previously conn_POS:RB Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:also conn:also conn_POS:RB with_prev_full:schwarz_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Concession
+conn_lc:also conn:also conn_POS:RB with_prev_full:trust_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Conjunction
+conn_lc:previously conn:previously conn_POS:RB with_prev_full:he_previously Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:taylor_also Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:taylor_also Conjunction

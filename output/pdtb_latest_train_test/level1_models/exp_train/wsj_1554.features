@@ -1,0 +1,36 @@
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:although conn:Although conn_POS:IN Comparison
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:cheap_now_that Temporal
+conn_lc:now_that conn:now_that conn_POS:RB_IN with_prev_full:cheap_now_that Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Expansion
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:year_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Expansion
+conn_lc:moreover conn:Moreover conn_POS:RB Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:yet_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:operators_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:was_also Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:lower_because Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:department_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:pits_and Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:off_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:off_when Contingency
+conn_lc:until conn:until conn_POS:IN with_prev_full:continued_until Temporal
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:more_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:more_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:tons_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion

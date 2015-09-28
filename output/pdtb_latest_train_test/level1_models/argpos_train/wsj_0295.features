@@ -1,0 +1,23 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:name prev2_POS:NN with_prev2_full:name_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:Now prev2_POS:RB with_prev2_full:Now_after with_prev2_POS_full:RB_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:mellowed prev2_POS:VBN with_prev2_full:mellowed_although with_prev2_POS_full:VBN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:executives prev1_POS:NNS with_prev1_full:executives_also with_prev1_POS_full:NNS_RB prev2:industry prev2_POS:NN with_prev2_full:industry_also with_prev2_POS_full:NN_RB PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:Nissan prev2_POS:NNP with_prev2_full:Nissan_for_example with_prev2_POS_full:NNP_IN_NN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:contacts prev2_POS:NNS with_prev2_full:contacts_meanwhile with_prev2_POS_full:NNS_RB PS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:-RCB- prev2_POS:-RRB- with_prev2_full:-RCB-_so with_prev2_POS_full:-RRB-_RB SS
+conn:when conn_POS:WRB prev1:in prev1_POS:IN with_prev1_full:in_when with_prev1_POS_full:IN_WRB prev2:interested prev2_POS:JJ with_prev2_full:interested_when with_prev2_POS_full:JJ_WRB SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:; prev1_POS:: with_prev1_full:;_if with_prev1_POS_full::_IN prev2:commission prev2_POS:NN with_prev2_full:commission_if with_prev2_POS_full:NN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:client prev1_POS:NN with_prev1_full:client_if with_prev1_POS_full:NN_IN prev2:a prev2_POS:DT with_prev2_full:a_if with_prev2_POS_full:DT_IN SS
+conn:ultimately conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_ultimately with_prev1_POS_full:PRP_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:compensation prev2_POS:NN with_prev2_full:compensation_however with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:search prev2_POS:NN with_prev2_full:search_and with_prev2_POS_full:NN_CC SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:review prev1_POS:NN with_prev1_full:review_if with_prev1_POS_full:NN_IN prev2:for prev2_POS:IN with_prev2_full:for_if with_prev2_POS_full:IN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:successful prev2_POS:JJ with_prev2_full:successful_but with_prev2_POS_full:JJ_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:example prev2_POS:NN with_prev2_full:example_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:1977 prev1_POS:CD with_prev1_full:1977_and with_prev1_POS_full:CD_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS

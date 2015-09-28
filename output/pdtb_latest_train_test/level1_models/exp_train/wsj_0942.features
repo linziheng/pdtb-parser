@@ -1,0 +1,13 @@
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:impractical_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:proposal_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:in_the_meantime conn:in_the_meantime conn_POS:IN_DT_NN with_prev_full:help_in_the_meantime Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:,_then Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:package_also Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:products_if Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Temporal
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Comparison

@@ -1,0 +1,3 @@
+conn_lc:so conn:So conn_POS:IN Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:listened_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:50_and Expansion

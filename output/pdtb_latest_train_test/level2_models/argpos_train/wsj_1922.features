@@ -1,0 +1,10 @@
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:rock prev1_POS:NN with_prev1_full:rock_but with_prev1_POS_full:NN_CC prev2:like prev2_POS:IN with_prev2_full:like_but with_prev2_POS_full:IN_CC SS
+conn:when conn_POS:WRB prev1:liquid prev1_POS:NN with_prev1_full:liquid_when with_prev1_POS_full:NN_WRB prev2:like prev2_POS:IN with_prev2_full:like_when with_prev2_POS_full:IN_WRB SS
+conn:if conn_POS:IN prev1:done prev1_POS:VBN with_prev1_full:done_if with_prev1_POS_full:VBN_IN prev2:be prev2_POS:VB with_prev2_full:be_if with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:air prev2_POS:NN with_prev2_full:air_while with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:RB prev1:heightened prev1_POS:VBN with_prev1_full:heightened_because with_prev1_POS_full:VBN_RB prev2:is prev2_POS:VBZ with_prev2_full:is_because with_prev2_POS_full:VBZ_RB SS
+conn:while conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_while with_prev1_POS_full::_IN prev2:earthquake prev2_POS:NN with_prev2_full:earthquake_while with_prev2_POS_full:NN_IN SS

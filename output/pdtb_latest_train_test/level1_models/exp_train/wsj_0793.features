@@ -1,0 +1,6 @@
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:approved_and Expansion
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:agencies_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:public_and Expansion

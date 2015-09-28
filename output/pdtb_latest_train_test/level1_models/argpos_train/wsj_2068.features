@@ -1,0 +1,4 @@
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:clear prev2_POS:JJ with_prev2_full:clear_however with_prev2_POS_full:JJ_RB PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:1985 prev2_POS:CD with_prev2_full:1985_after with_prev2_POS_full:CD_IN SS
+conn:After conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:filing prev1_POS:NN with_prev1_full:filing_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS

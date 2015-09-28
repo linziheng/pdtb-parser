@@ -1,0 +1,42 @@
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:which prev2_POS:WDT with_prev2_full:which_if with_prev2_POS_full:WDT_IN SS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:and prev2_POS:CC with_prev2_full:and_then with_prev2_POS_full:CC_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:work prev2_POS:VBP with_prev2_full:work_and with_prev2_POS_full:VBP_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:malignant prev2_POS:JJ with_prev2_full:malignant_but with_prev2_POS_full:JJ_CC SS
+conn:only_after conn_POS:RB_RB prev1:malignant prev1_POS:JJ with_prev1_full:malignant_only_after with_prev1_POS_full:JJ_RB_RB prev2:cells prev2_POS:NNS with_prev2_full:cells_only_after with_prev2_POS_full:NNS_RB_RB SS
+conn:so conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_RB prev2:growth prev2_POS:NN with_prev2_full:growth_so with_prev2_POS_full:NN_RB SS
+conn:because conn_POS:IN prev1:cancer prev1_POS:NN with_prev1_full:cancer_because with_prev1_POS_full:NN_IN prev2:to prev2_POS:TO with_prev2_full:to_because with_prev2_POS_full:TO_IN SS
+conn:even_before conn_POS:RB_RB prev1:knew prev1_POS:VBD with_prev1_full:knew_even_before with_prev1_POS_full:VBD_RB_RB prev2:couple prev2_POS:NN with_prev2_full:couple_even_before with_prev2_POS_full:NN_RB_RB SS
+conn:when conn_POS:WRB prev1:tumor prev1_POS:NN with_prev1_full:tumor_when with_prev1_POS_full:NN_WRB prev2:rare prev2_POS:JJ with_prev2_full:rare_when with_prev2_POS_full:JJ_WRB SS
+conn:after conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_after with_prev1_POS_full::_IN prev2:old prev2_POS:JJ with_prev2_full:old_after with_prev2_POS_full:JJ_IN SS
+conn:when conn_POS:WRB prev1:fate prev1_POS:NN with_prev1_full:fate_when with_prev1_POS_full:NN_WRB prev2:same prev2_POS:JJ with_prev2_full:same_when with_prev2_POS_full:JJ_WRB SS
+conn:therefore conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_therefore with_prev1_POS_full:,_RB prev2:and prev2_POS:CC with_prev2_full:and_therefore with_prev2_POS_full:CC_RB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:treatment prev2_POS:NN with_prev2_full:treatment_but with_prev2_POS_full:NN_CC SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:which prev2_POS:WDT with_prev2_full:which_if with_prev2_POS_full:WDT_IN SS
+conn:if conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_if with_prev1_POS_full:IN_IN prev2:evidence prev2_POS:NN with_prev2_full:evidence_if with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:developed prev1_POS:VBD with_prev1_full:developed_when with_prev1_POS_full:VBD_WRB prev2:, prev2_POS:, with_prev2_full:,_when with_prev2_POS_full:,_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:genes prev2_POS:NNS with_prev2_full:genes_but with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:next conn_POS:JJ sent_pos:2 prev1:Vogelstein prev1_POS:NNP with_prev1_full:Vogelstein_next with_prev1_POS_full:NNP_JJ prev2:Dr. prev2_POS:NNP with_prev2_full:Dr._next with_prev2_POS_full:NNP_JJ PS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:genes prev2_POS:NNS with_prev2_full:genes_because with_prev2_POS_full:NNS_IN SS
+conn:as_though conn_POS:IN_IN prev1:-- prev1_POS:: with_prev1_full:--_as_though with_prev1_POS_full::_IN_IN prev2:deadly prev2_POS:JJ with_prev2_full:deadly_as_though with_prev2_POS_full:JJ_IN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:then conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_then with_prev1_POS_full:VBD_RB prev2:gene prev2_POS:NN with_prev2_full:gene_then with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:whereas conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_whereas with_prev1_POS_full:,_IN prev2:growth prev2_POS:NN with_prev2_full:growth_whereas with_prev2_POS_full:NN_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:that prev2_POS:DT with_prev2_full:that_when with_prev2_POS_full:DT_WRB SS
+conn:since conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_since with_prev1_POS_full:IN_IN prev2:say prev2_POS:VBP with_prev2_full:say_since with_prev2_POS_full:VBP_IN SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:gene prev2_POS:NN with_prev2_full:gene_when with_prev2_POS_full:NN_WRB SS
+conn:also conn_POS:RB sent_pos:1 prev1:There prev1_POS:EX with_prev1_full:There_also with_prev1_POS_full:EX_RB PS
+conn:also conn_POS:RB prev1:may prev1_POS:MD with_prev1_full:may_also with_prev1_POS_full:MD_RB prev2:gene prev2_POS:NN with_prev2_full:gene_also with_prev2_POS_full:NN_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:versions prev2_POS:NNS with_prev2_full:versions_though with_prev2_POS_full:NNS_IN SS

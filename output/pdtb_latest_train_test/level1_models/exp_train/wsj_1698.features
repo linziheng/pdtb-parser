@@ -1,0 +1,24 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:me_before Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:day_after Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Temporal
+conn_lc:as conn:As conn_POS:IN with_prev_full:``_as Temporal
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Temporal
+conn_lc:even_as conn:even_as conn_POS:RB_IN with_prev_full:,_even_as Comparison
+conn_lc:lest conn:lest conn_POS:IN with_prev_full:restraint_lest Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:veto_because Contingency
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:but_then Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:would_then Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:meaningless_unless Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:automatically_unless Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:straitjacket_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Contingency

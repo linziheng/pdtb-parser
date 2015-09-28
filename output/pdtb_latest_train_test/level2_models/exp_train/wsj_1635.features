@@ -1,0 +1,47 @@
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:before conn:Before conn_POS:RB with_prev_full:``_before Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:individuals_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:begins_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:begins_when Synchrony
+conn_lc:then conn:then conn_POS:RB with_prev_full:trust_then Asynchronous
+conn_lc:thus conn:thus conn_POS:RB with_prev_full:and_thus Cause
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:quantities_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if_if_you_'re_in_the_bond_business_playing_the_relative-performance_derby_,_then conn:If_If_you_'re_in_the_bond_business_playing_the_relative-performance_derby_,_then conn_POS:IN_IN_PRP_VBP_IN_DT_NN_NN_VBG_DT_JJ_NN_,_RB with_prev_full:``_if_if_you_'re_in_the_bond_business_playing_the_relative-performance_derby_,_then Condition
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:if_if_you_'re_an_individual_investing_money_and_trying_to_get_it_back_again_,_then conn:if_if_you_'re_an_individual_investing_money_and_trying_to_get_it_back_again_,_then conn_POS:IN_IN_PRP_VBP_DT_JJ_VBG_NN_CC_VBG_TO_VB_PRP_RP_RB_,_RB with_prev_full:but_if_if_you_'re_an_individual_investing_money_and_trying_to_get_it_back_again_,_then Condition
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:before conn:before conn_POS:IN with_prev_full:quickly_before Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:here_because Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Restatement
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:prospectus_also Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:that_also Conjunction
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:which_in_turn Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stuff_when Condition
+conn_lc:when conn:when conn_POS:WRB with_prev_full:stuff_when Synchrony
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:therefore conn:therefore conn_POS:RB with_prev_full:and_therefore Cause
+conn_lc:and conn:And conn_POS:CC Conjunction

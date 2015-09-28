@@ -1,0 +1,18 @@
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:There prev1_POS:EX with_prev1_full:There_also with_prev1_POS_full:EX_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:research prev2_POS:NN with_prev2_full:research_if with_prev2_POS_full:NN_IN SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:day prev2_POS:NN with_prev2_full:day_and with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:jury prev1_POS:NN with_prev1_full:jury_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:because conn_POS:IN prev1:leaving prev1_POS:VBG with_prev1_full:leaving_because with_prev1_POS_full:VBG_IN prev2:'re prev2_POS:VBP with_prev2_full:'re_because with_prev2_POS_full:VBP_IN SS
+conn:but conn_POS:CC prev1:stay prev1_POS:VB with_prev1_full:stay_but with_prev1_POS_full:VB_CC prev2:to prev2_POS:TO with_prev2_full:to_but with_prev2_POS_full:TO_CC SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:once conn_POS:RB prev1:notified prev1_POS:VBN with_prev1_full:notified_once with_prev1_POS_full:VBN_RB prev2:be prev2_POS:VB with_prev2_full:be_once with_prev2_POS_full:VB_RB SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:panels prev1_POS:NNS with_prev1_full:panels_because with_prev1_POS_full:NNS_IN prev2:inquiry prev2_POS:NN with_prev2_full:inquiry_because with_prev2_POS_full:NN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Nevertheless conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:office prev2_POS:NN with_prev2_full:office_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:; prev2_POS:: with_prev2_full:;_also with_prev2_POS_full::_RB SS

@@ -1,0 +1,7 @@
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:Corp. prev2_POS:NNP with_prev2_full:Corp._even_though with_prev2_POS_full:NNP_RB_IN SS
+conn:even_if conn_POS:RB_IN prev1:funds prev1_POS:NNS with_prev1_full:funds_even_if with_prev1_POS_full:NNS_RB_IN prev2:company prev2_POS:NN with_prev2_full:company_even_if with_prev2_POS_full:NN_RB_IN SS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:group prev2_POS:NN with_prev2_full:group_also with_prev2_POS_full:NN_RB PS
+conn:Separately conn_POS:NNP sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:interested prev2_POS:VBN with_prev2_full:interested_and with_prev2_POS_full:VBN_CC SS
+conn:unless conn_POS:IN prev1:September prev1_POS:NNP with_prev1_full:September_unless with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_unless with_prev2_POS_full:IN_IN SS

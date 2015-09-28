@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:crash prev2_POS:NN with_prev2_full:crash_but with_prev2_POS_full:NN_CC SS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:aircraft prev2_POS:NN with_prev2_full:aircraft_also with_prev2_POS_full:NN_RB PS
+conn:as conn_POS:IN prev1:settlements prev1_POS:NNS with_prev1_full:settlements_as with_prev1_POS_full:NNS_IN prev2:the prev2_POS:DT with_prev2_full:the_as with_prev2_POS_full:DT_IN SS
+conn:Also conn_POS:RB sent_pos:0 PS

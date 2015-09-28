@@ -1,0 +1,26 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:later conn:Later conn_POS:RB Temporal
+conn_lc:though conn:Though conn_POS:IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:change_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:lost_and Expansion
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:before conn:before conn_POS:RB with_prev_full:leave_before Temporal
+conn_lc:18_months_after conn:18_months_after conn_POS:CD_NNS_RB with_prev_full:,_18_months_after Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:operations_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:strip_and Expansion
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:nor conn:Nor conn_POS:CC Expansion
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:choice_when Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:1980s_because Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:soared_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:soared_as Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:newspaper_also Expansion
+conn_lc:as conn:As conn_POS:IN Temporal
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:has_indeed Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

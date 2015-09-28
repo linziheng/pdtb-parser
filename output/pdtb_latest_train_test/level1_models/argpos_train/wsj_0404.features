@@ -1,0 +1,5 @@
+conn:also conn_POS:RB sent_pos:2 prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:then conn_POS:RB sent_pos:2 prev1:agreed prev1_POS:VBD with_prev1_full:agreed_then with_prev1_POS_full:VBD_RB prev2:Chugai prev2_POS:NNP with_prev2_full:Chugai_then with_prev2_POS_full:NNP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:well prev2_POS:RB with_prev2_full:well_and with_prev2_POS_full:RB_CC SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:Chugai prev1_POS:NNP with_prev1_full:Chugai_also with_prev1_POS_full:NNP_RB PS

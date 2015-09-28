@@ -1,0 +1,12 @@
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:bid_because Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:contract_because Contingency
+conn_lc:so conn:so conn_POS:RB with_prev_full:,_so Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:indeed conn:Indeed conn_POS:RB Expansion
+conn_lc:so conn:so conn_POS:RB with_prev_full:measures_so Contingency
+conn_lc:specifically conn:Specifically conn_POS:RB Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:system_so Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison

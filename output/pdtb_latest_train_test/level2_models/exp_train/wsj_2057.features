@@ -1,0 +1,38 @@
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:fast_because Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Cause
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:and_when Cause
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:liquid_even_when Synchrony
+conn_lc:even_when conn:even_when conn_POS:RB_WRB with_prev_full:liquid_even_when Concession
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:--_so_that Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:cash_when Condition
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:before conn:before conn_POS:IN with_prev_full:monday_before Asynchronous
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:futures_when Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:can_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:volatility_when Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:contract_as Synchrony
+conn_lc:then conn:Then conn_POS:RB with_prev_full:``_then Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:mania_also Conjunction
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:when conn:when conn_POS:WRB with_prev_full:was_when Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Condition
+conn_lc:as_long_as conn:as_long_as conn_POS:RB_RB_IN with_prev_full:continue_as_long_as Synchrony

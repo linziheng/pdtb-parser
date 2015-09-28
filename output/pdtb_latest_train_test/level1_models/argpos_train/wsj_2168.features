@@ -1,0 +1,6 @@
+conn:As conn_POS:IN sent_pos:0 SS
+conn:as conn_POS:IN prev1:minutes prev1_POS:NNS with_prev1_full:minutes_as with_prev1_POS_full:NNS_IN prev2:of prev2_POS:IN with_prev2_full:of_as with_prev2_POS_full:IN_IN SS
+conn:if conn_POS:IN prev1:up prev1_POS:RB with_prev1_full:up_if with_prev1_POS_full:RB_IN prev2:dry prev2_POS:VB with_prev2_full:dry_if with_prev2_POS_full:VB_IN SS
+conn:a_full_five_minutes_before conn_POS:DT_JJ_CD_NNS_IN prev1:offers prev1_POS:VBZ with_prev1_full:offers_a_full_five_minutes_before with_prev1_POS_full:VBZ_DT_JJ_CD_NNS_IN prev2:and prev2_POS:CC with_prev2_full:and_a_full_five_minutes_before with_prev2_POS_full:CC_DT_JJ_CD_NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:pit prev2_POS:NN with_prev2_full:pit_also with_prev2_POS_full:NN_RB PS

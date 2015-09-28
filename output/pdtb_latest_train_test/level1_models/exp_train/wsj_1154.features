@@ -1,0 +1,36 @@
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:just_when conn:Just_when conn_POS:RB_WRB Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:hideaway_also Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:her_as Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:or conn:Or conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:deliriously_when Temporal
+conn_lc:then conn:then conn_POS:RB with_prev_full:when_then Temporal
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Comparison
+conn_lc:while conn:while conn_POS:IN with_prev_full:music_while Temporal
+conn_lc:once conn:Once conn_POS:RB Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:season_after Temporal
+conn_lc:once conn:once conn_POS:IN with_prev_full:subscribers_once Temporal
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:archive_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:archive_after Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:impressive_since Contingency
+conn_lc:also conn:Also conn_POS:RB Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:by_comparison conn:By_comparison conn_POS:IN_NN Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:..._and Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:securities_when Temporal
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:kaifu_also Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Expansion
+conn_lc:since conn:Since conn_POS:IN Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:either_because Contingency
+conn_lc:or conn:or conn_POS:CC with_prev_full:expired_or Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:or_because Contingency

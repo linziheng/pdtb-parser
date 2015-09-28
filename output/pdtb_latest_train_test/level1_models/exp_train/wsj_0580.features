@@ -1,0 +1,7 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:``_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:level_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:industry_before Temporal
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:year_because Contingency

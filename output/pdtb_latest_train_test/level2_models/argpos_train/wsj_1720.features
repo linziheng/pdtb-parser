@@ -1,0 +1,7 @@
+conn:after conn_POS:IN prev1:program prev1_POS:NN with_prev1_full:program_after with_prev1_POS_full:NN_IN prev2:conservatorship prev2_POS:NN with_prev2_full:conservatorship_after with_prev2_POS_full:NN_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:agents prev2_POS:NNS with_prev2_full:agents_while with_prev2_POS_full:NNS_IN SS
+conn:Separately conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:institution prev2_POS:NN with_prev2_full:institution_also with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Bank prev2_POS:NNP with_prev2_full:Bank_and with_prev2_POS_full:NNP_CC SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:assets prev2_POS:NNS with_prev2_full:assets_and with_prev2_POS_full:NNS_CC SS

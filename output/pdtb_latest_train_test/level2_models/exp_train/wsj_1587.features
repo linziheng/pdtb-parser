@@ -1,0 +1,8 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:afternoon_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:afternoon_after Cause
+conn_lc:because conn:because conn_POS:IN with_prev_full:relieved_because Cause
+conn_lc:though conn:though conn_POS:IN with_prev_full:sword_though Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:``_and Conjunction

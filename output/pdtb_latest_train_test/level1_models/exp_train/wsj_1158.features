@@ -1,0 +1,17 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:if_if_mutation_and_natural_selection_slowly_but_surely_give_rise_to_more_and_more_advanced_forms_of_life_,_then conn:If_If_mutation_and_natural_selection_slowly_but_surely_give_rise_to_more_and_more_advanced_forms_of_life_,_then conn_POS:IN_IN_NN_CC_NN_NN_RB_CC_RB_VBP_NN_TO_RBR_CC_RBR_JJ_NNS_IN_NN_,_RB Contingency
+conn_lc:before conn:before conn_POS:IN with_prev_full:eons_before Temporal
+conn_lc:yet conn:Yet conn_POS:RB Comparison
+conn_lc:accordingly conn:Accordingly conn_POS:RB Contingency
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Temporal
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:consequently conn:Consequently conn_POS:RB Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:dinosaurs_because Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:back_when conn:Back_when conn_POS:RB_WRB Temporal
+conn_lc:by_contrast conn:by_contrast conn_POS:IN_NN with_prev_full:,_by_contrast Comparison
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:survived_instead Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:but_even_if Contingency

@@ -1,0 +1,14 @@
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:2 prev1:would prev1_POS:MD with_prev1_full:would_also with_prev1_POS_full:MD_RB prev2:It prev2_POS:PRP with_prev2_full:It_also with_prev2_POS_full:PRP_RB PS
+conn:indeed conn_POS:RB sent_pos:2 prev1:has prev1_POS:VBZ with_prev1_full:has_indeed with_prev1_POS_full:VBZ_RB prev2:There prev2_POS:EX with_prev2_full:There_indeed with_prev2_POS_full:EX_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:period prev2_POS:NN with_prev2_full:period_but with_prev2_POS_full:NN_CC SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:is prev2_POS:VBZ with_prev2_full:is_however with_prev2_POS_full:VBZ_RB PS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:Finally conn_POS:RB sent_pos:0 PS
+conn:because conn_POS:IN prev1:growth prev1_POS:NN with_prev1_full:growth_because with_prev1_POS_full:NN_IN prev2:understate prev2_POS:VBP with_prev2_full:understate_because with_prev2_POS_full:VBP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:introduced prev2_POS:VBN with_prev2_full:introduced_and with_prev2_POS_full:VBN_CC SS
+conn:In_sum conn_POS:IN_NN sent_pos:0 PS
+conn:In_other_words conn_POS:IN_JJ_NNS sent_pos:0 PS

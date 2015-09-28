@@ -1,0 +1,12 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:exposure prev1_POS:NN with_prev1_full:exposure_if with_prev1_POS_full:NN_IN prev2:'s prev2_POS:POS with_prev2_full:'s_if with_prev2_POS_full:POS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Because conn_POS:IN sent_pos:0 SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:even_if conn_POS:RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_even_if with_prev1_POS_full:CC_RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:problem prev2_POS:NN with_prev2_full:problem_and with_prev2_POS_full:NN_CC SS
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:reforms prev2_POS:NNS with_prev2_full:reforms_and with_prev2_POS_full:NNS_CC SS

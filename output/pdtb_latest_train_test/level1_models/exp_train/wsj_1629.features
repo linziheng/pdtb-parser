@@ -1,0 +1,8 @@
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Expansion
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:pumped_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:nevertheless conn:Nevertheless conn_POS:RB Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:westmoreland_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Comparison

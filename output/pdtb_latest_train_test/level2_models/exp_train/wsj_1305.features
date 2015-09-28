@@ -1,0 +1,25 @@
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:setback_when Synchrony
+conn_lc:after conn:after conn_POS:IN with_prev_full:ual_after Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:gain_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:employees_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:employees_while Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:ownership_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:effort_also Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:group_when Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:until conn:Until conn_POS:IN Asynchronous
+conn_lc:after conn:after conn_POS:IN with_prev_full:executives_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Synchrony
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also Conjunction
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:moves_unless Alternative

@@ -1,0 +1,23 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:yesterday_because Cause
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:alarm_even_if Concession
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Synchrony
+conn_lc:meanwhile conn:Meanwhile conn_POS:RB Conjunction
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:so conn:So conn_POS:CC Cause
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:firm_also Conjunction
+conn_lc:even_if conn:even_if conn_POS:RB_IN with_prev_full:''_even_if Concession
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Contrast
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Restatement

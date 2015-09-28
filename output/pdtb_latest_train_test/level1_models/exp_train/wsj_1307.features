@@ -1,0 +1,19 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:noriega_if Contingency
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:while conn:while conn_POS:IN with_prev_full:branch_while Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:for_example conn:For_example conn_POS:IN_NN Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trigger_when Temporal
+conn_lc:once conn:once conn_POS:IN with_prev_full:hesitation_once Temporal
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Contingency
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:but_instead Expansion
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:happen_if Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison

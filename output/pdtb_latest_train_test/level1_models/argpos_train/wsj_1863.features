@@ -1,0 +1,18 @@
+conn:by_contrast conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_by_contrast with_prev1_POS_full:,_IN_NN prev2:August prev2_POS:NNP with_prev2_full:August_by_contrast with_prev2_POS_full:NNP_IN_NN PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1987 prev2_POS:CD with_prev2_full:1987_and with_prev2_POS_full:CD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_because with_prev1_POS_full:NN_IN prev2:program prev2_POS:NN with_prev2_full:program_because with_prev2_POS_full:NN_IN SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:moves prev2_POS:NNS with_prev2_full:moves_if with_prev2_POS_full:NNS_IN SS
+conn:also conn_POS:RB prev1:trading prev1_POS:NN with_prev1_full:trading_also with_prev1_POS_full:NN_RB prev2:program prev2_POS:NN with_prev2_full:program_also with_prev2_POS_full:NN_RB PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:about_three_weeks_after conn_POS:IN_CD_NNS_IN prev1:out prev1_POS:RB with_prev1_full:out_about_three_weeks_after with_prev1_POS_full:RB_IN_CD_NNS_IN prev2:come prev2_POS:VBN with_prev2_full:come_about_three_weeks_after with_prev2_POS_full:VBN_IN_CD_NNS_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:Besides conn_POS:IN sent_pos:0 SS
+conn:when conn_POS:WRB prev1:market prev1_POS:NN with_prev1_full:market_when with_prev1_POS_full:NN_WRB prev2:stock prev2_POS:NN with_prev2_full:stock_when with_prev2_POS_full:NN_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:later prev2_POS:RB with_prev2_full:later_but with_prev2_POS_full:RB_CC SS
+conn:shortly_thereafter conn_POS:RB_RB prev1:ended prev1_POS:VBN with_prev1_full:ended_shortly_thereafter with_prev1_POS_full:VBN_RB_RB prev2:session prev2_POS:NN with_prev2_full:session_shortly_thereafter with_prev2_POS_full:NN_RB_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN prev1:Monday prev1_POS:NNP with_prev1_full:Monday_as with_prev1_POS_full:NNP_IN prev2:trading prev2_POS:NN with_prev2_full:trading_as with_prev2_POS_full:NN_IN SS

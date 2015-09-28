@@ -1,0 +1,5 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:after conn_POS:IN prev1:alliance prev1_POS:NN with_prev1_full:alliance_after with_prev1_POS_full:NN_IN prev2:possible prev2_POS:JJ with_prev2_full:possible_after with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:fell prev2_POS:VBD with_prev2_full:fell_but with_prev2_POS_full:VBD_CC SS
+conn:if conn_POS:IN prev1:now prev1_POS:RB with_prev1_full:now_if with_prev1_POS_full:RB_IN prev2:from prev2_POS:IN with_prev2_full:from_if with_prev2_POS_full:IN_IN SS
+conn:as conn_POS:IN prev1:come prev1_POS:VBP with_prev1_full:come_as with_prev1_POS_full:VBP_IN prev2:, prev2_POS:, with_prev2_full:,_as with_prev2_POS_full:,_IN SS

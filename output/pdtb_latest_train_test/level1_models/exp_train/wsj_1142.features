@@ -1,0 +1,23 @@
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:in_contrast conn:In_contrast conn_POS:IN_NN Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:;_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:``_when Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:done_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:dapuzzo_also Expansion
+conn_lc:while conn:While conn_POS:IN Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:assume_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:assume_when Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trading_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:sellers_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:stocks_because Contingency
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Contingency
+conn_lc:because conn:because conn_POS:IN with_prev_full:out_because Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:stock_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion

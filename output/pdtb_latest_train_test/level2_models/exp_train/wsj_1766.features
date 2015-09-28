@@ -1,0 +1,34 @@
+conn_lc:as_a_result conn:As_a_result conn_POS:IN_DT_NN Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:so conn:So conn_POS:IN Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:ibm_also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:also conn:Also conn_POS:RB Conjunction
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:though conn:though conn_POS:RB with_prev_full:,_though Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:announcements_also Conjunction
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:co._also Conjunction
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction
+conn_lc:while conn:while conn_POS:IN with_prev_full:,_while Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:because conn:because conn_POS:IN with_prev_full:is_because Cause
+conn_lc:as conn:as conn_POS:IN with_prev_full:equipment_as Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:comeback_after Asynchronous
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:as_soon_as conn:as_soon_as conn_POS:RB_RB_IN with_prev_full:operator_as_soon_as Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Conjunction
+conn_lc:just_until conn:just_until conn_POS:RB_IN with_prev_full:run_just_until Alternative
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:salespeople_also Conjunction

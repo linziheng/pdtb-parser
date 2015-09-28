@@ -1,0 +1,5 @@
+conn_lc:as conn:as conn_POS:IN with_prev_full:morning_as Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:,_when Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:yet_when Asynchronous
+conn_lc:so conn:So conn_POS:RB Cause

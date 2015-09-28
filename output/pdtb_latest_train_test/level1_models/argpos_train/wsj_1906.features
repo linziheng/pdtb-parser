@@ -1,0 +1,4 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:finding prev2_POS:NN with_prev2_full:finding_but with_prev2_POS_full:NN_CC SS
+conn:more_than_a_year_after conn_POS:RBR_IN_DT_NN_IN sent_pos:2 prev1:Acting prev1_POS:VBG with_prev1_full:Acting_more_than_a_year_after with_prev1_POS_full:VBG_RBR_IN_DT_NN_IN prev2:*-2 prev2_POS:-NONE- with_prev2_full:*-2_more_than_a_year_after with_prev2_POS_full:-NONE-_RBR_IN_DT_NN_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:panel prev1_POS:NN with_prev1_full:panel_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS

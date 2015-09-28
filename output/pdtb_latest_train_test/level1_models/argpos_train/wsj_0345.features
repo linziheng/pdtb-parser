@@ -1,0 +1,21 @@
+conn:as conn_POS:IN prev1:surged prev1_POS:VBD with_prev1_full:surged_as with_prev1_POS_full:VBD_IN prev2:prices prev2_POS:NNS with_prev2_full:prices_as with_prev2_POS_full:NNS_IN SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:strong prev2_POS:JJ with_prev2_full:strong_as with_prev2_POS_full:JJ_IN SS
+conn:even_though conn_POS:RB_IN prev1:2645.08 prev1_POS:CD with_prev1_full:2645.08_even_though with_prev1_POS_full:CD_RB_IN prev2:to prev2_POS:TO with_prev2_full:to_even_though with_prev2_POS_full:TO_RB_IN SS
+conn:also conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_also with_prev1_POS_full:VBD_RB prev2:that prev2_POS:WDT with_prev2_full:that_also with_prev2_POS_full:WDT_RB SS
+conn:and conn_POS:CC prev1:price prev1_POS:NN with_prev1_full:price_and with_prev1_POS_full:NN_CC prev2:in prev2_POS:IN with_prev2_full:in_and with_prev2_POS_full:IN_CC SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:declined prev2_POS:VBD with_prev2_full:declined_while with_prev2_POS_full:VBD_IN SS
+conn:and conn_POS:CC prev1:318.79 prev1_POS:CD with_prev1_full:318.79_and with_prev1_POS_full:CD_CC prev2:to prev2_POS:TO with_prev2_full:to_and with_prev2_POS_full:TO_CC SS
+conn:or conn_POS:CC prev1:surface prev1_POS:VB with_prev1_full:surface_or with_prev1_POS_full:VB_CC prev2:would prev2_POS:MD with_prev2_full:would_or with_prev2_POS_full:MD_CC SS
+conn:also conn_POS:RB prev1:surge prev1_POS:NN with_prev1_full:surge_also with_prev1_POS_full:NN_RB prev2:'s prev2_POS:POS with_prev2_full:'s_also with_prev2_POS_full:POS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:traders prev1_POS:NNS with_prev1_full:traders_also with_prev1_POS_full:NNS_RB prev2:But prev2_POS:CC with_prev2_full:But_also with_prev2_POS_full:CC_RB PS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:surge prev2_POS:NN with_prev2_full:surge_as with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:7\/8 prev2_POS:CD with_prev2_full:7\/8_but with_prev2_POS_full:CD_CC SS
+conn:as conn_POS:IN prev1:firmed prev1_POS:VBD with_prev1_full:firmed_as with_prev1_POS_full:VBD_IN prev2:stocks prev2_POS:NNS with_prev2_full:stocks_as with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:1\/8 prev1_POS:CD with_prev1_full:1\/8_and with_prev1_POS_full:CD_CC prev2:26 prev2_POS:CD with_prev2_full:26_and with_prev2_POS_full:CD_CC SS
+conn:and conn_POS:CC prev1:1\/8 prev1_POS:CD with_prev1_full:1\/8_and with_prev1_POS_full:CD_CC prev2:62 prev2_POS:CD with_prev2_full:62_and with_prev2_POS_full:CD_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:separately conn_POS:RB prev1:which prev1_POS:WDT with_prev1_full:which_separately with_prev1_POS_full:WDT_RB prev2:, prev2_POS:, with_prev2_full:,_separately with_prev2_POS_full:,_RB SS
+conn:after conn_POS:IN prev1:7\/8 prev1_POS:CD with_prev1_full:7\/8_after with_prev1_POS_full:CD_IN prev2:55 prev2_POS:CD with_prev2_full:55_after with_prev2_POS_full:CD_IN SS
+conn:after conn_POS:IN prev1:30 prev1_POS:CD with_prev1_full:30_after with_prev1_POS_full:CD_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:since conn_POS:IN prev1:bank prev1_POS:NN with_prev1_full:bank_since with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_since with_prev2_POS_full:DT_IN SS

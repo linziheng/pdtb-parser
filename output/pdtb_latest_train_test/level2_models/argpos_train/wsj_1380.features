@@ -1,0 +1,3 @@
+conn:because conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_because with_prev1_POS_full:NN_IN prev2:program prev2_POS:NN with_prev2_full:program_because with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:September prev2_POS:NNP with_prev2_full:September_but with_prev2_POS_full:NNP_CC SS
+conn:Overall conn_POS:RB sent_pos:0 PS

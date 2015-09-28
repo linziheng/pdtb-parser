@@ -1,0 +1,25 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when_and_if conn:When_and_if conn_POS:WRB_CC_IN Condition
+conn_lc:when_and_if conn:When_and_if conn_POS:WRB_CC_IN Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:,_instead Alternative
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:trust_also Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Cause
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:though conn:Though conn_POS:IN Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:thus conn:Thus conn_POS:RB Cause
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:nonetheless conn:nonetheless conn_POS:RB with_prev_full:,_nonetheless Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:indeed conn:indeed conn_POS:RB with_prev_full:is_indeed Conjunction
+conn_lc:even_though conn:Even_though conn_POS:RB_IN with_prev_full:``_even_though Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction

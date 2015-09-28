@@ -1,0 +1,30 @@
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:when conn:When conn_POS:WRB Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:also conn:also conn_POS:RB with_prev_full:experiments_also Expansion
+conn_lc:because conn:Because conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:labs_also Expansion
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Comparison
+conn_lc:when conn:when conn_POS:WRB with_prev_full:confirmed_when Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:confirmed_when Contingency
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:then conn:then conn_POS:RB with_prev_full:he_then Temporal
+conn_lc:when conn:When conn_POS:WRB Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:hours_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:water_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:water_and Contingency
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Temporal
+conn_lc:before conn:before conn_POS:RB with_prev_full:hours_before Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Expansion
+conn_lc:after conn:after conn_POS:RB with_prev_full:,_after Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:watt_and Expansion
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Contingency
+conn_lc:later conn:later conn_POS:RB with_prev_full:but_later Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:until conn:until conn_POS:IN with_prev_full:it_until Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:neutrons_but Comparison
+conn_lc:so conn:so conn_POS:IN with_prev_full:water_so Contingency

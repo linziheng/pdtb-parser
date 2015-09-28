@@ -1,0 +1,7 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:action prev2_POS:NN with_prev2_full:action_and with_prev2_POS_full:NN_CC SS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:thus conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_thus with_prev1_POS_full:CC_RB prev2:purchases prev2_POS:NNS with_prev2_full:purchases_thus with_prev2_POS_full:NNS_RB SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:term prev2_POS:NN with_prev2_full:term_however with_prev2_POS_full:NN_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:price prev2_POS:NN with_prev2_full:price_if with_prev2_POS_full:NN_IN SS

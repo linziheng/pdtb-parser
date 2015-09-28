@@ -1,0 +1,9 @@
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:,_unless Alternative
+conn_lc:and conn:and conn_POS:CC with_prev_full:restaurant_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:purse_when Synchrony
+conn_lc:instead conn:Instead conn_POS:RB Alternative
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:since conn:since conn_POS:IN with_prev_full:meal_since Asynchronous
+conn_lc:and conn:And conn_POS:CC Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:proportions_when Synchrony

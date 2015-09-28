@@ -1,0 +1,25 @@
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Pragmatic_contrast
+conn_lc:although conn:although conn_POS:IN with_prev_full:,_although Concession
+conn_lc:in_fact conn:In_fact conn_POS:IN_NN Restatement
+conn_lc:but conn:But conn_POS:CC Pragmatic_concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:trimmed_and List
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Asynchronous
+conn_lc:when conn:when conn_POS:WRB with_prev_full:goals_when Synchrony
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:though conn:though conn_POS:IN with_prev_full:,_though Concession
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:while conn:while conn_POS:IN with_prev_full:ideas_while Synchrony
+conn_lc:when conn:when conn_POS:WRB with_prev_full:''_when Synchrony
+conn_lc:also conn:also conn_POS:RB with_prev_full:investors_also Conjunction
+conn_lc:then conn:then conn_POS:RB with_prev_full:will_then Asynchronous
+conn_lc:then conn:then conn_POS:RB with_prev_full:will_then Cause
+conn_lc:however conn:However conn_POS:RB Contrast
+conn_lc:however conn:However conn_POS:RB Concession
+conn_lc:unless conn:unless conn_POS:IN with_prev_full:backfire_unless Alternative
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:broadly_when Synchrony
+conn_lc:or conn:Or conn_POS:CC Alternative

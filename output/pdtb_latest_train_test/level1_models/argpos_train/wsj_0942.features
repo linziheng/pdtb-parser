@@ -1,0 +1,12 @@
+conn:And conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:impractical prev1_POS:JJ with_prev1_full:impractical_and with_prev1_POS_full:JJ_CC prev2:was prev2_POS:VBD with_prev2_full:was_and with_prev2_POS_full:VBD_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:proposal prev1_POS:NN with_prev1_full:proposal_also with_prev1_POS_full:NN_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._also with_prev2_POS_full:NNP_RB PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:in_the_meantime conn_POS:IN_DT_NN sent_pos:-2 prev1:help prev1_POS:NN with_prev1_full:help_in_the_meantime with_prev1_POS_full:NN_IN_DT_NN prev2:need prev2_POS:VB with_prev2_full:need_in_the_meantime with_prev2_POS_full:VB_IN_DT_NN SS
+conn:then conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_then with_prev1_POS_full:,_RB prev2:tariffs prev2_POS:NNS with_prev2_full:tariffs_then with_prev2_POS_full:NNS_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:package prev1_POS:NN with_prev1_full:package_also with_prev1_POS_full:NN_RB prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._also with_prev2_POS_full:NNP_RB PS
+conn:if conn_POS:IN prev1:products prev1_POS:NNS with_prev1_full:products_if with_prev1_POS_full:NNS_IN prev2:certain prev2_POS:JJ with_prev2_full:certain_if with_prev2_POS_full:JJ_IN SS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:farmers prev2_POS:NNS with_prev2_full:farmers_while with_prev2_POS_full:NNS_IN SS
+conn:even_though conn_POS:RB_IN prev1:, prev1_POS:, with_prev1_full:,_even_though with_prev1_POS_full:,_RB_IN prev2:food prev2_POS:NN with_prev2_full:food_even_though with_prev2_POS_full:NN_RB_IN SS

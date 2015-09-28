@@ -1,0 +1,5 @@
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:receiver prev2_POS:NN with_prev2_full:receiver_also with_prev2_POS_full:NN_RB PS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:1984 prev2_POS:CD with_prev2_full:1984_after with_prev2_POS_full:CD_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:SEC prev1_POS:NNP with_prev1_full:SEC_also with_prev1_POS_full:NNP_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Byrum prev2_POS:NNP with_prev2_full:Byrum_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:Smith prev1_POS:NNP with_prev1_full:Smith_also with_prev1_POS_full:NNP_RB prev2:Ms. prev2_POS:NNP with_prev2_full:Ms._also with_prev2_POS_full:NNP_RB PS

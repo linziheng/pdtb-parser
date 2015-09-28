@@ -1,0 +1,4 @@
+conn_lc:before conn:before conn_POS:IN with_prev_full:out_before Temporal£
+conn_lc:if conn:if conn_POS:IN with_prev_full:--_if Contingency£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion£
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Contingency£

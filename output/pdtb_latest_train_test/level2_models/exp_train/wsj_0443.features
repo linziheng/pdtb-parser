@@ -1,0 +1,9 @@
+conn_lc:because conn:because conn_POS:IN with_prev_full:interest_because Cause
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:higher_if Condition
+conn_lc:then conn:Then conn_POS:RB Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:interest_instead Alternative

@@ -1,0 +1,18 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:when conn:when conn_POS:WRB with_prev_full:run-up_when Temporal
+conn_lc:before conn:before conn_POS:IN with_prev_full:day_before Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:confused_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:many_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:many_and Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:declined_and Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:3\/4_before Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:earnings_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:company_also Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:,_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:shares_even_though Comparison
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC Comparison

@@ -1,0 +1,16 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN prev1:less prev1_POS:JJR with_prev1_full:less_if with_prev1_POS_full:JJR_IN prev2:for prev2_POS:IN with_prev2_full:for_if with_prev2_POS_full:IN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:case prev1_POS:NN with_prev1_full:case_and with_prev1_POS_full:NN_CC prev2:extreme prev2_POS:JJ with_prev2_full:extreme_and with_prev2_POS_full:JJ_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:organization prev2_POS:NN with_prev2_full:organization_while with_prev2_POS_full:NN_IN SS
+conn:WHEN conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:them prev2_POS:PRP with_prev2_full:them_while with_prev2_POS_full:PRP_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:here prev2_POS:RB with_prev2_full:here_and with_prev2_POS_full:RB_CC SS
+conn:when conn_POS:WRB prev1:team prev1_POS:NN with_prev1_full:team_when with_prev1_POS_full:NN_WRB prev2:health-care prev2_POS:NN with_prev2_full:health-care_when with_prev2_POS_full:NN_WRB SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Because conn_POS:IN sent_pos:0 SS

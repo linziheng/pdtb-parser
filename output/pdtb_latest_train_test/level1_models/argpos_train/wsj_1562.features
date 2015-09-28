@@ -1,0 +1,43 @@
+conn:ONCE conn_POS:RB sent_pos:0 SS
+conn:if conn_POS:IN prev1:burned prev1_POS:VBN with_prev1_full:burned_if with_prev1_POS_full:VBN_IN prev2:get prev2_POS:VB with_prev2_full:get_if with_prev2_POS_full:VB_IN SS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:even_when conn_POS:RB_WRB sent_pos:1 prev1:And prev1_POS:CC with_prev1_full:And_even_when with_prev1_POS_full:CC_RB_WRB SS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:brokers prev2_POS:NNS with_prev2_full:brokers_since with_prev2_POS_full:NNS_IN SS
+conn:or conn_POS:CC prev1:'' prev1_POS:'' with_prev1_full:''_or with_prev1_POS_full:''_CC prev2:now prev2_POS:RB with_prev2_full:now_or with_prev2_POS_full:RB_CC SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:example prev2_POS:NN with_prev2_full:example_if with_prev2_POS_full:NN_IN SS
+conn:then conn_POS:RB prev1:would prev1_POS:MD with_prev1_full:would_then with_prev1_POS_full:MD_RB prev2:trades prev2_POS:NNS with_prev2_full:trades_then with_prev2_POS_full:NNS_RB PS
+conn:when conn_POS:WRB prev1:used prev1_POS:VBN with_prev1_full:used_when with_prev1_POS_full:VBN_WRB prev2:are prev2_POS:VBP with_prev2_full:are_when with_prev2_POS_full:VBP_WRB SS
+conn:if conn_POS:IN prev1:restriction prev1_POS:NN with_prev1_full:restriction_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:then conn_POS:RB sent_pos:-3 prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:54 prev2_POS:CD with_prev2_full:54_then with_prev2_POS_full:CD_RB SS
+conn:Unless conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:filled prev1_POS:VBD with_prev1_full:filled_because with_prev1_POS_full:VBD_IN prev2:orders prev2_POS:NNS with_prev2_full:orders_because with_prev2_POS_full:NNS_IN SS
+conn:once conn_POS:IN prev1:investment prev1_POS:NN with_prev1_full:investment_once with_prev1_POS_full:NN_IN prev2:an prev2_POS:DT with_prev2_full:an_once with_prev2_POS_full:DT_IN SS
+conn:Once conn_POS:RB sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:order prev2_POS:NN with_prev2_full:order_and with_prev2_POS_full:NN_CC SS
+conn:because conn_POS:IN prev1:orders prev1_POS:NNS with_prev1_full:orders_because with_prev1_POS_full:NNS_IN prev2:'' prev2_POS:'' with_prev2_full:''_because with_prev2_POS_full:''_IN SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:price prev1_POS:NN with_prev1_full:price_and with_prev1_POS_full:NN_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:In_contrast conn_POS:IN_NN sent_pos:0 PS
+conn:and conn_POS:CC prev1:price prev1_POS:NN with_prev1_full:price_and with_prev1_POS_full:NN_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:75 prev1_POS:CD with_prev1_full:75_when with_prev1_POS_full:CD_WRB prev2:$ prev2_POS:$ with_prev2_full:$_when with_prev2_POS_full:$_WRB SS
+conn:when conn_POS:WRB prev1:orders prev1_POS:NNS with_prev1_full:orders_when with_prev1_POS_full:NNS_WRB prev2:limit prev2_POS:NN with_prev2_full:limit_when with_prev2_POS_full:NN_WRB SS
+conn:when conn_POS:WRB prev1:price prev1_POS:NN with_prev1_full:price_when with_prev1_POS_full:NN_WRB prev2:market prev2_POS:NN with_prev2_full:market_when with_prev2_POS_full:NN_WRB SS
+conn:If conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:because conn_POS:IN prev1:order prev1_POS:NN with_prev1_full:order_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:if conn_POS:IN prev1:orders prev1_POS:NNS with_prev1_full:orders_if with_prev1_POS_full:NNS_IN prev2:market prev2_POS:NN with_prev2_full:market_if with_prev2_POS_full:NN_IN SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:price prev2_POS:NN with_prev2_full:price_while with_prev2_POS_full:NN_IN SS
+conn:As_soon_as conn_POS:RB_RB_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:when conn_POS:WRB prev1:exclusively prev1_POS:RB with_prev1_full:exclusively_when with_prev1_POS_full:RB_WRB prev2:almost prev2_POS:RB with_prev2_full:almost_when with_prev2_POS_full:RB_WRB SS
+conn:If..then conn_POS:IN_RB SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:investment prev2_POS:NN with_prev2_full:investment_if with_prev2_POS_full:NN_IN SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:first prev2_POS:RB with_prev2_full:first_then with_prev2_POS_full:RB_RB SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:'' prev2_POS:'' with_prev2_full:''_then with_prev2_POS_full:''_RB SS
+conn:after conn_POS:IN prev1:selling prev1_POS:VBG with_prev1_full:selling_after with_prev1_POS_full:VBG_IN prev2:or prev2_POS:CC with_prev2_full:or_after with_prev2_POS_full:CC_IN SS

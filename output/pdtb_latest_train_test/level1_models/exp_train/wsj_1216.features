@@ -1,0 +1,8 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:he_also Expansion
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:meanwhile conn:meanwhile conn_POS:RB with_prev_full:,_meanwhile Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:hugo_as Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:once conn:once conn_POS:IN with_prev_full:europe_once Temporal

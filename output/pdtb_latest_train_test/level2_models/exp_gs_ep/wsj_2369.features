@@ -1,0 +1,31 @@
+conn_lc:or conn:Or conn_POS:CC Pragmatic_condition£
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Conjunction£
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Conjunction£
+conn_lc:while conn:while conn_POS:IN with_prev_full:voice_while Synchrony£
+conn_lc:after conn:after conn_POS:IN with_prev_full:newsweek_after Asynchronous£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause£
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause£
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Conjunction£
+conn_lc:if conn:If conn_POS:IN Condition£
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause£
+conn_lc:in_addition conn:In_addition conn_POS:IN_NN Conjunction£
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:because conn:Because conn_POS:IN Cause£
+conn_lc:if conn:if conn_POS:IN with_prev_full:intensity_if Condition£
+conn_lc:if_if_group_conflicts_still_exist_-lrb-_as_undeniably_they_do_-rrb-_,_and_if_mr._mason_'s_type_of_ethnic_humor_is_passe_,_then conn:if_if_group_conflicts_still_exist_-LRB-_as_undeniably_they_do_-RRB-_,_and_if_Mr._Mason_'s_type_of_ethnic_humor_is_passe_,_then conn_POS:IN_IN_NN_NNS_RB_VBP_-LRB-_IN_RB_PRP_VBP_-RRB-_,_CC_IN_NNP_NNP_POS_NN_IN_JJ_NN_VBZ_JJ_,_RB with_prev_full:,_if_if_group_conflicts_still_exist_-lrb-_as_undeniably_they_do_-rrb-_,_and_if_mr._mason_'s_type_of_ethnic_humor_is_passe_,_then Condition£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List£
+conn_lc:if_if_mr._mason_'s_type_of_ethnic_humor_is_passe_,_then conn:if_if_Mr._Mason_'s_type_of_ethnic_humor_is_passe_,_then conn_POS:IN_IN_NNP_NNP_POS_NN_IN_JJ_NN_VBZ_JJ_,_RB with_prev_full:and_if_if_mr._mason_'s_type_of_ethnic_humor_is_passe_,_then Condition£
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:and conn:And conn_POS:CC Conjunction£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation£
+conn_lc:not_because conn:not_because conn_POS:RB_IN with_prev_full:jackie_not_because Cause£
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast£
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Cause£
+conn_lc:but conn:But conn_POS:CC Contrast£
+conn_lc:because conn:because conn_POS:IN with_prev_full:spark_because Cause£
+conn_lc:before conn:before conn_POS:IN with_prev_full:,_before Asynchronous£
+conn_lc:but conn:But conn_POS:CC Contrast£

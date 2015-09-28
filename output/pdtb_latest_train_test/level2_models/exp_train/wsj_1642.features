@@ -1,0 +1,12 @@
+conn_lc:on_the_other_hand conn:On_the_other_hand conn_POS:IN_DT_JJ_NN Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:%_after Asynchronous
+conn_lc:as conn:as conn_POS:IN with_prev_full:,_as Synchrony
+conn_lc:by_comparison conn:By_comparison conn_POS:IN_NN Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:rose_and Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so conn:so conn_POS:IN with_prev_full:,_so Cause
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:additionally conn:Additionally conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:hands_after Asynchronous

@@ -1,0 +1,13 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:''_and Contingency
+conn_lc:before conn:before conn_POS:RB with_prev_full:resolved_before Temporal
+conn_lc:if conn:if conn_POS:IN with_prev_full:viable_if Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:must_also Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:if conn:If conn_POS:IN Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:'s_also Expansion
+conn_lc:before conn:before conn_POS:IN with_prev_full:builders_before Temporal
+conn_lc:instead conn:Instead conn_POS:RB Expansion
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency

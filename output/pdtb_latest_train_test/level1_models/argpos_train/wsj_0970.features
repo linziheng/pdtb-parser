@@ -1,0 +1,12 @@
+conn:One_day_after conn_POS:CD_NN_IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:trade prev1_POS:VB with_prev1_full:trade_and with_prev1_POS_full:VB_CC prev2:n't prev2_POS:RB with_prev2_full:n't_and with_prev2_POS_full:RB_CC SS
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:said prev2_POS:VBD with_prev2_full:said_after with_prev2_POS_full:VBD_IN SS
+conn:until conn_POS:IN prev1:stock prev1_POS:NN with_prev1_full:stock_until with_prev1_POS_full:NN_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_until with_prev2_POS_full:PRP$_IN SS
+conn:also conn_POS:RB prev1:company prev1_POS:NN with_prev1_full:company_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Tuesday prev2_POS:NNP with_prev2_full:Tuesday_however with_prev2_POS_full:NNP_RB PS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:1990 prev2_POS:CD with_prev2_full:1990_although with_prev2_POS_full:CD_IN SS
+conn:Nonetheless conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:product prev1_POS:NN with_prev1_full:product_and with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_and with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:transaction prev1_POS:NN with_prev1_full:transaction_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:1 prev1:Delmed prev1_POS:NNP with_prev1_full:Delmed_also with_prev1_POS_full:NNP_RB PS

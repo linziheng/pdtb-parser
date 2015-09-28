@@ -1,0 +1,12 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:trading_after Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:market_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:resilience_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:after conn_POS:IN with_prev_full:losses_after Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:enormous_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:at_least_until conn:at_least_until conn_POS:IN_JJS_IN with_prev_full:,_at_least_until Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:prices_also Conjunction

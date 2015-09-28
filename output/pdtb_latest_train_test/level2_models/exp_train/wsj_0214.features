@@ -1,0 +1,27 @@
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:now_that conn:Now_that conn_POS:RB_IN Cause
+conn_lc:until conn:Until conn_POS:IN Asynchronous
+conn_lc:while conn:while conn_POS:IN with_prev_full:january_while Synchrony
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:32_because Cause
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Synchrony
+conn_lc:as conn:as conn_POS:IN with_prev_full:but_as Cause
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:play_if Condition
+conn_lc:before_and_after conn:before_and_after conn_POS:IN_CC_IN with_prev_full:pickup_before_and_after Asynchronous
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:and conn:and conn_POS:CC with_prev_full:attack_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:as conn:as conn_POS:IN with_prev_full:brow_as Synchrony
+conn_lc:nonetheless conn:Nonetheless conn_POS:RB Concession
+conn_lc:so conn:So conn_POS:RB Cause
+conn_lc:still conn:Still conn_POS:RB Concession
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:And conn_POS:CC List
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Concession

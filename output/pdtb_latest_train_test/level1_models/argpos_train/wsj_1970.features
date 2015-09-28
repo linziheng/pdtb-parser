@@ -1,0 +1,20 @@
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:row prev2_POS:NN with_prev2_full:row_while with_prev2_POS_full:NN_IN SS
+conn:since conn_POS:IN prev1:had prev1_POS:VBN with_prev1_full:had_since with_prev1_POS_full:VBN_IN prev2:'ve prev2_POS:VBP with_prev2_full:'ve_since with_prev2_POS_full:VBP_IN SS
+conn:but conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_but with_prev1_POS_full::_CC prev2:numbers prev2_POS:NNS with_prev2_full:numbers_but with_prev2_POS_full:NNS_CC SS
+conn:after conn_POS:IN prev1:points prev1_POS:NNS with_prev1_full:points_after with_prev1_POS_full:NNS_IN prev2:60 prev2_POS:CD with_prev2_full:60_after with_prev2_POS_full:CD_IN SS
+conn:before conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_before with_prev1_POS_full:,_IN prev2:release prev2_POS:NN with_prev2_full:release_before with_prev2_POS_full:NN_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:1987 prev2_POS:CD with_prev2_full:1987_however with_prev2_POS_full:CD_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:trade prev2_POS:NN with_prev2_full:trade_while with_prev2_POS_full:NN_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:still conn_POS:RB prev1:'s prev1_POS:VBZ with_prev1_full:'s_still with_prev1_POS_full:VBZ_RB prev2:That prev2_POS:DT with_prev2_full:That_still with_prev2_POS_full:DT_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:year prev2_POS:NN with_prev2_full:year_but with_prev2_POS_full:NN_CC SS
+conn:on_the_other_hand conn_POS:IN_DT_JJ_NN sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_on_the_other_hand with_prev1_POS_full:,_IN_DT_JJ_NN prev2:Imports prev2_POS:NNS with_prev2_full:Imports_on_the_other_hand with_prev2_POS_full:NNS_IN_DT_JJ_NN PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:'s prev2_POS:POS with_prev2_full:'s_but with_prev2_POS_full:POS_CC SS
+conn:before conn_POS:IN prev1:needed prev1_POS:VBN with_prev1_full:needed_before with_prev1_POS_full:VBN_IN prev2:are prev2_POS:VBP with_prev2_full:are_before with_prev2_POS_full:VBP_IN SS
+conn:because conn_POS:IN sent_pos:2 prev1:'s prev1_POS:VBZ with_prev1_full:'s_because with_prev1_POS_full:VBZ_IN prev2:That prev2_POS:DT with_prev2_full:That_because with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:deficits prev2_POS:NNS with_prev2_full:deficits_but with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:there prev1_POS:RB with_prev1_full:there_and with_prev1_POS_full:RB_CC prev2:still prev2_POS:RB with_prev2_full:still_and with_prev2_POS_full:RB_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:unless conn_POS:IN prev1:exports prev1_POS:NNS with_prev1_full:exports_unless with_prev1_POS_full:NNS_IN prev2:in prev2_POS:IN with_prev2_full:in_unless with_prev2_POS_full:IN_IN SS

@@ -1,0 +1,9 @@
+conn:After conn_POS:IN sent_pos:0 SS
+conn:because conn_POS:IN prev1:back prev1_POS:RB with_prev1_full:back_because with_prev1_POS_full:RB_IN prev2:come prev2_POS:VB with_prev2_full:come_because with_prev2_POS_full:VB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:if conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:If..then conn_POS:IN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS

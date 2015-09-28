@@ -1,0 +1,17 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:after conn:after conn_POS:IN with_prev_full:funds_after Asynchronous
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Contrast
+conn_lc:as conn:As conn_POS:IN Asynchronous
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:,_in_fact Restatement
+conn_lc:before conn:before conn_POS:IN with_prev_full:orders_before Asynchronous
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Instantiation
+conn_lc:later conn:later conn_POS:RB with_prev_full:but_later Asynchronous
+conn_lc:because conn:Because conn_POS:IN Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:as conn:as conn_POS:IN with_prev_full:weeks_as Cause
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Concession
+conn_lc:when conn:When conn_POS:WRB Synchrony

@@ -1,0 +1,52 @@
+conn_lc:since conn:Since conn_POS:IN Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:as conn:as conn_POS:IN with_prev_full:created_as Temporal
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:volatile_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Expansion
+conn_lc:just_because conn:just_because conn_POS:RB_IN with_prev_full:that_just_because Contingency
+conn_lc:since conn:since conn_POS:IN with_prev_full:that_since Contingency
+conn_lc:if conn:if conn_POS:IN with_prev_full:collapse_if Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:many_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Contingency
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:for_instance conn:for_instance conn_POS:IN_NN with_prev_full:,_for_instance Expansion
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:,_yet Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:up_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:up_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:opportunities_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:opportunities_as Contingency
+conn_lc:also conn:also conn_POS:RB with_prev_full:jarrett_also Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:that_when Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:just_because conn:Just_because conn_POS:RB_IN with_prev_full:``_just_because Contingency
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:area_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:area_and Contingency
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:differently_and Expansion
+conn_lc:but conn:But conn_POS:CC Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:disappointing_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:revisions_and Expansion
+conn_lc:if_if_the_economy_slips_into_a_recession_,_then conn:If_If_the_economy_slips_into_a_recession_,_then conn_POS:IN_IN_DT_NN_VBZ_IN_DT_NN_,_RB Contingency
+conn_lc:as conn:as conn_POS:IN with_prev_full:day_as Temporal
+conn_lc:as conn:as conn_POS:IN with_prev_full:day_as Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:selling_and Expansion
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:also conn:also conn_POS:RB with_prev_full:exchange_also Expansion
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:1\/4_after Temporal
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Comparison
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Expansion
+conn_lc:as conn:as conn_POS:IN with_prev_full:3\/8_as Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:made_after Temporal
+conn_lc:after conn:after conn_POS:IN with_prev_full:made_after Contingency

@@ -1,0 +1,35 @@
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:unless conn:Unless conn_POS:IN Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:..._and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:when conn:when conn_POS:WRB with_prev_full:widens_when Synchrony
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:after conn:After conn_POS:IN Asynchronous
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Pragmatic_condition
+conn_lc:by_comparison conn:by_comparison conn_POS:IN_NN with_prev_full:,_by_comparison Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Conjunction
+conn_lc:yet conn:yet conn_POS:CC with_prev_full:1960s_yet Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:while conn:While conn_POS:IN Synchrony
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:yet conn:Yet conn_POS:RB Contrast
+conn_lc:minutes_after conn:minutes_after conn_POS:NNS_IN with_prev_full:yet_minutes_after Asynchronous
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:,_even_though Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:and_instead Alternative
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:still conn:still conn_POS:RB with_prev_full:i_still Concession
+conn_lc:if conn:If conn_POS:IN with_prev_full:``_if Condition

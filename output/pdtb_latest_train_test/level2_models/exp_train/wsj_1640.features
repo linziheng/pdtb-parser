@@ -1,0 +1,11 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:it_if Condition
+conn_lc:even_though conn:Even_though conn_POS:RB_IN Concession
+conn_lc:by_contrast conn:By_contrast conn_POS:IN_NN Contrast
+conn_lc:still conn:Still conn_POS:RB Contrast
+conn_lc:moreover conn:Moreover conn_POS:RB Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:secrets_after Asynchronous
+conn_lc:but conn:but conn_POS:CC with_prev_full:computer_but Contrast
+conn_lc:later conn:later conn_POS:RB with_prev_full:was_later Asynchronous
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause

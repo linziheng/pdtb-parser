@@ -1,0 +1,25 @@
+conn_lc:as conn:As conn_POS:IN Synchrony
+conn_lc:as conn:As conn_POS:IN Cause
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:but_because Cause
+conn_lc:for_instance conn:For_instance conn_POS:IN_NN Instantiation
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:while conn:While conn_POS:IN Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Condition
+conn_lc:because conn:because conn_POS:IN with_prev_full:technologies_because Cause
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:so_that conn:so_that conn_POS:IN_IN with_prev_full:publicly_so_that Cause
+conn_lc:for_example conn:for_example conn_POS:IN_NN with_prev_full:,_for_example Instantiation
+conn_lc:before conn:before conn_POS:IN with_prev_full:but_before Asynchronous
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:could_also Conjunction
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:also conn:also conn_POS:RB with_prev_full:are_also Conjunction
+conn_lc:but conn:But conn_POS:CC Concession
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Condition
+conn_lc:indeed conn:Indeed conn_POS:RB Conjunction
+conn_lc:indeed conn:Indeed conn_POS:RB Cause
+conn_lc:also conn:also conn_POS:RB with_prev_full:is_also List
+conn_lc:until conn:until conn_POS:IN with_prev_full:investors_until Asynchronous

@@ -1,0 +1,18 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Thus conn_POS:RB sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:time prev2_POS:NN with_prev2_full:time_though with_prev2_POS_full:NN_RB PS
+conn:especially_when conn_POS:RB_WRB prev1:-- prev1_POS:: with_prev1_full:--_especially_when with_prev1_POS_full::_RB_WRB prev2:fast prev2_POS:RB with_prev2_full:fast_especially_when with_prev2_POS_full:RB_RB_WRB SS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:while conn_POS:IN prev1:learned prev1_POS:VBN with_prev1_full:learned_while with_prev1_POS_full:VBN_IN prev2:techniques prev2_POS:NNS with_prev2_full:techniques_while with_prev2_POS_full:NNS_IN SS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:getting prev2_POS:VBG with_prev2_full:getting_and with_prev2_POS_full:VBG_CC SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:also conn_POS:RB prev1:Specialized prev1_POS:NNP with_prev1_full:Specialized_also with_prev1_POS_full:NNP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB PS
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:750 prev2_POS:CD with_prev2_full:750_though with_prev2_POS_full:CD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:RB prev1:intensifying prev1_POS:VBG with_prev1_full:intensifying_as with_prev1_POS_full:VBG_RB prev2:is prev2_POS:VBZ with_prev2_full:is_as with_prev2_POS_full:VBZ_RB SS
+conn:also conn_POS:RB prev1:they prev1_POS:PRP with_prev1_full:they_also with_prev1_POS_full:PRP_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:previously conn_POS:RB sent_pos:1 prev1:Trek prev1_POS:NNP with_prev1_full:Trek_previously with_prev1_POS_full:NNP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:bikes prev2_POS:NNS with_prev2_full:bikes_but with_prev2_POS_full:NNS_CC SS
+conn:since conn_POS:IN prev1:tripled prev1_POS:VBN with_prev1_full:tripled_since with_prev1_POS_full:VBN_IN prev2:have prev2_POS:VBP with_prev2_full:have_since with_prev2_POS_full:VBP_IN SS
+conn:But conn_POS:CC sent_pos:0 PS

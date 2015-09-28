@@ -1,0 +1,21 @@
+conn:before conn_POS:RB prev1:someone prev1_POS:NN with_prev1_full:someone_before with_prev1_POS_full:NN_RB prev2:about prev2_POS:IN with_prev2_full:about_before with_prev2_POS_full:IN_RB SS
+conn:when conn_POS:WRB prev1:was prev1_POS:VBD with_prev1_full:was_when with_prev1_POS_full:VBD_WRB prev2:he prev2_POS:PRP with_prev2_full:he_when with_prev2_POS_full:PRP_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:a_day_after conn_POS:DT_NN_RB prev1:, prev1_POS:, with_prev1_full:,_a_day_after with_prev1_POS_full:,_DT_NN_RB prev2:Thursday prev2_POS:NNP with_prev2_full:Thursday_a_day_after with_prev2_POS_full:NNP_DT_NN_RB SS
+conn:also conn_POS:RB prev1:are prev1_POS:VBP with_prev1_full:are_also with_prev1_POS_full:VBP_RB prev2:newspapers prev2_POS:NNS with_prev2_full:newspapers_also with_prev2_POS_full:NNS_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:but prev1_POS:CC with_prev1_full:but_also with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_also with_prev2_POS_full:,_RB SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:Indeed conn_POS:RB sent_pos:0 PS
+conn:later conn_POS:RB sent_pos:2 prev1:was prev1_POS:VBD with_prev1_full:was_later with_prev1_POS_full:VBD_RB prev2:He prev2_POS:PRP with_prev2_full:He_later with_prev2_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:image prev2_POS:NN with_prev2_full:image_but with_prev2_POS_full:NN_CC SS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC PS
+conn:if conn_POS:IN sent_pos:2 prev1:But prev1_POS:CC with_prev1_full:But_if with_prev1_POS_full:CC_IN prev2:`` prev2_POS:`` with_prev2_full:``_if with_prev2_POS_full:``_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:Either..or conn_POS:CC_CC SS
+conn:because conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_because with_prev1_POS_full:``_IN prev2:, prev2_POS:, with_prev2_full:,_because with_prev2_POS_full:,_IN SS
+conn:just_because conn_POS:RB_IN prev1:that prev1_POS:IN with_prev1_full:that_just_because with_prev1_POS_full:IN_RB_IN prev2:, prev2_POS:, with_prev2_full:,_just_because with_prev2_POS_full:,_RB_IN SS
+conn:But conn_POS:CC prev1:`` prev1_POS:`` with_prev1_full:``_But with_prev1_POS_full:``_CC prev2:, prev2_POS:, with_prev2_full:,_But with_prev2_POS_full:,_CC SS

@@ -1,0 +1,7 @@
+conn_lc:when conn:When conn_POS:WRB with_prev_full:burned_when Synchrony
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:when conn:when conn_POS:WRB with_prev_full:but_when Synchrony
+conn_lc:before conn:before conn_POS:IN with_prev_full:books_before Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:plan_and Conjunction

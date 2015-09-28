@@ -1,0 +1,25 @@
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:liberalizations_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and List
+conn_lc:after conn:after conn_POS:IN with_prev_full:,_after Asynchronous
+conn_lc:if conn:if conn_POS:IN with_prev_full:that_if Condition
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if Condition
+conn_lc:if conn:if conn_POS:IN with_prev_full:,_if Condition
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:clear_only_when Asynchronous
+conn_lc:only_when conn:only_when conn_POS:RB_WRB with_prev_full:clear_only_when Cause
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:when conn:When conn_POS:WRB Condition
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Condition
+conn_lc:even_if conn:Even_if conn_POS:RB_IN Concession
+conn_lc:when conn:When conn_POS:WRB Asynchronous
+conn_lc:when conn:When conn_POS:WRB Cause
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:middlemen_because Cause

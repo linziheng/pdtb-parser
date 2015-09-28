@@ -1,0 +1,27 @@
+conn_lc:although conn:Although conn_POS:IN Contrast
+conn_lc:nor conn:Nor conn_POS:CC Conjunction
+conn_lc:on_the_contrary conn:On_the_contrary conn_POS:IN_DT_NN Contrast
+conn_lc:also conn:also conn_POS:RB with_prev_full:they_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:lightheaded_and Conjunction
+conn_lc:when conn:When conn_POS:WRB with_prev_full:``_when Synchrony
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:even_though conn:even_though conn_POS:RB_IN with_prev_full:and_even_though Concession
+conn_lc:and conn:And conn_POS:CC with_prev_full:``_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:intensified_and Conjunction
+conn_lc:also conn:also conn_POS:RB with_prev_full:massage_also Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:before conn:before conn_POS:IN with_prev_full:years_before Asynchronous
+conn_lc:also conn:also conn_POS:RB with_prev_full:she_also Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:on_and Conjunction
+conn_lc:but conn:But conn_POS:CC with_prev_full:``_but Concession
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:after conn:after conn_POS:IN with_prev_full:and_after Asynchronous
+conn_lc:still conn:still conn_POS:RB with_prev_full:were_still Asynchronous
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:while conn:while conn_POS:IN with_prev_full:that_while Contrast

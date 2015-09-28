@@ -1,0 +1,8 @@
+conn:but conn_POS:CC prev1:proposal prev1_POS:NN with_prev1_full:proposal_but with_prev1_POS_full:NN_CC prev2:the prev2_POS:DT with_prev2_full:the_but with_prev2_POS_full:DT_CC SS
+conn:also conn_POS:RB sent_pos:2 prev1:trust prev1_POS:NN with_prev1_full:trust_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:filed prev1_POS:VBN with_prev1_full:filed_and with_prev1_POS_full:VBN_CC prev2:claims prev2_POS:NNS with_prev2_full:claims_and with_prev2_POS_full:NNS_CC SS
+conn:Since conn_POS:IN sent_pos:0 SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:although conn_POS:IN prev1:'' prev1_POS:'' with_prev1_full:''_although with_prev1_POS_full:''_IN prev2:, prev2_POS:, with_prev2_full:,_although with_prev2_POS_full:,_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:needed prev2_POS:VBN with_prev2_full:needed_and with_prev2_POS_full:VBN_CC SS

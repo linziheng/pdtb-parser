@@ -1,0 +1,5 @@
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:that_because Contingency
+conn_lc:however conn:however conn_POS:RB with_prev_full:,_however Comparison
+conn_lc:in_fact conn:in_fact conn_POS:IN_NN with_prev_full:have_in_fact Comparison

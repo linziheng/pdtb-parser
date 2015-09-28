@@ -1,0 +1,7 @@
+conn_lc:and conn:and conn_POS:CC with_prev_full:--_and Expansion
+conn_lc:while conn:while conn_POS:IN with_prev_full:building_while Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:and conn:And conn_POS:CC Temporal
+conn_lc:and conn:And conn_POS:CC Expansion
+conn_lc:since conn:since conn_POS:IN with_prev_full:,_since Contingency
+conn_lc:similarly conn:Similarly conn_POS:RB Expansion

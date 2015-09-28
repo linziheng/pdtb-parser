@@ -1,0 +1,23 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:night prev2_POS:NN with_prev2_full:night_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:say prev2_POS:VBP with_prev2_full:say_while with_prev2_POS_full:VBP_IN SS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:sale prev2_POS:NN with_prev2_full:sale_however with_prev2_POS_full:NN_RB PS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:and conn_POS:CC prev1:business prev1_POS:NN with_prev1_full:business_and with_prev1_POS_full:NN_CC prev2:art prev2_POS:NN with_prev2_full:art_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:boom prev2_POS:NN with_prev2_full:boom_but with_prev2_POS_full:NN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:because conn_POS:IN prev1:key prev1_POS:NN with_prev1_full:key_because with_prev1_POS_full:NN_IN prev2:and prev2_POS:CC with_prev2_full:and_because with_prev2_POS_full:CC_IN SS
+conn:because conn_POS:IN prev1:deals prev1_POS:NNS with_prev1_full:deals_because with_prev1_POS_full:NNS_IN prev2:such prev2_POS:JJ with_prev2_full:such_because with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:sale prev2_POS:NN with_prev2_full:sale_but with_prev2_POS_full:NN_CC SS
+conn:still conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_still with_prev1_POS_full:MD_RB prev2:family prev2_POS:NN with_prev2_full:family_still with_prev2_POS_full:NN_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:many prev2_POS:JJ with_prev2_full:many_since with_prev2_POS_full:JJ_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Art prev2_POS:NNP with_prev2_full:Art_and with_prev2_POS_full:NNP_CC SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:For_example conn_POS:IN_NN sent_pos:0 PS
+conn:if conn_POS:IN prev1:know prev1_POS:VBP with_prev1_full:know_if with_prev1_POS_full:VBP_IN prev2:`` prev2_POS:`` with_prev2_full:``_if with_prev2_POS_full:``_IN SS
+conn:while conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_while with_prev1_POS_full:IN_IN prev2:said prev2_POS:VBD with_prev2_full:said_while with_prev2_POS_full:VBD_IN SS
+conn:because conn_POS:IN prev1:guarantees prev1_POS:NNS with_prev1_full:guarantees_because with_prev1_POS_full:NNS_IN prev2:financial prev2_POS:JJ with_prev2_full:financial_because with_prev2_POS_full:JJ_IN SS
+conn:therefore conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_therefore with_prev1_POS_full:CC_RB prev2:, prev2_POS:, with_prev2_full:,_therefore with_prev2_POS_full:,_RB SS

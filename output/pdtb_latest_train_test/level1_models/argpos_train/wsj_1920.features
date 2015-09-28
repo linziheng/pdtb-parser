@@ -1,0 +1,6 @@
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:victims prev2_POS:NNS with_prev2_full:victims_but with_prev2_POS_full:NNS_CC SS
+conn:after conn_POS:IN prev1:slowly prev1_POS:RB with_prev1_full:slowly_after with_prev1_POS_full:RB_IN prev2:too prev2_POS:RB with_prev2_full:too_after with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:waters prev1_POS:NNS with_prev1_full:waters_and with_prev1_POS_full:NNS_CC prev2:Alaskan prev2_POS:JJ with_prev2_full:Alaskan_and with_prev2_POS_full:JJ_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:coast prev2_POS:NN with_prev2_full:coast_and with_prev2_POS_full:NN_CC SS
+conn:So conn_POS:IN sent_pos:0 PS
+conn:but conn_POS:CC prev1:devastation prev1_POS:NN with_prev1_full:devastation_but with_prev1_POS_full:NN_CC prev2:Hugo prev2_POS:NNP with_prev2_full:Hugo_but with_prev2_POS_full:NNP_CC SS

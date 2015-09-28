@@ -1,0 +1,6 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:'d prev1_POS:MD with_prev1_full:'d_also with_prev1_POS_full:MD_RB prev2:I prev2_POS:PRP with_prev2_full:I_also with_prev2_POS_full:PRP_RB PS
+conn:also conn_POS:RB prev1:is prev1_POS:VBZ with_prev1_full:is_also with_prev1_POS_full:VBZ_RB prev2:incinerator prev2_POS:NN with_prev2_full:incinerator_also with_prev2_POS_full:NN_RB PS
+conn:If conn_POS:IN prev1:: prev1_POS:: with_prev1_full::_If with_prev1_POS_full::_IN prev2:this prev2_POS:DT with_prev2_full:this_If with_prev2_POS_full:DT_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:dangerous prev2_POS:JJ with_prev2_full:dangerous_but with_prev2_POS_full:JJ_CC SS
+conn:if conn_POS:IN prev1:but prev1_POS:CC with_prev1_full:but_if with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_if with_prev2_POS_full:,_IN SS

@@ -1,0 +1,3 @@
+conn_lc:separately conn:Separately conn_POS:RB Expansion
+conn_lc:when conn:when conn_POS:WRB with_prev_full:assume_when Temporal
+conn_lc:also conn:also conn_POS:RB with_prev_full:1992_also Expansion

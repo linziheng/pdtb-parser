@@ -1,0 +1,26 @@
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:agencies prev2_POS:NNS with_prev2_full:agencies_while with_prev2_POS_full:NNS_IN SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Eurocom prev2_POS:NNP with_prev2_full:Eurocom_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB sent_pos:2 prev1:price prev1_POS:NN with_prev1_full:price_also with_prev1_POS_full:NN_RB prev2:That prev2_POS:DT with_prev2_full:That_also with_prev2_POS_full:DT_RB PS
+conn:also conn_POS:RB sent_pos:2 prev1:will prev1_POS:MD with_prev1_full:will_also with_prev1_POS_full:MD_RB prev2:Eurocom prev2_POS:NNP with_prev2_full:Eurocom_also with_prev2_POS_full:NNP_RB PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:Spain prev2_POS:NNP with_prev2_full:Spain_while with_prev2_POS_full:NNP_IN SS
+conn:also conn_POS:RB prev1:it prev1_POS:PRP with_prev1_full:it_also with_prev1_POS_full:PRP_RB prev2:said prev2_POS:VBD with_prev2_full:said_also with_prev2_POS_full:VBD_RB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:also conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_also with_prev1_POS_full:CC_RB prev2:client prev2_POS:NN with_prev2_full:client_also with_prev2_POS_full:NN_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Still conn_POS:RB sent_pos:0 PS
+conn:while conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_while with_prev1_POS_full:,_IN prev2:buying prev2_POS:VBG with_prev2_full:buying_while with_prev2_POS_full:VBG_IN SS
+conn:and conn_POS:CC prev1:contracts prev1_POS:NNS with_prev1_full:contracts_and with_prev1_POS_full:NNS_CC prev2:employment prev2_POS:NN with_prev2_full:employment_and with_prev2_POS_full:NN_CC SS
+conn:meanwhile conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_meanwhile with_prev1_POS_full:,_RB prev2:Carat prev2_POS:NNP with_prev2_full:Carat_meanwhile with_prev2_POS_full:NNP_RB PS
+conn:thus conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_thus with_prev1_POS_full:PRP_RB PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:-- prev1_POS:: with_prev1_full:--_and with_prev1_POS_full::_CC prev2:groups prev2_POS:NNS with_prev2_full:groups_and with_prev2_POS_full:NNS_CC SS
+conn:once conn_POS:IN prev1:shares prev1_POS:NNS with_prev1_full:shares_once with_prev1_POS_full:NNS_IN prev2:preferred prev2_POS:JJ with_prev2_full:preferred_once with_prev2_POS_full:JJ_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:While conn_POS:IN sent_pos:0 SS
+conn:then conn_POS:RB prev1:and prev1_POS:CC with_prev1_full:and_then with_prev1_POS_full:CC_RB prev2:walls prev2_POS:NNS with_prev2_full:walls_then with_prev2_POS_full:NNS_RB SS
+conn:previously conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_previously with_prev1_POS_full:VBD_RB prev2:, prev2_POS:, with_prev2_full:,_previously with_prev2_POS_full:,_RB PS
+conn:after conn_POS:IN prev1:Bozell prev1_POS:NNP with_prev1_full:Bozell_after with_prev1_POS_full:NNP_IN prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_IN SS
+conn:previously conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_previously with_prev1_POS_full:,_RB prev2:offices prev2_POS:NNS with_prev2_full:offices_previously with_prev2_POS_full:NNS_RB SS

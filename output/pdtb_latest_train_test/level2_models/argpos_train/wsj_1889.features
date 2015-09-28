@@ -1,0 +1,2 @@
+conn:and conn_POS:CC prev1:range prev1_POS:NN with_prev1_full:range_and with_prev1_POS_full:NN_CC prev2:price prev2_POS:NN with_prev2_full:price_and with_prev2_POS_full:NN_CC SS
+conn:then conn_POS:RB sent_pos:2 prev1:buyer prev1_POS:NN with_prev1_full:buyer_then with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_then with_prev2_POS_full:DT_RB PS

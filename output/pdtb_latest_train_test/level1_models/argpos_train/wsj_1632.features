@@ -1,0 +1,3 @@
+conn:If conn_POS:IN sent_pos:0 SS
+conn:before conn_POS:IN prev1:loans prev1_POS:NNS with_prev1_full:loans_before with_prev1_POS_full:NNS_IN prev2:old prev2_POS:JJ with_prev2_full:old_before with_prev2_POS_full:JJ_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:loans prev2_POS:NNS with_prev2_full:loans_but with_prev2_POS_full:NNS_CC SS

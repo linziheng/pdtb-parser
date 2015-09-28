@@ -1,0 +1,14 @@
+conn:when conn_POS:WRB prev1:house prev1_POS:NN with_prev1_full:house_when with_prev1_POS_full:NN_WRB prev2:auction prev2_POS:NN with_prev2_full:auction_when with_prev2_POS_full:NN_WRB SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:fax prev2_POS:NN with_prev2_full:fax_and with_prev2_POS_full:NN_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:insured prev2_POS:VBN with_prev2_full:insured_and with_prev2_POS_full:VBN_CC SS
+conn:soon_after conn_POS:RB_RB prev1:, prev1_POS:, with_prev1_full:,_soon_after with_prev1_POS_full:,_RB_RB prev2:year prev2_POS:NN with_prev2_full:year_soon_after with_prev2_POS_full:NN_RB_RB SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:goods prev2_POS:NNS with_prev2_full:goods_and with_prev2_POS_full:NNS_CC SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:route prev2_POS:NN with_prev2_full:route_and with_prev2_POS_full:NN_CC SS
+conn:so conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_so with_prev1_POS_full:,_IN prev2:misplaced prev2_POS:VBN with_prev2_full:misplaced_so with_prev2_POS_full:VBN_IN SS
+conn:Although conn_POS:IN sent_pos:0 SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:antiquities prev2_POS:NNS with_prev2_full:antiquities_but with_prev2_POS_full:NNS_CC SS
+conn:Then conn_POS:RB sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:market prev2_POS:NN with_prev2_full:market_and with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:eye prev2_POS:NN with_prev2_full:eye_but with_prev2_POS_full:NN_CC SS

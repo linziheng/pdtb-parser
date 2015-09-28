@@ -1,0 +1,20 @@
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:week prev2_POS:NN with_prev2_full:week_and with_prev2_POS_full:NN_CC SS
+conn:Also conn_POS:RB sent_pos:0 PS
+conn:as conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_as with_prev1_POS_full:IN_IN prev2:noted prev2_POS:VBD with_prev2_full:noted_as with_prev2_POS_full:VBD_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as conn_POS:IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as with_prev1_POS_full:CC_IN SS
+conn:and conn_POS:CC prev1:operating prev1_POS:VBG with_prev1_full:operating_and with_prev1_POS_full:VBG_CC prev2:started prev2_POS:VBN with_prev2_full:started_and with_prev2_POS_full:VBN_CC SS
+conn:However conn_POS:RB sent_pos:0 PS
+conn:after conn_POS:RB prev1:strike prev1_POS:VB with_prev1_full:strike_after with_prev1_POS_full:VB_RB prev2:to prev2_POS:TO with_prev2_full:to_after with_prev2_POS_full:TO_RB SS
+conn:if conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_if with_prev1_POS_full:,_IN prev2:that prev2_POS:IN with_prev2_full:that_if with_prev2_POS_full:IN_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:development prev1_POS:NN with_prev1_full:development_also with_prev1_POS_full:NN_RB prev2:that prev2_POS:DT with_prev2_full:that_also with_prev2_POS_full:DT_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:earlier prev2_POS:RBR with_prev2_full:earlier_and with_prev2_POS_full:RBR_CC SS
+conn:as conn_POS:IN prev1:slightly prev1_POS:RB with_prev1_full:slightly_as with_prev1_POS_full:RB_IN prev2:dropped prev2_POS:VBD with_prev2_full:dropped_as with_prev2_POS_full:VBD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:weeks prev2_POS:NNS with_prev2_full:weeks_but with_prev2_POS_full:NNS_CC SS
+conn:later conn_POS:RB prev1:were prev1_POS:VBD with_prev1_full:were_later with_prev1_POS_full:VBD_RB prev2:reports prev2_POS:NNS with_prev2_full:reports_later with_prev2_POS_full:NNS_RB PS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:minister prev2_POS:NN with_prev2_full:minister_also with_prev2_POS_full:NN_RB PS
+conn:after conn_POS:IN prev1:quiet prev1_POS:JJ with_prev1_full:quiet_after with_prev1_POS_full:JJ_IN prev2:turned prev2_POS:VBD with_prev2_full:turned_after with_prev2_POS_full:VBD_IN SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:said prev2_POS:VBD with_prev2_full:said_but with_prev2_POS_full:VBD_CC SS
+conn:because conn_POS:IN prev1:profit-taking prev1_POS:NN with_prev1_full:profit-taking_because with_prev1_POS_full:NN_IN prev2:some prev2_POS:DT with_prev2_full:some_because with_prev2_POS_full:DT_IN SS
+conn:also conn_POS:RB prev1:was prev1_POS:VBD with_prev1_full:was_also with_prev1_POS_full:VBD_RB prev2:dollar prev2_POS:NN with_prev2_full:dollar_also with_prev2_POS_full:NN_RB PS

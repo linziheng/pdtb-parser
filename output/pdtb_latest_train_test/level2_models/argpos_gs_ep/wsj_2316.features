@@ -1,0 +1,7 @@
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:also conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_also with_prev1_POS_full:,_RB prev2:Argentina prev2_POS:NNP with_prev2_full:Argentina_also with_prev2_POS_full:NNP_RB PS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:if conn_POS:IN prev1:market prev1_POS:NN with_prev1_full:market_if with_prev1_POS_full:NN_IN prev2:U.S. prev2_POS:NNP with_prev2_full:U.S._if with_prev2_POS_full:NNP_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:Japan prev2_POS:NNP with_prev2_full:Japan_however with_prev2_POS_full:NNP_RB PS

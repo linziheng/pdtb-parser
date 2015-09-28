@@ -1,0 +1,8 @@
+conn:though conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_IN prev2:Britain prev2_POS:NNP with_prev2_full:Britain_though with_prev2_POS_full:NNP_IN SS
+conn:because conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_because with_prev1_POS_full:,_IN prev2:% prev2_POS:NN with_prev2_full:%_because with_prev2_POS_full:NN_IN SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:because conn_POS:IN prev1:logical prev1_POS:JJ with_prev1_full:logical_because with_prev1_POS_full:JJ_IN prev2:are prev2_POS:VBP with_prev2_full:are_because with_prev2_POS_full:VBP_IN SS
+conn:since conn_POS:IN prev1:value prev1_POS:NN with_prev1_full:value_since with_prev1_POS_full:NN_IN prev2:shareholder prev2_POS:NN with_prev2_full:shareholder_since with_prev2_POS_full:NN_IN SS
+conn:Though conn_POS:IN sent_pos:0 SS
+conn:if conn_POS:IN prev1:market prev1_POS:NN with_prev1_full:market_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN SS
+conn:thereby conn_POS:RB prev1:will prev1_POS:MD with_prev1_full:will_thereby with_prev1_POS_full:MD_RB prev2:each prev2_POS:DT with_prev2_full:each_thereby with_prev2_POS_full:DT_RB PS

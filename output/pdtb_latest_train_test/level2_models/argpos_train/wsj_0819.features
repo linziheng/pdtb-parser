@@ -1,0 +1,25 @@
+conn:because conn_POS:IN prev1:named prev1_POS:VBN with_prev1_full:named_because with_prev1_POS_full:VBN_IN prev2:so prev2_POS:RB with_prev2_full:so_because with_prev2_POS_full:RB_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Center prev2_POS:NNP with_prev2_full:Center_and with_prev2_POS_full:NNP_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:before conn_POS:IN prev1:pregnant prev1_POS:JJ with_prev1_full:pregnant_before with_prev1_POS_full:JJ_IN prev2:fiancee prev2_POS:NN with_prev2_full:fiancee_before with_prev2_POS_full:NN_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:When prev2_POS:WRB with_prev2_full:When_however with_prev2_POS_full:WRB_RB PS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:until conn_POS:IN prev1:outcome prev1_POS:NN with_prev1_full:outcome_until with_prev1_POS_full:NN_IN prev2:possible prev2_POS:JJ with_prev2_full:possible_until with_prev2_POS_full:JJ_IN SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:when conn_POS:WRB prev1:; prev1_POS:: with_prev1_full:;_when with_prev1_POS_full::_WRB prev2:freedom prev2_POS:NN with_prev2_full:freedom_when with_prev2_POS_full:NN_WRB SS
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:; prev2_POS:: with_prev2_full:;_when with_prev2_POS_full::_WRB SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:however conn_POS:RB sent_pos:2 prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:When prev2_POS:WRB with_prev2_full:When_however with_prev2_POS_full:WRB_RB PS
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:modern prev2_POS:JJ with_prev2_full:modern_or with_prev2_POS_full:JJ_CC SS
+conn:when conn_POS:WRB prev1:, prev1_POS:, with_prev1_full:,_when with_prev1_POS_full:,_WRB prev2:accurately prev2_POS:RB with_prev2_full:accurately_when with_prev2_POS_full:RB_WRB SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:approach prev2_POS:NN with_prev2_full:approach_but with_prev2_POS_full:NN_CC SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:point prev2_POS:NN with_prev2_full:point_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:excesses prev2_POS:NNS with_prev2_full:excesses_however with_prev2_POS_full:NNS_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:lot prev2_POS:NN with_prev2_full:lot_but with_prev2_POS_full:NN_CC SS
+conn:when conn_POS:WRB prev1:received prev1_POS:VBD with_prev1_full:received_when with_prev1_POS_full:VBD_WRB prev2:it prev2_POS:PRP with_prev2_full:it_when with_prev2_POS_full:PRP_WRB SS
+conn:But conn_POS:CC sent_pos:0 PS

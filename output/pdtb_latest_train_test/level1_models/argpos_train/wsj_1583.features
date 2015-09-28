@@ -1,0 +1,14 @@
+conn:But conn_POS:CC sent_pos:0 PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:though conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_though with_prev1_POS_full:,_RB prev2:deals prev2_POS:NNS with_prev2_full:deals_though with_prev2_POS_full:NNS_RB PS
+conn:So conn_POS:RB sent_pos:0 PS
+conn:IF conn_POS:IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:allowed prev2_POS:VBN with_prev2_full:allowed_and with_prev2_POS_full:VBN_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:WHEN conn_POS:WRB sent_pos:0 SS
+conn:also conn_POS:RB sent_pos:1 prev1:It prev1_POS:PRP with_prev1_full:It_also with_prev1_POS_full:PRP_RB PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:earthquake prev2_POS:NN with_prev2_full:earthquake_but with_prev2_POS_full:NN_CC SS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:VCR prev2_POS:NNP with_prev2_full:VCR_but with_prev2_POS_full:NNP_CC SS
+conn:Until conn_POS:IN prev1:Wait prev1_POS:VB with_prev1_full:Wait_Until with_prev1_POS_full:VB_IN prev2:Just prev2_POS:RB with_prev2_full:Just_Until with_prev2_POS_full:RB_IN SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:carriers prev1_POS:NNS with_prev1_full:carriers_also with_prev1_POS_full:NNS_RB prev2:NATION'S prev2_POS:NN with_prev2_full:NATION'S_also with_prev2_POS_full:NN_RB PS

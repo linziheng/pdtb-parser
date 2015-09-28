@@ -1,0 +1,15 @@
+conn_lc:but conn:but conn_POS:CC with_prev_full:--_but Expansion
+conn_lc:because conn:because conn_POS:IN with_prev_full:'s_because Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Temporal
+conn_lc:in_turn conn:in_turn conn_POS:IN_NN with_prev_full:,_in_turn Contingency
+conn_lc:after conn:After conn_POS:IN Temporal
+conn_lc:and conn:and conn_POS:CC with_prev_full:again_and Expansion
+conn_lc:if conn:if conn_POS:IN with_prev_full:rates_if Contingency
+conn_lc:however conn:However conn_POS:RB Comparison
+conn_lc:but conn:But conn_POS:CC Comparison
+conn_lc:because conn:because conn_POS:IN with_prev_full:reinsurance_because Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:needed_and Expansion
+conn_lc:since conn:Since conn_POS:IN Contingency
+conn_lc:and conn:and conn_POS:CC with_prev_full:;_and Expansion
+conn_lc:after conn:after conn_POS:IN with_prev_full:and_after Temporal

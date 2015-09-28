@@ -1,0 +1,10 @@
+conn:also conn_POS:RB sent_pos:2 prev1:Pont prev1_POS:NNP with_prev1_full:Pont_also with_prev1_POS_full:NNP_RB prev2:Du prev2_POS:NNP with_prev2_full:Du_also with_prev2_POS_full:NNP_RB PS
+conn:when conn_POS:WRB prev1:earnings prev1_POS:NNS with_prev1_full:earnings_when with_prev1_POS_full:NNS_WRB prev2:overseas prev2_POS:JJ with_prev2_full:overseas_when with_prev2_POS_full:JJ_WRB SS
+conn:several_months_before conn_POS:JJ_NNS_IN prev1:interview prev1_POS:NN with_prev1_full:interview_several_months_before with_prev1_POS_full:NN_JJ_NNS_IN prev2:an prev2_POS:DT with_prev2_full:an_several_months_before with_prev2_POS_full:DT_JJ_NNS_IN SS
+conn:also conn_POS:RB sent_pos:2 prev1:Pont prev1_POS:NNP with_prev1_full:Pont_also with_prev1_POS_full:NNP_RB prev2:Du prev2_POS:NNP with_prev2_full:Du_also with_prev2_POS_full:NNP_RB PS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:split prev2_POS:NN with_prev2_full:split_although with_prev2_POS_full:NN_IN SS
+conn:because conn_POS:IN prev1:pigment prev1_POS:NN with_prev1_full:pigment_because with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_because with_prev2_POS_full:DT_IN SS
+conn:although conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_although with_prev1_POS_full:,_IN prev2:supply prev2_POS:NN with_prev2_full:supply_although with_prev2_POS_full:NN_IN SS
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:segment prev2_POS:NN with_prev2_full:segment_as with_prev2_POS_full:NN_IN SS
+conn:thus conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_thus with_prev1_POS_full:,_RB prev2:rains prev2_POS:NNS with_prev2_full:rains_thus with_prev2_POS_full:NNS_RB SS
+conn:And conn_POS:CC sent_pos:0 PS

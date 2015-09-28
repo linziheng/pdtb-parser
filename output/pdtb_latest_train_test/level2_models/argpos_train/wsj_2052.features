@@ -1,0 +1,28 @@
+conn:When conn_POS:WRB sent_pos:0 SS
+conn:Eight_months_after conn_POS:CD_NNS_IN sent_pos:0 SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:camps prev2_POS:NNS with_prev2_full:camps_and with_prev2_POS_full:NNS_CC SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:while conn_POS:IN prev1:-- prev1_POS:: with_prev1_full:--_while with_prev1_POS_full::_IN prev2:forces prev2_POS:NNS with_prev2_full:forces_while with_prev2_POS_full:NNS_IN SS
+conn:as_long_as conn_POS:RB_RB_IN prev1:continue prev1_POS:VB with_prev1_full:continue_as_long_as with_prev1_POS_full:VB_RB_RB_IN prev2:would prev2_POS:MD with_prev2_full:would_as_long_as with_prev2_POS_full:MD_RB_RB_IN SS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:as_soon_as conn_POS:RB_RB_IN sent_pos:1 prev1:But prev1_POS:CC with_prev1_full:But_as_soon_as with_prev1_POS_full:CC_RB_RB_IN SS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:delivered prev2_POS:VBN with_prev2_full:delivered_for_example with_prev2_POS_full:VBN_IN_NN PS
+conn:But conn_POS:CC sent_pos:0 PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:army prev2_POS:NN with_prev2_full:army_and with_prev2_POS_full:NN_CC SS
+conn:In_addition conn_POS:IN_NN sent_pos:0 PS
+conn:Even_if conn_POS:RB_IN sent_pos:0 SS
+conn:And conn_POS:CC sent_pos:0 PS
+conn:also conn_POS:RB prev1:personnel prev1_POS:NNS with_prev1_full:personnel_also with_prev1_POS_full:NNS_RB prev2:military prev2_POS:JJ with_prev2_full:military_also with_prev2_POS_full:JJ_RB PS
+conn:Moreover conn_POS:RB sent_pos:0 PS
+conn:Before conn_POS:IN sent_pos:0 SS
+conn:even_as conn_POS:RB_IN prev1:Afghanistan prev1_POS:NNP with_prev1_full:Afghanistan_even_as with_prev1_POS_full:NNP_RB_IN prev2:into prev2_POS:IN with_prev2_full:into_even_as with_prev2_POS_full:IN_RB_IN SS
+conn:Meanwhile conn_POS:RB sent_pos:0 PS
+conn:for_example conn_POS:IN_NN prev1:, prev1_POS:, with_prev1_full:,_for_example with_prev1_POS_full:,_IN_NN prev2:year prev2_POS:NN with_prev2_full:year_for_example with_prev2_POS_full:NN_IN_NN PS
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:minute prev2_POS:NN with_prev2_full:minute_however with_prev2_POS_full:NN_RB PS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:through prev2_POS:RB with_prev2_full:through_and with_prev2_POS_full:RB_CC SS
+conn:Instead conn_POS:RB sent_pos:0 PS
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:regime prev2_POS:NN with_prev2_full:regime_but with_prev2_POS_full:NN_CC SS
+conn:after conn_POS:IN prev1:months prev1_POS:NNS with_prev1_full:months_after with_prev1_POS_full:NNS_IN prev2:resistance prev2_POS:NN with_prev2_full:resistance_after with_prev2_POS_full:NN_IN SS
+conn:but conn_POS:CC prev1:; prev1_POS:: with_prev1_full:;_but with_prev1_POS_full::_CC prev2:off prev2_POS:IN with_prev2_full:off_but with_prev2_POS_full:IN_CC SS
+conn:or conn_POS:CC prev1:sent prev1_POS:VBN with_prev1_full:sent_or with_prev1_POS_full:VBN_CC prev2:being prev2_POS:VBG with_prev2_full:being_or with_prev2_POS_full:VBG_CC SS
+conn:Indeed conn_POS:RB sent_pos:0 PS

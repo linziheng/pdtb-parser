@@ -1,0 +1,19 @@
+conn_lc:if conn:if conn_POS:IN with_prev_full:noriega_if Condition
+conn_lc:if conn:If conn_POS:IN Condition
+conn_lc:while conn:while conn_POS:IN with_prev_full:branch_while Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:and_if Condition
+conn_lc:when conn:When conn_POS:WRB Synchrony
+conn_lc:but conn:But conn_POS:CC Contrast
+conn_lc:for_example conn:For_example conn_POS:IN_NN Instantiation
+conn_lc:when conn:when conn_POS:WRB with_prev_full:trigger_when Synchrony
+conn_lc:once conn:once conn_POS:IN with_prev_full:hesitation_once Asynchronous
+conn_lc:because conn:because conn_POS:IN with_prev_full:,_because Cause
+conn_lc:instead conn:instead conn_POS:RB with_prev_full:but_instead Alternative
+conn_lc:in_other_words conn:In_other_words conn_POS:IN_JJ_NNS Restatement
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and Conjunction
+conn_lc:and conn:And conn_POS:CC Conjunction
+conn_lc:if conn:if conn_POS:IN with_prev_full:happen_if Condition
+conn_lc:but conn:but conn_POS:CC with_prev_full:,_but Contrast

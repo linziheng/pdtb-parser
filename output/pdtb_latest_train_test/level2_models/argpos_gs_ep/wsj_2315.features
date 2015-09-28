@@ -1,0 +1,4 @@
+conn:just_a_month_after conn_POS:RB_DT_NN_IN prev1:, prev1_POS:, with_prev1_full:,_just_a_month_after with_prev1_POS_full:,_RB_DT_NN_IN prev2:time prev2_POS:NN with_prev2_full:time_just_a_month_after with_prev2_POS_full:NN_RB_DT_NN_IN SS
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:1 prev2_POS:CD with_prev2_full:1_and with_prev2_POS_full:CD_CC SS
+conn:because conn_POS:IN prev1:September prev1_POS:NNP with_prev1_full:September_because with_prev1_POS_full:NNP_IN prev2:in prev2_POS:IN with_prev2_full:in_because with_prev2_POS_full:IN_IN SS
+conn:because conn_POS:IN prev1:month prev1_POS:NN with_prev1_full:month_because with_prev1_POS_full:NN_IN prev2:last prev2_POS:JJ with_prev2_full:last_because with_prev2_POS_full:JJ_IN SS
