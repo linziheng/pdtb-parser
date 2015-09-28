@@ -43,7 +43,7 @@ Steps:
 Replace `corpus` with the folder containing folders and text files you want to parse. Note **only** files ending in `.txt` will be parsed. The resulting pipe and auxiliary files would be in a folder named `pdtb_1` or `pdtb_2` (depending on the level), in each (sub)folder containing text files.
 
 
-## Pipe Format
+## PDTB Pipe Format
 
  The parser uses the PDTB pipe-delimited format where every relation is represented
  on a single line and values are delimited by the pipe symbol.
