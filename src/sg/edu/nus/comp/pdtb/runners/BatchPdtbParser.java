@@ -19,12 +19,12 @@ public class BatchPdtbParser {
 			Stack<File> dirs = new Stack<>();
 			dirs.add(corpusDir);
 			while (dirs.size() > 0) {
-
 				File currentDir = dirs.pop();
+				log.info("Working in " + currentDir);
 				File[] files = currentDir.listFiles();
-				int num = 0;
 				for (File file : files) {
 					if (file.isDirectory()) {
+						log.info("Adding directory " + file + " to queue.");
 						dirs.push(file);
 					} else {
 						if (file.getName().endsWith(".txt")) {
@@ -35,14 +35,13 @@ public class BatchPdtbParser {
 								outDir.mkdirs();
 							}
 							if (!(new File(Settings.TMP_PATH + file.getName() + ".pipe").exists())) {
+								log.info("Parsing file " + file);
 								PdtbParser.parseFile(file, true);
 							} else {
-								log.trace("Skipping " + file.getName());
+								log.info("Pipe aldready exists, skipping " + file);
 							}
 						}
 					}
-					++num;
-					log.trace((int) (100.0 * num / files.length) + "% done");
 				}
 			}
 		} else {
