@@ -1,4 +1,4 @@
-#Java End-to-End PDTB-Styled Discourse Parser
+# Java End-to-End PDTB-Styled Discourse Parser
 
 
 PDTB parser based on:
@@ -14,55 +14,10 @@ Requires JDK 1.7 or higher.
 
 ### Parse single file (good for trying out the parser on specific data)
 Steps 
-1. Download the parser jar file from: https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser.jar
-
-## Quick Start
-
-1. `git clone https://github.com/ilija139/PDTB-Parser.git`
-2. `cd PDTB-Parser/`
-3. `java -jar runnable_jars/parser.jar  text_doc_to_parse.txt` 
-4. The PDTB relations are in `tmp/text_doc_to_parse.txt`
-
-
-## Installing and Usage
-
-
-1. Clone the repo or download the code by clicking the "Download ZIP" button on the right.
-
-2. Extract the zip file.
-
-3. Move the PDTB corpus in a folder `data/pdtb/` or edit the location (requires re-compiling) in sg.edu.nus.comp.pdtb.util.Settings.java. The folder structure should be like: `data/pdtb/$section_number/`, where the section number goes from 00 to 25. 
-
-4. Move the PTB corpus in a folder `data/ptb/` or edit the location (requires re-compiling) in sg.edu.nus.comp.pdtb.util.Settings.java. The folder structure should be like: `data/ptb/parse_tree/$section_number/` and `data/ptb/raw_text/$section_number/`, where the section nubmer goes from 00 to 25.
-
-5. Open terminal or command prompt and navigate to PDTB-Parser-master directory.
-
-6. Run `java -jar runnable_jars/SpanTreeExtractor.jar` to generate the auxiliary files used by the parser. 
-
-7a. Run `java -jar Tester.jar` to generate the model files, run the tests and print out the results as reported in the paper.
-
-7b. Run `java -jar Tester.jar -useOldModels` to use the pre-generated model files, run the tests and print out the results. <b>If you use the pre-generated model files, you can skip the previous 4 steps</b>
-
-### Parsing any text
-
-To parse any text document you will need the jar file `runnable_jars/parser.jar` and the model files in the `output` directory. Then run the following command:
-
-`java -jar runnable_jars/parser.jar  text_doc_to_parse.txt` 
-
-The argument `text_doc_to_parse.txt` is a file path to the document you want to parse. The location of the model files is specified in `config.properties` (by default `output`) and it's relative to the directory you are running the above command. 
-
-The parser will output the relations in a pipe file format. This file and the other auxiliary files generated from the text document are stored by default in the `tmp/` directory, but you can specify a different directory in the `config.properties` file. 
-
-
-## Required Resources
-
-The PDTB and PTB (raw text and parse trees) corpora are required by all of the parser components. 
-
-The NonExplicit component also requires dependency trees for training and testing. They can be generated using the Stanford parser found in `external/auto_parsers` directory. 
-
-By running the `Tester.jar` feature files for all components are re-generated except for the auto+ep case. If you want to re-generate the feature files for this experiment you will have to also re-generate the auto parse trees using the parsers found in `external/auto_parsers` directory.
-
-The directory paths to the these resources are specified in `sg.edu.nus.comp.pdtb.util.Settings` file. 
+1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) for more info. 
+2. Download the parser:
+	- level 1 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_1.zip or 
+    - level 2 zip file https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser_level_2.zip
 
 
 ## Pipe Format
