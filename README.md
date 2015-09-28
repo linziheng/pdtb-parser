@@ -10,6 +10,12 @@ Last update: 28-Sep-2015
 
 Requires JDK 1.7 or higher.
 
+## Usage
+
+### Parse single file (good for trying out the parser on specific data)
+Steps 
+1. Download the parser jar file from: https://github.com/WING-NUS/pdtb-parser/raw/master/runnable_jars/parser.jar
+
 ## Quick Start
 
 1. `git clone https://github.com/ilija139/PDTB-Parser.git`

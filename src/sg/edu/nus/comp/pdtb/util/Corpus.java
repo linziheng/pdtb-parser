@@ -921,7 +921,7 @@ public class Corpus {
 
 		File[][] trees = new File[inputFiles.length][2];
 		int index = 0;
-		LexicalizedParser lp = LexicalizedParser.loadModel("external/lib/englishPCFG.ser.gz");
+		LexicalizedParser lp = LexicalizedParser.loadModel(Settings.STANFORD_MODEL);
 		for (File inputFile : inputFiles) {
 			log.trace("Generating tree for: " + inputFile.getName());
 			String outDir = outPath + inputFile.getName();

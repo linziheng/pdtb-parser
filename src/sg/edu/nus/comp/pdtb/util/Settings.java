@@ -127,6 +127,11 @@ public class Settings extends NestedProperties {
 	 */
 	public static String TMP_PATH;
 
+	/**
+	 * Path to the Stanford parser model "englishPCFG.ser.gz"
+	 */
+	public static String STANFORD_MODEL;
+
 	static {
 		String[] pathsToCreate = { OUT_PATH, TMP_PATH };
 

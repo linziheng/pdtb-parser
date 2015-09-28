@@ -624,7 +624,7 @@ public class ArgExtComp extends Component {
 					int total = (doneSoFar + features.size());
 					if (corpus.equals(Type.PDTB)) {
 						treeNum = featureType == FeatureType.AnyText ? cols[7] : getNodeNum(cols[23], featureType);
-						line = article.getName().substring(0, 8) + ":" + total + "-" + (total + internal.size())
+						line = article.getName() + ":" + total + "-" + (total + internal.size())
 								+ ":Arg1(" + cols[22] + "):Arg2(" + cols[32] + "):" + cols[3];
 
 					} else {
