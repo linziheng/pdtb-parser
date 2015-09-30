@@ -5,42 +5,22 @@ PDTB parser based on:
 
 <cite> Ziheng Lin, Hwee Tou Ng and Min-Yen Kan (2014).<b> A PDTB-Styled End-to-End Discourse Parser </b>. Natural Language Engineering, 20, pp 151-184. Cambridge University Press.</cite>
 
+Developer: [Ilija Ilievski](http://ilija139.github.io/)<br>
 Version: 2.0.0 <br>
-Developer: Ilija Ilievski - http://ilija139.github.io/<br>
-Last update: 28-Sep-2015
+Last update: 30-Sep-2015
 
 Requires Java 1.7+.
 
 ## Usage
 
-### Parse a single file (good for trying out the parser on specific data)
-Steps:
-
-1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
-2. Download the parser:
-    - Level 1 zip file https://goo.gl/ROmdhs or 
-    - Level 2 zip file https://goo.gl/PELG2z
-
-3. Unzip the file and from the unziped directory run: 
+1. Download the parser zip file from [here](http://bit.ly/pdtb-parser).
+2. Unzip the file and from the unziped directory run: 
     
-* ```java -jar parser.jar wsj_2300```
+ `java -jar parser.jar examples/wsj_2300`
 
-Replace `wsj_2300` with the file you want to parse. The resulting pipe files would be in `./output/`. Check [config.properties](config.properties) for modifying the settings. 
+Replace the argument `examples/wsj_2300` with the file or the folder containing text files you want to parse. The resulting pipe and auxiliary files would be in a folder named `output` in each folder containing text files. Note that when the argument is a folder, the parser will search for files ending in `.txt` in the folder and all of it's subfolders.  
 
-
-### Parse a directory of files in batch mode
-Steps:
-
-1. Decide if you need level 1 or level 2 type relations. See [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf) for more info. 
-2. Download the parser:
-    - Level 1 zip file https://goo.gl/0W3aSi or 
-    - Level 2 zip file https://goo.gl/e2gp8t
-
-3. Unzip the file and from the unziped directory run: 
-
-* ```java -jar batch_parser.jar corpus```
-
-Replace `corpus` with the folder containing folders and text files you want to parse. Note **only** files ending in `.txt` will be parsed. The resulting pipe and auxiliary files would be in a folder named `pdtb_1` or `pdtb_2` (depending on the level), in each (sub)folder containing text files.
+If you want to use level 1 type of relations (for more info see [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf)) open the `config.properties` and change the `SEMANTIC_LEVEL` to `1` and the `MODEL_PATH` to `models/level_1/`. Check [config.properties](config.properties) for all the options. 
 
 
 ## PDTB Pipe Format

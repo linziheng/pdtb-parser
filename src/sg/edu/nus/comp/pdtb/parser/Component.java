@@ -15,7 +15,7 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -53,7 +53,7 @@ public abstract class Component {
 	public Component(String name, String className) {
 		log = LogManager.getLogger(className);
 		this.name = name;
-		this.modelFilePath = OUT_PATH + name + ".model";
+		this.modelFilePath = MODEL_PATH + name + ".model";
 		this.modelFile = new File(modelFilePath);
 	}
 
@@ -76,7 +76,7 @@ public abstract class Component {
 
 	public File test(File model, FeatureType featureType) throws IOException {
 		File testFile = printFeaturesToFile(featureType);
-		String fileName = Settings.OUT_PATH + this.name + featureType.toString() + ".out";
+		String fileName = Settings.MODEL_PATH + this.name + featureType.toString() + ".out";
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(fileName));
 
 		return outFile;
@@ -94,10 +94,10 @@ public abstract class Component {
 
 		String name = this.name + featureType.toString();
 
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 
 		log.info("Printing " + featureType + " features: ");
@@ -132,7 +132,7 @@ public abstract class Component {
 
 				if (featureType.isTestingType() && this.getClass().equals(ExplicitComp.class) && features.size() > 0) {
 					File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
-					String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+					String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 					new File(pipeDir).mkdirs();
 					makeExpPipeFile(pipeDir, articleOut, auxFile, file.getName());
 				}
@@ -188,7 +188,7 @@ public abstract class Component {
 	}
 
 	public File getGsFile(FeatureType type) {
-		this.gsFile = new File(OUT_PATH + name + type);
+		this.gsFile = new File(MODEL_PATH + name + type);
 		return gsFile;
 	}
 

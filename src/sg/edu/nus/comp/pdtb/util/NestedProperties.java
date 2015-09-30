@@ -76,7 +76,7 @@ public class NestedProperties {
 			throws NumberFormatException, IllegalArgumentException, IllegalAccessException {
 
 		if (field.getType().equals(int.class)) {
-			field.set(null, Integer.valueOf(value));
+			field.set(null, Integer.valueOf(value.trim()));
 		} else if (field.getType().equals(int[].class)) {
 			int[] intArray = toIntArray(value);
 			field.set(null, intArray);

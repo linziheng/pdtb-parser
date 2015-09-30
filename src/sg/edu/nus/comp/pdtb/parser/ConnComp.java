@@ -15,8 +15,8 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
-import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -84,16 +84,16 @@ public class ConnComp extends Component {
 
 	public ConnComp() {
 		super(NAME, ConnComp.class.getName());
-		this.gsFile = new File(OUT_PATH + NAME + ".gs");
+		this.gsFile = new File(MODEL_PATH + NAME + ".gs");
 
 	}
 
 	@Override
 	public File train() throws IOException {
 
-		File trainFile = new File(OUT_PATH + NAME + FeatureType.Training);
+		File trainFile = new File(MODEL_PATH + NAME + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
-		PrintWriter spansFile = new PrintWriter(OUT_PATH + NAME + ".spans" + FeatureType.Training);
+		PrintWriter spansFile = new PrintWriter(MODEL_PATH + NAME + ".spans" + FeatureType.Training);
 
 		log.info("Training:");
 		for (int section : Settings.TRAIN_SECTIONS) {
@@ -125,9 +125,9 @@ public class ConnComp extends Component {
 	}
 
 	public File trainBioDrb() throws IOException {
-		File trainFile = new File(OUT_PATH + NAME + FeatureType.Training);
+		File trainFile = new File(MODEL_PATH + NAME + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
-		PrintWriter spansFile = new PrintWriter(OUT_PATH + NAME + ".spans" + FeatureType.Training);
+		PrintWriter spansFile = new PrintWriter(MODEL_PATH + NAME + ".spans" + FeatureType.Training);
 
 		log.info("Training:");
 		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
@@ -165,7 +165,7 @@ public class ConnComp extends Component {
 
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
-		String filePath = TMP_PATH + inputFile.getName() + "." + NAME;
+		String filePath = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		File testFile = new File(filePath);
 		PrintWriter featureFile = new PrintWriter(testFile);
 		PrintWriter spansFile = new PrintWriter(filePath + ".spans");
@@ -188,10 +188,10 @@ public class ConnComp extends Component {
 
 	public File testBioDrb(FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
-		PrintWriter spansFile = new PrintWriter(OUT_PATH + name + ".spans");
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		PrintWriter spansFile = new PrintWriter(MODEL_PATH + name + ".spans");
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
 		log.info("Printing " + featureType + " features: ");
@@ -233,7 +233,7 @@ public class ConnComp extends Component {
 				articleSpans.close();
 
 				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
-				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 				new File(pipeDir).mkdirs();
 				makeBioPipeFile(pipeDir, articleOut, articleSpansFile, file.getName());
 			}
@@ -241,7 +241,7 @@ public class ConnComp extends Component {
 		featureFile.close();
 		spansFile.close();
 
-		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.MODEL_PATH + name + ".out"));
 
 		return outFile;
 	}
@@ -250,10 +250,10 @@ public class ConnComp extends Component {
 	public File test(File modelFile, FeatureType featureType) throws IOException {
 
 		String name = NAME + featureType.toString();
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
-		PrintWriter spansFile = new PrintWriter(OUT_PATH + name + ".spans");
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		PrintWriter spansFile = new PrintWriter(MODEL_PATH + name + ".spans");
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
 		log.info("Printing " + featureType + " features: ");
@@ -292,7 +292,7 @@ public class ConnComp extends Component {
 				articleSpans.close();
 
 				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
-				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 				new File(pipeDir).mkdirs();
 				makePipeFile(pipeDir, articleOut, articleSpansFile, file.getName());
 			}
@@ -300,7 +300,7 @@ public class ConnComp extends Component {
 		featureFile.close();
 		spansFile.close();
 
-		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.MODEL_PATH + name + ".out"));
 
 		return outFile;
 	}

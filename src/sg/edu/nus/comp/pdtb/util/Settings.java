@@ -117,15 +117,14 @@ public class Settings extends NestedProperties {
 	public static String WORD_PAIRS_FILE;
 
 	/**
-	 * Results directory.
+	 * Model directory.
 	 */
-	public static String OUT_PATH;
+	public static String MODEL_PATH;
 
 	/**
-	 * Directory for the generated parse and dependency trees generated when
-	 * parsing free text.
+	 * Name of the directory for the output produced by the parser.
 	 */
-	public static String TMP_PATH;
+	public static String OUTPUT_FOLDER_NAME;
 
 	/**
 	 * Path to the Stanford parser model "englishPCFG.ser.gz"
@@ -133,7 +132,7 @@ public class Settings extends NestedProperties {
 	public static String STANFORD_MODEL;
 
 	static {
-		String[] pathsToCreate = { OUT_PATH, TMP_PATH };
+		String[] pathsToCreate = { MODEL_PATH };
 
 		for (String path : pathsToCreate) {
 

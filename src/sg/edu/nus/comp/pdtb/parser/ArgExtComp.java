@@ -15,8 +15,8 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
-import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -67,7 +67,7 @@ public class ArgExtComp extends Component {
 
 	@Override
 	public File train() throws IOException {
-		File trainFile = new File(OUT_PATH + name + FeatureType.Training);
+		File trainFile = new File(MODEL_PATH + name + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 		log.info("Training:");
 
@@ -95,7 +95,7 @@ public class ArgExtComp extends Component {
 	};
 
 	public File trainBioDrb() throws IOException {
-		File trainFile = new File(OUT_PATH + name + FeatureType.Training);
+		File trainFile = new File(MODEL_PATH + name + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 		log.info("Training:");
 		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
@@ -129,12 +129,12 @@ public class ArgExtComp extends Component {
 	@Override
 	public File getGsFile(FeatureType featureType) {
 		String name = NAME + featureType.toString();
-		return new File(OUT_PATH + name + ".pipe");
+		return new File(MODEL_PATH + name + ".pipe");
 	}
 
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
-		String name = TMP_PATH + inputFile.getName() + "." + NAME;
+		String name = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		File featureFile = new File(name);
 		File auxFile = new File(name + ".aux");
 		File outFile = new File(name + ".out");
@@ -159,7 +159,7 @@ public class ArgExtComp extends Component {
 
 		MaxEntClassifier.predict(featureFile, modelFile, outFile);
 
-		File pipeFile = new File(TMP_PATH + inputFile.getName() + ".pipe");
+		File pipeFile = new File(OUTPUT_FOLDER_NAME + inputFile.getName() + ".pipe");
 		PrintWriter pipeWriter = new PrintWriter(pipeFile);
 
 		printAnyTxtPsArgs(pipeWriter, inputFile);
@@ -171,7 +171,7 @@ public class ArgExtComp extends Component {
 	}
 
 	private void printAnyTxtSsArgs(PrintWriter pipeWriter, File inputFile) throws IOException {
-		String name = TMP_PATH + inputFile.getName() + "." + NAME;
+		String name = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		List<String> explicitSpans = Corpus.getExplicitSpans(inputFile, FeatureType.AnyText);
 		Map<String, String> pipeHash = new HashMap<>();
 		for (String pipe : explicitSpans) {
@@ -349,9 +349,9 @@ public class ArgExtComp extends Component {
 	public File test(File model, FeatureType featureType) throws IOException {
 
 		String name = NAME + featureType.toString();
-		File featureFile = new File(OUT_PATH + name);
-		File pipeFile = new File(OUT_PATH + name + ".pipe");
-		File auxFile = new File(OUT_PATH + name + ".aux");
+		File featureFile = new File(MODEL_PATH + name);
+		File pipeFile = new File(MODEL_PATH + name + ".pipe");
+		File auxFile = new File(MODEL_PATH + name + ".aux");
 
 		PrintWriter featureWriter = new PrintWriter(featureFile);
 		PrintWriter pipeWriter = new PrintWriter(pipeFile);
@@ -381,10 +381,10 @@ public class ArgExtComp extends Component {
 		pipeWriter.close();
 		auxWriter.close();
 
-		MaxEntClassifier.predict(featureFile, modelFile, new File(OUT_PATH + name + ".out"));
+		MaxEntClassifier.predict(featureFile, modelFile, new File(MODEL_PATH + name + ".out"));
 		File outFile = generateArguments(featureType);
 
-		String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+		String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 		new File(pipeDir).mkdirs();
 		makePipeFile(pipeDir, outFile);
 
@@ -393,9 +393,9 @@ public class ArgExtComp extends Component {
 
 	public File testBioDrb(FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
-		File featureFile = new File(OUT_PATH + name);
-		File pipeFile = new File(OUT_PATH + name + ".pipe");
-		File auxFile = new File(OUT_PATH + name + ".aux");
+		File featureFile = new File(MODEL_PATH + name);
+		File pipeFile = new File(MODEL_PATH + name + ".pipe");
+		File auxFile = new File(MODEL_PATH + name + ".aux");
 
 		PrintWriter featureWriter = new PrintWriter(featureFile);
 		PrintWriter pipeWriter = new PrintWriter(pipeFile);
@@ -431,11 +431,11 @@ public class ArgExtComp extends Component {
 		pipeWriter.close();
 		auxWriter.close();
 
-		MaxEntClassifier.predict(featureFile, modelFile, new File(OUT_PATH + name + ".out"));
+		MaxEntClassifier.predict(featureFile, modelFile, new File(MODEL_PATH + name + ".out"));
 		log.info("Generating arguments");
 		File outFile = generateArguments(Type.BIO_DRB, featureType);
 
-		String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+		String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 		new File(pipeDir).mkdirs();
 		makeBioPipeFile(pipeDir, outFile);
 		return outFile;
@@ -450,9 +450,9 @@ public class ArgExtComp extends Component {
 		String path = "";
 
 		if (featureType == FeatureType.AnyText) {
-			path = Settings.TMP_PATH + inputFile.getName() + "." + ArgPosComp.NAME + ".out";
+			path = Settings.OUTPUT_FOLDER_NAME + inputFile.getName() + "." + ArgPosComp.NAME + ".out";
 		} else {
-			path = Settings.OUT_PATH + ArgPosComp.NAME + featureType + ".out";
+			path = Settings.MODEL_PATH + ArgPosComp.NAME + featureType + ".out";
 		}
 
 		List<String> list = new ArrayList<>();
@@ -624,8 +624,8 @@ public class ArgExtComp extends Component {
 					int total = (doneSoFar + features.size());
 					if (corpus.equals(Type.PDTB)) {
 						treeNum = featureType == FeatureType.AnyText ? cols[7] : getNodeNum(cols[23], featureType);
-						line = article.getName() + ":" + total + "-" + (total + internal.size())
-								+ ":Arg1(" + cols[22] + "):Arg2(" + cols[32] + "):" + cols[3];
+						line = article.getName() + ":" + total + "-" + (total + internal.size()) + ":Arg1(" + cols[22]
+								+ "):Arg2(" + cols[32] + "):" + cols[3];
 
 					} else {
 						treeNum = Corpus.spanToSenIds(cols[14], spanArray).getFirst().toString();
@@ -1001,7 +1001,7 @@ public class ArgExtComp extends Component {
 
 	public File generateArguments(Type corpus, FeatureType featureType) throws IOException {
 
-		File resultFile = new File(OUT_PATH + NAME + featureType.toString() + ".args");
+		File resultFile = new File(MODEL_PATH + NAME + featureType.toString() + ".args");
 		PrintWriter resultWriter = new PrintWriter(resultFile);
 		log.info("Printing same sentence arguments.");
 		printSsArgs(corpus, resultWriter, featureType);
@@ -1282,7 +1282,7 @@ public class ArgExtComp extends Component {
 
 	private void printSsArgs(Type corpus, PrintWriter resultWriter, FeatureType featureType) throws IOException {
 
-		String prefix = OUT_PATH + NAME + featureType.toString();
+		String prefix = MODEL_PATH + NAME + featureType.toString();
 		try (BufferedReader er = Util.reader(prefix + ".aux");
 				BufferedReader prd = Util.reader(prefix + ".out");
 				BufferedReader pp = Util.reader(prefix + ".pipe");

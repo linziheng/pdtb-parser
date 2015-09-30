@@ -805,7 +805,7 @@ public class Util {
 		int[] intArray = new int[values.length];
 
 		for (int i = 0; i < intArray.length; i++) {
-			intArray[i] = Integer.valueOf(values[i]);
+			intArray[i] = Integer.valueOf(values[i].trim());
 		}
 
 		return intArray;

@@ -17,6 +17,8 @@ package sg.edu.nus.comp.pdtb.util;
 
 import static sg.edu.nus.comp.pdtb.util.Settings.PTB_AUTO_TREE_PATH;
 import static sg.edu.nus.comp.pdtb.util.Settings.PTB_TREE_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -80,7 +82,7 @@ public class Corpus {
 			sb.append(".mrg");
 			path = sb.toString();
 		} else if (featureType == FeatureType.AnyText) {
-			path = Settings.TMP_PATH + article.getName() + ".ptree";
+			path = OUTPUT_FOLDER_NAME + article.getName() + ".ptree";
 		} else {
 			path = genTreePath(article, featureType) + ".mrg";
 		}
@@ -102,7 +104,7 @@ public class Corpus {
 
 		String path;
 		if (featureType == FeatureType.AnyText) {
-			path = Settings.TMP_PATH + article.getName() + ".ptree";
+			path = OUTPUT_FOLDER_NAME + article.getName() + ".ptree";
 		} else {
 			path = genTreePath(article, featureType) + ".mrg";
 		}
@@ -123,7 +125,7 @@ public class Corpus {
 	public static List<Tree> getBioTrees(File article, FeatureType featureType) throws IOException {
 		String path;
 		if (featureType == FeatureType.AnyText) {
-			path = Settings.TMP_PATH + article.getName() + ".ptree";
+			path = OUTPUT_FOLDER_NAME + article.getName() + ".ptree";
 		} else {
 			path = Settings.BIO_DRB_TREE_PATH + article.getName() + ".ptree";
 		}
@@ -288,8 +290,8 @@ public class Corpus {
 	}
 
 	private static List<String> genExplicitSpans(File article) throws IOException {
-		File spans = new File(Settings.TMP_PATH + article.getName() + "." + ConnComp.NAME + ".spans");
-		File outFile = new File(Settings.TMP_PATH + article.getName() + "." + ConnComp.NAME + ".out");
+		File spans = new File(OUTPUT_FOLDER_NAME + article.getName() + "." + ConnComp.NAME + ".spans");
+		File outFile = new File(OUTPUT_FOLDER_NAME + article.getName() + "." + ConnComp.NAME + ".out");
 		List<String> result = new ArrayList<>();
 		try (BufferedReader reader = Util.reader(spans); BufferedReader outReader = Util.reader(outFile)) {
 			String line;
@@ -374,8 +376,8 @@ public class Corpus {
 
 	private static Set<String> getEpSpans(File article, FeatureType featureType) throws IOException {
 
-		String spansFile = Settings.OUT_PATH + ConnComp.NAME;
-		String outFile = Settings.OUT_PATH + ConnComp.NAME;
+		String spansFile = MODEL_PATH + ConnComp.NAME;
+		String outFile = MODEL_PATH + ConnComp.NAME;
 
 		if (featureType == FeatureType.Auto) {
 			spansFile += ".auto.ep.spans";
@@ -445,8 +447,6 @@ public class Corpus {
 
 	public static String genEpP2ipePath(String articleFilename, FeatureType featureType) {
 		StringBuilder path = new StringBuilder();
-		// path.append(featureType == FeatureType.ErrorPropagation ?
-		// Settings.ARG_EXT_EP : Settings.ARG_EXT_AUTO);
 		path.append(articleFilename + ".pipe");
 
 		return path.toString();
@@ -505,7 +505,7 @@ public class Corpus {
 
 		String filePath;
 		if (featureType == FeatureType.AnyText) {
-			filePath = Settings.TMP_PATH + article.getName() + ".ptree.csv";
+			filePath = OUTPUT_FOLDER_NAME + article.getName() + ".ptree.csv";
 		} else {
 			filePath = genTreePath(article, featureType) + ".csv";
 		}
@@ -541,7 +541,7 @@ public class Corpus {
 
 		String filePath;
 		if (featureType == FeatureType.AnyText) {
-			filePath = Settings.TMP_PATH + article.getName() + ".ptree.csv";
+			filePath = OUTPUT_FOLDER_NAME + article.getName() + ".ptree.csv";
 		} else {
 			filePath = Settings.BIO_DRB_TREE_PATH + article.getName() + ".ptree.csv";
 		}
@@ -569,7 +569,7 @@ public class Corpus {
 
 		String filePath;
 		if (featureType == FeatureType.AnyText) {
-			filePath = Settings.TMP_PATH + article.getName() + ".ptree.csv";
+			filePath = OUTPUT_FOLDER_NAME + article.getName() + ".ptree.csv";
 		} else {
 			filePath = genTreePath(article, featureType) + ".csv";
 		}
@@ -590,7 +590,7 @@ public class Corpus {
 	public static ArrayList<String> getBioSpanMapAsList(File article, FeatureType featureType) throws IOException {
 		String filePath;
 		if (featureType == FeatureType.AnyText) {
-			filePath = Settings.TMP_PATH + article.getName() + ".ptree.csv";
+			filePath = OUTPUT_FOLDER_NAME + article.getName() + ".ptree.csv";
 		} else {
 			filePath = Settings.BIO_DRB_TREE_PATH + article.getName() + ".ptree.csv";
 		}
@@ -690,7 +690,7 @@ public class Corpus {
 	public static String[] getDependTrees(File article, FeatureType featureType) throws IOException {
 		String dtreeFilePath = "";
 		if (featureType == FeatureType.AnyText) {
-			dtreeFilePath = Settings.TMP_PATH + article.getName() + ".dtree";
+			dtreeFilePath = OUTPUT_FOLDER_NAME + article.getName() + ".dtree";
 		} else {
 			dtreeFilePath = genDependTreePath(article, featureType);
 		}
@@ -701,7 +701,7 @@ public class Corpus {
 	public static String[] getBioDependTrees(File article, FeatureType featureType) throws IOException {
 		String dtreeFilePath = "";
 		if (featureType == FeatureType.AnyText) {
-			dtreeFilePath = Settings.TMP_PATH + article.getName() + ".dtree";
+			dtreeFilePath = OUTPUT_FOLDER_NAME + article.getName() + ".dtree";
 		} else {
 			dtreeFilePath = Settings.BIO_DRB_TREE_PATH + article.getName() + ".dtree";
 		}
@@ -912,7 +912,7 @@ public class Corpus {
 	}
 
 	public static File[][] prepareParseAndDependecyTrees(File[] inputFiles) throws FileNotFoundException {
-		return prepareParseAndDependecyTrees(inputFiles, Settings.TMP_PATH);
+		return prepareParseAndDependecyTrees(inputFiles, OUTPUT_FOLDER_NAME);
 	}
 
 	public static File[][] prepareParseAndDependecyTrees(File[] inputFiles, String outPath)

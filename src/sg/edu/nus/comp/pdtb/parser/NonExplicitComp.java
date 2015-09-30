@@ -15,8 +15,8 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
-import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -124,10 +124,10 @@ public class NonExplicitComp extends Component {
 	@Override
 	public File test(File model, FeatureType featureType) throws IOException {
 		String name = this.name + featureType.toString();
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
 		log.info("Testing (" + featureType + "):");
@@ -164,15 +164,15 @@ public class NonExplicitComp extends Component {
 				articleAuxWriter.close();
 
 				File articleOut = MaxEntClassifier.predict(testFile, modelFile,
-						new File(Settings.OUT_PATH + name + ".out"));
-				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+						new File(Settings.MODEL_PATH + name + ".out"));
+				String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 				new File(pipeDir).mkdirs();
 				makePipeFile(pipeDir, articleOut, articleAux, file.getName());
 			}
 		}
 		featureFile.close();
 
-		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.MODEL_PATH + name + ".out"));
 
 		return outFile;
 	}
@@ -413,11 +413,11 @@ public class NonExplicitComp extends Component {
 	private List<String> getEpRelations(File article, FeatureType featureType) throws IOException {
 		StringBuilder path = new StringBuilder();
 		if (featureType == FeatureType.AnyText) {
-			path.append(Settings.TMP_PATH);
+			path.append(Settings.OUTPUT_FOLDER_NAME);
 			path.append(article.getName());
 			path.append(".pipe");
 		} else {
-			path.append(OUT_PATH);
+			path.append(MODEL_PATH);
 			path.append("pipes");
 			path.append(featureType.toString().replace('.', '_'));
 			path.append('/');
@@ -1154,7 +1154,7 @@ public class NonExplicitComp extends Component {
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
 
-		String filePath = TMP_PATH + inputFile.getName() + "." + NAME;
+		String filePath = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		File testFile = new File(filePath);
 
 		PrintWriter featureFile = new PrintWriter(testFile);
@@ -1204,7 +1204,7 @@ public class NonExplicitComp extends Component {
 
 		String name = this.name + featureType.toString();
 
-		File trainFile = new File(OUT_PATH + name);
+		File trainFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 
 		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
@@ -1238,10 +1238,10 @@ public class NonExplicitComp extends Component {
 		corpus = Type.BIO_DRB;
 		String name = this.name + featureType.toString();
 
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
 		log.info("Testing (" + featureType + "):");
@@ -1278,13 +1278,13 @@ public class NonExplicitComp extends Component {
 				articleAuxWriter.close();
 
 				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
-				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 				new File(pipeDir).mkdirs();
 				makeBioPipeFile(pipeDir, articleOut, articleAux, file.getName());
 			}
 		}
 		featureFile.close();
-		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.MODEL_PATH + name + ".out"));
 
 		return outFile;
 	}

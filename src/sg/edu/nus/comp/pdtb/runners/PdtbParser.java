@@ -15,6 +15,8 @@
 
 package sg.edu.nus.comp.pdtb.runners;
 
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
@@ -22,6 +24,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Stack;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,6 +36,7 @@ import sg.edu.nus.comp.pdtb.parser.ConnComp;
 import sg.edu.nus.comp.pdtb.parser.ExplicitComp;
 import sg.edu.nus.comp.pdtb.parser.NonExplicitComp;
 import sg.edu.nus.comp.pdtb.util.Corpus;
+import sg.edu.nus.comp.pdtb.util.Settings;
 import sg.edu.nus.comp.pdtb.util.Util;
 
 public class PdtbParser {
@@ -41,11 +45,50 @@ public class PdtbParser {
 	public static void main(String[] args) throws IOException {
 
 		if (args.length < 1) {
-			System.out.println("Please supply the path to a text file you want to parse. ");
+			log.error("Please supply path to a text file or directory containging .txt files. ");
 		} else {
-			String testFilePath = args[0];
-			File inputFile = new File(testFilePath);
-			parseFile(inputFile, true);
+			File inputFile = new File(args[0]);
+			if (inputFile.exists()) {
+				if (inputFile.isDirectory()) {
+					doBatchParsing(inputFile);
+				} else {
+					OUTPUT_FOLDER_NAME = inputFile.getParentFile().getAbsolutePath() + "/" + OUTPUT_FOLDER_NAME;
+					new File(OUTPUT_FOLDER_NAME).mkdir();
+					log.info("Parsing file " + inputFile);
+					parseFile(inputFile, true);
+				}
+			} else {
+				log.error("File " + inputFile + " does not exists. ");
+			}
+		}
+	}
+
+	private static void doBatchParsing(File topDirectory) throws IOException {
+		String outputFolder = OUTPUT_FOLDER_NAME;
+		Stack<File> dirs = new Stack<>();
+		dirs.add(topDirectory);
+		while (dirs.size() > 0) {
+			File currentDir = dirs.pop();
+			log.info("Working in " + currentDir);
+			File[] files = currentDir.listFiles();
+			for (File file : files) {
+				if (file.isDirectory()) {
+					log.info("Adding directory " + file + " to queue.");
+					dirs.push(file);
+				} else {
+					if (file.getName().endsWith(".txt")) {
+						OUTPUT_FOLDER_NAME = file.getParentFile().getAbsolutePath() + "/" + outputFolder;
+						new File(OUTPUT_FOLDER_NAME).mkdir();
+
+						if (!(new File(Settings.OUTPUT_FOLDER_NAME + file.getName() + ".pipe").exists())) {
+							log.info("Parsing file " + file);
+							PdtbParser.parseFile(file, true);
+						} else {
+							log.info("Pipe aldready exists, skipping " + file);
+						}
+					}
+				}
+			}
 		}
 	}
 

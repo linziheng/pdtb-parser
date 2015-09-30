@@ -18,8 +18,8 @@
  */
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
-import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -302,7 +302,7 @@ public class ArgPosComp extends Component {
 
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
-		String filePath = TMP_PATH + inputFile.getName() + "." + NAME;
+		String filePath = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		File testFile = new File(filePath);
 		PrintWriter featureFile = new PrintWriter(testFile);
 		List<String[]> features = generateFeatures(inputFile, FeatureType.AnyText);
@@ -318,7 +318,7 @@ public class ArgPosComp extends Component {
 		FeatureType featureType = FeatureType.Training;
 		String name = this.name + featureType.toString();
 
-		File trainFile = new File(OUT_PATH + name);
+		File trainFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 
 		log.info("Trainig: ");
@@ -349,10 +349,10 @@ public class ArgPosComp extends Component {
 	public File testBioDrb(FeatureType featureType) throws IOException {
 		String name = this.name + featureType.toString();
 
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
 
 		log.info("Testing: ");
@@ -386,7 +386,7 @@ public class ArgPosComp extends Component {
 		}
 		featureFile.close();
 
-		String fileName = Settings.OUT_PATH + this.name + featureType.toString() + ".out";
+		String fileName = Settings.MODEL_PATH + this.name + featureType.toString() + ".out";
 		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(fileName));
 
 		return outFile;

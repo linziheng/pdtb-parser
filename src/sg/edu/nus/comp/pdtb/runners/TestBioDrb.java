@@ -29,7 +29,7 @@ public class TestBioDrb {
 
 	public static void main(String[] args) throws IOException {
 		FeatureType[] testingsTypes = FeatureType.testingValues();
-		String topOutPath = Settings.OUT_PATH;
+		String topOutPath = Settings.MODEL_PATH;
 		for (FeatureType featureType : testingsTypes) {
 
 			int crossValidationK = 10;
@@ -39,8 +39,8 @@ public class TestBioDrb {
 
 				splitSets(k);
 
-				Settings.OUT_PATH = topOutPath + "CV_" + k + "/";
-				new File(Settings.OUT_PATH).mkdirs();
+				Settings.MODEL_PATH = topOutPath + "CV_" + k + "/";
+				new File(Settings.MODEL_PATH).mkdirs();
 
 				log.info("Testing on " + featureType);
 
@@ -58,8 +58,7 @@ public class TestBioDrb {
 				Result connScore = scorer.connBio(connective.getGsFile(featureType), connResult);
 
 				scorer.prdExplicit = connScore.tp + connScore.fp;
-				
-				
+
 				log.info("Acc:" + connScore.print(connScore.acc));
 				log.info("F1:" + connScore.print(connScore.f1));
 

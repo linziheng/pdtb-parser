@@ -15,8 +15,8 @@
 
 package sg.edu.nus.comp.pdtb.parser;
 
-import static sg.edu.nus.comp.pdtb.util.Settings.OUT_PATH;
-import static sg.edu.nus.comp.pdtb.util.Settings.TMP_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.MODEL_PATH;
+import static sg.edu.nus.comp.pdtb.util.Settings.OUTPUT_FOLDER_NAME;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -221,7 +221,7 @@ public class ExplicitComp extends Component {
 
 	@Override
 	public File parseAnyText(File modelFile, File inputFile) throws IOException {
-		String filePath = TMP_PATH + inputFile.getName() + "." + NAME;
+		String filePath = OUTPUT_FOLDER_NAME + inputFile.getName() + "." + NAME;
 		File testFile = new File(filePath);
 		PrintWriter featureFile = new PrintWriter(testFile);
 		List<String[]> features = generateFeatures(inputFile, FeatureType.AnyText);
@@ -252,7 +252,7 @@ public class ExplicitComp extends Component {
 
 		String name = this.name + featureType.toString();
 
-		File trainFile = new File(OUT_PATH + name);
+		File trainFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 
 		File[] files = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
@@ -291,9 +291,9 @@ public class ExplicitComp extends Component {
 
 	public File testBioDrb(FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
-		File testFile = new File(OUT_PATH + name);
+		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
-		String dir = OUT_PATH + name.replace('.', '_') + "/";
+		String dir = MODEL_PATH + name.replace('.', '_') + "/";
 		new File(dir).mkdirs();
 
 		log.info("Printing " + featureType + " features: ");
@@ -330,14 +330,14 @@ public class ExplicitComp extends Component {
 				auxFileWriter.close();
 
 				File articleOut = MaxEntClassifier.predict(articleTest, modelFile, new File(articleName + ".out"));
-				String pipeDir = OUT_PATH + "pipes" + featureType.toString().replace('.', '_');
+				String pipeDir = MODEL_PATH + "pipes" + featureType.toString().replace('.', '_');
 				new File(pipeDir).mkdirs();
 				makeExpBioPipeFile(pipeDir, articleOut, auxFile, file.getName());
 			}
 		}
 		featureFile.close();
 
-		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.OUT_PATH + name + ".out"));
+		File outFile = MaxEntClassifier.predict(testFile, modelFile, new File(Settings.MODEL_PATH + name + ".out"));
 
 		return outFile;
 	}
