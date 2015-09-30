@@ -16,7 +16,7 @@ Requires Java 1.7+.
 1. Download the parser from [here](https://goo.gl/jswekL).
 2. Extract the file with:   
 `tar -xzvf  pdtb-parser.tar.gz ` (on Windows do [this](http://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows))
-3. From the extracted `pdtb-parser` folder run:    
+3. From the extracted `pdtb-parser` folder run in terminal or command prompt:    
  `java -jar parser.jar examples/wsj_2300.txt`
 
 Replace the argument `examples/wsj_2300.txt` with the file or the folder containing text files you want to parse. The resulting pipe and auxiliary files would be in a folder named `output` in each folder containing text files. Note that when the argument is a folder, the parser will search for files ending in `.txt` in the folder and all of it's subfolders.  
@@ -33,7 +33,7 @@ Check [config.properties](config.properties) for all the options.
 3. Open the extracted folder `biodrb-parser`
 4. Unzip `BioDRB_corpus.zip`
 5. Check in `config.properties` if the paths to the corpus are correct. `BIO_DRB_RAW_PATH` should point to `GeniaRaw/Genia/` and `BIO_DRB_ANN_PATH` to `GeniaAnn/Genia/`. The `BIO_DRB_TREE_PATH` will be created by the parser. 
-6. From the extracted `biodrb-parser` folder run:    
+6. From the extracted `biodrb-parser` folder run in terminal or command prompt:    
  `java -jar parser.jar [program_arguments]`
 
 Program arguments can be one of the following:
