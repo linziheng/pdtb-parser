@@ -13,7 +13,7 @@ Requires Java 1.7+.
 
 ## Usage
 
-1. Download the parser zip file from [here](http://bit.ly/pdtb-parser).
+1. Download the parser zip file from [here](https://goo.gl/jswekL).
 2. Unzip the file and from the unziped directory run: 
     
  `java -jar parser.jar examples/wsj_2300`
