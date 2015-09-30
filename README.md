@@ -17,9 +17,9 @@ Requires Java 1.7+.
 2. Extract the file with:   
 `tar -xzvf  pdtb-parser.tar.gz `
 3. From the extracted `pdtb-parser` folder run:    
- `java -jar parser.jar examples/wsj_2300`
+ `java -jar parser.jar examples/wsj_2300.txt`
 
-Replace the argument `examples/wsj_2300` with the file or the folder containing text files you want to parse. The resulting pipe and auxiliary files would be in a folder named `output` in each folder containing text files. Note that when the argument is a folder, the parser will search for files ending in `.txt` in the folder and all of it's subfolders.  
+Replace the argument `examples/wsj_2300.txt` with the file or the folder containing text files you want to parse. The resulting pipe and auxiliary files would be in a folder named `output` in each folder containing text files. Note that when the argument is a folder, the parser will search for files ending in `.txt` in the folder and all of it's subfolders.  
 
 If you want to use level 1 type of relations (for more info see [this](sense_levels.png) or read the [PDTB 2.0 annotation manual](http://www.seas.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf)) open the `config.properties` and set `SEMANTIC_LEVEL=1` and `MODEL_PATH=models/level_1/`. 
 Check [config.properties](config.properties) for all the options. 
