@@ -18,6 +18,7 @@ package sg.edu.nus.comp.pdtb.runners;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -46,6 +47,20 @@ public class SpanTreeExtractor {
 
 		expSpansGen(Settings.PTB_TREE_PATH, Settings.PDTB_PATH);
 		textToSpanGen(Settings.PTB_TREE_PATH, Settings.PTB_RAW_PATH);
+		createPdtbDependTrees(Settings.PTB_RAW_PATH, Settings.DEPEND_TREE_PATH);
+
+	}
+
+	private static void createPdtbDependTrees(String ptbTextDir, String ptbDependOutDir) throws FileNotFoundException {
+		File[] folders = new File(ptbTextDir).listFiles();
+		for (File folder : folders) {
+			if (folder.isDirectory()) {
+				String outDir = ptbDependOutDir + folder.getName() + "/";
+				new File(outDir).mkdirs();
+				File[] files = folder.listFiles();
+				Corpus.prepareParseAndDependecyTrees(files, outDir);
+			}
+		}
 	}
 
 	public static void textToSpanSharedTask(String treePath) throws IOException {
@@ -544,7 +559,6 @@ public class SpanTreeExtractor {
 								}
 
 								if (fileName.equals("wsj_2320") && (index == 474 || index == 3180)) {
-
 									continue;
 								}
 
@@ -589,71 +603,72 @@ public class SpanTreeExtractor {
 							}
 
 							int span = orgText.indexOf(word, index);
-							while (span == -1) {
-								if (fileName.equals("wsj_0110") && word.equals("7/16")) {
-									word = "7/ 16";
+							if (fileName.equals("wsj_0110") && word.equals("7/16")) {
+								word = "7/ 16";
+							}
+							if (fileName.equals("wsj_0111") && word.equals("Rey/Fawcett")) {
+								word = "Rey/ Fawcett";
+							}
+							if (fileName.equals("wsj_0162") && word.equals("International")) {
+								word = "In< ternational";
+							}
+							if (fileName.equals("wsj_0359") && word.equals("Stovall/Twenty-First")) {
+								word = "Stovall/ Twenty-First";
+							}
+							if (fileName.equals("wsj_0400") && word.equals("16/32")) {
+								word = "16/ 32";
+							}
+							if (fileName.equals("wsj_0463") && word.equals("G.m.b.H.")) {
+								word = "G.m.b.\nH.";
+							}
+							if (fileName.matches("wsj_(0660|1368|1371)")
+									&& word.matches("S\\.p\\.A\\.?(-controlled)?")) {
+								word = word.replaceAll("S\\.p\\.A", "S.p.\nA");
+							}
+							if (fileName.equals("wsj_0911") && word.equals("mystery/comedy")) {
+								word = "mystery/ comedy";
+							}
+							if (fileName.matches("wsj_(0917|1329)") && word.equals("G.m.b.H.")) {
+								word = "G.m.b.\nH.";
+							}
+							if (fileName.equals("wsj_0998") && word.equals("Co.")) {
+								word = "Co,.";
+							}
+							if (fileName.equals("wsj_1237") && word.equals("Bard/EMS")) {
+								word = "Bard/ EMS";
+							}
+							if (fileName.equals("wsj_1457")) {
+								if (word.equals("fancy'shvartzer")) {
+									word = "fancy 'shvartzer";
+								} else if (word.equals("the'breakup")) {
+									word = "the 'breakup";
 								}
-								if (fileName.equals("wsj_0111") && word.equals("Rey/Fawcett")) {
-									word = "Rey/ Fawcett";
-								}
-								if (fileName.equals("wsj_0162") && word.equals("International")) {
-									word = "In< ternational";
-								}
-								if (fileName.equals("wsj_0359") && word.equals("Stovall/Twenty-First")) {
-									word = "Stovall/ Twenty-First";
-								}
-								if (fileName.equals("wsj_0400") && word.equals("16/32")) {
-									word = "16/ 32";
-								}
-								if (fileName.equals("wsj_0463") && word.equals("G.m.b.H.")) {
-									word = "G.m.b.\nH.";
-								}
-								if (fileName.matches("wsj_(0660|1368|1371)")
-										&& word.matches("S\\.p\\.A\\.?(-controlled)?")) {
-									word = word.replaceAll("S\\.p\\.A", "S.p.\nA");
-								}
-								if (fileName.equals("wsj_0911") && word.equals("mystery/comedy")) {
-									word = "mystery/ comedy";
-								}
-								if (fileName.matches("wsj_(0917|1329)") && word.equals("G.m.b.H.")) {
-									word = "G.m.b.\nH.";
-								}
-								if (fileName.equals("wsj_0998") && word.equals("Co.")) {
-									word = "Co,.";
-								}
-								if (fileName.equals("wsj_1237") && word.equals("Bard/EMS")) {
-									word = "Bard/ EMS";
-								}
-								if (fileName.equals("wsj_1457")) {
-									if (word.equals("fancy'shvartzer")) {
-										word = "fancy 'shvartzer";
-									} else if (word.equals("the'breakup")) {
-										word = "the 'breakup";
-									}
-								}
-								if (fileName.equals("wsj_1503") && word.equals("Gaming")) {
-									word = "gaming";
-								}
-								if (fileName.equals("wsj_1568") && word.equals(". . .")) {
-									word = "...";
-								}
-								if (fileName.equals("wsj_1583") && word.equals("'T-")) {
-									word = "'T";
-								}
-								if (fileName.equals("wsj_1625") && word.equals("staff")) {
-									word = "staf";
-								}
-								if (fileName.equals("wsj_1773") && word.equals("H.F.")) {
-									word = "H. F.";
-								}
+							}
+							if (fileName.equals("wsj_1503") && word.equals("Gaming")) {
+								word = "gaming";
+							}
+							if (fileName.equals("wsj_1568") && word.equals(". . .")) {
+								word = "...";
+							}
+							if (fileName.equals("wsj_1583") && word.equals("'T-")) {
+								word = "'T";
+							}
+							if (fileName.equals("wsj_1625") && word.equals("staff")) {
+								word = "staf";
+							}
+							if (fileName.equals("wsj_1773") && word.equals("H.F.")) {
+								word = "H. F.";
+							}
 
-								span = orgText.indexOf(word, index);
+							span = orgText.indexOf(word, index);
 
-								if (fileName.equals("wsj_2170") && index == 7227 && word.equals("'s")) {
-									span = 7227;
-									word = "";
-								}
+							if (fileName.equals("wsj_2170") && index == 7227 && word.equals("'s")) {
+								span = 7227;
+								word = "";
+							}
 
+							if (span == -1) {
+								continue;
 							}
 
 							if (span - index > 1) {
