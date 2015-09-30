@@ -15,7 +15,7 @@ Requires Java 1.7+. Tested only on Mac and Linux OS.
 
 1. Download the parser from [here](https://goo.gl/jswekL).
 2. Extract the file with:   
-`tar -xzvf  pdtb-parser.tar.gz ` (on Windows do [this](http://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows))
+`tar -xzvf  pdtb-parser.tar.gz ` 
 3. From the extracted `pdtb-parser` folder run in terminal or command prompt:    
  `java -jar parser.jar examples/wsj_2300.txt`
 
@@ -29,10 +29,9 @@ Check [config.properties](config.properties) for all the options.
 
 1. Download the BioDRB parser from [here](https://goo.gl/Fhj5Nr).
 2. Extract the file with:   
-`tar -xzvf  biodrb-parser.tar.gz ` (on Windows do [this](http://superuser.com/questions/215629/how-to-open-a-tar-gz-file-in-windows)) 
-3. Open the extracted folder `biodrb-parser`
-4. Unzip `BioDRB_corpus.zip`
-5. Check in `config.properties` if the paths to the corpus are correct. `BIO_DRB_RAW_PATH` should point to `GeniaRaw/Genia/` and `BIO_DRB_ANN_PATH` to `GeniaAnn/Genia/`. The `BIO_DRB_TREE_PATH` will be created by the parser. 
+`tar -xzvf  biodrb-parser.tar.gz ` 
+3. In the extracted folder `biodrb-parser` unzip the `BioDRB_corpus.zip` file
+4. Check in `config.properties` if the paths to the corpus are correct. `BIO_DRB_RAW_PATH` should point to `GeniaRaw/Genia/` and `BIO_DRB_ANN_PATH` to `GeniaAnn/Genia/`. The `BIO_DRB_TREE_PATH` will be created by the parser. 
 6. From the extracted `biodrb-parser` folder run in terminal or command prompt:    
  `java -jar parser.jar [program_arguments]`
 

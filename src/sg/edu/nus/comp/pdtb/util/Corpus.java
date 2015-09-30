@@ -953,7 +953,9 @@ public class Corpus {
 			TreePrint td = new TreePrint("typedDependencies");
 
 			DocumentPreprocessor sentence = new DocumentPreprocessor(inputFile.toString());
+			int lineNumber = 0;
 			for (List<HasWord> sent : sentence) {
+				log.info("Parsing line:" + lineNumber);
 				log.trace("Parsing: " + sent);
 				Tree tree = lp.apply(sent);
 
@@ -962,6 +964,7 @@ public class Corpus {
 
 				td.printTree(tree, depend);
 				depend.flush();
+				++lineNumber;
 			}
 			parse.close();
 			depend.close();
