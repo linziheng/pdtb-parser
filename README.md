@@ -122,10 +122,12 @@ There are 27 columns, however only 7 are used.
  - Col 14: (Sets of) Text span offset for Arg1
  - Col 20: (Sets of) Text span offset for Arg2
 
-For more details:
+More details at:
 
 <cite>Prasad R, McRoy S, Frid N,  Joshi A and Yu H. 2011. BioDRB: The Biomedical Discourse Relation Bank. BMC Bioinformatics </cite>
 
+Example relation:
+`Explicit|258..260|Wr|Comm|Null|Null|||Purpose.Enablement||||||182..257|Inh|Null|Null|Null||261..298|Inh|Null|Null|Null||`
 
 ## External libraries used
 
