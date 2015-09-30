@@ -63,6 +63,7 @@ public class NestedProperties {
 				if (classFields.containsKey(key)) {
 					Field field = classFields.get(key);
 					setFieldValue(field, value);
+					log.info(field.getName() + " : " + value);
 				}
 			}
 			log.info("Done loading properties.");

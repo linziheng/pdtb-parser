@@ -21,123 +21,118 @@ public class ScorePdtbOnBioDrb {
 
 	private static Logger log = LogManager.getLogger(ScorePdtbOnBioDrb.class.toString());
 
-	public static void main(String[] args) throws IOException {
+	public static void runScorer(String pdtbFolder, String bioDrbFolder) throws IOException {
+		File[] pdtbPipes = new File(pdtbFolder).listFiles(PIPE_FILTER);
+		File[] tmpPipes = new File(bioDrbFolder).listFiles(PIPE_FILTER);
 
-		if (args.length > 1) {
-			File[] pdtbPipes = new File(args[0]).listFiles(PIPE_FILTER);
-			File[] tmpPipes = new File(args[1]).listFiles(PIPE_FILTER);
+		Map<String, File> bioPipes = new HashMap<>();
+		for (File file : tmpPipes) {
+			bioPipes.put(file.getName(), file);
+		}
 
-			Map<String, File> bioPipes = new HashMap<>();
-			for (File file : tmpPipes) {
-				bioPipes.put(file.getName(), file);
-			}
+		int gsExplicit = 2636;
+		int gsNonExplicit = 3001 + 193 + 29; // implicit + altlex + norel
 
-			int gsExplicit = 2636;
-			int gsNonExplicit = 3001 + 193 + 29; // implicit + altlex + norel
+		int predExplicit = 0;
+		int predNonExplicit = 0;
 
-			int predExplicit = 0;
-			int predNonExplicit = 0;
+		int correctConnective = 0;
+		int correctArg1Exact = 0;
+		int correctArg2Exact = 0;
+		int correctArg12Exact = 0;
+		int correctExplicit = 0;
+		int correctNonExplicit = 0;
 
-			int correctConnective = 0;
-			int correctArg1Exact = 0;
-			int correctArg2Exact = 0;
-			int correctArg12Exact = 0;
-			int correctExplicit = 0;
-			int correctNonExplicit = 0;
+		for (File pdtbPipe : pdtbPipes) {
 
-			for (File pdtbPipe : pdtbPipes) {
+			File bioPipeFile = bioPipes.get(pdtbPipe.getName());
+			String[] bioTemp = Util.readFile(bioPipeFile).split(Util.NEW_LINE);
 
-				File bioPipeFile = bioPipes.get(pdtbPipe.getName());
-				String[] bioTemp = Util.readFile(bioPipeFile).split(Util.NEW_LINE);
+			Map<String, String> explicitSpans = extractExplicit(bioTemp);
+			String[] bioNonExplicit = extractNonExplicit(bioTemp);
 
-				Map<String, String> explicitSpans = extractExplicit(bioTemp);
-				String[] bioNonExplicit = extractNonExplicit(bioTemp);
+			String[] pipes = Util.readFile(pdtbPipe).split(Util.NEW_LINE);
 
-				String[] pipes = Util.readFile(pdtbPipe).split(Util.NEW_LINE);
+			for (String pipe : pipes) {
+				String[] columns = pipe.split("\\|", -1);
 
-				for (String pipe : pipes) {
-					String[] columns = pipe.split("\\|", -1);
+				String type = columns[0];
+				String connective = columns[3];
+				String sense = columns[11];
+				String arg1 = columns[22];
+				String arg2 = columns[32];
 
-					String type = columns[0];
-					String connective = columns[3];
-					String sense = columns[11];
-					String arg1 = columns[22];
-					String arg2 = columns[32];
+				if (type.equals("Explicit")) {
+					++predExplicit;
 
-					if (type.equals("Explicit")) {
-						++predExplicit;
+					String bioPipe = explicitSpans.get(connective);
+					if (bioPipe != null) {
+						++correctConnective;
+						String[] bioColumns = bioPipe.split("\\|", -1);
+						String bioSense = bioColumns[8];
+						String bioArg1 = bioColumns[14];
+						String bioArg2 = bioColumns[20];
 
-						String bioPipe = explicitSpans.get(connective);
-						if (bioPipe != null) {
-							++correctConnective;
-							String[] bioColumns = bioPipe.split("\\|", -1);
-							String bioSense = bioColumns[8];
-							String bioArg1 = bioColumns[14];
-							String bioArg2 = bioColumns[20];
+						boolean senseMatch = compareSense(sense, bioSense);
+						boolean arg1Match = compareArg(arg1, bioArg1);
+						boolean arg2Match = compareArg(arg2, bioArg2);
 
-							boolean senseMatch = compareSense(sense, bioSense);
-							boolean arg1Match = compareArg(arg1, bioArg1);
-							boolean arg2Match = compareArg(arg2, bioArg2);
-
-							if (senseMatch) {
-								++correctExplicit;
-							}
-							if (arg1Match) {
-								++correctArg1Exact;
-							}
-							if (arg2Match) {
-								++correctArg2Exact;
-							}
-							if (arg1Match && arg2Match) {
-								++correctArg12Exact;
-							}
+						if (senseMatch) {
+							++correctExplicit;
 						}
-					} else {
-						++predNonExplicit;
-						// search for pipes
-						for (String bioPipe : bioNonExplicit) {
-							String[] bioColumns = bioPipe.split("\\|", -1);
+						if (arg1Match) {
+							++correctArg1Exact;
+						}
+						if (arg2Match) {
+							++correctArg2Exact;
+						}
+						if (arg1Match && arg2Match) {
+							++correctArg12Exact;
+						}
+					}
+				} else {
+					++predNonExplicit;
+					// search for pipes
+					for (String bioPipe : bioNonExplicit) {
+						String[] bioColumns = bioPipe.split("\\|", -1);
 
-							String bioSense = bioColumns[8];
-							String bioArg1 = bioColumns[14];
-							String bioArg2 = bioColumns[20];
+						String bioSense = bioColumns[8];
+						String bioArg1 = bioColumns[14];
+						String bioArg2 = bioColumns[20];
 
-							boolean arg1Match = compareArg(arg1, bioArg1);
-							boolean arg2Match = compareArg(arg2, bioArg2);
+						boolean arg1Match = compareArg(arg1, bioArg1);
+						boolean arg2Match = compareArg(arg2, bioArg2);
 
-							if (arg1Match && arg2Match) {
-								boolean senseMatch = compareSense(sense, bioSense);
-								if (senseMatch) {
-									++correctNonExplicit;
-								}
+						if (arg1Match && arg2Match) {
+							boolean senseMatch = compareSense(sense, bioSense);
+							if (senseMatch) {
+								++correctNonExplicit;
 							}
 						}
 					}
 				}
 			}
-
-			log.info("Scores");
-			log.info("Connective");
-			log.info(Result.calcResults(gsExplicit, predExplicit, correctConnective).printAll());
-
-			log.info("Argument 1 Exact");
-			log.info(Result.calcResults(gsExplicit, predExplicit, correctArg1Exact).printAll());
-
-			log.info("Argument 2 Exact");
-			log.info(Result.calcResults(gsExplicit, predExplicit, correctArg2Exact).printAll());
-
-			log.info("Both Arguments Exact");
-			log.info(Result.calcResults(gsExplicit, predExplicit, correctArg12Exact).printAll());
-
-			log.info("Explicit Sense");
-			log.info(Result.calcResults(gsExplicit, predExplicit, correctExplicit).printAll());
-
-			log.info("NonExplicit (Implicit, AltLex and NoRel) Sense");
-			log.info(Result.calcResults(gsNonExplicit, predNonExplicit, correctNonExplicit).printAll());
-
-		} else {
-			log.error("Please supply the pdtb pipes directory and bio pipes directory as program arguments.");
 		}
+
+		log.info("Scores");
+		log.info("Connective");
+		log.info(Result.calcResults(gsExplicit, predExplicit, correctConnective).printAll());
+
+		log.info("Argument 1 Exact");
+		log.info(Result.calcResults(gsExplicit, predExplicit, correctArg1Exact).printAll());
+
+		log.info("Argument 2 Exact");
+		log.info(Result.calcResults(gsExplicit, predExplicit, correctArg2Exact).printAll());
+
+		log.info("Both Arguments Exact");
+		log.info(Result.calcResults(gsExplicit, predExplicit, correctArg12Exact).printAll());
+
+		log.info("Explicit Sense");
+		log.info(Result.calcResults(gsExplicit, predExplicit, correctExplicit).printAll());
+
+		log.info("NonExplicit (Implicit, AltLex and NoRel) Sense");
+		log.info(Result.calcResults(gsNonExplicit, predNonExplicit, correctNonExplicit).printAll());
+
 	}
 
 	private static boolean compareArg(String thisArg, String thatArg) {

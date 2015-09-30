@@ -34,7 +34,6 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
-import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
@@ -314,7 +313,7 @@ public class ArgPosComp extends Component {
 		return outFile;
 	}
 
-	public File trainBioDrb() throws IOException {
+	public File trainBioDrb(Set<String> trainSet) throws IOException {
 		FeatureType featureType = FeatureType.Training;
 		String name = this.name + featureType.toString();
 
@@ -331,7 +330,7 @@ public class ArgPosComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.trainSet.contains(file.getName())) {
+			if (trainSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
 				for (String[] feature : features) {
@@ -346,7 +345,7 @@ public class ArgPosComp extends Component {
 		return modelFile;
 	}
 
-	public File testBioDrb(FeatureType featureType) throws IOException {
+	public File testBioDrb(Set<String> testSet, FeatureType featureType) throws IOException {
 		String name = this.name + featureType.toString();
 
 		String dir = MODEL_PATH + name.replace('.', '_') + "/";
@@ -365,7 +364,7 @@ public class ArgPosComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.testSet.contains(file.getName())) {
+			if (testSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				String articleName = dir + file.getName();

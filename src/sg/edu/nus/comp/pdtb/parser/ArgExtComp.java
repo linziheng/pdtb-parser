@@ -38,7 +38,6 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
-import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
@@ -94,7 +93,7 @@ public class ArgExtComp extends Component {
 		return modelFile;
 	};
 
-	public File trainBioDrb() throws IOException {
+	public File trainBioDrb(Set<String> trainSet) throws IOException {
 		File trainFile = new File(MODEL_PATH + name + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 		log.info("Training:");
@@ -107,7 +106,7 @@ public class ArgExtComp extends Component {
 		});
 
 		for (File article : files) {
-			if (TestBioDrb.trainSet.contains(article.getName())) {
+			if (trainSet.contains(article.getName())) {
 				log.trace("Article: " + article.getName());
 
 				List<String[]> features = generateFeatures(Type.BIO_DRB, article, FeatureType.Training);
@@ -237,8 +236,8 @@ public class ArgExtComp extends Component {
 
 				String arg2Span = calcNodesSpan(arg2Nodes, spanHashMap, line[4], null);
 				String arg1Span = calcNodesSpan(arg1Nodes, spanHashMap, line[4], arg2Nodes);
-				String arg2Txt = Corpus.spanToText(arg2Span, orgText);
-				String arg1Txt = Corpus.spanToText(arg1Span, orgText);
+				String arg2Txt = Corpus.spanToText(arg2Span, orgText).replaceAll("\\|", "<PIPE>");
+				String arg1Txt = Corpus.spanToText(arg1Span, orgText).replaceAll("\\|", "<PIPE>");
 
 				String[] cols = pipeHash.get(line[4]).split("\\|", -1);
 
@@ -341,8 +340,8 @@ public class ArgExtComp extends Component {
 			arg1Span = calcNodesSpan(arg1Nodes, spanHashMap, connSpan, arg2Nodes);
 		}
 
-		return new String[] { arg1Span, arg2Span, Corpus.spanToText(arg1Span, orgText),
-				Corpus.spanToText(arg2Span, orgText) };
+		return new String[] { arg1Span, arg2Span, Corpus.spanToText(arg1Span, orgText).replaceAll("\\|", "<PIPE>"),
+				Corpus.spanToText(arg2Span, orgText).replaceAll("\\|", "<PIPE>") };
 	}
 
 	@Override
@@ -391,7 +390,7 @@ public class ArgExtComp extends Component {
 		return outFile;
 	};
 
-	public File testBioDrb(FeatureType featureType) throws IOException {
+	public File testBioDrb(Set<String> testSet, FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
 		File featureFile = new File(MODEL_PATH + name);
 		File pipeFile = new File(MODEL_PATH + name + ".pipe");
@@ -414,7 +413,7 @@ public class ArgExtComp extends Component {
 		});
 
 		for (File article : files) {
-			if (TestBioDrb.testSet.contains(article.getName())) {
+			if (testSet.contains(article.getName())) {
 				log.trace("Article: " + article.getName());
 				List<String[]> features = generateFeatures(Type.BIO_DRB, article, featureType);
 				for (String[] feature : features) {
@@ -1111,13 +1110,13 @@ public class ArgExtComp extends Component {
 							} else if (i == 23) {
 								newPipe.append(isSameSentence ? sentenceNumber : (sentenceNumber - 1));
 							} else if (i == 24) {
-								newPipe.append(arguments[2]);
+								newPipe.append(arguments[2].replaceAll("\\|", "<PIPE>"));
 							} else if (i == 32) {
 								newPipe.append(arguments[7]);
 							} else if (i == 33) {
 								newPipe.append(sentenceNumber);
 							} else if (i == 34) {
-								newPipe.append(arguments[3]);
+								newPipe.append(arguments[3].replaceAll("\\|", "<PIPE>"));
 							} else {
 								newPipe.append(cols[i]);
 							}

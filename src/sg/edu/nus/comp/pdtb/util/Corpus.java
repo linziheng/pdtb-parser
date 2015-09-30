@@ -68,6 +68,13 @@ public class Corpus {
 		}
 	};
 
+	public static FilenameFilter TXT_FILTER = new FilenameFilter() {
+		@Override
+		public boolean accept(File dir, String name) {
+			return name.endsWith(".txt");
+		}
+	};
+
 	private static final Logger log = LogManager.getLogger(Corpus.class.getName());
 
 	public static List<Tree> getNonExpTrees(File article, FeatureType featureType) throws IOException {
@@ -695,7 +702,20 @@ public class Corpus {
 			dtreeFilePath = genDependTreePath(article, featureType);
 		}
 		String[] dtreeTexts = Util.readFile(dtreeFilePath).split("\\n\\n");
-		return dtreeTexts;
+		List<String> result = new ArrayList<>(dtreeTexts.length);
+		for (String text : dtreeTexts) {
+			for (int i = 0; i < text.length() - 1; ++i) {
+				if (text.charAt(i) == '\n' && !Character.isWhitespace(text.charAt(i + 1))) {
+					result.add("");
+				} else {
+					break;
+				}
+			}
+			result.add(text);
+		}
+
+		return result.toArray(new String[result.size()]);
+
 	}
 
 	public static String[] getBioDependTrees(File article, FeatureType featureType) throws IOException {
@@ -923,7 +943,7 @@ public class Corpus {
 		int index = 0;
 		LexicalizedParser lp = LexicalizedParser.loadModel(Settings.STANFORD_MODEL);
 		for (File inputFile : inputFiles) {
-			log.trace("Generating tree for: " + inputFile.getName());
+			log.info("Generating tree for: " + inputFile.getName());
 			String outDir = outPath + inputFile.getName();
 			File parseTree = new File(outDir + ".ptree");
 			File dependTree = new File(outDir + ".dtree");
@@ -934,6 +954,7 @@ public class Corpus {
 
 			DocumentPreprocessor sentence = new DocumentPreprocessor(inputFile.toString());
 			for (List<HasWord> sent : sentence) {
+				log.trace("Parsing: " + sent);
 				Tree tree = lp.apply(sent);
 
 				tp.printTree(tree, parse);
@@ -941,11 +962,10 @@ public class Corpus {
 
 				td.printTree(tree, depend);
 				depend.flush();
-				log.info(sent + " done.");
 			}
 			parse.close();
 			depend.close();
-			log.trace("Tree generation for " + inputFile.getName() + " is done.");
+			log.info("Tree generation for " + inputFile.getName() + " is done. Trees are in " + outDir);
 
 			trees[index] = new File[] { parseTree, dependTree };
 			index++;

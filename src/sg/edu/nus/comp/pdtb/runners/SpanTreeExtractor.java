@@ -149,7 +149,7 @@ public class SpanTreeExtractor {
 				if (parentValue.equals("-NONE-")) {
 					continue;
 				}
-				String word = Corpus.nodeToString(leaf).trim();
+				String word = nodeToString(leaf).trim();
 				word = word.replaceAll("`", "'");
 				word = word.replaceAll("\\.\\.\\.", ". . .");
 				int span = orgText.indexOf(word, index);
@@ -171,6 +171,18 @@ public class SpanTreeExtractor {
 		tr.close();
 
 		log.info("Done.");
+	}
+
+	private static String nodeToString(Tree leaf) {
+		String leafStr = leaf.toString();
+		leafStr = leafStr.replaceAll("-LRB-", "(");
+		leafStr = leafStr.replaceAll("-LCB-", "{");
+		leafStr = leafStr.replaceAll("-LSB-", "[");
+		leafStr = leafStr.replaceAll("-RRB-", ")");
+		leafStr = leafStr.replaceAll("-RCB-", "}");
+		leafStr = leafStr.replaceAll("-RSB-", "]");
+
+		return leafStr;
 	}
 
 	/**
@@ -237,14 +249,9 @@ public class SpanTreeExtractor {
 
 		log.info("Generating the .hw aux files that contain the explicit spans.");
 
-		File[] pipes = new File(Settings.BIO_DRB_ANN_PATH).listFiles(new FilenameFilter() {
-			@Override
-			public boolean accept(File dir, String name) {
-				return name.endsWith("txt");
-			}
-		});
+		File[] pipes = new File(Settings.BIO_DRB_ANN_PATH).listFiles(Corpus.TXT_FILTER);
 		for (File pipe : pipes) {
-			log.trace("Procesing file: " + pipe.getName());
+			log.info("Procesing file: " + pipe.getName());
 
 			String fileName = pipe.getName();
 			String articleText = Util.readFile(Settings.BIO_DRB_RAW_PATH + pipe.getName());
@@ -459,7 +466,7 @@ public class SpanTreeExtractor {
 	 * @throws IOException
 	 */
 	@SuppressWarnings("unused")
-	private static void textToSpanGen(String treePath, String rawTextPath) throws IOException {
+	public static void textToSpanGen(String treePath, String rawTextPath) throws IOException {
 		log.info("Generating the spans of each node in the parse trees.");
 		String[] topFolders = new File(treePath).list(new FilenameFilter() {
 			@Override

@@ -43,7 +43,6 @@ import sg.edu.nus.comp.pdtb.model.Dependency;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Stemmer;
 import sg.edu.nus.comp.pdtb.model.TreeNode;
-import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
@@ -1196,7 +1195,7 @@ public class NonExplicitComp extends Component {
 		return this.dtreeMap;
 	}
 
-	public File trainBioDrb() throws IOException {
+	public File trainBioDrb(Set<String> trainSet) throws IOException {
 
 		corpus = Type.BIO_DRB;
 
@@ -1216,7 +1215,7 @@ public class NonExplicitComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.trainSet.contains(file.getName())) {
+			if (trainSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
@@ -1234,7 +1233,7 @@ public class NonExplicitComp extends Component {
 		return modelFile;
 	}
 
-	public File testBioDrb(FeatureType featureType) throws IOException {
+	public File testBioDrb(Set<String> testSet, FeatureType featureType) throws IOException {
 		corpus = Type.BIO_DRB;
 		String name = this.name + featureType.toString();
 
@@ -1255,7 +1254,7 @@ public class NonExplicitComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.testSet.contains(file.getName())) {
+			if (testSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				String articleName = dir + file.getName();

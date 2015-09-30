@@ -32,7 +32,6 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
-import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
@@ -124,7 +123,7 @@ public class ConnComp extends Component {
 		return modelFile;
 	}
 
-	public File trainBioDrb() throws IOException {
+	public File trainBioDrb(Set<String> trainSet) throws IOException {
 		File trainFile = new File(MODEL_PATH + NAME + FeatureType.Training);
 		PrintWriter featureFile = new PrintWriter(trainFile);
 		PrintWriter spansFile = new PrintWriter(MODEL_PATH + NAME + ".spans" + FeatureType.Training);
@@ -139,7 +138,7 @@ public class ConnComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.trainSet.contains(file.getName())) {
+			if (trainSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 				List<String[]> features = generateFeatures(Corpus.Type.BIO_DRB, file, FeatureType.GoldStandard);
 				for (String[] feature : features) {
@@ -186,7 +185,7 @@ public class ConnComp extends Component {
 		return outFile;
 	}
 
-	public File testBioDrb(FeatureType featureType) throws IOException {
+	public File testBioDrb(Set<String> testSet, FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
 		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
@@ -204,7 +203,7 @@ public class ConnComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.testSet.contains(file.getName())) {
+			if (testSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				String articleName = dir + file.getName();

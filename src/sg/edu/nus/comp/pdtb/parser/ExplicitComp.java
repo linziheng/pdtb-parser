@@ -32,7 +32,6 @@ import java.util.Set;
 import edu.stanford.nlp.trees.Tree;
 import sg.edu.nus.comp.pdtb.model.FeatureType;
 import sg.edu.nus.comp.pdtb.model.Node;
-import sg.edu.nus.comp.pdtb.runners.TestBioDrb;
 import sg.edu.nus.comp.pdtb.util.Corpus;
 import sg.edu.nus.comp.pdtb.util.Corpus.Type;
 import sg.edu.nus.comp.pdtb.util.MaxEntClassifier;
@@ -246,7 +245,7 @@ public class ExplicitComp extends Component {
 		return resultFile;
 	}
 
-	public File trainBioDrb() throws IOException {
+	public File trainBioDrb(Set<String> trainSet) throws IOException {
 
 		FeatureType featureType = FeatureType.Training;
 
@@ -263,25 +262,18 @@ public class ExplicitComp extends Component {
 			}
 		});
 
-		File auxFile = new File(name + ".aux");
-		PrintWriter auxFileWriter = new PrintWriter(auxFile);
-
 		for (File file : files) {
-			if (TestBioDrb.trainSet.contains(file.getName())) {
+			if (trainSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				List<String[]> features = generateFeatures(Type.BIO_DRB, file, featureType);
 
 				for (String[] feature : features) {
 					featureFile.println(feature[0]);
-					if (feature.length > 1) {
-						auxFileWriter.println(feature[1]);
-					}
 				}
 				featureFile.flush();
 			}
 		}
-		auxFileWriter.close();
 		featureFile.close();
 
 		File modelFile = MaxEntClassifier.createModel(trainFile, modelFilePath);
@@ -289,7 +281,7 @@ public class ExplicitComp extends Component {
 		return modelFile;
 	}
 
-	public File testBioDrb(FeatureType featureType) throws IOException {
+	public File testBioDrb(Set<String> testSet, FeatureType featureType) throws IOException {
 		String name = NAME + featureType.toString();
 		File testFile = new File(MODEL_PATH + name);
 		PrintWriter featureFile = new PrintWriter(testFile);
@@ -306,7 +298,7 @@ public class ExplicitComp extends Component {
 		});
 
 		for (File file : files) {
-			if (TestBioDrb.testSet.contains(file.getName())) {
+			if (testSet.contains(file.getName())) {
 				log.trace("Article: " + file.getName());
 
 				String articleName = dir + file.getName();

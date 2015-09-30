@@ -23,8 +23,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
-import java.util.Stack;
+import java.util.Queue;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -65,30 +66,50 @@ public class PdtbParser {
 
 	private static void doBatchParsing(File topDirectory) throws IOException {
 		String outputFolder = OUTPUT_FOLDER_NAME;
-		Stack<File> dirs = new Stack<>();
-		dirs.add(topDirectory);
-		while (dirs.size() > 0) {
-			File currentDir = dirs.pop();
+		Queue<File> directoryQueue = new LinkedList<>();
+		Queue<File> fileQueue = new LinkedList<>();
+		directoryQueue.add(topDirectory);
+		int fileCount = 0;
+		int parsedFilesCount = 0;
+		while (directoryQueue.size() > 0) {
+			File currentDir = directoryQueue.poll();
 			log.info("Working in " + currentDir);
 			File[] files = currentDir.listFiles();
 			for (File file : files) {
-				if (file.isDirectory()) {
-					log.info("Adding directory " + file + " to queue.");
-					dirs.push(file);
-				} else {
-					if (file.getName().endsWith(".txt")) {
-						OUTPUT_FOLDER_NAME = file.getParentFile().getAbsolutePath() + "/" + outputFolder;
-						new File(OUTPUT_FOLDER_NAME).mkdir();
+				if (!file.getName().startsWith(".") && !file.isHidden()) {
+					if (file.isDirectory()) {
+						log.info("Adding directory " + file + " to queue.");
+						directoryQueue.add(file);
+					} else {
+						if (file.getName().endsWith(".txt")) {
+							OUTPUT_FOLDER_NAME = file.getParentFile().getAbsolutePath() + "/" + outputFolder;
+							new File(OUTPUT_FOLDER_NAME).mkdir();
 
-						if (!(new File(Settings.OUTPUT_FOLDER_NAME + file.getName() + ".pipe").exists())) {
-							log.info("Parsing file " + file);
-							PdtbParser.parseFile(file, true);
-						} else {
-							log.info("Pipe aldready exists, skipping " + file);
+							if (!(new File(Settings.OUTPUT_FOLDER_NAME + file.getName() + ".pipe").exists())) {
+								fileQueue.add(file);
+								++fileCount;
+							} else {
+								++fileCount;
+								++parsedFilesCount;
+								log.info("Pipe aldready exists, skipping " + file);
+							}
 						}
 					}
 				}
 			}
+		}
+
+		log.info("");
+		log.info("Files to process " + parsedFilesCount + "/" + fileCount + " - "
+				+ String.format("%.2f", (100.0 * parsedFilesCount / fileCount)) + "%");
+
+		while (fileQueue.size() > 0) {
+			++parsedFilesCount;
+			File file = fileQueue.poll();
+			log.info("Parsing file: " + file);
+			OUTPUT_FOLDER_NAME = file.getParentFile().getAbsolutePath() + "/" + outputFolder;
+			PdtbParser.parseFile(file, true);
+			log.info(String.format("Done %.2f", (100.0 * parsedFilesCount / fileCount)) + "%");
 		}
 	}
 
