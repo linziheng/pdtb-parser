@@ -33,7 +33,7 @@ Check [config.properties](config.properties) for all the options.
 3. In the extracted folder `biodrb-parser` unzip the `BioDRB_corpus.zip` file
 4. Check in `config.properties` if the paths to the corpus are correct. `BIO_DRB_RAW_PATH` should point to `GeniaRaw/Genia/` and `BIO_DRB_ANN_PATH` to `GeniaAnn/Genia/`. The `BIO_DRB_TREE_PATH` will be created by the parser. 
 6. From the extracted `biodrb-parser` folder run in terminal or command prompt:    
- `java -jar parser.jar [program_arguments]`
+ `java -jar bio-parser.jar [program_arguments]`
 
 Program arguments can be one of the following:
 * `--train-only` - will build a BioDRB model using all 24 articles. The model files will be stored in `MODEL_PATH`
