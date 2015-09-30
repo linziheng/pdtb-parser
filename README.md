@@ -16,7 +16,7 @@ Requires Java 1.7+.
 1. Download the parser from [here](https://goo.gl/jswekL).
 2. Extract the file with:   
 `tar -xzvf  pdtb-parser.tar.gz `
-3. Run with:    
+3. From the extracted `pdtb-parser` folder run:    
  `java -jar parser.jar examples/wsj_2300`
 
 Replace the argument `examples/wsj_2300` with the file or the folder containing text files you want to parse. The resulting pipe and auxiliary files would be in a folder named `output` in each folder containing text files. Note that when the argument is a folder, the parser will search for files ending in `.txt` in the folder and all of it's subfolders.  
