@@ -7,7 +7,7 @@ PDTB parser based on:
 
 Developer: [Ilija Ilievski](http://ilija139.github.io/)<br>
 Version: 2.0.0 <br>
-Last update: 30-Sep-2015
+Last update: 1-Oct-2015
 
 Requires Java 1.7+. Tested only on Mac and Linux OS. 
 

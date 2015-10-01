@@ -1302,7 +1302,7 @@ public class ArgExtComp extends Component {
 					spanHashMap = Corpus.getSpanMap(new File(article + ".pipe"), featureType);
 					trees = Corpus.getTrees(new File(article + ".pipe"), featureType);
 					sentMap = Corpus.getSentMap(new File(article + ".pipe"));
-
+					path = path.replaceAll("\\.pipe$", "");
 				}
 				orgText = Util.readFile(path);
 				orgText = orgText.replaceAll("`", "'");
