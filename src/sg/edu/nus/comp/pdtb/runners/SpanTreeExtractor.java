@@ -47,11 +47,9 @@ public class SpanTreeExtractor {
 
 		expSpansGen(Settings.PTB_TREE_PATH, Settings.PDTB_PATH);
 		textToSpanGen(Settings.PTB_TREE_PATH, Settings.PTB_RAW_PATH);
-		createPdtbDependTrees(Settings.PTB_RAW_PATH, Settings.DEPEND_TREE_PATH);
-
 	}
 
-	private static void createPdtbDependTrees(String ptbTextDir, String ptbDependOutDir) throws FileNotFoundException {
+	public static void createPdtbDependTrees(String ptbTextDir, String ptbDependOutDir) throws FileNotFoundException {
 		File[] folders = new File(ptbTextDir).listFiles();
 		for (File folder : folders) {
 			if (folder.isDirectory()) {
