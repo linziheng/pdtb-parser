@@ -1,0 +1,38 @@
+_nil_
+
+dep(%-5, Money-1)
+dep(%-5, Market-2)
+dep(%-5, Deposits-a-3)
+dep(%-5, 6.21-4)
+
+dep(rate-4, a-1)
+amod(rate-4, Average-3)
+partmod(rate-4, paid-5)
+tmod(paid-5, yesterday-6)
+prep(paid-5, by-7)
+num(banks-10, 100-8)
+amod(banks-10, large-9)
+pobj(by-7, banks-10)
+cc(banks-10, and-11)
+conj(banks-10, thrifts-12)
+prep(paid-5, in-13)
+det(areas-18, the-14)
+num(areas-18, 10-15)
+amod(areas-18, largest-16)
+amod(areas-18, metropolitan-17)
+pobj(in-13, areas-18)
+mark(compiled-20, as-19)
+dep(rate-4, compiled-20)
+prep(compiled-20, by-21)
+nn(Monitor-24, Bank-22)
+nn(Monitor-24, Rate-23)
+pobj(by-21, Monitor-24)
+
+dep(yield-5, b-1)
+amod(yield-5, Current-3)
+amod(yield-5, annual-4)
+
+amod(minimum-2, Guaranteed-1)
+num(%-4, 6-3)
+dep(minimum-2, %-4)
+

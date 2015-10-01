@@ -932,11 +932,16 @@ public class Corpus {
 	}
 
 	public static File[][] prepareParseAndDependecyTrees(File[] inputFiles) throws FileNotFoundException {
-		return prepareParseAndDependecyTrees(inputFiles, OUTPUT_FOLDER_NAME);
+		return prepareParseAndDependecyTrees(inputFiles, OUTPUT_FOLDER_NAME, ".ptree", ".dtree");
 	}
 
 	public static File[][] prepareParseAndDependecyTrees(File[] inputFiles, String outPath)
 			throws FileNotFoundException {
+		return prepareParseAndDependecyTrees(inputFiles, outPath, ".ptree", ".dtree");
+	} 
+
+	public static File[][] prepareParseAndDependecyTrees(File[] inputFiles, String outPath, String ptreeExtension,
+			String dtreeExtension) throws FileNotFoundException {
 		log.info("Generating parse and dependecy trees with Stanford parser...");
 
 		File[][] trees = new File[inputFiles.length][2];
@@ -945,8 +950,8 @@ public class Corpus {
 		for (File inputFile : inputFiles) {
 			log.info("Generating tree for: " + inputFile.getName());
 			String outDir = outPath + inputFile.getName();
-			File parseTree = new File(outDir + ".ptree");
-			File dependTree = new File(outDir + ".dtree");
+			File parseTree = new File(outDir + ptreeExtension);
+			File dependTree = new File(outDir + dtreeExtension);
 			PrintWriter parse = new PrintWriter(parseTree);
 			TreePrint tp = new TreePrint("penn");
 			PrintWriter depend = new PrintWriter(dependTree);
