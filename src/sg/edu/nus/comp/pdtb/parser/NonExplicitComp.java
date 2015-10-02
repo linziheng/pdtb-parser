@@ -442,7 +442,7 @@ public class NonExplicitComp extends Component {
 				}
 			}
 		} catch (FileNotFoundException e) {
-			log.warn("No EP arguments for article: " + article.getName() + " : " + e.getMessage());
+			log.trace("No EP arguments for article: " + article.getName() + " : " + e.getMessage());
 		}
 
 		return result;

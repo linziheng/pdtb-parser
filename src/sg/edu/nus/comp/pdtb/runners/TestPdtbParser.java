@@ -14,10 +14,15 @@ import sg.edu.nus.comp.pdtb.parser.ExplicitComp;
 import sg.edu.nus.comp.pdtb.parser.NonExplicitComp;
 import sg.edu.nus.comp.pdtb.util.Result;
 import sg.edu.nus.comp.pdtb.util.Scorer;
+import sg.edu.nus.comp.pdtb.util.Settings;
 
 public class TestPdtbParser {
 
 	private static final Logger log = LogManager.getLogger(TestPdtbParser.class.getName());
+	private static final int[] EXPLICIT_COUNTS = { 712, 750, 713, 529, 822, 816, 653, 804, 176, 786, 720, 780, 800, 941,
+			734, 868, 1092, 614, 898, 647, 724, 605, 680, 923, 672 };
+	private static final int[] IMPLICIT_COUNTS = { 859, 885, 944, 627, 1017, 972, 741, 1007, 227, 957, 818, 1098, 957,
+			1153, 1019, 949, 1302, 716, 1026, 810, 918, 759, 764, 1020, 596 };
 
 	public static void main(String[] args) throws IOException {
 
@@ -29,8 +34,8 @@ public class TestPdtbParser {
 
 			Scorer scorer = new Scorer();
 
-			scorer.gsExplicit = 923;
-			scorer.gsImplicit = 1017;
+			scorer.gsExplicit = sumGsInstances(EXPLICIT_COUNTS, Settings.TEST_SECTIONS);
+			scorer.gsImplicit = sumGsInstances(IMPLICIT_COUNTS, Settings.TEST_SECTIONS);
 
 			ConnComp connective = new ConnComp();
 			File connResult = connective.test(featureType);
@@ -69,6 +74,15 @@ public class TestPdtbParser {
 
 			log.info("Done testing.");
 		}
+	}
+
+	private static int sumGsInstances(int[] explicitCounts, int[] testSection) {
+		int count = 0;
+		for (int section : testSection) {
+			count += explicitCounts[section];
+		}
+
+		return count;
 	}
 
 }

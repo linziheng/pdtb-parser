@@ -1083,7 +1083,7 @@ public class ArgExtComp extends Component {
 
 			while ((out = outReader.readLine()) != null) {
 				String[] outCols = out.split("\\|", -1);
-				String article = outCols[outCols.length - 3] + ".pipe";
+				String article = outCols[outCols.length - 3];
 				String span = outCols[outCols.length - 2];
 				String key = article + "_" + span;
 				argResults.put(key, out);
@@ -1195,8 +1195,10 @@ public class ArgExtComp extends Component {
 			for (File article : files) {
 				Map<String, String> spanHashMap = Corpus.getSpanMap(new File(article + ".pipe"), featureType);
 				trees = Corpus.getTrees(new File(article + ".pipe"), featureType);
-				sentMap = Corpus.getSentMap(new File(article + ".pipe"));
-				orgText = Util.readFile(Settings.PTB_RAW_PATH + "/23/" + article.getName().substring(0, 8));
+				if (featureType == FeatureType.Auto) {
+					sentMap = Corpus.getSentMap(new File(article + ".pipe"));
+				}
+				orgText = Util.readFile(Corpus.genRawTextPath(article));
 				orgText = orgText.replaceAll("`", "'");
 
 				List<String> explicitSpans = Corpus.getExplicitSpans(article, featureType);
@@ -1217,7 +1219,7 @@ public class ArgExtComp extends Component {
 						String resultLine = Corpus.spanToText(arg1Exp, orgText) + "|"
 								+ Corpus.spanToText(arg2Exp, orgText) + "|" + Corpus.spanToText(args[0], orgText) + "|"
 								+ Corpus.spanToText(args[1], orgText) + "|" + arg1Exp + "|" + arg2Exp + "|" + args[0]
-								+ "|" + args[1] + "|" + article.getName().substring(0, 8) + "|" + cols[3] + "|PS";
+								+ "|" + args[1] + "|" + article.getName() + "|" + cols[3] + "|PS";
 						resultWriter.println(resultLine);
 						resultWriter.flush();
 					}
@@ -1290,7 +1292,7 @@ public class ArgExtComp extends Component {
 			while ((tmp = er.readLine()) != null) {
 				String[] line = tmp.split(":");
 				String article = line[0];
-				String path = Settings.PTB_RAW_PATH + "/23/" + article;
+				String path = null;
 				Map<String, String> spanHashMap = null;
 
 				if (corpus.equals(Type.BIO_DRB)) {
@@ -1299,10 +1301,12 @@ public class ArgExtComp extends Component {
 					trees = Corpus.getBioTrees(new File(article), featureType);
 
 				} else {
-					spanHashMap = Corpus.getSpanMap(new File(article + ".pipe"), featureType);
-					trees = Corpus.getTrees(new File(article + ".pipe"), featureType);
-					sentMap = Corpus.getSentMap(new File(article + ".pipe"));
-					path = path.replaceAll("\\.pipe$", "");
+					path = Corpus.genRawTextPath(new File(article));
+					spanHashMap = Corpus.getSpanMap(new File(article), featureType);
+					trees = Corpus.getTrees(new File(article), featureType);
+					if (featureType == FeatureType.Auto) {
+						sentMap = Corpus.getSentMap(new File(article));
+					}
 				}
 				orgText = Util.readFile(path);
 				orgText = orgText.replaceAll("`", "'");
