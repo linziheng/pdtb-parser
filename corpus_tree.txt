@@ -1,0 +1,7052 @@
+.
+|-- pdtb
+|   |-- 00
+|   |   |-- wsj_0001.pipe
+|   |   |-- wsj_0003.pipe
+|   |   |-- wsj_0004.pipe
+|   |   |-- wsj_0005.pipe
+|   |   |-- wsj_0007.pipe
+|   |   |-- wsj_0008.pipe
+|   |   |-- wsj_0009.pipe
+|   |   |-- wsj_0010.pipe
+|   |   |-- wsj_0011.pipe
+|   |   |-- wsj_0012.pipe
+|   |   |-- wsj_0013.pipe
+|   |   |-- wsj_0014.pipe
+|   |   |-- wsj_0015.pipe
+|   |   |-- wsj_0016.pipe
+|   |   |-- wsj_0018.pipe
+|   |   |-- wsj_0019.pipe
+|   |   |-- wsj_0020.pipe
+|   |   |-- wsj_0021.pipe
+|   |   |-- wsj_0022.pipe
+|   |   |-- wsj_0023.pipe
+|   |   |-- wsj_0024.pipe
+|   |   |-- wsj_0025.pipe
+|   |   |-- wsj_0026.pipe
+|   |   |-- wsj_0027.pipe
+|   |   |-- wsj_0029.pipe
+|   |   |-- wsj_0031.pipe
+|   |   |-- wsj_0033.pipe
+|   |   |-- wsj_0034.pipe
+|   |   |-- wsj_0035.pipe
+|   |   |-- wsj_0036.pipe
+|   |   |-- wsj_0037.pipe
+|   |   |-- wsj_0038.pipe
+|   |   |-- wsj_0039.pipe
+|   |   |-- wsj_0040.pipe
+|   |   |-- wsj_0041.pipe
+|   |   |-- wsj_0043.pipe
+|   |   |-- wsj_0044.pipe
+|   |   |-- wsj_0045.pipe
+|   |   |-- wsj_0046.pipe
+|   |   |-- wsj_0047.pipe
+|   |   |-- wsj_0048.pipe
+|   |   |-- wsj_0049.pipe
+|   |   |-- wsj_0050.pipe
+|   |   |-- wsj_0051.pipe
+|   |   |-- wsj_0052.pipe
+|   |   |-- wsj_0054.pipe
+|   |   |-- wsj_0057.pipe
+|   |   |-- wsj_0059.pipe
+|   |   |-- wsj_0060.pipe
+|   |   |-- wsj_0062.pipe
+|   |   |-- wsj_0063.pipe
+|   |   |-- wsj_0064.pipe
+|   |   |-- wsj_0065.pipe
+|   |   |-- wsj_0066.pipe
+|   |   |-- wsj_0067.pipe
+|   |   |-- wsj_0068.pipe
+|   |   |-- wsj_0069.pipe
+|   |   |-- wsj_0070.pipe
+|   |   |-- wsj_0071.pipe
+|   |   |-- wsj_0072.pipe
+|   |   |-- wsj_0073.pipe
+|   |   |-- wsj_0074.pipe
+|   |   |-- wsj_0075.pipe
+|   |   |-- wsj_0076.pipe
+|   |   |-- wsj_0077.pipe
+|   |   |-- wsj_0079.pipe
+|   |   |-- wsj_0080.pipe
+|   |   |-- wsj_0081.pipe
+|   |   |-- wsj_0082.pipe
+|   |   |-- wsj_0083.pipe
+|   |   |-- wsj_0084.pipe
+|   |   |-- wsj_0085.pipe
+|   |   |-- wsj_0086.pipe
+|   |   |-- wsj_0087.pipe
+|   |   |-- wsj_0088.pipe
+|   |   |-- wsj_0089.pipe
+|   |   |-- wsj_0090.pipe
+|   |   |-- wsj_0091.pipe
+|   |   |-- wsj_0092.pipe
+|   |   |-- wsj_0093.pipe
+|   |   |-- wsj_0094.pipe
+|   |   |-- wsj_0095.pipe
+|   |   |-- wsj_0096.pipe
+|   |   |-- wsj_0097.pipe
+|   |   `-- wsj_0098.pipe
+|   |-- 01
+|   |   |-- wsj_0100.pipe
+|   |   |-- wsj_0101.pipe
+|   |   |-- wsj_0102.pipe
+|   |   |-- wsj_0103.pipe
+|   |   |-- wsj_0104.pipe
+|   |   |-- wsj_0105.pipe
+|   |   |-- wsj_0106.pipe
+|   |   |-- wsj_0107.pipe
+|   |   |-- wsj_0108.pipe
+|   |   |-- wsj_0109.pipe
+|   |   |-- wsj_0111.pipe
+|   |   |-- wsj_0112.pipe
+|   |   |-- wsj_0113.pipe
+|   |   |-- wsj_0114.pipe
+|   |   |-- wsj_0115.pipe
+|   |   |-- wsj_0116.pipe
+|   |   |-- wsj_0117.pipe
+|   |   |-- wsj_0118.pipe
+|   |   |-- wsj_0119.pipe
+|   |   |-- wsj_0120.pipe
+|   |   |-- wsj_0121.pipe
+|   |   |-- wsj_0122.pipe
+|   |   |-- wsj_0123.pipe
+|   |   |-- wsj_0124.pipe
+|   |   |-- wsj_0125.pipe
+|   |   |-- wsj_0126.pipe
+|   |   |-- wsj_0127.pipe
+|   |   |-- wsj_0128.pipe
+|   |   |-- wsj_0129.pipe
+|   |   |-- wsj_0130.pipe
+|   |   |-- wsj_0131.pipe
+|   |   |-- wsj_0132.pipe
+|   |   |-- wsj_0133.pipe
+|   |   |-- wsj_0134.pipe
+|   |   |-- wsj_0135.pipe
+|   |   |-- wsj_0136.pipe
+|   |   |-- wsj_0137.pipe
+|   |   |-- wsj_0139.pipe
+|   |   |-- wsj_0140.pipe
+|   |   |-- wsj_0141.pipe
+|   |   |-- wsj_0142.pipe
+|   |   |-- wsj_0143.pipe
+|   |   |-- wsj_0144.pipe
+|   |   |-- wsj_0145.pipe
+|   |   |-- wsj_0146.pipe
+|   |   |-- wsj_0147.pipe
+|   |   |-- wsj_0148.pipe
+|   |   |-- wsj_0149.pipe
+|   |   |-- wsj_0150.pipe
+|   |   |-- wsj_0151.pipe
+|   |   |-- wsj_0152.pipe
+|   |   |-- wsj_0153.pipe
+|   |   |-- wsj_0154.pipe
+|   |   |-- wsj_0155.pipe
+|   |   |-- wsj_0156.pipe
+|   |   |-- wsj_0157.pipe
+|   |   |-- wsj_0158.pipe
+|   |   |-- wsj_0159.pipe
+|   |   |-- wsj_0160.pipe
+|   |   |-- wsj_0161.pipe
+|   |   |-- wsj_0162.pipe
+|   |   |-- wsj_0163.pipe
+|   |   |-- wsj_0164.pipe
+|   |   |-- wsj_0165.pipe
+|   |   |-- wsj_0166.pipe
+|   |   |-- wsj_0167.pipe
+|   |   |-- wsj_0168.pipe
+|   |   |-- wsj_0169.pipe
+|   |   |-- wsj_0170.pipe
+|   |   |-- wsj_0171.pipe
+|   |   |-- wsj_0172.pipe
+|   |   |-- wsj_0173.pipe
+|   |   |-- wsj_0174.pipe
+|   |   |-- wsj_0175.pipe
+|   |   |-- wsj_0176.pipe
+|   |   |-- wsj_0177.pipe
+|   |   |-- wsj_0178.pipe
+|   |   |-- wsj_0179.pipe
+|   |   |-- wsj_0180.pipe
+|   |   |-- wsj_0181.pipe
+|   |   |-- wsj_0182.pipe
+|   |   |-- wsj_0183.pipe
+|   |   |-- wsj_0184.pipe
+|   |   |-- wsj_0185.pipe
+|   |   |-- wsj_0186.pipe
+|   |   |-- wsj_0187.pipe
+|   |   |-- wsj_0188.pipe
+|   |   |-- wsj_0189.pipe
+|   |   |-- wsj_0190.pipe
+|   |   |-- wsj_0192.pipe
+|   |   |-- wsj_0194.pipe
+|   |   |-- wsj_0198.pipe
+|   |   `-- wsj_0199.pipe
+|   |-- 02
+|   |   |-- wsj_0200.pipe
+|   |   |-- wsj_0201.pipe
+|   |   |-- wsj_0202.pipe
+|   |   |-- wsj_0204.pipe
+|   |   |-- wsj_0207.pipe
+|   |   |-- wsj_0208.pipe
+|   |   |-- wsj_0209.pipe
+|   |   |-- wsj_0210.pipe
+|   |   |-- wsj_0211.pipe
+|   |   |-- wsj_0213.pipe
+|   |   |-- wsj_0214.pipe
+|   |   |-- wsj_0215.pipe
+|   |   |-- wsj_0216.pipe
+|   |   |-- wsj_0218.pipe
+|   |   |-- wsj_0219.pipe
+|   |   |-- wsj_0220.pipe
+|   |   |-- wsj_0221.pipe
+|   |   |-- wsj_0222.pipe
+|   |   |-- wsj_0223.pipe
+|   |   |-- wsj_0224.pipe
+|   |   |-- wsj_0225.pipe
+|   |   |-- wsj_0227.pipe
+|   |   |-- wsj_0228.pipe
+|   |   |-- wsj_0229.pipe
+|   |   |-- wsj_0230.pipe
+|   |   |-- wsj_0231.pipe
+|   |   |-- wsj_0232.pipe
+|   |   |-- wsj_0233.pipe
+|   |   |-- wsj_0235.pipe
+|   |   |-- wsj_0236.pipe
+|   |   |-- wsj_0237.pipe
+|   |   |-- wsj_0238.pipe
+|   |   |-- wsj_0239.pipe
+|   |   |-- wsj_0240.pipe
+|   |   |-- wsj_0241.pipe
+|   |   |-- wsj_0242.pipe
+|   |   |-- wsj_0243.pipe
+|   |   |-- wsj_0244.pipe
+|   |   |-- wsj_0245.pipe
+|   |   |-- wsj_0246.pipe
+|   |   |-- wsj_0247.pipe
+|   |   |-- wsj_0248.pipe
+|   |   |-- wsj_0250.pipe
+|   |   |-- wsj_0251.pipe
+|   |   |-- wsj_0252.pipe
+|   |   |-- wsj_0253.pipe
+|   |   |-- wsj_0254.pipe
+|   |   |-- wsj_0255.pipe
+|   |   |-- wsj_0256.pipe
+|   |   |-- wsj_0257.pipe
+|   |   |-- wsj_0258.pipe
+|   |   |-- wsj_0259.pipe
+|   |   |-- wsj_0260.pipe
+|   |   |-- wsj_0261.pipe
+|   |   |-- wsj_0262.pipe
+|   |   |-- wsj_0263.pipe
+|   |   |-- wsj_0264.pipe
+|   |   |-- wsj_0265.pipe
+|   |   |-- wsj_0266.pipe
+|   |   |-- wsj_0267.pipe
+|   |   |-- wsj_0268.pipe
+|   |   |-- wsj_0269.pipe
+|   |   |-- wsj_0270.pipe
+|   |   |-- wsj_0271.pipe
+|   |   |-- wsj_0272.pipe
+|   |   |-- wsj_0273.pipe
+|   |   |-- wsj_0274.pipe
+|   |   |-- wsj_0275.pipe
+|   |   |-- wsj_0276.pipe
+|   |   |-- wsj_0277.pipe
+|   |   |-- wsj_0278.pipe
+|   |   |-- wsj_0279.pipe
+|   |   |-- wsj_0280.pipe
+|   |   |-- wsj_0281.pipe
+|   |   |-- wsj_0282.pipe
+|   |   |-- wsj_0283.pipe
+|   |   |-- wsj_0284.pipe
+|   |   |-- wsj_0286.pipe
+|   |   |-- wsj_0287.pipe
+|   |   |-- wsj_0288.pipe
+|   |   |-- wsj_0289.pipe
+|   |   |-- wsj_0290.pipe
+|   |   |-- wsj_0291.pipe
+|   |   |-- wsj_0292.pipe
+|   |   |-- wsj_0293.pipe
+|   |   |-- wsj_0294.pipe
+|   |   |-- wsj_0295.pipe
+|   |   |-- wsj_0296.pipe
+|   |   |-- wsj_0297.pipe
+|   |   |-- wsj_0298.pipe
+|   |   `-- wsj_0299.pipe
+|   |-- 03
+|   |   |-- wsj_0300.pipe
+|   |   |-- wsj_0301.pipe
+|   |   |-- wsj_0302.pipe
+|   |   |-- wsj_0303.pipe
+|   |   |-- wsj_0304.pipe
+|   |   |-- wsj_0305.pipe
+|   |   |-- wsj_0306.pipe
+|   |   |-- wsj_0307.pipe
+|   |   |-- wsj_0308.pipe
+|   |   |-- wsj_0309.pipe
+|   |   |-- wsj_0310.pipe
+|   |   |-- wsj_0311.pipe
+|   |   |-- wsj_0312.pipe
+|   |   |-- wsj_0313.pipe
+|   |   |-- wsj_0314.pipe
+|   |   |-- wsj_0315.pipe
+|   |   |-- wsj_0316.pipe
+|   |   |-- wsj_0317.pipe
+|   |   |-- wsj_0318.pipe
+|   |   |-- wsj_0319.pipe
+|   |   |-- wsj_0321.pipe
+|   |   |-- wsj_0322.pipe
+|   |   |-- wsj_0323.pipe
+|   |   |-- wsj_0324.pipe
+|   |   |-- wsj_0325.pipe
+|   |   |-- wsj_0326.pipe
+|   |   |-- wsj_0327.pipe
+|   |   |-- wsj_0328.pipe
+|   |   |-- wsj_0329.pipe
+|   |   |-- wsj_0331.pipe
+|   |   |-- wsj_0332.pipe
+|   |   |-- wsj_0333.pipe
+|   |   |-- wsj_0334.pipe
+|   |   |-- wsj_0335.pipe
+|   |   |-- wsj_0336.pipe
+|   |   |-- wsj_0337.pipe
+|   |   |-- wsj_0338.pipe
+|   |   |-- wsj_0339.pipe
+|   |   |-- wsj_0340.pipe
+|   |   |-- wsj_0341.pipe
+|   |   |-- wsj_0342.pipe
+|   |   |-- wsj_0343.pipe
+|   |   |-- wsj_0344.pipe
+|   |   |-- wsj_0345.pipe
+|   |   |-- wsj_0346.pipe
+|   |   |-- wsj_0347.pipe
+|   |   |-- wsj_0348.pipe
+|   |   |-- wsj_0349.pipe
+|   |   |-- wsj_0350.pipe
+|   |   |-- wsj_0351.pipe
+|   |   |-- wsj_0352.pipe
+|   |   |-- wsj_0353.pipe
+|   |   |-- wsj_0354.pipe
+|   |   |-- wsj_0355.pipe
+|   |   |-- wsj_0356.pipe
+|   |   |-- wsj_0357.pipe
+|   |   |-- wsj_0358.pipe
+|   |   |-- wsj_0359.pipe
+|   |   |-- wsj_0360.pipe
+|   |   |-- wsj_0361.pipe
+|   |   |-- wsj_0362.pipe
+|   |   |-- wsj_0363.pipe
+|   |   |-- wsj_0364.pipe
+|   |   |-- wsj_0365.pipe
+|   |   |-- wsj_0367.pipe
+|   |   |-- wsj_0368.pipe
+|   |   |-- wsj_0369.pipe
+|   |   |-- wsj_0370.pipe
+|   |   |-- wsj_0371.pipe
+|   |   |-- wsj_0372.pipe
+|   |   |-- wsj_0373.pipe
+|   |   |-- wsj_0374.pipe
+|   |   |-- wsj_0375.pipe
+|   |   |-- wsj_0376.pipe
+|   |   |-- wsj_0377.pipe
+|   |   |-- wsj_0378.pipe
+|   |   |-- wsj_0379.pipe
+|   |   `-- wsj_0380.pipe
+|   |-- 04
+|   |   |-- wsj_0400.pipe
+|   |   |-- wsj_0401.pipe
+|   |   |-- wsj_0402.pipe
+|   |   |-- wsj_0403.pipe
+|   |   |-- wsj_0404.pipe
+|   |   |-- wsj_0405.pipe
+|   |   |-- wsj_0406.pipe
+|   |   |-- wsj_0407.pipe
+|   |   |-- wsj_0408.pipe
+|   |   |-- wsj_0409.pipe
+|   |   |-- wsj_0410.pipe
+|   |   |-- wsj_0411.pipe
+|   |   |-- wsj_0412.pipe
+|   |   |-- wsj_0413.pipe
+|   |   |-- wsj_0414.pipe
+|   |   |-- wsj_0415.pipe
+|   |   |-- wsj_0416.pipe
+|   |   |-- wsj_0417.pipe
+|   |   |-- wsj_0418.pipe
+|   |   |-- wsj_0419.pipe
+|   |   |-- wsj_0420.pipe
+|   |   |-- wsj_0421.pipe
+|   |   |-- wsj_0422.pipe
+|   |   |-- wsj_0423.pipe
+|   |   |-- wsj_0424.pipe
+|   |   |-- wsj_0426.pipe
+|   |   |-- wsj_0427.pipe
+|   |   |-- wsj_0428.pipe
+|   |   |-- wsj_0429.pipe
+|   |   |-- wsj_0430.pipe
+|   |   |-- wsj_0431.pipe
+|   |   |-- wsj_0433.pipe
+|   |   |-- wsj_0434.pipe
+|   |   |-- wsj_0435.pipe
+|   |   |-- wsj_0436.pipe
+|   |   |-- wsj_0437.pipe
+|   |   |-- wsj_0439.pipe
+|   |   |-- wsj_0440.pipe
+|   |   |-- wsj_0441.pipe
+|   |   |-- wsj_0442.pipe
+|   |   |-- wsj_0443.pipe
+|   |   |-- wsj_0444.pipe
+|   |   |-- wsj_0445.pipe
+|   |   |-- wsj_0446.pipe
+|   |   |-- wsj_0447.pipe
+|   |   |-- wsj_0448.pipe
+|   |   |-- wsj_0449.pipe
+|   |   |-- wsj_0450.pipe
+|   |   |-- wsj_0451.pipe
+|   |   |-- wsj_0452.pipe
+|   |   |-- wsj_0453.pipe
+|   |   |-- wsj_0456.pipe
+|   |   |-- wsj_0457.pipe
+|   |   |-- wsj_0458.pipe
+|   |   |-- wsj_0460.pipe
+|   |   |-- wsj_0461.pipe
+|   |   |-- wsj_0462.pipe
+|   |   |-- wsj_0464.pipe
+|   |   |-- wsj_0465.pipe
+|   |   |-- wsj_0466.pipe
+|   |   |-- wsj_0467.pipe
+|   |   |-- wsj_0469.pipe
+|   |   |-- wsj_0470.pipe
+|   |   |-- wsj_0471.pipe
+|   |   |-- wsj_0472.pipe
+|   |   |-- wsj_0473.pipe
+|   |   |-- wsj_0474.pipe
+|   |   |-- wsj_0475.pipe
+|   |   |-- wsj_0476.pipe
+|   |   |-- wsj_0477.pipe
+|   |   |-- wsj_0478.pipe
+|   |   |-- wsj_0479.pipe
+|   |   |-- wsj_0480.pipe
+|   |   |-- wsj_0481.pipe
+|   |   |-- wsj_0482.pipe
+|   |   |-- wsj_0483.pipe
+|   |   |-- wsj_0484.pipe
+|   |   |-- wsj_0485.pipe
+|   |   |-- wsj_0486.pipe
+|   |   |-- wsj_0487.pipe
+|   |   |-- wsj_0488.pipe
+|   |   |-- wsj_0489.pipe
+|   |   |-- wsj_0490.pipe
+|   |   |-- wsj_0491.pipe
+|   |   |-- wsj_0492.pipe
+|   |   |-- wsj_0493.pipe
+|   |   |-- wsj_0494.pipe
+|   |   |-- wsj_0495.pipe
+|   |   |-- wsj_0496.pipe
+|   |   |-- wsj_0497.pipe
+|   |   |-- wsj_0498.pipe
+|   |   `-- wsj_0499.pipe
+|   |-- 05
+|   |   |-- wsj_0500.pipe
+|   |   |-- wsj_0501.pipe
+|   |   |-- wsj_0502.pipe
+|   |   |-- wsj_0503.pipe
+|   |   |-- wsj_0504.pipe
+|   |   |-- wsj_0505.pipe
+|   |   |-- wsj_0507.pipe
+|   |   |-- wsj_0508.pipe
+|   |   |-- wsj_0509.pipe
+|   |   |-- wsj_0510.pipe
+|   |   |-- wsj_0511.pipe
+|   |   |-- wsj_0512.pipe
+|   |   |-- wsj_0514.pipe
+|   |   |-- wsj_0515.pipe
+|   |   |-- wsj_0516.pipe
+|   |   |-- wsj_0518.pipe
+|   |   |-- wsj_0519.pipe
+|   |   |-- wsj_0520.pipe
+|   |   |-- wsj_0521.pipe
+|   |   |-- wsj_0522.pipe
+|   |   |-- wsj_0523.pipe
+|   |   |-- wsj_0524.pipe
+|   |   |-- wsj_0525.pipe
+|   |   |-- wsj_0526.pipe
+|   |   |-- wsj_0527.pipe
+|   |   |-- wsj_0528.pipe
+|   |   |-- wsj_0529.pipe
+|   |   |-- wsj_0530.pipe
+|   |   |-- wsj_0531.pipe
+|   |   |-- wsj_0532.pipe
+|   |   |-- wsj_0533.pipe
+|   |   |-- wsj_0534.pipe
+|   |   |-- wsj_0535.pipe
+|   |   |-- wsj_0536.pipe
+|   |   |-- wsj_0537.pipe
+|   |   |-- wsj_0539.pipe
+|   |   |-- wsj_0540.pipe
+|   |   |-- wsj_0541.pipe
+|   |   |-- wsj_0542.pipe
+|   |   |-- wsj_0544.pipe
+|   |   |-- wsj_0545.pipe
+|   |   |-- wsj_0546.pipe
+|   |   |-- wsj_0547.pipe
+|   |   |-- wsj_0548.pipe
+|   |   |-- wsj_0550.pipe
+|   |   |-- wsj_0551.pipe
+|   |   |-- wsj_0552.pipe
+|   |   |-- wsj_0553.pipe
+|   |   |-- wsj_0554.pipe
+|   |   |-- wsj_0556.pipe
+|   |   |-- wsj_0557.pipe
+|   |   |-- wsj_0558.pipe
+|   |   |-- wsj_0559.pipe
+|   |   |-- wsj_0560.pipe
+|   |   |-- wsj_0561.pipe
+|   |   |-- wsj_0562.pipe
+|   |   |-- wsj_0563.pipe
+|   |   |-- wsj_0564.pipe
+|   |   |-- wsj_0565.pipe
+|   |   |-- wsj_0566.pipe
+|   |   |-- wsj_0567.pipe
+|   |   |-- wsj_0568.pipe
+|   |   |-- wsj_0569.pipe
+|   |   |-- wsj_0570.pipe
+|   |   |-- wsj_0571.pipe
+|   |   |-- wsj_0572.pipe
+|   |   |-- wsj_0573.pipe
+|   |   |-- wsj_0574.pipe
+|   |   |-- wsj_0575.pipe
+|   |   |-- wsj_0576.pipe
+|   |   |-- wsj_0577.pipe
+|   |   |-- wsj_0578.pipe
+|   |   |-- wsj_0579.pipe
+|   |   |-- wsj_0580.pipe
+|   |   |-- wsj_0581.pipe
+|   |   |-- wsj_0582.pipe
+|   |   |-- wsj_0583.pipe
+|   |   |-- wsj_0584.pipe
+|   |   |-- wsj_0585.pipe
+|   |   |-- wsj_0586.pipe
+|   |   |-- wsj_0587.pipe
+|   |   |-- wsj_0588.pipe
+|   |   |-- wsj_0589.pipe
+|   |   |-- wsj_0590.pipe
+|   |   |-- wsj_0592.pipe
+|   |   |-- wsj_0593.pipe
+|   |   |-- wsj_0594.pipe
+|   |   |-- wsj_0595.pipe
+|   |   |-- wsj_0596.pipe
+|   |   |-- wsj_0597.pipe
+|   |   |-- wsj_0598.pipe
+|   |   `-- wsj_0599.pipe
+|   |-- 06
+|   |   |-- wsj_0600.pipe
+|   |   |-- wsj_0601.pipe
+|   |   |-- wsj_0602.pipe
+|   |   |-- wsj_0603.pipe
+|   |   |-- wsj_0604.pipe
+|   |   |-- wsj_0605.pipe
+|   |   |-- wsj_0606.pipe
+|   |   |-- wsj_0607.pipe
+|   |   |-- wsj_0608.pipe
+|   |   |-- wsj_0609.pipe
+|   |   |-- wsj_0610.pipe
+|   |   |-- wsj_0611.pipe
+|   |   |-- wsj_0612.pipe
+|   |   |-- wsj_0613.pipe
+|   |   |-- wsj_0614.pipe
+|   |   |-- wsj_0615.pipe
+|   |   |-- wsj_0616.pipe
+|   |   |-- wsj_0617.pipe
+|   |   |-- wsj_0618.pipe
+|   |   |-- wsj_0619.pipe
+|   |   |-- wsj_0621.pipe
+|   |   |-- wsj_0622.pipe
+|   |   |-- wsj_0623.pipe
+|   |   |-- wsj_0624.pipe
+|   |   |-- wsj_0625.pipe
+|   |   |-- wsj_0626.pipe
+|   |   |-- wsj_0627.pipe
+|   |   |-- wsj_0628.pipe
+|   |   |-- wsj_0629.pipe
+|   |   |-- wsj_0630.pipe
+|   |   |-- wsj_0631.pipe
+|   |   |-- wsj_0632.pipe
+|   |   |-- wsj_0633.pipe
+|   |   |-- wsj_0634.pipe
+|   |   |-- wsj_0635.pipe
+|   |   |-- wsj_0636.pipe
+|   |   |-- wsj_0637.pipe
+|   |   |-- wsj_0638.pipe
+|   |   |-- wsj_0639.pipe
+|   |   |-- wsj_0640.pipe
+|   |   |-- wsj_0641.pipe
+|   |   |-- wsj_0642.pipe
+|   |   |-- wsj_0643.pipe
+|   |   |-- wsj_0644.pipe
+|   |   |-- wsj_0645.pipe
+|   |   |-- wsj_0646.pipe
+|   |   |-- wsj_0647.pipe
+|   |   |-- wsj_0648.pipe
+|   |   |-- wsj_0649.pipe
+|   |   |-- wsj_0651.pipe
+|   |   |-- wsj_0652.pipe
+|   |   |-- wsj_0653.pipe
+|   |   |-- wsj_0654.pipe
+|   |   |-- wsj_0655.pipe
+|   |   |-- wsj_0656.pipe
+|   |   |-- wsj_0657.pipe
+|   |   |-- wsj_0658.pipe
+|   |   |-- wsj_0659.pipe
+|   |   |-- wsj_0660.pipe
+|   |   |-- wsj_0661.pipe
+|   |   |-- wsj_0662.pipe
+|   |   |-- wsj_0663.pipe
+|   |   |-- wsj_0664.pipe
+|   |   |-- wsj_0665.pipe
+|   |   |-- wsj_0666.pipe
+|   |   |-- wsj_0667.pipe
+|   |   |-- wsj_0668.pipe
+|   |   |-- wsj_0669.pipe
+|   |   |-- wsj_0670.pipe
+|   |   |-- wsj_0671.pipe
+|   |   |-- wsj_0672.pipe
+|   |   |-- wsj_0673.pipe
+|   |   |-- wsj_0674.pipe
+|   |   |-- wsj_0675.pipe
+|   |   |-- wsj_0676.pipe
+|   |   |-- wsj_0677.pipe
+|   |   |-- wsj_0679.pipe
+|   |   |-- wsj_0680.pipe
+|   |   |-- wsj_0681.pipe
+|   |   |-- wsj_0682.pipe
+|   |   |-- wsj_0683.pipe
+|   |   |-- wsj_0684.pipe
+|   |   |-- wsj_0686.pipe
+|   |   |-- wsj_0687.pipe
+|   |   |-- wsj_0688.pipe
+|   |   |-- wsj_0689.pipe
+|   |   |-- wsj_0690.pipe
+|   |   |-- wsj_0692.pipe
+|   |   |-- wsj_0693.pipe
+|   |   |-- wsj_0694.pipe
+|   |   |-- wsj_0695.pipe
+|   |   |-- wsj_0696.pipe
+|   |   `-- wsj_0697.pipe
+|   |-- 07
+|   |   |-- wsj_0700.pipe
+|   |   |-- wsj_0701.pipe
+|   |   |-- wsj_0702.pipe
+|   |   |-- wsj_0704.pipe
+|   |   |-- wsj_0705.pipe
+|   |   |-- wsj_0706.pipe
+|   |   |-- wsj_0708.pipe
+|   |   |-- wsj_0709.pipe
+|   |   |-- wsj_0710.pipe
+|   |   |-- wsj_0712.pipe
+|   |   |-- wsj_0713.pipe
+|   |   |-- wsj_0714.pipe
+|   |   |-- wsj_0717.pipe
+|   |   |-- wsj_0718.pipe
+|   |   |-- wsj_0719.pipe
+|   |   |-- wsj_0722.pipe
+|   |   |-- wsj_0723.pipe
+|   |   |-- wsj_0725.pipe
+|   |   |-- wsj_0726.pipe
+|   |   |-- wsj_0727.pipe
+|   |   |-- wsj_0728.pipe
+|   |   |-- wsj_0729.pipe
+|   |   |-- wsj_0730.pipe
+|   |   |-- wsj_0731.pipe
+|   |   |-- wsj_0732.pipe
+|   |   |-- wsj_0733.pipe
+|   |   |-- wsj_0734.pipe
+|   |   |-- wsj_0735.pipe
+|   |   |-- wsj_0736.pipe
+|   |   |-- wsj_0737.pipe
+|   |   |-- wsj_0738.pipe
+|   |   |-- wsj_0739.pipe
+|   |   |-- wsj_0740.pipe
+|   |   |-- wsj_0741.pipe
+|   |   |-- wsj_0742.pipe
+|   |   |-- wsj_0743.pipe
+|   |   |-- wsj_0744.pipe
+|   |   |-- wsj_0745.pipe
+|   |   |-- wsj_0746.pipe
+|   |   |-- wsj_0747.pipe
+|   |   |-- wsj_0748.pipe
+|   |   |-- wsj_0750.pipe
+|   |   |-- wsj_0751.pipe
+|   |   |-- wsj_0752.pipe
+|   |   |-- wsj_0753.pipe
+|   |   |-- wsj_0754.pipe
+|   |   |-- wsj_0755.pipe
+|   |   |-- wsj_0756.pipe
+|   |   |-- wsj_0757.pipe
+|   |   |-- wsj_0758.pipe
+|   |   |-- wsj_0759.pipe
+|   |   |-- wsj_0760.pipe
+|   |   |-- wsj_0761.pipe
+|   |   |-- wsj_0762.pipe
+|   |   |-- wsj_0763.pipe
+|   |   |-- wsj_0764.pipe
+|   |   |-- wsj_0765.pipe
+|   |   |-- wsj_0766.pipe
+|   |   |-- wsj_0767.pipe
+|   |   |-- wsj_0768.pipe
+|   |   |-- wsj_0769.pipe
+|   |   |-- wsj_0770.pipe
+|   |   |-- wsj_0771.pipe
+|   |   |-- wsj_0772.pipe
+|   |   |-- wsj_0773.pipe
+|   |   |-- wsj_0774.pipe
+|   |   |-- wsj_0775.pipe
+|   |   |-- wsj_0776.pipe
+|   |   |-- wsj_0777.pipe
+|   |   |-- wsj_0778.pipe
+|   |   |-- wsj_0779.pipe
+|   |   |-- wsj_0780.pipe
+|   |   |-- wsj_0781.pipe
+|   |   |-- wsj_0782.pipe
+|   |   |-- wsj_0783.pipe
+|   |   |-- wsj_0784.pipe
+|   |   |-- wsj_0785.pipe
+|   |   |-- wsj_0786.pipe
+|   |   |-- wsj_0787.pipe
+|   |   |-- wsj_0788.pipe
+|   |   |-- wsj_0789.pipe
+|   |   |-- wsj_0790.pipe
+|   |   |-- wsj_0791.pipe
+|   |   |-- wsj_0792.pipe
+|   |   |-- wsj_0793.pipe
+|   |   |-- wsj_0794.pipe
+|   |   |-- wsj_0795.pipe
+|   |   |-- wsj_0796.pipe
+|   |   |-- wsj_0797.pipe
+|   |   |-- wsj_0798.pipe
+|   |   `-- wsj_0799.pipe
+|   |-- 08
+|   |   |-- wsj_0800.pipe
+|   |   |-- wsj_0801.pipe
+|   |   |-- wsj_0802.pipe
+|   |   |-- wsj_0803.pipe
+|   |   |-- wsj_0804.pipe
+|   |   |-- wsj_0805.pipe
+|   |   |-- wsj_0806.pipe
+|   |   |-- wsj_0807.pipe
+|   |   |-- wsj_0808.pipe
+|   |   |-- wsj_0809.pipe
+|   |   |-- wsj_0810.pipe
+|   |   |-- wsj_0811.pipe
+|   |   |-- wsj_0812.pipe
+|   |   |-- wsj_0813.pipe
+|   |   |-- wsj_0814.pipe
+|   |   |-- wsj_0815.pipe
+|   |   |-- wsj_0816.pipe
+|   |   |-- wsj_0817.pipe
+|   |   |-- wsj_0818.pipe
+|   |   |-- wsj_0819.pipe
+|   |   `-- wsj_0820.pipe
+|   |-- 09
+|   |   |-- wsj_0900.pipe
+|   |   |-- wsj_0902.pipe
+|   |   |-- wsj_0903.pipe
+|   |   |-- wsj_0904.pipe
+|   |   |-- wsj_0905.pipe
+|   |   |-- wsj_0906.pipe
+|   |   |-- wsj_0907.pipe
+|   |   |-- wsj_0908.pipe
+|   |   |-- wsj_0909.pipe
+|   |   |-- wsj_0910.pipe
+|   |   |-- wsj_0911.pipe
+|   |   |-- wsj_0912.pipe
+|   |   |-- wsj_0913.pipe
+|   |   |-- wsj_0914.pipe
+|   |   |-- wsj_0915.pipe
+|   |   |-- wsj_0916.pipe
+|   |   |-- wsj_0917.pipe
+|   |   |-- wsj_0918.pipe
+|   |   |-- wsj_0919.pipe
+|   |   |-- wsj_0922.pipe
+|   |   |-- wsj_0923.pipe
+|   |   |-- wsj_0924.pipe
+|   |   |-- wsj_0925.pipe
+|   |   |-- wsj_0926.pipe
+|   |   |-- wsj_0927.pipe
+|   |   |-- wsj_0928.pipe
+|   |   |-- wsj_0929.pipe
+|   |   |-- wsj_0930.pipe
+|   |   |-- wsj_0931.pipe
+|   |   |-- wsj_0932.pipe
+|   |   |-- wsj_0933.pipe
+|   |   |-- wsj_0934.pipe
+|   |   |-- wsj_0935.pipe
+|   |   |-- wsj_0936.pipe
+|   |   |-- wsj_0937.pipe
+|   |   |-- wsj_0938.pipe
+|   |   |-- wsj_0939.pipe
+|   |   |-- wsj_0940.pipe
+|   |   |-- wsj_0941.pipe
+|   |   |-- wsj_0942.pipe
+|   |   |-- wsj_0943.pipe
+|   |   |-- wsj_0944.pipe
+|   |   |-- wsj_0945.pipe
+|   |   |-- wsj_0946.pipe
+|   |   |-- wsj_0948.pipe
+|   |   |-- wsj_0949.pipe
+|   |   |-- wsj_0950.pipe
+|   |   |-- wsj_0952.pipe
+|   |   |-- wsj_0953.pipe
+|   |   |-- wsj_0954.pipe
+|   |   |-- wsj_0955.pipe
+|   |   |-- wsj_0956.pipe
+|   |   |-- wsj_0957.pipe
+|   |   |-- wsj_0958.pipe
+|   |   |-- wsj_0959.pipe
+|   |   |-- wsj_0960.pipe
+|   |   |-- wsj_0961.pipe
+|   |   |-- wsj_0962.pipe
+|   |   |-- wsj_0963.pipe
+|   |   |-- wsj_0964.pipe
+|   |   |-- wsj_0965.pipe
+|   |   |-- wsj_0966.pipe
+|   |   |-- wsj_0967.pipe
+|   |   |-- wsj_0968.pipe
+|   |   |-- wsj_0969.pipe
+|   |   |-- wsj_0970.pipe
+|   |   |-- wsj_0971.pipe
+|   |   |-- wsj_0972.pipe
+|   |   |-- wsj_0973.pipe
+|   |   |-- wsj_0974.pipe
+|   |   |-- wsj_0975.pipe
+|   |   |-- wsj_0976.pipe
+|   |   |-- wsj_0977.pipe
+|   |   |-- wsj_0978.pipe
+|   |   |-- wsj_0979.pipe
+|   |   |-- wsj_0980.pipe
+|   |   |-- wsj_0981.pipe
+|   |   |-- wsj_0982.pipe
+|   |   |-- wsj_0983.pipe
+|   |   |-- wsj_0984.pipe
+|   |   |-- wsj_0985.pipe
+|   |   |-- wsj_0986.pipe
+|   |   |-- wsj_0987.pipe
+|   |   |-- wsj_0988.pipe
+|   |   |-- wsj_0989.pipe
+|   |   |-- wsj_0990.pipe
+|   |   |-- wsj_0991.pipe
+|   |   |-- wsj_0992.pipe
+|   |   |-- wsj_0993.pipe
+|   |   |-- wsj_0994.pipe
+|   |   |-- wsj_0995.pipe
+|   |   |-- wsj_0996.pipe
+|   |   |-- wsj_0997.pipe
+|   |   `-- wsj_0999.pipe
+|   |-- 10
+|   |   |-- wsj_1000.pipe
+|   |   |-- wsj_1001.pipe
+|   |   |-- wsj_1002.pipe
+|   |   |-- wsj_1003.pipe
+|   |   |-- wsj_1004.pipe
+|   |   |-- wsj_1005.pipe
+|   |   |-- wsj_1006.pipe
+|   |   |-- wsj_1007.pipe
+|   |   |-- wsj_1008.pipe
+|   |   |-- wsj_1010.pipe
+|   |   |-- wsj_1011.pipe
+|   |   |-- wsj_1012.pipe
+|   |   |-- wsj_1013.pipe
+|   |   |-- wsj_1014.pipe
+|   |   |-- wsj_1015.pipe
+|   |   |-- wsj_1016.pipe
+|   |   |-- wsj_1017.pipe
+|   |   |-- wsj_1018.pipe
+|   |   |-- wsj_1019.pipe
+|   |   |-- wsj_1020.pipe
+|   |   |-- wsj_1021.pipe
+|   |   |-- wsj_1022.pipe
+|   |   |-- wsj_1023.pipe
+|   |   |-- wsj_1024.pipe
+|   |   |-- wsj_1025.pipe
+|   |   |-- wsj_1026.pipe
+|   |   |-- wsj_1027.pipe
+|   |   |-- wsj_1028.pipe
+|   |   |-- wsj_1029.pipe
+|   |   |-- wsj_1030.pipe
+|   |   |-- wsj_1031.pipe
+|   |   |-- wsj_1032.pipe
+|   |   |-- wsj_1033.pipe
+|   |   |-- wsj_1034.pipe
+|   |   |-- wsj_1035.pipe
+|   |   |-- wsj_1036.pipe
+|   |   |-- wsj_1037.pipe
+|   |   |-- wsj_1038.pipe
+|   |   |-- wsj_1039.pipe
+|   |   |-- wsj_1040.pipe
+|   |   |-- wsj_1041.pipe
+|   |   |-- wsj_1042.pipe
+|   |   |-- wsj_1043.pipe
+|   |   |-- wsj_1044.pipe
+|   |   |-- wsj_1045.pipe
+|   |   |-- wsj_1046.pipe
+|   |   |-- wsj_1047.pipe
+|   |   |-- wsj_1048.pipe
+|   |   |-- wsj_1049.pipe
+|   |   |-- wsj_1050.pipe
+|   |   |-- wsj_1051.pipe
+|   |   |-- wsj_1052.pipe
+|   |   |-- wsj_1053.pipe
+|   |   |-- wsj_1054.pipe
+|   |   |-- wsj_1055.pipe
+|   |   |-- wsj_1056.pipe
+|   |   |-- wsj_1057.pipe
+|   |   |-- wsj_1058.pipe
+|   |   |-- wsj_1059.pipe
+|   |   |-- wsj_1060.pipe
+|   |   |-- wsj_1061.pipe
+|   |   |-- wsj_1062.pipe
+|   |   |-- wsj_1064.pipe
+|   |   |-- wsj_1065.pipe
+|   |   |-- wsj_1066.pipe
+|   |   |-- wsj_1068.pipe
+|   |   |-- wsj_1069.pipe
+|   |   |-- wsj_1070.pipe
+|   |   |-- wsj_1071.pipe
+|   |   |-- wsj_1072.pipe
+|   |   |-- wsj_1073.pipe
+|   |   |-- wsj_1074.pipe
+|   |   |-- wsj_1075.pipe
+|   |   |-- wsj_1076.pipe
+|   |   |-- wsj_1078.pipe
+|   |   |-- wsj_1079.pipe
+|   |   |-- wsj_1080.pipe
+|   |   |-- wsj_1081.pipe
+|   |   |-- wsj_1082.pipe
+|   |   |-- wsj_1083.pipe
+|   |   |-- wsj_1084.pipe
+|   |   |-- wsj_1086.pipe
+|   |   |-- wsj_1089.pipe
+|   |   |-- wsj_1091.pipe
+|   |   |-- wsj_1092.pipe
+|   |   |-- wsj_1093.pipe
+|   |   |-- wsj_1094.pipe
+|   |   |-- wsj_1095.pipe
+|   |   |-- wsj_1096.pipe
+|   |   |-- wsj_1097.pipe
+|   |   `-- wsj_1099.pipe
+|   |-- 11
+|   |   |-- wsj_1100.pipe
+|   |   |-- wsj_1101.pipe
+|   |   |-- wsj_1102.pipe
+|   |   |-- wsj_1103.pipe
+|   |   |-- wsj_1105.pipe
+|   |   |-- wsj_1106.pipe
+|   |   |-- wsj_1107.pipe
+|   |   |-- wsj_1108.pipe
+|   |   |-- wsj_1109.pipe
+|   |   |-- wsj_1110.pipe
+|   |   |-- wsj_1111.pipe
+|   |   |-- wsj_1112.pipe
+|   |   |-- wsj_1113.pipe
+|   |   |-- wsj_1116.pipe
+|   |   |-- wsj_1117.pipe
+|   |   |-- wsj_1118.pipe
+|   |   |-- wsj_1119.pipe
+|   |   |-- wsj_1120.pipe
+|   |   |-- wsj_1121.pipe
+|   |   |-- wsj_1122.pipe
+|   |   |-- wsj_1123.pipe
+|   |   |-- wsj_1124.pipe
+|   |   |-- wsj_1125.pipe
+|   |   |-- wsj_1126.pipe
+|   |   |-- wsj_1127.pipe
+|   |   |-- wsj_1128.pipe
+|   |   |-- wsj_1130.pipe
+|   |   |-- wsj_1131.pipe
+|   |   |-- wsj_1132.pipe
+|   |   |-- wsj_1133.pipe
+|   |   |-- wsj_1134.pipe
+|   |   |-- wsj_1135.pipe
+|   |   |-- wsj_1136.pipe
+|   |   |-- wsj_1137.pipe
+|   |   |-- wsj_1138.pipe
+|   |   |-- wsj_1139.pipe
+|   |   |-- wsj_1140.pipe
+|   |   |-- wsj_1141.pipe
+|   |   |-- wsj_1142.pipe
+|   |   |-- wsj_1143.pipe
+|   |   |-- wsj_1144.pipe
+|   |   |-- wsj_1145.pipe
+|   |   |-- wsj_1146.pipe
+|   |   |-- wsj_1147.pipe
+|   |   |-- wsj_1148.pipe
+|   |   |-- wsj_1149.pipe
+|   |   |-- wsj_1150.pipe
+|   |   |-- wsj_1151.pipe
+|   |   |-- wsj_1152.pipe
+|   |   |-- wsj_1153.pipe
+|   |   |-- wsj_1154.pipe
+|   |   |-- wsj_1155.pipe
+|   |   |-- wsj_1156.pipe
+|   |   |-- wsj_1157.pipe
+|   |   |-- wsj_1158.pipe
+|   |   |-- wsj_1159.pipe
+|   |   |-- wsj_1160.pipe
+|   |   |-- wsj_1161.pipe
+|   |   |-- wsj_1162.pipe
+|   |   |-- wsj_1163.pipe
+|   |   |-- wsj_1164.pipe
+|   |   |-- wsj_1165.pipe
+|   |   |-- wsj_1166.pipe
+|   |   |-- wsj_1167.pipe
+|   |   |-- wsj_1168.pipe
+|   |   |-- wsj_1169.pipe
+|   |   |-- wsj_1170.pipe
+|   |   |-- wsj_1171.pipe
+|   |   |-- wsj_1172.pipe
+|   |   |-- wsj_1173.pipe
+|   |   |-- wsj_1174.pipe
+|   |   |-- wsj_1175.pipe
+|   |   |-- wsj_1176.pipe
+|   |   |-- wsj_1177.pipe
+|   |   |-- wsj_1178.pipe
+|   |   |-- wsj_1179.pipe
+|   |   |-- wsj_1180.pipe
+|   |   |-- wsj_1181.pipe
+|   |   |-- wsj_1182.pipe
+|   |   |-- wsj_1183.pipe
+|   |   |-- wsj_1184.pipe
+|   |   |-- wsj_1185.pipe
+|   |   |-- wsj_1186.pipe
+|   |   |-- wsj_1187.pipe
+|   |   |-- wsj_1188.pipe
+|   |   |-- wsj_1189.pipe
+|   |   |-- wsj_1190.pipe
+|   |   |-- wsj_1191.pipe
+|   |   |-- wsj_1192.pipe
+|   |   |-- wsj_1193.pipe
+|   |   |-- wsj_1194.pipe
+|   |   |-- wsj_1195.pipe
+|   |   |-- wsj_1196.pipe
+|   |   |-- wsj_1198.pipe
+|   |   `-- wsj_1199.pipe
+|   |-- 12
+|   |   |-- wsj_1200.pipe
+|   |   |-- wsj_1201.pipe
+|   |   |-- wsj_1203.pipe
+|   |   |-- wsj_1204.pipe
+|   |   |-- wsj_1205.pipe
+|   |   |-- wsj_1206.pipe
+|   |   |-- wsj_1207.pipe
+|   |   |-- wsj_1208.pipe
+|   |   |-- wsj_1209.pipe
+|   |   |-- wsj_1210.pipe
+|   |   |-- wsj_1211.pipe
+|   |   |-- wsj_1212.pipe
+|   |   |-- wsj_1213.pipe
+|   |   |-- wsj_1214.pipe
+|   |   |-- wsj_1215.pipe
+|   |   |-- wsj_1216.pipe
+|   |   |-- wsj_1217.pipe
+|   |   |-- wsj_1218.pipe
+|   |   |-- wsj_1219.pipe
+|   |   |-- wsj_1220.pipe
+|   |   |-- wsj_1221.pipe
+|   |   |-- wsj_1222.pipe
+|   |   |-- wsj_1223.pipe
+|   |   |-- wsj_1224.pipe
+|   |   |-- wsj_1225.pipe
+|   |   |-- wsj_1226.pipe
+|   |   |-- wsj_1227.pipe
+|   |   |-- wsj_1228.pipe
+|   |   |-- wsj_1229.pipe
+|   |   |-- wsj_1230.pipe
+|   |   |-- wsj_1231.pipe
+|   |   |-- wsj_1232.pipe
+|   |   |-- wsj_1233.pipe
+|   |   |-- wsj_1234.pipe
+|   |   |-- wsj_1235.pipe
+|   |   |-- wsj_1236.pipe
+|   |   |-- wsj_1237.pipe
+|   |   |-- wsj_1238.pipe
+|   |   |-- wsj_1239.pipe
+|   |   |-- wsj_1241.pipe
+|   |   |-- wsj_1242.pipe
+|   |   |-- wsj_1243.pipe
+|   |   |-- wsj_1244.pipe
+|   |   |-- wsj_1246.pipe
+|   |   |-- wsj_1247.pipe
+|   |   |-- wsj_1248.pipe
+|   |   |-- wsj_1249.pipe
+|   |   |-- wsj_1250.pipe
+|   |   |-- wsj_1251.pipe
+|   |   |-- wsj_1252.pipe
+|   |   |-- wsj_1253.pipe
+|   |   |-- wsj_1254.pipe
+|   |   |-- wsj_1255.pipe
+|   |   |-- wsj_1256.pipe
+|   |   |-- wsj_1257.pipe
+|   |   |-- wsj_1258.pipe
+|   |   |-- wsj_1259.pipe
+|   |   |-- wsj_1260.pipe
+|   |   |-- wsj_1261.pipe
+|   |   |-- wsj_1262.pipe
+|   |   |-- wsj_1263.pipe
+|   |   |-- wsj_1264.pipe
+|   |   |-- wsj_1265.pipe
+|   |   |-- wsj_1266.pipe
+|   |   |-- wsj_1267.pipe
+|   |   |-- wsj_1268.pipe
+|   |   |-- wsj_1269.pipe
+|   |   |-- wsj_1270.pipe
+|   |   |-- wsj_1271.pipe
+|   |   |-- wsj_1272.pipe
+|   |   |-- wsj_1273.pipe
+|   |   |-- wsj_1274.pipe
+|   |   |-- wsj_1275.pipe
+|   |   |-- wsj_1276.pipe
+|   |   |-- wsj_1278.pipe
+|   |   |-- wsj_1279.pipe
+|   |   |-- wsj_1280.pipe
+|   |   |-- wsj_1281.pipe
+|   |   |-- wsj_1282.pipe
+|   |   |-- wsj_1283.pipe
+|   |   |-- wsj_1284.pipe
+|   |   |-- wsj_1285.pipe
+|   |   |-- wsj_1286.pipe
+|   |   |-- wsj_1287.pipe
+|   |   |-- wsj_1288.pipe
+|   |   |-- wsj_1289.pipe
+|   |   |-- wsj_1290.pipe
+|   |   |-- wsj_1291.pipe
+|   |   |-- wsj_1292.pipe
+|   |   |-- wsj_1293.pipe
+|   |   |-- wsj_1294.pipe
+|   |   |-- wsj_1295.pipe
+|   |   |-- wsj_1296.pipe
+|   |   |-- wsj_1297.pipe
+|   |   |-- wsj_1298.pipe
+|   |   `-- wsj_1299.pipe
+|   |-- 13
+|   |   |-- wsj_1300.pipe
+|   |   |-- wsj_1301.pipe
+|   |   |-- wsj_1302.pipe
+|   |   |-- wsj_1303.pipe
+|   |   |-- wsj_1304.pipe
+|   |   |-- wsj_1305.pipe
+|   |   |-- wsj_1306.pipe
+|   |   |-- wsj_1307.pipe
+|   |   |-- wsj_1308.pipe
+|   |   |-- wsj_1309.pipe
+|   |   |-- wsj_1310.pipe
+|   |   |-- wsj_1311.pipe
+|   |   |-- wsj_1312.pipe
+|   |   |-- wsj_1313.pipe
+|   |   |-- wsj_1314.pipe
+|   |   |-- wsj_1315.pipe
+|   |   |-- wsj_1316.pipe
+|   |   |-- wsj_1317.pipe
+|   |   |-- wsj_1318.pipe
+|   |   |-- wsj_1319.pipe
+|   |   |-- wsj_1320.pipe
+|   |   |-- wsj_1321.pipe
+|   |   |-- wsj_1322.pipe
+|   |   |-- wsj_1323.pipe
+|   |   |-- wsj_1324.pipe
+|   |   |-- wsj_1325.pipe
+|   |   |-- wsj_1327.pipe
+|   |   |-- wsj_1328.pipe
+|   |   |-- wsj_1329.pipe
+|   |   |-- wsj_1330.pipe
+|   |   |-- wsj_1331.pipe
+|   |   |-- wsj_1332.pipe
+|   |   |-- wsj_1333.pipe
+|   |   |-- wsj_1334.pipe
+|   |   |-- wsj_1335.pipe
+|   |   |-- wsj_1336.pipe
+|   |   |-- wsj_1337.pipe
+|   |   |-- wsj_1338.pipe
+|   |   |-- wsj_1339.pipe
+|   |   |-- wsj_1340.pipe
+|   |   |-- wsj_1341.pipe
+|   |   |-- wsj_1343.pipe
+|   |   |-- wsj_1345.pipe
+|   |   |-- wsj_1346.pipe
+|   |   |-- wsj_1347.pipe
+|   |   |-- wsj_1348.pipe
+|   |   |-- wsj_1349.pipe
+|   |   |-- wsj_1350.pipe
+|   |   |-- wsj_1351.pipe
+|   |   |-- wsj_1352.pipe
+|   |   |-- wsj_1353.pipe
+|   |   |-- wsj_1354.pipe
+|   |   |-- wsj_1355.pipe
+|   |   |-- wsj_1356.pipe
+|   |   |-- wsj_1357.pipe
+|   |   |-- wsj_1358.pipe
+|   |   |-- wsj_1359.pipe
+|   |   |-- wsj_1360.pipe
+|   |   |-- wsj_1361.pipe
+|   |   |-- wsj_1362.pipe
+|   |   |-- wsj_1363.pipe
+|   |   |-- wsj_1364.pipe
+|   |   |-- wsj_1365.pipe
+|   |   |-- wsj_1366.pipe
+|   |   |-- wsj_1367.pipe
+|   |   |-- wsj_1368.pipe
+|   |   |-- wsj_1369.pipe
+|   |   |-- wsj_1370.pipe
+|   |   |-- wsj_1371.pipe
+|   |   |-- wsj_1372.pipe
+|   |   |-- wsj_1373.pipe
+|   |   |-- wsj_1374.pipe
+|   |   |-- wsj_1375.pipe
+|   |   |-- wsj_1376.pipe
+|   |   |-- wsj_1377.pipe
+|   |   |-- wsj_1379.pipe
+|   |   |-- wsj_1380.pipe
+|   |   |-- wsj_1381.pipe
+|   |   |-- wsj_1382.pipe
+|   |   |-- wsj_1383.pipe
+|   |   |-- wsj_1386.pipe
+|   |   |-- wsj_1387.pipe
+|   |   |-- wsj_1388.pipe
+|   |   |-- wsj_1389.pipe
+|   |   |-- wsj_1390.pipe
+|   |   |-- wsj_1391.pipe
+|   |   |-- wsj_1392.pipe
+|   |   |-- wsj_1394.pipe
+|   |   |-- wsj_1395.pipe
+|   |   |-- wsj_1396.pipe
+|   |   |-- wsj_1397.pipe
+|   |   |-- wsj_1398.pipe
+|   |   `-- wsj_1399.pipe
+|   |-- 14
+|   |   |-- wsj_1401.pipe
+|   |   |-- wsj_1402.pipe
+|   |   |-- wsj_1403.pipe
+|   |   |-- wsj_1404.pipe
+|   |   |-- wsj_1405.pipe
+|   |   |-- wsj_1407.pipe
+|   |   |-- wsj_1408.pipe
+|   |   |-- wsj_1409.pipe
+|   |   |-- wsj_1410.pipe
+|   |   |-- wsj_1411.pipe
+|   |   |-- wsj_1412.pipe
+|   |   |-- wsj_1413.pipe
+|   |   |-- wsj_1414.pipe
+|   |   |-- wsj_1415.pipe
+|   |   |-- wsj_1416.pipe
+|   |   |-- wsj_1417.pipe
+|   |   |-- wsj_1418.pipe
+|   |   |-- wsj_1419.pipe
+|   |   |-- wsj_1421.pipe
+|   |   |-- wsj_1422.pipe
+|   |   |-- wsj_1423.pipe
+|   |   |-- wsj_1424.pipe
+|   |   |-- wsj_1426.pipe
+|   |   |-- wsj_1428.pipe
+|   |   |-- wsj_1429.pipe
+|   |   |-- wsj_1430.pipe
+|   |   |-- wsj_1431.pipe
+|   |   |-- wsj_1432.pipe
+|   |   |-- wsj_1433.pipe
+|   |   |-- wsj_1434.pipe
+|   |   |-- wsj_1435.pipe
+|   |   |-- wsj_1436.pipe
+|   |   |-- wsj_1437.pipe
+|   |   |-- wsj_1438.pipe
+|   |   |-- wsj_1439.pipe
+|   |   |-- wsj_1440.pipe
+|   |   |-- wsj_1441.pipe
+|   |   |-- wsj_1442.pipe
+|   |   |-- wsj_1443.pipe
+|   |   |-- wsj_1445.pipe
+|   |   |-- wsj_1446.pipe
+|   |   |-- wsj_1447.pipe
+|   |   |-- wsj_1448.pipe
+|   |   |-- wsj_1449.pipe
+|   |   |-- wsj_1450.pipe
+|   |   |-- wsj_1451.pipe
+|   |   |-- wsj_1452.pipe
+|   |   |-- wsj_1453.pipe
+|   |   |-- wsj_1454.pipe
+|   |   |-- wsj_1455.pipe
+|   |   |-- wsj_1456.pipe
+|   |   |-- wsj_1457.pipe
+|   |   |-- wsj_1458.pipe
+|   |   |-- wsj_1459.pipe
+|   |   |-- wsj_1460.pipe
+|   |   |-- wsj_1461.pipe
+|   |   |-- wsj_1462.pipe
+|   |   |-- wsj_1463.pipe
+|   |   |-- wsj_1464.pipe
+|   |   |-- wsj_1465.pipe
+|   |   |-- wsj_1466.pipe
+|   |   |-- wsj_1467.pipe
+|   |   |-- wsj_1468.pipe
+|   |   |-- wsj_1469.pipe
+|   |   |-- wsj_1470.pipe
+|   |   |-- wsj_1471.pipe
+|   |   |-- wsj_1472.pipe
+|   |   |-- wsj_1473.pipe
+|   |   |-- wsj_1474.pipe
+|   |   |-- wsj_1475.pipe
+|   |   |-- wsj_1476.pipe
+|   |   |-- wsj_1477.pipe
+|   |   |-- wsj_1478.pipe
+|   |   |-- wsj_1479.pipe
+|   |   |-- wsj_1480.pipe
+|   |   |-- wsj_1481.pipe
+|   |   |-- wsj_1483.pipe
+|   |   |-- wsj_1484.pipe
+|   |   |-- wsj_1485.pipe
+|   |   |-- wsj_1486.pipe
+|   |   |-- wsj_1487.pipe
+|   |   |-- wsj_1488.pipe
+|   |   |-- wsj_1489.pipe
+|   |   |-- wsj_1490.pipe
+|   |   |-- wsj_1491.pipe
+|   |   |-- wsj_1492.pipe
+|   |   |-- wsj_1493.pipe
+|   |   |-- wsj_1494.pipe
+|   |   |-- wsj_1495.pipe
+|   |   |-- wsj_1496.pipe
+|   |   |-- wsj_1497.pipe
+|   |   |-- wsj_1498.pipe
+|   |   `-- wsj_1499.pipe
+|   |-- 15
+|   |   |-- wsj_1500.pipe
+|   |   |-- wsj_1501.pipe
+|   |   |-- wsj_1502.pipe
+|   |   |-- wsj_1503.pipe
+|   |   |-- wsj_1504.pipe
+|   |   |-- wsj_1505.pipe
+|   |   |-- wsj_1506.pipe
+|   |   |-- wsj_1507.pipe
+|   |   |-- wsj_1508.pipe
+|   |   |-- wsj_1509.pipe
+|   |   |-- wsj_1510.pipe
+|   |   |-- wsj_1511.pipe
+|   |   |-- wsj_1512.pipe
+|   |   |-- wsj_1513.pipe
+|   |   |-- wsj_1514.pipe
+|   |   |-- wsj_1515.pipe
+|   |   |-- wsj_1516.pipe
+|   |   |-- wsj_1517.pipe
+|   |   |-- wsj_1518.pipe
+|   |   |-- wsj_1519.pipe
+|   |   |-- wsj_1520.pipe
+|   |   |-- wsj_1521.pipe
+|   |   |-- wsj_1522.pipe
+|   |   |-- wsj_1523.pipe
+|   |   |-- wsj_1524.pipe
+|   |   |-- wsj_1525.pipe
+|   |   |-- wsj_1526.pipe
+|   |   |-- wsj_1527.pipe
+|   |   |-- wsj_1528.pipe
+|   |   |-- wsj_1529.pipe
+|   |   |-- wsj_1530.pipe
+|   |   |-- wsj_1531.pipe
+|   |   |-- wsj_1532.pipe
+|   |   |-- wsj_1533.pipe
+|   |   |-- wsj_1534.pipe
+|   |   |-- wsj_1535.pipe
+|   |   |-- wsj_1536.pipe
+|   |   |-- wsj_1537.pipe
+|   |   |-- wsj_1538.pipe
+|   |   |-- wsj_1539.pipe
+|   |   |-- wsj_1540.pipe
+|   |   |-- wsj_1541.pipe
+|   |   |-- wsj_1542.pipe
+|   |   |-- wsj_1543.pipe
+|   |   |-- wsj_1544.pipe
+|   |   |-- wsj_1545.pipe
+|   |   |-- wsj_1546.pipe
+|   |   |-- wsj_1547.pipe
+|   |   |-- wsj_1548.pipe
+|   |   |-- wsj_1549.pipe
+|   |   |-- wsj_1550.pipe
+|   |   |-- wsj_1551.pipe
+|   |   |-- wsj_1552.pipe
+|   |   |-- wsj_1553.pipe
+|   |   |-- wsj_1554.pipe
+|   |   |-- wsj_1555.pipe
+|   |   |-- wsj_1556.pipe
+|   |   |-- wsj_1557.pipe
+|   |   |-- wsj_1558.pipe
+|   |   |-- wsj_1560.pipe
+|   |   |-- wsj_1561.pipe
+|   |   |-- wsj_1562.pipe
+|   |   |-- wsj_1563.pipe
+|   |   |-- wsj_1564.pipe
+|   |   |-- wsj_1565.pipe
+|   |   |-- wsj_1566.pipe
+|   |   |-- wsj_1567.pipe
+|   |   |-- wsj_1568.pipe
+|   |   |-- wsj_1569.pipe
+|   |   |-- wsj_1570.pipe
+|   |   |-- wsj_1571.pipe
+|   |   |-- wsj_1572.pipe
+|   |   |-- wsj_1573.pipe
+|   |   |-- wsj_1574.pipe
+|   |   |-- wsj_1575.pipe
+|   |   |-- wsj_1577.pipe
+|   |   |-- wsj_1578.pipe
+|   |   |-- wsj_1580.pipe
+|   |   |-- wsj_1581.pipe
+|   |   |-- wsj_1582.pipe
+|   |   |-- wsj_1583.pipe
+|   |   |-- wsj_1584.pipe
+|   |   |-- wsj_1585.pipe
+|   |   |-- wsj_1586.pipe
+|   |   |-- wsj_1587.pipe
+|   |   |-- wsj_1588.pipe
+|   |   |-- wsj_1589.pipe
+|   |   |-- wsj_1590.pipe
+|   |   |-- wsj_1591.pipe
+|   |   |-- wsj_1592.pipe
+|   |   |-- wsj_1593.pipe
+|   |   |-- wsj_1594.pipe
+|   |   |-- wsj_1595.pipe
+|   |   |-- wsj_1596.pipe
+|   |   |-- wsj_1597.pipe
+|   |   |-- wsj_1598.pipe
+|   |   `-- wsj_1599.pipe
+|   |-- 16
+|   |   |-- wsj_1600.pipe
+|   |   |-- wsj_1601.pipe
+|   |   |-- wsj_1602.pipe
+|   |   |-- wsj_1603.pipe
+|   |   |-- wsj_1604.pipe
+|   |   |-- wsj_1605.pipe
+|   |   |-- wsj_1606.pipe
+|   |   |-- wsj_1607.pipe
+|   |   |-- wsj_1609.pipe
+|   |   |-- wsj_1610.pipe
+|   |   |-- wsj_1611.pipe
+|   |   |-- wsj_1612.pipe
+|   |   |-- wsj_1613.pipe
+|   |   |-- wsj_1614.pipe
+|   |   |-- wsj_1615.pipe
+|   |   |-- wsj_1616.pipe
+|   |   |-- wsj_1617.pipe
+|   |   |-- wsj_1618.pipe
+|   |   |-- wsj_1619.pipe
+|   |   |-- wsj_1620.pipe
+|   |   |-- wsj_1621.pipe
+|   |   |-- wsj_1622.pipe
+|   |   |-- wsj_1623.pipe
+|   |   |-- wsj_1624.pipe
+|   |   |-- wsj_1626.pipe
+|   |   |-- wsj_1627.pipe
+|   |   |-- wsj_1628.pipe
+|   |   |-- wsj_1629.pipe
+|   |   |-- wsj_1630.pipe
+|   |   |-- wsj_1631.pipe
+|   |   |-- wsj_1632.pipe
+|   |   |-- wsj_1633.pipe
+|   |   |-- wsj_1634.pipe
+|   |   |-- wsj_1635.pipe
+|   |   |-- wsj_1636.pipe
+|   |   |-- wsj_1637.pipe
+|   |   |-- wsj_1639.pipe
+|   |   |-- wsj_1640.pipe
+|   |   |-- wsj_1641.pipe
+|   |   |-- wsj_1642.pipe
+|   |   |-- wsj_1643.pipe
+|   |   |-- wsj_1644.pipe
+|   |   |-- wsj_1645.pipe
+|   |   |-- wsj_1646.pipe
+|   |   |-- wsj_1647.pipe
+|   |   |-- wsj_1648.pipe
+|   |   |-- wsj_1649.pipe
+|   |   |-- wsj_1650.pipe
+|   |   |-- wsj_1651.pipe
+|   |   |-- wsj_1652.pipe
+|   |   |-- wsj_1654.pipe
+|   |   |-- wsj_1655.pipe
+|   |   |-- wsj_1656.pipe
+|   |   |-- wsj_1657.pipe
+|   |   |-- wsj_1658.pipe
+|   |   |-- wsj_1659.pipe
+|   |   |-- wsj_1660.pipe
+|   |   |-- wsj_1661.pipe
+|   |   |-- wsj_1662.pipe
+|   |   |-- wsj_1663.pipe
+|   |   |-- wsj_1664.pipe
+|   |   |-- wsj_1665.pipe
+|   |   |-- wsj_1666.pipe
+|   |   |-- wsj_1667.pipe
+|   |   |-- wsj_1668.pipe
+|   |   |-- wsj_1669.pipe
+|   |   |-- wsj_1670.pipe
+|   |   |-- wsj_1671.pipe
+|   |   |-- wsj_1672.pipe
+|   |   |-- wsj_1673.pipe
+|   |   |-- wsj_1674.pipe
+|   |   |-- wsj_1675.pipe
+|   |   |-- wsj_1676.pipe
+|   |   |-- wsj_1677.pipe
+|   |   |-- wsj_1678.pipe
+|   |   |-- wsj_1679.pipe
+|   |   |-- wsj_1680.pipe
+|   |   |-- wsj_1681.pipe
+|   |   |-- wsj_1682.pipe
+|   |   |-- wsj_1683.pipe
+|   |   |-- wsj_1684.pipe
+|   |   |-- wsj_1685.pipe
+|   |   |-- wsj_1686.pipe
+|   |   |-- wsj_1687.pipe
+|   |   |-- wsj_1688.pipe
+|   |   |-- wsj_1689.pipe
+|   |   |-- wsj_1690.pipe
+|   |   |-- wsj_1691.pipe
+|   |   |-- wsj_1692.pipe
+|   |   |-- wsj_1693.pipe
+|   |   |-- wsj_1694.pipe
+|   |   |-- wsj_1695.pipe
+|   |   |-- wsj_1696.pipe
+|   |   |-- wsj_1697.pipe
+|   |   |-- wsj_1698.pipe
+|   |   `-- wsj_1699.pipe
+|   |-- 17
+|   |   |-- wsj_1700.pipe
+|   |   |-- wsj_1701.pipe
+|   |   |-- wsj_1702.pipe
+|   |   |-- wsj_1703.pipe
+|   |   |-- wsj_1704.pipe
+|   |   |-- wsj_1705.pipe
+|   |   |-- wsj_1706.pipe
+|   |   |-- wsj_1707.pipe
+|   |   |-- wsj_1708.pipe
+|   |   |-- wsj_1709.pipe
+|   |   |-- wsj_1710.pipe
+|   |   |-- wsj_1711.pipe
+|   |   |-- wsj_1712.pipe
+|   |   |-- wsj_1713.pipe
+|   |   |-- wsj_1714.pipe
+|   |   |-- wsj_1715.pipe
+|   |   |-- wsj_1717.pipe
+|   |   |-- wsj_1718.pipe
+|   |   |-- wsj_1719.pipe
+|   |   |-- wsj_1720.pipe
+|   |   |-- wsj_1721.pipe
+|   |   |-- wsj_1722.pipe
+|   |   |-- wsj_1723.pipe
+|   |   |-- wsj_1724.pipe
+|   |   |-- wsj_1725.pipe
+|   |   |-- wsj_1726.pipe
+|   |   |-- wsj_1727.pipe
+|   |   |-- wsj_1728.pipe
+|   |   |-- wsj_1729.pipe
+|   |   |-- wsj_1730.pipe
+|   |   |-- wsj_1731.pipe
+|   |   |-- wsj_1732.pipe
+|   |   |-- wsj_1733.pipe
+|   |   |-- wsj_1734.pipe
+|   |   |-- wsj_1735.pipe
+|   |   |-- wsj_1736.pipe
+|   |   |-- wsj_1737.pipe
+|   |   |-- wsj_1738.pipe
+|   |   |-- wsj_1739.pipe
+|   |   |-- wsj_1740.pipe
+|   |   |-- wsj_1741.pipe
+|   |   |-- wsj_1742.pipe
+|   |   |-- wsj_1743.pipe
+|   |   |-- wsj_1744.pipe
+|   |   |-- wsj_1745.pipe
+|   |   |-- wsj_1746.pipe
+|   |   |-- wsj_1747.pipe
+|   |   |-- wsj_1748.pipe
+|   |   |-- wsj_1749.pipe
+|   |   |-- wsj_1750.pipe
+|   |   |-- wsj_1751.pipe
+|   |   |-- wsj_1752.pipe
+|   |   |-- wsj_1753.pipe
+|   |   |-- wsj_1754.pipe
+|   |   |-- wsj_1755.pipe
+|   |   |-- wsj_1756.pipe
+|   |   |-- wsj_1757.pipe
+|   |   |-- wsj_1758.pipe
+|   |   |-- wsj_1759.pipe
+|   |   |-- wsj_1760.pipe
+|   |   |-- wsj_1761.pipe
+|   |   |-- wsj_1762.pipe
+|   |   |-- wsj_1763.pipe
+|   |   |-- wsj_1764.pipe
+|   |   |-- wsj_1765.pipe
+|   |   |-- wsj_1766.pipe
+|   |   |-- wsj_1767.pipe
+|   |   |-- wsj_1768.pipe
+|   |   |-- wsj_1769.pipe
+|   |   |-- wsj_1770.pipe
+|   |   |-- wsj_1772.pipe
+|   |   |-- wsj_1773.pipe
+|   |   |-- wsj_1774.pipe
+|   |   |-- wsj_1775.pipe
+|   |   |-- wsj_1776.pipe
+|   |   |-- wsj_1777.pipe
+|   |   |-- wsj_1778.pipe
+|   |   |-- wsj_1779.pipe
+|   |   |-- wsj_1780.pipe
+|   |   |-- wsj_1781.pipe
+|   |   |-- wsj_1782.pipe
+|   |   |-- wsj_1783.pipe
+|   |   |-- wsj_1784.pipe
+|   |   |-- wsj_1786.pipe
+|   |   |-- wsj_1787.pipe
+|   |   |-- wsj_1788.pipe
+|   |   |-- wsj_1789.pipe
+|   |   |-- wsj_1790.pipe
+|   |   |-- wsj_1791.pipe
+|   |   |-- wsj_1792.pipe
+|   |   |-- wsj_1793.pipe
+|   |   |-- wsj_1794.pipe
+|   |   |-- wsj_1795.pipe
+|   |   |-- wsj_1796.pipe
+|   |   |-- wsj_1797.pipe
+|   |   |-- wsj_1798.pipe
+|   |   `-- wsj_1799.pipe
+|   |-- 18
+|   |   |-- wsj_1800.pipe
+|   |   |-- wsj_1802.pipe
+|   |   |-- wsj_1803.pipe
+|   |   |-- wsj_1804.pipe
+|   |   |-- wsj_1806.pipe
+|   |   |-- wsj_1808.pipe
+|   |   |-- wsj_1809.pipe
+|   |   |-- wsj_1810.pipe
+|   |   |-- wsj_1811.pipe
+|   |   |-- wsj_1812.pipe
+|   |   |-- wsj_1813.pipe
+|   |   |-- wsj_1814.pipe
+|   |   |-- wsj_1815.pipe
+|   |   |-- wsj_1816.pipe
+|   |   |-- wsj_1817.pipe
+|   |   |-- wsj_1818.pipe
+|   |   |-- wsj_1819.pipe
+|   |   |-- wsj_1820.pipe
+|   |   |-- wsj_1821.pipe
+|   |   |-- wsj_1822.pipe
+|   |   |-- wsj_1823.pipe
+|   |   |-- wsj_1824.pipe
+|   |   |-- wsj_1825.pipe
+|   |   |-- wsj_1826.pipe
+|   |   |-- wsj_1827.pipe
+|   |   |-- wsj_1828.pipe
+|   |   |-- wsj_1829.pipe
+|   |   |-- wsj_1830.pipe
+|   |   |-- wsj_1831.pipe
+|   |   |-- wsj_1832.pipe
+|   |   |-- wsj_1833.pipe
+|   |   |-- wsj_1835.pipe
+|   |   |-- wsj_1837.pipe
+|   |   |-- wsj_1839.pipe
+|   |   |-- wsj_1840.pipe
+|   |   |-- wsj_1841.pipe
+|   |   |-- wsj_1842.pipe
+|   |   |-- wsj_1843.pipe
+|   |   |-- wsj_1844.pipe
+|   |   |-- wsj_1846.pipe
+|   |   |-- wsj_1847.pipe
+|   |   |-- wsj_1848.pipe
+|   |   |-- wsj_1849.pipe
+|   |   |-- wsj_1850.pipe
+|   |   |-- wsj_1851.pipe
+|   |   |-- wsj_1852.pipe
+|   |   |-- wsj_1853.pipe
+|   |   |-- wsj_1854.pipe
+|   |   |-- wsj_1855.pipe
+|   |   |-- wsj_1856.pipe
+|   |   |-- wsj_1857.pipe
+|   |   |-- wsj_1858.pipe
+|   |   |-- wsj_1859.pipe
+|   |   |-- wsj_1860.pipe
+|   |   |-- wsj_1861.pipe
+|   |   |-- wsj_1862.pipe
+|   |   |-- wsj_1863.pipe
+|   |   |-- wsj_1864.pipe
+|   |   |-- wsj_1865.pipe
+|   |   |-- wsj_1866.pipe
+|   |   |-- wsj_1867.pipe
+|   |   |-- wsj_1868.pipe
+|   |   |-- wsj_1869.pipe
+|   |   |-- wsj_1870.pipe
+|   |   |-- wsj_1871.pipe
+|   |   |-- wsj_1872.pipe
+|   |   |-- wsj_1873.pipe
+|   |   |-- wsj_1874.pipe
+|   |   |-- wsj_1875.pipe
+|   |   |-- wsj_1876.pipe
+|   |   |-- wsj_1877.pipe
+|   |   |-- wsj_1878.pipe
+|   |   |-- wsj_1879.pipe
+|   |   |-- wsj_1880.pipe
+|   |   |-- wsj_1881.pipe
+|   |   |-- wsj_1882.pipe
+|   |   |-- wsj_1883.pipe
+|   |   |-- wsj_1884.pipe
+|   |   |-- wsj_1885.pipe
+|   |   |-- wsj_1886.pipe
+|   |   |-- wsj_1887.pipe
+|   |   |-- wsj_1888.pipe
+|   |   |-- wsj_1889.pipe
+|   |   |-- wsj_1890.pipe
+|   |   |-- wsj_1891.pipe
+|   |   |-- wsj_1892.pipe
+|   |   |-- wsj_1893.pipe
+|   |   |-- wsj_1894.pipe
+|   |   |-- wsj_1895.pipe
+|   |   |-- wsj_1896.pipe
+|   |   |-- wsj_1897.pipe
+|   |   |-- wsj_1898.pipe
+|   |   `-- wsj_1899.pipe
+|   |-- 19
+|   |   |-- wsj_1900.pipe
+|   |   |-- wsj_1901.pipe
+|   |   |-- wsj_1902.pipe
+|   |   |-- wsj_1903.pipe
+|   |   |-- wsj_1904.pipe
+|   |   |-- wsj_1905.pipe
+|   |   |-- wsj_1906.pipe
+|   |   |-- wsj_1907.pipe
+|   |   |-- wsj_1908.pipe
+|   |   |-- wsj_1909.pipe
+|   |   |-- wsj_1910.pipe
+|   |   |-- wsj_1911.pipe
+|   |   |-- wsj_1912.pipe
+|   |   |-- wsj_1913.pipe
+|   |   |-- wsj_1914.pipe
+|   |   |-- wsj_1915.pipe
+|   |   |-- wsj_1916.pipe
+|   |   |-- wsj_1917.pipe
+|   |   |-- wsj_1918.pipe
+|   |   |-- wsj_1919.pipe
+|   |   |-- wsj_1920.pipe
+|   |   |-- wsj_1921.pipe
+|   |   |-- wsj_1922.pipe
+|   |   |-- wsj_1923.pipe
+|   |   |-- wsj_1924.pipe
+|   |   |-- wsj_1925.pipe
+|   |   |-- wsj_1926.pipe
+|   |   |-- wsj_1927.pipe
+|   |   |-- wsj_1928.pipe
+|   |   |-- wsj_1929.pipe
+|   |   |-- wsj_1930.pipe
+|   |   |-- wsj_1931.pipe
+|   |   |-- wsj_1932.pipe
+|   |   |-- wsj_1934.pipe
+|   |   |-- wsj_1935.pipe
+|   |   |-- wsj_1936.pipe
+|   |   |-- wsj_1937.pipe
+|   |   |-- wsj_1938.pipe
+|   |   |-- wsj_1939.pipe
+|   |   |-- wsj_1940.pipe
+|   |   |-- wsj_1941.pipe
+|   |   |-- wsj_1943.pipe
+|   |   |-- wsj_1944.pipe
+|   |   |-- wsj_1945.pipe
+|   |   |-- wsj_1946.pipe
+|   |   |-- wsj_1947.pipe
+|   |   |-- wsj_1948.pipe
+|   |   |-- wsj_1949.pipe
+|   |   |-- wsj_1950.pipe
+|   |   |-- wsj_1951.pipe
+|   |   |-- wsj_1952.pipe
+|   |   |-- wsj_1953.pipe
+|   |   |-- wsj_1957.pipe
+|   |   |-- wsj_1959.pipe
+|   |   |-- wsj_1960.pipe
+|   |   |-- wsj_1961.pipe
+|   |   |-- wsj_1962.pipe
+|   |   |-- wsj_1963.pipe
+|   |   |-- wsj_1964.pipe
+|   |   |-- wsj_1965.pipe
+|   |   |-- wsj_1966.pipe
+|   |   |-- wsj_1967.pipe
+|   |   |-- wsj_1968.pipe
+|   |   |-- wsj_1969.pipe
+|   |   |-- wsj_1970.pipe
+|   |   |-- wsj_1971.pipe
+|   |   |-- wsj_1972.pipe
+|   |   |-- wsj_1973.pipe
+|   |   |-- wsj_1974.pipe
+|   |   |-- wsj_1975.pipe
+|   |   |-- wsj_1976.pipe
+|   |   |-- wsj_1977.pipe
+|   |   |-- wsj_1978.pipe
+|   |   |-- wsj_1980.pipe
+|   |   |-- wsj_1981.pipe
+|   |   |-- wsj_1982.pipe
+|   |   |-- wsj_1983.pipe
+|   |   |-- wsj_1984.pipe
+|   |   |-- wsj_1985.pipe
+|   |   |-- wsj_1986.pipe
+|   |   |-- wsj_1987.pipe
+|   |   |-- wsj_1988.pipe
+|   |   |-- wsj_1989.pipe
+|   |   |-- wsj_1990.pipe
+|   |   |-- wsj_1991.pipe
+|   |   |-- wsj_1992.pipe
+|   |   |-- wsj_1994.pipe
+|   |   |-- wsj_1996.pipe
+|   |   |-- wsj_1997.pipe
+|   |   |-- wsj_1998.pipe
+|   |   `-- wsj_1999.pipe
+|   |-- 20
+|   |   |-- wsj_2000.pipe
+|   |   |-- wsj_2001.pipe
+|   |   |-- wsj_2002.pipe
+|   |   |-- wsj_2003.pipe
+|   |   |-- wsj_2004.pipe
+|   |   |-- wsj_2005.pipe
+|   |   |-- wsj_2006.pipe
+|   |   |-- wsj_2007.pipe
+|   |   |-- wsj_2008.pipe
+|   |   |-- wsj_2009.pipe
+|   |   |-- wsj_2010.pipe
+|   |   |-- wsj_2011.pipe
+|   |   |-- wsj_2012.pipe
+|   |   |-- wsj_2013.pipe
+|   |   |-- wsj_2014.pipe
+|   |   |-- wsj_2015.pipe
+|   |   |-- wsj_2016.pipe
+|   |   |-- wsj_2017.pipe
+|   |   |-- wsj_2018.pipe
+|   |   |-- wsj_2019.pipe
+|   |   |-- wsj_2020.pipe
+|   |   |-- wsj_2021.pipe
+|   |   |-- wsj_2022.pipe
+|   |   |-- wsj_2023.pipe
+|   |   |-- wsj_2024.pipe
+|   |   |-- wsj_2025.pipe
+|   |   |-- wsj_2026.pipe
+|   |   |-- wsj_2027.pipe
+|   |   |-- wsj_2028.pipe
+|   |   |-- wsj_2029.pipe
+|   |   |-- wsj_2030.pipe
+|   |   |-- wsj_2031.pipe
+|   |   |-- wsj_2032.pipe
+|   |   |-- wsj_2033.pipe
+|   |   |-- wsj_2034.pipe
+|   |   |-- wsj_2036.pipe
+|   |   |-- wsj_2037.pipe
+|   |   |-- wsj_2038.pipe
+|   |   |-- wsj_2039.pipe
+|   |   |-- wsj_2040.pipe
+|   |   |-- wsj_2041.pipe
+|   |   |-- wsj_2042.pipe
+|   |   |-- wsj_2043.pipe
+|   |   |-- wsj_2044.pipe
+|   |   |-- wsj_2045.pipe
+|   |   |-- wsj_2046.pipe
+|   |   |-- wsj_2047.pipe
+|   |   |-- wsj_2048.pipe
+|   |   |-- wsj_2049.pipe
+|   |   |-- wsj_2051.pipe
+|   |   |-- wsj_2052.pipe
+|   |   |-- wsj_2053.pipe
+|   |   |-- wsj_2054.pipe
+|   |   |-- wsj_2055.pipe
+|   |   |-- wsj_2056.pipe
+|   |   |-- wsj_2057.pipe
+|   |   |-- wsj_2058.pipe
+|   |   |-- wsj_2059.pipe
+|   |   |-- wsj_2060.pipe
+|   |   |-- wsj_2061.pipe
+|   |   |-- wsj_2062.pipe
+|   |   |-- wsj_2063.pipe
+|   |   |-- wsj_2064.pipe
+|   |   |-- wsj_2065.pipe
+|   |   |-- wsj_2066.pipe
+|   |   |-- wsj_2067.pipe
+|   |   |-- wsj_2068.pipe
+|   |   |-- wsj_2069.pipe
+|   |   |-- wsj_2070.pipe
+|   |   |-- wsj_2071.pipe
+|   |   |-- wsj_2072.pipe
+|   |   |-- wsj_2073.pipe
+|   |   |-- wsj_2074.pipe
+|   |   |-- wsj_2075.pipe
+|   |   |-- wsj_2076.pipe
+|   |   |-- wsj_2077.pipe
+|   |   |-- wsj_2078.pipe
+|   |   |-- wsj_2079.pipe
+|   |   |-- wsj_2080.pipe
+|   |   |-- wsj_2081.pipe
+|   |   |-- wsj_2082.pipe
+|   |   |-- wsj_2083.pipe
+|   |   |-- wsj_2084.pipe
+|   |   |-- wsj_2085.pipe
+|   |   |-- wsj_2086.pipe
+|   |   |-- wsj_2087.pipe
+|   |   |-- wsj_2088.pipe
+|   |   |-- wsj_2089.pipe
+|   |   |-- wsj_2091.pipe
+|   |   |-- wsj_2092.pipe
+|   |   |-- wsj_2093.pipe
+|   |   |-- wsj_2094.pipe
+|   |   |-- wsj_2095.pipe
+|   |   |-- wsj_2096.pipe
+|   |   |-- wsj_2098.pipe
+|   |   `-- wsj_2099.pipe
+|   |-- 21
+|   |   |-- wsj_2100.pipe
+|   |   |-- wsj_2101.pipe
+|   |   |-- wsj_2102.pipe
+|   |   |-- wsj_2103.pipe
+|   |   |-- wsj_2104.pipe
+|   |   |-- wsj_2105.pipe
+|   |   |-- wsj_2106.pipe
+|   |   |-- wsj_2107.pipe
+|   |   |-- wsj_2108.pipe
+|   |   |-- wsj_2109.pipe
+|   |   |-- wsj_2110.pipe
+|   |   |-- wsj_2111.pipe
+|   |   |-- wsj_2112.pipe
+|   |   |-- wsj_2113.pipe
+|   |   |-- wsj_2114.pipe
+|   |   |-- wsj_2115.pipe
+|   |   |-- wsj_2116.pipe
+|   |   |-- wsj_2118.pipe
+|   |   |-- wsj_2119.pipe
+|   |   |-- wsj_2120.pipe
+|   |   |-- wsj_2121.pipe
+|   |   |-- wsj_2123.pipe
+|   |   |-- wsj_2124.pipe
+|   |   |-- wsj_2125.pipe
+|   |   |-- wsj_2126.pipe
+|   |   |-- wsj_2127.pipe
+|   |   |-- wsj_2128.pipe
+|   |   |-- wsj_2129.pipe
+|   |   |-- wsj_2130.pipe
+|   |   |-- wsj_2131.pipe
+|   |   |-- wsj_2132.pipe
+|   |   |-- wsj_2133.pipe
+|   |   |-- wsj_2135.pipe
+|   |   |-- wsj_2136.pipe
+|   |   |-- wsj_2138.pipe
+|   |   |-- wsj_2139.pipe
+|   |   |-- wsj_2140.pipe
+|   |   |-- wsj_2141.pipe
+|   |   |-- wsj_2142.pipe
+|   |   |-- wsj_2143.pipe
+|   |   |-- wsj_2144.pipe
+|   |   |-- wsj_2145.pipe
+|   |   |-- wsj_2146.pipe
+|   |   |-- wsj_2148.pipe
+|   |   |-- wsj_2149.pipe
+|   |   |-- wsj_2150.pipe
+|   |   |-- wsj_2151.pipe
+|   |   |-- wsj_2152.pipe
+|   |   |-- wsj_2153.pipe
+|   |   |-- wsj_2154.pipe
+|   |   |-- wsj_2155.pipe
+|   |   |-- wsj_2156.pipe
+|   |   |-- wsj_2157.pipe
+|   |   |-- wsj_2158.pipe
+|   |   |-- wsj_2159.pipe
+|   |   |-- wsj_2160.pipe
+|   |   |-- wsj_2161.pipe
+|   |   |-- wsj_2162.pipe
+|   |   |-- wsj_2163.pipe
+|   |   |-- wsj_2164.pipe
+|   |   |-- wsj_2165.pipe
+|   |   |-- wsj_2166.pipe
+|   |   |-- wsj_2167.pipe
+|   |   |-- wsj_2168.pipe
+|   |   |-- wsj_2169.pipe
+|   |   `-- wsj_2172.pipe
+|   |-- 22
+|   |   |-- wsj_2200.pipe
+|   |   |-- wsj_2201.pipe
+|   |   |-- wsj_2202.pipe
+|   |   |-- wsj_2203.pipe
+|   |   |-- wsj_2204.pipe
+|   |   |-- wsj_2205.pipe
+|   |   |-- wsj_2206.pipe
+|   |   |-- wsj_2207.pipe
+|   |   |-- wsj_2208.pipe
+|   |   |-- wsj_2209.pipe
+|   |   |-- wsj_2210.pipe
+|   |   |-- wsj_2211.pipe
+|   |   |-- wsj_2212.pipe
+|   |   |-- wsj_2213.pipe
+|   |   |-- wsj_2214.pipe
+|   |   |-- wsj_2215.pipe
+|   |   |-- wsj_2216.pipe
+|   |   |-- wsj_2217.pipe
+|   |   |-- wsj_2218.pipe
+|   |   |-- wsj_2219.pipe
+|   |   |-- wsj_2221.pipe
+|   |   |-- wsj_2222.pipe
+|   |   |-- wsj_2223.pipe
+|   |   |-- wsj_2224.pipe
+|   |   |-- wsj_2225.pipe
+|   |   |-- wsj_2226.pipe
+|   |   |-- wsj_2227.pipe
+|   |   |-- wsj_2228.pipe
+|   |   |-- wsj_2229.pipe
+|   |   |-- wsj_2230.pipe
+|   |   |-- wsj_2231.pipe
+|   |   |-- wsj_2232.pipe
+|   |   |-- wsj_2233.pipe
+|   |   |-- wsj_2234.pipe
+|   |   |-- wsj_2235.pipe
+|   |   |-- wsj_2237.pipe
+|   |   |-- wsj_2238.pipe
+|   |   |-- wsj_2239.pipe
+|   |   |-- wsj_2240.pipe
+|   |   |-- wsj_2241.pipe
+|   |   |-- wsj_2242.pipe
+|   |   |-- wsj_2243.pipe
+|   |   |-- wsj_2244.pipe
+|   |   |-- wsj_2245.pipe
+|   |   |-- wsj_2246.pipe
+|   |   |-- wsj_2247.pipe
+|   |   |-- wsj_2248.pipe
+|   |   |-- wsj_2249.pipe
+|   |   |-- wsj_2250.pipe
+|   |   |-- wsj_2251.pipe
+|   |   |-- wsj_2252.pipe
+|   |   |-- wsj_2253.pipe
+|   |   |-- wsj_2254.pipe
+|   |   |-- wsj_2255.pipe
+|   |   |-- wsj_2256.pipe
+|   |   |-- wsj_2257.pipe
+|   |   |-- wsj_2258.pipe
+|   |   |-- wsj_2259.pipe
+|   |   |-- wsj_2260.pipe
+|   |   |-- wsj_2261.pipe
+|   |   |-- wsj_2262.pipe
+|   |   |-- wsj_2264.pipe
+|   |   |-- wsj_2265.pipe
+|   |   |-- wsj_2266.pipe
+|   |   |-- wsj_2267.pipe
+|   |   |-- wsj_2268.pipe
+|   |   |-- wsj_2269.pipe
+|   |   |-- wsj_2270.pipe
+|   |   |-- wsj_2271.pipe
+|   |   |-- wsj_2272.pipe
+|   |   |-- wsj_2273.pipe
+|   |   |-- wsj_2274.pipe
+|   |   |-- wsj_2275.pipe
+|   |   |-- wsj_2276.pipe
+|   |   |-- wsj_2277.pipe
+|   |   |-- wsj_2278.pipe
+|   |   |-- wsj_2280.pipe
+|   |   |-- wsj_2281.pipe
+|   |   `-- wsj_2282.pipe
+|   |-- 23
+|   |   |-- wsj_2300.pipe
+|   |   |-- wsj_2301.pipe
+|   |   |-- wsj_2302.pipe
+|   |   |-- wsj_2303.pipe
+|   |   |-- wsj_2305.pipe
+|   |   |-- wsj_2306.pipe
+|   |   |-- wsj_2308.pipe
+|   |   |-- wsj_2309.pipe
+|   |   |-- wsj_2310.pipe
+|   |   |-- wsj_2311.pipe
+|   |   |-- wsj_2313.pipe
+|   |   |-- wsj_2314.pipe
+|   |   |-- wsj_2315.pipe
+|   |   |-- wsj_2316.pipe
+|   |   |-- wsj_2317.pipe
+|   |   |-- wsj_2319.pipe
+|   |   |-- wsj_2320.pipe
+|   |   |-- wsj_2321.pipe
+|   |   |-- wsj_2322.pipe
+|   |   |-- wsj_2323.pipe
+|   |   |-- wsj_2324.pipe
+|   |   |-- wsj_2325.pipe
+|   |   |-- wsj_2326.pipe
+|   |   |-- wsj_2327.pipe
+|   |   |-- wsj_2328.pipe
+|   |   |-- wsj_2329.pipe
+|   |   |-- wsj_2330.pipe
+|   |   |-- wsj_2331.pipe
+|   |   |-- wsj_2332.pipe
+|   |   |-- wsj_2333.pipe
+|   |   |-- wsj_2334.pipe
+|   |   |-- wsj_2335.pipe
+|   |   |-- wsj_2336.pipe
+|   |   |-- wsj_2337.pipe
+|   |   |-- wsj_2338.pipe
+|   |   |-- wsj_2339.pipe
+|   |   |-- wsj_2340.pipe
+|   |   |-- wsj_2341.pipe
+|   |   |-- wsj_2342.pipe
+|   |   |-- wsj_2343.pipe
+|   |   |-- wsj_2344.pipe
+|   |   |-- wsj_2345.pipe
+|   |   |-- wsj_2346.pipe
+|   |   |-- wsj_2347.pipe
+|   |   |-- wsj_2348.pipe
+|   |   |-- wsj_2350.pipe
+|   |   |-- wsj_2351.pipe
+|   |   |-- wsj_2352.pipe
+|   |   |-- wsj_2353.pipe
+|   |   |-- wsj_2354.pipe
+|   |   |-- wsj_2355.pipe
+|   |   |-- wsj_2356.pipe
+|   |   |-- wsj_2357.pipe
+|   |   |-- wsj_2358.pipe
+|   |   |-- wsj_2359.pipe
+|   |   |-- wsj_2360.pipe
+|   |   |-- wsj_2361.pipe
+|   |   |-- wsj_2362.pipe
+|   |   |-- wsj_2363.pipe
+|   |   |-- wsj_2364.pipe
+|   |   |-- wsj_2365.pipe
+|   |   |-- wsj_2366.pipe
+|   |   |-- wsj_2367.pipe
+|   |   |-- wsj_2368.pipe
+|   |   |-- wsj_2369.pipe
+|   |   |-- wsj_2370.pipe
+|   |   |-- wsj_2371.pipe
+|   |   |-- wsj_2372.pipe
+|   |   |-- wsj_2373.pipe
+|   |   |-- wsj_2374.pipe
+|   |   |-- wsj_2375.pipe
+|   |   |-- wsj_2376.pipe
+|   |   |-- wsj_2377.pipe
+|   |   |-- wsj_2378.pipe
+|   |   |-- wsj_2379.pipe
+|   |   |-- wsj_2380.pipe
+|   |   |-- wsj_2381.pipe
+|   |   |-- wsj_2382.pipe
+|   |   |-- wsj_2383.pipe
+|   |   |-- wsj_2384.pipe
+|   |   |-- wsj_2386.pipe
+|   |   |-- wsj_2387.pipe
+|   |   |-- wsj_2391.pipe
+|   |   |-- wsj_2392.pipe
+|   |   |-- wsj_2393.pipe
+|   |   |-- wsj_2394.pipe
+|   |   |-- wsj_2395.pipe
+|   |   |-- wsj_2396.pipe
+|   |   |-- wsj_2397.pipe
+|   |   |-- wsj_2398.pipe
+|   |   `-- wsj_2399.pipe
+|   `-- 24
+|       |-- wsj_2400.pipe
+|       |-- wsj_2401.pipe
+|       |-- wsj_2402.pipe
+|       |-- wsj_2403.pipe
+|       |-- wsj_2404.pipe
+|       |-- wsj_2405.pipe
+|       |-- wsj_2406.pipe
+|       |-- wsj_2407.pipe
+|       |-- wsj_2408.pipe
+|       |-- wsj_2409.pipe
+|       |-- wsj_2410.pipe
+|       |-- wsj_2411.pipe
+|       |-- wsj_2412.pipe
+|       |-- wsj_2413.pipe
+|       |-- wsj_2414.pipe
+|       |-- wsj_2415.pipe
+|       |-- wsj_2416.pipe
+|       |-- wsj_2417.pipe
+|       |-- wsj_2418.pipe
+|       |-- wsj_2419.pipe
+|       |-- wsj_2420.pipe
+|       |-- wsj_2421.pipe
+|       |-- wsj_2422.pipe
+|       |-- wsj_2423.pipe
+|       |-- wsj_2424.pipe
+|       |-- wsj_2425.pipe
+|       |-- wsj_2426.pipe
+|       |-- wsj_2427.pipe
+|       |-- wsj_2428.pipe
+|       |-- wsj_2429.pipe
+|       |-- wsj_2430.pipe
+|       |-- wsj_2431.pipe
+|       |-- wsj_2432.pipe
+|       |-- wsj_2433.pipe
+|       |-- wsj_2434.pipe
+|       |-- wsj_2435.pipe
+|       |-- wsj_2436.pipe
+|       |-- wsj_2437.pipe
+|       |-- wsj_2438.pipe
+|       |-- wsj_2439.pipe
+|       |-- wsj_2440.pipe
+|       |-- wsj_2441.pipe
+|       |-- wsj_2442.pipe
+|       |-- wsj_2443.pipe
+|       |-- wsj_2444.pipe
+|       |-- wsj_2445.pipe
+|       |-- wsj_2446.pipe
+|       |-- wsj_2447.pipe
+|       |-- wsj_2448.pipe
+|       |-- wsj_2449.pipe
+|       |-- wsj_2450.pipe
+|       |-- wsj_2451.pipe
+|       |-- wsj_2452.pipe
+|       |-- wsj_2453.pipe
+|       `-- wsj_2454.pipe
+`-- ptb
+    |-- parse_tree
+    |   |-- 00
+    |   |   |-- wsj_0001.mrg
+    |   |   |-- wsj_0002.mrg
+    |   |   |-- wsj_0003.mrg
+    |   |   |-- wsj_0004.mrg
+    |   |   |-- wsj_0005.mrg
+    |   |   |-- wsj_0006.mrg
+    |   |   |-- wsj_0007.mrg
+    |   |   |-- wsj_0008.mrg
+    |   |   |-- wsj_0009.mrg
+    |   |   |-- wsj_0010.mrg
+    |   |   |-- wsj_0011.mrg
+    |   |   |-- wsj_0012.mrg
+    |   |   |-- wsj_0013.mrg
+    |   |   |-- wsj_0014.mrg
+    |   |   |-- wsj_0015.mrg
+    |   |   |-- wsj_0016.mrg
+    |   |   |-- wsj_0017.mrg
+    |   |   |-- wsj_0018.mrg
+    |   |   |-- wsj_0019.mrg
+    |   |   |-- wsj_0020.mrg
+    |   |   |-- wsj_0021.mrg
+    |   |   |-- wsj_0022.mrg
+    |   |   |-- wsj_0023.mrg
+    |   |   |-- wsj_0024.mrg
+    |   |   |-- wsj_0025.mrg
+    |   |   |-- wsj_0026.mrg
+    |   |   |-- wsj_0027.mrg
+    |   |   |-- wsj_0028.mrg
+    |   |   |-- wsj_0029.mrg
+    |   |   |-- wsj_0030.mrg
+    |   |   |-- wsj_0031.mrg
+    |   |   |-- wsj_0032.mrg
+    |   |   |-- wsj_0033.mrg
+    |   |   |-- wsj_0034.mrg
+    |   |   |-- wsj_0035.mrg
+    |   |   |-- wsj_0036.mrg
+    |   |   |-- wsj_0037.mrg
+    |   |   |-- wsj_0038.mrg
+    |   |   |-- wsj_0039.mrg
+    |   |   |-- wsj_0040.mrg
+    |   |   |-- wsj_0041.mrg
+    |   |   |-- wsj_0042.mrg
+    |   |   |-- wsj_0043.mrg
+    |   |   |-- wsj_0044.mrg
+    |   |   |-- wsj_0045.mrg
+    |   |   |-- wsj_0046.mrg
+    |   |   |-- wsj_0047.mrg
+    |   |   |-- wsj_0048.mrg
+    |   |   |-- wsj_0049.mrg
+    |   |   |-- wsj_0050.mrg
+    |   |   |-- wsj_0051.mrg
+    |   |   |-- wsj_0052.mrg
+    |   |   |-- wsj_0053.mrg
+    |   |   |-- wsj_0054.mrg
+    |   |   |-- wsj_0055.mrg
+    |   |   |-- wsj_0056.mrg
+    |   |   |-- wsj_0057.mrg
+    |   |   |-- wsj_0058.mrg
+    |   |   |-- wsj_0059.mrg
+    |   |   |-- wsj_0060.mrg
+    |   |   |-- wsj_0061.mrg
+    |   |   |-- wsj_0062.mrg
+    |   |   |-- wsj_0063.mrg
+    |   |   |-- wsj_0064.mrg
+    |   |   |-- wsj_0065.mrg
+    |   |   |-- wsj_0066.mrg
+    |   |   |-- wsj_0067.mrg
+    |   |   |-- wsj_0068.mrg
+    |   |   |-- wsj_0069.mrg
+    |   |   |-- wsj_0070.mrg
+    |   |   |-- wsj_0071.mrg
+    |   |   |-- wsj_0072.mrg
+    |   |   |-- wsj_0073.mrg
+    |   |   |-- wsj_0074.mrg
+    |   |   |-- wsj_0075.mrg
+    |   |   |-- wsj_0076.mrg
+    |   |   |-- wsj_0077.mrg
+    |   |   |-- wsj_0078.mrg
+    |   |   |-- wsj_0079.mrg
+    |   |   |-- wsj_0080.mrg
+    |   |   |-- wsj_0081.mrg
+    |   |   |-- wsj_0082.mrg
+    |   |   |-- wsj_0083.mrg
+    |   |   |-- wsj_0084.mrg
+    |   |   |-- wsj_0085.mrg
+    |   |   |-- wsj_0086.mrg
+    |   |   |-- wsj_0087.mrg
+    |   |   |-- wsj_0088.mrg
+    |   |   |-- wsj_0089.mrg
+    |   |   |-- wsj_0090.mrg
+    |   |   |-- wsj_0091.mrg
+    |   |   |-- wsj_0092.mrg
+    |   |   |-- wsj_0093.mrg
+    |   |   |-- wsj_0094.mrg
+    |   |   |-- wsj_0095.mrg
+    |   |   |-- wsj_0096.mrg
+    |   |   |-- wsj_0097.mrg
+    |   |   |-- wsj_0098.mrg
+    |   |   `-- wsj_0099.mrg
+    |   |-- 01
+    |   |   |-- wsj_0100.mrg
+    |   |   |-- wsj_0101.mrg
+    |   |   |-- wsj_0102.mrg
+    |   |   |-- wsj_0103.mrg
+    |   |   |-- wsj_0104.mrg
+    |   |   |-- wsj_0105.mrg
+    |   |   |-- wsj_0106.mrg
+    |   |   |-- wsj_0107.mrg
+    |   |   |-- wsj_0108.mrg
+    |   |   |-- wsj_0109.mrg
+    |   |   |-- wsj_0110.mrg
+    |   |   |-- wsj_0111.mrg
+    |   |   |-- wsj_0112.mrg
+    |   |   |-- wsj_0113.mrg
+    |   |   |-- wsj_0114.mrg
+    |   |   |-- wsj_0115.mrg
+    |   |   |-- wsj_0116.mrg
+    |   |   |-- wsj_0117.mrg
+    |   |   |-- wsj_0118.mrg
+    |   |   |-- wsj_0119.mrg
+    |   |   |-- wsj_0120.mrg
+    |   |   |-- wsj_0121.mrg
+    |   |   |-- wsj_0122.mrg
+    |   |   |-- wsj_0123.mrg
+    |   |   |-- wsj_0124.mrg
+    |   |   |-- wsj_0125.mrg
+    |   |   |-- wsj_0126.mrg
+    |   |   |-- wsj_0127.mrg
+    |   |   |-- wsj_0128.mrg
+    |   |   |-- wsj_0129.mrg
+    |   |   |-- wsj_0130.mrg
+    |   |   |-- wsj_0131.mrg
+    |   |   |-- wsj_0132.mrg
+    |   |   |-- wsj_0133.mrg
+    |   |   |-- wsj_0134.mrg
+    |   |   |-- wsj_0135.mrg
+    |   |   |-- wsj_0136.mrg
+    |   |   |-- wsj_0137.mrg
+    |   |   |-- wsj_0138.mrg
+    |   |   |-- wsj_0139.mrg
+    |   |   |-- wsj_0140.mrg
+    |   |   |-- wsj_0141.mrg
+    |   |   |-- wsj_0142.mrg
+    |   |   |-- wsj_0143.mrg
+    |   |   |-- wsj_0144.mrg
+    |   |   |-- wsj_0145.mrg
+    |   |   |-- wsj_0146.mrg
+    |   |   |-- wsj_0147.mrg
+    |   |   |-- wsj_0148.mrg
+    |   |   |-- wsj_0149.mrg
+    |   |   |-- wsj_0150.mrg
+    |   |   |-- wsj_0151.mrg
+    |   |   |-- wsj_0152.mrg
+    |   |   |-- wsj_0153.mrg
+    |   |   |-- wsj_0154.mrg
+    |   |   |-- wsj_0155.mrg
+    |   |   |-- wsj_0156.mrg
+    |   |   |-- wsj_0157.mrg
+    |   |   |-- wsj_0158.mrg
+    |   |   |-- wsj_0159.mrg
+    |   |   |-- wsj_0160.mrg
+    |   |   |-- wsj_0161.mrg
+    |   |   |-- wsj_0162.mrg
+    |   |   |-- wsj_0163.mrg
+    |   |   |-- wsj_0164.mrg
+    |   |   |-- wsj_0165.mrg
+    |   |   |-- wsj_0166.mrg
+    |   |   |-- wsj_0167.mrg
+    |   |   |-- wsj_0168.mrg
+    |   |   |-- wsj_0169.mrg
+    |   |   |-- wsj_0170.mrg
+    |   |   |-- wsj_0171.mrg
+    |   |   |-- wsj_0172.mrg
+    |   |   |-- wsj_0173.mrg
+    |   |   |-- wsj_0174.mrg
+    |   |   |-- wsj_0175.mrg
+    |   |   |-- wsj_0176.mrg
+    |   |   |-- wsj_0177.mrg
+    |   |   |-- wsj_0178.mrg
+    |   |   |-- wsj_0179.mrg
+    |   |   |-- wsj_0180.mrg
+    |   |   |-- wsj_0181.mrg
+    |   |   |-- wsj_0182.mrg
+    |   |   |-- wsj_0183.mrg
+    |   |   |-- wsj_0184.mrg
+    |   |   |-- wsj_0185.mrg
+    |   |   |-- wsj_0186.mrg
+    |   |   |-- wsj_0187.mrg
+    |   |   |-- wsj_0188.mrg
+    |   |   |-- wsj_0189.mrg
+    |   |   |-- wsj_0190.mrg
+    |   |   |-- wsj_0191.mrg
+    |   |   |-- wsj_0192.mrg
+    |   |   |-- wsj_0193.mrg
+    |   |   |-- wsj_0194.mrg
+    |   |   |-- wsj_0195.mrg
+    |   |   |-- wsj_0196.mrg
+    |   |   |-- wsj_0197.mrg
+    |   |   |-- wsj_0198.mrg
+    |   |   `-- wsj_0199.mrg
+    |   |-- 02
+    |   |   |-- wsj_0200.mrg
+    |   |   |-- wsj_0201.mrg
+    |   |   |-- wsj_0202.mrg
+    |   |   |-- wsj_0203.mrg
+    |   |   |-- wsj_0204.mrg
+    |   |   |-- wsj_0205.mrg
+    |   |   |-- wsj_0206.mrg
+    |   |   |-- wsj_0207.mrg
+    |   |   |-- wsj_0208.mrg
+    |   |   |-- wsj_0209.mrg
+    |   |   |-- wsj_0210.mrg
+    |   |   |-- wsj_0211.mrg
+    |   |   |-- wsj_0212.mrg
+    |   |   |-- wsj_0213.mrg
+    |   |   |-- wsj_0214.mrg
+    |   |   |-- wsj_0215.mrg
+    |   |   |-- wsj_0216.mrg
+    |   |   |-- wsj_0217.mrg
+    |   |   |-- wsj_0218.mrg
+    |   |   |-- wsj_0219.mrg
+    |   |   |-- wsj_0220.mrg
+    |   |   |-- wsj_0221.mrg
+    |   |   |-- wsj_0222.mrg
+    |   |   |-- wsj_0223.mrg
+    |   |   |-- wsj_0224.mrg
+    |   |   |-- wsj_0225.mrg
+    |   |   |-- wsj_0226.mrg
+    |   |   |-- wsj_0227.mrg
+    |   |   |-- wsj_0228.mrg
+    |   |   |-- wsj_0229.mrg
+    |   |   |-- wsj_0230.mrg
+    |   |   |-- wsj_0231.mrg
+    |   |   |-- wsj_0232.mrg
+    |   |   |-- wsj_0233.mrg
+    |   |   |-- wsj_0234.mrg
+    |   |   |-- wsj_0235.mrg
+    |   |   |-- wsj_0236.mrg
+    |   |   |-- wsj_0237.mrg
+    |   |   |-- wsj_0238.mrg
+    |   |   |-- wsj_0239.mrg
+    |   |   |-- wsj_0240.mrg
+    |   |   |-- wsj_0241.mrg
+    |   |   |-- wsj_0242.mrg
+    |   |   |-- wsj_0243.mrg
+    |   |   |-- wsj_0244.mrg
+    |   |   |-- wsj_0245.mrg
+    |   |   |-- wsj_0246.mrg
+    |   |   |-- wsj_0247.mrg
+    |   |   |-- wsj_0248.mrg
+    |   |   |-- wsj_0249.mrg
+    |   |   |-- wsj_0250.mrg
+    |   |   |-- wsj_0251.mrg
+    |   |   |-- wsj_0252.mrg
+    |   |   |-- wsj_0253.mrg
+    |   |   |-- wsj_0254.mrg
+    |   |   |-- wsj_0255.mrg
+    |   |   |-- wsj_0256.mrg
+    |   |   |-- wsj_0257.mrg
+    |   |   |-- wsj_0258.mrg
+    |   |   |-- wsj_0259.mrg
+    |   |   |-- wsj_0260.mrg
+    |   |   |-- wsj_0261.mrg
+    |   |   |-- wsj_0262.mrg
+    |   |   |-- wsj_0263.mrg
+    |   |   |-- wsj_0264.mrg
+    |   |   |-- wsj_0265.mrg
+    |   |   |-- wsj_0266.mrg
+    |   |   |-- wsj_0267.mrg
+    |   |   |-- wsj_0268.mrg
+    |   |   |-- wsj_0269.mrg
+    |   |   |-- wsj_0270.mrg
+    |   |   |-- wsj_0271.mrg
+    |   |   |-- wsj_0272.mrg
+    |   |   |-- wsj_0273.mrg
+    |   |   |-- wsj_0274.mrg
+    |   |   |-- wsj_0275.mrg
+    |   |   |-- wsj_0276.mrg
+    |   |   |-- wsj_0277.mrg
+    |   |   |-- wsj_0278.mrg
+    |   |   |-- wsj_0279.mrg
+    |   |   |-- wsj_0280.mrg
+    |   |   |-- wsj_0281.mrg
+    |   |   |-- wsj_0282.mrg
+    |   |   |-- wsj_0283.mrg
+    |   |   |-- wsj_0284.mrg
+    |   |   |-- wsj_0285.mrg
+    |   |   |-- wsj_0286.mrg
+    |   |   |-- wsj_0287.mrg
+    |   |   |-- wsj_0288.mrg
+    |   |   |-- wsj_0289.mrg
+    |   |   |-- wsj_0290.mrg
+    |   |   |-- wsj_0291.mrg
+    |   |   |-- wsj_0292.mrg
+    |   |   |-- wsj_0293.mrg
+    |   |   |-- wsj_0294.mrg
+    |   |   |-- wsj_0295.mrg
+    |   |   |-- wsj_0296.mrg
+    |   |   |-- wsj_0297.mrg
+    |   |   |-- wsj_0298.mrg
+    |   |   `-- wsj_0299.mrg
+    |   |-- 03
+    |   |   |-- wsj_0300.mrg
+    |   |   |-- wsj_0301.mrg
+    |   |   |-- wsj_0302.mrg
+    |   |   |-- wsj_0303.mrg
+    |   |   |-- wsj_0304.mrg
+    |   |   |-- wsj_0305.mrg
+    |   |   |-- wsj_0306.mrg
+    |   |   |-- wsj_0307.mrg
+    |   |   |-- wsj_0308.mrg
+    |   |   |-- wsj_0309.mrg
+    |   |   |-- wsj_0310.mrg
+    |   |   |-- wsj_0311.mrg
+    |   |   |-- wsj_0312.mrg
+    |   |   |-- wsj_0313.mrg
+    |   |   |-- wsj_0314.mrg
+    |   |   |-- wsj_0315.mrg
+    |   |   |-- wsj_0316.mrg
+    |   |   |-- wsj_0317.mrg
+    |   |   |-- wsj_0318.mrg
+    |   |   |-- wsj_0319.mrg
+    |   |   |-- wsj_0320.mrg
+    |   |   |-- wsj_0321.mrg
+    |   |   |-- wsj_0322.mrg
+    |   |   |-- wsj_0323.mrg
+    |   |   |-- wsj_0324.mrg
+    |   |   |-- wsj_0325.mrg
+    |   |   |-- wsj_0326.mrg
+    |   |   |-- wsj_0327.mrg
+    |   |   |-- wsj_0328.mrg
+    |   |   |-- wsj_0329.mrg
+    |   |   |-- wsj_0330.mrg
+    |   |   |-- wsj_0331.mrg
+    |   |   |-- wsj_0332.mrg
+    |   |   |-- wsj_0333.mrg
+    |   |   |-- wsj_0334.mrg
+    |   |   |-- wsj_0335.mrg
+    |   |   |-- wsj_0336.mrg
+    |   |   |-- wsj_0337.mrg
+    |   |   |-- wsj_0338.mrg
+    |   |   |-- wsj_0339.mrg
+    |   |   |-- wsj_0340.mrg
+    |   |   |-- wsj_0341.mrg
+    |   |   |-- wsj_0342.mrg
+    |   |   |-- wsj_0343.mrg
+    |   |   |-- wsj_0344.mrg
+    |   |   |-- wsj_0345.mrg
+    |   |   |-- wsj_0346.mrg
+    |   |   |-- wsj_0347.mrg
+    |   |   |-- wsj_0348.mrg
+    |   |   |-- wsj_0349.mrg
+    |   |   |-- wsj_0350.mrg
+    |   |   |-- wsj_0351.mrg
+    |   |   |-- wsj_0352.mrg
+    |   |   |-- wsj_0353.mrg
+    |   |   |-- wsj_0354.mrg
+    |   |   |-- wsj_0355.mrg
+    |   |   |-- wsj_0356.mrg
+    |   |   |-- wsj_0357.mrg
+    |   |   |-- wsj_0358.mrg
+    |   |   |-- wsj_0359.mrg
+    |   |   |-- wsj_0360.mrg
+    |   |   |-- wsj_0361.mrg
+    |   |   |-- wsj_0362.mrg
+    |   |   |-- wsj_0363.mrg
+    |   |   |-- wsj_0364.mrg
+    |   |   |-- wsj_0365.mrg
+    |   |   |-- wsj_0366.mrg
+    |   |   |-- wsj_0367.mrg
+    |   |   |-- wsj_0368.mrg
+    |   |   |-- wsj_0369.mrg
+    |   |   |-- wsj_0370.mrg
+    |   |   |-- wsj_0371.mrg
+    |   |   |-- wsj_0372.mrg
+    |   |   |-- wsj_0373.mrg
+    |   |   |-- wsj_0374.mrg
+    |   |   |-- wsj_0375.mrg
+    |   |   |-- wsj_0376.mrg
+    |   |   |-- wsj_0377.mrg
+    |   |   |-- wsj_0378.mrg
+    |   |   |-- wsj_0379.mrg
+    |   |   `-- wsj_0380.mrg
+    |   |-- 04
+    |   |   |-- wsj_0400.mrg
+    |   |   |-- wsj_0401.mrg
+    |   |   |-- wsj_0402.mrg
+    |   |   |-- wsj_0403.mrg
+    |   |   |-- wsj_0404.mrg
+    |   |   |-- wsj_0405.mrg
+    |   |   |-- wsj_0406.mrg
+    |   |   |-- wsj_0407.mrg
+    |   |   |-- wsj_0408.mrg
+    |   |   |-- wsj_0409.mrg
+    |   |   |-- wsj_0410.mrg
+    |   |   |-- wsj_0411.mrg
+    |   |   |-- wsj_0412.mrg
+    |   |   |-- wsj_0413.mrg
+    |   |   |-- wsj_0414.mrg
+    |   |   |-- wsj_0415.mrg
+    |   |   |-- wsj_0416.mrg
+    |   |   |-- wsj_0417.mrg
+    |   |   |-- wsj_0418.mrg
+    |   |   |-- wsj_0419.mrg
+    |   |   |-- wsj_0420.mrg
+    |   |   |-- wsj_0421.mrg
+    |   |   |-- wsj_0422.mrg
+    |   |   |-- wsj_0423.mrg
+    |   |   |-- wsj_0424.mrg
+    |   |   |-- wsj_0425.mrg
+    |   |   |-- wsj_0426.mrg
+    |   |   |-- wsj_0427.mrg
+    |   |   |-- wsj_0428.mrg
+    |   |   |-- wsj_0429.mrg
+    |   |   |-- wsj_0430.mrg
+    |   |   |-- wsj_0431.mrg
+    |   |   |-- wsj_0432.mrg
+    |   |   |-- wsj_0433.mrg
+    |   |   |-- wsj_0434.mrg
+    |   |   |-- wsj_0435.mrg
+    |   |   |-- wsj_0436.mrg
+    |   |   |-- wsj_0437.mrg
+    |   |   |-- wsj_0438.mrg
+    |   |   |-- wsj_0439.mrg
+    |   |   |-- wsj_0440.mrg
+    |   |   |-- wsj_0441.mrg
+    |   |   |-- wsj_0442.mrg
+    |   |   |-- wsj_0443.mrg
+    |   |   |-- wsj_0444.mrg
+    |   |   |-- wsj_0445.mrg
+    |   |   |-- wsj_0446.mrg
+    |   |   |-- wsj_0447.mrg
+    |   |   |-- wsj_0448.mrg
+    |   |   |-- wsj_0449.mrg
+    |   |   |-- wsj_0450.mrg
+    |   |   |-- wsj_0451.mrg
+    |   |   |-- wsj_0452.mrg
+    |   |   |-- wsj_0453.mrg
+    |   |   |-- wsj_0454.mrg
+    |   |   |-- wsj_0455.mrg
+    |   |   |-- wsj_0456.mrg
+    |   |   |-- wsj_0457.mrg
+    |   |   |-- wsj_0458.mrg
+    |   |   |-- wsj_0459.mrg
+    |   |   |-- wsj_0460.mrg
+    |   |   |-- wsj_0461.mrg
+    |   |   |-- wsj_0462.mrg
+    |   |   |-- wsj_0463.mrg
+    |   |   |-- wsj_0464.mrg
+    |   |   |-- wsj_0465.mrg
+    |   |   |-- wsj_0466.mrg
+    |   |   |-- wsj_0467.mrg
+    |   |   |-- wsj_0468.mrg
+    |   |   |-- wsj_0469.mrg
+    |   |   |-- wsj_0470.mrg
+    |   |   |-- wsj_0471.mrg
+    |   |   |-- wsj_0472.mrg
+    |   |   |-- wsj_0473.mrg
+    |   |   |-- wsj_0474.mrg
+    |   |   |-- wsj_0475.mrg
+    |   |   |-- wsj_0476.mrg
+    |   |   |-- wsj_0477.mrg
+    |   |   |-- wsj_0478.mrg
+    |   |   |-- wsj_0479.mrg
+    |   |   |-- wsj_0480.mrg
+    |   |   |-- wsj_0481.mrg
+    |   |   |-- wsj_0482.mrg
+    |   |   |-- wsj_0483.mrg
+    |   |   |-- wsj_0484.mrg
+    |   |   |-- wsj_0485.mrg
+    |   |   |-- wsj_0486.mrg
+    |   |   |-- wsj_0487.mrg
+    |   |   |-- wsj_0488.mrg
+    |   |   |-- wsj_0489.mrg
+    |   |   |-- wsj_0490.mrg
+    |   |   |-- wsj_0491.mrg
+    |   |   |-- wsj_0492.mrg
+    |   |   |-- wsj_0493.mrg
+    |   |   |-- wsj_0494.mrg
+    |   |   |-- wsj_0495.mrg
+    |   |   |-- wsj_0496.mrg
+    |   |   |-- wsj_0497.mrg
+    |   |   |-- wsj_0498.mrg
+    |   |   `-- wsj_0499.mrg
+    |   |-- 05
+    |   |   |-- wsj_0500.mrg
+    |   |   |-- wsj_0501.mrg
+    |   |   |-- wsj_0502.mrg
+    |   |   |-- wsj_0503.mrg
+    |   |   |-- wsj_0504.mrg
+    |   |   |-- wsj_0505.mrg
+    |   |   |-- wsj_0506.mrg
+    |   |   |-- wsj_0507.mrg
+    |   |   |-- wsj_0508.mrg
+    |   |   |-- wsj_0509.mrg
+    |   |   |-- wsj_0510.mrg
+    |   |   |-- wsj_0511.mrg
+    |   |   |-- wsj_0512.mrg
+    |   |   |-- wsj_0513.mrg
+    |   |   |-- wsj_0514.mrg
+    |   |   |-- wsj_0515.mrg
+    |   |   |-- wsj_0516.mrg
+    |   |   |-- wsj_0517.mrg
+    |   |   |-- wsj_0518.mrg
+    |   |   |-- wsj_0519.mrg
+    |   |   |-- wsj_0520.mrg
+    |   |   |-- wsj_0521.mrg
+    |   |   |-- wsj_0522.mrg
+    |   |   |-- wsj_0523.mrg
+    |   |   |-- wsj_0524.mrg
+    |   |   |-- wsj_0525.mrg
+    |   |   |-- wsj_0526.mrg
+    |   |   |-- wsj_0527.mrg
+    |   |   |-- wsj_0528.mrg
+    |   |   |-- wsj_0529.mrg
+    |   |   |-- wsj_0530.mrg
+    |   |   |-- wsj_0531.mrg
+    |   |   |-- wsj_0532.mrg
+    |   |   |-- wsj_0533.mrg
+    |   |   |-- wsj_0534.mrg
+    |   |   |-- wsj_0535.mrg
+    |   |   |-- wsj_0536.mrg
+    |   |   |-- wsj_0537.mrg
+    |   |   |-- wsj_0538.mrg
+    |   |   |-- wsj_0539.mrg
+    |   |   |-- wsj_0540.mrg
+    |   |   |-- wsj_0541.mrg
+    |   |   |-- wsj_0542.mrg
+    |   |   |-- wsj_0543.mrg
+    |   |   |-- wsj_0544.mrg
+    |   |   |-- wsj_0545.mrg
+    |   |   |-- wsj_0546.mrg
+    |   |   |-- wsj_0547.mrg
+    |   |   |-- wsj_0548.mrg
+    |   |   |-- wsj_0549.mrg
+    |   |   |-- wsj_0550.mrg
+    |   |   |-- wsj_0551.mrg
+    |   |   |-- wsj_0552.mrg
+    |   |   |-- wsj_0553.mrg
+    |   |   |-- wsj_0554.mrg
+    |   |   |-- wsj_0555.mrg
+    |   |   |-- wsj_0556.mrg
+    |   |   |-- wsj_0557.mrg
+    |   |   |-- wsj_0558.mrg
+    |   |   |-- wsj_0559.mrg
+    |   |   |-- wsj_0560.mrg
+    |   |   |-- wsj_0561.mrg
+    |   |   |-- wsj_0562.mrg
+    |   |   |-- wsj_0563.mrg
+    |   |   |-- wsj_0564.mrg
+    |   |   |-- wsj_0565.mrg
+    |   |   |-- wsj_0566.mrg
+    |   |   |-- wsj_0567.mrg
+    |   |   |-- wsj_0568.mrg
+    |   |   |-- wsj_0569.mrg
+    |   |   |-- wsj_0570.mrg
+    |   |   |-- wsj_0571.mrg
+    |   |   |-- wsj_0572.mrg
+    |   |   |-- wsj_0573.mrg
+    |   |   |-- wsj_0574.mrg
+    |   |   |-- wsj_0575.mrg
+    |   |   |-- wsj_0576.mrg
+    |   |   |-- wsj_0577.mrg
+    |   |   |-- wsj_0578.mrg
+    |   |   |-- wsj_0579.mrg
+    |   |   |-- wsj_0580.mrg
+    |   |   |-- wsj_0581.mrg
+    |   |   |-- wsj_0582.mrg
+    |   |   |-- wsj_0583.mrg
+    |   |   |-- wsj_0584.mrg
+    |   |   |-- wsj_0585.mrg
+    |   |   |-- wsj_0586.mrg
+    |   |   |-- wsj_0587.mrg
+    |   |   |-- wsj_0588.mrg
+    |   |   |-- wsj_0589.mrg
+    |   |   |-- wsj_0590.mrg
+    |   |   |-- wsj_0591.mrg
+    |   |   |-- wsj_0592.mrg
+    |   |   |-- wsj_0593.mrg
+    |   |   |-- wsj_0594.mrg
+    |   |   |-- wsj_0595.mrg
+    |   |   |-- wsj_0596.mrg
+    |   |   |-- wsj_0597.mrg
+    |   |   |-- wsj_0598.mrg
+    |   |   `-- wsj_0599.mrg
+    |   |-- 06
+    |   |   |-- wsj_0600.mrg
+    |   |   |-- wsj_0601.mrg
+    |   |   |-- wsj_0602.mrg
+    |   |   |-- wsj_0603.mrg
+    |   |   |-- wsj_0604.mrg
+    |   |   |-- wsj_0605.mrg
+    |   |   |-- wsj_0606.mrg
+    |   |   |-- wsj_0607.mrg
+    |   |   |-- wsj_0608.mrg
+    |   |   |-- wsj_0609.mrg
+    |   |   |-- wsj_0610.mrg
+    |   |   |-- wsj_0611.mrg
+    |   |   |-- wsj_0612.mrg
+    |   |   |-- wsj_0613.mrg
+    |   |   |-- wsj_0614.mrg
+    |   |   |-- wsj_0615.mrg
+    |   |   |-- wsj_0616.mrg
+    |   |   |-- wsj_0617.mrg
+    |   |   |-- wsj_0618.mrg
+    |   |   |-- wsj_0619.mrg
+    |   |   |-- wsj_0620.mrg
+    |   |   |-- wsj_0621.mrg
+    |   |   |-- wsj_0622.mrg
+    |   |   |-- wsj_0623.mrg
+    |   |   |-- wsj_0624.mrg
+    |   |   |-- wsj_0625.mrg
+    |   |   |-- wsj_0626.mrg
+    |   |   |-- wsj_0627.mrg
+    |   |   |-- wsj_0628.mrg
+    |   |   |-- wsj_0629.mrg
+    |   |   |-- wsj_0630.mrg
+    |   |   |-- wsj_0631.mrg
+    |   |   |-- wsj_0632.mrg
+    |   |   |-- wsj_0633.mrg
+    |   |   |-- wsj_0634.mrg
+    |   |   |-- wsj_0635.mrg
+    |   |   |-- wsj_0636.mrg
+    |   |   |-- wsj_0637.mrg
+    |   |   |-- wsj_0638.mrg
+    |   |   |-- wsj_0639.mrg
+    |   |   |-- wsj_0640.mrg
+    |   |   |-- wsj_0641.mrg
+    |   |   |-- wsj_0642.mrg
+    |   |   |-- wsj_0643.mrg
+    |   |   |-- wsj_0644.mrg
+    |   |   |-- wsj_0645.mrg
+    |   |   |-- wsj_0646.mrg
+    |   |   |-- wsj_0647.mrg
+    |   |   |-- wsj_0648.mrg
+    |   |   |-- wsj_0649.mrg
+    |   |   |-- wsj_0650.mrg
+    |   |   |-- wsj_0651.mrg
+    |   |   |-- wsj_0652.mrg
+    |   |   |-- wsj_0653.mrg
+    |   |   |-- wsj_0654.mrg
+    |   |   |-- wsj_0655.mrg
+    |   |   |-- wsj_0656.mrg
+    |   |   |-- wsj_0657.mrg
+    |   |   |-- wsj_0658.mrg
+    |   |   |-- wsj_0659.mrg
+    |   |   |-- wsj_0660.mrg
+    |   |   |-- wsj_0661.mrg
+    |   |   |-- wsj_0662.mrg
+    |   |   |-- wsj_0663.mrg
+    |   |   |-- wsj_0664.mrg
+    |   |   |-- wsj_0665.mrg
+    |   |   |-- wsj_0666.mrg
+    |   |   |-- wsj_0667.mrg
+    |   |   |-- wsj_0668.mrg
+    |   |   |-- wsj_0669.mrg
+    |   |   |-- wsj_0670.mrg
+    |   |   |-- wsj_0671.mrg
+    |   |   |-- wsj_0672.mrg
+    |   |   |-- wsj_0673.mrg
+    |   |   |-- wsj_0674.mrg
+    |   |   |-- wsj_0675.mrg
+    |   |   |-- wsj_0676.mrg
+    |   |   |-- wsj_0677.mrg
+    |   |   |-- wsj_0678.mrg
+    |   |   |-- wsj_0679.mrg
+    |   |   |-- wsj_0680.mrg
+    |   |   |-- wsj_0681.mrg
+    |   |   |-- wsj_0682.mrg
+    |   |   |-- wsj_0683.mrg
+    |   |   |-- wsj_0684.mrg
+    |   |   |-- wsj_0685.mrg
+    |   |   |-- wsj_0686.mrg
+    |   |   |-- wsj_0687.mrg
+    |   |   |-- wsj_0688.mrg
+    |   |   |-- wsj_0689.mrg
+    |   |   |-- wsj_0690.mrg
+    |   |   |-- wsj_0691.mrg
+    |   |   |-- wsj_0692.mrg
+    |   |   |-- wsj_0693.mrg
+    |   |   |-- wsj_0694.mrg
+    |   |   |-- wsj_0695.mrg
+    |   |   |-- wsj_0696.mrg
+    |   |   |-- wsj_0697.mrg
+    |   |   |-- wsj_0698.mrg
+    |   |   `-- wsj_0699.mrg
+    |   |-- 07
+    |   |   |-- wsj_0700.mrg
+    |   |   |-- wsj_0701.mrg
+    |   |   |-- wsj_0702.mrg
+    |   |   |-- wsj_0703.mrg
+    |   |   |-- wsj_0704.mrg
+    |   |   |-- wsj_0705.mrg
+    |   |   |-- wsj_0706.mrg
+    |   |   |-- wsj_0707.mrg
+    |   |   |-- wsj_0708.mrg
+    |   |   |-- wsj_0709.mrg
+    |   |   |-- wsj_0710.mrg
+    |   |   |-- wsj_0711.mrg
+    |   |   |-- wsj_0712.mrg
+    |   |   |-- wsj_0713.mrg
+    |   |   |-- wsj_0714.mrg
+    |   |   |-- wsj_0715.mrg
+    |   |   |-- wsj_0716.mrg
+    |   |   |-- wsj_0717.mrg
+    |   |   |-- wsj_0718.mrg
+    |   |   |-- wsj_0719.mrg
+    |   |   |-- wsj_0720.mrg
+    |   |   |-- wsj_0721.mrg
+    |   |   |-- wsj_0722.mrg
+    |   |   |-- wsj_0723.mrg
+    |   |   |-- wsj_0724.mrg
+    |   |   |-- wsj_0725.mrg
+    |   |   |-- wsj_0726.mrg
+    |   |   |-- wsj_0727.mrg
+    |   |   |-- wsj_0728.mrg
+    |   |   |-- wsj_0729.mrg
+    |   |   |-- wsj_0730.mrg
+    |   |   |-- wsj_0731.mrg
+    |   |   |-- wsj_0732.mrg
+    |   |   |-- wsj_0733.mrg
+    |   |   |-- wsj_0734.mrg
+    |   |   |-- wsj_0735.mrg
+    |   |   |-- wsj_0736.mrg
+    |   |   |-- wsj_0737.mrg
+    |   |   |-- wsj_0738.mrg
+    |   |   |-- wsj_0739.mrg
+    |   |   |-- wsj_0740.mrg
+    |   |   |-- wsj_0741.mrg
+    |   |   |-- wsj_0742.mrg
+    |   |   |-- wsj_0743.mrg
+    |   |   |-- wsj_0744.mrg
+    |   |   |-- wsj_0745.mrg
+    |   |   |-- wsj_0746.mrg
+    |   |   |-- wsj_0747.mrg
+    |   |   |-- wsj_0748.mrg
+    |   |   |-- wsj_0749.mrg
+    |   |   |-- wsj_0750.mrg
+    |   |   |-- wsj_0751.mrg
+    |   |   |-- wsj_0752.mrg
+    |   |   |-- wsj_0753.mrg
+    |   |   |-- wsj_0754.mrg
+    |   |   |-- wsj_0755.mrg
+    |   |   |-- wsj_0756.mrg
+    |   |   |-- wsj_0757.mrg
+    |   |   |-- wsj_0758.mrg
+    |   |   |-- wsj_0759.mrg
+    |   |   |-- wsj_0760.mrg
+    |   |   |-- wsj_0761.mrg
+    |   |   |-- wsj_0762.mrg
+    |   |   |-- wsj_0763.mrg
+    |   |   |-- wsj_0764.mrg
+    |   |   |-- wsj_0765.mrg
+    |   |   |-- wsj_0766.mrg
+    |   |   |-- wsj_0767.mrg
+    |   |   |-- wsj_0768.mrg
+    |   |   |-- wsj_0769.mrg
+    |   |   |-- wsj_0770.mrg
+    |   |   |-- wsj_0771.mrg
+    |   |   |-- wsj_0772.mrg
+    |   |   |-- wsj_0773.mrg
+    |   |   |-- wsj_0774.mrg
+    |   |   |-- wsj_0775.mrg
+    |   |   |-- wsj_0776.mrg
+    |   |   |-- wsj_0777.mrg
+    |   |   |-- wsj_0778.mrg
+    |   |   |-- wsj_0779.mrg
+    |   |   |-- wsj_0780.mrg
+    |   |   |-- wsj_0781.mrg
+    |   |   |-- wsj_0782.mrg
+    |   |   |-- wsj_0783.mrg
+    |   |   |-- wsj_0784.mrg
+    |   |   |-- wsj_0785.mrg
+    |   |   |-- wsj_0786.mrg
+    |   |   |-- wsj_0787.mrg
+    |   |   |-- wsj_0788.mrg
+    |   |   |-- wsj_0789.mrg
+    |   |   |-- wsj_0790.mrg
+    |   |   |-- wsj_0791.mrg
+    |   |   |-- wsj_0792.mrg
+    |   |   |-- wsj_0793.mrg
+    |   |   |-- wsj_0794.mrg
+    |   |   |-- wsj_0795.mrg
+    |   |   |-- wsj_0796.mrg
+    |   |   |-- wsj_0797.mrg
+    |   |   |-- wsj_0798.mrg
+    |   |   `-- wsj_0799.mrg
+    |   |-- 08
+    |   |   |-- wsj_0800.mrg
+    |   |   |-- wsj_0801.mrg
+    |   |   |-- wsj_0802.mrg
+    |   |   |-- wsj_0803.mrg
+    |   |   |-- wsj_0804.mrg
+    |   |   |-- wsj_0805.mrg
+    |   |   |-- wsj_0806.mrg
+    |   |   |-- wsj_0807.mrg
+    |   |   |-- wsj_0808.mrg
+    |   |   |-- wsj_0809.mrg
+    |   |   |-- wsj_0810.mrg
+    |   |   |-- wsj_0811.mrg
+    |   |   |-- wsj_0812.mrg
+    |   |   |-- wsj_0813.mrg
+    |   |   |-- wsj_0814.mrg
+    |   |   |-- wsj_0815.mrg
+    |   |   |-- wsj_0816.mrg
+    |   |   |-- wsj_0817.mrg
+    |   |   |-- wsj_0818.mrg
+    |   |   |-- wsj_0819.mrg
+    |   |   `-- wsj_0820.mrg
+    |   |-- 09
+    |   |   |-- wsj_0900.mrg
+    |   |   |-- wsj_0901.mrg
+    |   |   |-- wsj_0902.mrg
+    |   |   |-- wsj_0903.mrg
+    |   |   |-- wsj_0904.mrg
+    |   |   |-- wsj_0905.mrg
+    |   |   |-- wsj_0906.mrg
+    |   |   |-- wsj_0907.mrg
+    |   |   |-- wsj_0908.mrg
+    |   |   |-- wsj_0909.mrg
+    |   |   |-- wsj_0910.mrg
+    |   |   |-- wsj_0911.mrg
+    |   |   |-- wsj_0912.mrg
+    |   |   |-- wsj_0913.mrg
+    |   |   |-- wsj_0914.mrg
+    |   |   |-- wsj_0915.mrg
+    |   |   |-- wsj_0916.mrg
+    |   |   |-- wsj_0917.mrg
+    |   |   |-- wsj_0918.mrg
+    |   |   |-- wsj_0919.mrg
+    |   |   |-- wsj_0920.mrg
+    |   |   |-- wsj_0921.mrg
+    |   |   |-- wsj_0922.mrg
+    |   |   |-- wsj_0923.mrg
+    |   |   |-- wsj_0924.mrg
+    |   |   |-- wsj_0925.mrg
+    |   |   |-- wsj_0926.mrg
+    |   |   |-- wsj_0927.mrg
+    |   |   |-- wsj_0928.mrg
+    |   |   |-- wsj_0929.mrg
+    |   |   |-- wsj_0930.mrg
+    |   |   |-- wsj_0931.mrg
+    |   |   |-- wsj_0932.mrg
+    |   |   |-- wsj_0933.mrg
+    |   |   |-- wsj_0934.mrg
+    |   |   |-- wsj_0935.mrg
+    |   |   |-- wsj_0936.mrg
+    |   |   |-- wsj_0937.mrg
+    |   |   |-- wsj_0938.mrg
+    |   |   |-- wsj_0939.mrg
+    |   |   |-- wsj_0940.mrg
+    |   |   |-- wsj_0941.mrg
+    |   |   |-- wsj_0942.mrg
+    |   |   |-- wsj_0943.mrg
+    |   |   |-- wsj_0944.mrg
+    |   |   |-- wsj_0945.mrg
+    |   |   |-- wsj_0946.mrg
+    |   |   |-- wsj_0947.mrg
+    |   |   |-- wsj_0948.mrg
+    |   |   |-- wsj_0949.mrg
+    |   |   |-- wsj_0950.mrg
+    |   |   |-- wsj_0951.mrg
+    |   |   |-- wsj_0952.mrg
+    |   |   |-- wsj_0953.mrg
+    |   |   |-- wsj_0954.mrg
+    |   |   |-- wsj_0955.mrg
+    |   |   |-- wsj_0956.mrg
+    |   |   |-- wsj_0957.mrg
+    |   |   |-- wsj_0958.mrg
+    |   |   |-- wsj_0959.mrg
+    |   |   |-- wsj_0960.mrg
+    |   |   |-- wsj_0961.mrg
+    |   |   |-- wsj_0962.mrg
+    |   |   |-- wsj_0963.mrg
+    |   |   |-- wsj_0964.mrg
+    |   |   |-- wsj_0965.mrg
+    |   |   |-- wsj_0966.mrg
+    |   |   |-- wsj_0967.mrg
+    |   |   |-- wsj_0968.mrg
+    |   |   |-- wsj_0969.mrg
+    |   |   |-- wsj_0970.mrg
+    |   |   |-- wsj_0971.mrg
+    |   |   |-- wsj_0972.mrg
+    |   |   |-- wsj_0973.mrg
+    |   |   |-- wsj_0974.mrg
+    |   |   |-- wsj_0975.mrg
+    |   |   |-- wsj_0976.mrg
+    |   |   |-- wsj_0977.mrg
+    |   |   |-- wsj_0978.mrg
+    |   |   |-- wsj_0979.mrg
+    |   |   |-- wsj_0980.mrg
+    |   |   |-- wsj_0981.mrg
+    |   |   |-- wsj_0982.mrg
+    |   |   |-- wsj_0983.mrg
+    |   |   |-- wsj_0984.mrg
+    |   |   |-- wsj_0985.mrg
+    |   |   |-- wsj_0986.mrg
+    |   |   |-- wsj_0987.mrg
+    |   |   |-- wsj_0988.mrg
+    |   |   |-- wsj_0989.mrg
+    |   |   |-- wsj_0990.mrg
+    |   |   |-- wsj_0991.mrg
+    |   |   |-- wsj_0992.mrg
+    |   |   |-- wsj_0993.mrg
+    |   |   |-- wsj_0994.mrg
+    |   |   |-- wsj_0995.mrg
+    |   |   |-- wsj_0996.mrg
+    |   |   |-- wsj_0997.mrg
+    |   |   |-- wsj_0998.mrg
+    |   |   `-- wsj_0999.mrg
+    |   |-- 10
+    |   |   |-- wsj_1000.mrg
+    |   |   |-- wsj_1001.mrg
+    |   |   |-- wsj_1002.mrg
+    |   |   |-- wsj_1003.mrg
+    |   |   |-- wsj_1004.mrg
+    |   |   |-- wsj_1005.mrg
+    |   |   |-- wsj_1006.mrg
+    |   |   |-- wsj_1007.mrg
+    |   |   |-- wsj_1008.mrg
+    |   |   |-- wsj_1009.mrg
+    |   |   |-- wsj_1010.mrg
+    |   |   |-- wsj_1011.mrg
+    |   |   |-- wsj_1012.mrg
+    |   |   |-- wsj_1013.mrg
+    |   |   |-- wsj_1014.mrg
+    |   |   |-- wsj_1015.mrg
+    |   |   |-- wsj_1016.mrg
+    |   |   |-- wsj_1017.mrg
+    |   |   |-- wsj_1018.mrg
+    |   |   |-- wsj_1019.mrg
+    |   |   |-- wsj_1020.mrg
+    |   |   |-- wsj_1021.mrg
+    |   |   |-- wsj_1022.mrg
+    |   |   |-- wsj_1023.mrg
+    |   |   |-- wsj_1024.mrg
+    |   |   |-- wsj_1025.mrg
+    |   |   |-- wsj_1026.mrg
+    |   |   |-- wsj_1027.mrg
+    |   |   |-- wsj_1028.mrg
+    |   |   |-- wsj_1029.mrg
+    |   |   |-- wsj_1030.mrg
+    |   |   |-- wsj_1031.mrg
+    |   |   |-- wsj_1032.mrg
+    |   |   |-- wsj_1033.mrg
+    |   |   |-- wsj_1034.mrg
+    |   |   |-- wsj_1035.mrg
+    |   |   |-- wsj_1036.mrg
+    |   |   |-- wsj_1037.mrg
+    |   |   |-- wsj_1038.mrg
+    |   |   |-- wsj_1039.mrg
+    |   |   |-- wsj_1040.mrg
+    |   |   |-- wsj_1041.mrg
+    |   |   |-- wsj_1042.mrg
+    |   |   |-- wsj_1043.mrg
+    |   |   |-- wsj_1044.mrg
+    |   |   |-- wsj_1045.mrg
+    |   |   |-- wsj_1046.mrg
+    |   |   |-- wsj_1047.mrg
+    |   |   |-- wsj_1048.mrg
+    |   |   |-- wsj_1049.mrg
+    |   |   |-- wsj_1050.mrg
+    |   |   |-- wsj_1051.mrg
+    |   |   |-- wsj_1052.mrg
+    |   |   |-- wsj_1053.mrg
+    |   |   |-- wsj_1054.mrg
+    |   |   |-- wsj_1055.mrg
+    |   |   |-- wsj_1056.mrg
+    |   |   |-- wsj_1057.mrg
+    |   |   |-- wsj_1058.mrg
+    |   |   |-- wsj_1059.mrg
+    |   |   |-- wsj_1060.mrg
+    |   |   |-- wsj_1061.mrg
+    |   |   |-- wsj_1062.mrg
+    |   |   |-- wsj_1063.mrg
+    |   |   |-- wsj_1064.mrg
+    |   |   |-- wsj_1065.mrg
+    |   |   |-- wsj_1066.mrg
+    |   |   |-- wsj_1067.mrg
+    |   |   |-- wsj_1068.mrg
+    |   |   |-- wsj_1069.mrg
+    |   |   |-- wsj_1070.mrg
+    |   |   |-- wsj_1071.mrg
+    |   |   |-- wsj_1072.mrg
+    |   |   |-- wsj_1073.mrg
+    |   |   |-- wsj_1074.mrg
+    |   |   |-- wsj_1075.mrg
+    |   |   |-- wsj_1076.mrg
+    |   |   |-- wsj_1077.mrg
+    |   |   |-- wsj_1078.mrg
+    |   |   |-- wsj_1079.mrg
+    |   |   |-- wsj_1080.mrg
+    |   |   |-- wsj_1081.mrg
+    |   |   |-- wsj_1082.mrg
+    |   |   |-- wsj_1083.mrg
+    |   |   |-- wsj_1084.mrg
+    |   |   |-- wsj_1085.mrg
+    |   |   |-- wsj_1086.mrg
+    |   |   |-- wsj_1087.mrg
+    |   |   |-- wsj_1088.mrg
+    |   |   |-- wsj_1089.mrg
+    |   |   |-- wsj_1090.mrg
+    |   |   |-- wsj_1091.mrg
+    |   |   |-- wsj_1092.mrg
+    |   |   |-- wsj_1093.mrg
+    |   |   |-- wsj_1094.mrg
+    |   |   |-- wsj_1095.mrg
+    |   |   |-- wsj_1096.mrg
+    |   |   |-- wsj_1097.mrg
+    |   |   |-- wsj_1098.mrg
+    |   |   `-- wsj_1099.mrg
+    |   |-- 11
+    |   |   |-- wsj_1100.mrg
+    |   |   |-- wsj_1101.mrg
+    |   |   |-- wsj_1102.mrg
+    |   |   |-- wsj_1103.mrg
+    |   |   |-- wsj_1104.mrg
+    |   |   |-- wsj_1105.mrg
+    |   |   |-- wsj_1106.mrg
+    |   |   |-- wsj_1107.mrg
+    |   |   |-- wsj_1108.mrg
+    |   |   |-- wsj_1109.mrg
+    |   |   |-- wsj_1110.mrg
+    |   |   |-- wsj_1111.mrg
+    |   |   |-- wsj_1112.mrg
+    |   |   |-- wsj_1113.mrg
+    |   |   |-- wsj_1114.mrg
+    |   |   |-- wsj_1115.mrg
+    |   |   |-- wsj_1116.mrg
+    |   |   |-- wsj_1117.mrg
+    |   |   |-- wsj_1118.mrg
+    |   |   |-- wsj_1119.mrg
+    |   |   |-- wsj_1120.mrg
+    |   |   |-- wsj_1121.mrg
+    |   |   |-- wsj_1122.mrg
+    |   |   |-- wsj_1123.mrg
+    |   |   |-- wsj_1124.mrg
+    |   |   |-- wsj_1125.mrg
+    |   |   |-- wsj_1126.mrg
+    |   |   |-- wsj_1127.mrg
+    |   |   |-- wsj_1128.mrg
+    |   |   |-- wsj_1129.mrg
+    |   |   |-- wsj_1130.mrg
+    |   |   |-- wsj_1131.mrg
+    |   |   |-- wsj_1132.mrg
+    |   |   |-- wsj_1133.mrg
+    |   |   |-- wsj_1134.mrg
+    |   |   |-- wsj_1135.mrg
+    |   |   |-- wsj_1136.mrg
+    |   |   |-- wsj_1137.mrg
+    |   |   |-- wsj_1138.mrg
+    |   |   |-- wsj_1139.mrg
+    |   |   |-- wsj_1140.mrg
+    |   |   |-- wsj_1141.mrg
+    |   |   |-- wsj_1142.mrg
+    |   |   |-- wsj_1143.mrg
+    |   |   |-- wsj_1144.mrg
+    |   |   |-- wsj_1145.mrg
+    |   |   |-- wsj_1146.mrg
+    |   |   |-- wsj_1147.mrg
+    |   |   |-- wsj_1148.mrg
+    |   |   |-- wsj_1149.mrg
+    |   |   |-- wsj_1150.mrg
+    |   |   |-- wsj_1151.mrg
+    |   |   |-- wsj_1152.mrg
+    |   |   |-- wsj_1153.mrg
+    |   |   |-- wsj_1154.mrg
+    |   |   |-- wsj_1155.mrg
+    |   |   |-- wsj_1156.mrg
+    |   |   |-- wsj_1157.mrg
+    |   |   |-- wsj_1158.mrg
+    |   |   |-- wsj_1159.mrg
+    |   |   |-- wsj_1160.mrg
+    |   |   |-- wsj_1161.mrg
+    |   |   |-- wsj_1162.mrg
+    |   |   |-- wsj_1163.mrg
+    |   |   |-- wsj_1164.mrg
+    |   |   |-- wsj_1165.mrg
+    |   |   |-- wsj_1166.mrg
+    |   |   |-- wsj_1167.mrg
+    |   |   |-- wsj_1168.mrg
+    |   |   |-- wsj_1169.mrg
+    |   |   |-- wsj_1170.mrg
+    |   |   |-- wsj_1171.mrg
+    |   |   |-- wsj_1172.mrg
+    |   |   |-- wsj_1173.mrg
+    |   |   |-- wsj_1174.mrg
+    |   |   |-- wsj_1175.mrg
+    |   |   |-- wsj_1176.mrg
+    |   |   |-- wsj_1177.mrg
+    |   |   |-- wsj_1178.mrg
+    |   |   |-- wsj_1179.mrg
+    |   |   |-- wsj_1180.mrg
+    |   |   |-- wsj_1181.mrg
+    |   |   |-- wsj_1182.mrg
+    |   |   |-- wsj_1183.mrg
+    |   |   |-- wsj_1184.mrg
+    |   |   |-- wsj_1185.mrg
+    |   |   |-- wsj_1186.mrg
+    |   |   |-- wsj_1187.mrg
+    |   |   |-- wsj_1188.mrg
+    |   |   |-- wsj_1189.mrg
+    |   |   |-- wsj_1190.mrg
+    |   |   |-- wsj_1191.mrg
+    |   |   |-- wsj_1192.mrg
+    |   |   |-- wsj_1193.mrg
+    |   |   |-- wsj_1194.mrg
+    |   |   |-- wsj_1195.mrg
+    |   |   |-- wsj_1196.mrg
+    |   |   |-- wsj_1197.mrg
+    |   |   |-- wsj_1198.mrg
+    |   |   `-- wsj_1199.mrg
+    |   |-- 12
+    |   |   |-- wsj_1200.mrg
+    |   |   |-- wsj_1201.mrg
+    |   |   |-- wsj_1202.mrg
+    |   |   |-- wsj_1203.mrg
+    |   |   |-- wsj_1204.mrg
+    |   |   |-- wsj_1205.mrg
+    |   |   |-- wsj_1206.mrg
+    |   |   |-- wsj_1207.mrg
+    |   |   |-- wsj_1208.mrg
+    |   |   |-- wsj_1209.mrg
+    |   |   |-- wsj_1210.mrg
+    |   |   |-- wsj_1211.mrg
+    |   |   |-- wsj_1212.mrg
+    |   |   |-- wsj_1213.mrg
+    |   |   |-- wsj_1214.mrg
+    |   |   |-- wsj_1215.mrg
+    |   |   |-- wsj_1216.mrg
+    |   |   |-- wsj_1217.mrg
+    |   |   |-- wsj_1218.mrg
+    |   |   |-- wsj_1219.mrg
+    |   |   |-- wsj_1220.mrg
+    |   |   |-- wsj_1221.mrg
+    |   |   |-- wsj_1222.mrg
+    |   |   |-- wsj_1223.mrg
+    |   |   |-- wsj_1224.mrg
+    |   |   |-- wsj_1225.mrg
+    |   |   |-- wsj_1226.mrg
+    |   |   |-- wsj_1227.mrg
+    |   |   |-- wsj_1228.mrg
+    |   |   |-- wsj_1229.mrg
+    |   |   |-- wsj_1230.mrg
+    |   |   |-- wsj_1231.mrg
+    |   |   |-- wsj_1232.mrg
+    |   |   |-- wsj_1233.mrg
+    |   |   |-- wsj_1234.mrg
+    |   |   |-- wsj_1235.mrg
+    |   |   |-- wsj_1236.mrg
+    |   |   |-- wsj_1237.mrg
+    |   |   |-- wsj_1238.mrg
+    |   |   |-- wsj_1239.mrg
+    |   |   |-- wsj_1240.mrg
+    |   |   |-- wsj_1241.mrg
+    |   |   |-- wsj_1242.mrg
+    |   |   |-- wsj_1243.mrg
+    |   |   |-- wsj_1244.mrg
+    |   |   |-- wsj_1245.mrg
+    |   |   |-- wsj_1246.mrg
+    |   |   |-- wsj_1247.mrg
+    |   |   |-- wsj_1248.mrg
+    |   |   |-- wsj_1249.mrg
+    |   |   |-- wsj_1250.mrg
+    |   |   |-- wsj_1251.mrg
+    |   |   |-- wsj_1252.mrg
+    |   |   |-- wsj_1253.mrg
+    |   |   |-- wsj_1254.mrg
+    |   |   |-- wsj_1255.mrg
+    |   |   |-- wsj_1256.mrg
+    |   |   |-- wsj_1257.mrg
+    |   |   |-- wsj_1258.mrg
+    |   |   |-- wsj_1259.mrg
+    |   |   |-- wsj_1260.mrg
+    |   |   |-- wsj_1261.mrg
+    |   |   |-- wsj_1262.mrg
+    |   |   |-- wsj_1263.mrg
+    |   |   |-- wsj_1264.mrg
+    |   |   |-- wsj_1265.mrg
+    |   |   |-- wsj_1266.mrg
+    |   |   |-- wsj_1267.mrg
+    |   |   |-- wsj_1268.mrg
+    |   |   |-- wsj_1269.mrg
+    |   |   |-- wsj_1270.mrg
+    |   |   |-- wsj_1271.mrg
+    |   |   |-- wsj_1272.mrg
+    |   |   |-- wsj_1273.mrg
+    |   |   |-- wsj_1274.mrg
+    |   |   |-- wsj_1275.mrg
+    |   |   |-- wsj_1276.mrg
+    |   |   |-- wsj_1277.mrg
+    |   |   |-- wsj_1278.mrg
+    |   |   |-- wsj_1279.mrg
+    |   |   |-- wsj_1280.mrg
+    |   |   |-- wsj_1281.mrg
+    |   |   |-- wsj_1282.mrg
+    |   |   |-- wsj_1283.mrg
+    |   |   |-- wsj_1284.mrg
+    |   |   |-- wsj_1285.mrg
+    |   |   |-- wsj_1286.mrg
+    |   |   |-- wsj_1287.mrg
+    |   |   |-- wsj_1288.mrg
+    |   |   |-- wsj_1289.mrg
+    |   |   |-- wsj_1290.mrg
+    |   |   |-- wsj_1291.mrg
+    |   |   |-- wsj_1292.mrg
+    |   |   |-- wsj_1293.mrg
+    |   |   |-- wsj_1294.mrg
+    |   |   |-- wsj_1295.mrg
+    |   |   |-- wsj_1296.mrg
+    |   |   |-- wsj_1297.mrg
+    |   |   |-- wsj_1298.mrg
+    |   |   `-- wsj_1299.mrg
+    |   |-- 13
+    |   |   |-- wsj_1300.mrg
+    |   |   |-- wsj_1301.mrg
+    |   |   |-- wsj_1302.mrg
+    |   |   |-- wsj_1303.mrg
+    |   |   |-- wsj_1304.mrg
+    |   |   |-- wsj_1305.mrg
+    |   |   |-- wsj_1306.mrg
+    |   |   |-- wsj_1307.mrg
+    |   |   |-- wsj_1308.mrg
+    |   |   |-- wsj_1309.mrg
+    |   |   |-- wsj_1310.mrg
+    |   |   |-- wsj_1311.mrg
+    |   |   |-- wsj_1312.mrg
+    |   |   |-- wsj_1313.mrg
+    |   |   |-- wsj_1314.mrg
+    |   |   |-- wsj_1315.mrg
+    |   |   |-- wsj_1316.mrg
+    |   |   |-- wsj_1317.mrg
+    |   |   |-- wsj_1318.mrg
+    |   |   |-- wsj_1319.mrg
+    |   |   |-- wsj_1320.mrg
+    |   |   |-- wsj_1321.mrg
+    |   |   |-- wsj_1322.mrg
+    |   |   |-- wsj_1323.mrg
+    |   |   |-- wsj_1324.mrg
+    |   |   |-- wsj_1325.mrg
+    |   |   |-- wsj_1326.mrg
+    |   |   |-- wsj_1327.mrg
+    |   |   |-- wsj_1328.mrg
+    |   |   |-- wsj_1329.mrg
+    |   |   |-- wsj_1330.mrg
+    |   |   |-- wsj_1331.mrg
+    |   |   |-- wsj_1332.mrg
+    |   |   |-- wsj_1333.mrg
+    |   |   |-- wsj_1334.mrg
+    |   |   |-- wsj_1335.mrg
+    |   |   |-- wsj_1336.mrg
+    |   |   |-- wsj_1337.mrg
+    |   |   |-- wsj_1338.mrg
+    |   |   |-- wsj_1339.mrg
+    |   |   |-- wsj_1340.mrg
+    |   |   |-- wsj_1341.mrg
+    |   |   |-- wsj_1342.mrg
+    |   |   |-- wsj_1343.mrg
+    |   |   |-- wsj_1344.mrg
+    |   |   |-- wsj_1345.mrg
+    |   |   |-- wsj_1346.mrg
+    |   |   |-- wsj_1347.mrg
+    |   |   |-- wsj_1348.mrg
+    |   |   |-- wsj_1349.mrg
+    |   |   |-- wsj_1350.mrg
+    |   |   |-- wsj_1351.mrg
+    |   |   |-- wsj_1352.mrg
+    |   |   |-- wsj_1353.mrg
+    |   |   |-- wsj_1354.mrg
+    |   |   |-- wsj_1355.mrg
+    |   |   |-- wsj_1356.mrg
+    |   |   |-- wsj_1357.mrg
+    |   |   |-- wsj_1358.mrg
+    |   |   |-- wsj_1359.mrg
+    |   |   |-- wsj_1360.mrg
+    |   |   |-- wsj_1361.mrg
+    |   |   |-- wsj_1362.mrg
+    |   |   |-- wsj_1363.mrg
+    |   |   |-- wsj_1364.mrg
+    |   |   |-- wsj_1365.mrg
+    |   |   |-- wsj_1366.mrg
+    |   |   |-- wsj_1367.mrg
+    |   |   |-- wsj_1368.mrg
+    |   |   |-- wsj_1369.mrg
+    |   |   |-- wsj_1370.mrg
+    |   |   |-- wsj_1371.mrg
+    |   |   |-- wsj_1372.mrg
+    |   |   |-- wsj_1373.mrg
+    |   |   |-- wsj_1374.mrg
+    |   |   |-- wsj_1375.mrg
+    |   |   |-- wsj_1376.mrg
+    |   |   |-- wsj_1377.mrg
+    |   |   |-- wsj_1378.mrg
+    |   |   |-- wsj_1379.mrg
+    |   |   |-- wsj_1380.mrg
+    |   |   |-- wsj_1381.mrg
+    |   |   |-- wsj_1382.mrg
+    |   |   |-- wsj_1383.mrg
+    |   |   |-- wsj_1384.mrg
+    |   |   |-- wsj_1385.mrg
+    |   |   |-- wsj_1386.mrg
+    |   |   |-- wsj_1387.mrg
+    |   |   |-- wsj_1388.mrg
+    |   |   |-- wsj_1389.mrg
+    |   |   |-- wsj_1390.mrg
+    |   |   |-- wsj_1391.mrg
+    |   |   |-- wsj_1392.mrg
+    |   |   |-- wsj_1393.mrg
+    |   |   |-- wsj_1394.mrg
+    |   |   |-- wsj_1395.mrg
+    |   |   |-- wsj_1396.mrg
+    |   |   |-- wsj_1397.mrg
+    |   |   |-- wsj_1398.mrg
+    |   |   `-- wsj_1399.mrg
+    |   |-- 14
+    |   |   |-- wsj_1400.mrg
+    |   |   |-- wsj_1401.mrg
+    |   |   |-- wsj_1402.mrg
+    |   |   |-- wsj_1403.mrg
+    |   |   |-- wsj_1404.mrg
+    |   |   |-- wsj_1405.mrg
+    |   |   |-- wsj_1406.mrg
+    |   |   |-- wsj_1407.mrg
+    |   |   |-- wsj_1408.mrg
+    |   |   |-- wsj_1409.mrg
+    |   |   |-- wsj_1410.mrg
+    |   |   |-- wsj_1411.mrg
+    |   |   |-- wsj_1412.mrg
+    |   |   |-- wsj_1413.mrg
+    |   |   |-- wsj_1414.mrg
+    |   |   |-- wsj_1415.mrg
+    |   |   |-- wsj_1416.mrg
+    |   |   |-- wsj_1417.mrg
+    |   |   |-- wsj_1418.mrg
+    |   |   |-- wsj_1419.mrg
+    |   |   |-- wsj_1420.mrg
+    |   |   |-- wsj_1421.mrg
+    |   |   |-- wsj_1422.mrg
+    |   |   |-- wsj_1423.mrg
+    |   |   |-- wsj_1424.mrg
+    |   |   |-- wsj_1425.mrg
+    |   |   |-- wsj_1426.mrg
+    |   |   |-- wsj_1427.mrg
+    |   |   |-- wsj_1428.mrg
+    |   |   |-- wsj_1429.mrg
+    |   |   |-- wsj_1430.mrg
+    |   |   |-- wsj_1431.mrg
+    |   |   |-- wsj_1432.mrg
+    |   |   |-- wsj_1433.mrg
+    |   |   |-- wsj_1434.mrg
+    |   |   |-- wsj_1435.mrg
+    |   |   |-- wsj_1436.mrg
+    |   |   |-- wsj_1437.mrg
+    |   |   |-- wsj_1438.mrg
+    |   |   |-- wsj_1439.mrg
+    |   |   |-- wsj_1440.mrg
+    |   |   |-- wsj_1441.mrg
+    |   |   |-- wsj_1442.mrg
+    |   |   |-- wsj_1443.mrg
+    |   |   |-- wsj_1444.mrg
+    |   |   |-- wsj_1445.mrg
+    |   |   |-- wsj_1446.mrg
+    |   |   |-- wsj_1447.mrg
+    |   |   |-- wsj_1448.mrg
+    |   |   |-- wsj_1449.mrg
+    |   |   |-- wsj_1450.mrg
+    |   |   |-- wsj_1451.mrg
+    |   |   |-- wsj_1452.mrg
+    |   |   |-- wsj_1453.mrg
+    |   |   |-- wsj_1454.mrg
+    |   |   |-- wsj_1455.mrg
+    |   |   |-- wsj_1456.mrg
+    |   |   |-- wsj_1457.mrg
+    |   |   |-- wsj_1458.mrg
+    |   |   |-- wsj_1459.mrg
+    |   |   |-- wsj_1460.mrg
+    |   |   |-- wsj_1461.mrg
+    |   |   |-- wsj_1462.mrg
+    |   |   |-- wsj_1463.mrg
+    |   |   |-- wsj_1464.mrg
+    |   |   |-- wsj_1465.mrg
+    |   |   |-- wsj_1466.mrg
+    |   |   |-- wsj_1467.mrg
+    |   |   |-- wsj_1468.mrg
+    |   |   |-- wsj_1469.mrg
+    |   |   |-- wsj_1470.mrg
+    |   |   |-- wsj_1471.mrg
+    |   |   |-- wsj_1472.mrg
+    |   |   |-- wsj_1473.mrg
+    |   |   |-- wsj_1474.mrg
+    |   |   |-- wsj_1475.mrg
+    |   |   |-- wsj_1476.mrg
+    |   |   |-- wsj_1477.mrg
+    |   |   |-- wsj_1478.mrg
+    |   |   |-- wsj_1479.mrg
+    |   |   |-- wsj_1480.mrg
+    |   |   |-- wsj_1481.mrg
+    |   |   |-- wsj_1482.mrg
+    |   |   |-- wsj_1483.mrg
+    |   |   |-- wsj_1484.mrg
+    |   |   |-- wsj_1485.mrg
+    |   |   |-- wsj_1486.mrg
+    |   |   |-- wsj_1487.mrg
+    |   |   |-- wsj_1488.mrg
+    |   |   |-- wsj_1489.mrg
+    |   |   |-- wsj_1490.mrg
+    |   |   |-- wsj_1491.mrg
+    |   |   |-- wsj_1492.mrg
+    |   |   |-- wsj_1493.mrg
+    |   |   |-- wsj_1494.mrg
+    |   |   |-- wsj_1495.mrg
+    |   |   |-- wsj_1496.mrg
+    |   |   |-- wsj_1497.mrg
+    |   |   |-- wsj_1498.mrg
+    |   |   `-- wsj_1499.mrg
+    |   |-- 15
+    |   |   |-- wsj_1500.mrg
+    |   |   |-- wsj_1501.mrg
+    |   |   |-- wsj_1502.mrg
+    |   |   |-- wsj_1503.mrg
+    |   |   |-- wsj_1504.mrg
+    |   |   |-- wsj_1505.mrg
+    |   |   |-- wsj_1506.mrg
+    |   |   |-- wsj_1507.mrg
+    |   |   |-- wsj_1508.mrg
+    |   |   |-- wsj_1509.mrg
+    |   |   |-- wsj_1510.mrg
+    |   |   |-- wsj_1511.mrg
+    |   |   |-- wsj_1512.mrg
+    |   |   |-- wsj_1513.mrg
+    |   |   |-- wsj_1514.mrg
+    |   |   |-- wsj_1515.mrg
+    |   |   |-- wsj_1516.mrg
+    |   |   |-- wsj_1517.mrg
+    |   |   |-- wsj_1518.mrg
+    |   |   |-- wsj_1519.mrg
+    |   |   |-- wsj_1520.mrg
+    |   |   |-- wsj_1521.mrg
+    |   |   |-- wsj_1522.mrg
+    |   |   |-- wsj_1523.mrg
+    |   |   |-- wsj_1524.mrg
+    |   |   |-- wsj_1525.mrg
+    |   |   |-- wsj_1526.mrg
+    |   |   |-- wsj_1527.mrg
+    |   |   |-- wsj_1528.mrg
+    |   |   |-- wsj_1529.mrg
+    |   |   |-- wsj_1530.mrg
+    |   |   |-- wsj_1531.mrg
+    |   |   |-- wsj_1532.mrg
+    |   |   |-- wsj_1533.mrg
+    |   |   |-- wsj_1534.mrg
+    |   |   |-- wsj_1535.mrg
+    |   |   |-- wsj_1536.mrg
+    |   |   |-- wsj_1537.mrg
+    |   |   |-- wsj_1538.mrg
+    |   |   |-- wsj_1539.mrg
+    |   |   |-- wsj_1540.mrg
+    |   |   |-- wsj_1541.mrg
+    |   |   |-- wsj_1542.mrg
+    |   |   |-- wsj_1543.mrg
+    |   |   |-- wsj_1544.mrg
+    |   |   |-- wsj_1545.mrg
+    |   |   |-- wsj_1546.mrg
+    |   |   |-- wsj_1547.mrg
+    |   |   |-- wsj_1548.mrg
+    |   |   |-- wsj_1549.mrg
+    |   |   |-- wsj_1550.mrg
+    |   |   |-- wsj_1551.mrg
+    |   |   |-- wsj_1552.mrg
+    |   |   |-- wsj_1553.mrg
+    |   |   |-- wsj_1554.mrg
+    |   |   |-- wsj_1555.mrg
+    |   |   |-- wsj_1556.mrg
+    |   |   |-- wsj_1557.mrg
+    |   |   |-- wsj_1558.mrg
+    |   |   |-- wsj_1559.mrg
+    |   |   |-- wsj_1560.mrg
+    |   |   |-- wsj_1561.mrg
+    |   |   |-- wsj_1562.mrg
+    |   |   |-- wsj_1563.mrg
+    |   |   |-- wsj_1564.mrg
+    |   |   |-- wsj_1565.mrg
+    |   |   |-- wsj_1566.mrg
+    |   |   |-- wsj_1567.mrg
+    |   |   |-- wsj_1568.mrg
+    |   |   |-- wsj_1569.mrg
+    |   |   |-- wsj_1570.mrg
+    |   |   |-- wsj_1571.mrg
+    |   |   |-- wsj_1572.mrg
+    |   |   |-- wsj_1573.mrg
+    |   |   |-- wsj_1574.mrg
+    |   |   |-- wsj_1575.mrg
+    |   |   |-- wsj_1576.mrg
+    |   |   |-- wsj_1577.mrg
+    |   |   |-- wsj_1578.mrg
+    |   |   |-- wsj_1579.mrg
+    |   |   |-- wsj_1580.mrg
+    |   |   |-- wsj_1581.mrg
+    |   |   |-- wsj_1582.mrg
+    |   |   |-- wsj_1583.mrg
+    |   |   |-- wsj_1584.mrg
+    |   |   |-- wsj_1585.mrg
+    |   |   |-- wsj_1586.mrg
+    |   |   |-- wsj_1587.mrg
+    |   |   |-- wsj_1588.mrg
+    |   |   |-- wsj_1589.mrg
+    |   |   |-- wsj_1590.mrg
+    |   |   |-- wsj_1591.mrg
+    |   |   |-- wsj_1592.mrg
+    |   |   |-- wsj_1593.mrg
+    |   |   |-- wsj_1594.mrg
+    |   |   |-- wsj_1595.mrg
+    |   |   |-- wsj_1596.mrg
+    |   |   |-- wsj_1597.mrg
+    |   |   |-- wsj_1598.mrg
+    |   |   `-- wsj_1599.mrg
+    |   |-- 16
+    |   |   |-- wsj_1600.mrg
+    |   |   |-- wsj_1601.mrg
+    |   |   |-- wsj_1602.mrg
+    |   |   |-- wsj_1603.mrg
+    |   |   |-- wsj_1604.mrg
+    |   |   |-- wsj_1605.mrg
+    |   |   |-- wsj_1606.mrg
+    |   |   |-- wsj_1607.mrg
+    |   |   |-- wsj_1608.mrg
+    |   |   |-- wsj_1609.mrg
+    |   |   |-- wsj_1610.mrg
+    |   |   |-- wsj_1611.mrg
+    |   |   |-- wsj_1612.mrg
+    |   |   |-- wsj_1613.mrg
+    |   |   |-- wsj_1614.mrg
+    |   |   |-- wsj_1615.mrg
+    |   |   |-- wsj_1616.mrg
+    |   |   |-- wsj_1617.mrg
+    |   |   |-- wsj_1618.mrg
+    |   |   |-- wsj_1619.mrg
+    |   |   |-- wsj_1620.mrg
+    |   |   |-- wsj_1621.mrg
+    |   |   |-- wsj_1622.mrg
+    |   |   |-- wsj_1623.mrg
+    |   |   |-- wsj_1624.mrg
+    |   |   |-- wsj_1625.mrg
+    |   |   |-- wsj_1626.mrg
+    |   |   |-- wsj_1627.mrg
+    |   |   |-- wsj_1628.mrg
+    |   |   |-- wsj_1629.mrg
+    |   |   |-- wsj_1630.mrg
+    |   |   |-- wsj_1631.mrg
+    |   |   |-- wsj_1632.mrg
+    |   |   |-- wsj_1633.mrg
+    |   |   |-- wsj_1634.mrg
+    |   |   |-- wsj_1635.mrg
+    |   |   |-- wsj_1636.mrg
+    |   |   |-- wsj_1637.mrg
+    |   |   |-- wsj_1638.mrg
+    |   |   |-- wsj_1639.mrg
+    |   |   |-- wsj_1640.mrg
+    |   |   |-- wsj_1641.mrg
+    |   |   |-- wsj_1642.mrg
+    |   |   |-- wsj_1643.mrg
+    |   |   |-- wsj_1644.mrg
+    |   |   |-- wsj_1645.mrg
+    |   |   |-- wsj_1646.mrg
+    |   |   |-- wsj_1647.mrg
+    |   |   |-- wsj_1648.mrg
+    |   |   |-- wsj_1649.mrg
+    |   |   |-- wsj_1650.mrg
+    |   |   |-- wsj_1651.mrg
+    |   |   |-- wsj_1652.mrg
+    |   |   |-- wsj_1653.mrg
+    |   |   |-- wsj_1654.mrg
+    |   |   |-- wsj_1655.mrg
+    |   |   |-- wsj_1656.mrg
+    |   |   |-- wsj_1657.mrg
+    |   |   |-- wsj_1658.mrg
+    |   |   |-- wsj_1659.mrg
+    |   |   |-- wsj_1660.mrg
+    |   |   |-- wsj_1661.mrg
+    |   |   |-- wsj_1662.mrg
+    |   |   |-- wsj_1663.mrg
+    |   |   |-- wsj_1664.mrg
+    |   |   |-- wsj_1665.mrg
+    |   |   |-- wsj_1666.mrg
+    |   |   |-- wsj_1667.mrg
+    |   |   |-- wsj_1668.mrg
+    |   |   |-- wsj_1669.mrg
+    |   |   |-- wsj_1670.mrg
+    |   |   |-- wsj_1671.mrg
+    |   |   |-- wsj_1672.mrg
+    |   |   |-- wsj_1673.mrg
+    |   |   |-- wsj_1674.mrg
+    |   |   |-- wsj_1675.mrg
+    |   |   |-- wsj_1676.mrg
+    |   |   |-- wsj_1677.mrg
+    |   |   |-- wsj_1678.mrg
+    |   |   |-- wsj_1679.mrg
+    |   |   |-- wsj_1680.mrg
+    |   |   |-- wsj_1681.mrg
+    |   |   |-- wsj_1682.mrg
+    |   |   |-- wsj_1683.mrg
+    |   |   |-- wsj_1684.mrg
+    |   |   |-- wsj_1685.mrg
+    |   |   |-- wsj_1686.mrg
+    |   |   |-- wsj_1687.mrg
+    |   |   |-- wsj_1688.mrg
+    |   |   |-- wsj_1689.mrg
+    |   |   |-- wsj_1690.mrg
+    |   |   |-- wsj_1691.mrg
+    |   |   |-- wsj_1692.mrg
+    |   |   |-- wsj_1693.mrg
+    |   |   |-- wsj_1694.mrg
+    |   |   |-- wsj_1695.mrg
+    |   |   |-- wsj_1696.mrg
+    |   |   |-- wsj_1697.mrg
+    |   |   |-- wsj_1698.mrg
+    |   |   `-- wsj_1699.mrg
+    |   |-- 17
+    |   |   |-- wsj_1700.mrg
+    |   |   |-- wsj_1701.mrg
+    |   |   |-- wsj_1702.mrg
+    |   |   |-- wsj_1703.mrg
+    |   |   |-- wsj_1704.mrg
+    |   |   |-- wsj_1705.mrg
+    |   |   |-- wsj_1706.mrg
+    |   |   |-- wsj_1707.mrg
+    |   |   |-- wsj_1708.mrg
+    |   |   |-- wsj_1709.mrg
+    |   |   |-- wsj_1710.mrg
+    |   |   |-- wsj_1711.mrg
+    |   |   |-- wsj_1712.mrg
+    |   |   |-- wsj_1713.mrg
+    |   |   |-- wsj_1714.mrg
+    |   |   |-- wsj_1715.mrg
+    |   |   |-- wsj_1716.mrg
+    |   |   |-- wsj_1717.mrg
+    |   |   |-- wsj_1718.mrg
+    |   |   |-- wsj_1719.mrg
+    |   |   |-- wsj_1720.mrg
+    |   |   |-- wsj_1721.mrg
+    |   |   |-- wsj_1722.mrg
+    |   |   |-- wsj_1723.mrg
+    |   |   |-- wsj_1724.mrg
+    |   |   |-- wsj_1725.mrg
+    |   |   |-- wsj_1726.mrg
+    |   |   |-- wsj_1727.mrg
+    |   |   |-- wsj_1728.mrg
+    |   |   |-- wsj_1729.mrg
+    |   |   |-- wsj_1730.mrg
+    |   |   |-- wsj_1731.mrg
+    |   |   |-- wsj_1732.mrg
+    |   |   |-- wsj_1733.mrg
+    |   |   |-- wsj_1734.mrg
+    |   |   |-- wsj_1735.mrg
+    |   |   |-- wsj_1736.mrg
+    |   |   |-- wsj_1737.mrg
+    |   |   |-- wsj_1738.mrg
+    |   |   |-- wsj_1739.mrg
+    |   |   |-- wsj_1740.mrg
+    |   |   |-- wsj_1741.mrg
+    |   |   |-- wsj_1742.mrg
+    |   |   |-- wsj_1743.mrg
+    |   |   |-- wsj_1744.mrg
+    |   |   |-- wsj_1745.mrg
+    |   |   |-- wsj_1746.mrg
+    |   |   |-- wsj_1747.mrg
+    |   |   |-- wsj_1748.mrg
+    |   |   |-- wsj_1749.mrg
+    |   |   |-- wsj_1750.mrg
+    |   |   |-- wsj_1751.mrg
+    |   |   |-- wsj_1752.mrg
+    |   |   |-- wsj_1753.mrg
+    |   |   |-- wsj_1754.mrg
+    |   |   |-- wsj_1755.mrg
+    |   |   |-- wsj_1756.mrg
+    |   |   |-- wsj_1757.mrg
+    |   |   |-- wsj_1758.mrg
+    |   |   |-- wsj_1759.mrg
+    |   |   |-- wsj_1760.mrg
+    |   |   |-- wsj_1761.mrg
+    |   |   |-- wsj_1762.mrg
+    |   |   |-- wsj_1763.mrg
+    |   |   |-- wsj_1764.mrg
+    |   |   |-- wsj_1765.mrg
+    |   |   |-- wsj_1766.mrg
+    |   |   |-- wsj_1767.mrg
+    |   |   |-- wsj_1768.mrg
+    |   |   |-- wsj_1769.mrg
+    |   |   |-- wsj_1770.mrg
+    |   |   |-- wsj_1771.mrg
+    |   |   |-- wsj_1772.mrg
+    |   |   |-- wsj_1773.mrg
+    |   |   |-- wsj_1774.mrg
+    |   |   |-- wsj_1775.mrg
+    |   |   |-- wsj_1776.mrg
+    |   |   |-- wsj_1777.mrg
+    |   |   |-- wsj_1778.mrg
+    |   |   |-- wsj_1779.mrg
+    |   |   |-- wsj_1780.mrg
+    |   |   |-- wsj_1781.mrg
+    |   |   |-- wsj_1782.mrg
+    |   |   |-- wsj_1783.mrg
+    |   |   |-- wsj_1784.mrg
+    |   |   |-- wsj_1785.mrg
+    |   |   |-- wsj_1786.mrg
+    |   |   |-- wsj_1787.mrg
+    |   |   |-- wsj_1788.mrg
+    |   |   |-- wsj_1789.mrg
+    |   |   |-- wsj_1790.mrg
+    |   |   |-- wsj_1791.mrg
+    |   |   |-- wsj_1792.mrg
+    |   |   |-- wsj_1793.mrg
+    |   |   |-- wsj_1794.mrg
+    |   |   |-- wsj_1795.mrg
+    |   |   |-- wsj_1796.mrg
+    |   |   |-- wsj_1797.mrg
+    |   |   |-- wsj_1798.mrg
+    |   |   `-- wsj_1799.mrg
+    |   |-- 18
+    |   |   |-- wsj_1800.mrg
+    |   |   |-- wsj_1801.mrg
+    |   |   |-- wsj_1802.mrg
+    |   |   |-- wsj_1803.mrg
+    |   |   |-- wsj_1804.mrg
+    |   |   |-- wsj_1805.mrg
+    |   |   |-- wsj_1806.mrg
+    |   |   |-- wsj_1807.mrg
+    |   |   |-- wsj_1808.mrg
+    |   |   |-- wsj_1809.mrg
+    |   |   |-- wsj_1810.mrg
+    |   |   |-- wsj_1811.mrg
+    |   |   |-- wsj_1812.mrg
+    |   |   |-- wsj_1813.mrg
+    |   |   |-- wsj_1814.mrg
+    |   |   |-- wsj_1815.mrg
+    |   |   |-- wsj_1816.mrg
+    |   |   |-- wsj_1817.mrg
+    |   |   |-- wsj_1818.mrg
+    |   |   |-- wsj_1819.mrg
+    |   |   |-- wsj_1820.mrg
+    |   |   |-- wsj_1821.mrg
+    |   |   |-- wsj_1822.mrg
+    |   |   |-- wsj_1823.mrg
+    |   |   |-- wsj_1824.mrg
+    |   |   |-- wsj_1825.mrg
+    |   |   |-- wsj_1826.mrg
+    |   |   |-- wsj_1827.mrg
+    |   |   |-- wsj_1828.mrg
+    |   |   |-- wsj_1829.mrg
+    |   |   |-- wsj_1830.mrg
+    |   |   |-- wsj_1831.mrg
+    |   |   |-- wsj_1832.mrg
+    |   |   |-- wsj_1833.mrg
+    |   |   |-- wsj_1834.mrg
+    |   |   |-- wsj_1835.mrg
+    |   |   |-- wsj_1836.mrg
+    |   |   |-- wsj_1837.mrg
+    |   |   |-- wsj_1838.mrg
+    |   |   |-- wsj_1839.mrg
+    |   |   |-- wsj_1840.mrg
+    |   |   |-- wsj_1841.mrg
+    |   |   |-- wsj_1842.mrg
+    |   |   |-- wsj_1843.mrg
+    |   |   |-- wsj_1844.mrg
+    |   |   |-- wsj_1845.mrg
+    |   |   |-- wsj_1846.mrg
+    |   |   |-- wsj_1847.mrg
+    |   |   |-- wsj_1848.mrg
+    |   |   |-- wsj_1849.mrg
+    |   |   |-- wsj_1850.mrg
+    |   |   |-- wsj_1851.mrg
+    |   |   |-- wsj_1852.mrg
+    |   |   |-- wsj_1853.mrg
+    |   |   |-- wsj_1854.mrg
+    |   |   |-- wsj_1855.mrg
+    |   |   |-- wsj_1856.mrg
+    |   |   |-- wsj_1857.mrg
+    |   |   |-- wsj_1858.mrg
+    |   |   |-- wsj_1859.mrg
+    |   |   |-- wsj_1860.mrg
+    |   |   |-- wsj_1861.mrg
+    |   |   |-- wsj_1862.mrg
+    |   |   |-- wsj_1863.mrg
+    |   |   |-- wsj_1864.mrg
+    |   |   |-- wsj_1865.mrg
+    |   |   |-- wsj_1866.mrg
+    |   |   |-- wsj_1867.mrg
+    |   |   |-- wsj_1868.mrg
+    |   |   |-- wsj_1869.mrg
+    |   |   |-- wsj_1870.mrg
+    |   |   |-- wsj_1871.mrg
+    |   |   |-- wsj_1872.mrg
+    |   |   |-- wsj_1873.mrg
+    |   |   |-- wsj_1874.mrg
+    |   |   |-- wsj_1875.mrg
+    |   |   |-- wsj_1876.mrg
+    |   |   |-- wsj_1877.mrg
+    |   |   |-- wsj_1878.mrg
+    |   |   |-- wsj_1879.mrg
+    |   |   |-- wsj_1880.mrg
+    |   |   |-- wsj_1881.mrg
+    |   |   |-- wsj_1882.mrg
+    |   |   |-- wsj_1883.mrg
+    |   |   |-- wsj_1884.mrg
+    |   |   |-- wsj_1885.mrg
+    |   |   |-- wsj_1886.mrg
+    |   |   |-- wsj_1887.mrg
+    |   |   |-- wsj_1888.mrg
+    |   |   |-- wsj_1889.mrg
+    |   |   |-- wsj_1890.mrg
+    |   |   |-- wsj_1891.mrg
+    |   |   |-- wsj_1892.mrg
+    |   |   |-- wsj_1893.mrg
+    |   |   |-- wsj_1894.mrg
+    |   |   |-- wsj_1895.mrg
+    |   |   |-- wsj_1896.mrg
+    |   |   |-- wsj_1897.mrg
+    |   |   |-- wsj_1898.mrg
+    |   |   `-- wsj_1899.mrg
+    |   |-- 19
+    |   |   |-- wsj_1900.mrg
+    |   |   |-- wsj_1901.mrg
+    |   |   |-- wsj_1902.mrg
+    |   |   |-- wsj_1903.mrg
+    |   |   |-- wsj_1904.mrg
+    |   |   |-- wsj_1905.mrg
+    |   |   |-- wsj_1906.mrg
+    |   |   |-- wsj_1907.mrg
+    |   |   |-- wsj_1908.mrg
+    |   |   |-- wsj_1909.mrg
+    |   |   |-- wsj_1910.mrg
+    |   |   |-- wsj_1911.mrg
+    |   |   |-- wsj_1912.mrg
+    |   |   |-- wsj_1913.mrg
+    |   |   |-- wsj_1914.mrg
+    |   |   |-- wsj_1915.mrg
+    |   |   |-- wsj_1916.mrg
+    |   |   |-- wsj_1917.mrg
+    |   |   |-- wsj_1918.mrg
+    |   |   |-- wsj_1919.mrg
+    |   |   |-- wsj_1920.mrg
+    |   |   |-- wsj_1921.mrg
+    |   |   |-- wsj_1922.mrg
+    |   |   |-- wsj_1923.mrg
+    |   |   |-- wsj_1924.mrg
+    |   |   |-- wsj_1925.mrg
+    |   |   |-- wsj_1926.mrg
+    |   |   |-- wsj_1927.mrg
+    |   |   |-- wsj_1928.mrg
+    |   |   |-- wsj_1929.mrg
+    |   |   |-- wsj_1930.mrg
+    |   |   |-- wsj_1931.mrg
+    |   |   |-- wsj_1932.mrg
+    |   |   |-- wsj_1933.mrg
+    |   |   |-- wsj_1934.mrg
+    |   |   |-- wsj_1935.mrg
+    |   |   |-- wsj_1936.mrg
+    |   |   |-- wsj_1937.mrg
+    |   |   |-- wsj_1938.mrg
+    |   |   |-- wsj_1939.mrg
+    |   |   |-- wsj_1940.mrg
+    |   |   |-- wsj_1941.mrg
+    |   |   |-- wsj_1942.mrg
+    |   |   |-- wsj_1943.mrg
+    |   |   |-- wsj_1944.mrg
+    |   |   |-- wsj_1945.mrg
+    |   |   |-- wsj_1946.mrg
+    |   |   |-- wsj_1947.mrg
+    |   |   |-- wsj_1948.mrg
+    |   |   |-- wsj_1949.mrg
+    |   |   |-- wsj_1950.mrg
+    |   |   |-- wsj_1951.mrg
+    |   |   |-- wsj_1952.mrg
+    |   |   |-- wsj_1953.mrg
+    |   |   |-- wsj_1954.mrg
+    |   |   |-- wsj_1955.mrg
+    |   |   |-- wsj_1956.mrg
+    |   |   |-- wsj_1957.mrg
+    |   |   |-- wsj_1958.mrg
+    |   |   |-- wsj_1959.mrg
+    |   |   |-- wsj_1960.mrg
+    |   |   |-- wsj_1961.mrg
+    |   |   |-- wsj_1962.mrg
+    |   |   |-- wsj_1963.mrg
+    |   |   |-- wsj_1964.mrg
+    |   |   |-- wsj_1965.mrg
+    |   |   |-- wsj_1966.mrg
+    |   |   |-- wsj_1967.mrg
+    |   |   |-- wsj_1968.mrg
+    |   |   |-- wsj_1969.mrg
+    |   |   |-- wsj_1970.mrg
+    |   |   |-- wsj_1971.mrg
+    |   |   |-- wsj_1972.mrg
+    |   |   |-- wsj_1973.mrg
+    |   |   |-- wsj_1974.mrg
+    |   |   |-- wsj_1975.mrg
+    |   |   |-- wsj_1976.mrg
+    |   |   |-- wsj_1977.mrg
+    |   |   |-- wsj_1978.mrg
+    |   |   |-- wsj_1979.mrg
+    |   |   |-- wsj_1980.mrg
+    |   |   |-- wsj_1981.mrg
+    |   |   |-- wsj_1982.mrg
+    |   |   |-- wsj_1983.mrg
+    |   |   |-- wsj_1984.mrg
+    |   |   |-- wsj_1985.mrg
+    |   |   |-- wsj_1986.mrg
+    |   |   |-- wsj_1987.mrg
+    |   |   |-- wsj_1988.mrg
+    |   |   |-- wsj_1989.mrg
+    |   |   |-- wsj_1990.mrg
+    |   |   |-- wsj_1991.mrg
+    |   |   |-- wsj_1992.mrg
+    |   |   |-- wsj_1993.mrg
+    |   |   |-- wsj_1994.mrg
+    |   |   |-- wsj_1995.mrg
+    |   |   |-- wsj_1996.mrg
+    |   |   |-- wsj_1997.mrg
+    |   |   |-- wsj_1998.mrg
+    |   |   `-- wsj_1999.mrg
+    |   |-- 20
+    |   |   |-- wsj_2000.mrg
+    |   |   |-- wsj_2001.mrg
+    |   |   |-- wsj_2002.mrg
+    |   |   |-- wsj_2003.mrg
+    |   |   |-- wsj_2004.mrg
+    |   |   |-- wsj_2005.mrg
+    |   |   |-- wsj_2006.mrg
+    |   |   |-- wsj_2007.mrg
+    |   |   |-- wsj_2008.mrg
+    |   |   |-- wsj_2009.mrg
+    |   |   |-- wsj_2010.mrg
+    |   |   |-- wsj_2011.mrg
+    |   |   |-- wsj_2012.mrg
+    |   |   |-- wsj_2013.mrg
+    |   |   |-- wsj_2014.mrg
+    |   |   |-- wsj_2015.mrg
+    |   |   |-- wsj_2016.mrg
+    |   |   |-- wsj_2017.mrg
+    |   |   |-- wsj_2018.mrg
+    |   |   |-- wsj_2019.mrg
+    |   |   |-- wsj_2020.mrg
+    |   |   |-- wsj_2021.mrg
+    |   |   |-- wsj_2022.mrg
+    |   |   |-- wsj_2023.mrg
+    |   |   |-- wsj_2024.mrg
+    |   |   |-- wsj_2025.mrg
+    |   |   |-- wsj_2026.mrg
+    |   |   |-- wsj_2027.mrg
+    |   |   |-- wsj_2028.mrg
+    |   |   |-- wsj_2029.mrg
+    |   |   |-- wsj_2030.mrg
+    |   |   |-- wsj_2031.mrg
+    |   |   |-- wsj_2032.mrg
+    |   |   |-- wsj_2033.mrg
+    |   |   |-- wsj_2034.mrg
+    |   |   |-- wsj_2035.mrg
+    |   |   |-- wsj_2036.mrg
+    |   |   |-- wsj_2037.mrg
+    |   |   |-- wsj_2038.mrg
+    |   |   |-- wsj_2039.mrg
+    |   |   |-- wsj_2040.mrg
+    |   |   |-- wsj_2041.mrg
+    |   |   |-- wsj_2042.mrg
+    |   |   |-- wsj_2043.mrg
+    |   |   |-- wsj_2044.mrg
+    |   |   |-- wsj_2045.mrg
+    |   |   |-- wsj_2046.mrg
+    |   |   |-- wsj_2047.mrg
+    |   |   |-- wsj_2048.mrg
+    |   |   |-- wsj_2049.mrg
+    |   |   |-- wsj_2050.mrg
+    |   |   |-- wsj_2051.mrg
+    |   |   |-- wsj_2052.mrg
+    |   |   |-- wsj_2053.mrg
+    |   |   |-- wsj_2054.mrg
+    |   |   |-- wsj_2055.mrg
+    |   |   |-- wsj_2056.mrg
+    |   |   |-- wsj_2057.mrg
+    |   |   |-- wsj_2058.mrg
+    |   |   |-- wsj_2059.mrg
+    |   |   |-- wsj_2060.mrg
+    |   |   |-- wsj_2061.mrg
+    |   |   |-- wsj_2062.mrg
+    |   |   |-- wsj_2063.mrg
+    |   |   |-- wsj_2064.mrg
+    |   |   |-- wsj_2065.mrg
+    |   |   |-- wsj_2066.mrg
+    |   |   |-- wsj_2067.mrg
+    |   |   |-- wsj_2068.mrg
+    |   |   |-- wsj_2069.mrg
+    |   |   |-- wsj_2070.mrg
+    |   |   |-- wsj_2071.mrg
+    |   |   |-- wsj_2072.mrg
+    |   |   |-- wsj_2073.mrg
+    |   |   |-- wsj_2074.mrg
+    |   |   |-- wsj_2075.mrg
+    |   |   |-- wsj_2076.mrg
+    |   |   |-- wsj_2077.mrg
+    |   |   |-- wsj_2078.mrg
+    |   |   |-- wsj_2079.mrg
+    |   |   |-- wsj_2080.mrg
+    |   |   |-- wsj_2081.mrg
+    |   |   |-- wsj_2082.mrg
+    |   |   |-- wsj_2083.mrg
+    |   |   |-- wsj_2084.mrg
+    |   |   |-- wsj_2085.mrg
+    |   |   |-- wsj_2086.mrg
+    |   |   |-- wsj_2087.mrg
+    |   |   |-- wsj_2088.mrg
+    |   |   |-- wsj_2089.mrg
+    |   |   |-- wsj_2090.mrg
+    |   |   |-- wsj_2091.mrg
+    |   |   |-- wsj_2092.mrg
+    |   |   |-- wsj_2093.mrg
+    |   |   |-- wsj_2094.mrg
+    |   |   |-- wsj_2095.mrg
+    |   |   |-- wsj_2096.mrg
+    |   |   |-- wsj_2097.mrg
+    |   |   |-- wsj_2098.mrg
+    |   |   `-- wsj_2099.mrg
+    |   |-- 21
+    |   |   |-- wsj_2100.mrg
+    |   |   |-- wsj_2101.mrg
+    |   |   |-- wsj_2102.mrg
+    |   |   |-- wsj_2103.mrg
+    |   |   |-- wsj_2104.mrg
+    |   |   |-- wsj_2105.mrg
+    |   |   |-- wsj_2106.mrg
+    |   |   |-- wsj_2107.mrg
+    |   |   |-- wsj_2108.mrg
+    |   |   |-- wsj_2109.mrg
+    |   |   |-- wsj_2110.mrg
+    |   |   |-- wsj_2111.mrg
+    |   |   |-- wsj_2112.mrg
+    |   |   |-- wsj_2113.mrg
+    |   |   |-- wsj_2114.mrg
+    |   |   |-- wsj_2115.mrg
+    |   |   |-- wsj_2116.mrg
+    |   |   |-- wsj_2117.mrg
+    |   |   |-- wsj_2118.mrg
+    |   |   |-- wsj_2119.mrg
+    |   |   |-- wsj_2120.mrg
+    |   |   |-- wsj_2121.mrg
+    |   |   |-- wsj_2122.mrg
+    |   |   |-- wsj_2123.mrg
+    |   |   |-- wsj_2124.mrg
+    |   |   |-- wsj_2125.mrg
+    |   |   |-- wsj_2126.mrg
+    |   |   |-- wsj_2127.mrg
+    |   |   |-- wsj_2128.mrg
+    |   |   |-- wsj_2129.mrg
+    |   |   |-- wsj_2130.mrg
+    |   |   |-- wsj_2131.mrg
+    |   |   |-- wsj_2132.mrg
+    |   |   |-- wsj_2133.mrg
+    |   |   |-- wsj_2134.mrg
+    |   |   |-- wsj_2135.mrg
+    |   |   |-- wsj_2136.mrg
+    |   |   |-- wsj_2137.mrg
+    |   |   |-- wsj_2138.mrg
+    |   |   |-- wsj_2139.mrg
+    |   |   |-- wsj_2140.mrg
+    |   |   |-- wsj_2141.mrg
+    |   |   |-- wsj_2142.mrg
+    |   |   |-- wsj_2143.mrg
+    |   |   |-- wsj_2144.mrg
+    |   |   |-- wsj_2145.mrg
+    |   |   |-- wsj_2146.mrg
+    |   |   |-- wsj_2147.mrg
+    |   |   |-- wsj_2148.mrg
+    |   |   |-- wsj_2149.mrg
+    |   |   |-- wsj_2150.mrg
+    |   |   |-- wsj_2151.mrg
+    |   |   |-- wsj_2152.mrg
+    |   |   |-- wsj_2153.mrg
+    |   |   |-- wsj_2154.mrg
+    |   |   |-- wsj_2155.mrg
+    |   |   |-- wsj_2156.mrg
+    |   |   |-- wsj_2157.mrg
+    |   |   |-- wsj_2158.mrg
+    |   |   |-- wsj_2159.mrg
+    |   |   |-- wsj_2160.mrg
+    |   |   |-- wsj_2161.mrg
+    |   |   |-- wsj_2162.mrg
+    |   |   |-- wsj_2163.mrg
+    |   |   |-- wsj_2164.mrg
+    |   |   |-- wsj_2165.mrg
+    |   |   |-- wsj_2166.mrg
+    |   |   |-- wsj_2167.mrg
+    |   |   |-- wsj_2168.mrg
+    |   |   |-- wsj_2169.mrg
+    |   |   |-- wsj_2170.mrg
+    |   |   |-- wsj_2171.mrg
+    |   |   `-- wsj_2172.mrg
+    |   |-- 22
+    |   |   |-- wsj_2200.mrg
+    |   |   |-- wsj_2201.mrg
+    |   |   |-- wsj_2202.mrg
+    |   |   |-- wsj_2203.mrg
+    |   |   |-- wsj_2204.mrg
+    |   |   |-- wsj_2205.mrg
+    |   |   |-- wsj_2206.mrg
+    |   |   |-- wsj_2207.mrg
+    |   |   |-- wsj_2208.mrg
+    |   |   |-- wsj_2209.mrg
+    |   |   |-- wsj_2210.mrg
+    |   |   |-- wsj_2211.mrg
+    |   |   |-- wsj_2212.mrg
+    |   |   |-- wsj_2213.mrg
+    |   |   |-- wsj_2214.mrg
+    |   |   |-- wsj_2215.mrg
+    |   |   |-- wsj_2216.mrg
+    |   |   |-- wsj_2217.mrg
+    |   |   |-- wsj_2218.mrg
+    |   |   |-- wsj_2219.mrg
+    |   |   |-- wsj_2220.mrg
+    |   |   |-- wsj_2221.mrg
+    |   |   |-- wsj_2222.mrg
+    |   |   |-- wsj_2223.mrg
+    |   |   |-- wsj_2224.mrg
+    |   |   |-- wsj_2225.mrg
+    |   |   |-- wsj_2226.mrg
+    |   |   |-- wsj_2227.mrg
+    |   |   |-- wsj_2228.mrg
+    |   |   |-- wsj_2229.mrg
+    |   |   |-- wsj_2230.mrg
+    |   |   |-- wsj_2231.mrg
+    |   |   |-- wsj_2232.mrg
+    |   |   |-- wsj_2233.mrg
+    |   |   |-- wsj_2234.mrg
+    |   |   |-- wsj_2235.mrg
+    |   |   |-- wsj_2236.mrg
+    |   |   |-- wsj_2237.mrg
+    |   |   |-- wsj_2238.mrg
+    |   |   |-- wsj_2239.mrg
+    |   |   |-- wsj_2240.mrg
+    |   |   |-- wsj_2241.mrg
+    |   |   |-- wsj_2242.mrg
+    |   |   |-- wsj_2243.mrg
+    |   |   |-- wsj_2244.mrg
+    |   |   |-- wsj_2245.mrg
+    |   |   |-- wsj_2246.mrg
+    |   |   |-- wsj_2247.mrg
+    |   |   |-- wsj_2248.mrg
+    |   |   |-- wsj_2249.mrg
+    |   |   |-- wsj_2250.mrg
+    |   |   |-- wsj_2251.mrg
+    |   |   |-- wsj_2252.mrg
+    |   |   |-- wsj_2253.mrg
+    |   |   |-- wsj_2254.mrg
+    |   |   |-- wsj_2255.mrg
+    |   |   |-- wsj_2256.mrg
+    |   |   |-- wsj_2257.mrg
+    |   |   |-- wsj_2258.mrg
+    |   |   |-- wsj_2259.mrg
+    |   |   |-- wsj_2260.mrg
+    |   |   |-- wsj_2261.mrg
+    |   |   |-- wsj_2262.mrg
+    |   |   |-- wsj_2263.mrg
+    |   |   |-- wsj_2264.mrg
+    |   |   |-- wsj_2265.mrg
+    |   |   |-- wsj_2266.mrg
+    |   |   |-- wsj_2267.mrg
+    |   |   |-- wsj_2268.mrg
+    |   |   |-- wsj_2269.mrg
+    |   |   |-- wsj_2270.mrg
+    |   |   |-- wsj_2271.mrg
+    |   |   |-- wsj_2272.mrg
+    |   |   |-- wsj_2273.mrg
+    |   |   |-- wsj_2274.mrg
+    |   |   |-- wsj_2275.mrg
+    |   |   |-- wsj_2276.mrg
+    |   |   |-- wsj_2277.mrg
+    |   |   |-- wsj_2278.mrg
+    |   |   |-- wsj_2279.mrg
+    |   |   |-- wsj_2280.mrg
+    |   |   |-- wsj_2281.mrg
+    |   |   `-- wsj_2282.mrg
+    |   |-- 23
+    |   |   |-- wsj_2300.mrg
+    |   |   |-- wsj_2301.mrg
+    |   |   |-- wsj_2302.mrg
+    |   |   |-- wsj_2303.mrg
+    |   |   |-- wsj_2304.mrg
+    |   |   |-- wsj_2305.mrg
+    |   |   |-- wsj_2306.mrg
+    |   |   |-- wsj_2307.mrg
+    |   |   |-- wsj_2308.mrg
+    |   |   |-- wsj_2309.mrg
+    |   |   |-- wsj_2310.mrg
+    |   |   |-- wsj_2311.mrg
+    |   |   |-- wsj_2312.mrg
+    |   |   |-- wsj_2313.mrg
+    |   |   |-- wsj_2314.mrg
+    |   |   |-- wsj_2315.mrg
+    |   |   |-- wsj_2316.mrg
+    |   |   |-- wsj_2317.mrg
+    |   |   |-- wsj_2318.mrg
+    |   |   |-- wsj_2319.mrg
+    |   |   |-- wsj_2320.mrg
+    |   |   |-- wsj_2321.mrg
+    |   |   |-- wsj_2322.mrg
+    |   |   |-- wsj_2323.mrg
+    |   |   |-- wsj_2324.mrg
+    |   |   |-- wsj_2325.mrg
+    |   |   |-- wsj_2326.mrg
+    |   |   |-- wsj_2327.mrg
+    |   |   |-- wsj_2328.mrg
+    |   |   |-- wsj_2329.mrg
+    |   |   |-- wsj_2330.mrg
+    |   |   |-- wsj_2331.mrg
+    |   |   |-- wsj_2332.mrg
+    |   |   |-- wsj_2333.mrg
+    |   |   |-- wsj_2334.mrg
+    |   |   |-- wsj_2335.mrg
+    |   |   |-- wsj_2336.mrg
+    |   |   |-- wsj_2337.mrg
+    |   |   |-- wsj_2338.mrg
+    |   |   |-- wsj_2339.mrg
+    |   |   |-- wsj_2340.mrg
+    |   |   |-- wsj_2341.mrg
+    |   |   |-- wsj_2342.mrg
+    |   |   |-- wsj_2343.mrg
+    |   |   |-- wsj_2344.mrg
+    |   |   |-- wsj_2345.mrg
+    |   |   |-- wsj_2346.mrg
+    |   |   |-- wsj_2347.mrg
+    |   |   |-- wsj_2348.mrg
+    |   |   |-- wsj_2349.mrg
+    |   |   |-- wsj_2350.mrg
+    |   |   |-- wsj_2351.mrg
+    |   |   |-- wsj_2352.mrg
+    |   |   |-- wsj_2353.mrg
+    |   |   |-- wsj_2354.mrg
+    |   |   |-- wsj_2355.mrg
+    |   |   |-- wsj_2356.mrg
+    |   |   |-- wsj_2357.mrg
+    |   |   |-- wsj_2358.mrg
+    |   |   |-- wsj_2359.mrg
+    |   |   |-- wsj_2360.mrg
+    |   |   |-- wsj_2361.mrg
+    |   |   |-- wsj_2362.mrg
+    |   |   |-- wsj_2363.mrg
+    |   |   |-- wsj_2364.mrg
+    |   |   |-- wsj_2365.mrg
+    |   |   |-- wsj_2366.mrg
+    |   |   |-- wsj_2367.mrg
+    |   |   |-- wsj_2368.mrg
+    |   |   |-- wsj_2369.mrg
+    |   |   |-- wsj_2370.mrg
+    |   |   |-- wsj_2371.mrg
+    |   |   |-- wsj_2372.mrg
+    |   |   |-- wsj_2373.mrg
+    |   |   |-- wsj_2374.mrg
+    |   |   |-- wsj_2375.mrg
+    |   |   |-- wsj_2376.mrg
+    |   |   |-- wsj_2377.mrg
+    |   |   |-- wsj_2378.mrg
+    |   |   |-- wsj_2379.mrg
+    |   |   |-- wsj_2380.mrg
+    |   |   |-- wsj_2381.mrg
+    |   |   |-- wsj_2382.mrg
+    |   |   |-- wsj_2383.mrg
+    |   |   |-- wsj_2384.mrg
+    |   |   |-- wsj_2385.mrg
+    |   |   |-- wsj_2386.mrg
+    |   |   |-- wsj_2387.mrg
+    |   |   |-- wsj_2388.mrg
+    |   |   |-- wsj_2389.mrg
+    |   |   |-- wsj_2390.mrg
+    |   |   |-- wsj_2391.mrg
+    |   |   |-- wsj_2392.mrg
+    |   |   |-- wsj_2393.mrg
+    |   |   |-- wsj_2394.mrg
+    |   |   |-- wsj_2395.mrg
+    |   |   |-- wsj_2396.mrg
+    |   |   |-- wsj_2397.mrg
+    |   |   |-- wsj_2398.mrg
+    |   |   `-- wsj_2399.mrg
+    |   `-- 24
+    |       |-- wsj_2400.mrg
+    |       |-- wsj_2401.mrg
+    |       |-- wsj_2402.mrg
+    |       |-- wsj_2403.mrg
+    |       |-- wsj_2404.mrg
+    |       |-- wsj_2405.mrg
+    |       |-- wsj_2406.mrg
+    |       |-- wsj_2407.mrg
+    |       |-- wsj_2408.mrg
+    |       |-- wsj_2409.mrg
+    |       |-- wsj_2410.mrg
+    |       |-- wsj_2411.mrg
+    |       |-- wsj_2412.mrg
+    |       |-- wsj_2413.mrg
+    |       |-- wsj_2414.mrg
+    |       |-- wsj_2415.mrg
+    |       |-- wsj_2416.mrg
+    |       |-- wsj_2417.mrg
+    |       |-- wsj_2418.mrg
+    |       |-- wsj_2419.mrg
+    |       |-- wsj_2420.mrg
+    |       |-- wsj_2421.mrg
+    |       |-- wsj_2422.mrg
+    |       |-- wsj_2423.mrg
+    |       |-- wsj_2424.mrg
+    |       |-- wsj_2425.mrg
+    |       |-- wsj_2426.mrg
+    |       |-- wsj_2427.mrg
+    |       |-- wsj_2428.mrg
+    |       |-- wsj_2429.mrg
+    |       |-- wsj_2430.mrg
+    |       |-- wsj_2431.mrg
+    |       |-- wsj_2432.mrg
+    |       |-- wsj_2433.mrg
+    |       |-- wsj_2434.mrg
+    |       |-- wsj_2435.mrg
+    |       |-- wsj_2436.mrg
+    |       |-- wsj_2437.mrg
+    |       |-- wsj_2438.mrg
+    |       |-- wsj_2439.mrg
+    |       |-- wsj_2440.mrg
+    |       |-- wsj_2441.mrg
+    |       |-- wsj_2442.mrg
+    |       |-- wsj_2443.mrg
+    |       |-- wsj_2444.mrg
+    |       |-- wsj_2445.mrg
+    |       |-- wsj_2446.mrg
+    |       |-- wsj_2447.mrg
+    |       |-- wsj_2448.mrg
+    |       |-- wsj_2449.mrg
+    |       |-- wsj_2450.mrg
+    |       |-- wsj_2451.mrg
+    |       |-- wsj_2452.mrg
+    |       |-- wsj_2453.mrg
+    |       `-- wsj_2454.mrg
+    `-- raw_text
+        |-- 00
+        |   |-- wsj_0001
+        |   |-- wsj_0002
+        |   |-- wsj_0003
+        |   |-- wsj_0004
+        |   |-- wsj_0005
+        |   |-- wsj_0006
+        |   |-- wsj_0007
+        |   |-- wsj_0008
+        |   |-- wsj_0009
+        |   |-- wsj_0010
+        |   |-- wsj_0011
+        |   |-- wsj_0012
+        |   |-- wsj_0013
+        |   |-- wsj_0014
+        |   |-- wsj_0015
+        |   |-- wsj_0016
+        |   |-- wsj_0017
+        |   |-- wsj_0018
+        |   |-- wsj_0019
+        |   |-- wsj_0020
+        |   |-- wsj_0021
+        |   |-- wsj_0022
+        |   |-- wsj_0023
+        |   |-- wsj_0024
+        |   |-- wsj_0025
+        |   |-- wsj_0026
+        |   |-- wsj_0027
+        |   |-- wsj_0028
+        |   |-- wsj_0029
+        |   |-- wsj_0030
+        |   |-- wsj_0031
+        |   |-- wsj_0032
+        |   |-- wsj_0033
+        |   |-- wsj_0034
+        |   |-- wsj_0035
+        |   |-- wsj_0036
+        |   |-- wsj_0037
+        |   |-- wsj_0038
+        |   |-- wsj_0039
+        |   |-- wsj_0040
+        |   |-- wsj_0041
+        |   |-- wsj_0042
+        |   |-- wsj_0043
+        |   |-- wsj_0044
+        |   |-- wsj_0045
+        |   |-- wsj_0046
+        |   |-- wsj_0047
+        |   |-- wsj_0048
+        |   |-- wsj_0049
+        |   |-- wsj_0050
+        |   |-- wsj_0051
+        |   |-- wsj_0052
+        |   |-- wsj_0053
+        |   |-- wsj_0054
+        |   |-- wsj_0055
+        |   |-- wsj_0056
+        |   |-- wsj_0057
+        |   |-- wsj_0058
+        |   |-- wsj_0059
+        |   |-- wsj_0060
+        |   |-- wsj_0061
+        |   |-- wsj_0062
+        |   |-- wsj_0063
+        |   |-- wsj_0064
+        |   |-- wsj_0065
+        |   |-- wsj_0066
+        |   |-- wsj_0067
+        |   |-- wsj_0068
+        |   |-- wsj_0069
+        |   |-- wsj_0070
+        |   |-- wsj_0071
+        |   |-- wsj_0072
+        |   |-- wsj_0073
+        |   |-- wsj_0074
+        |   |-- wsj_0075
+        |   |-- wsj_0076
+        |   |-- wsj_0077
+        |   |-- wsj_0078
+        |   |-- wsj_0079
+        |   |-- wsj_0080
+        |   |-- wsj_0081
+        |   |-- wsj_0082
+        |   |-- wsj_0083
+        |   |-- wsj_0084
+        |   |-- wsj_0085
+        |   |-- wsj_0086
+        |   |-- wsj_0087
+        |   |-- wsj_0088
+        |   |-- wsj_0089
+        |   |-- wsj_0090
+        |   |-- wsj_0091
+        |   |-- wsj_0092
+        |   |-- wsj_0093
+        |   |-- wsj_0094
+        |   |-- wsj_0095
+        |   |-- wsj_0096
+        |   |-- wsj_0097
+        |   |-- wsj_0098
+        |   `-- wsj_0099
+        |-- 01
+        |   |-- wsj_0100
+        |   |-- wsj_0101
+        |   |-- wsj_0102
+        |   |-- wsj_0103
+        |   |-- wsj_0104
+        |   |-- wsj_0105
+        |   |-- wsj_0106
+        |   |-- wsj_0107
+        |   |-- wsj_0108
+        |   |-- wsj_0109
+        |   |-- wsj_0110
+        |   |-- wsj_0111
+        |   |-- wsj_0112
+        |   |-- wsj_0113
+        |   |-- wsj_0114
+        |   |-- wsj_0115
+        |   |-- wsj_0116
+        |   |-- wsj_0117
+        |   |-- wsj_0118
+        |   |-- wsj_0119
+        |   |-- wsj_0120
+        |   |-- wsj_0121
+        |   |-- wsj_0122
+        |   |-- wsj_0123
+        |   |-- wsj_0124
+        |   |-- wsj_0125
+        |   |-- wsj_0126
+        |   |-- wsj_0127
+        |   |-- wsj_0128
+        |   |-- wsj_0129
+        |   |-- wsj_0130
+        |   |-- wsj_0131
+        |   |-- wsj_0132
+        |   |-- wsj_0133
+        |   |-- wsj_0134
+        |   |-- wsj_0135
+        |   |-- wsj_0136
+        |   |-- wsj_0137
+        |   |-- wsj_0138
+        |   |-- wsj_0139
+        |   |-- wsj_0140
+        |   |-- wsj_0141
+        |   |-- wsj_0142
+        |   |-- wsj_0143
+        |   |-- wsj_0144
+        |   |-- wsj_0145
+        |   |-- wsj_0146
+        |   |-- wsj_0147
+        |   |-- wsj_0148
+        |   |-- wsj_0149
+        |   |-- wsj_0150
+        |   |-- wsj_0151
+        |   |-- wsj_0152
+        |   |-- wsj_0153
+        |   |-- wsj_0154
+        |   |-- wsj_0155
+        |   |-- wsj_0156
+        |   |-- wsj_0157
+        |   |-- wsj_0158
+        |   |-- wsj_0159
+        |   |-- wsj_0160
+        |   |-- wsj_0161
+        |   |-- wsj_0162
+        |   |-- wsj_0163
+        |   |-- wsj_0164
+        |   |-- wsj_0165
+        |   |-- wsj_0166
+        |   |-- wsj_0167
+        |   |-- wsj_0168
+        |   |-- wsj_0169
+        |   |-- wsj_0170
+        |   |-- wsj_0171
+        |   |-- wsj_0172
+        |   |-- wsj_0173
+        |   |-- wsj_0174
+        |   |-- wsj_0175
+        |   |-- wsj_0176
+        |   |-- wsj_0177
+        |   |-- wsj_0178
+        |   |-- wsj_0179
+        |   |-- wsj_0180
+        |   |-- wsj_0181
+        |   |-- wsj_0182
+        |   |-- wsj_0183
+        |   |-- wsj_0184
+        |   |-- wsj_0185
+        |   |-- wsj_0186
+        |   |-- wsj_0187
+        |   |-- wsj_0188
+        |   |-- wsj_0189
+        |   |-- wsj_0190
+        |   |-- wsj_0191
+        |   |-- wsj_0192
+        |   |-- wsj_0193
+        |   |-- wsj_0194
+        |   |-- wsj_0195
+        |   |-- wsj_0196
+        |   |-- wsj_0197
+        |   |-- wsj_0198
+        |   `-- wsj_0199
+        |-- 02
+        |   |-- wsj_0200
+        |   |-- wsj_0201
+        |   |-- wsj_0202
+        |   |-- wsj_0203
+        |   |-- wsj_0204
+        |   |-- wsj_0205
+        |   |-- wsj_0206
+        |   |-- wsj_0207
+        |   |-- wsj_0208
+        |   |-- wsj_0209
+        |   |-- wsj_0210
+        |   |-- wsj_0211
+        |   |-- wsj_0212
+        |   |-- wsj_0213
+        |   |-- wsj_0214
+        |   |-- wsj_0215
+        |   |-- wsj_0216
+        |   |-- wsj_0217
+        |   |-- wsj_0218
+        |   |-- wsj_0219
+        |   |-- wsj_0220
+        |   |-- wsj_0221
+        |   |-- wsj_0222
+        |   |-- wsj_0223
+        |   |-- wsj_0224
+        |   |-- wsj_0225
+        |   |-- wsj_0226
+        |   |-- wsj_0227
+        |   |-- wsj_0228
+        |   |-- wsj_0229
+        |   |-- wsj_0230
+        |   |-- wsj_0231
+        |   |-- wsj_0232
+        |   |-- wsj_0233
+        |   |-- wsj_0234
+        |   |-- wsj_0235
+        |   |-- wsj_0236
+        |   |-- wsj_0237
+        |   |-- wsj_0238
+        |   |-- wsj_0239
+        |   |-- wsj_0240
+        |   |-- wsj_0241
+        |   |-- wsj_0242
+        |   |-- wsj_0243
+        |   |-- wsj_0244
+        |   |-- wsj_0245
+        |   |-- wsj_0246
+        |   |-- wsj_0247
+        |   |-- wsj_0248
+        |   |-- wsj_0249
+        |   |-- wsj_0250
+        |   |-- wsj_0251
+        |   |-- wsj_0252
+        |   |-- wsj_0253
+        |   |-- wsj_0254
+        |   |-- wsj_0255
+        |   |-- wsj_0256
+        |   |-- wsj_0257
+        |   |-- wsj_0258
+        |   |-- wsj_0259
+        |   |-- wsj_0260
+        |   |-- wsj_0261
+        |   |-- wsj_0262
+        |   |-- wsj_0263
+        |   |-- wsj_0264
+        |   |-- wsj_0265
+        |   |-- wsj_0266
+        |   |-- wsj_0267
+        |   |-- wsj_0268
+        |   |-- wsj_0269
+        |   |-- wsj_0270
+        |   |-- wsj_0271
+        |   |-- wsj_0272
+        |   |-- wsj_0273
+        |   |-- wsj_0274
+        |   |-- wsj_0275
+        |   |-- wsj_0276
+        |   |-- wsj_0277
+        |   |-- wsj_0278
+        |   |-- wsj_0279
+        |   |-- wsj_0280
+        |   |-- wsj_0281
+        |   |-- wsj_0282
+        |   |-- wsj_0283
+        |   |-- wsj_0284
+        |   |-- wsj_0285
+        |   |-- wsj_0286
+        |   |-- wsj_0287
+        |   |-- wsj_0288
+        |   |-- wsj_0289
+        |   |-- wsj_0290
+        |   |-- wsj_0291
+        |   |-- wsj_0292
+        |   |-- wsj_0293
+        |   |-- wsj_0294
+        |   |-- wsj_0295
+        |   |-- wsj_0296
+        |   |-- wsj_0297
+        |   |-- wsj_0298
+        |   `-- wsj_0299
+        |-- 03
+        |   |-- wsj_0300
+        |   |-- wsj_0301
+        |   |-- wsj_0302
+        |   |-- wsj_0303
+        |   |-- wsj_0304
+        |   |-- wsj_0305
+        |   |-- wsj_0306
+        |   |-- wsj_0307
+        |   |-- wsj_0308
+        |   |-- wsj_0309
+        |   |-- wsj_0310
+        |   |-- wsj_0311
+        |   |-- wsj_0312
+        |   |-- wsj_0313
+        |   |-- wsj_0314
+        |   |-- wsj_0315
+        |   |-- wsj_0316
+        |   |-- wsj_0317
+        |   |-- wsj_0318
+        |   |-- wsj_0319
+        |   |-- wsj_0320
+        |   |-- wsj_0321
+        |   |-- wsj_0322
+        |   |-- wsj_0323
+        |   |-- wsj_0324
+        |   |-- wsj_0325
+        |   |-- wsj_0326
+        |   |-- wsj_0327
+        |   |-- wsj_0328
+        |   |-- wsj_0329
+        |   |-- wsj_0330
+        |   |-- wsj_0331
+        |   |-- wsj_0332
+        |   |-- wsj_0333
+        |   |-- wsj_0334
+        |   |-- wsj_0335
+        |   |-- wsj_0336
+        |   |-- wsj_0337
+        |   |-- wsj_0338
+        |   |-- wsj_0339
+        |   |-- wsj_0340
+        |   |-- wsj_0341
+        |   |-- wsj_0342
+        |   |-- wsj_0343
+        |   |-- wsj_0344
+        |   |-- wsj_0345
+        |   |-- wsj_0346
+        |   |-- wsj_0347
+        |   |-- wsj_0348
+        |   |-- wsj_0349
+        |   |-- wsj_0350
+        |   |-- wsj_0351
+        |   |-- wsj_0352
+        |   |-- wsj_0353
+        |   |-- wsj_0354
+        |   |-- wsj_0355
+        |   |-- wsj_0356
+        |   |-- wsj_0357
+        |   |-- wsj_0358
+        |   |-- wsj_0359
+        |   |-- wsj_0360
+        |   |-- wsj_0361
+        |   |-- wsj_0362
+        |   |-- wsj_0363
+        |   |-- wsj_0364
+        |   |-- wsj_0365
+        |   |-- wsj_0366
+        |   |-- wsj_0367
+        |   |-- wsj_0368
+        |   |-- wsj_0369
+        |   |-- wsj_0370
+        |   |-- wsj_0371
+        |   |-- wsj_0372
+        |   |-- wsj_0373
+        |   |-- wsj_0374
+        |   |-- wsj_0375
+        |   |-- wsj_0376
+        |   |-- wsj_0377
+        |   |-- wsj_0378
+        |   |-- wsj_0379
+        |   |-- wsj_0380
+        |   |-- wsj_0381
+        |   |-- wsj_0382
+        |   |-- wsj_0383
+        |   |-- wsj_0384
+        |   |-- wsj_0385
+        |   |-- wsj_0386
+        |   |-- wsj_0387
+        |   |-- wsj_0388
+        |   |-- wsj_0389
+        |   |-- wsj_0390
+        |   |-- wsj_0391
+        |   |-- wsj_0392
+        |   |-- wsj_0393
+        |   |-- wsj_0394
+        |   |-- wsj_0395
+        |   |-- wsj_0396
+        |   |-- wsj_0397
+        |   |-- wsj_0398
+        |   `-- wsj_0399
+        |-- 04
+        |   |-- wsj_0400
+        |   |-- wsj_0401
+        |   |-- wsj_0402
+        |   |-- wsj_0403
+        |   |-- wsj_0404
+        |   |-- wsj_0405
+        |   |-- wsj_0406
+        |   |-- wsj_0407
+        |   |-- wsj_0408
+        |   |-- wsj_0409
+        |   |-- wsj_0410
+        |   |-- wsj_0411
+        |   |-- wsj_0412
+        |   |-- wsj_0413
+        |   |-- wsj_0414
+        |   |-- wsj_0415
+        |   |-- wsj_0416
+        |   |-- wsj_0417
+        |   |-- wsj_0418
+        |   |-- wsj_0419
+        |   |-- wsj_0420
+        |   |-- wsj_0421
+        |   |-- wsj_0422
+        |   |-- wsj_0423
+        |   |-- wsj_0424
+        |   |-- wsj_0425
+        |   |-- wsj_0426
+        |   |-- wsj_0427
+        |   |-- wsj_0428
+        |   |-- wsj_0429
+        |   |-- wsj_0430
+        |   |-- wsj_0431
+        |   |-- wsj_0432
+        |   |-- wsj_0433
+        |   |-- wsj_0434
+        |   |-- wsj_0435
+        |   |-- wsj_0436
+        |   |-- wsj_0437
+        |   |-- wsj_0438
+        |   |-- wsj_0439
+        |   |-- wsj_0440
+        |   |-- wsj_0441
+        |   |-- wsj_0442
+        |   |-- wsj_0443
+        |   |-- wsj_0444
+        |   |-- wsj_0445
+        |   |-- wsj_0446
+        |   |-- wsj_0447
+        |   |-- wsj_0448
+        |   |-- wsj_0449
+        |   |-- wsj_0450
+        |   |-- wsj_0451
+        |   |-- wsj_0452
+        |   |-- wsj_0453
+        |   |-- wsj_0454
+        |   |-- wsj_0455
+        |   |-- wsj_0456
+        |   |-- wsj_0457
+        |   |-- wsj_0458
+        |   |-- wsj_0459
+        |   |-- wsj_0460
+        |   |-- wsj_0461
+        |   |-- wsj_0462
+        |   |-- wsj_0463
+        |   |-- wsj_0464
+        |   |-- wsj_0465
+        |   |-- wsj_0466
+        |   |-- wsj_0467
+        |   |-- wsj_0468
+        |   |-- wsj_0469
+        |   |-- wsj_0470
+        |   |-- wsj_0471
+        |   |-- wsj_0472
+        |   |-- wsj_0473
+        |   |-- wsj_0474
+        |   |-- wsj_0475
+        |   |-- wsj_0476
+        |   |-- wsj_0477
+        |   |-- wsj_0478
+        |   |-- wsj_0479
+        |   |-- wsj_0480
+        |   |-- wsj_0481
+        |   |-- wsj_0482
+        |   |-- wsj_0483
+        |   |-- wsj_0484
+        |   |-- wsj_0485
+        |   |-- wsj_0486
+        |   |-- wsj_0487
+        |   |-- wsj_0488
+        |   |-- wsj_0489
+        |   |-- wsj_0490
+        |   |-- wsj_0491
+        |   |-- wsj_0492
+        |   |-- wsj_0493
+        |   |-- wsj_0494
+        |   |-- wsj_0495
+        |   |-- wsj_0496
+        |   |-- wsj_0497
+        |   |-- wsj_0498
+        |   `-- wsj_0499
+        |-- 05
+        |   |-- wsj_0500
+        |   |-- wsj_0501
+        |   |-- wsj_0502
+        |   |-- wsj_0503
+        |   |-- wsj_0504
+        |   |-- wsj_0505
+        |   |-- wsj_0506
+        |   |-- wsj_0507
+        |   |-- wsj_0508
+        |   |-- wsj_0509
+        |   |-- wsj_0510
+        |   |-- wsj_0511
+        |   |-- wsj_0512
+        |   |-- wsj_0513
+        |   |-- wsj_0514
+        |   |-- wsj_0515
+        |   |-- wsj_0516
+        |   |-- wsj_0517
+        |   |-- wsj_0518
+        |   |-- wsj_0519
+        |   |-- wsj_0520
+        |   |-- wsj_0521
+        |   |-- wsj_0522
+        |   |-- wsj_0523
+        |   |-- wsj_0524
+        |   |-- wsj_0525
+        |   |-- wsj_0526
+        |   |-- wsj_0527
+        |   |-- wsj_0528
+        |   |-- wsj_0529
+        |   |-- wsj_0530
+        |   |-- wsj_0531
+        |   |-- wsj_0532
+        |   |-- wsj_0533
+        |   |-- wsj_0534
+        |   |-- wsj_0535
+        |   |-- wsj_0536
+        |   |-- wsj_0537
+        |   |-- wsj_0538
+        |   |-- wsj_0539
+        |   |-- wsj_0540
+        |   |-- wsj_0541
+        |   |-- wsj_0542
+        |   |-- wsj_0543
+        |   |-- wsj_0544
+        |   |-- wsj_0545
+        |   |-- wsj_0546
+        |   |-- wsj_0547
+        |   |-- wsj_0548
+        |   |-- wsj_0549
+        |   |-- wsj_0550
+        |   |-- wsj_0551
+        |   |-- wsj_0552
+        |   |-- wsj_0553
+        |   |-- wsj_0554
+        |   |-- wsj_0555
+        |   |-- wsj_0556
+        |   |-- wsj_0557
+        |   |-- wsj_0558
+        |   |-- wsj_0559
+        |   |-- wsj_0560
+        |   |-- wsj_0561
+        |   |-- wsj_0562
+        |   |-- wsj_0563
+        |   |-- wsj_0564
+        |   |-- wsj_0565
+        |   |-- wsj_0566
+        |   |-- wsj_0567
+        |   |-- wsj_0568
+        |   |-- wsj_0569
+        |   |-- wsj_0570
+        |   |-- wsj_0571
+        |   |-- wsj_0572
+        |   |-- wsj_0573
+        |   |-- wsj_0574
+        |   |-- wsj_0575
+        |   |-- wsj_0576
+        |   |-- wsj_0577
+        |   |-- wsj_0578
+        |   |-- wsj_0579
+        |   |-- wsj_0580
+        |   |-- wsj_0581
+        |   |-- wsj_0582
+        |   |-- wsj_0583
+        |   |-- wsj_0584
+        |   |-- wsj_0585
+        |   |-- wsj_0586
+        |   |-- wsj_0587
+        |   |-- wsj_0588
+        |   |-- wsj_0589
+        |   |-- wsj_0590
+        |   |-- wsj_0591
+        |   |-- wsj_0592
+        |   |-- wsj_0593
+        |   |-- wsj_0594
+        |   |-- wsj_0595
+        |   |-- wsj_0596
+        |   |-- wsj_0597
+        |   |-- wsj_0598
+        |   `-- wsj_0599
+        |-- 06
+        |   |-- wsj_0600
+        |   |-- wsj_0601
+        |   |-- wsj_0602
+        |   |-- wsj_0603
+        |   |-- wsj_0604
+        |   |-- wsj_0605
+        |   |-- wsj_0606
+        |   |-- wsj_0607
+        |   |-- wsj_0608
+        |   |-- wsj_0609
+        |   |-- wsj_0610
+        |   |-- wsj_0611
+        |   |-- wsj_0612
+        |   |-- wsj_0613
+        |   |-- wsj_0614
+        |   |-- wsj_0615
+        |   |-- wsj_0616
+        |   |-- wsj_0617
+        |   |-- wsj_0618
+        |   |-- wsj_0619
+        |   |-- wsj_0620
+        |   |-- wsj_0621
+        |   |-- wsj_0622
+        |   |-- wsj_0623
+        |   |-- wsj_0624
+        |   |-- wsj_0625
+        |   |-- wsj_0626
+        |   |-- wsj_0627
+        |   |-- wsj_0628
+        |   |-- wsj_0629
+        |   |-- wsj_0630
+        |   |-- wsj_0631
+        |   |-- wsj_0632
+        |   |-- wsj_0633
+        |   |-- wsj_0634
+        |   |-- wsj_0635
+        |   |-- wsj_0636
+        |   |-- wsj_0637
+        |   |-- wsj_0638
+        |   |-- wsj_0639
+        |   |-- wsj_0640
+        |   |-- wsj_0641
+        |   |-- wsj_0642
+        |   |-- wsj_0643
+        |   |-- wsj_0644
+        |   |-- wsj_0645
+        |   |-- wsj_0646
+        |   |-- wsj_0647
+        |   |-- wsj_0648
+        |   |-- wsj_0649
+        |   |-- wsj_0650
+        |   |-- wsj_0651
+        |   |-- wsj_0652
+        |   |-- wsj_0653
+        |   |-- wsj_0654
+        |   |-- wsj_0655
+        |   |-- wsj_0656
+        |   |-- wsj_0657
+        |   |-- wsj_0658
+        |   |-- wsj_0659
+        |   |-- wsj_0660
+        |   |-- wsj_0661
+        |   |-- wsj_0662
+        |   |-- wsj_0663
+        |   |-- wsj_0664
+        |   |-- wsj_0665
+        |   |-- wsj_0666
+        |   |-- wsj_0667
+        |   |-- wsj_0668
+        |   |-- wsj_0669
+        |   |-- wsj_0670
+        |   |-- wsj_0671
+        |   |-- wsj_0672
+        |   |-- wsj_0673
+        |   |-- wsj_0674
+        |   |-- wsj_0675
+        |   |-- wsj_0676
+        |   |-- wsj_0677
+        |   |-- wsj_0678
+        |   |-- wsj_0679
+        |   |-- wsj_0680
+        |   |-- wsj_0681
+        |   |-- wsj_0682
+        |   |-- wsj_0683
+        |   |-- wsj_0684
+        |   |-- wsj_0685
+        |   |-- wsj_0686
+        |   |-- wsj_0687
+        |   |-- wsj_0688
+        |   |-- wsj_0689
+        |   |-- wsj_0690
+        |   |-- wsj_0691
+        |   |-- wsj_0692
+        |   |-- wsj_0693
+        |   |-- wsj_0694
+        |   |-- wsj_0695
+        |   |-- wsj_0696
+        |   |-- wsj_0697
+        |   |-- wsj_0698
+        |   `-- wsj_0699
+        |-- 07
+        |   |-- wsj_0700
+        |   |-- wsj_0701
+        |   |-- wsj_0702
+        |   |-- wsj_0703
+        |   |-- wsj_0704
+        |   |-- wsj_0705
+        |   |-- wsj_0706
+        |   |-- wsj_0707
+        |   |-- wsj_0708
+        |   |-- wsj_0709
+        |   |-- wsj_0710
+        |   |-- wsj_0711
+        |   |-- wsj_0712
+        |   |-- wsj_0713
+        |   |-- wsj_0714
+        |   |-- wsj_0715
+        |   |-- wsj_0716
+        |   |-- wsj_0717
+        |   |-- wsj_0718
+        |   |-- wsj_0719
+        |   |-- wsj_0720
+        |   |-- wsj_0721
+        |   |-- wsj_0722
+        |   |-- wsj_0723
+        |   |-- wsj_0724
+        |   |-- wsj_0725
+        |   |-- wsj_0726
+        |   |-- wsj_0727
+        |   |-- wsj_0728
+        |   |-- wsj_0729
+        |   |-- wsj_0730
+        |   |-- wsj_0731
+        |   |-- wsj_0732
+        |   |-- wsj_0733
+        |   |-- wsj_0734
+        |   |-- wsj_0735
+        |   |-- wsj_0736
+        |   |-- wsj_0737
+        |   |-- wsj_0738
+        |   |-- wsj_0739
+        |   |-- wsj_0740
+        |   |-- wsj_0741
+        |   |-- wsj_0742
+        |   |-- wsj_0743
+        |   |-- wsj_0744
+        |   |-- wsj_0745
+        |   |-- wsj_0746
+        |   |-- wsj_0747
+        |   |-- wsj_0748
+        |   |-- wsj_0749
+        |   |-- wsj_0750
+        |   |-- wsj_0751
+        |   |-- wsj_0752
+        |   |-- wsj_0753
+        |   |-- wsj_0754
+        |   |-- wsj_0755
+        |   |-- wsj_0756
+        |   |-- wsj_0757
+        |   |-- wsj_0758
+        |   |-- wsj_0759
+        |   |-- wsj_0760
+        |   |-- wsj_0761
+        |   |-- wsj_0762
+        |   |-- wsj_0763
+        |   |-- wsj_0764
+        |   |-- wsj_0765
+        |   |-- wsj_0766
+        |   |-- wsj_0767
+        |   |-- wsj_0768
+        |   |-- wsj_0769
+        |   |-- wsj_0770
+        |   |-- wsj_0771
+        |   |-- wsj_0772
+        |   |-- wsj_0773
+        |   |-- wsj_0774
+        |   |-- wsj_0775
+        |   |-- wsj_0776
+        |   |-- wsj_0777
+        |   |-- wsj_0778
+        |   |-- wsj_0779
+        |   |-- wsj_0780
+        |   |-- wsj_0781
+        |   |-- wsj_0782
+        |   |-- wsj_0783
+        |   |-- wsj_0784
+        |   |-- wsj_0785
+        |   |-- wsj_0786
+        |   |-- wsj_0787
+        |   |-- wsj_0788
+        |   |-- wsj_0789
+        |   |-- wsj_0790
+        |   |-- wsj_0791
+        |   |-- wsj_0792
+        |   |-- wsj_0793
+        |   |-- wsj_0794
+        |   |-- wsj_0795
+        |   |-- wsj_0796
+        |   |-- wsj_0797
+        |   |-- wsj_0798
+        |   `-- wsj_0799
+        |-- 08
+        |   |-- wsj_0800
+        |   |-- wsj_0801
+        |   |-- wsj_0802
+        |   |-- wsj_0803
+        |   |-- wsj_0804
+        |   |-- wsj_0805
+        |   |-- wsj_0806
+        |   |-- wsj_0807
+        |   |-- wsj_0808
+        |   |-- wsj_0809
+        |   |-- wsj_0810
+        |   |-- wsj_0811
+        |   |-- wsj_0812
+        |   |-- wsj_0813
+        |   |-- wsj_0814
+        |   |-- wsj_0815
+        |   |-- wsj_0816
+        |   |-- wsj_0817
+        |   |-- wsj_0818
+        |   |-- wsj_0819
+        |   |-- wsj_0820
+        |   |-- wsj_0821
+        |   |-- wsj_0822
+        |   |-- wsj_0823
+        |   |-- wsj_0824
+        |   |-- wsj_0825
+        |   |-- wsj_0826
+        |   |-- wsj_0827
+        |   |-- wsj_0828
+        |   |-- wsj_0829
+        |   |-- wsj_0830
+        |   |-- wsj_0831
+        |   |-- wsj_0832
+        |   |-- wsj_0833
+        |   |-- wsj_0834
+        |   |-- wsj_0835
+        |   |-- wsj_0836
+        |   |-- wsj_0837
+        |   |-- wsj_0838
+        |   |-- wsj_0839
+        |   |-- wsj_0840
+        |   |-- wsj_0841
+        |   |-- wsj_0842
+        |   |-- wsj_0843
+        |   |-- wsj_0844
+        |   |-- wsj_0845
+        |   |-- wsj_0846
+        |   |-- wsj_0847
+        |   |-- wsj_0848
+        |   |-- wsj_0849
+        |   |-- wsj_0850
+        |   |-- wsj_0851
+        |   |-- wsj_0852
+        |   |-- wsj_0853
+        |   |-- wsj_0854
+        |   |-- wsj_0855
+        |   |-- wsj_0856
+        |   |-- wsj_0857
+        |   |-- wsj_0858
+        |   |-- wsj_0859
+        |   |-- wsj_0860
+        |   |-- wsj_0861
+        |   |-- wsj_0862
+        |   |-- wsj_0863
+        |   |-- wsj_0864
+        |   |-- wsj_0865
+        |   |-- wsj_0866
+        |   |-- wsj_0867
+        |   |-- wsj_0868
+        |   |-- wsj_0869
+        |   |-- wsj_0870
+        |   |-- wsj_0871
+        |   |-- wsj_0872
+        |   |-- wsj_0873
+        |   |-- wsj_0874
+        |   |-- wsj_0875
+        |   |-- wsj_0876
+        |   |-- wsj_0877
+        |   |-- wsj_0878
+        |   |-- wsj_0879
+        |   |-- wsj_0880
+        |   |-- wsj_0881
+        |   |-- wsj_0882
+        |   |-- wsj_0883
+        |   |-- wsj_0884
+        |   |-- wsj_0885
+        |   |-- wsj_0886
+        |   |-- wsj_0887
+        |   |-- wsj_0888
+        |   |-- wsj_0889
+        |   |-- wsj_0890
+        |   |-- wsj_0891
+        |   |-- wsj_0892
+        |   |-- wsj_0893
+        |   |-- wsj_0894
+        |   |-- wsj_0895
+        |   |-- wsj_0896
+        |   |-- wsj_0897
+        |   |-- wsj_0898
+        |   `-- wsj_0899
+        |-- 09
+        |   |-- wsj_0900
+        |   |-- wsj_0901
+        |   |-- wsj_0902
+        |   |-- wsj_0903
+        |   |-- wsj_0904
+        |   |-- wsj_0905
+        |   |-- wsj_0906
+        |   |-- wsj_0907
+        |   |-- wsj_0908
+        |   |-- wsj_0909
+        |   |-- wsj_0910
+        |   |-- wsj_0911
+        |   |-- wsj_0912
+        |   |-- wsj_0913
+        |   |-- wsj_0914
+        |   |-- wsj_0915
+        |   |-- wsj_0916
+        |   |-- wsj_0917
+        |   |-- wsj_0918
+        |   |-- wsj_0919
+        |   |-- wsj_0920
+        |   |-- wsj_0921
+        |   |-- wsj_0922
+        |   |-- wsj_0923
+        |   |-- wsj_0924
+        |   |-- wsj_0925
+        |   |-- wsj_0926
+        |   |-- wsj_0927
+        |   |-- wsj_0928
+        |   |-- wsj_0929
+        |   |-- wsj_0930
+        |   |-- wsj_0931
+        |   |-- wsj_0932
+        |   |-- wsj_0933
+        |   |-- wsj_0934
+        |   |-- wsj_0935
+        |   |-- wsj_0936
+        |   |-- wsj_0937
+        |   |-- wsj_0938
+        |   |-- wsj_0939
+        |   |-- wsj_0940
+        |   |-- wsj_0941
+        |   |-- wsj_0942
+        |   |-- wsj_0943
+        |   |-- wsj_0944
+        |   |-- wsj_0945
+        |   |-- wsj_0946
+        |   |-- wsj_0947
+        |   |-- wsj_0948
+        |   |-- wsj_0949
+        |   |-- wsj_0950
+        |   |-- wsj_0951
+        |   |-- wsj_0952
+        |   |-- wsj_0953
+        |   |-- wsj_0954
+        |   |-- wsj_0955
+        |   |-- wsj_0956
+        |   |-- wsj_0957
+        |   |-- wsj_0958
+        |   |-- wsj_0959
+        |   |-- wsj_0960
+        |   |-- wsj_0961
+        |   |-- wsj_0962
+        |   |-- wsj_0963
+        |   |-- wsj_0964
+        |   |-- wsj_0965
+        |   |-- wsj_0966
+        |   |-- wsj_0967
+        |   |-- wsj_0968
+        |   |-- wsj_0969
+        |   |-- wsj_0970
+        |   |-- wsj_0971
+        |   |-- wsj_0972
+        |   |-- wsj_0973
+        |   |-- wsj_0974
+        |   |-- wsj_0975
+        |   |-- wsj_0976
+        |   |-- wsj_0977
+        |   |-- wsj_0978
+        |   |-- wsj_0979
+        |   |-- wsj_0980
+        |   |-- wsj_0981
+        |   |-- wsj_0982
+        |   |-- wsj_0983
+        |   |-- wsj_0984
+        |   |-- wsj_0985
+        |   |-- wsj_0986
+        |   |-- wsj_0987
+        |   |-- wsj_0988
+        |   |-- wsj_0989
+        |   |-- wsj_0990
+        |   |-- wsj_0991
+        |   |-- wsj_0992
+        |   |-- wsj_0993
+        |   |-- wsj_0994
+        |   |-- wsj_0995
+        |   |-- wsj_0996
+        |   |-- wsj_0997
+        |   |-- wsj_0998
+        |   `-- wsj_0999
+        |-- 10
+        |   |-- wsj_1000
+        |   |-- wsj_1001
+        |   |-- wsj_1002
+        |   |-- wsj_1003
+        |   |-- wsj_1004
+        |   |-- wsj_1005
+        |   |-- wsj_1006
+        |   |-- wsj_1007
+        |   |-- wsj_1008
+        |   |-- wsj_1009
+        |   |-- wsj_1010
+        |   |-- wsj_1011
+        |   |-- wsj_1012
+        |   |-- wsj_1013
+        |   |-- wsj_1014
+        |   |-- wsj_1015
+        |   |-- wsj_1016
+        |   |-- wsj_1017
+        |   |-- wsj_1018
+        |   |-- wsj_1019
+        |   |-- wsj_1020
+        |   |-- wsj_1021
+        |   |-- wsj_1022
+        |   |-- wsj_1023
+        |   |-- wsj_1024
+        |   |-- wsj_1025
+        |   |-- wsj_1026
+        |   |-- wsj_1027
+        |   |-- wsj_1028
+        |   |-- wsj_1029
+        |   |-- wsj_1030
+        |   |-- wsj_1031
+        |   |-- wsj_1032
+        |   |-- wsj_1033
+        |   |-- wsj_1034
+        |   |-- wsj_1035
+        |   |-- wsj_1036
+        |   |-- wsj_1037
+        |   |-- wsj_1038
+        |   |-- wsj_1039
+        |   |-- wsj_1040
+        |   |-- wsj_1041
+        |   |-- wsj_1042
+        |   |-- wsj_1043
+        |   |-- wsj_1044
+        |   |-- wsj_1045
+        |   |-- wsj_1046
+        |   |-- wsj_1047
+        |   |-- wsj_1048
+        |   |-- wsj_1049
+        |   |-- wsj_1050
+        |   |-- wsj_1051
+        |   |-- wsj_1052
+        |   |-- wsj_1053
+        |   |-- wsj_1054
+        |   |-- wsj_1055
+        |   |-- wsj_1056
+        |   |-- wsj_1057
+        |   |-- wsj_1058
+        |   |-- wsj_1059
+        |   |-- wsj_1060
+        |   |-- wsj_1061
+        |   |-- wsj_1062
+        |   |-- wsj_1063
+        |   |-- wsj_1064
+        |   |-- wsj_1065
+        |   |-- wsj_1066
+        |   |-- wsj_1067
+        |   |-- wsj_1068
+        |   |-- wsj_1069
+        |   |-- wsj_1070
+        |   |-- wsj_1071
+        |   |-- wsj_1072
+        |   |-- wsj_1073
+        |   |-- wsj_1074
+        |   |-- wsj_1075
+        |   |-- wsj_1076
+        |   |-- wsj_1077
+        |   |-- wsj_1078
+        |   |-- wsj_1079
+        |   |-- wsj_1080
+        |   |-- wsj_1081
+        |   |-- wsj_1082
+        |   |-- wsj_1083
+        |   |-- wsj_1084
+        |   |-- wsj_1085
+        |   |-- wsj_1086
+        |   |-- wsj_1087
+        |   |-- wsj_1088
+        |   |-- wsj_1089
+        |   |-- wsj_1090
+        |   |-- wsj_1091
+        |   |-- wsj_1092
+        |   |-- wsj_1093
+        |   |-- wsj_1094
+        |   |-- wsj_1095
+        |   |-- wsj_1096
+        |   |-- wsj_1097
+        |   |-- wsj_1098
+        |   `-- wsj_1099
+        |-- 11
+        |   |-- wsj_1100
+        |   |-- wsj_1101
+        |   |-- wsj_1102
+        |   |-- wsj_1103
+        |   |-- wsj_1104
+        |   |-- wsj_1105
+        |   |-- wsj_1106
+        |   |-- wsj_1107
+        |   |-- wsj_1108
+        |   |-- wsj_1109
+        |   |-- wsj_1110
+        |   |-- wsj_1111
+        |   |-- wsj_1112
+        |   |-- wsj_1113
+        |   |-- wsj_1114
+        |   |-- wsj_1115
+        |   |-- wsj_1116
+        |   |-- wsj_1117
+        |   |-- wsj_1118
+        |   |-- wsj_1119
+        |   |-- wsj_1120
+        |   |-- wsj_1121
+        |   |-- wsj_1122
+        |   |-- wsj_1123
+        |   |-- wsj_1124
+        |   |-- wsj_1125
+        |   |-- wsj_1126
+        |   |-- wsj_1127
+        |   |-- wsj_1128
+        |   |-- wsj_1129
+        |   |-- wsj_1130
+        |   |-- wsj_1131
+        |   |-- wsj_1132
+        |   |-- wsj_1133
+        |   |-- wsj_1134
+        |   |-- wsj_1135
+        |   |-- wsj_1136
+        |   |-- wsj_1137
+        |   |-- wsj_1138
+        |   |-- wsj_1139
+        |   |-- wsj_1140
+        |   |-- wsj_1141
+        |   |-- wsj_1142
+        |   |-- wsj_1143
+        |   |-- wsj_1144
+        |   |-- wsj_1145
+        |   |-- wsj_1146
+        |   |-- wsj_1147
+        |   |-- wsj_1148
+        |   |-- wsj_1149
+        |   |-- wsj_1150
+        |   |-- wsj_1151
+        |   |-- wsj_1152
+        |   |-- wsj_1153
+        |   |-- wsj_1154
+        |   |-- wsj_1155
+        |   |-- wsj_1156
+        |   |-- wsj_1157
+        |   |-- wsj_1158
+        |   |-- wsj_1159
+        |   |-- wsj_1160
+        |   |-- wsj_1161
+        |   |-- wsj_1162
+        |   |-- wsj_1163
+        |   |-- wsj_1164
+        |   |-- wsj_1165
+        |   |-- wsj_1166
+        |   |-- wsj_1167
+        |   |-- wsj_1168
+        |   |-- wsj_1169
+        |   |-- wsj_1170
+        |   |-- wsj_1171
+        |   |-- wsj_1172
+        |   |-- wsj_1173
+        |   |-- wsj_1174
+        |   |-- wsj_1175
+        |   |-- wsj_1176
+        |   |-- wsj_1177
+        |   |-- wsj_1178
+        |   |-- wsj_1179
+        |   |-- wsj_1180
+        |   |-- wsj_1181
+        |   |-- wsj_1182
+        |   |-- wsj_1183
+        |   |-- wsj_1184
+        |   |-- wsj_1185
+        |   |-- wsj_1186
+        |   |-- wsj_1187
+        |   |-- wsj_1188
+        |   |-- wsj_1189
+        |   |-- wsj_1190
+        |   |-- wsj_1191
+        |   |-- wsj_1192
+        |   |-- wsj_1193
+        |   |-- wsj_1194
+        |   |-- wsj_1195
+        |   |-- wsj_1196
+        |   |-- wsj_1197
+        |   |-- wsj_1198
+        |   `-- wsj_1199
+        |-- 12
+        |   |-- wsj_1200
+        |   |-- wsj_1201
+        |   |-- wsj_1202
+        |   |-- wsj_1203
+        |   |-- wsj_1204
+        |   |-- wsj_1205
+        |   |-- wsj_1206
+        |   |-- wsj_1207
+        |   |-- wsj_1208
+        |   |-- wsj_1209
+        |   |-- wsj_1210
+        |   |-- wsj_1211
+        |   |-- wsj_1212
+        |   |-- wsj_1213
+        |   |-- wsj_1214
+        |   |-- wsj_1215
+        |   |-- wsj_1216
+        |   |-- wsj_1217
+        |   |-- wsj_1218
+        |   |-- wsj_1219
+        |   |-- wsj_1220
+        |   |-- wsj_1221
+        |   |-- wsj_1222
+        |   |-- wsj_1223
+        |   |-- wsj_1224
+        |   |-- wsj_1225
+        |   |-- wsj_1226
+        |   |-- wsj_1227
+        |   |-- wsj_1228
+        |   |-- wsj_1229
+        |   |-- wsj_1230
+        |   |-- wsj_1231
+        |   |-- wsj_1232
+        |   |-- wsj_1233
+        |   |-- wsj_1234
+        |   |-- wsj_1235
+        |   |-- wsj_1236
+        |   |-- wsj_1237
+        |   |-- wsj_1238
+        |   |-- wsj_1239
+        |   |-- wsj_1240
+        |   |-- wsj_1241
+        |   |-- wsj_1242
+        |   |-- wsj_1243
+        |   |-- wsj_1244
+        |   |-- wsj_1245
+        |   |-- wsj_1246
+        |   |-- wsj_1247
+        |   |-- wsj_1248
+        |   |-- wsj_1249
+        |   |-- wsj_1250
+        |   |-- wsj_1251
+        |   |-- wsj_1252
+        |   |-- wsj_1253
+        |   |-- wsj_1254
+        |   |-- wsj_1255
+        |   |-- wsj_1256
+        |   |-- wsj_1257
+        |   |-- wsj_1258
+        |   |-- wsj_1259
+        |   |-- wsj_1260
+        |   |-- wsj_1261
+        |   |-- wsj_1262
+        |   |-- wsj_1263
+        |   |-- wsj_1264
+        |   |-- wsj_1265
+        |   |-- wsj_1266
+        |   |-- wsj_1267
+        |   |-- wsj_1268
+        |   |-- wsj_1269
+        |   |-- wsj_1270
+        |   |-- wsj_1271
+        |   |-- wsj_1272
+        |   |-- wsj_1273
+        |   |-- wsj_1274
+        |   |-- wsj_1275
+        |   |-- wsj_1276
+        |   |-- wsj_1277
+        |   |-- wsj_1278
+        |   |-- wsj_1279
+        |   |-- wsj_1280
+        |   |-- wsj_1281
+        |   |-- wsj_1282
+        |   |-- wsj_1283
+        |   |-- wsj_1284
+        |   |-- wsj_1285
+        |   |-- wsj_1286
+        |   |-- wsj_1287
+        |   |-- wsj_1288
+        |   |-- wsj_1289
+        |   |-- wsj_1290
+        |   |-- wsj_1291
+        |   |-- wsj_1292
+        |   |-- wsj_1293
+        |   |-- wsj_1294
+        |   |-- wsj_1295
+        |   |-- wsj_1296
+        |   |-- wsj_1297
+        |   |-- wsj_1298
+        |   `-- wsj_1299
+        |-- 13
+        |   |-- wsj_1300
+        |   |-- wsj_1301
+        |   |-- wsj_1302
+        |   |-- wsj_1303
+        |   |-- wsj_1304
+        |   |-- wsj_1305
+        |   |-- wsj_1306
+        |   |-- wsj_1307
+        |   |-- wsj_1308
+        |   |-- wsj_1309
+        |   |-- wsj_1310
+        |   |-- wsj_1311
+        |   |-- wsj_1312
+        |   |-- wsj_1313
+        |   |-- wsj_1314
+        |   |-- wsj_1315
+        |   |-- wsj_1316
+        |   |-- wsj_1317
+        |   |-- wsj_1318
+        |   |-- wsj_1319
+        |   |-- wsj_1320
+        |   |-- wsj_1321
+        |   |-- wsj_1322
+        |   |-- wsj_1323
+        |   |-- wsj_1324
+        |   |-- wsj_1325
+        |   |-- wsj_1326
+        |   |-- wsj_1327
+        |   |-- wsj_1328
+        |   |-- wsj_1329
+        |   |-- wsj_1330
+        |   |-- wsj_1331
+        |   |-- wsj_1332
+        |   |-- wsj_1333
+        |   |-- wsj_1334
+        |   |-- wsj_1335
+        |   |-- wsj_1336
+        |   |-- wsj_1337
+        |   |-- wsj_1338
+        |   |-- wsj_1339
+        |   |-- wsj_1340
+        |   |-- wsj_1341
+        |   |-- wsj_1342
+        |   |-- wsj_1343
+        |   |-- wsj_1344
+        |   |-- wsj_1345
+        |   |-- wsj_1346
+        |   |-- wsj_1347
+        |   |-- wsj_1348
+        |   |-- wsj_1349
+        |   |-- wsj_1350
+        |   |-- wsj_1351
+        |   |-- wsj_1352
+        |   |-- wsj_1353
+        |   |-- wsj_1354
+        |   |-- wsj_1355
+        |   |-- wsj_1356
+        |   |-- wsj_1357
+        |   |-- wsj_1358
+        |   |-- wsj_1359
+        |   |-- wsj_1360
+        |   |-- wsj_1361
+        |   |-- wsj_1362
+        |   |-- wsj_1363
+        |   |-- wsj_1364
+        |   |-- wsj_1365
+        |   |-- wsj_1366
+        |   |-- wsj_1367
+        |   |-- wsj_1368
+        |   |-- wsj_1369
+        |   |-- wsj_1370
+        |   |-- wsj_1371
+        |   |-- wsj_1372
+        |   |-- wsj_1373
+        |   |-- wsj_1374
+        |   |-- wsj_1375
+        |   |-- wsj_1376
+        |   |-- wsj_1377
+        |   |-- wsj_1378
+        |   |-- wsj_1379
+        |   |-- wsj_1380
+        |   |-- wsj_1381
+        |   |-- wsj_1382
+        |   |-- wsj_1383
+        |   |-- wsj_1384
+        |   |-- wsj_1385
+        |   |-- wsj_1386
+        |   |-- wsj_1387
+        |   |-- wsj_1388
+        |   |-- wsj_1389
+        |   |-- wsj_1390
+        |   |-- wsj_1391
+        |   |-- wsj_1392
+        |   |-- wsj_1393
+        |   |-- wsj_1394
+        |   |-- wsj_1395
+        |   |-- wsj_1396
+        |   |-- wsj_1397
+        |   |-- wsj_1398
+        |   `-- wsj_1399
+        |-- 14
+        |   |-- wsj_1400
+        |   |-- wsj_1401
+        |   |-- wsj_1402
+        |   |-- wsj_1403
+        |   |-- wsj_1404
+        |   |-- wsj_1405
+        |   |-- wsj_1406
+        |   |-- wsj_1407
+        |   |-- wsj_1408
+        |   |-- wsj_1409
+        |   |-- wsj_1410
+        |   |-- wsj_1411
+        |   |-- wsj_1412
+        |   |-- wsj_1413
+        |   |-- wsj_1414
+        |   |-- wsj_1415
+        |   |-- wsj_1416
+        |   |-- wsj_1417
+        |   |-- wsj_1418
+        |   |-- wsj_1419
+        |   |-- wsj_1420
+        |   |-- wsj_1421
+        |   |-- wsj_1422
+        |   |-- wsj_1423
+        |   |-- wsj_1424
+        |   |-- wsj_1425
+        |   |-- wsj_1426
+        |   |-- wsj_1427
+        |   |-- wsj_1428
+        |   |-- wsj_1429
+        |   |-- wsj_1430
+        |   |-- wsj_1431
+        |   |-- wsj_1432
+        |   |-- wsj_1433
+        |   |-- wsj_1434
+        |   |-- wsj_1435
+        |   |-- wsj_1436
+        |   |-- wsj_1437
+        |   |-- wsj_1438
+        |   |-- wsj_1439
+        |   |-- wsj_1440
+        |   |-- wsj_1441
+        |   |-- wsj_1442
+        |   |-- wsj_1443
+        |   |-- wsj_1444
+        |   |-- wsj_1445
+        |   |-- wsj_1446
+        |   |-- wsj_1447
+        |   |-- wsj_1448
+        |   |-- wsj_1449
+        |   |-- wsj_1450
+        |   |-- wsj_1451
+        |   |-- wsj_1452
+        |   |-- wsj_1453
+        |   |-- wsj_1454
+        |   |-- wsj_1455
+        |   |-- wsj_1456
+        |   |-- wsj_1457
+        |   |-- wsj_1458
+        |   |-- wsj_1459
+        |   |-- wsj_1460
+        |   |-- wsj_1461
+        |   |-- wsj_1462
+        |   |-- wsj_1463
+        |   |-- wsj_1464
+        |   |-- wsj_1465
+        |   |-- wsj_1466
+        |   |-- wsj_1467
+        |   |-- wsj_1468
+        |   |-- wsj_1469
+        |   |-- wsj_1470
+        |   |-- wsj_1471
+        |   |-- wsj_1472
+        |   |-- wsj_1473
+        |   |-- wsj_1474
+        |   |-- wsj_1475
+        |   |-- wsj_1476
+        |   |-- wsj_1477
+        |   |-- wsj_1478
+        |   |-- wsj_1479
+        |   |-- wsj_1480
+        |   |-- wsj_1481
+        |   |-- wsj_1482
+        |   |-- wsj_1483
+        |   |-- wsj_1484
+        |   |-- wsj_1485
+        |   |-- wsj_1486
+        |   |-- wsj_1487
+        |   |-- wsj_1488
+        |   |-- wsj_1489
+        |   |-- wsj_1490
+        |   |-- wsj_1491
+        |   |-- wsj_1492
+        |   |-- wsj_1493
+        |   |-- wsj_1494
+        |   |-- wsj_1495
+        |   |-- wsj_1496
+        |   |-- wsj_1497
+        |   |-- wsj_1498
+        |   `-- wsj_1499
+        |-- 15
+        |   |-- wsj_1500
+        |   |-- wsj_1501
+        |   |-- wsj_1502
+        |   |-- wsj_1503
+        |   |-- wsj_1504
+        |   |-- wsj_1505
+        |   |-- wsj_1506
+        |   |-- wsj_1507
+        |   |-- wsj_1508
+        |   |-- wsj_1509
+        |   |-- wsj_1510
+        |   |-- wsj_1511
+        |   |-- wsj_1512
+        |   |-- wsj_1513
+        |   |-- wsj_1514
+        |   |-- wsj_1515
+        |   |-- wsj_1516
+        |   |-- wsj_1517
+        |   |-- wsj_1518
+        |   |-- wsj_1519
+        |   |-- wsj_1520
+        |   |-- wsj_1521
+        |   |-- wsj_1522
+        |   |-- wsj_1523
+        |   |-- wsj_1524
+        |   |-- wsj_1525
+        |   |-- wsj_1526
+        |   |-- wsj_1527
+        |   |-- wsj_1528
+        |   |-- wsj_1529
+        |   |-- wsj_1530
+        |   |-- wsj_1531
+        |   |-- wsj_1532
+        |   |-- wsj_1533
+        |   |-- wsj_1534
+        |   |-- wsj_1535
+        |   |-- wsj_1536
+        |   |-- wsj_1537
+        |   |-- wsj_1538
+        |   |-- wsj_1539
+        |   |-- wsj_1540
+        |   |-- wsj_1541
+        |   |-- wsj_1542
+        |   |-- wsj_1543
+        |   |-- wsj_1544
+        |   |-- wsj_1545
+        |   |-- wsj_1546
+        |   |-- wsj_1547
+        |   |-- wsj_1548
+        |   |-- wsj_1549
+        |   |-- wsj_1550
+        |   |-- wsj_1551
+        |   |-- wsj_1552
+        |   |-- wsj_1553
+        |   |-- wsj_1554
+        |   |-- wsj_1555
+        |   |-- wsj_1556
+        |   |-- wsj_1557
+        |   |-- wsj_1558
+        |   |-- wsj_1559
+        |   |-- wsj_1560
+        |   |-- wsj_1561
+        |   |-- wsj_1562
+        |   |-- wsj_1563
+        |   |-- wsj_1564
+        |   |-- wsj_1565
+        |   |-- wsj_1566
+        |   |-- wsj_1567
+        |   |-- wsj_1568
+        |   |-- wsj_1569
+        |   |-- wsj_1570
+        |   |-- wsj_1571
+        |   |-- wsj_1572
+        |   |-- wsj_1573
+        |   |-- wsj_1574
+        |   |-- wsj_1575
+        |   |-- wsj_1576
+        |   |-- wsj_1577
+        |   |-- wsj_1578
+        |   |-- wsj_1579
+        |   |-- wsj_1580
+        |   |-- wsj_1581
+        |   |-- wsj_1582
+        |   |-- wsj_1583
+        |   |-- wsj_1584
+        |   |-- wsj_1585
+        |   |-- wsj_1586
+        |   |-- wsj_1587
+        |   |-- wsj_1588
+        |   |-- wsj_1589
+        |   |-- wsj_1590
+        |   |-- wsj_1591
+        |   |-- wsj_1592
+        |   |-- wsj_1593
+        |   |-- wsj_1594
+        |   |-- wsj_1595
+        |   |-- wsj_1596
+        |   |-- wsj_1597
+        |   |-- wsj_1598
+        |   `-- wsj_1599
+        |-- 16
+        |   |-- wsj_1600
+        |   |-- wsj_1601
+        |   |-- wsj_1602
+        |   |-- wsj_1603
+        |   |-- wsj_1604
+        |   |-- wsj_1605
+        |   |-- wsj_1606
+        |   |-- wsj_1607
+        |   |-- wsj_1608
+        |   |-- wsj_1609
+        |   |-- wsj_1610
+        |   |-- wsj_1611
+        |   |-- wsj_1612
+        |   |-- wsj_1613
+        |   |-- wsj_1614
+        |   |-- wsj_1615
+        |   |-- wsj_1616
+        |   |-- wsj_1617
+        |   |-- wsj_1618
+        |   |-- wsj_1619
+        |   |-- wsj_1620
+        |   |-- wsj_1621
+        |   |-- wsj_1622
+        |   |-- wsj_1623
+        |   |-- wsj_1624
+        |   |-- wsj_1625
+        |   |-- wsj_1626
+        |   |-- wsj_1627
+        |   |-- wsj_1628
+        |   |-- wsj_1629
+        |   |-- wsj_1630
+        |   |-- wsj_1631
+        |   |-- wsj_1632
+        |   |-- wsj_1633
+        |   |-- wsj_1634
+        |   |-- wsj_1635
+        |   |-- wsj_1636
+        |   |-- wsj_1637
+        |   |-- wsj_1638
+        |   |-- wsj_1639
+        |   |-- wsj_1640
+        |   |-- wsj_1641
+        |   |-- wsj_1642
+        |   |-- wsj_1643
+        |   |-- wsj_1644
+        |   |-- wsj_1645
+        |   |-- wsj_1646
+        |   |-- wsj_1647
+        |   |-- wsj_1648
+        |   |-- wsj_1649
+        |   |-- wsj_1650
+        |   |-- wsj_1651
+        |   |-- wsj_1652
+        |   |-- wsj_1653
+        |   |-- wsj_1654
+        |   |-- wsj_1655
+        |   |-- wsj_1656
+        |   |-- wsj_1657
+        |   |-- wsj_1658
+        |   |-- wsj_1659
+        |   |-- wsj_1660
+        |   |-- wsj_1661
+        |   |-- wsj_1662
+        |   |-- wsj_1663
+        |   |-- wsj_1664
+        |   |-- wsj_1665
+        |   |-- wsj_1666
+        |   |-- wsj_1667
+        |   |-- wsj_1668
+        |   |-- wsj_1669
+        |   |-- wsj_1670
+        |   |-- wsj_1671
+        |   |-- wsj_1672
+        |   |-- wsj_1673
+        |   |-- wsj_1674
+        |   |-- wsj_1675
+        |   |-- wsj_1676
+        |   |-- wsj_1677
+        |   |-- wsj_1678
+        |   |-- wsj_1679
+        |   |-- wsj_1680
+        |   |-- wsj_1681
+        |   |-- wsj_1682
+        |   |-- wsj_1683
+        |   |-- wsj_1684
+        |   |-- wsj_1685
+        |   |-- wsj_1686
+        |   |-- wsj_1687
+        |   |-- wsj_1688
+        |   |-- wsj_1689
+        |   |-- wsj_1690
+        |   |-- wsj_1691
+        |   |-- wsj_1692
+        |   |-- wsj_1693
+        |   |-- wsj_1694
+        |   |-- wsj_1695
+        |   |-- wsj_1696
+        |   |-- wsj_1697
+        |   |-- wsj_1698
+        |   `-- wsj_1699
+        |-- 17
+        |   |-- wsj_1700
+        |   |-- wsj_1701
+        |   |-- wsj_1702
+        |   |-- wsj_1703
+        |   |-- wsj_1704
+        |   |-- wsj_1705
+        |   |-- wsj_1706
+        |   |-- wsj_1707
+        |   |-- wsj_1708
+        |   |-- wsj_1709
+        |   |-- wsj_1710
+        |   |-- wsj_1711
+        |   |-- wsj_1712
+        |   |-- wsj_1713
+        |   |-- wsj_1714
+        |   |-- wsj_1715
+        |   |-- wsj_1716
+        |   |-- wsj_1717
+        |   |-- wsj_1718
+        |   |-- wsj_1719
+        |   |-- wsj_1720
+        |   |-- wsj_1721
+        |   |-- wsj_1722
+        |   |-- wsj_1723
+        |   |-- wsj_1724
+        |   |-- wsj_1725
+        |   |-- wsj_1726
+        |   |-- wsj_1727
+        |   |-- wsj_1728
+        |   |-- wsj_1729
+        |   |-- wsj_1730
+        |   |-- wsj_1731
+        |   |-- wsj_1732
+        |   |-- wsj_1733
+        |   |-- wsj_1734
+        |   |-- wsj_1735
+        |   |-- wsj_1736
+        |   |-- wsj_1737
+        |   |-- wsj_1738
+        |   |-- wsj_1739
+        |   |-- wsj_1740
+        |   |-- wsj_1741
+        |   |-- wsj_1742
+        |   |-- wsj_1743
+        |   |-- wsj_1744
+        |   |-- wsj_1745
+        |   |-- wsj_1746
+        |   |-- wsj_1747
+        |   |-- wsj_1748
+        |   |-- wsj_1749
+        |   |-- wsj_1750
+        |   |-- wsj_1751
+        |   |-- wsj_1752
+        |   |-- wsj_1753
+        |   |-- wsj_1754
+        |   |-- wsj_1755
+        |   |-- wsj_1756
+        |   |-- wsj_1757
+        |   |-- wsj_1758
+        |   |-- wsj_1759
+        |   |-- wsj_1760
+        |   |-- wsj_1761
+        |   |-- wsj_1762
+        |   |-- wsj_1763
+        |   |-- wsj_1764
+        |   |-- wsj_1765
+        |   |-- wsj_1766
+        |   |-- wsj_1767
+        |   |-- wsj_1768
+        |   |-- wsj_1769
+        |   |-- wsj_1770
+        |   |-- wsj_1771
+        |   |-- wsj_1772
+        |   |-- wsj_1773
+        |   |-- wsj_1774
+        |   |-- wsj_1775
+        |   |-- wsj_1776
+        |   |-- wsj_1777
+        |   |-- wsj_1778
+        |   |-- wsj_1779
+        |   |-- wsj_1780
+        |   |-- wsj_1781
+        |   |-- wsj_1782
+        |   |-- wsj_1783
+        |   |-- wsj_1784
+        |   |-- wsj_1785
+        |   |-- wsj_1786
+        |   |-- wsj_1787
+        |   |-- wsj_1788
+        |   |-- wsj_1789
+        |   |-- wsj_1790
+        |   |-- wsj_1791
+        |   |-- wsj_1792
+        |   |-- wsj_1793
+        |   |-- wsj_1794
+        |   |-- wsj_1795
+        |   |-- wsj_1796
+        |   |-- wsj_1797
+        |   |-- wsj_1798
+        |   `-- wsj_1799
+        |-- 18
+        |   |-- wsj_1800
+        |   |-- wsj_1801
+        |   |-- wsj_1802
+        |   |-- wsj_1803
+        |   |-- wsj_1804
+        |   |-- wsj_1805
+        |   |-- wsj_1806
+        |   |-- wsj_1807
+        |   |-- wsj_1808
+        |   |-- wsj_1809
+        |   |-- wsj_1810
+        |   |-- wsj_1811
+        |   |-- wsj_1812
+        |   |-- wsj_1813
+        |   |-- wsj_1814
+        |   |-- wsj_1815
+        |   |-- wsj_1816
+        |   |-- wsj_1817
+        |   |-- wsj_1818
+        |   |-- wsj_1819
+        |   |-- wsj_1820
+        |   |-- wsj_1821
+        |   |-- wsj_1822
+        |   |-- wsj_1823
+        |   |-- wsj_1824
+        |   |-- wsj_1825
+        |   |-- wsj_1826
+        |   |-- wsj_1827
+        |   |-- wsj_1828
+        |   |-- wsj_1829
+        |   |-- wsj_1830
+        |   |-- wsj_1831
+        |   |-- wsj_1832
+        |   |-- wsj_1833
+        |   |-- wsj_1834
+        |   |-- wsj_1835
+        |   |-- wsj_1836
+        |   |-- wsj_1837
+        |   |-- wsj_1838
+        |   |-- wsj_1839
+        |   |-- wsj_1840
+        |   |-- wsj_1841
+        |   |-- wsj_1842
+        |   |-- wsj_1843
+        |   |-- wsj_1844
+        |   |-- wsj_1845
+        |   |-- wsj_1846
+        |   |-- wsj_1847
+        |   |-- wsj_1848
+        |   |-- wsj_1849
+        |   |-- wsj_1850
+        |   |-- wsj_1851
+        |   |-- wsj_1852
+        |   |-- wsj_1853
+        |   |-- wsj_1854
+        |   |-- wsj_1855
+        |   |-- wsj_1856
+        |   |-- wsj_1857
+        |   |-- wsj_1858
+        |   |-- wsj_1859
+        |   |-- wsj_1860
+        |   |-- wsj_1861
+        |   |-- wsj_1862
+        |   |-- wsj_1863
+        |   |-- wsj_1864
+        |   |-- wsj_1865
+        |   |-- wsj_1866
+        |   |-- wsj_1867
+        |   |-- wsj_1868
+        |   |-- wsj_1869
+        |   |-- wsj_1870
+        |   |-- wsj_1871
+        |   |-- wsj_1872
+        |   |-- wsj_1873
+        |   |-- wsj_1874
+        |   |-- wsj_1875
+        |   |-- wsj_1876
+        |   |-- wsj_1877
+        |   |-- wsj_1878
+        |   |-- wsj_1879
+        |   |-- wsj_1880
+        |   |-- wsj_1881
+        |   |-- wsj_1882
+        |   |-- wsj_1883
+        |   |-- wsj_1884
+        |   |-- wsj_1885
+        |   |-- wsj_1886
+        |   |-- wsj_1887
+        |   |-- wsj_1888
+        |   |-- wsj_1889
+        |   |-- wsj_1890
+        |   |-- wsj_1891
+        |   |-- wsj_1892
+        |   |-- wsj_1893
+        |   |-- wsj_1894
+        |   |-- wsj_1895
+        |   |-- wsj_1896
+        |   |-- wsj_1897
+        |   |-- wsj_1898
+        |   `-- wsj_1899
+        |-- 19
+        |   |-- wsj_1900
+        |   |-- wsj_1901
+        |   |-- wsj_1902
+        |   |-- wsj_1903
+        |   |-- wsj_1904
+        |   |-- wsj_1905
+        |   |-- wsj_1906
+        |   |-- wsj_1907
+        |   |-- wsj_1908
+        |   |-- wsj_1909
+        |   |-- wsj_1910
+        |   |-- wsj_1911
+        |   |-- wsj_1912
+        |   |-- wsj_1913
+        |   |-- wsj_1914
+        |   |-- wsj_1915
+        |   |-- wsj_1916
+        |   |-- wsj_1917
+        |   |-- wsj_1918
+        |   |-- wsj_1919
+        |   |-- wsj_1920
+        |   |-- wsj_1921
+        |   |-- wsj_1922
+        |   |-- wsj_1923
+        |   |-- wsj_1924
+        |   |-- wsj_1925
+        |   |-- wsj_1926
+        |   |-- wsj_1927
+        |   |-- wsj_1928
+        |   |-- wsj_1929
+        |   |-- wsj_1930
+        |   |-- wsj_1931
+        |   |-- wsj_1932
+        |   |-- wsj_1933
+        |   |-- wsj_1934
+        |   |-- wsj_1935
+        |   |-- wsj_1936
+        |   |-- wsj_1937
+        |   |-- wsj_1938
+        |   |-- wsj_1939
+        |   |-- wsj_1940
+        |   |-- wsj_1941
+        |   |-- wsj_1942
+        |   |-- wsj_1943
+        |   |-- wsj_1944
+        |   |-- wsj_1945
+        |   |-- wsj_1946
+        |   |-- wsj_1947
+        |   |-- wsj_1948
+        |   |-- wsj_1949
+        |   |-- wsj_1950
+        |   |-- wsj_1951
+        |   |-- wsj_1952
+        |   |-- wsj_1953
+        |   |-- wsj_1954
+        |   |-- wsj_1955
+        |   |-- wsj_1956
+        |   |-- wsj_1957
+        |   |-- wsj_1958
+        |   |-- wsj_1959
+        |   |-- wsj_1960
+        |   |-- wsj_1961
+        |   |-- wsj_1962
+        |   |-- wsj_1963
+        |   |-- wsj_1964
+        |   |-- wsj_1965
+        |   |-- wsj_1966
+        |   |-- wsj_1967
+        |   |-- wsj_1968
+        |   |-- wsj_1969
+        |   |-- wsj_1970
+        |   |-- wsj_1971
+        |   |-- wsj_1972
+        |   |-- wsj_1973
+        |   |-- wsj_1974
+        |   |-- wsj_1975
+        |   |-- wsj_1976
+        |   |-- wsj_1977
+        |   |-- wsj_1978
+        |   |-- wsj_1979
+        |   |-- wsj_1980
+        |   |-- wsj_1981
+        |   |-- wsj_1982
+        |   |-- wsj_1983
+        |   |-- wsj_1984
+        |   |-- wsj_1985
+        |   |-- wsj_1986
+        |   |-- wsj_1987
+        |   |-- wsj_1988
+        |   |-- wsj_1989
+        |   |-- wsj_1990
+        |   |-- wsj_1991
+        |   |-- wsj_1992
+        |   |-- wsj_1993
+        |   |-- wsj_1994
+        |   |-- wsj_1995
+        |   |-- wsj_1996
+        |   |-- wsj_1997
+        |   |-- wsj_1998
+        |   `-- wsj_1999
+        |-- 20
+        |   |-- wsj_2000
+        |   |-- wsj_2001
+        |   |-- wsj_2002
+        |   |-- wsj_2003
+        |   |-- wsj_2004
+        |   |-- wsj_2005
+        |   |-- wsj_2006
+        |   |-- wsj_2007
+        |   |-- wsj_2008
+        |   |-- wsj_2009
+        |   |-- wsj_2010
+        |   |-- wsj_2011
+        |   |-- wsj_2012
+        |   |-- wsj_2013
+        |   |-- wsj_2014
+        |   |-- wsj_2015
+        |   |-- wsj_2016
+        |   |-- wsj_2017
+        |   |-- wsj_2018
+        |   |-- wsj_2019
+        |   |-- wsj_2020
+        |   |-- wsj_2021
+        |   |-- wsj_2022
+        |   |-- wsj_2023
+        |   |-- wsj_2024
+        |   |-- wsj_2025
+        |   |-- wsj_2026
+        |   |-- wsj_2027
+        |   |-- wsj_2028
+        |   |-- wsj_2029
+        |   |-- wsj_2030
+        |   |-- wsj_2031
+        |   |-- wsj_2032
+        |   |-- wsj_2033
+        |   |-- wsj_2034
+        |   |-- wsj_2035
+        |   |-- wsj_2036
+        |   |-- wsj_2037
+        |   |-- wsj_2038
+        |   |-- wsj_2039
+        |   |-- wsj_2040
+        |   |-- wsj_2041
+        |   |-- wsj_2042
+        |   |-- wsj_2043
+        |   |-- wsj_2044
+        |   |-- wsj_2045
+        |   |-- wsj_2046
+        |   |-- wsj_2047
+        |   |-- wsj_2048
+        |   |-- wsj_2049
+        |   |-- wsj_2050
+        |   |-- wsj_2051
+        |   |-- wsj_2052
+        |   |-- wsj_2053
+        |   |-- wsj_2054
+        |   |-- wsj_2055
+        |   |-- wsj_2056
+        |   |-- wsj_2057
+        |   |-- wsj_2058
+        |   |-- wsj_2059
+        |   |-- wsj_2060
+        |   |-- wsj_2061
+        |   |-- wsj_2062
+        |   |-- wsj_2063
+        |   |-- wsj_2064
+        |   |-- wsj_2065
+        |   |-- wsj_2066
+        |   |-- wsj_2067
+        |   |-- wsj_2068
+        |   |-- wsj_2069
+        |   |-- wsj_2070
+        |   |-- wsj_2071
+        |   |-- wsj_2072
+        |   |-- wsj_2073
+        |   |-- wsj_2074
+        |   |-- wsj_2075
+        |   |-- wsj_2076
+        |   |-- wsj_2077
+        |   |-- wsj_2078
+        |   |-- wsj_2079
+        |   |-- wsj_2080
+        |   |-- wsj_2081
+        |   |-- wsj_2082
+        |   |-- wsj_2083
+        |   |-- wsj_2084
+        |   |-- wsj_2085
+        |   |-- wsj_2086
+        |   |-- wsj_2087
+        |   |-- wsj_2088
+        |   |-- wsj_2089
+        |   |-- wsj_2090
+        |   |-- wsj_2091
+        |   |-- wsj_2092
+        |   |-- wsj_2093
+        |   |-- wsj_2094
+        |   |-- wsj_2095
+        |   |-- wsj_2096
+        |   |-- wsj_2097
+        |   |-- wsj_2098
+        |   `-- wsj_2099
+        |-- 21
+        |   |-- wsj_2100
+        |   |-- wsj_2101
+        |   |-- wsj_2102
+        |   |-- wsj_2103
+        |   |-- wsj_2104
+        |   |-- wsj_2105
+        |   |-- wsj_2106
+        |   |-- wsj_2107
+        |   |-- wsj_2108
+        |   |-- wsj_2109
+        |   |-- wsj_2110
+        |   |-- wsj_2111
+        |   |-- wsj_2112
+        |   |-- wsj_2113
+        |   |-- wsj_2114
+        |   |-- wsj_2115
+        |   |-- wsj_2116
+        |   |-- wsj_2117
+        |   |-- wsj_2118
+        |   |-- wsj_2119
+        |   |-- wsj_2120
+        |   |-- wsj_2121
+        |   |-- wsj_2122
+        |   |-- wsj_2123
+        |   |-- wsj_2124
+        |   |-- wsj_2125
+        |   |-- wsj_2126
+        |   |-- wsj_2127
+        |   |-- wsj_2128
+        |   |-- wsj_2129
+        |   |-- wsj_2130
+        |   |-- wsj_2131
+        |   |-- wsj_2132
+        |   |-- wsj_2133
+        |   |-- wsj_2134
+        |   |-- wsj_2135
+        |   |-- wsj_2136
+        |   |-- wsj_2137
+        |   |-- wsj_2138
+        |   |-- wsj_2139
+        |   |-- wsj_2140
+        |   |-- wsj_2141
+        |   |-- wsj_2142
+        |   |-- wsj_2143
+        |   |-- wsj_2144
+        |   |-- wsj_2145
+        |   |-- wsj_2146
+        |   |-- wsj_2147
+        |   |-- wsj_2148
+        |   |-- wsj_2149
+        |   |-- wsj_2150
+        |   |-- wsj_2151
+        |   |-- wsj_2152
+        |   |-- wsj_2153
+        |   |-- wsj_2154
+        |   |-- wsj_2155
+        |   |-- wsj_2156
+        |   |-- wsj_2157
+        |   |-- wsj_2158
+        |   |-- wsj_2159
+        |   |-- wsj_2160
+        |   |-- wsj_2161
+        |   |-- wsj_2162
+        |   |-- wsj_2163
+        |   |-- wsj_2164
+        |   |-- wsj_2165
+        |   |-- wsj_2166
+        |   |-- wsj_2167
+        |   |-- wsj_2168
+        |   |-- wsj_2169
+        |   |-- wsj_2170
+        |   |-- wsj_2171
+        |   |-- wsj_2172
+        |   |-- wsj_2173
+        |   |-- wsj_2174
+        |   |-- wsj_2175
+        |   |-- wsj_2176
+        |   |-- wsj_2177
+        |   |-- wsj_2178
+        |   |-- wsj_2179
+        |   |-- wsj_2180
+        |   |-- wsj_2181
+        |   |-- wsj_2182
+        |   |-- wsj_2183
+        |   |-- wsj_2184
+        |   |-- wsj_2185
+        |   |-- wsj_2186
+        |   |-- wsj_2187
+        |   |-- wsj_2188
+        |   |-- wsj_2189
+        |   |-- wsj_2190
+        |   |-- wsj_2191
+        |   |-- wsj_2192
+        |   |-- wsj_2193
+        |   |-- wsj_2194
+        |   |-- wsj_2195
+        |   |-- wsj_2196
+        |   |-- wsj_2197
+        |   |-- wsj_2198
+        |   `-- wsj_2199
+        |-- 22
+        |   |-- wsj_2200
+        |   |-- wsj_2201
+        |   |-- wsj_2202
+        |   |-- wsj_2203
+        |   |-- wsj_2204
+        |   |-- wsj_2205
+        |   |-- wsj_2206
+        |   |-- wsj_2207
+        |   |-- wsj_2208
+        |   |-- wsj_2209
+        |   |-- wsj_2210
+        |   |-- wsj_2211
+        |   |-- wsj_2212
+        |   |-- wsj_2213
+        |   |-- wsj_2214
+        |   |-- wsj_2215
+        |   |-- wsj_2216
+        |   |-- wsj_2217
+        |   |-- wsj_2218
+        |   |-- wsj_2219
+        |   |-- wsj_2220
+        |   |-- wsj_2221
+        |   |-- wsj_2222
+        |   |-- wsj_2223
+        |   |-- wsj_2224
+        |   |-- wsj_2225
+        |   |-- wsj_2226
+        |   |-- wsj_2227
+        |   |-- wsj_2228
+        |   |-- wsj_2229
+        |   |-- wsj_2230
+        |   |-- wsj_2231
+        |   |-- wsj_2232
+        |   |-- wsj_2233
+        |   |-- wsj_2234
+        |   |-- wsj_2235
+        |   |-- wsj_2236
+        |   |-- wsj_2237
+        |   |-- wsj_2238
+        |   |-- wsj_2239
+        |   |-- wsj_2240
+        |   |-- wsj_2241
+        |   |-- wsj_2242
+        |   |-- wsj_2243
+        |   |-- wsj_2244
+        |   |-- wsj_2245
+        |   |-- wsj_2246
+        |   |-- wsj_2247
+        |   |-- wsj_2248
+        |   |-- wsj_2249
+        |   |-- wsj_2250
+        |   |-- wsj_2251
+        |   |-- wsj_2252
+        |   |-- wsj_2253
+        |   |-- wsj_2254
+        |   |-- wsj_2255
+        |   |-- wsj_2256
+        |   |-- wsj_2257
+        |   |-- wsj_2258
+        |   |-- wsj_2259
+        |   |-- wsj_2260
+        |   |-- wsj_2261
+        |   |-- wsj_2262
+        |   |-- wsj_2263
+        |   |-- wsj_2264
+        |   |-- wsj_2265
+        |   |-- wsj_2266
+        |   |-- wsj_2267
+        |   |-- wsj_2268
+        |   |-- wsj_2269
+        |   |-- wsj_2270
+        |   |-- wsj_2271
+        |   |-- wsj_2272
+        |   |-- wsj_2273
+        |   |-- wsj_2274
+        |   |-- wsj_2275
+        |   |-- wsj_2276
+        |   |-- wsj_2277
+        |   |-- wsj_2278
+        |   |-- wsj_2279
+        |   |-- wsj_2280
+        |   |-- wsj_2281
+        |   |-- wsj_2282
+        |   |-- wsj_2283
+        |   |-- wsj_2284
+        |   |-- wsj_2285
+        |   |-- wsj_2286
+        |   |-- wsj_2287
+        |   |-- wsj_2288
+        |   |-- wsj_2289
+        |   |-- wsj_2290
+        |   |-- wsj_2291
+        |   |-- wsj_2292
+        |   |-- wsj_2293
+        |   |-- wsj_2294
+        |   |-- wsj_2295
+        |   |-- wsj_2296
+        |   |-- wsj_2297
+        |   |-- wsj_2298
+        |   `-- wsj_2299
+        |-- 23
+        |   |-- wsj_2300
+        |   |-- wsj_2301
+        |   |-- wsj_2302
+        |   |-- wsj_2303
+        |   |-- wsj_2304
+        |   |-- wsj_2305
+        |   |-- wsj_2306
+        |   |-- wsj_2307
+        |   |-- wsj_2308
+        |   |-- wsj_2309
+        |   |-- wsj_2310
+        |   |-- wsj_2311
+        |   |-- wsj_2312
+        |   |-- wsj_2313
+        |   |-- wsj_2314
+        |   |-- wsj_2315
+        |   |-- wsj_2316
+        |   |-- wsj_2317
+        |   |-- wsj_2318
+        |   |-- wsj_2319
+        |   |-- wsj_2320
+        |   |-- wsj_2321
+        |   |-- wsj_2322
+        |   |-- wsj_2323
+        |   |-- wsj_2324
+        |   |-- wsj_2325
+        |   |-- wsj_2326
+        |   |-- wsj_2327
+        |   |-- wsj_2328
+        |   |-- wsj_2329
+        |   |-- wsj_2330
+        |   |-- wsj_2331
+        |   |-- wsj_2332
+        |   |-- wsj_2333
+        |   |-- wsj_2334
+        |   |-- wsj_2335
+        |   |-- wsj_2336
+        |   |-- wsj_2337
+        |   |-- wsj_2338
+        |   |-- wsj_2339
+        |   |-- wsj_2340
+        |   |-- wsj_2341
+        |   |-- wsj_2342
+        |   |-- wsj_2343
+        |   |-- wsj_2344
+        |   |-- wsj_2345
+        |   |-- wsj_2346
+        |   |-- wsj_2347
+        |   |-- wsj_2348
+        |   |-- wsj_2349
+        |   |-- wsj_2350
+        |   |-- wsj_2351
+        |   |-- wsj_2352
+        |   |-- wsj_2353
+        |   |-- wsj_2354
+        |   |-- wsj_2355
+        |   |-- wsj_2356
+        |   |-- wsj_2357
+        |   |-- wsj_2358
+        |   |-- wsj_2359
+        |   |-- wsj_2360
+        |   |-- wsj_2361
+        |   |-- wsj_2362
+        |   |-- wsj_2363
+        |   |-- wsj_2364
+        |   |-- wsj_2365
+        |   |-- wsj_2366
+        |   |-- wsj_2367
+        |   |-- wsj_2368
+        |   |-- wsj_2369
+        |   |-- wsj_2370
+        |   |-- wsj_2371
+        |   |-- wsj_2372
+        |   |-- wsj_2373
+        |   |-- wsj_2374
+        |   |-- wsj_2375
+        |   |-- wsj_2376
+        |   |-- wsj_2377
+        |   |-- wsj_2378
+        |   |-- wsj_2379
+        |   |-- wsj_2380
+        |   |-- wsj_2381
+        |   |-- wsj_2382
+        |   |-- wsj_2383
+        |   |-- wsj_2384
+        |   |-- wsj_2385
+        |   |-- wsj_2386
+        |   |-- wsj_2387
+        |   |-- wsj_2388
+        |   |-- wsj_2389
+        |   |-- wsj_2390
+        |   |-- wsj_2391
+        |   |-- wsj_2392
+        |   |-- wsj_2393
+        |   |-- wsj_2394
+        |   |-- wsj_2395
+        |   |-- wsj_2396
+        |   |-- wsj_2397
+        |   |-- wsj_2398
+        |   `-- wsj_2399
+        `-- 24
+            |-- wsj_2400
+            |-- wsj_2401
+            |-- wsj_2402
+            |-- wsj_2403
+            |-- wsj_2404
+            |-- wsj_2405
+            |-- wsj_2406
+            |-- wsj_2407
+            |-- wsj_2408
+            |-- wsj_2409
+            |-- wsj_2410
+            |-- wsj_2411
+            |-- wsj_2412
+            |-- wsj_2413
+            |-- wsj_2414
+            |-- wsj_2415
+            |-- wsj_2416
+            |-- wsj_2417
+            |-- wsj_2418
+            |-- wsj_2419
+            |-- wsj_2420
+            |-- wsj_2421
+            |-- wsj_2422
+            |-- wsj_2423
+            |-- wsj_2424
+            |-- wsj_2425
+            |-- wsj_2426
+            |-- wsj_2427
+            |-- wsj_2428
+            |-- wsj_2429
+            |-- wsj_2430
+            |-- wsj_2431
+            |-- wsj_2432
+            |-- wsj_2433
+            |-- wsj_2434
+            |-- wsj_2435
+            |-- wsj_2436
+            |-- wsj_2437
+            |-- wsj_2438
+            |-- wsj_2439
+            |-- wsj_2440
+            |-- wsj_2441
+            |-- wsj_2442
+            |-- wsj_2443
+            |-- wsj_2444
+            |-- wsj_2445
+            |-- wsj_2446
+            |-- wsj_2447
+            |-- wsj_2448
+            |-- wsj_2449
+            |-- wsj_2450
+            |-- wsj_2451
+            |-- wsj_2452
+            |-- wsj_2453
+            |-- wsj_2454
+            |-- wsj_2455
+            |-- wsj_2456
+            |-- wsj_2457
+            |-- wsj_2458
+            |-- wsj_2459
+            |-- wsj_2460
+            |-- wsj_2461
+            |-- wsj_2462
+            |-- wsj_2463
+            |-- wsj_2464
+            |-- wsj_2465
+            |-- wsj_2466
+            |-- wsj_2467
+            |-- wsj_2468
+            |-- wsj_2469
+            |-- wsj_2470
+            |-- wsj_2471
+            |-- wsj_2472
+            |-- wsj_2473
+            |-- wsj_2474
+            |-- wsj_2475
+            |-- wsj_2476
+            |-- wsj_2477
+            |-- wsj_2478
+            |-- wsj_2479
+            |-- wsj_2480
+            |-- wsj_2481
+            |-- wsj_2482
+            |-- wsj_2483
+            |-- wsj_2484
+            |-- wsj_2485
+            |-- wsj_2486
+            |-- wsj_2487
+            |-- wsj_2488
+            |-- wsj_2489
+            |-- wsj_2490
+            |-- wsj_2491
+            |-- wsj_2492
+            |-- wsj_2493
+            |-- wsj_2494
+            |-- wsj_2495
+            |-- wsj_2496
+            |-- wsj_2497
+            |-- wsj_2498
+            `-- wsj_2499
+
+79 directories, 6971 files
