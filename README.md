@@ -45,6 +45,24 @@ Precompiled results for 10 fold cross validation compared with the PDTB results 
 
 Check [config.properties](config.properties) for all the options. 
 
+
+## Modifying the parser
+
+### Using different PDTB sections 
+
+To train and/or test the parser on different PDTB sections follow these steps:
+
+1. Clone with `git clone https://github.com/WING-NUS/pdtb-parser.git` or download it from [here](https://codeload.github.com/WING-NUS/pdtb-parser/zip/master).
+2. Obtain the PTB and PDTB corpus files and move them to `external/data/`. 
+The `external/data/` directory should look like [this](corpus_tree.txt).
+3. From the project root directory run the following:
+
+	- `java -jar runnable_jars/pdtb-tools/span-tree-extractor.jar` To generate auxiliary files (`external/data/` should now look like [this](data_tree.txt))
+	- `java -jar runnable_jars/pdtb-tools/train-parser.jar` To train the parser
+	- `java -jar runnable_jars/pdtb-tools/test-parser.jar` To test the parser (GS+EP option) 
+
+4. Set the output folder, train and test sections in [config.properties](config.properties).
+
 ## PDTB Pipe Format
 
  The parser uses the PDTB pipe-delimited format where every relation is represented
