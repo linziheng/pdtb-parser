@@ -198,7 +198,7 @@ public class ArgExtComp extends Component {
 
 				for (int i = stIndex; i < endIndex; ++i) {
 					tmp = prd.readLine();
-
+					tmp = tmp.replace(',', '.');
 					vals[i - stIndex] = tmp.split("\\s+");
 					tmp = tst.readLine();
 					nodes[i - stIndex] = tmp.substring(tmp.lastIndexOf(' ')).trim();
