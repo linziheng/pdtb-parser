@@ -6,8 +6,8 @@ PDTB parser based on:
 <cite> Ziheng Lin, Hwee Tou Ng and Min-Yen Kan (2014).<b> A PDTB-Styled End-to-End Discourse Parser</b>. Natural Language Engineering, 20, pp 151-184. Cambridge University Press.</cite>
 
 Developer: [Ilija Ilievski](http://ilija139.github.io/)<br>
-Version: 2.0.0 <br>
-Last update: 1-Oct-2015
+Version: 2.0.1 <br>
+Last update: 27-Oct-2015
 
 Requires Java 1.7+. Tested only on Mac and Linux OS. 
 
