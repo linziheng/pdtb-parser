@@ -144,7 +144,8 @@ public class SpanTreeExtractor {
 		log.info("Generating the spans of each node in the parse trees.");
 
 		String orgText = Util.readFile(inputFile);
-		orgText = orgText.replaceAll("`", "'").replaceAll("“", "\"");
+		orgText = orgText.replaceAll("`", "'").replaceAll("“", "\"").replaceAll("’", "'");
+		;
 		PrintWriter pw = new PrintWriter(treeFile + ".csv");
 		TreeFactory tf = new LabeledScoredTreeFactory();
 		Reader r = new BufferedReader(new InputStreamReader(new FileInputStream(treeFile), Util.ENCODING));
@@ -164,8 +165,10 @@ public class SpanTreeExtractor {
 				}
 				String word = nodeToString(leaf).trim();
 				word = word.replaceAll("`", "'");
+				word = word.replaceAll("’", "'");
 				word = word.replaceAll("\\.\\.\\.", ". . .");
 				int span = orgText.indexOf(word, index);
+
 				if (span == -1) {
 					continue;
 				}
